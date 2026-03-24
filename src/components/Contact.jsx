@@ -21,26 +21,12 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    /*
-     * TODO: Connect to Formspree or EmailJS
-     *
-     * Formspree setup:
-     * 1. Go to https://formspree.io and create an account
-     * 2. Create a new form and get your form ID
-     * 3. Replace the action URL below with: https://formspree.io/f/YOUR_FORM_ID
-     *
-     * Then uncomment the fetch below and remove the simulated submission.
-     */
-
-    // const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify(formData),
-    // })
-    // if (res.ok) setSubmitted(true)
-
-    // Simulated submission for now
-    setSubmitted(true)
+    const res = await fetch('https://formspree.io/f/xdapnevq', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    })
+    if (res.ok) setSubmitted(true)
   }
 
   return (
