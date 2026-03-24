@@ -43,14 +43,14 @@ export default function About() {
               <p>
                 That perspective shaped everything about how I work. For four years
                 at Accenture's Innovation Garage, I was the person in the room
-                translating between engineers and executives — building AI
+                bridging the gap between engineers and executives — building AI
                 proof-of-concepts in the morning, then demoing them to C-suite
                 stakeholders in the afternoon. I helped teams at Fannie Mae, Comcast,
-                NBCUniversal, and the New York State Common Retirement Fund see what was possible
+                NBCUniversal, and the New York State Common Retirement Fund understand what was possible
                 with technology — and then made it real.
               </p>
               <p className="about-closer">
-                I've spent my career sitting at the table between the people who
+                I've spent my career sitting at the intersection between the people who
                 build technology and the people who need it. That's exactly where
                 I want to be.
               </p>
