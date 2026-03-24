@@ -54,7 +54,6 @@ export default function Work() {
         <div className="work-grid reveal reveal-stagger" ref={cardsRef}>
           {projects.map(({ title, client, desc, stat, tags }) => (
             <div className="work-card" key={title}>
-              <span className="work-client">{client}</span>
               <h3 className="work-title">{title}</h3>
               <p className="work-desc">{desc}</p>
               <div className="work-stat">
