@@ -4,9 +4,10 @@
 
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 280px;
+  grid-template-columns: 1fr;
   gap: 4rem;
   align-items: start;
+  max-width: var(--content-narrow);
 }
 
 .about-body p {

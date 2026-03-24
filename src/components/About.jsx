@@ -57,16 +57,6 @@ export default function About() {
             </div>
           </div>
 
-          <div className="about-traits reveal reveal-stagger" ref={traitsRef}>
-            {traits.map(({ icon: Icon, label }) => (
-              <div className="trait-card" key={label}>
-                <div className="trait-icon">
-                  <Icon size={20} strokeWidth={1.5} />
-                </div>
-                <span className="trait-label">{label}</span>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

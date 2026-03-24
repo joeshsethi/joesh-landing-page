@@ -12,21 +12,21 @@ const clientSkills = [
 ]
 
 const techSkills = [
-  { label: 'OpenAI / GPT', ai: true },
-  { label: 'Claude AI', ai: true },
-  { label: 'Pinecone', ai: true },
-  { label: 'Stable Diffusion', ai: true },
-  { label: 'LangChain', ai: true },
-  { label: 'Python', ai: false },
-  { label: 'SQL', ai: false },
-  { label: 'Java', ai: false },
-  { label: 'HTML / CSS', ai: false },
-  { label: 'AWS', ai: false },
-  { label: 'Azure', ai: false },
-  { label: 'GitHub', ai: false },
-  { label: 'Agile / Scrum', ai: false },
-  { label: 'Jira', ai: false },
-  { label: 'Salesforce', ai: false },
+  'OpenAI / GPT',
+  'Claude AI',
+  'Pinecone',
+  'Stable Diffusion',
+  'LangChain',
+  'Python',
+  'SQL',
+  'Java',
+  'HTML / CSS',
+  'AWS',
+  'Azure',
+  'GitHub',
+  'Agile / Scrum',
+  'Jira',
+  'Salesforce',
 ]
 
 export default function Skills() {
@@ -46,7 +46,7 @@ export default function Skills() {
             <h3 className="skills-col-title">Client-Facing</h3>
             <div className="skills-pills">
               {clientSkills.map(skill => (
-                <span className={`skill-pill ${skill === 'Japanese (Fluent)' ? 'skill-pill--ai' : ''}`} key={skill}>{skill}</span>
+                <span className="skill-pill" key={skill}>{skill}</span>
               ))}
             </div>
           </div>
@@ -54,10 +54,8 @@ export default function Skills() {
           <div className="skills-col">
             <h3 className="skills-col-title">Technical</h3>
             <div className="skills-pills">
-              {techSkills.map(({ label, ai }) => (
-                <span className={`skill-pill ${ai ? 'skill-pill--ai' : ''}`} key={label}>
-                  {label}
-                </span>
+              {techSkills.map(skill => (
+                <span className="skill-pill" key={skill}>{skill}</span>
               ))}
             </div>
           </div>
