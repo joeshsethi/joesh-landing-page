@@ -1,0 +1,86 @@
+# Provisions the AWS backend for the briefing service so you don't click around
+# the console. Deploy with the command in infra/README.md.
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  Daily AI Briefing backend — DynamoDB table for reader feedback signals and an S3
+  bucket for durable edition archives, plus two least-privilege IAM policies:
+  one for the Vercel feedback function (write-only) and one for the agent (read
+  feedback + write archives).
+
+Parameters:
+  ArchiveBucketName:
+    Type: String
+    Description: Globally-unique S3 bucket name for edition archives (e.g. aidb-archives-joeshsethi).
+  FeedbackTableName:
+    Type: String
+    Default: aidb-feedback
+    Description: DynamoDB table name for feedback signals.
+
+Resources:
+  FeedbackTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Ref FeedbackTableName
+      BillingMode: PAY_PER_REQUEST   # no capacity planning; pennies at this volume
+      AttributeDefinitions:
+        - AttributeName: pk
+          AttributeType: S
+        - AttributeName: sk
+          AttributeType: S
+      KeySchema:
+        - AttributeName: pk
+          KeyType: HASH
+        - AttributeName: sk
+          KeyType: RANGE
+
+  ArchiveBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref ArchiveBucketName
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  # Attach to the IAM user whose keys live in Vercel (feedback function): write-only.
+  FeedbackWritePolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      ManagedPolicyName: aidb-feedback-write
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action: ["dynamodb:PutItem"]
+            Resource: !GetAtt FeedbackTable.Arn
+
+  # Attach to the IAM user whose keys live in GitHub Actions (the agent):
+  # read feedback for the review step + write edition archives to S3.
+  AgentPolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      ManagedPolicyName: aidb-agent-readwrite
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action: ["dynamodb:Query", "dynamodb:GetItem"]
+            Resource: !GetAtt FeedbackTable.Arn
+          - Effect: Allow
+            Action: ["s3:PutObject", "s3:GetObject"]
+            Resource: !Sub "${ArchiveBucket.Arn}/*"
+
+Outputs:
+  TableName:
+    Value: !Ref FeedbackTable
+    Description: Set as AIDB_DDB_TABLE.
+  BucketName:
+    Value: !Ref ArchiveBucket
+    Description: Set as AIDB_S3_BUCKET.
+  FeedbackWritePolicyArn:
+    Value: !Ref FeedbackWritePolicy
+    Description: Attach to the Vercel IAM user.
+  AgentPolicyArn:
+    Value: !Ref AgentPolicy
+    Description: Attach to the GitHub Actions IAM user.
