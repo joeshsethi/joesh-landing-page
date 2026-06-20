@@ -1,0 +1,16 @@
+# Decisions log
+
+The agent's journal — a human-readable, chronological record of how this service
+behaves and changes over time. No black box. Two writers append here:
+
+- **`agent/run.js`** appends a one-line record for every daily run (date, edition,
+  story counts, model, storage backend).
+- **`agent/review.js`** appends a dated section for every feedback review, with the
+  recommendations it derived from your 👍/👎/★ signals.
+
+Read top-to-bottom to see the project's growth: which stories you engaged with,
+how the editorial preferences shifted, and when. This is "where you see it" from
+your question about tracking improvement.
+
+---
+- 2026-06-20T03:08:34.517Z — live run · 9 stories (4 JP) · EDITION No.413 · SYNCED 03:08 UTC · model claude-opus-4-8 · store file

@@ -2,3 +2,9 @@ node_modules
 dist
 .DS_Store
 *.local
+
+# AI Daily Briefing — never commit secrets or local-only state
+.env
+*.log
+aidailybriefing/data/feedback.jsonl
+aidailybriefing/preferences.proposed.md
