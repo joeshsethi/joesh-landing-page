@@ -58,7 +58,15 @@ jobs:
           git add public/AiDailyBriefing/briefing.json public/AiDailyBriefing/briefing-*.json aidailybriefing/decisions.md
           if git diff --cached --quiet; then
             echo "No changes to publish."
-          else
-            git commit -m "chore: daily AI briefing $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "chore: daily AI briefing $(date -u +%Y-%m-%d)"
+          # Self-heal if main moved while the run was working (rebase, then push).
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main || true
+            if git push origin HEAD:main; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            echo "push attempt $attempt failed; retrying..."; sleep 5
+          done
+          echo "::error::could not push after 3 attempts"; exit 1
