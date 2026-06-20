@@ -39,6 +39,12 @@ jobs:
           # Add in repo Settings → Secrets and variables → Actions.
           # If absent, the agent falls back to a dry-run (template freshen).
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional cost tuning via repo Variables (Settings → Secrets and
+          # variables → Actions → Variables). Empty = the code defaults
+          # (sonnet-4-6 / medium / 8 searches). No code edit needed to change them.
+          AIDB_MODEL: ${{ vars.AIDB_MODEL }}
+          AIDB_EFFORT: ${{ vars.AIDB_EFFORT }}
+          AIDB_MAX_SEARCHES: ${{ vars.AIDB_MAX_SEARCHES }}
         run: npm run briefing -- --verify-sources
 
       - name: Validate output against the schema
