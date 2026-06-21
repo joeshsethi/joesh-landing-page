@@ -181,7 +181,8 @@ async function runConversation(client, system, messages, { tools = true } = {}) 
   const cachedSystem = [{ type: "text", text: system, cache_control: { type: "ephemeral" } }];
 
   let convo = messages;
-  for (let i = 0; i < 8; i++) {
+  let container; // code-execution container id (web search/fetch dynamic filtering)
+  for (let i = 0; i < 12; i++) {
     const stream = client.messages.stream({
       model: MODEL,
       max_tokens: 16000,
@@ -190,12 +191,17 @@ async function runConversation(client, system, messages, { tools = true } = {}) 
       system: cachedSystem,
       messages: convo,
       ...(tooling ? { tools: tooling } : {}),
+      // Reuse the same container across continuations — required once the search
+      // tools' dynamic filtering (code execution) has pending tool uses.
+      ...(container ? { container } : {}),
     });
     const message = await stream.finalMessage();
 
     // Server-side tools (web search/fetch) can pause after 10 internal
-    // iterations; re-send to let the server resume where it left off.
+    // iterations; re-send to let the server resume where it left off. The
+    // container id must be carried forward or the API 400s.
     if (message.stop_reason === "pause_turn") {
+      if (message.container?.id) container = message.container.id;
       convo = [...convo, { role: "assistant", content: message.content }];
       continue;
     }
