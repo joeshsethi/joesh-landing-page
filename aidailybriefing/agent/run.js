@@ -168,12 +168,14 @@ async function runLive(now) {
 // Runs one streamed Claude turn, handling server-tool pause_turn continuations,
 // and returns the concatenated text of the final assistant message.
 async function runConversation(client, system, messages, { tools = true } = {}) {
-  // Cap tool calls so the agent can't run away searching — the main cost driver.
+  // Use the stable web_search that does NOT run code execution. The newer
+  // *_20260209 tools do "dynamic filtering" via a code-execution container,
+  // which forces a fragile container_id hand-off across pause_turn and was
+  // 400-ing every long run. This version can still pause_turn, but resuming
+  // it needs no container — so that whole failure mode is gone.
+  // max_uses caps searches (the main cost driver).
   const tooling = tools
-    ? [
-        { type: "web_search_20260209", name: "web_search", max_uses: MAX_SEARCHES },
-        { type: "web_fetch_20260209", name: "web_fetch", max_uses: MAX_SEARCHES },
-      ]
+    ? [{ type: "web_search_20250305", name: "web_search", max_uses: MAX_SEARCHES }]
     : undefined;
 
   // Cache the (large, stable) system prompt so it isn't re-billed on every
@@ -185,7 +187,9 @@ async function runConversation(client, system, messages, { tools = true } = {}) 
   for (let i = 0; i < 12; i++) {
     const stream = client.messages.stream({
       model: MODEL,
-      max_tokens: 16000,
+      // Generous headroom so adaptive thinking + the full ~9-story JSON never
+      // truncate mid-object (you only pay for tokens actually generated).
+      max_tokens: 32000,
       thinking: { type: "adaptive" },
       output_config: { effort: EFFORT },
       system: cachedSystem,

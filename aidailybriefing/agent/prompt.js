@@ -64,8 +64,9 @@ fences, no commentary before or after. It must conform exactly to this JSON Sche
 
 ${schema}
 
-Use the web_search and web_fetch tools first to gather and verify, then emit the JSON. \
-Take your time searching; correctness matters far more than speed.`;
+Use the web_search tool to gather and verify each story against multiple results, \
+capturing the exact article URLs, then emit the JSON. Take your time searching; \
+correctness matters far more than speed.`;
 }
 
 export function buildUserInstruction({ dateLabel, editionNumber, nowIso, tzLabel }) {
