@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name  "ai-briefing-bot"
           git config user.email "ai-briefing-bot@users.noreply.github.com"
-          git add public/AiDailyBriefing/briefing.json public/AiDailyBriefing/briefing-*.json aidailybriefing/decisions.md
+          git add public/AiDailyBriefing/briefing.json public/AiDailyBriefing/briefing-*.json public/AiDailyBriefing/editions.json aidailybriefing/decisions.md
           if git diff --cached --quiet; then
             echo "No changes to publish."
             exit 0

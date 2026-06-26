@@ -8,7 +8,7 @@
 // validation and emit happen here. On a validation failure we give the model one
 // chance to repair before failing the run (so a bad edition never ships).
 
-import { writeFile, readFile, mkdir, appendFile } from "node:fs/promises";
+import { writeFile, readFile, readdir, mkdir, appendFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
@@ -279,6 +279,20 @@ async function emit(briefing, dateStamp) {
   const json = JSON.stringify(briefing, null, 2) + "\n";
   await writeFile(join(OUT_DIR, "briefing.json"), json);
   await writeFile(join(OUT_DIR, `briefing-${dateStamp}.json`), json);
+  await updateEditionsIndex();
+}
+
+// Maintain editions.json — the list of available dated editions, newest first.
+// The page's "Past editions" picker reads this (a static host can't list files).
+// Regenerated from the actual dated files each run, so it self-heals any drift.
+async function updateEditionsIndex() {
+  const files = await readdir(OUT_DIR);
+  const dates = files
+    .map((f) => (f.match(/^briefing-(\d{4}-\d{2}-\d{2})\.json$/) || [])[1])
+    .filter(Boolean)
+    .sort()
+    .reverse();
+  await writeFile(join(OUT_DIR, "editions.json"), JSON.stringify(dates, null, 2) + "\n");
 }
 
 main().catch((err) => {
