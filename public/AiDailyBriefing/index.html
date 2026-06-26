@@ -8,12 +8,9 @@
 <base href="/AiDailyBriefing/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daily AI Briefing — World &amp; Japan</title>
-<!--
-  Feedback endpoint (optional). When set, the page POSTs 👍/👎/★ signals here
-  (see api/feedback.js). Leave commented out to keep signals in localStorage only.
-  Use a same-origin path so it works wherever this folder is deployed.
--->
-<!-- <script>window.AIDB_FEEDBACK_URL = "/api/feedback";</script> -->
+<!-- Feedback endpoint: the React app POSTs 👍/👎/★ here, and the note widget
+     below posts your daily written note. Persisted to Supabase by api/feedback.js. -->
+<script>window.AIDB_FEEDBACK_URL = "/api/feedback";</script>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -633,6 +630,65 @@ class Component extends DCLogic {
     setTimeout(function () {
       if (!document.getElementById('aidb-archive')) init();
     }, 1500);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+<!-- Free-text "how did today land?" note. Self-contained; posts { signal:"note",
+     note, edition, ts } to the feedback endpoint, which stores it in Supabase. -->
+<script>
+(function () {
+  var FB = (window.AIDB_FEEDBACK_URL || '/api/feedback');
+  function currentEdition() {
+    var m = (document.body.innerText || '').match(/EDITION[^\n]*/i);
+    return m ? m[0].trim() : null;
+  }
+  function el(tag, css, text) {
+    var e = document.createElement(tag);
+    if (css) e.style.cssText = css;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function build() {
+    if (document.getElementById('aidb-note')) return;
+    var wrap = el('div', 'position:fixed;bottom:16px;left:16px;z-index:9999;font:600 11px/1.4 "IBM Plex Mono",ui-monospace,monospace;');
+    wrap.id = 'aidb-note';
+    var btn = el('button', 'border:1px solid #D8CFBE;background:#F4F1EA;color:#5A5347;border-radius:999px;padding:9px 16px;font:inherit;letter-spacing:.04em;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.10);', '✍  Note on today');
+    var panel = el('div', 'display:none;flex-direction:column;gap:8px;width:280px;margin-bottom:8px;background:#F4F1EA;border:1px solid #D8CFBE;border-radius:14px;padding:12px;box-shadow:0 6px 20px rgba(0,0,0,.12);');
+    var ta = el('textarea', 'width:100%;min-height:80px;resize:vertical;border:1px solid #D8CFBE;border-radius:8px;background:#FBFAF6;color:#3A352D;padding:8px;font:400 12px/1.5 "IBM Plex Mono",ui-monospace,monospace;box-sizing:border-box;');
+    ta.placeholder = 'How did today land? What do you want more / less of?';
+    var row = el('div', 'display:flex;justify-content:space-between;align-items:center;gap:8px;');
+    var status = el('span', 'color:#8B8173;', '');
+    var send = el('button', 'border:none;background:#5A5347;color:#F4F1EA;border-radius:999px;padding:8px 16px;font:inherit;cursor:pointer;', 'Send');
+    row.appendChild(status); row.appendChild(send);
+    panel.appendChild(ta); panel.appendChild(row);
+    wrap.appendChild(panel); wrap.appendChild(btn);
+    document.body.appendChild(wrap);
+
+    btn.addEventListener('click', function () {
+      var open = panel.style.display === 'flex';
+      panel.style.display = open ? 'none' : 'flex';
+      if (!open) ta.focus();
+    });
+    send.addEventListener('click', function () {
+      var note = ta.value.trim();
+      if (!note) { ta.focus(); return; }
+      send.disabled = true; status.textContent = 'Sending…';
+      fetch(FB, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ signal: 'note', note: note, edition: currentEdition(), ts: Date.now() })
+      }).then(function () {
+        status.textContent = 'Saved ✓'; ta.value = '';
+        setTimeout(function () { panel.style.display = 'none'; status.textContent = ''; send.disabled = false; }, 1300);
+      }).catch(function () {
+        status.textContent = 'Could not send'; send.disabled = false;
+      });
+    });
+  }
+  function init() {
+    build();
+    setTimeout(function () { if (!document.getElementById('aidb-note')) build(); }, 1500);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
