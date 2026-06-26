@@ -52,7 +52,7 @@ async function main() {
     console.log("ℹ️  --dry-run passed — skipping the live research call.");
   }
 
-  const briefing = dryRun ? await runDryRun(now) : await runLive(now);
+  const briefing = dryRun ? await runDryRun(now) : await runLiveWithRetry(now);
 
   // ── Validate before writing anything (the gate). ──
   const { valid, errors, warnings } = await validateBriefing(briefing);
@@ -159,10 +159,34 @@ async function runLive(now) {
   }
 
   if (!parsed) {
-    console.error("❌ Could not parse a JSON briefing from the model output.");
-    process.exit(1);
+    // Throw (don't exit) so the retry wrapper can take another attempt.
+    throw new Error("Could not parse a JSON briefing from the model output.");
   }
   return parsed;
+}
+
+// Retry the whole research run on failure. The common failure is a transient
+// mid-stream connection drop ("terminated") on the long streaming call — there's
+// no partial state to resume, so a clean re-run is the fix. Also covers a one-off
+// unparseable generation or an API overload/rate-limit. Attempt 2 almost always
+// succeeds; if all attempts fail, we throw and leave yesterday's edition live.
+async function runLiveWithRetry(now, attempts = 3) {
+  let lastErr;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      if (attempt > 1) console.log(`🔁 Research attempt ${attempt}/${attempts}…`);
+      return await runLive(now);
+    } catch (e) {
+      lastErr = e;
+      console.warn(`⚠️  Attempt ${attempt}/${attempts} failed: ${e?.message || e}`);
+      if (attempt < attempts) {
+        const waitMs = 15000 * attempt; // 15s, then 30s backoff
+        console.warn(`   retrying in ${waitMs / 1000}s…`);
+        await new Promise((r) => setTimeout(r, waitMs));
+      }
+    }
+  }
+  throw lastErr;
 }
 
 // Runs one streamed Claude turn, handling server-tool pause_turn continuations,
