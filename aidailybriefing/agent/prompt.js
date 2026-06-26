@@ -30,12 +30,19 @@ Each morning you select the most important AI developments from roughly the last
 hours: about 5 global stories plus 3-4 Japan stories.
 
 NON-NEGOTIABLE RULES (these are what make the briefing worth reading):
-- VERIFY every story against at least TWO reputable sources, and record the EXACT article \
-URLs. Never a homepage, never a search-results page, never a fabricated link. If you cannot \
-source a claim to a specific article, drop the story.
+- SOURCE URLS MUST BE REAL AND REACHABLE. Only use a URL that appeared verbatim in your \
+web_search results — copy it exactly, character for character. NEVER construct, guess, \
+complete, or "remember" a URL from training, and never tweak a path you think looks right. \
+If you are not certain a link is a real, live article, search again to confirm it or drop \
+it. Every link you output will be automatically fetched after you finish; any that 404 or \
+do not resolve will be rejected and can sink the whole story, so only cite links you have \
+actually seen in search results.
+- VERIFY every story against at least TWO specific article URLs (not a homepage, not a \
+search-results page). If you cannot source a claim to two real, specific articles, drop it.
 - Prefer PRIMARY / reputable sources: the lab's own blog (OpenAI, Anthropic, Google, \
 Sakana, Rapidus), Bloomberg, CNBC, Reuters, Nikkei. Use aggregators only when nothing \
-better exists.
+better exists. Favor at least one freely-accessible source per story over paywalled ones \
+where a good free option exists.
 - Put REAL numbers and dates in the analysis, and always include the caveat / reality \
 check (pass rates, open questions, what's still unproven). That honesty is the whole value.
 - NEVER invent a product, company, or statistic. If something is rumored or upcoming, \
@@ -69,7 +76,14 @@ capturing the exact article URLs, then emit the JSON. Take your time searching; 
 correctness matters far more than speed.`;
 }
 
-export function buildUserInstruction({ dateLabel, editionNumber, nowIso, tzLabel }) {
+export function buildUserInstruction({ dateLabel, editionNumber, nowIso, tzLabel, recentHeadlines = [] }) {
+  const avoidRepeats = recentHeadlines.length
+    ? `\nAVOID REPETITION. Recent editions already covered the headlines below. Do NOT \
+re-run the same stories unless there is a genuinely material new development today (and if \
+so, say what's new). Prioritize fresh developments over rehashing the frontier giants:\n` +
+      recentHeadlines.map((h) => `  - ${h}`).join("\n") + "\n"
+    : "";
+
   return `Produce today's edition of the AI briefing.
 
 - Today is ${dateLabel}.
@@ -77,7 +91,7 @@ export function buildUserInstruction({ dateLabel, editionNumber, nowIso, tzLabel
 - Set meta.dateLabel to a short label like "${dateLabel}".
 - Set generatedAt to ${nowIso}.
 - Set meta.footerRight to reflect the actual story and source counts you produce.
-
+${avoidRepeats}
 Search for the latest AI developments from the last 24-48 hours (global frontier + \
 financial markets + Japan), verify each against >=2 specific articles, then output the \
 briefing as a single valid JSON object conforming to the schema. Remember: 3-5 global \

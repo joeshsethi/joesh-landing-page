@@ -123,6 +123,7 @@ async function runLive(now) {
   const system = buildSystemPrompt({ preferences, schema });
   const dateLabel = `${DAY[now.getUTCDay()]} · ${MON[now.getUTCMonth()]} ${now.getUTCDate()} ${now.getUTCFullYear()}`;
   const editionNumber = await nextEditionNumber();
+  const recentHeadlines = await loadRecentHeadlines(); // for anti-repetition
 
   const messages = [
     {
@@ -132,6 +133,7 @@ async function runLive(now) {
         editionNumber,
         nowIso: now.toISOString(),
         tzLabel: `${String(now.getUTCHours()).padStart(2, "0")}:${String(now.getUTCMinutes()).padStart(2, "0")} UTC`,
+        recentHeadlines,
       }),
     },
   ];
@@ -162,7 +164,84 @@ async function runLive(now) {
     // Throw (don't exit) so the retry wrapper can take another attempt.
     throw new Error("Could not parse a JSON briefing from the model output.");
   }
+
+  // Enforce that every published source link is real and reachable.
+  parsed = await enforceWorkingSources(client, system, messages, parsed);
   return parsed;
+}
+
+// Grounding gate: we never SHOW a broken link, but we never drop a STORY over one.
+// Pings every source; for any that 404 / dead-domain, asks the agent to replace it with
+// a real one (or just remove that link) while keeping the story. After up to 2 repair
+// rounds, strips any still-broken links — and keeps every story regardless of how many
+// links remain (the summary stands on the verified research). Paywalled/403 links are
+// real and are kept.
+async function enforceWorkingSources(client, system, messages, briefing) {
+  for (let round = 1; round <= 2; round++) {
+    const bad = await deadSources(briefing);
+    if (bad.length === 0) {
+      console.log("🔗 All shown source links resolve (paywalled/403 kept as valid).");
+      return briefing;
+    }
+    console.warn(`⚠️  ${bad.length} broken source link(s) — asking the agent to fix (round ${round})…`);
+    const list = bad.map((b) => `  - story ${b.itemId}: ${b.url}  [${b.status}]`).join("\n");
+    messages.push({ role: "assistant", content: JSON.stringify(briefing) });
+    messages.push({
+      role: "user",
+      content:
+        `These source links do NOT resolve (404 / dead / no-such-host):\n${list}\n\n` +
+        `For EACH: use web_search to find a real, working replacement article and copy its ` +
+        `exact URL, or simply remove that one link. KEEP the story and its summary either way ` +
+        `— do NOT drop a story just because a link broke. Paywalled / login-gated links (403) ` +
+        `are real and fine to keep. Return ONLY the complete corrected JSON object.`,
+    });
+    const raw = await runConversation(client, system, messages, { tools: true });
+    const next = tryParseJson(raw);
+    if (next && (await validateBriefing(next)).valid) briefing = next;
+  }
+
+  // Final enforcement: strip links that still don't resolve — but keep every story.
+  const badSet = new Set((await deadSources(briefing)).map((b) => b.url));
+  if (badSet.size > 0) {
+    console.warn(`⚠️  Stripping ${badSet.size} still-broken link(s); stories kept intact.`);
+    briefing.items = briefing.items.map((it) => ({
+      ...it,
+      sources: (it.sources || []).filter((s) => !badSet.has(s.url)),
+    }));
+  }
+  return briefing;
+}
+
+// Links that genuinely don't resolve: HTTP 404/410, or a DNS/connection failure that
+// persists on re-check (a fabricated or dead domain). Kept as valid: 2xx/3xx, 401/403/
+// 429/451 (real but gated — e.g. paywalls), 5xx and timeouts (transient). The re-check
+// avoids stripping a real link over a one-off network blip.
+async function deadSources(briefing) {
+  const { results } = await verifySources(briefing, { timeoutMs: 9000, concurrency: 6 });
+  const isBroken = (r) => r.category === "dead" || r.status === "error";
+  const candidates = results.filter(isBroken);
+  if (candidates.length === 0) return [];
+
+  const definite = candidates.filter((r) => r.category === "dead"); // 404/410 — no recheck needed
+  const networkErrs = candidates.filter((r) => r.category !== "dead"); // DNS/connection — recheck
+  if (networkErrs.length === 0) return definite;
+
+  const recheck = await verifySources(
+    { items: [{ id: "recheck", sources: networkErrs.map((r) => ({ name: "x", title: "x", url: r.url })) }] },
+    { timeoutMs: 9000, concurrency: 6 },
+  );
+  const stillBroken = new Set(recheck.results.filter(isBroken).map((r) => r.url));
+  return [...definite, ...networkErrs.filter((r) => stillBroken.has(r.url))];
+}
+
+// Headlines from the most recent published edition, to discourage repetition.
+async function loadRecentHeadlines() {
+  try {
+    const current = JSON.parse(await readFile(join(OUT_DIR, "briefing.json"), "utf8"));
+    return (current.items || []).map((i) => i.headline).filter(Boolean).slice(0, 12);
+  } catch {
+    return [];
+  }
 }
 
 // Retry the whole research run on failure. The common failure is a transient

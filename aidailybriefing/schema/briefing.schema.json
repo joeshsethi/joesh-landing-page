@@ -102,8 +102,8 @@
           },
           "sources": {
             "type": "array",
-            "description": "2-4 SPECIFIC article links, never a homepage or search query.",
-            "minItems": 1,
+            "description": "Up to 4 SPECIFIC article links (target 2-3), never a homepage or search query. May be empty if every verified link turned out to be unreachable — the story still stands on its verified research; we just won't show a broken link.",
+            "minItems": 0,
             "maxItems": 4,
             "items": {
               "type": "object",
