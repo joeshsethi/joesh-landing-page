@@ -42,6 +42,20 @@ const MAX_SEARCHES = Number(process.env.AIDB_MAX_SEARCHES || 8);
 const DAY = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
+// This is a "06:30 JST morning" product, so label and file editions in JST — not UTC.
+// (The 06:30 JST run fires at 21:30 UTC the previous day; UTC stamping made it look a
+// day behind and made the morning edition appear missing.)
+const JST_OFFSET_MS = 9 * 60 * 60 * 1000;
+function editionDateParts(now) {
+  const jst = new Date(now.getTime() + JST_OFFSET_MS); // shift, then read UTC fields = JST wall-clock
+  const pad = (n) => String(n).padStart(2, "0");
+  return {
+    dateLabel: `${DAY[jst.getUTCDay()]} · ${MON[jst.getUTCMonth()]} ${jst.getUTCDate()} ${jst.getUTCFullYear()}`,
+    dateStamp: jst.toISOString().slice(0, 10),
+    tzLabel: `${pad(jst.getUTCHours())}:${pad(jst.getUTCMinutes())} JST`,
+  };
+}
+
 async function main() {
   const dryRun = process.argv.includes("--dry-run") || !process.env.ANTHROPIC_API_KEY;
   const now = new Date();
@@ -75,7 +89,7 @@ async function main() {
     }
   }
 
-  const dateStamp = now.toISOString().slice(0, 10);
+  const { dateStamp } = editionDateParts(now);
   await emit(briefing, dateStamp);
 
   // Durable archive (S3 in aws mode; no-op in file mode since the dated copy is
@@ -121,7 +135,7 @@ async function runLive(now) {
 
   const [preferences, schema] = await Promise.all([loadPreferences(), loadSchema()]);
   const system = buildSystemPrompt({ preferences, schema });
-  const dateLabel = `${DAY[now.getUTCDay()]} · ${MON[now.getUTCMonth()]} ${now.getUTCDate()} ${now.getUTCFullYear()}`;
+  const { dateLabel, tzLabel } = editionDateParts(now);
   const editionNumber = await nextEditionNumber();
   const recentHeadlines = await loadRecentHeadlines(); // for anti-repetition
 
@@ -132,7 +146,7 @@ async function runLive(now) {
         dateLabel,
         editionNumber,
         nowIso: now.toISOString(),
-        tzLabel: `${String(now.getUTCHours()).padStart(2, "0")}:${String(now.getUTCMinutes()).padStart(2, "0")} UTC`,
+        tzLabel,
         recentHeadlines,
       }),
     },

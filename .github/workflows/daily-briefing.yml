@@ -5,7 +5,10 @@ name: Daily AI Briefing
 # so the live page at joeshsethi.com/AiDailyBriefing updates on its own.
 on:
   schedule:
-    - cron: "30 21 * * *"
+    # 20:00 UTC = 05:00 JST. The run takes ~30-70 min (research + grounding + retries),
+    # so it finishes well before a ~07:00 JST read. (06:30 JST = 21:30 UTC was cutting it
+    # close — the edition wasn't ready until mid-morning.)
+    - cron: "0 20 * * *"
   workflow_dispatch: {}
 
 permissions:
