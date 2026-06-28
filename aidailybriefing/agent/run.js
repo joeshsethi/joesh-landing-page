@@ -19,8 +19,11 @@ import { verifySources, reportSourceCheck } from "./verify-sources.js";
 import {
   loadPreferences,
   loadSchema,
-  buildSystemPrompt,
-  buildUserInstruction,
+  BEATS,
+  buildWorkerPrompt,
+  buildWorkerInstruction,
+  buildEditorSystemPrompt,
+  buildEditorInstruction,
 } from "./prompt.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -128,60 +131,82 @@ async function runDryRun(now) {
   return generateMockBriefing({ templatePath, now });
 }
 
-// ── Live run: Claude + web tools, one repair retry on invalid JSON. ──
+// ── Live run (v2): parallel beat workers → editor → grounding. ──
 async function runLive(now) {
   const { default: Anthropic } = await import("@anthropic-ai/sdk");
   const client = new Anthropic(); // reads ANTHROPIC_API_KEY
 
   const [preferences, schema] = await Promise.all([loadPreferences(), loadSchema()]);
-  const system = buildSystemPrompt({ preferences, schema });
   const { dateLabel, tzLabel } = editionDateParts(now);
   const editionNumber = await nextEditionNumber();
   const recentHeadlines = await loadRecentHeadlines(); // for anti-repetition
 
-  const messages = [
-    {
-      role: "user",
-      content: buildUserInstruction({
-        dateLabel,
-        editionNumber,
-        nowIso: now.toISOString(),
-        tzLabel,
-        recentHeadlines,
-      }),
-    },
+  // 1. Specialist workers each go deep on their beat, in parallel. A worker that
+  //    fails entirely is dropped; the editor proceeds with the rest.
+  console.log(`🔎 Researching ${BEATS.length} beats in parallel…`);
+  const settled = await Promise.allSettled(
+    BEATS.map((beat) => gatherBeat(client, beat, { preferences, recentHeadlines })),
+  );
+  const candidates = [];
+  settled.forEach((res, i) => {
+    if (res.status === "fulfilled" && Array.isArray(res.value)) {
+      candidates.push(...res.value);
+      console.log(`   ✅ ${BEATS[i].label}: ${res.value.length} candidates`);
+    } else {
+      console.warn(`   ⚠️  ${BEATS[i].label} failed: ${res.reason?.message || res.reason}`);
+    }
+  });
+  if (candidates.length === 0) throw new Error("All beat workers failed — no candidates gathered.");
+
+  // 2. Editor selects, dedupes, and tightens into the final briefing (no web tools —
+  //    it works purely from the candidates the workers verified).
+  console.log(`✍️  Editor assembling from ${candidates.length} candidates…`);
+  const editorSystem = buildEditorSystemPrompt({ preferences, schema });
+  const editorMsg = [
+    { role: "user", content: buildEditorInstruction({ candidates, dateLabel, tzLabel, editionNumber, nowIso: now.toISOString() }) },
   ];
-
-  let raw = await runConversation(client, system, messages);
+  let raw = await runConversation(client, editorSystem, editorMsg, { tools: false });
   let parsed = tryParseJson(raw);
-
-  // One repair pass if the model returned something that isn't clean JSON or
-  // doesn't validate — feed the error back and ask for a corrected object only.
   if (!parsed || !(await validateBriefing(parsed)).valid) {
-    const reason = parsed
-      ? (await validateBriefing(parsed)).errors.join("; ")
-      : "the response was not parseable JSON";
-    console.warn(`⚠️  First output invalid (${reason}). Requesting a repair...`);
-    messages.push({ role: "assistant", content: raw });
-    messages.push({
+    const reason = parsed ? (await validateBriefing(parsed)).errors.join("; ") : "the response was not parseable JSON";
+    console.warn(`⚠️  Editor output invalid (${reason}). Requesting a repair…`);
+    editorMsg.push({ role: "assistant", content: raw });
+    editorMsg.push({
       role: "user",
-      content:
-        `That response did not validate against the schema (${reason}). ` +
-        `Reply with ONLY the corrected, complete JSON object — no commentary, no fences. ` +
-        `Do not drop any verified stories; just fix the structure.`,
+      content: `That did not validate (${reason}). Reply with ONLY the corrected, complete JSON object — no commentary, no fences. Keep all source URLs verbatim.`,
     });
-    raw = await runConversation(client, system, messages, { tools: false });
+    raw = await runConversation(client, editorSystem, editorMsg, { tools: false });
     parsed = tryParseJson(raw);
   }
+  if (!parsed) throw new Error("Editor could not produce a parseable JSON briefing.");
 
-  if (!parsed) {
-    // Throw (don't exit) so the retry wrapper can take another attempt.
-    throw new Error("Could not parse a JSON briefing from the model output.");
-  }
-
-  // Enforce that every published source link is real and reachable.
-  parsed = await enforceWorkingSources(client, system, messages, parsed);
+  // 3. Grounding: every shown link must resolve (stories are never dropped).
+  parsed = await enforceWorkingSources(client, parsed);
   return parsed;
+}
+
+// One specialist worker: deep-searches its beat and returns candidate items.
+// Retries once on a transient failure; if it still fails, the caller drops this beat.
+async function gatherBeat(client, beat, { preferences, recentHeadlines }) {
+  const system = buildWorkerPrompt(beat, { preferences });
+  let lastErr;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const messages = [{ role: "user", content: buildWorkerInstruction(beat, { recentHeadlines }) }];
+      const raw = await runConversation(client, system, messages, { tools: true });
+      const candidates = tryParseJson(raw)?.candidates;
+      if (!Array.isArray(candidates)) throw new Error("worker returned no candidates array");
+      // Force the beat's region (workers occasionally drift on this field).
+      return candidates.map((c) => ({ ...c, region: beat.region }));
+    } catch (e) {
+      lastErr = e;
+      if (attempt < 2) {
+        console.warn(`   ↻ ${beat.label} attempt ${attempt} failed (${e?.message || e}); retrying…`);
+        await new Promise((r) => setTimeout(r, 10000));
+      }
+    }
+  }
+  throw lastErr;
 }
 
 // Grounding gate: we never SHOW a broken link, but we never drop a STORY over one.
@@ -190,26 +215,31 @@ async function runLive(now) {
 // rounds, strips any still-broken links — and keeps every story regardless of how many
 // links remain (the summary stands on the verified research). Paywalled/403 links are
 // real and are kept.
-async function enforceWorkingSources(client, system, messages, briefing) {
+const GROUNDING_SYSTEM = `You fix broken source links in a news-briefing JSON. Use web_search \
+to find real, working replacement article URLs (copy them exactly from results), or remove a \
+link that can't be verified. NEVER drop a story, NEVER invent a URL. Keep paywalled/403 links \
+(they're real). Output ONLY the corrected JSON object.`;
+
+async function enforceWorkingSources(client, briefing) {
   for (let round = 1; round <= 2; round++) {
     const bad = await deadSources(briefing);
     if (bad.length === 0) {
       console.log("🔗 All shown source links resolve (paywalled/403 kept as valid).");
       return briefing;
     }
-    console.warn(`⚠️  ${bad.length} broken source link(s) — asking the agent to fix (round ${round})…`);
+    console.warn(`⚠️  ${bad.length} broken source link(s) — fixing (round ${round})…`);
     const list = bad.map((b) => `  - story ${b.itemId}: ${b.url}  [${b.status}]`).join("\n");
-    messages.push({ role: "assistant", content: JSON.stringify(briefing) });
-    messages.push({
-      role: "user",
-      content:
-        `These source links do NOT resolve (404 / dead / no-such-host):\n${list}\n\n` +
-        `For EACH: use web_search to find a real, working replacement article and copy its ` +
-        `exact URL, or simply remove that one link. KEEP the story and its summary either way ` +
-        `— do NOT drop a story just because a link broke. Paywalled / login-gated links (403) ` +
-        `are real and fine to keep. Return ONLY the complete corrected JSON object.`,
-    });
-    const raw = await runConversation(client, system, messages, { tools: true });
+    const messages = [
+      {
+        role: "user",
+        content:
+          `Here is a briefing JSON whose links need fixing:\n\n${JSON.stringify(briefing)}\n\n` +
+          `These source links do NOT resolve (404 / dead / no-such-host):\n${list}\n\n` +
+          `For EACH: find a real, working replacement via web_search and copy its exact URL, ` +
+          `or remove that one link. Keep every story. Return ONLY the complete corrected JSON.`,
+      },
+    ];
+    const raw = await runConversation(client, GROUNDING_SYSTEM, messages, { tools: true });
     const next = tryParseJson(raw);
     if (next && (await validateBriefing(next)).valid) briefing = next;
   }
