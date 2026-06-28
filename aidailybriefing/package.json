@@ -8,6 +8,7 @@
     "briefing": "node --env-file-if-exists=.env agent/run.js",
     "briefing:dry": "node --env-file-if-exists=.env agent/run.js --dry-run",
     "review": "node --env-file-if-exists=.env agent/review.js",
+    "japan-grid": "node --env-file-if-exists=.env agent/japan-grid.js",
     "validate": "node agent/validate.js site/AiDailyBriefing/briefing.json",
     "verify:sources": "node agent/verify-sources.js site/AiDailyBriefing/briefing.json"
   },

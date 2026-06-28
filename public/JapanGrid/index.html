@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<base href="/JapanGrid/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Japan Grid &amp; Data-Center Power Suppliers</title>
+<style>
+  :root {
+    --bg:#F4F1EA; --card:#FBFAF6; --ink:#2C2A24; --muted:#8B8173; --line:#E2DBCC;
+    --accent:#B5613A; --accent2:#5A7D5A;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:400 15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:880px; margin:0 auto; padding:40px 22px 80px; }
+  .mono { font-family:"IBM Plex Mono",ui-monospace,monospace; }
+  header h1 { font-size:34px; line-height:1.1; margin:8px 0 6px; letter-spacing:-.01em; }
+  .sub { color:var(--muted); font-size:15px; margin:0 0 4px; }
+  .meta { color:var(--muted); font:600 11px/1.4 "IBM Plex Mono",ui-monospace,monospace;
+    letter-spacing:.06em; text-transform:uppercase; }
+  .note { background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:12px 16px; margin:18px 0 24px; color:#5A5347; font-size:13.5px; }
+  .filters { display:flex; gap:8px; flex-wrap:wrap; margin:0 0 22px; }
+  .filters button { border:1px solid var(--line); background:transparent; color:#5A5347;
+    border-radius:999px; padding:7px 14px; cursor:pointer;
+    font:600 11px/1 "IBM Plex Mono",ui-monospace,monospace; letter-spacing:.05em; text-transform:uppercase; }
+  .filters button[aria-pressed="true"] { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+  h2.cat { font:700 12px/1 "IBM Plex Mono",ui-monospace,monospace; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--accent); margin:34px 0 14px; padding-bottom:8px;
+    border-bottom:1px solid var(--line); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:18px 20px; margin:12px 0; }
+  .card .top { display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap; }
+  .card .name { font-size:18px; font-weight:700; }
+  .card .jp { color:var(--muted); font-size:13px; margin-left:8px; font-weight:400; }
+  .badge { font:700 10px/1 "IBM Plex Mono",ui-monospace,monospace; letter-spacing:.08em;
+    text-transform:uppercase; padding:5px 9px; border-radius:999px; white-space:nowrap; }
+  .badge.major { background:#EADfd0; color:#7A5A3A; }
+  .badge.mid { background:#E3E8DE; color:#4F6B4F; }
+  .badge.smaller { background:#E0E4EC; color:#4A5A78; }
+  .cattag { display:inline-block; font:600 10px/1 "IBM Plex Mono",ui-monospace,monospace;
+    letter-spacing:.06em; text-transform:uppercase; color:var(--muted);
+    border:1px solid var(--line); border-radius:6px; padding:4px 8px; margin:2px 0 8px; }
+  .products { margin:8px 0 6px; }
+  .hq { color:var(--muted); font-size:13px; margin:0 0 8px; }
+  .rel { font-size:14px; color:#403B32; border-left:3px solid var(--line); padding-left:12px; margin:10px 0; }
+  .links { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px; }
+  .links a { text-decoration:none; }
+  .links .site { background:var(--ink); color:var(--bg); border-radius:999px; padding:8px 15px;
+    font:600 12px/1 "IBM Plex Mono",ui-monospace,monospace; }
+  .links .contact { border:1px solid var(--line); color:#5A5347; border-radius:999px; padding:8px 15px;
+    font:600 12px/1 "IBM Plex Mono",ui-monospace,monospace; }
+  .links .contact.note { cursor:default; color:var(--muted); }
+  .srcs { margin-top:10px; font-size:12px; color:var(--muted); }
+  .srcs a { color:var(--muted); }
+  .empty { color:var(--muted); padding:40px 0; text-align:center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="meta" id="genLabel"></div>
+    <h1 id="title">Japan Grid &amp; Data-Center Power Suppliers</h1>
+    <p class="sub" id="subtitle"></p>
+  </header>
+  <div class="note" id="note"></div>
+  <div class="filters" id="filters"></div>
+  <div id="list"><p class="empty">Loading suppliers…</p></div>
+</div>
+<script>
+(function () {
+  var SIZES = [["all","All"],["major","Major"],["mid","Mid"],["smaller","Smaller / niche"]];
+  var state = { data: null, size: "all" };
+  function esc(s){ var d=document.createElement("div"); d.textContent=String(s==null?"":s); return d.innerHTML; }
+  function host(u){ try { return new URL(u).hostname.replace(/^www\./,""); } catch(e){ return u; } }
+  function isUrl(s){ return typeof s==="string" && /^https?:\/\//.test(s); }
+
+  function render() {
+    var d = state.data; if (!d) return;
+    document.getElementById("genLabel").textContent = (d.meta.generatedLabel ? "Compiled " + d.meta.generatedLabel : "") +
+      "  ·  " + (d.suppliers.length) + " suppliers";
+    document.getElementById("title").textContent = d.meta.title || "Japan Grid & Data-Center Power Suppliers";
+    document.getElementById("subtitle").textContent = d.meta.subtitle || "";
+    document.getElementById("note").textContent = d.meta.note || "";
+
+    var fb = document.getElementById("filters"); fb.innerHTML = "";
+    SIZES.forEach(function(s){
+      var b=document.createElement("button"); b.textContent=s[1]; b.setAttribute("aria-pressed", state.size===s[0]);
+      b.onclick=function(){ state.size=s[0]; render(); }; fb.appendChild(b);
+    });
+
+    var items = d.suppliers.filter(function(s){ return state.size==="all" || s.size===state.size; });
+    var list = document.getElementById("list"); list.innerHTML = "";
+    if (!items.length) { list.innerHTML = '<p class="empty">No suppliers in this filter.</p>'; return; }
+
+    // Group by size — surfaces the smaller, representation-friendly targets clearly.
+    var SIZE_ORDER = [["major","Major OEMs"],["mid","Mid-size makers"],["smaller","Smaller & niche targets"]];
+    SIZE_ORDER.forEach(function(grp){
+      var group = items.filter(function(s){ return s.size===grp[0]; });
+      if (!group.length) return;
+      var h=document.createElement("h2"); h.className="cat"; h.textContent=grp[1]+" ("+group.length+")"; list.appendChild(h);
+      group.forEach(function(s){
+        var card=document.createElement("div"); card.className="card";
+        var contact = isUrl(s.contactPage)
+          ? '<a class="contact" href="'+esc(s.contactPage)+'" target="_blank" rel="noopener">Contact</a>'
+          : (s.contactPage ? '<span class="contact note">'+esc(s.contactPage)+'</span>' : '');
+        var srcs = (s.sources||[]).map(function(x){ return '<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.name||host(x.url))+'</a>'; }).join("  ·  ");
+        card.innerHTML =
+          '<div class="top"><div class="name">'+esc(s.name)+(s.nameJp?'<span class="jp">'+esc(s.nameJp)+'</span>':'')+
+            '</div><span class="badge '+esc(s.size)+'">'+esc(s.size)+'</span></div>'+
+          '<div class="cattag">'+esc(s.category)+'</div>'+
+          '<div class="products">'+esc(s.products)+'</div>'+
+          '<div class="hq">📍 '+esc(s.hq)+(s.exportNote?'  ·  '+esc(s.exportNote):'')+'</div>'+
+          '<div class="rel">'+esc(s.relevance)+'</div>'+
+          '<div class="links"><a class="site" href="'+esc(s.website)+'" target="_blank" rel="noopener">'+esc(host(s.website))+' ↗</a>'+contact+'</div>'+
+          (srcs?'<div class="srcs">Sources: '+srcs+'</div>':'');
+        list.appendChild(card);
+      });
+    });
+  }
+
+  fetch("suppliers.json", { cache: "no-store" })
+    .then(function(r){ return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function(d){ state.data=d; render(); })
+    .catch(function(){ document.getElementById("list").innerHTML='<p class="empty">Supplier list not available yet. Run the Japan-grid agent to generate it.</p>'; });
+})();
+</script>
+</body>
+</html>

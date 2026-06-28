@@ -1,0 +1,397 @@
+{
+  "generatedAt": "2026-06-28T06:04:50.476Z",
+  "meta": {
+    "title": "Japan Grid & Data-Center Power Suppliers",
+    "subtitle": "Vetted Japanese manufacturers to import, represent, or broker in the US",
+    "note": "Verify all contact details and sales-inquiry routes through each company's official website before outreach; personnel, regional responsibilities, and inquiry forms change without notice.",
+    "generatedLabel": "2026-06-28"
+  },
+  "suppliers": [
+    {
+      "name": "Hitachi Energy Ltd.",
+      "nameJp": "日立エナジー株式会社",
+      "category": "Grid: Transformers, HV switchgear, HVDC & grid automation",
+      "products": "Power transformers (all voltage classes), gas-insulated switchgear (GIS up to 1,200 kV AC / 1,100 kV DC), HVDC converter stations, STATCOM/SVC, protection IEDs, substation automation (MicroSCADA X), grid management software (Network Manager EMS/ADMS); EconiQ SF6-free switchgear line; power semiconductors (IGBTs, IGCTs, thyristors).",
+      "size": "major",
+      "hq": "Zurich, Switzerland (subsidiary of Hitachi Ltd., Tokyo, Japan)",
+      "website": "https://www.hitachienergy.com",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "Hitachi Energy has US manufacturing and engineering offices. Nine Japanese T&D utilities selected Hitachi for a next-generation nationwide load-dispatching system; strong US utility references via SunZia HVDC and grid-automation contracts.",
+      "relevance": "World-leading grid-equipment OEM descended from ABB Power Grids, majority-owned by Hitachi Japan; a tier-1 source for HV T&D hardware and grid-automation software for US utilities seeking Japanese-engineered, globally serviced technology.",
+      "sources": [
+        {
+          "name": "Hitachi Energy",
+          "title": "Products & Solutions — Official Website",
+          "url": "https://www.hitachienergy.com/products-and-solutions"
+        },
+        {
+          "name": "Hitachi Energy",
+          "title": "High-Voltage Switchgear and Breaker Products",
+          "url": "https://www.hitachienergy.com/products-and-solutions/high-voltage-switchgear-and-breakers"
+        },
+        {
+          "name": "Wikipedia",
+          "title": "Hitachi Energy — Company Overview",
+          "url": "https://en.wikipedia.org/wiki/Hitachi_Energy"
+        }
+      ]
+    },
+    {
+      "name": "Mitsubishi Electric Corporation",
+      "nameJp": "三菱電機株式会社",
+      "category": "Grid & Data-center power: Transformers, HV switchgear, HVDC, UPS & critical power",
+      "products": "Generator step-up and autotransformers, HV/MV gas-insulated switchgear, HVDC systems, protection and supervisory systems, energy management and network control systems; UPS systems for data centers (9900CX/9900D/SUMMIT Series, 300–2,100 kVA), containerised Critical Power PODs, MV/LV data-center switchgear, backup generators (OEM-partnered).",
+      "size": "major",
+      "hq": "Chiyoda-ku, Tokyo, Japan",
+      "website": "https://www.mitsubishielectric.com",
+      "contactPage": "https://us.mitsubishielectric.com/en/data-center/index.html",
+      "exportNote": "Mitsubishi Electric Power Products Inc. (MEPPI) in Pittsburgh, PA is the dedicated US subsidiary covering UPS, transformers, and switchgear for North America; SUMMIT Series UPS holds the #1 Energy Star rating in its AC double-conversion category.",
+      "relevance": "Dual-category giant covering grid T&D hardware and mission-critical data-center UPS; MEPPI already operates in the US—ideal for identifying product lines or geographic segments where additional representation or brokering is needed alongside the existing sales channel.",
+      "sources": [
+        {
+          "name": "Mitsubishi Electric",
+          "title": "Transmission & Distribution — Energy Systems Products",
+          "url": "https://www.mitsubishielectric.com/eig/energysystems/products/transmission/"
+        },
+        {
+          "name": "Mitsubishi Electric US",
+          "title": "Data Center UPS Solutions — United States",
+          "url": "https://us.mitsubishielectric.com/en/data-center/ups/index.html"
+        },
+        {
+          "name": "Mitsubishi Electric Critical Power",
+          "title": "UPS Systems for Data Centers",
+          "url": "https://mitsubishicritical.com/applications/data-centers/"
+        }
+      ]
+    },
+    {
+      "name": "Toshiba Energy Systems & Solutions Corporation",
+      "nameJp": "東芝エネルギーシステムズ株式会社",
+      "category": "Grid: Gas-insulated switchgear, power transformers, HVDC & substations",
+      "products": "SF6 and natural-origin gas GIS (72–500 kV; AEROXIA brand), oil-immersed and totally gas-insulated power transformers (including the world's only fully SF6-gas-cooled large-capacity transformers), HVDC VSC converter stations, polymer-housed surge arresters, substation automation compliant with IEC 61850; micro-grid energy management systems.",
+      "size": "major",
+      "hq": "Kawasaki, Kanagawa, Japan",
+      "website": "https://www.global.toshiba",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "Toshiba ESS has delivered GIS and transformers to Iraq, UAE (Fujairah F3 CCPP 400 kV), Singapore, Pakistan, and Maldives; active internationally and a credible supplier for US utility high-voltage substation projects.",
+      "relevance": "One of Japan's premier GIS and power-transformer makers with a 135-year heritage; sole manufacturer of fully SF6-gas-insulated and gas-cooled large-capacity transformers — a technically differentiated product for US utilities pursuing SF6 phase-out mandates.",
+      "sources": [
+        {
+          "name": "Toshiba ESS",
+          "title": "Substation Equipment — Products & Technical Services",
+          "url": "https://www.global.toshiba/ww/products-solutions/transmission/products-technical-services/substation-equipment.html"
+        },
+        {
+          "name": "Toshiba ESS",
+          "title": "Transformer Delivery Records",
+          "url": "https://www.global.toshiba/ww/products-solutions/transmission/delivery-records/transformer.html"
+        }
+      ]
+    },
+    {
+      "name": "Fuji Electric Co., Ltd.",
+      "nameJp": "富士電機株式会社",
+      "category": "Grid & Data-center power: Transformers, GIS, switchgear, UPS & total data-center systems",
+      "products": "Oil-immersed and cast-resin transformers (100 V–168 kV), GIS (72–300 kV), gas circuit breakers, SVC/STATCOM, grid-scale lithium-ion battery storage; UPS systems (Japan's #1 market share) from 30 kVA to 2,400 kVA per unit (7500WX Series with 98.5% efficiency, SiC-equipped); modular SKID and container-type data-center power packages; in-house turbine and backup generators.",
+      "size": "major",
+      "hq": "Shinagawa-ku, Tokyo, Japan",
+      "website": "https://www.fujielectric.com",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "Fuji Electric Corp. of America (FECOA) has operated in the US since 1970. Fuji developed a North America-specific SiC-equipped UPS (UPS7300WX-T3U) and exhibited total data-center systems at Data Centre World Asia 2025 under the concept 'New AI era with Grid × Green.'",
+      "relevance": "Unique dual-coverage: Japan's largest UPS supplier AND a full-range grid-equipment maker offering genuine turnkey data-center electrical systems — a one-stop pitch rare outside the hyperscale tier; strong for US data-center developers and co-location operators.",
+      "sources": [
+        {
+          "name": "Fuji Electric",
+          "title": "Transmission & Distribution Products",
+          "url": "https://www.fujielectric.com/products/transmission_distribution/index.html"
+        },
+        {
+          "name": "Fuji Electric",
+          "title": "UPS & Industrial Power Supply",
+          "url": "https://www.fujielectric.com/products/power_supply/power_supply/index.html"
+        },
+        {
+          "name": "Fuji Electric Corp. of America",
+          "title": "Data Center Power — Americas Website",
+          "url": "https://americas.fujielectric.com/industries-served/data-centers/data-center-power/"
+        }
+      ]
+    },
+    {
+      "name": "Meidensha Corporation",
+      "nameJp": "株式会社明電舎",
+      "category": "Grid: HV switchgear, transformers, protection relays, surge arresters & mobile substations",
+      "products": "High-voltage vacuum circuit breakers and GIS, power and distribution transformers, mobile substations, all-digital protection relays (MEDIMUL multi-function and MRR unit-type series, JEC2500 compliant), gapless zinc-oxide surge arresters (SORESTER), photovoltaic and hydroelectric power systems; co-developed AEROXIA natural-origin-gas GIS with Toshiba.",
+      "size": "mid",
+      "hq": "Shinagawa-ku, Tokyo, Japan",
+      "website": "https://www.meidensha.com",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "Meiden Singapore is one of Southeast Asia's largest switchgear and transformer suppliers, with 30,000+ switchgear panels delivered; Tridelta Meidensha JV exports surge arresters to 120+ countries including North America.",
+      "relevance": "Established mid-tier OEM with a deep export track record in switchgear, transformers, and protection relays; surge arresters and digital protection IEDs are in high demand for US grid-modernisation and wildfire-resilience programmes — clear representation opportunity.",
+      "sources": [
+        {
+          "name": "Meidensha",
+          "title": "Official Website",
+          "url": "https://www.meidensha.com/"
+        },
+        {
+          "name": "Meidensha",
+          "title": "Power and Energy Products",
+          "url": "https://www.meidensha.com/products/energy/"
+        },
+        {
+          "name": "Composite Power Group",
+          "title": "Tridelta Meidensha — Surge Arresters (Meidensha JV)",
+          "url": "https://compow.com/manufacturers/tridelta-meidensha"
+        }
+      ]
+    },
+    {
+      "name": "DAIHEN Corporation",
+      "nameJp": "株式会社ダイヘン",
+      "category": "Grid: Power transformers, substation switchgear & power distribution equipment",
+      "products": "Oil-immersed (Top Runner standard) and cast-resin power transformers, shunt reactors, power-receiving and substation switchgear (circuit breakers, cutout fuses, pole switches), distribution panels and remote monitoring systems, distributed power supply equipment, solar inverters; also industrial robots and welding machines.",
+      "size": "mid",
+      "hq": "Yodogawa-ku, Osaka, Japan",
+      "website": "https://www.daihen.co.jp",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "Founded 1919 as Osaka Transformer Co.; OTC DAIHEN USA (welding/robotics arm) has been in the US since 1979 with headquarters in Ohio. The power-products division (transformers, switchgear) is far less visible in North America — a direct brokering opportunity.",
+      "relevance": "Century-old transformer and switchgear OEM with 30+ global subsidiaries; its power-equipment arm is largely unknown in the US compared to its welding/robotics division — a prime opening for a US import or distribution agreement on the power side.",
+      "sources": [
+        {
+          "name": "DAIHEN Corporation",
+          "title": "Official English Website",
+          "url": "https://www.daihen.co.jp/en/"
+        },
+        {
+          "name": "DAIHEN Corporation",
+          "title": "Transformer & Power Products",
+          "url": "https://www.daihen.co.jp/en/products/electric/"
+        },
+        {
+          "name": "Metoree",
+          "title": "DAIHEN Corporation — Company Profile (US)",
+          "url": "https://us.metoree.com/companies/1231/"
+        }
+      ]
+    },
+    {
+      "name": "Takaoka Toko Co., Ltd.",
+      "nameJp": "高岡トーコー株式会社",
+      "category": "Grid: Transformers, switchgear, IEDs & smart-grid automation (DMS/SCADA/microgrid)",
+      "products": "Extra-high-voltage to pole-mounted and pad-mounted transformers, gas voltage transformers for GIS, medium- and low-voltage metal-enclosed switchgear (power centers, motor-control centers), protection IEDs, distribution management systems (DMS/@Station), SCADA (@SCADA+), microgrid controllers (@MicroGrid), synchrophasor wide-area monitoring (SmartWAMS), solar-plant control and fault-location systems.",
+      "size": "mid",
+      "hq": "Koto-ku (Toyosu), Tokyo, Japan",
+      "website": "https://www.tktk.co.jp",
+      "contactPage": "https://www.tktk.co.jp/en/company/",
+      "exportNote": "35% owned by TEPCO Power Grid; group offices in Vietnam and Philippines; gas voltage transformers already exported to GIS manufacturers in Asia, Middle East, and Europe. Company leadership has explicitly stated ambition to reach global users.",
+      "relevance": "Covers the entire voltage stack from EHV substations to pole-mounted distribution plus integrated smart-grid software — and has signalled a clear export ambition; an ideal partner for a US broker targeting investor-owned utilities and rural co-ops.",
+      "sources": [
+        {
+          "name": "Takaoka Toko",
+          "title": "Official English Website",
+          "url": "https://www.tktk.co.jp/en/"
+        },
+        {
+          "name": "Takaoka Toko",
+          "title": "Products & Services Overview",
+          "url": "https://www.tktk.co.jp/en/product/"
+        },
+        {
+          "name": "The Worldfolio",
+          "title": "Takaoka Toko: The Power Behind Change — Executive Interview",
+          "url": "https://www.theworldfolio.com/interviews/takaoka-toko-the-power-behind-change/5489/"
+        }
+      ]
+    },
+    {
+      "name": "Nissin Electric Co., Ltd.",
+      "nameJp": "日新電機株式会社",
+      "category": "Grid: Instrument transformers, HV power capacitors & automated distribution systems",
+      "products": "Current transformers, voltage transformers, capacitor voltage transformers, SF6-free gas-insulated voltage transformers (up to 170 kV ECO Gas type), HV power capacitors and filters, automated power distribution systems (33 kV, delivered internationally), micro-substation systems for off-grid/developing regions; ion-implant and beam equipment (separate division).",
+      "size": "mid",
+      "hq": "Ukyo-ku, Kyoto, Japan",
+      "website": "https://nissin.jp",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "Sumitomo Group member; 24+ subsidiaries in Japan, China, Taiwan, Korea, Thailand, Vietnam, India, USA, and Spain. Delivered 15 units of 33 kV automated distribution system to YESC (Yemen); developed Japan's first EMS for automatic self-consignment PV operation.",
+      "relevance": "Niche leader in instrument transformers and HV capacitors — components that US utilities replace at scale during grid upgrades; the Sumitomo Group link provides financial stability and a potential introduction channel via Sumitomo Electric Industries USA.",
+      "sources": [
+        {
+          "name": "Nissin Electric",
+          "title": "Official English Website",
+          "url": "https://nissin.jp/e/"
+        },
+        {
+          "name": "Nissin Electric",
+          "title": "Instrument Transformer Products",
+          "url": "https://nissin.jp/e/product/electric/vt/index.html"
+        },
+        {
+          "name": "Sumitomo Electric",
+          "title": "Nissin Electric Co., Ltd. — Group Company Profile",
+          "url": "https://sumitomoelectric.com/company/office_group_companies/nissin-electric-co-ltd"
+        }
+      ]
+    },
+    {
+      "name": "Hitachi Industrial Equipment Systems Co., Ltd.",
+      "nameJp": "日立産機システム株式会社",
+      "category": "Grid & Data-center power: Grid-forming inverters, drives & grid-edge solutions",
+      "products": "Grid Forming Inverters (GFM) for microgrid stabilisation and renewable-energy integration (commercially operational at Narashino Works, 2025); variable-speed drives (AC/DC); solar/battery/fuel-cell power conditioners; AC microgrid and DC microgrid systems; compressed-air and fluid systems; data-center power and cooling efficiency products; serves data centers, batteries, electronics, and semiconductor manufacturing.",
+      "size": "mid",
+      "hq": "Chiyoda-ku, Tokyo, Japan",
+      "website": "https://www.hitachi-ies.com",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "Part of Hitachi Group; launched Japan's first commercial grid-forming inverter installation in April 2025 with a Ministry of Economy carbon-reduction subsidy — technology directly relevant to US renewable-integration grid codes (IEEE 2800).",
+      "relevance": "Emerging leader in grid-forming inverter technology (a high-demand segment as US ISO/RTOs mandate synthetic inertia); simultaneously serves data centers — a dual-revenue opportunity for a US technical representative.",
+      "sources": [
+        {
+          "name": "Hitachi IES",
+          "title": "Official Website (hitachi-ies.com)",
+          "url": "https://www.hitachi-ies.com/"
+        },
+        {
+          "name": "Hitachi Group News",
+          "title": "Hitachi IES Launches Next-Generation Grid Forming Inverter System (April 2025)",
+          "url": "https://www.hitachi.com/New/cnews/month/2025/04/250417.html"
+        }
+      ]
+    },
+    {
+      "name": "Toshiba Mitsubishi-Electric Industrial Systems Corporation (TMEIC)",
+      "nameJp": "東芝三菱電機産業システム株式会社",
+      "category": "Grid & industrial: MV power electronics, drives, FACTS & power conversion systems",
+      "products": "Medium-voltage variable-speed drives (TMdrive-MVG series, 3–11 kV), large industrial power converters, static var compensators (SVC), FACTS devices, solar and wind power conversion systems, motor-control systems for steel mills, cement, and mining; also relevant for data-center UPS and power-quality applications.",
+      "size": "mid",
+      "hq": "Minato-ku, Tokyo, Japan",
+      "website": "https://www.tmeic.com",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "TMEIC Corporation (US subsidiary) is based in Roanoke, Virginia; however, specific MV-drive and FACTS product lines for niche industrial and utility segments may benefit from additional regional representation.",
+      "relevance": "50:50 Toshiba–Mitsubishi Electric JV producing industry-leading MV drives and FACTS equipment used in US grid and heavy-industrial applications; suitable for brokering to US power-quality integrators, renewable-energy developers, and industrial-utility customers.",
+      "sources": [
+        {
+          "name": "TMEIC",
+          "title": "Official Website",
+          "url": "https://www.tmeic.com"
+        },
+        {
+          "name": "ensun",
+          "title": "Top Switchgear Manufacturers in Japan — TMEIC Listed",
+          "url": "https://ensun.io/search/switchgear/japan"
+        }
+      ]
+    },
+    {
+      "name": "Sansha Electric Manufacturing Co., Ltd.",
+      "nameJp": "三社電機製作所株式会社",
+      "category": "Data-center power / UPS & power semiconductors",
+      "products": "Online UPS systems (1 kVA to large capacity; lithium-ion battery option; track record with Ministry of Defense, JAXA, major hospitals, banks, and data centers), grid-connected inverters for solar/storage/fuel cells, thyristors, triacs, diodes, SiC MOSFET power modules (2-in-1 SiC MOSFET); industrial power regulators and rectifiers.",
+      "size": "smaller",
+      "hq": "Higashiyodogawa-ku, Osaka, Japan",
+      "website": "https://www.sansha.co.jp",
+      "contactPage": "https://www.sansha.co.jp/eng/",
+      "exportNote": "SanRex Corporation, Sansha's wholly owned US subsidiary since 1982, is based in Port Washington, New York, confirming an established North American distribution and service framework.",
+      "relevance": "Niche Japanese UPS and SiC-power-module maker with a proven government/defense track record (JAXA, Ministry of Defense) and a US subsidiary already in place; smaller data-center operators and federal/defense integrators are underserved — strong brokering opportunity.",
+      "sources": [
+        {
+          "name": "Sansha Electric",
+          "title": "Official English Website",
+          "url": "https://www.sansha.co.jp/eng/"
+        },
+        {
+          "name": "Sansha Electric",
+          "title": "UPS Products",
+          "url": "https://www.sansha.co.jp/eng/products/ups.html"
+        },
+        {
+          "name": "SanRex Corporation",
+          "title": "About SanRex — Sansha Electric US Subsidiary (Port Washington, NY)",
+          "url": "https://www.sanrex.com/about/about-us/"
+        }
+      ]
+    },
+    {
+      "name": "Togami Electric Mfg. Co., Ltd.",
+      "nameJp": "戸上電機製作所株式会社",
+      "category": "Grid: Distribution switchgear, ring main units, reclosers & electromagnetic contactors",
+      "products": "Ring Main Units (RMU) for ring-network protection and control, automatic reclosers, HV/MV distribution switchgear and switchboards, LV power-distribution boards, electromagnetic contactors and starters (standard, DC-operated, explosion-proof, corrosion-resistant), motor control centers; underground fault locators and line-tracing instruments.",
+      "size": "smaller",
+      "hq": "Saga City, Saga Prefecture, Japan",
+      "website": "https://www.togami-elec.co.jp",
+      "contactPage": "https://www.togami-elec.co.jp/en/",
+      "exportNote": "TSE-listed (6643); International Division actively develops MV products up to 38 kV for overseas markets across Southeast Asia, Middle East, and selected Western markets. No dedicated US entity — clear representation gap.",
+      "relevance": "100-year-old specialist in distribution switchgear, RMUs, and reclosers; these products are in high demand for US rural-utility, co-op, and microgrid projects; limited direct US presence makes an exclusive or preferred-rep arrangement straightforward to negotiate.",
+      "sources": [
+        {
+          "name": "Togami Electric",
+          "title": "Official English Website",
+          "url": "https://www.togami-elec.co.jp/en/"
+        },
+        {
+          "name": "Japan IR",
+          "title": "Togami Electric Mfg Co — TSE:6643 Company Profile",
+          "url": "https://japanir.jp/en/company/company-6643/"
+        },
+        {
+          "name": "JMAG International",
+          "title": "Togami Electric — International Division Interview (MV Export Focus)",
+          "url": "https://www.jmag-international.com/case/togami-elec/"
+        }
+      ]
+    },
+    {
+      "name": "Terasaki Electric Co., Ltd.",
+      "nameJp": "寺崎電気産業株式会社",
+      "category": "Grid & Data-center power: Circuit breakers, MV switchgear & motor control centers",
+      "products": "Low-voltage and medium-voltage air circuit breakers (TemBreak2/TemPower2 ACB), moulded-case circuit breakers, earth-leakage and multi-protection relays (TemTrip2, TZS), HV metal-clad switchgear (HL22), arc-protection switchgear (APS22), generator and marine power-distribution switchgear (MS22/GS22/GS50), AC motor control centers (CL21); DC circuit breakers; monitoring and control systems (TERANET 50X, WE500) for data-center and marine applications.",
+      "size": "smaller",
+      "hq": "Hirano-ku, Osaka, Japan",
+      "website": "https://www.terasaki.co.jp",
+      "contactPage": "https://www.terasaki.co.jp/english/",
+      "exportNote": "First company in Japan to develop circuit breakers entirely in-house; global sales through Terasaki Electric Europe (UK, Italy, Spain) and agents in 30+ countries. No dedicated US subsidiary — confirmed open gap in the North American market.",
+      "relevance": "World-class Japanese circuit-breaker and LV/MV switchgear brand with IEC-compliant products proven in marine, data-center, and utility sectors globally; the absence of a US entity is a direct opening for an exclusive import or distribution arrangement.",
+      "sources": [
+        {
+          "name": "Terasaki Electric",
+          "title": "Official English Website",
+          "url": "https://www.terasaki.co.jp/english/"
+        },
+        {
+          "name": "Terasaki Electric",
+          "title": "Circuit Breakers — Product Range",
+          "url": "https://www.terasaki.co.jp/english/business/breaker/"
+        },
+        {
+          "name": "DirectIndustry",
+          "title": "Terasaki Electric Circuit Breaker — Full Product Catalog",
+          "url": "https://pdf.directindustry.com/pdf/terasaki-electric-circuit-breaker-12417.html"
+        }
+      ]
+    },
+    {
+      "name": "Sanyo Denki Co., Ltd.",
+      "nameJp": "山洋電気株式会社",
+      "category": "Data-center power / UPS & precision power systems",
+      "products": "Three-phase online UPS (SANUPS series for data centers, telecoms, financial institutions, and broadcasting), single-phase UPS, DC power systems, high-reliability server-rack cooling fans and blowers; also AC servo systems and stepping motors for precision applications.",
+      "size": "smaller",
+      "hq": "Shinjuku-ku, Tokyo, Japan",
+      "website": "https://www.sanyodenki.com",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "JEMA member; Sanyo Denki has regional offices and authorised distributors across North America, Europe, and Asia. The UPS product line has lower US brand recognition than Mitsubishi Electric or Fuji Electric — significant white-space for a targeted regional rep.",
+      "relevance": "Established Japanese UPS and precision power-systems maker with a strong quality reputation in Asia-Pacific; smaller scale and lower US profile make brokering or regional distribution agreements more accessible than approaching the major OEMs directly.",
+      "sources": [
+        {
+          "name": "Sanyo Denki",
+          "title": "Official Global Website",
+          "url": "https://www.sanyodenki.com"
+        },
+        {
+          "name": "JEMA",
+          "title": "Japan Electrical Manufacturers' Association — Member Directory (Sanyo Denki listed)",
+          "url": "https://www.jema-net.or.jp/English/about/members/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://joeshsethi.com/JapanGrid/japan-grid.schema.json",
+  "title": "Japan grid & data-center power suppliers — target list",
+  "type": "object",
+  "required": ["generatedAt", "meta", "suppliers"],
+  "additionalProperties": false,
+  "properties": {
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "meta": {
+      "type": "object",
+      "required": ["title", "subtitle", "note", "generatedLabel"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "subtitle": { "type": "string", "minLength": 1 },
+        "note": { "type": "string", "minLength": 1 },
+        "generatedLabel": { "type": "string", "minLength": 1 }
+      }
+    },
+    "suppliers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "category", "products", "size", "hq", "website", "relevance", "sources"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string", "minLength": 1, "description": "English company name." },
+          "nameJp": { "type": "string", "description": "Japanese company name (optional, helps with contact)." },
+          "category": {
+            "type": "string",
+            "minLength": 1,
+            "description": "e.g. Transformers, Switchgear & substations, T&D systems, Power electronics, Data-center power/UPS, etc."
+          },
+          "products": { "type": "string", "minLength": 1, "description": "What they make, 1-2 lines." },
+          "size": {
+            "enum": ["major", "mid", "smaller"],
+            "description": "major = household-name OEM; mid = established; smaller = lesser-known / niche."
+          },
+          "hq": { "type": "string", "minLength": 1, "description": "HQ location in Japan." },
+          "website": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://",
+            "description": "Official company website (verified to resolve)."
+          },
+          "contactPage": {
+            "type": "string",
+            "description": "Official contact / inquiry / sales page URL, or a short note like 'inquiry form on site'. Never a fabricated personal email."
+          },
+          "exportNote": { "type": "string", "description": "Optional: US import / representation / export angle." },
+          "relevance": { "type": "string", "minLength": 1, "description": "Why this one is worth contacting for the reader's goal." },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "required": ["name", "title", "url"],
+              "additionalProperties": false,
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "title": { "type": "string", "minLength": 1 },
+                "url": { "type": "string", "format": "uri", "pattern": "^https?://" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
