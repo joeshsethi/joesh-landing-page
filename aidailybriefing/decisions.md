@@ -25,3 +25,9 @@ your question about tracking improvement.
 - 2026-06-27T07:18:46.134Z — live run · 7 stories (3 JP) · EDITION No.422 · SYNCED 16:18 JST · model claude-sonnet-4-6 · store file
 - 2026-06-27T21:09:28.314Z — live run · 7 stories (3 JP) · EDITION No.423 · SYNCED 06:09 JST · model claude-sonnet-4-6 · store file
 - 2026-06-28T21:06:53.609Z — live run · 10 stories (4 JP) · EDITION No.424 · SYNCED 06:06 JST · model claude-sonnet-4-6 · store file
+
+## 2026-06-28 — feedback review
+- Store: file · signals (30d): 0 (★0 👍0 👎0)
+- Recommendations:
+  - Not enough feedback yet to steer — keep collecting signals.
+- Action: wrote preferences.proposed.md for review.
