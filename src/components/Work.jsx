@@ -1,8 +1,17 @@
 import { useReveal } from '../hooks/useReveal'
-import { TrendingUp } from 'lucide-react'
+import { TrendingUp, ArrowUpRight } from 'lucide-react'
 import './Work.css'
 
 const projects = [
+  {
+    title: 'AI Daily Briefing',
+    client: 'Built for myself',
+    desc: 'A daily, agent-researched briefing on global AI — markets, frontier labs, and a dedicated Japan section. Claude agents research, fact-check every source, and tune themselves to my interests.',
+    stat: 'Live · updates every morning',
+    tags: ['Claude Agents', 'Web Search', 'Vercel', 'Supabase'],
+    href: '/AiDailyBriefing',
+    cta: 'Read today\'s edition',
+  },
   {
     title: 'AI Commercial Ad Creation Tool',
     client: 'NBCUniversal / Peacock',
@@ -52,21 +61,37 @@ export default function Work() {
         </div>
 
         <div className="work-grid reveal reveal-stagger" ref={cardsRef}>
-          {projects.map(({ title, client, desc, stat, tags }) => (
-            <div className="work-card" key={title}>
-              <h3 className="work-title">{title}</h3>
-              <p className="work-desc">{desc}</p>
-              <div className="work-stat">
-                <TrendingUp size={14} />
-                {stat}
+          {projects.map(({ title, client, desc, stat, tags, href, cta }) => {
+            const inner = (
+              <>
+                <h3 className="work-title">{title}</h3>
+                <p className="work-desc">{desc}</p>
+                <div className="work-stat">
+                  <TrendingUp size={14} />
+                  {stat}
+                </div>
+                <div className="work-tags">
+                  {tags.map(tag => (
+                    <span className="work-tag" key={tag}>{tag}</span>
+                  ))}
+                </div>
+                {href && (
+                  <span className="work-link-cta">
+                    {cta} <ArrowUpRight size={15} />
+                  </span>
+                )}
+              </>
+            )
+            return href ? (
+              <a className="work-card work-card-link" href={href} key={title}>
+                {inner}
+              </a>
+            ) : (
+              <div className="work-card" key={title}>
+                {inner}
               </div>
-              <div className="work-tags">
-                {tags.map(tag => (
-                  <span className="work-tag" key={tag}>{tag}</span>
-                ))}
-              </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
 
         <div className="stats-strip reveal reveal-stagger" ref={statsRef}>
