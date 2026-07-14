@@ -1,4 +1,13 @@
-# ROADMAP.md — next build: the feedback agent
+# ROADMAP.md — next builds
+
+## Build in progress (2026-07-14): engine migration to Claude Code
+Move daily research from API credits to the Max plan. Status: `/daily-briefing`
+skill + `agent/publish.js` + preferences v3 SHIPPED; next = manual test run →
+compare quality vs an API edition → schedule (cloud routine) → disable the
+`daily-briefing.yml` cron (keep workflow_dispatch as fallback). See CLAUDE.md
+§"Engine migration" for details.
+
+# Next build after that: the feedback agent
 
 > Companion to CLAUDE.md + ARCHITECTURE.md. Plain text = certain; **[INFERRED]** =
 > my read of Joesh's intent; **TODO: confirm with Joesh** = decide before building.

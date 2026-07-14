@@ -8,3 +8,4 @@ dist
 *.log
 aidailybriefing/data/feedback.jsonl
 aidailybriefing/preferences.proposed.md
+aidailybriefing/tmp/

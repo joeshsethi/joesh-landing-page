@@ -77,8 +77,11 @@ corrections he's given me across this session:
   succinct and better thought out, as well as more focused towards me."* Editor targets:
   meta.summary 3-5 sentences; each analysis paragraph ≤55 words. Tone: plain, honest, no
   hype, real numbers, always the caveat/reality check.
-- **Model:** Stay on **`claude-sonnet-4-6`**. He explicitly declined Opus 4.8 (quote:
-  *"dont want to flip to opus 4.8 so lets remove that idea"*) — don't switch without asking.
+- **Model:** For the **API pipeline** (run.js fallback): stay on **`claude-sonnet-4-6`**
+  (he declined Opus 4.8 there on cost). **SUPERSEDED for the Claude Code engine
+  (2026-07-14):** research now runs on his Max plan via the `/daily-briefing` skill,
+  where he explicitly wants a TOP model ("a higher version of sonnet or even fable 5") —
+  cost per token no longer applies.
 - **Feedback he's given me on HOW to work (important):** I shipped code untested twice
   and it broke in CI; he was rightly frustrated (*"this... shouldve been fixed the last
   time i told you to"*). **Rule: always test the agent locally before pushing** (see
@@ -147,6 +150,21 @@ Everything ships through git → Vercel. Steps that have worked reliably this se
   editor synthesis). Tunable down via `AIDB_MAX_SEARCHES` (per worker, default 8).
 - Grid run: occasional/on-demand, ~16 searches.
 - Keys/billing are on Joesh's Anthropic console (prepaid credits).
+
+## Engine migration to Claude Code (started 2026-07-14 — read this first)
+
+Joesh is moving the daily research OFF API credits and onto his **Max plan** via
+Claude Code. Built so far:
+- **`.claude/skills/daily-briefing/SKILL.md`** — the new engine: 5 parallel research
+  subagents (frontier / money-flows / hardware / **builders** [new beat] / japan) →
+  main session edits to schema → `agent/publish.js` gates → git push.
+- **`agent/publish.js`** — engine-agnostic publish CLI (validate → strip dead links
+  per the grounding rules → emit + editions index + decisions.md journal). Tested.
+- **`preferences.md` v3** — "better than Google" quality bar, curated source priors,
+  explicit US↔Japan comparison per Japan story, hard 9-story cap.
+Rollout plan: manual `/daily-briefing` test run → compare vs API edition → schedule
+(cloud routine preferred) → disable `daily-briefing.yml` cron (keep as manual
+fallback). The API pipeline (run.js) stays untouched as fallback until proven.
 
 ## Quick status (as of 2026-06-28)
 - ✅ Daily briefing live + reliable (retry-hardened), v2 parallel agents shipped.
