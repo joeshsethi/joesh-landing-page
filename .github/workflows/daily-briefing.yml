@@ -3,12 +3,12 @@ name: Daily AI Briefing
 # Runs ~06:30 JST every morning (21:30 UTC). Generates a fresh briefing.json into
 # public/AiDailyBriefing and commits it — pushing to main triggers a Vercel rebuild,
 # so the live page at joeshsethi.com/AiDailyBriefing updates on its own.
+# CRON DISABLED 2026-07-14: the daily edition is now produced by the Claude Code
+# engine (see .claude/skills/daily-briefing/SKILL.md) on Joesh's Max plan — no API
+# credits. This workflow had also been failing since Jul 6 (exhausted API credits).
+# Kept as a manual-dispatch fallback: Actions → Daily AI Briefing → Run workflow
+# (requires funded ANTHROPIC_API_KEY secret).
 on:
-  schedule:
-    # 20:00 UTC = 05:00 JST. The run takes ~30-70 min (research + grounding + retries),
-    # so it finishes well before a ~07:00 JST read. (06:30 JST = 21:30 UTC was cutting it
-    # close — the edition wasn't ready until mid-morning.)
-    - cron: "0 20 * * *"
   workflow_dispatch: {}
 
 permissions:
