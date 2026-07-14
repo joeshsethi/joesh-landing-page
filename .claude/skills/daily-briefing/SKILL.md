@@ -103,6 +103,7 @@ Write the draft to `aidailybriefing/tmp/claude-run/briefing.json`.
 ## Step 4 — Ground & publish (deterministic gates)
 
 From `aidailybriefing/`:
+0. If `node_modules/` is missing (fresh clone, e.g. a cloud session), run `npm ci` here first — `publish.js` needs ajv.
 1. `node agent/publish.js --check tmp/claude-run/briefing.json`
    - Exit 1 = schema invalid → fix the JSON, re-check.
    - Exit 3 = broken links listed → for each, web-search a real replacement (exact
