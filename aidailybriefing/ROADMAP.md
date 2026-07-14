@@ -1,11 +1,17 @@
 # ROADMAP.md — next builds
 
-## Build in progress (2026-07-14): engine migration to Claude Code
-Move daily research from API credits to the Max plan. Status: `/daily-briefing`
-skill + `agent/publish.js` + preferences v3 SHIPPED; next = manual test run →
-compare quality vs an API edition → schedule (cloud routine) → disable the
-`daily-briefing.yml` cron (keep workflow_dispatch as fallback). See CLAUDE.md
-§"Engine migration" for details.
+## ✅ DONE (2026-07-14): engine migration to Claude Code
+Daily research moved from API credits to the Max plan — COMPLETE, same day:
+- `/daily-briefing` skill + `agent/publish.js` + preferences v3 shipped (ed6ad7a).
+- First engine run published edition No.432 (9 stories, 30/30 links verified
+  first pass) — restoring the page after the API cron had FAILED silently since
+  Jul 6 (exhausted API credits; 8 days stale).
+- Scheduled task `daily-ai-briefing` created: daily 05:04 local (JST). NOTE: it
+  is an app-local schedule — runs while the Claude Code app is open; if closed
+  at fire time it runs on next launch. First run may pause on tool approvals;
+  approvals persist to future runs afterward.
+- `daily-briefing.yml` cron DISABLED (0f259d6); workflow_dispatch kept as the
+  API fallback (needs a funded ANTHROPIC_API_KEY to work).
 
 # Next build after that: the feedback agent
 
