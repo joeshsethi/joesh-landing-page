@@ -27,6 +27,16 @@ Paths (repo root = the project working directory):
      `tzLabel` like `06:12 JST` (time of publish).
    - Edition number: parse `No.(\d+)` from the current briefing's
      `meta.editionLine`, +1.
+   - CRITICAL — "today" means the JST date, NEVER the machine's UTC/local
+     date. Scheduled cloud runs fire ~20:00 UTC, which is already ~05:00 the
+     NEXT day in JST, so the JST date is one ahead of the UTC clock. Compute
+     it as `date -u -v+9H +%F` (or UTC now + 9 hours), not from `date` alone.
+4. NEVER skip. Every invocation must research and publish a fresh edition —
+   do NOT conclude "today's edition already exists" and exit; that exact
+   reasoning has caused silent no-op runs. If the computed JST dateStamp
+   already has an edition (a same-day manual re-run), still produce a fresh
+   edition: increment the edition number and publish — it overwrites that
+   date's file with newer news.
 
 ## Step 2 — Research (5 beats, subagents IN PARALLEL, single message)
 
