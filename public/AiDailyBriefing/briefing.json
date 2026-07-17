@@ -10,7 +10,7 @@
     "briefingTitle": "Sovereignty Means Fine-Tuning, Not Pretraining",
     "summary": "Gemini 3.5 Pro's third slip and SK Hynix's 2027-2030 memory-shortage warning are this edition's reality checks on how fast frontier AI is actually moving versus how fast money thinks it's moving. That mismatch shows clearest in funding: Mirendil raised $200M pre-product to automate AI research itself, while Oak's $60M seed bets that agent identity, not model quality, is the next infrastructure bottleneck. Demis Hassabis's push for a FINRA-style AI watchdog — quickly echoed by Anthropic and OpenAI — reads less like safety concern and more like a moat against open-weight rivals. Japan's throughline is the same gap in miniature: NTT Data, SoftBank and even Sakana AI all lean on Nvidia's open Nemotron weights rather than training their own base models, Kioxia's stock round-tripped $180B on pure AI sentiment, and a ¥370M Tokyo seed round sits two orders of magnitude below Mirendil's single check.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 20 sources"
+    "footerRight": "9 stories · 18 sources"
   },
   "gaps": [
     {
