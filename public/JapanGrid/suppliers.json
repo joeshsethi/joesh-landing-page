@@ -1,489 +1,397 @@
 {
-  "generatedAt": "2026-06-29T20:48:11.120Z",
+  "generatedAt": "2026-07-27T20:19:43.699Z",
   "meta": {
     "title": "Japan Grid & Data-Center Power Suppliers",
     "subtitle": "Vetted Japanese manufacturers to import, represent, or broker in the US",
-    "note": "Verify all contact details on each company's official website before outreach — personnel, inquiry paths, and export policies change frequently.",
-    "generatedLabel": "2026-06-29"
+    "note": "All contact details must be confirmed via each company's official website before any outreach.",
+    "generatedLabel": "2026-07-27"
   },
   "suppliers": [
     {
-      "name": "Hitachi Energy Japan",
+      "name": "Hitachi Energy Japan Ltd.",
       "nameJp": "日立エナジー株式会社",
-      "category": "Transformers",
-      "products": "Power and distribution transformers, HVDC converter systems, grid automation, protection relays, substation automation, grid-scale battery energy storage systems (BESS).",
+      "category": "T&D & grid automation",
+      "products": "Power transformers, SF6-free gas-insulated switchgear (EconiQ line, including world-first 550 kV SF6-free GIS), HVDC systems, grid automation and SCADA, FACTS, protection relays, grid-scale battery energy storage (e-mesh PowerStore).",
       "size": "major",
-      "hq": "Tokyo, Japan",
-      "website": "https://www.hitachienergy.com/",
-      "contactPage": "https://www.hitachienergy.com/contact",
-      "exportNote": "Japan-manufactured specialty transformers and HVDC components are procured directly by US utilities; Hitachi Energy Japan is the relevant contact for OEM sourcing.",
-      "relevance": "Tier-1 global T&D OEM with deep Japan manufacturing base; high-voltage power transformers and HVDC gear are in strong US-utility demand, supporting agent or brokerage arrangements.",
+      "hq": "Chiyoda, Tokyo, Japan",
+      "website": "https://www.hitachienergy.com",
+      "contactPage": "https://www.hitachienergy.com/contact-us",
+      "exportNote": "Active US operations and sales channels; Japan subsidiary angle valuable for T&D equipment sourcing, grid-modernization engineering, and IRA-funded utility projects.",
+      "relevance": "Global T&D technology leader with deep Japan engineering roots; received Chubu Electric Power Grid order for world-first 550 kV SF6-free GIS; HVDC, transformer, and grid-automation lines are high-demand in US grid buildout; 24/7 Customer Connect Center facilitates partner onboarding.",
       "sources": [
         {
           "name": "Hitachi Energy",
-          "title": "Hitachi Energy Official Website",
-          "url": "https://www.hitachienergy.com/"
+          "title": "Hitachi Energy — Official Website",
+          "url": "https://www.hitachienergy.com"
         },
         {
-          "name": "Wikipedia",
-          "title": "Hitachi Energy – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hitachi_Energy"
+          "name": "Hitachi Energy",
+          "title": "Contact Us — Hitachi Energy",
+          "url": "https://www.hitachienergy.com/contact-us"
+        },
+        {
+          "name": "ZoomInfo",
+          "title": "Hitachi Energy Japan — Company Overview",
+          "url": "https://www.zoominfo.com/c/hitachi-energy-ltd/559687855"
         }
       ]
     },
     {
       "name": "Mitsubishi Electric Corporation",
       "nameJp": "三菱電機株式会社",
-      "category": "Switchgear & substations",
-      "products": "Gas-insulated switchgear (GIS), air-insulated switchgear (AIS), power transformers, HVDC systems, protection and control relays, substation automation, surge arresters.",
+      "category": "Transformers",
+      "products": "Power and distribution transformers (Top Runner energy-saving series), generator step-up and autotransformers, gas-insulated transformers, gas-insulated switchgear (GIS), HVDC systems, protection and supervisory relay systems, smart-grid energy-management solutions.",
       "size": "major",
-      "hq": "Tokyo, Japan",
-      "website": "https://www.mitsubishielectric.com/",
+      "hq": "Chiyoda, Tokyo, Japan",
+      "website": "https://www.mitsubishielectric.com",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Mitsubishi Electric has US subsidiaries, but specialty GIS and large substation packages are often sourced directly from Japan for major utility projects.",
-      "relevance": "World-class GIS and substation OEM; Japan-built GIS is highly regarded by US utilities upgrading aging infrastructure — strong opportunity for agent or representative agreements.",
+      "exportNote": "Investing $86 M in a new Pennsylvania switchgear and power-electronics plant — signals strong US market push and creates natural conversation for transformer and relay distribution partnerships.",
+      "relevance": "One of the world's largest transformer and switchgear OEMs (over 4.4 trillion yen revenue); US manufacturing expansion underway; Top Runner energy-efficient transformers are directly importable; room for additional US channel partners on specific product lines.",
       "sources": [
         {
           "name": "Mitsubishi Electric",
-          "title": "Mitsubishi Electric Official Website",
-          "url": "https://www.mitsubishielectric.com/"
+          "title": "Mitsubishi Electric — Global Website",
+          "url": "https://www.mitsubishielectric.com/en/"
         },
         {
-          "name": "Wikipedia",
-          "title": "Mitsubishi Electric – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mitsubishi_Electric"
-        }
-      ]
-    },
-    {
-      "name": "Toshiba Energy Systems & Solutions Corporation",
-      "nameJp": "東芝エネルギーシステムズ株式会社",
-      "category": "T&D & grid automation",
-      "products": "Power transformers, digital protection relays, substation automation systems, battery energy storage systems (BESS), power quality equipment, large-scale UPS for power plants.",
-      "size": "major",
-      "hq": "Kawasaki, Kanagawa, Japan",
-      "website": "https://www.global.toshiba/ww/products-solutions/energy.html",
-      "contactPage": "inquiry form on official site",
-      "exportNote": "Toshiba Energy actively seeks international partners for BESS and grid automation in markets outside Japan.",
-      "relevance": "Established Toshiba brand recognition in US power markets; protection relays and BESS solutions address US grid modernization demand — distributor and representative opportunities exist.",
-      "sources": [
-        {
-          "name": "Toshiba Energy Systems",
-          "title": "Toshiba Energy Systems & Solutions – Toshiba Global Official Website",
-          "url": "https://www.global.toshiba/ww/products-solutions/energy.html"
+          "name": "Daelim Transformer",
+          "title": "Power Transformer Manufacturers Around the World",
+          "url": "https://www.daelimtransformer.com/power-transformer-manufacturers.html"
         },
         {
-          "name": "Wikipedia",
-          "title": "Toshiba – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Toshiba"
+          "name": "cn-delixi.com",
+          "title": "Top 10 Power Transformer Manufacturers Leading the Industry in 2026",
+          "url": "https://www.cn-delixi.com/news/top-10-power-transformers-manufacturers-industry-leaders-2026/"
         }
       ]
     },
     {
       "name": "Fuji Electric Co., Ltd.",
       "nameJp": "富士電機株式会社",
-      "category": "Power electronics & inverters",
-      "products": "Power semiconductors (IGBT modules), variable-frequency drives, static var compensators (SVC/STATCOM), grid-tie inverters, large UPS systems, metering and distribution equipment.",
+      "category": "Data-center power / UPS",
+      "products": "Large-capacity UPS systems (7000HX series, 97% device-conversion efficiency using in-house SiC power semiconductors), data-center switchgear, power conditioners, medium-voltage inverters and drives, renewable-energy power electronics.",
       "size": "major",
-      "hq": "Tokyo, Japan",
-      "website": "https://www.fujielectric.com/",
+      "hq": "Shinagawa, Tokyo, Japan",
+      "website": "https://www.fujielectric.com",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Fuji Electric has a US subsidiary (Fuji Electric Corp. of America); specialty SVC/STATCOM and large UPS products are available via direct Japan sourcing for major projects.",
-      "relevance": "Strong portfolio spanning grid power electronics and data-center UPS; US representative roles for SVC, STATCOM, and medium-voltage drives are available beyond the existing US subsidiary scope.",
+      "exportNote": "Fuji Electric Corp. of America (FECOA) established 1970 and active in the US — proven import and after-sales channel for UPS and power semiconductor product lines.",
+      "relevance": "Proprietary in-house SiC semiconductor development delivers industry-leading 97% conversion efficiency in UPS; the 7000HX UPS is deployed in Japanese and global data centers; FECOA has been operating in the US for over 50 years — the import infrastructure exists and can be extended to additional product lines.",
       "sources": [
         {
           "name": "Fuji Electric",
-          "title": "Fuji Electric Co., Ltd. Official Website",
-          "url": "https://www.fujielectric.com/"
+          "title": "Data Center Power Solutions — Fuji Electric Global",
+          "url": "https://www.fujielectric.com/about/example/detail/solution_datacenter.html"
+        },
+        {
+          "name": "Fuji Electric Americas",
+          "title": "Data Center Power — Fuji Electric Corp. of America",
+          "url": "https://americas.fujielectric.com/industries-served/data-centers/data-center-power/"
         },
         {
           "name": "Wikipedia",
-          "title": "Fuji Electric – Wikipedia",
+          "title": "Fuji Electric — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Fuji_Electric"
         }
       ]
     },
     {
-      "name": "Omron Corporation",
-      "nameJp": "オムロン株式会社",
-      "category": "Data-center power / UPS",
-      "products": "Online and line-interactive UPS systems (BX/BZ/SX series), power conditioners, energy management controllers, power supply monitoring systems for IT and industrial data centers.",
-      "size": "major",
-      "hq": "Kyoto, Japan",
-      "website": "https://www.omron.com/",
+      "name": "TMEIC Corporation",
+      "nameJp": "株式会社TMEIC",
+      "category": "Power electronics & inverters",
+      "products": "Industrial and critical-infrastructure UPS, utility-scale solar and wind inverters, large-capacity variable-frequency drives, motor control systems for steel, paper, and petrochemical plants, industrial automation systems.",
+      "size": "mid",
+      "hq": "Chiyoda, Tokyo, Japan",
+      "website": "https://www.tmeic.com",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Omron UPS products have strong penetration in Asia and Europe; the US distribution channel for the UPS line is underdeveloped relative to the brand's overall US market presence.",
-      "relevance": "Globally recognized brand with a well-engineered UPS line; US data-center and industrial markets offer an import/distribution angle distinct from Omron's established industrial-automation channels.",
+      "exportNote": "TMEIC already operates a US subsidiary in Roanoke, VA; the Japan parent is the design and manufacturing hub — ideal for product-line representation or OEM sourcing agreements targeting US industrial and utility markets.",
+      "relevance": "Toshiba-Mitsubishi Electric joint venture combining both OEMs' power electronics heritage; industrial UPS and utility-scale solar inverter lines directly addressable for US distribution or OEM partnerships; active US footprint reduces market-entry friction compared with less-established exporters.",
       "sources": [
         {
-          "name": "Omron",
-          "title": "Omron Corporation Official Website",
-          "url": "https://www.omron.com/"
+          "name": "TMEIC",
+          "title": "TMEIC Corporation — Official Website",
+          "url": "https://www.tmeic.com"
         },
         {
           "name": "Wikipedia",
-          "title": "Omron – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Omron"
+          "title": "TMEIC Corporation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/TMEIC"
         }
       ]
     },
     {
       "name": "Meidensha Corporation",
       "nameJp": "株式会社明電舎",
-      "category": "Switchgear & substations",
-      "products": "Medium- and high-voltage switchgear, vacuum circuit breakers, gas-insulated switchgear, power transformers, static var generators (SVG), motor drives, substation EPC services.",
+      "category": "T&D & grid automation",
+      "products": "Power transmission and distribution systems, vacuum circuit breakers, protection and supervisory relays, substation automation, energy storage systems, surge arresters (zinc-oxide), rail electrification systems, inverters and dynamometers.",
       "size": "mid",
-      "hq": "Tokyo, Japan",
-      "website": "https://www.meidensha.co.jp/",
+      "hq": "Shinagawa, Tokyo, Japan",
+      "website": "https://www.meidensha.com",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Meidensha exports switchgear to Southeast Asia and is actively exploring North American market entry.",
-      "relevance": "Established mid-tier OEM with comprehensive switchgear and substation portfolio; limited US market penetration compared to global giants makes a US representative relationship immediately actionable.",
+      "exportNote": "North American operational presence confirmed; 27,000-plus patents; protection relay and substation automation lines have fewer dedicated US distributors than the mega-OEMs — clear brokering angle for grid-modernization projects.",
+      "relevance": "Nikkei 225-listed T&D specialist with over 120 years of operating history; vacuum circuit breakers and protection relays are in high US demand driven by grid-modernization and renewable-integration spending; approximately 1.9 billion USD revenue with North American offices providing a warm entry point for US-based reps.",
       "sources": [
         {
           "name": "Meidensha",
-          "title": "Meidensha Corporation Official Website",
-          "url": "https://www.meidensha.co.jp/"
+          "title": "Meidensha Corporation — Official English Website",
+          "url": "https://www.meidensha.com"
+        },
+        {
+          "name": "PatSnap Discovery",
+          "title": "Meidensha Corp. — Company Profile",
+          "url": "https://discovery.patsnap.com/company/meidensha/"
         },
         {
           "name": "Wikipedia",
-          "title": "Meidensha – Wikipedia",
+          "title": "Meidensha Corporation — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Meidensha"
-        }
-      ]
-    },
-    {
-      "name": "Daihen Corporation",
-      "nameJp": "株式会社ダイヘン",
-      "category": "Transformers",
-      "products": "Oil-immersed distribution transformers, dry-type transformers, power transformers, high-frequency power supplies for semiconductor manufacturing, wireless power transfer systems.",
-      "size": "mid",
-      "hq": "Osaka, Japan",
-      "website": "https://www.daihen.co.jp/",
-      "contactPage": "inquiry form on official site",
-      "exportNote": "Daihen transformers are well-established across Asia-Pacific; North America is an identified growth target for the company.",
-      "relevance": "Strong distribution and power transformer line with competitive pricing and quality; US import/distribution for pad-mount and dry-type units is a clear and viable opportunity.",
-      "sources": [
-        {
-          "name": "Daihen Corporation",
-          "title": "Daihen Corporation Official Website",
-          "url": "https://www.daihen.co.jp/"
-        },
-        {
-          "name": "Wikipedia",
-          "title": "Daihen – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Daihen"
         }
       ]
     },
     {
       "name": "Nissin Electric Co., Ltd.",
       "nameJp": "日新電機株式会社",
-      "category": "T&D & grid automation",
-      "products": "Gas-insulated switchgear (GIS), static var compensators (SVC/STATCOM), power quality conditioners, T&D monitoring systems, arc-flash detection systems, substation control panels.",
+      "category": "Switchgear & substations",
+      "products": "Gas-insulated switchgear (GIS), power capacitors, power transformers, shunt reactors, instrument transformers (CT/VT), medium- and low-voltage metal-enclosed switchgear, reactive power compensation equipment (SVC/SVG), islanding protection devices, PV interconnection systems.",
       "size": "mid",
-      "hq": "Kyoto, Japan",
-      "website": "https://www.nissin-electric.co.jp/",
+      "hq": "Ukyo-ku, Kyoto, Japan",
+      "website": "https://nissin.jp",
       "contactPage": "inquiry form on official site",
-      "exportNote": "A Sumitomo Electric group company; SVC/STATCOM and GIS products are internationally competitive and sought by renewable integration projects worldwide.",
-      "relevance": "SVC/STATCOM and power quality gear are in demand for US renewable energy interconnection; limited direct US presence creates a strong opening for an agent or representative.",
+      "exportNote": "Sumitomo Group affiliate with subsidiaries in the US, China, Taiwan, Korea, Thailand, Vietnam, India, and Spain — proven multi-country export infrastructure; reactive power compensation products are rapidly growing in US demand.",
+      "relevance": "Kyoto-based specialist in GIS, reactive power compensation, and PV interconnection; US subsidiary exists but specific product-line representation such as SVG, GIS, and instrument transformers may still be open for brokering; Sumitomo group backing ensures financial stability and long-term supply commitment.",
       "sources": [
         {
           "name": "Nissin Electric",
-          "title": "Nissin Electric Co., Ltd. Official Website",
-          "url": "https://www.nissin-electric.co.jp/"
+          "title": "Nissin Electric — Official Website",
+          "url": "https://nissin.jp/e/"
         },
         {
-          "name": "Sumitomo Electric",
-          "title": "Sumitomo Electric Industries – Corporate Site",
-          "url": "https://www.sei.co.jp/en/"
+          "name": "Wikipedia",
+          "title": "Nissin Electric Co., Ltd. — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nissin_Electric"
         }
       ]
     },
     {
-      "name": "Yaskawa Electric Corporation",
-      "nameJp": "株式会社安川電機",
-      "category": "Power electronics & inverters",
-      "products": "AC drives (VFDs) for industrial and HVAC use, solar PV inverters (utility and commercial scale), grid-tie inverters, regenerative power converters, matrix converters.",
+      "name": "DAIHEN Corporation",
+      "nameJp": "株式会社ダイヘン",
+      "category": "Transformers",
+      "products": "Oil-immersed and cast-resin distribution transformers (Top Runner standard), pole-mounted utility transformers for all major Japanese electric utilities, shunt reactors, closed-type power distribution boards with remote monitoring, solar inverters (grid-tie), wireless power transfer systems.",
       "size": "mid",
-      "hq": "Kitakyushu, Fukuoka, Japan",
-      "website": "https://www.yaskawa.co.jp/",
+      "hq": "Yodogawa-ku, Osaka, Japan",
+      "website": "https://www.daihen.co.jp",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Yaskawa has a US subsidiary for drives (Yaskawa America); the solar and grid inverter product line has limited dedicated US distribution coverage.",
-      "relevance": "Technically advanced solar and grid inverters from a globally respected brand; a US rep for the inverter product line outside the existing servo/drive channels is a clearly open niche.",
+      "exportNote": "Founded 1919 as Osaka Transformer Co.; supplies all major Japanese electric utilities; cast-resin and oil-immersed lines directly importable for US data centers, hospitals, commercial buildings, and renewable-energy sites.",
+      "relevance": "Over 100 years of utility-grade transformer expertise; cast-resin transformer range well-suited to US data center and commercial building applications (fire-resistant, indoor-safe); limited dedicated US distribution channel creates a clear import and representation opportunity.",
       "sources": [
         {
-          "name": "Yaskawa Electric",
-          "title": "Yaskawa Electric Corporation Official Website",
-          "url": "https://www.yaskawa.co.jp/"
+          "name": "DAIHEN",
+          "title": "DAIHEN Corporation — Transformer Products",
+          "url": "https://www.daihen.co.jp/en/products/electric/"
         },
         {
-          "name": "Wikipedia",
-          "title": "Yaskawa Electric – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Yaskawa_Electric"
+          "name": "DAIHEN",
+          "title": "DAIHEN Corporation — Distribution Equipment",
+          "url": "https://www.daihen.co.jp/en/products/electric/distribution/"
+        },
+        {
+          "name": "Metoree",
+          "title": "DAIHEN Corporation — Company Profile",
+          "url": "https://us.metoree.com/companies/1231/"
         }
       ]
     },
     {
       "name": "Takaoka Toko Co., Ltd.",
-      "nameJp": "高岡東光株式会社",
-      "category": "Transformers",
-      "products": "Oil-immersed distribution transformers, pole-mounted transformers, pad-mounted transformers, dry-type transformers; primary supplier to major Japanese electric utilities.",
+      "nameJp": "株式会社高岳製作所",
+      "category": "T&D & grid automation",
+      "products": "Distribution transformers, molded current transformers (CT), voltage transformers (VT) and combined VCT units, zero-phase-sequence CTs, watt-hour meters, power monitoring systems, power distribution network equipment, renewable energy grid-integration systems.",
       "size": "mid",
-      "hq": "Tokyo, Japan",
-      "website": "https://www.takaoka.co.jp/",
+      "hq": "Toshima, Tokyo, Japan",
+      "website": "https://www.tktk.co.jp",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Takaoka Toko is a primary transformer supplier to Japanese utilities; IEC-built products can be adapted to ANSI/IEEE standards for US market entry.",
-      "relevance": "Leading Japanese distribution transformer OEM supplying major utilities with minimal North America presence; a US import or distribution relationship is a high-value open opportunity.",
+      "exportNote": "Medium-Term Management Plan 2027 targets international expansion; instrument transformers and smart-metering equipment are directly importable for US utility AMI and smart-grid upgrade programs.",
+      "relevance": "Specialist in distribution infrastructure and precision instrument transformers for electric utilities; executing a SERA company energy-network modernization strategy signaling active product pipeline development; limited US import and rep presence makes this a prime niche target for a US-based broker or distributor.",
       "sources": [
         {
           "name": "Takaoka Toko",
-          "title": "Takaoka Toko Co., Ltd. Official Website",
-          "url": "https://www.takaoka.co.jp/"
+          "title": "Takaoka Toko Co., Ltd. — Official Website",
+          "url": "https://www.tktk.co.jp/en/"
         },
         {
-          "name": "JETRO",
-          "title": "JETRO – Japanese Electrical Equipment Trade",
-          "url": "https://www.jetro.go.jp/en/"
+          "name": "ensun",
+          "title": "Top Transformer Manufacturers in Japan 2025",
+          "url": "https://ensun.io/search/transformer/japan"
+        },
+        {
+          "name": "JEMA",
+          "title": "JEMA Member Directory",
+          "url": "https://www.jema-net.or.jp/English/about/members/index.html"
         }
       ]
     },
     {
-      "name": "Toyo Denki Seizo K.K.",
-      "nameJp": "東洋電機製造株式会社",
+      "name": "NGK Corporation",
+      "nameJp": "NGK株式会社",
       "category": "Power electronics & inverters",
-      "products": "Traction inverters for railways, industrial drives, static power converters, regenerative power supplies, power conditioners for transit and industrial plant applications.",
+      "products": "NAS (sodium-sulfur) grid-scale battery energy storage systems; UHV-class (up to 1 MV) suspension, hollow, station-post, and pin-post insulators; transformer bushings; hollow insulators for high-voltage switchgear.",
       "size": "mid",
-      "hq": "Tokyo, Japan",
-      "website": "https://www.toyodenki.co.jp/",
+      "hq": "Nagoya, Aichi, Japan",
+      "website": "https://www.ngk-insulators.com",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Toyo Denki exports traction and industrial power converters primarily to Asia; North America is an underserved market for their products.",
-      "relevance": "Specialist in traction and railway power electronics with strong quality pedigree; US transit electrification and heavy-industry sectors offer clear representation potential.",
+      "exportNote": "Serves North America, Europe, and Asia; NAS batteries are already deployed in US and international grid-storage projects; insulators supply US and global transmission infrastructure upgrades.",
+      "relevance": "World-leading NAS battery technology directly relevant to surging US energy-storage procurement driven by IRA incentives; dominant global supplier of UHV-class insulators needed for US high-voltage transmission expansion; strong import and distribution business case for both product lines across utility and grid-storage segments.",
       "sources": [
         {
-          "name": "Toyo Denki Seizo",
-          "title": "Toyo Denki Seizo K.K. Official Website",
-          "url": "https://www.toyodenki.co.jp/"
+          "name": "NGK",
+          "title": "Insulators and Power Equipment — NGK Corporation",
+          "url": "https://www.ngk-insulators.com/en/product/search-business/insulator/"
+        },
+        {
+          "name": "NGK",
+          "title": "Japan Network — NGK Corporation",
+          "url": "https://www.ngk-insulators.com/en/info/network/japan.html"
         },
         {
           "name": "Wikipedia",
-          "title": "Toyo Denki Seizo – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Toyo_Denki_Seizo"
+          "title": "NGK Insulators — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/NGK_Insulators"
         }
       ]
     },
     {
-      "name": "Nitto Kogyo Corporation",
-      "nameJp": "日東工業株式会社",
-      "category": "Switchgear & substations",
-      "products": "Electrical distribution boards, control panels, busbar systems, cabinet enclosures for LV distribution and switchgear, data-center electrical infrastructure panels, EV charging panels.",
+      "name": "Sanyo Denki Co., Ltd.",
+      "nameJp": "山洋電気株式会社",
+      "category": "Data-center power / UPS",
+      "products": "SANUPS-brand online double-conversion UPS, hybrid smart UPS, parallel and redundant N+1 configurable UPS (1 kVA and up), PV power conditioners, engine generators; also servo systems and high-reliability cooling systems for data center thermal management.",
       "size": "mid",
-      "hq": "Nagoya (Aichi), Japan",
-      "website": "https://www.nitto-kogyo.co.jp/",
+      "hq": "Shinjuku, Tokyo, Japan",
+      "website": "https://www.sanyodenki.com",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Nitto Kogyo is the leading Japanese maker of distribution boards; product lines are adaptable to UL/NEMA standards for US market entry.",
-      "relevance": "Dominant Japanese distribution board maker with broad product depth for data-center and commercial electrical infrastructure; US market entry via import distribution is a clear strategic fit.",
+      "exportNote": "Already operates a dedicated US web portal (sanups.sanyodenki.us) for single-phase UPS (1-20 kVA); explicitly offers customized and private-label solutions for US channel partners.",
+      "relevance": "Founded 1927; explicitly markets OEM and private-label arrangements to US distribution partners; Japan-designed UPS systems accepted in US semiconductor, medical, traffic-control, and telecom verticals; among the clearest niche entry points for a US importer or manufacturers rep seeking Japanese UPS lines.",
       "sources": [
         {
-          "name": "Nitto Kogyo",
-          "title": "Nitto Kogyo Corporation Official Website",
-          "url": "https://www.nitto-kogyo.co.jp/"
+          "name": "Sanyo Denki",
+          "title": "SANUPS Power Products — Sanyo Denki",
+          "url": "https://products.sanyodenki.com/en/sanups/"
         },
         {
-          "name": "JETRO",
-          "title": "JETRO – Electrical Equipment Manufacturers Japan",
-          "url": "https://www.jetro.go.jp/en/"
+          "name": "Sanyo Denki US",
+          "title": "SANUPS by Sanyo Denki — US Site FAQs",
+          "url": "https://sanups.sanyodenki.us/faq/"
+        },
+        {
+          "name": "DigiKey",
+          "title": "Sanyo Denki SANUPS Products — DigiKey Supplier Center",
+          "url": "https://www.digikey.com/en/supplier-centers/sanyo-denki-sanups-products"
+        }
+      ]
+    },
+    {
+      "name": "Terasaki Electric Co., Ltd.",
+      "nameJp": "寺崎電気産業株式会社",
+      "category": "Switchgear & substations",
+      "products": "Air circuit breakers (ACBs), molded-case circuit breakers (MCCBs), electronic trip units, power distribution switchboards, marine and industrial switchgear, generator-protection breakers (TemBreak PRO series), selectivity analysis software (TemCurve Lite).",
+      "size": "smaller",
+      "hq": "Naniwa-ku, Osaka, Japan",
+      "website": "https://www.terasaki.co.jp",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "Already exports to Europe, Middle East, and Africa via Terasaki Electric Europe Ltd.; US is a logical next market for IEC-rated circuit breakers and marine switchgear given existing export infrastructure.",
+      "relevance": "First Japanese company to develop circuit breakers entirely in-house; proven European export channel demonstrates export maturity and willingness; IEC 60947-compliant ACBs and MCCBs suitable for US import into industrial, marine, commercial building, and data center applications — limited current US distribution presence.",
+      "sources": [
+        {
+          "name": "Terasaki Electric",
+          "title": "Terasaki Electric Co., Ltd. — Official Website",
+          "url": "https://www.terasaki.co.jp/english/"
+        },
+        {
+          "name": "Terasaki Electric Europe",
+          "title": "Terasaki Electric Europe — Official Website",
+          "url": "https://terasaki.com/"
+        },
+        {
+          "name": "JEMA",
+          "title": "JEMA Member Directory",
+          "url": "https://www.jema-net.or.jp/English/about/members/index.html"
+        }
+      ]
+    },
+    {
+      "name": "Shizuki Electric Co., Inc.",
+      "category": "Power electronics & inverters",
+      "products": "Film capacitors for power electronics and grid inverters (oil-filled and dry-type), power factor correction capacitor banks, harmonic filter capacitors, series reactors, custom-engineered capacitor solutions for industrial inverter and UPS OEMs.",
+      "size": "smaller",
+      "hq": "Nishinomiya, Hyogo, Japan",
+      "website": "https://www.shizuki.co.jp",
+      "contactPage": "inquiry form on official site",
+      "exportNote": "US affiliate ASC Capacitors (Ogallala, Nebraska) already imports and sells Shizuki products in North America — proven US supply chain and strong existing precedent for expanded brokering.",
+      "relevance": "Niche leader in power film capacitors essential for grid inverters, UPS, and power factor correction systems; US affiliate ASC Capacitors already imports Shizuki products — excellent platform for expanding US distribution of capacitor banks, harmonic filter systems, and custom power electronics components to OEMs and utilities.",
+      "sources": [
+        {
+          "name": "Shizuki Electric",
+          "title": "Shizuki Electric — Official Website",
+          "url": "https://www.shizuki.co.jp/english/"
+        },
+        {
+          "name": "ASC Capacitors",
+          "title": "Shizuki Electric Group — ASC Capacitors US",
+          "url": "https://ascapacitor.com/shizuki-electric-group/"
         }
       ]
     },
     {
       "name": "Kawamura Electric Inc.",
-      "nameJp": "河村電器産業株式会社",
       "category": "Switchgear & substations",
-      "products": "Residential and commercial distribution boards, smart electrical panels, load-center products, EV charging control panels, home energy management panels with IoT integration.",
-      "size": "mid",
-      "hq": "Nagoya (Aichi), Japan",
-      "website": "https://www.kawamura.co.jp/",
+      "products": "Distribution panelboards, residential and industrial load centers, low- and high-voltage circuit breakers, industrial and building control panels, high-voltage switchgear (JEM-standard), EV charging control panels.",
+      "size": "smaller",
+      "hq": "Kasugai, Aichi, Japan",
+      "website": "https://www.kawamura.co.jp",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Kawamura Electric's smart and EV-integrated distribution boards align with the growing US smart-panel market trend.",
-      "relevance": "Mid-tier smart distribution board specialist; EV-integrated and energy-management panels directly address growing US residential and light-commercial demand — a targeted import opportunity.",
+      "exportNote": "JEMA member with over 3,600 patents and global offices; LV/MV distribution boards and HV switchgear are importable product lines with broad US commercial, industrial, and EV-charging demand.",
+      "relevance": "Founded 1919; over 3,600 patents in circuit breakers and high-voltage equipment; approximately 1,000 employees with global presence; focused on LV/MV distribution switchgear and panelboards — limited US representation is a clear distribution opportunity, especially for commercial building, industrial, and EV-charging infrastructure applications.",
       "sources": [
         {
           "name": "Kawamura Electric",
-          "title": "Kawamura Electric Inc. Official Website",
-          "url": "https://www.kawamura.co.jp/"
+          "title": "Kawamura Electric Inc. — Company Overview and Locations",
+          "url": "https://www.kawamura.co.jp/global/about/bases/"
         },
         {
-          "name": "JETRO",
-          "title": "JETRO – Japan Electrical Trade Directory",
-          "url": "https://www.jetro.go.jp/en/"
-        }
-      ]
-    },
-    {
-      "name": "Nichicon Corporation",
-      "nameJp": "ニチコン株式会社",
-      "category": "Data-center power / UPS",
-      "products": "Aluminum electrolytic capacitors, UPS systems, power conditioners for IT and industrial use, EV charging equipment, grid-connected energy storage systems with integrated power electronics.",
-      "size": "mid",
-      "hq": "Kyoto, Japan",
-      "website": "https://www.nichicon.co.jp/",
-      "contactPage": "inquiry form on official site",
-      "exportNote": "Nichicon UPS and power conditioners have limited dedicated US distribution; EV charging and energy storage lines are growth areas with strong US market potential.",
-      "relevance": "Globally known capacitor brand that also produces UPS and power conditioners; the combination of component expertise and system-level products offers a distinct import/distribution angle for US data-center and EV markets.",
-      "sources": [
-        {
-          "name": "Nichicon Corporation",
-          "title": "Nichicon Corporation Official Website",
-          "url": "https://www.nichicon.co.jp/"
+          "name": "PatSnap",
+          "title": "Kawamura Electric, Inc. — Company Profile",
+          "url": "https://discovery.patsnap.com/company/kawamura-electric/"
         },
         {
-          "name": "Wikipedia",
-          "title": "Nichicon – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nichicon"
+          "name": "JEMA",
+          "title": "JEMA Member Directory",
+          "url": "https://www.jema-net.or.jp/English/about/members/index.html"
         }
       ]
     },
     {
       "name": "Togami Electric Mfg. Co., Ltd.",
-      "nameJp": "株式会社戸上電機製作所",
       "category": "Switchgear & substations",
-      "products": "Electromagnetic contactors and starters, molded-case circuit breakers (MCCB), air circuit breakers (ACB), motor control centers (MCC), LV switchgear assemblies.",
+      "products": "Magnetic contactors (IEC 60947-compliant, TUV/CE/CCC/NK certified), magnetic starters, thermal overload relays, PCB relays for inrush-current and pre-charge circuits, high-voltage distribution boards, explosion-proof and corrosion-resistant control equipment.",
       "size": "smaller",
-      "hq": "Kanazawa, Ishikawa, Japan",
-      "website": "https://www.togami-elec.co.jp/",
+      "hq": "Naniwa-ku, Osaka, Japan",
+      "website": "https://www.togami-elec.co.jp",
       "contactPage": "inquiry form on official site",
-      "exportNote": "Togami Electric makes LV control and protection devices with competitive quality at lower price points than major global OEMs.",
-      "relevance": "Niche specialist in LV switchgear and motor control; US electrical distributors seeking alternative sources to ABB/Schneider/Eaton will find Togami's catalog compelling for direct import.",
+      "exportNote": "Products carry IEC 60947, TUV, NK, CE, and CCC certifications; ISO 9001/14001 certified manufacturing — compliant with both US industrial and international standards for direct import.",
+      "relevance": "Established 1925; IEC- and TUV-certified contactors and starters are high-volume industrial motor-control components with broad US demand across panel builders, OEMs, and industrial end-users; no dedicated US rep or import channel readily identified — prime brokering opportunity.",
       "sources": [
         {
           "name": "Togami Electric",
-          "title": "Togami Electric Mfg. Co., Ltd. Official Website",
-          "url": "https://www.togami-elec.co.jp/"
+          "title": "Togami Electric Mfg. Co., Ltd. — Official Website",
+          "url": "https://www.togami-elec.co.jp/en/"
         },
         {
-          "name": "JETRO",
-          "title": "JETRO – Japan Electrical Industry Overview",
-          "url": "https://www.jetro.go.jp/en/"
-        }
-      ]
-    },
-    {
-      "name": "Sanken Electric Co., Ltd.",
-      "nameJp": "サンケン電気株式会社",
-      "category": "Power electronics & inverters",
-      "products": "Power semiconductors (IGBTs, MOSFETs, rectifiers), AC-DC power supplies, DC-DC converters, motor driver ICs, PFC modules for industrial and data-center power systems.",
-      "size": "smaller",
-      "hq": "Niiza, Saitama, Japan",
-      "website": "https://www.sanken-ele.co.jp/",
-      "contactPage": "inquiry form on official site",
-      "exportNote": "Sanken Electric is distributed via component distributors in the US; direct import or rep arrangements for module-level and system products are available.",
-      "relevance": "Niche power semiconductor and module maker; US power-electronics OEMs and data-center PSU builders seeking alternative semiconductor sources will find direct Japan sourcing viable.",
-      "sources": [
-        {
-          "name": "Sanken Electric",
-          "title": "Sanken Electric Co., Ltd. Official Website",
-          "url": "https://www.sanken-ele.co.jp/"
+          "name": "Creation Building Services",
+          "title": "Togami Electric — Product and Certification Overview",
+          "url": "https://www.creation-trading.com/brand_detail.php?bid=8&id=30"
         },
         {
-          "name": "Wikipedia",
-          "title": "Sanken Electric – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sanken_Electric"
-        }
-      ]
-    },
-    {
-      "name": "Shindengen Electric Manufacturing Co., Ltd.",
-      "nameJp": "新電元工業株式会社",
-      "category": "Power electronics & inverters",
-      "products": "Rectifier diodes, IGBT modules, AC-DC switching power supplies, DC-DC converters, EV onboard chargers (OBC), solar microinverters, telecom and server power supplies.",
-      "size": "smaller",
-      "hq": "Tokyo, Japan",
-      "website": "https://www.shindengen.co.jp/",
-      "contactPage": "inquiry form on official site",
-      "exportNote": "A Fujitsu group company with strong product breadth in rectifiers and EV chargers; the US EV infrastructure and data-center market creates active import opportunities.",
-      "relevance": "Specialist in rectifiers and EV charging power electronics; growing US EV charger deployment and data-center server power supply demand create focused import and distribution opportunities.",
-      "sources": [
-        {
-          "name": "Shindengen Electric",
-          "title": "Shindengen Electric Manufacturing Co., Ltd. Official Website",
-          "url": "https://www.shindengen.co.jp/"
-        },
-        {
-          "name": "Wikipedia",
-          "title": "Shindengen Electric Manufacturing – Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Shindengen_Electric_Manufacturing"
-        }
-      ]
-    },
-    {
-      "name": "Kyosan Electric Mfg. Co., Ltd.",
-      "nameJp": "株式会社京三製作所",
-      "category": "T&D & grid automation",
-      "products": "DC substation equipment for railways and transit systems, AC/DC rectifiers and converters for traction, railway signaling systems, power conditioning units for transit electrification.",
-      "size": "smaller",
-      "hq": "Yokohama, Kanagawa, Japan",
-      "website": "https://www.kyosan.co.jp/",
-      "contactPage": "inquiry form on official site",
-      "exportNote": "Kyosan's DC substation and traction power products are directly relevant to US urban rail and transit electrification expansion projects.",
-      "relevance": "Unique niche in traction/railway DC substations; US transit agencies expanding light rail and metro electrification represent a strong demand channel for a focused agent relationship.",
-      "sources": [
-        {
-          "name": "Kyosan Electric",
-          "title": "Kyosan Electric Mfg. Co., Ltd. Official Website",
-          "url": "https://www.kyosan.co.jp/"
-        },
-        {
-          "name": "JETRO",
-          "title": "JETRO – Japan Electrical Equipment Exporters",
-          "url": "https://www.jetro.go.jp/en/"
-        }
-      ]
-    },
-    {
-      "name": "Tempearl Industrial Co., Ltd.",
-      "nameJp": "テンパール工業株式会社",
-      "category": "Switchgear & substations",
-      "products": "Miniature circuit breakers (MCBs), earth leakage circuit breakers (ELCBs), distribution boards, residential and commercial switchboards, IoT-integrated smart breakers.",
-      "size": "smaller",
-      "hq": "Hiroshima, Japan",
-      "website": "https://www.tempearl.co.jp/",
-      "contactPage": "inquiry form on official site",
-      "exportNote": "Tempearl's IoT-integrated smart circuit breakers are gaining traction in Japan's smart-home market; US demand for intelligent overcurrent protection is growing rapidly.",
-      "relevance": "Niche maker of smart MCBs and ELCBs with IoT integration; US smart-home and light-commercial buildings market for intelligent protection devices creates a differentiated and underserved import opportunity.",
-      "sources": [
-        {
-          "name": "Tempearl Industrial",
-          "title": "Tempearl Industrial Co., Ltd. Official Website",
-          "url": "https://www.tempearl.co.jp/"
-        },
-        {
-          "name": "JETRO",
-          "title": "JETRO – Japan Smart Electrical Components",
-          "url": "https://www.jetro.go.jp/en/"
-        }
-      ]
-    },
-    {
-      "name": "Cosel Co., Ltd.",
-      "nameJp": "コーセル株式会社",
-      "category": "Data-center power / UPS",
-      "products": "AC-DC switching power supplies (board-mount, chassis, DIN-rail), DC-DC converters, EMI line filters; products target industrial, medical, and data-center/telecom infrastructure.",
-      "size": "smaller",
-      "hq": "Toyama, Japan",
-      "website": "https://www.cosel.co.jp/",
-      "contactPage": "inquiry form on official site",
-      "exportNote": "Cosel has a US sales office (Cosel USA) but direct import/distribution of specialty high-reliability models not stocked in the US is an active opportunity.",
-      "relevance": "Well-regarded Japanese power supply specialist; high-reliability industrial and medical-grade PSUs are sought by US OEMs building data-center and critical-power equipment — a niche import/rep angle.",
-      "sources": [
-        {
-          "name": "Cosel Co.",
-          "title": "Cosel Co., Ltd. Official Website",
-          "url": "https://www.cosel.co.jp/"
-        },
-        {
-          "name": "Cosel USA",
-          "title": "Cosel USA – Power Supply Solutions",
-          "url": "https://www.coselusa.com/"
+          "name": "JEMA",
+          "title": "JEMA Member Directory",
+          "url": "https://www.jema-net.or.jp/English/about/members/index.html"
         }
       ]
     }
