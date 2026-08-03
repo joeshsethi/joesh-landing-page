@@ -106,12 +106,8 @@ To close the loop, the feedback agent must:
   Reuters/Nikkei, lab blogs, arXiv, Crunchbase/VC firms) to push "better than Google."
   Proposed, not done. **TODO: confirm with Joesh.**
 - **Editor story cap** — v2 produced 10 stories vs the ~8-9 target; consider a hard cap.
-- **Link from the briefing page → /JapanGrid** (asked; unanswered). **TODO.**
-- **Grid agent category buckets** — the seed `suppliers.json` has verbose `category`
-  strings (generated before the short-bucket prompt fix); the next grid run will use short
-  buckets. Cosmetic.
 - **`store.js` cleanup** — the unused AWS/DynamoDB backend is leftover scaffolding now that
   feedback is on Supabase; could be removed to reduce confusion. **[INFERRED]** safe to
   delete once the feedback agent reads Supabase directly; confirm.
-- **Grid agent v2 (optional)** — if the single-agent grid list is thin on smaller players,
-  parallelize by category like the news v2. Joesh chose "one agent" for v1.
+- ~~Japan grid supplier finder~~ — removed entirely 2026-08-03 at Joesh's request (page,
+  workflow, agent, schema all deleted; recoverable from git history).

@@ -9,8 +9,7 @@
 
 ## Project purpose
 
-A daily AI-news briefing for one reader (Joesh), plus a separate Japan grid-equipment
-supplier finder. It is also explicitly a **learning project** — Joesh's stated goals
+A daily AI-news briefing for one reader (Joesh). It is also explicitly a **learning project** — Joesh's stated goals
 (first message, quoted): *"get experience in developing a website/app with full front
 and back end services"*, *"get experience in utilizing agents"*, *"better understand
 the usecases of a full front/backend application and how i can use claude code to
@@ -29,7 +28,6 @@ better understand"* AI opportunities — especially in Japan, where he'll be for
 - **Repo (remote):** `github.com/joeshsethi/joesh-landing-page` (a Vite + React site on Vercel)
 - **The agent:** this folder, `aidailybriefing/` (its own `package.json`, NOT part of the Vite build)
 - **The news page (served):** `public/AiDailyBriefing/` → live at **joeshsethi.com/AiDailyBriefing**
-- **The grid page (served):** `public/JapanGrid/` → live at **joeshsethi.com/JapanGrid**
 - **Feedback function:** `api/feedback.js` (repo root → Vercel serverless `/api/feedback`)
 - **Feedback DB:** Supabase, project ref `mydpyajfixytsjqjerqs`, table `feedback`
 
@@ -131,7 +129,6 @@ Everything ships through git → Vercel. Steps that have worked reliably this se
     ~30-70 min for v2.)
   - `weekly-review.yml` — Sunday; runs `review.js`. **Currently reads a local file, NOT
     Supabase — not functional for the real feedback loop yet** (see ROADMAP).
-  - `japan-grid.yml` — on-demand (Run workflow) + weekly Monday.
 - **Each run is independent, fresh research** — nothing is cached; a manual run now and
   tomorrow's cron both do brand-new searches.
 - **Editions are dated/labeled in JST** (the 05:00 JST run is "today" in JST even though
@@ -142,13 +139,12 @@ Everything ships through git → Vercel. Steps that have worked reliably this se
   ARCHITECTURE.md.
 - **Continuous updates via Claude Code:** you (a future session) edit files here, test
   locally, commit, push — Vercel redeploys. Tuning that needs NO code: GitHub repo
-  **Variables** `AIDB_MODEL`, `AIDB_EFFORT`, `AIDB_MAX_SEARCHES`, `AIDB_GRID_MAX_SEARCHES`
+  **Variables** `AIDB_MODEL`, `AIDB_EFFORT`, `AIDB_MAX_SEARCHES`
   (all optional; empty = code defaults). Editorial tuning: edit `preferences.md`.
 
 ## Cost (observed/estimated this session)
 - v2 daily run on Sonnet: roughly **$0.50–$1.50/run** (~32 searches across 4 workers +
   editor synthesis). Tunable down via `AIDB_MAX_SEARCHES` (per worker, default 8).
-- Grid run: occasional/on-demand, ~16 searches.
 - Keys/billing are on Joesh's Anthropic console (prepaid credits).
 
 ## Engine migration to Claude Code (started 2026-07-14 — read this first)
@@ -172,7 +168,6 @@ fallback). The API pipeline (run.js) stays untouched as fallback until proven.
 - ✅ Link grounding enforced (real/reachable links; stories never dropped).
 - ✅ Feedback capture → Supabase (thumbs/save + free-text note widget). **Captured but
   NOT yet consumed by any agent.**
-- ✅ Japan grid supplier finder at /JapanGrid (14 verified suppliers, separate cycle).
 - ⏭️ Next: the **feedback agent** (ROADMAP.md).
-- Open UX question: add a link from the briefing page to /JapanGrid? (I asked; unanswered.)
-  **TODO: confirm with Joesh.**
+- Japan grid supplier finder removed 2026-08-03 (page, workflow, and agent deleted at
+  Joesh's request; history in git if ever needed again).

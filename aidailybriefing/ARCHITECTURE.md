@@ -58,17 +58,6 @@
   (e.g. `terminated` = mid-stream connection drop).
 - The workflow then `git add` + commit + push → Vercel deploys.
 
-### Japan grid supplier finder (`agent/japan-grid.js`) — SEPARATE, NOT merged with news
-- **One agent** (not parallel). `web_search` with `max_uses = AIDB_GRID_MAX_SEARCHES`
-  (default **16** — it's on-demand, so a generous budget).
-- **Input:** the sourcing prompt (Japanese grid + data-center power manufacturers, major
-  AND smaller, for US import/representation/brokering).
-- **Output:** `public/JapanGrid/suppliers.json` (schema `schema/japan-grid.schema.json`).
-- **Grounding is STRICTER than news:** every supplier's official website must resolve;
-  a supplier whose site can't be verified is **dropped** (you can't contact a company you
-  can't verify). Never fabricates personal contacts — only verified official sites/pages.
-- Page: `public/JapanGrid/index.html` (static, groups by size: major/mid/smaller).
-
 ### Support modules (not standalone agents)
 - `agent/prompt.js` — all prompt builders + `BEATS`.
 - `agent/verify-sources.js` — link checker; `verifySources()` returns per-URL
@@ -152,16 +141,10 @@ TRIGGER
   [NOT YET BUILT] feedback agent reads Supabase ──► tunes preferences.md ──► next run
 ```
 
-Separate, parallel cycle (NOT merged into the above):
-```
-japan-grid.yml (on-demand / weekly) ──► japan-grid.js (1 agent) ──► ground websites
-  ──► suppliers.json ──► commit/push ──► Vercel ──► joeshsethi.com/JapanGrid
-```
-
 ## Env vars / secrets / variables (reference)
 - **GitHub Actions secret:** `ANTHROPIC_API_KEY` (used by all workflows).
 - **GitHub repo Variables (optional tuning, empty = code default):** `AIDB_MODEL`,
-  `AIDB_EFFORT`, `AIDB_MAX_SEARCHES`, `AIDB_GRID_MAX_SEARCHES`.
+  `AIDB_EFFORT`, `AIDB_MAX_SEARCHES`.
 - **Vercel env:** `SUPABASE_URL`, `SUPABASE_SERVICE_KEY` (for `api/feedback.js`).
 - **For the future feedback agent to READ Supabase:** it will need `SUPABASE_URL` +
   a Supabase key (service_role, or a read-only key) as **GitHub Actions secrets** (the
