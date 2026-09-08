@@ -635,6 +635,132 @@ class Component extends DCLogic {
   else init();
 })();
 </script>
+<!-- SPORTS WATCH. A secondary strip under the briefing, fed by sports.json (its own
+     schema + publish gate — see aidailybriefing/agent/publish-sports.js). Rendered
+     OUTSIDE the React app so a re-render can't wipe it, and it can't affect the
+     briefing. Absent/broken sports.json → the section simply never appears. -->
+<script>
+(function () {
+  var SPORT = {
+    golf:       { label: 'GOLF',    color: 'oklch(0.55 0.11 145)' },
+    tennis:     { label: 'TENNIS',  color: 'oklch(0.58 0.12 105)' },
+    soccer:     { label: 'SOCCER',  color: 'oklch(0.55 0.11 250)' },
+    motorsport: { label: 'F1',      color: 'oklch(0.55 0.17 28)' },
+    basketball: { label: 'NBA',     color: 'oklch(0.60 0.14 55)' },
+    other:      { label: 'SPORT',   color: '#8B8173' }
+  };
+  var STATUS = {
+    live:     { label: 'LIVE NOW',  color: 'oklch(0.55 0.17 28)' },
+    upcoming: { label: 'UPCOMING',  color: 'oklch(0.55 0.15 42)' },
+    result:   { label: 'RESULT',    color: '#8B8173' }
+  };
+  var ORDER = { live: 0, upcoming: 1, result: 2 };
+
+  function el(tag, css, text) {
+    var e = document.createElement(tag);
+    if (css) e.style.cssText = css;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function daysOld(iso) {
+    var t = Date.parse(iso);
+    if (!t) return null;
+    return Math.floor((Date.now() - t) / 86400000);
+  }
+
+  function build(doc) {
+    if (!doc || !Array.isArray(doc.items) || !doc.items.length) return;
+    if (document.getElementById('aidb-sports')) return;
+
+    var outer = el('section', 'color:#211C15;font-family:"Schibsted Grotesk",sans-serif;margin:56px 0 0;');
+    outer.id = 'aidb-sports';
+    var wrap = el('div', '');
+
+    // Header
+    var head = el('div', 'display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;font:600 11px/1 "IBM Plex Mono",monospace;letter-spacing:.12em;color:#8B8173;text-transform:uppercase;');
+    head.appendChild(el('span', null, 'Sports watch'));
+    var age = daysOld(doc.generatedAt);
+    var stamp = doc.dateLabel + (age != null && age >= 3 ? '  ·  scanned ' + age + 'd ago' : '');
+    head.appendChild(el('span', 'letter-spacing:.06em;', stamp));
+    wrap.appendChild(head);
+    wrap.appendChild(el('div', 'height:1px;background:#DDD4C4;margin:12px 0 6px;'));
+    wrap.appendChild(el('p', 'margin:0 0 18px;font:400 12px/1.6 "IBM Plex Mono",monospace;color:#A89E8D;', 'Not AI — the events worth an alarm from Japan. Times in JST.'));
+
+    // Items, ordered live → upcoming → result
+    var items = doc.items.slice().sort(function (a, b) {
+      return (ORDER[a.status] == null ? 3 : ORDER[a.status]) - (ORDER[b.status] == null ? 3 : ORDER[b.status]);
+    });
+
+    items.forEach(function (it) {
+      var sp = SPORT[it.sport] || SPORT.other;
+      var st = STATUS[it.status] || STATUS.result;
+      var card = el('article', 'background:#FBF8F1;border:1px solid #E3DACB;border-radius:14px;padding:14px 16px;margin-bottom:10px;');
+
+      var top = el('div', 'display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px;font:600 10px/1 "IBM Plex Mono",monospace;letter-spacing:.08em;');
+      top.appendChild(el('span', 'color:' + sp.color + ';', sp.label));
+      top.appendChild(el('span', 'color:' + st.color + ';padding:3px 8px;border-radius:999px;border:1px solid currentColor;', st.label));
+      if (it.whenJst) top.appendChild(el('span', 'color:#8B8173;letter-spacing:.04em;', it.whenJst));
+      card.appendChild(top);
+
+      card.appendChild(el('h3', 'margin:0 0 6px;font:600 16px/1.35 "Schibsted Grotesk",sans-serif;color:#211C15;', it.event));
+      card.appendChild(el('p', 'margin:0;font:400 13px/1.6 "Schibsted Grotesk",sans-serif;color:#5A5347;', it.line));
+
+      if (it.sources && it.sources.length) {
+        var links = el('div', 'display:flex;flex-wrap:wrap;gap:12px;margin-top:10px;font:500 11px/1.4 "IBM Plex Mono",monospace;');
+        it.sources.forEach(function (s) {
+          var a = el('a', 'color:#8B8173;text-decoration:none;border-bottom:1px solid #DDD4C4;', '↗ ' + s.name);
+          a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+          a.title = s.title;
+          links.appendChild(a);
+        });
+        card.appendChild(links);
+      }
+      wrap.appendChild(card);
+    });
+
+    outer.appendChild(wrap);
+    mount(outer);
+    watch(outer);
+  }
+
+  // Place it just after the briefing's footer, inside the 880px column. (It can't
+  // simply be appended to <body>: the app's root box doesn't report the height of
+  // its own content, so a body-level sibling lands on top of the story cards.)
+  function mount(node) {
+    var footer = document.querySelector('footer');
+    if (footer && footer.parentNode) footer.parentNode.insertBefore(node, footer.nextSibling);
+    else document.body.appendChild(node);
+  }
+
+  // The app re-renders on every filter/expand click and can drop our node with it.
+  // Re-attach it when that happens instead of polling.
+  function watch(node) {
+    if (!window.MutationObserver) return;
+    var pending = false;
+    new MutationObserver(function () {
+      if (pending || document.getElementById('aidb-sports')) return;
+      pending = true;
+      setTimeout(function () { pending = false; if (!document.getElementById('aidb-sports')) mount(node); }, 60);
+    }).observe(document.body, { childList: true, subtree: true });
+  }
+
+  function init() {
+    fetch('sports.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (doc) { whenReady(function () { build(doc); }); })
+      .catch(function () {});
+  }
+
+  // The app mounts asynchronously; don't insert before its footer exists.
+  function whenReady(fn, waited) {
+    waited = waited || 0;
+    if (document.querySelector('footer') || waited > 10000) return fn();
+    setTimeout(function () { whenReady(fn, waited + 200); }, 200);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
 <!-- Free-text "how did today land?" note. Self-contained; posts { signal:"note",
      note, edition, ts } to the feedback endpoint, which stores it in Supabase. -->
 <script>

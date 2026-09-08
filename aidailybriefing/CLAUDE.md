@@ -162,6 +162,20 @@ Rollout plan: manual `/daily-briefing` test run → compare vs API edition → s
 (cloud routine preferred) → disable `daily-briefing.yml` cron (keep as manual
 fallback). The API pipeline (run.js) stays untouched as fallback until proven.
 
+## Sports watch (added 2026-09-08)
+
+Joesh asked for *"top sports news from around the world... specific to any important
+events going on"* — a close PGA leaderboard, a tennis draw reaching the finals, a big
+upcoming soccer match — because *"these sports that i dont get much updates on being in
+japan."* Explicitly: **NBA and F1 he follows himself** (*"doesnt need to be a daily
+rundown on that. (just when a big tournament or important match is upcoming)"*), and
+*"This also doesnt have to be updated daily, and isnt the priority."*
+
+→ Built as a **separate lane**, not a briefing category: own schema, own file
+(`sports.json`), own publish gate, own page section, and failure-isolated so it can
+never affect the AI edition. Times are converted to **JST** — the whole point is
+knowing when to set an alarm from Japan. See ARCHITECTURE.md and preferences.md.
+
 ## Quick status (as of 2026-06-28)
 - ✅ Daily briefing live + reliable (retry-hardened), v2 parallel agents shipped.
 - ✅ Past-editions archive (`?date=` + picker), JST dating.

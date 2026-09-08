@@ -58,6 +58,20 @@
   (e.g. `terminated` = mid-stream connection drop).
 - The workflow then `git add` + commit + push → Vercel deploys.
 
+### Sports watch (added 2026-09-08) — a SEPARATE, secondary lane
+- A 6th subagent in the same parallel spawn (Claude Code engine only — the API
+  pipeline `run.js` has no sports beat and doesn't need one).
+- Contract: `schema/sports.schema.json` → `public/AiDailyBriefing/sports.json`
+  (`{schemaVersion, generatedAt, dateLabel, items[{id,sport,status,event,line,whenJst,sources}]}`).
+- Gate: `agent/publish-sports.js` (`--check` first, then publish) — same grounding
+  rule (strip 404/dead links, keep 403), NO dated archive (it's a rolling watchlist,
+  allowed to be stale; the page prints "scanned Nd ago" past 3 days).
+- Rendered by a self-contained script at the bottom of `public/AiDailyBriefing/index.html`,
+  appended to `document.body` OUTSIDE the React tree — a re-render can't wipe it, and a
+  missing/broken `sports.json` simply renders nothing.
+- **Failure-isolated by design:** sports never blocks, delays, or fails the AI edition,
+  and never consumes one of the 9 story slots.
+
 ### Support modules (not standalone agents)
 - `agent/prompt.js` — all prompt builders + `BEATS`.
 - `agent/verify-sources.js` — link checker; `verifySources()` returns per-URL

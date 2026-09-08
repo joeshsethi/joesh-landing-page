@@ -101,6 +101,15 @@ To close the loop, the feedback agent must:
   as good as the data. Joesh should use the 👍/👎/★ and the note box for a week or two
   before this is worth building. (Stated this session; he agreed.)
 
+## ✅ DONE (2026-09-08): Sports watch
+A secondary, failure-isolated lane added at Joesh's request (golf/tennis/soccer he
+can't follow from Japan; NBA/F1 only for big moments; JST times; explicitly "isnt
+the priority" and needn't be daily). New: `schema/sports.schema.json`,
+`agent/publish-sports.js`, a 6th subagent in the `/daily-briefing` skill, and a
+section under the briefing in `public/AiDailyBriefing/index.html`.
+- Possible follow-ups if he wants them: a "remind me" link that adds a fixture to
+  his calendar (.ics), or filtering the strip to only what's within the next 72h.
+
 ## Other backlog items (lower priority, noted this session)
 - **Curated source list** in `preferences.md` (The Information, Stratechery, Bloomberg/
   Reuters/Nikkei, lab blogs, arXiv, Crunchbase/VC firms) to push "better than Google."

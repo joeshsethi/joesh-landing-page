@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-08T09:30:00.000Z",
+  "dateLabel": "Tue · Sep 8 2026",
+  "items": [
+    {
+      "id": "s1",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "US Open women's singles final",
+      "line": "Sabalenka is the two-time defending champion and top seed, but the quarters are loaded: Sabalenka-Nosková, Pegula-Navarro, Gauff-Andreeva, Zheng-Rybakina. Semi-finals Thu Sep 10 in New York (Fri Sep 11 JST).",
+      "whenJst": "Sun Sep 13 · 05:00 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "2026 US Open Women's Singles Draw",
+          "url": "https://www.espn.com/tennis/us-open/bracket/_/competitionType/2/season/2026"
+        },
+        {
+          "name": "WTA",
+          "title": "US Open 2026: Dates, draws, schedule, prize money and everything to know",
+          "url": "https://www.wtatennis.com/news/4565225/us-open-2026-dates-draws-schedule-prize-money-and-everything-to-know"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "US Open men's singles final",
+      "line": "The last major of the year. Sinner skipped the tournament and Djokovic went out in round one, leaving top seed Zverev and defending champion Alcaraz as the headliners. Semi-finals Fri Sep 11, 15:00 and 19:00 ET (Sat Sep 12, 04:00 and 08:00 JST).",
+      "whenJst": "Mon Sep 14 · 03:00 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "US Open quarterfinal preview: Can Shelton topple Alcaraz?",
+          "url": "https://www.espn.com/tennis/story/_/id/49854593/us-open-2026-americans-carlos-alcaraz-ben-shelton-frances-tiafoe-alex-michelsen"
+        },
+        {
+          "name": "ATP Tour",
+          "title": "US Open 2026: Draws, Dates, History & All You Need To Know",
+          "url": "https://www.atptour.com/en/news/us-open-2026-history-draw-schedule"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Champions League Matchday 1 — Real Madrid vs Inter, Porto vs Man City",
+      "line": "The 2026/27 league phase opens. Real Madrid host Inter and Porto face Manchester City in the 21:00 CET slot, with Dortmund vs Villarreal alongside. Club Brugge vs Aston Villa goes earlier, 18:45 CET (01:45 JST).",
+      "whenJst": "Wed Sep 9 · 04:00 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "Champions League schedule: Real Madrid open league phase vs. Inter Milan",
+          "url": "https://www.espn.com/soccer/story/_/id/49765490/champions-league-schedule-real-madrid-inter-psg-arsenal-liverpool"
+        },
+        {
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Champions League Matchday 1 — Liverpool vs Atlético, Napoli vs Arsenal",
+      "line": "The better of the two opening nights: Liverpool host Atlético Madrid and Napoli host Arsenal at 21:00 CET, plus PSG vs Slovan Bratislava. Barcelona vs Feyenoord kicks off earlier, 18:45 CET (01:45 JST).",
+      "whenJst": "Thu Sep 10 · 04:00 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "Champions League schedule: Real Madrid open league phase vs. Inter Milan",
+          "url": "https://www.espn.com/soccer/story/_/id/49765490/champions-league-schedule-real-madrid-inter-psg-arsenal-liverpool"
+        },
+        {
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Premier League — Manchester United vs Manchester City, Old Trafford",
+      "line": "The season's first Manchester derby, 16:30 UK at Old Trafford — and United's first home derby without Guardiola in the opposite dugout since 2015/16. Late Sunday night in Japan, just before the US Open men's final.",
+      "whenJst": "Mon Sep 14 · 00:30 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "Man United vs. Man City (Sep 13, 2026) Live Score",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401879278/manchester-city-manchester-united"
+        },
+        {
+          "name": "Premier League",
+          "title": "All 380 fixtures for 2026/27 Premier League season",
+          "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "sport": "golf",
+      "status": "upcoming",
+      "event": "Presidents Cup — Medinah No. 3, Illinois",
+      "line": "Rosters closed Sep 1. Snedeker's USA side is Scheffler, Schauffele, Thomas, Cantlay, Morikawa, Young, Clark, Henley, Burns plus rookies Koivun, Bridgeman and Gotterup. Ogilvy's International team added Ryo Hisatsune, Sungjae Im, Conners, Taylor, Echavarria and Bezuidenhout.",
+      "whenJst": "Fri Sep 25 – Mon Sep 28 JST (overnight; Sep 24-27 US)",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "New pro Jackson Koivun added to U.S. Presidents Cup team",
+          "url": "https://www.espn.com/golf/story/_/id/49796966/new-pro-jackson-koivun-added-us-presidents-cup-team"
+        },
+        {
+          "name": "PGA Tour",
+          "title": "U.S. Team Captain Brandt Snedeker announces six picks for 2026 Presidents Cup",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
+        }
+      ]
+    }
+  ]
+}

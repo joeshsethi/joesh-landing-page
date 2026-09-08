@@ -89,11 +89,33 @@ what sparks his own ideas, pitches, and sense of where things are heading.
 - Plain, honest, no hype. Always include the caveat / reality check.
 - Real numbers and dates over adjectives.
 
+## Sports watch (SEPARATE from the briefing — does not use a story slot)
+
+A small strip under the edition, its own file (`sports.json`) and schema. It exists
+because living in Japan means losing touch with events that air at odd hours. It is
+explicitly NOT a priority and NOT required to be daily — a stale scan is fine, and
+the page shows how old it is.
+- Cover: **golf** (majors/PGA — close leaderboards, final rounds), **tennis** (Slam /
+  tour finals stages), **soccer** (big upcoming fixtures: UCL, title-deciders,
+  internationals). These are the ones he doesn't get updates on.
+- He follows **NBA and F1** closely himself → only flag the big moments (playoffs/
+  Finals, a title-deciding or landmark race). No routine rundowns.
+- Bias to what's UPCOMING, not recaps. **Always convert times to JST** — the point is
+  knowing when to set an alarm.
+- 3-6 items, one or two sentences each. Never let a sports failure affect the briefing.
+- **Sources: ESPN first**, then BBC Sport / Sky Sports, then the tours themselves (PGA
+  Tour, ATP/WTA, UEFA/FIFA), then Reuters/AP. His steer: *"prioritize sites like ESPN
+  which gives you the overview already, instead of wiki links. more reliable."* Those
+  pages carry the live leaderboard / draw / fixture list, so one link answers the item.
+  **Never Wikipedia or wiki mirrors** — stale for anything in progress.
+
 ## Change log (edit as you learn what you want)
 - 2026-06-18 — Initial preferences seeded from the project brief.
 - 2026-06-26 — Broadened scope: actively cover emerging/early-stage companies, new AI
   tools, and VC/funding flows (SF + NY, and new funds/startups in Japan), framed around
   opportunity. Added an anti-repetition rule for frontier-giant news.
+- 2026-09-08 — Added the Sports watch (separate file/schema/section; golf + tennis +
+  soccer priority, NBA/F1 only for big moments, JST times, not daily-critical).
 - 2026-07-14 — v3: added the "better than Google" quality bar, curated source priors,
   explicit US↔Japan comparison framing on every Japan story, a hard 9-story cap, and a
   stronger builder/opportunity lens. Prep for the Claude Code engine (subscription-side

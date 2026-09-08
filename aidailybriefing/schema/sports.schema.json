@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://joeshsethi.com/AiDailyBriefing/sports.schema.json",
+  "title": "Sports Watch — schema v1",
+  "description": "A small, secondary watchlist rendered under the AI briefing: what's live, close, or worth setting an alarm for, with JST times. Deliberately NOT a news feed — it exists so Joesh (in Japan) doesn't lose touch with the events he can't easily follow there.",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "dateLabel", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "dateLabel": {
+      "type": "string",
+      "minLength": 1,
+      "description": "JST label of when this scan ran, e.g. 'Tue · Sep 8 2026'."
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["id", "sport", "status", "event", "line"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z][a-z0-9]*$" },
+          "sport": {
+            "enum": ["golf", "tennis", "soccer", "motorsport", "basketball", "other"]
+          },
+          "status": {
+            "enum": ["live", "upcoming", "result"],
+            "description": "live = in progress / final round today · upcoming = set an alarm · result = just finished, worth knowing."
+          },
+          "event": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The specific event or fixture, e.g. 'US Open final — Alcaraz vs Sinner'."
+          },
+          "line": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 320,
+            "description": "1-2 sentences: the state of play and what's at stake. No padding."
+          },
+          "whenJst": {
+            "type": "string",
+            "minLength": 1,
+            "description": "When it happens in JST so it's actually watchable from Japan, e.g. 'Sun Sep 13 · 05:00 JST'. Omit for a finished result."
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 0,
+            "maxItems": 3,
+            "items": {
+              "type": "object",
+              "required": ["name", "title", "url"],
+              "additionalProperties": false,
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "title": { "type": "string", "minLength": 1 },
+                "url": { "type": "string", "format": "uri", "pattern": "^https?://" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

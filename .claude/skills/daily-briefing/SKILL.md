@@ -38,9 +38,9 @@ Paths (repo root = the project working directory):
    edition: increment the edition number and publish — it overwrites that
    date's file with newer news.
 
-## Step 2 — Research (5 beats, subagents IN PARALLEL, single message)
+## Step 2 — Research (5 AI beats + 1 sports scan, subagents IN PARALLEL, single message)
 
-Spawn 5 subagents in ONE message so they run concurrently. Omit the model param
+Spawn all 6 subagents in ONE message so they run concurrently. Omit the model param
 (they inherit the session's top-tier model). Each subagent prompt must contain:
 its beat focus below, the FULL text of preferences.md, the recent headlines to
 avoid repeating, the sourcing rules, and the output contract.
@@ -64,6 +64,27 @@ Beats:
    government policy, semiconductors (Rapidus, TSMC-Japan), Japanese startups, new
    VC/funds entering Japan. EVERY item must locate Japan vs the US/global frontier
    (the gap and the opportunity). Any cat; region MUST be `japan`.
+6. **sports** (SEPARATE OUTPUT — see below) — NOT part of the briefing. A short
+   watchlist so Joesh, living in Japan, doesn't lose touch. Rules:
+   - PRIORITY (he gets little coverage of these): **golf** (majors/PGA — tight
+     leaderboards, who's in contention going into a final round), **tennis**
+     (Slam/ATP-WTA finals stages, marquee matchups), **soccer** (big upcoming
+     fixtures — UCL knockouts, title-deciding league games, internationals).
+   - DE-PRIORITIZED, he follows these himself: **NBA/basketball** and **F1** — include
+     ONLY for a genuinely big moment (playoffs/Finals, a championship-deciding or
+     landmark race, a major driver/team move). Never a routine daily rundown.
+   - Prefer things that HAVEN'T happened yet (set-an-alarm value) over recaps; include
+     a just-finished `result` only when it's the thing everyone's talking about.
+   - **Every time must be converted to JST** (`whenJst`) — that's the whole point.
+   - 3-6 items MAX. If nothing is genuinely notable, return `{ "items": [] }` — an
+     empty scan is a valid, honest answer.
+   - **SOURCES — prioritise sports sites that already give the overview, in this order:
+     ESPN first, then BBC Sport / Sky Sports, then the tours and governing bodies
+     themselves (PGA Tour, ATP/WTA, UEFA/FIFA), then Reuters/AP.** These carry live
+     leaderboards, draws, fixture lists and start times — one page usually answers the
+     whole item. **NEVER cite Wikipedia** (or any wiki/fandom mirror): it lags real
+     time, and a tournament's wiki page is not where you check who's in contention.
+     A link should take Joesh somewhere he'd actually want to land.
 
 Sourcing rules (put verbatim in every subagent prompt — non-negotiable):
 - Only cite a URL you actually saw in a search/fetch result — copy it exactly.
@@ -86,9 +107,25 @@ Output contract (per subagent — final message is ONLY this JSON, no fences):
   "sources": [{ "name": "Outlet", "title": "Exact article title", "url": "https://…" }],
   "tags": ["Tag1", "Tag2"] } ] }
 ```
-Each subagent returns 5-7 candidates. If a subagent fails or returns garbage, retry
-it once; if it still fails, drop that beat and proceed. If fewer than 2 beats
-succeed, ABORT without publishing (yesterday's edition stays live) and report why.
+Each of the 5 AI subagents returns 5-7 candidates. If a subagent fails or returns
+garbage, retry it once; if it still fails, drop that beat and proceed. If fewer than 2
+AI beats succeed, ABORT without publishing (yesterday's edition stays live) and report
+why.
+
+The **sports** subagent uses a DIFFERENT contract (its final message is ONLY this JSON):
+```json
+{ "items": [ {
+  "id": "s1", "sport": "golf|tennis|soccer|motorsport|basketball|other",
+  "status": "live|upcoming|result",
+  "event": "US Open final — Alcaraz vs Sinner",
+  "line": "1-2 sentences: state of play and what's at stake (≤320 chars)",
+  "whenJst": "Sun Sep 13 · 05:00 JST",
+  "sources": [{ "name": "ESPN", "title": "Exact article title", "url": "https://…" }] } ] }
+```
+Sports is **strictly secondary and failure-isolated**: if it fails, returns garbage, or
+returns zero items, DO NOT retry and DO NOT block the edition — skip Step 4b entirely
+(the previous `sports.json` stays live, and the page prints its scan age). A sports
+problem must never delay or fail the AI briefing.
 
 ## Step 3 — Edit (you, no new searching)
 
@@ -123,11 +160,24 @@ From `aidailybriefing/`:
    - Writes briefing.json + dated archive + editions.json into
      `public/AiDailyBriefing/` and journals to `decisions.md`.
 
+## Step 4b — Sports (OPTIONAL, only if the sports beat returned items)
+
+Write the sports subagent's JSON to `aidailybriefing/tmp/claude-run/sports.json`,
+adding `"schemaVersion": 1`, `"generatedAt"` (ISO now) and `"dateLabel"` (the JST
+label from Step 1). Then, from `aidailybriefing/`:
+1. `node agent/publish-sports.js --check tmp/claude-run/sports.json`
+   (exit 3 = broken links → replace with a real URL from a search result, or drop
+   that link; ONE repair round, then move on.)
+2. `node agent/publish-sports.js tmp/claude-run/sports.json` → writes `sports.json`.
+
+There is no dated archive — it's a rolling watchlist, not an edition. **Any failure
+here is a shrug: log it, skip it, continue to Step 5.** Never let it fail the run.
+
 ## Step 5 — Deploy
 
 Always `git -C <repo-root>` (never bare git — the home dir is a stray repo):
 1. `git -C <repo> pull --rebase --autostash origin main`
-2. `git -C <repo> add public/AiDailyBriefing/briefing.json public/AiDailyBriefing/briefing-*.json public/AiDailyBriefing/editions.json aidailybriefing/decisions.md`
+2. `git -C <repo> add public/AiDailyBriefing/briefing.json public/AiDailyBriefing/briefing-*.json public/AiDailyBriefing/editions.json public/AiDailyBriefing/sports.json aidailybriefing/decisions.md`
 3. Commit: `chore: daily AI briefing <dateStamp> (claude code)` — then push
    `origin main`. On push failure: re-rebase and retry (up to 3).
 Vercel auto-deploys. Optionally curl the live briefing.json to confirm.
@@ -135,4 +185,5 @@ Vercel auto-deploys. Optionally curl the live briefing.json to confirm.
 ## Step 6 — Report
 
 Tell Joesh: edition number/title, story count (global/JP), link-check result, and
-the 1-2 most interesting finds. Plain, no hype.
+the 1-2 most interesting finds. Plain, no hype. Add ONE line on the sports watch
+(how many items, or that it was skipped and why) — one line, not a section.
