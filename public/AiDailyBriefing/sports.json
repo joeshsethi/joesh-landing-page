@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T20:19:32Z",
-  "dateLabel": "Wed · Sep 09 2026",
+  "generatedAt": "2026-09-09T20:19:19Z",
+  "dateLabel": "Thu · Sep 10 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Champions League matchday 1 — Liverpool vs Atletico Madrid, Napoli vs Arsenal",
-      "line": "League-phase openers: Liverpool host Simeone's Atletico at Anfield; Arsenal (perfect Premier League start, fresh off beating Chelsea) travel to a shaky Napoli that's lost 2 of its last 3 in Serie A.",
-      "whenJst": "Thu Sep 10 · 04:00 JST",
+      "event": "US Open men's semifinal — all-American final guaranteed",
+      "line": "Ben Shelton stunned Carlos Alcaraz in a 5-set epic to reach the semis, where he faces fellow American Frances Tiafoe — the first all-American men's US Open final since 2003. Semis Friday; final Sunday.",
+      "whenJst": "Sat Sep 12 · 04:00/08:00 JST (semifinal)",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Liverpool vs. Atletico Madrid: TV channel, how to watch, kick-off time, team news",
-          "url": "https://www.espn.com/soccer/story/_/id/49857948/liverpool-vs-atletico-madrid-2026-27-uefa-champions-leaguetv-channel-how-watch-kick-live-stream-referee-injury-predicted-lineups"
+          "title": "How Shelton defeated Alcaraz -- and what it means for the US Open",
+          "url": "https://www.espn.com/tennis/story/_/id/49876520/us-open-2026-americans-ben-shelton-carlos-alcaraz-upset-quarterfinals"
         },
         {
-          "name": "UEFA.com",
-          "title": "Napoli vs Arsenal: UEFA Champions League 2026/27 League phase",
-          "url": "https://www.uefa.com/uefachampionsleague/match/2049563--napoli-vs-arsenal/"
+          "name": "ESPN",
+          "title": "Tiafoe makes semis with stunning US Open comeback last done by Federer",
+          "url": "https://www.espn.com/tennis/story/_/id/49873533/frances-tiafoe-rallies-alex-michelsen-5-sets-make-2026-us-open-semifinals"
         }
       ]
     },
@@ -27,64 +27,64 @@
       "id": "s2",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "US Open women's semifinals",
-      "line": "Defending champ Aryna Sabalenka (vs Linda Noskova in the QF) looks to reach a third straight US Open final; Pegula/Navarro on the other side. The women's title is wide open this year.",
-      "whenJst": "Fri Sep 11 · 08:00 JST",
+      "event": "US Open women's final — Sabalenka chasing a three-peat",
+      "line": "Sabalenka outlasted Linda Noskova in a deciding-set tiebreak to reach her sixth straight US Open semifinal, bidding to become the first women's three-peat champion since Serena Williams.",
+      "whenJst": "Sun Sep 13 · 05:00 JST (final)",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "US Open 2026: Order of Play and match schedule for Arthur Ashe Stadium, Louis Armstrong Stadium and more",
-          "url": "https://www.skysports.com/tennis/news/32832/13577913/us-open-2026-order-of-play-and-match-schedule-for-arthur-ashe-stadium-louis-armstrong-stadium-and-more"
+          "title": "US Open 2026: Aryna Sabalenka edges into semi-finals with three-set win over Linda Noskova in thriller",
+          "url": "https://www.skysports.com/tennis/news/32833/13583242/us-open-2026-aryna-sabalenka-edges-into-semi-finals-with-three-set-win-over-linda-noskova-in-thriller"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "US Open men's semifinals",
-      "line": "World No.1 Sinner withdrew with a knee injury, so defending champion Carlos Alcaraz (2-seed, coming off a QF vs Shelton) is the man to beat, with an American guaranteed a semifinal spot via Tiafoe/Michelsen.",
-      "whenJst": "Sat Sep 12 · 04:00 JST",
+      "event": "Champions League MD1 — Liverpool vs Atletico Madrid",
+      "line": "Liverpool, perfect through four Premier League games under new boss Andoni Iraola, open their Champions League campaign hosting a struggling Atletico Madrid at Anfield.",
+      "whenJst": "Thu Sep 10 · 04:00 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Jannik Sinner withdraws from US Open due to knee injury",
-          "url": "https://www.espn.com/tennis/story/_/id/49681192/jannik-sinner-withdraws-us-open-due-knee-injury"
-        },
-        {
-          "name": "Sky Sports",
-          "title": "US Open 2026: Order of Play and match schedule for Arthur Ashe Stadium, Louis Armstrong Stadium and more",
-          "url": "https://www.skysports.com/tennis/news/32832/13577913/us-open-2026-order-of-play-and-match-schedule-for-arthur-ashe-stadium-louis-armstrong-stadium-and-more"
+          "title": "Liverpool vs. Atletico Madrid: TV channel, how to watch in UK, kick-off time, live stream, team news, referee, predicted line-ups",
+          "url": "https://www.espn.com/soccer/story/_/id/49857948/liverpool-vs-atletico-madrid-2026-27-uefa-champions-leaguetv-channel-how-watch-kick-live-stream-referee-injury-predicted-lineups"
         }
       ]
     },
     {
       "id": "s4",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "US Open women's final",
-      "line": "The last Grand Slam final of the year. Sabalenka is chasing a third consecutive US Open title on Arthur Ashe.",
-      "whenJst": "Sun Sep 13 · 05:00 JST",
+      "event": "Champions League MD1 — Napoli vs Arsenal",
+      "line": "Unbeaten Arsenal travel to Naples to face a Napoli side under early pressure on new boss Allegri and missing regular midfielders McTominay and Anguissa.",
+      "whenJst": "Thu Sep 10 · 04:00 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "US Open: Draw, schedule, results from the final Grand Slam tournament of 2026 at Flushing Meadows in New York",
-          "url": "https://www.skysports.com/tennis/news/32833/13577827/us-open-draw-schedule-results-from-the-final-grand-slam-tournament-of-2026-at-flushing-meadows-in-new-york"
+          "name": "ESPN",
+          "title": "Napoli facing midfielder shortage for Arsenal Champions League clash",
+          "url": "https://www.espn.com/soccer/story/_/id/49870536/napoli-midfielder-arsenal-champions-league-allegri-mctominay"
         }
       ]
     },
     {
       "id": "s5",
-      "sport": "tennis",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "US Open men's final",
-      "line": "With Sinner out injured, Alcaraz is the heavy favorite to close out the season's last major without having to go through his usual rival.",
-      "whenJst": "Mon Sep 14 · 03:00 JST",
+      "event": "Presidents Cup — USA vs International, Medinah",
+      "line": "Scottie Scheffler headlines a loaded US side against an International team featuring Japan's Hideki Matsuyama and Ryo Hisatsune, over four days of team match play.",
+      "whenJst": "Thu Sep 24 – Sun Sep 27 · Day 1 tees off pre-dawn JST Fri (~00:35)",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "US Open: Draw, schedule, results from the final Grand Slam tournament of 2026 at Flushing Meadows in New York",
-          "url": "https://www.skysports.com/tennis/news/32833/13577827/us-open-draw-schedule-results-from-the-final-grand-slam-tournament-of-2026-at-flushing-meadows-in-new-york"
+          "name": "PGA Tour",
+          "title": "U.S. Team Captain Brandt Snedeker announces six picks for 2026 Presidents Cup",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
+        },
+        {
+          "name": "PGA Tour",
+          "title": "International Team Captain Geoff Ogilvy announces six picks for 2026 Presidents Cup",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-international-team-heading-to-the-presidents-cup-medinah-roster"
         }
       ]
     }
