@@ -1,25 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T20:19:32Z",
-  "dateLabel": "Wed · Sep 09 2026",
+  "generatedAt": "2026-09-10T20:17:39Z",
+  "dateLabel": "Fri · Sep 11 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Champions League matchday 1 — Liverpool vs Atletico Madrid, Napoli vs Arsenal",
-      "line": "League-phase openers: Liverpool host Simeone's Atletico at Anfield; Arsenal (perfect Premier League start, fresh off beating Chelsea) travel to a shaky Napoli that's lost 2 of its last 3 in Serie A.",
-      "whenJst": "Thu Sep 10 · 04:00 JST",
+      "event": "US Open: Shelton vs. Tiafoe (men's SF)",
+      "line": "All-American men's semifinal at Arthur Ashe — Shelton, fresh off a five-set upset of Alcaraz, faces Tiafoe with an American man guaranteed a Slam final for the first time since 2024.",
+      "whenJst": "Sat Sep 12 · 04:00 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Liverpool vs. Atletico Madrid: TV channel, how to watch, kick-off time, team news",
-          "url": "https://www.espn.com/soccer/story/_/id/49857948/liverpool-vs-atletico-madrid-2026-27-uefa-champions-leaguetv-channel-how-watch-kick-live-stream-referee-injury-predicted-lineups"
-        },
-        {
-          "name": "UEFA.com",
-          "title": "Napoli vs Arsenal: UEFA Champions League 2026/27 League phase",
-          "url": "https://www.uefa.com/uefachampionsleague/match/2049563--napoli-vs-arsenal/"
+          "title": "How Shelton defeated Alcaraz -- and what it means for the US Open",
+          "url": "https://www.espn.com/tennis/story/_/id/49876520/us-open-2026-americans-ben-shelton-carlos-alcaraz-upset-quarterfinals"
         }
       ]
     },
@@ -27,9 +22,9 @@
       "id": "s2",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "US Open women's semifinals",
-      "line": "Defending champ Aryna Sabalenka (vs Linda Noskova in the QF) looks to reach a third straight US Open final; Pegula/Navarro on the other side. The women's title is wide open this year.",
-      "whenJst": "Fri Sep 11 · 08:00 JST",
+      "event": "US Open Women's Final",
+      "line": "Aryna Sabalenka, chasing a third straight US Open title, meets the winner to emerge from a semifinal field that had all four women's top seeds — Pegula, Rybakina and Gauff included — for the first time since 1975.",
+      "whenJst": "Sun Sep 13 · 05:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
@@ -42,49 +37,29 @@
       "id": "s3",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "US Open men's semifinals",
-      "line": "World No.1 Sinner withdrew with a knee injury, so defending champion Carlos Alcaraz (2-seed, coming off a QF vs Shelton) is the man to beat, with an American guaranteed a semifinal spot via Tiafoe/Michelsen.",
-      "whenJst": "Sat Sep 12 · 04:00 JST",
+      "event": "US Open Men's Final",
+      "line": "Shelton or Tiafoe plays for the title — the first American man in a major final since Taylor Fritz in 2024, with a shot at ending the men's Slam drought stretching back to Andy Roddick's 2003 US Open win.",
+      "whenJst": "Mon Sep 14 · 03:00 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Jannik Sinner withdraws from US Open due to knee injury",
-          "url": "https://www.espn.com/tennis/story/_/id/49681192/jannik-sinner-withdraws-us-open-due-knee-injury"
-        },
-        {
-          "name": "Sky Sports",
-          "title": "US Open 2026: Order of Play and match schedule for Arthur Ashe Stadium, Louis Armstrong Stadium and more",
-          "url": "https://www.skysports.com/tennis/news/32832/13577913/us-open-2026-order-of-play-and-match-schedule-for-arthur-ashe-stadium-louis-armstrong-stadium-and-more"
+          "title": "Tiafoe, Michelsen, Shelton lead U.S. march into Open quarters",
+          "url": "https://www.espn.com/tennis/story/_/id/49854069/us-men-continue-run-ending-grand-slam-drought-open"
         }
       ]
     },
     {
       "id": "s4",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "US Open women's final",
-      "line": "The last Grand Slam final of the year. Sabalenka is chasing a third consecutive US Open title on Arthur Ashe.",
-      "whenJst": "Sun Sep 13 · 05:00 JST",
+      "event": "Manchester United vs. Manchester City",
+      "line": "Premier League's first Manchester derby of the season at Old Trafford — City arrive with a perfect start and top the table; United, mid-table, look to spoil it at home.",
+      "whenJst": "Mon Sep 14 · 00:30 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "US Open: Draw, schedule, results from the final Grand Slam tournament of 2026 at Flushing Meadows in New York",
-          "url": "https://www.skysports.com/tennis/news/32833/13577827/us-open-draw-schedule-results-from-the-final-grand-slam-tournament-of-2026-at-flushing-meadows-in-new-york"
-        }
-      ]
-    },
-    {
-      "id": "s5",
-      "sport": "tennis",
-      "status": "upcoming",
-      "event": "US Open men's final",
-      "line": "With Sinner out injured, Alcaraz is the heavy favorite to close out the season's last major without having to go through his usual rival.",
-      "whenJst": "Mon Sep 14 · 03:00 JST",
-      "sources": [
-        {
-          "name": "Sky Sports",
-          "title": "US Open: Draw, schedule, results from the final Grand Slam tournament of 2026 at Flushing Meadows in New York",
-          "url": "https://www.skysports.com/tennis/news/32833/13577827/us-open-draw-schedule-results-from-the-final-grand-slam-tournament-of-2026-at-flushing-meadows-in-new-york"
+          "name": "Manchester City FC",
+          "title": "Man United v Man City - 13 Sept 2026",
+          "url": "https://www.mancity.com/matchday/fixtures/mens/2026/premier-league/man-united-v-man-city-13-sept-2026"
         }
       ]
     }
