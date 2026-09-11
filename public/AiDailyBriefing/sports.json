@@ -1,65 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T20:17:39Z",
-  "dateLabel": "Fri · Sep 11 2026",
+  "generatedAt": "2026-09-11T20:18:10Z",
+  "dateLabel": "Sat · Sep 12 2026",
   "items": [
     {
       "id": "s1",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "US Open: Shelton vs. Tiafoe (men's SF)",
-      "line": "All-American men's semifinal at Arthur Ashe — Shelton, fresh off a five-set upset of Alcaraz, faces Tiafoe with an American man guaranteed a Slam final for the first time since 2024.",
-      "whenJst": "Sat Sep 12 · 04:00 JST",
+      "event": "US Open final — Sabalenka vs Rybakina",
+      "line": "No.1 Sabalenka bids to become the first three-peat champion at Flushing Meadows since Serena Williams (2012-14); No.2 Rybakina, who beat her in this year's Australian Open final, is the first World No.2 to meet the top seed in a US Open final since 2013.",
+      "whenJst": "Sun Sep 13 · 05:00 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "How Shelton defeated Alcaraz -- and what it means for the US Open",
-          "url": "https://www.espn.com/tennis/story/_/id/49876520/us-open-2026-americans-ben-shelton-carlos-alcaraz-upset-quarterfinals"
+          "title": "Experts' picks: Who will win the US Open women's title?",
+          "url": "https://www.espn.com/tennis/story/_/id/49898286/us-open-2026-final-aryna-sabalenka-elena-rybakina"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "tennis",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "US Open Women's Final",
-      "line": "Aryna Sabalenka, chasing a third straight US Open title, meets the winner to emerge from a semifinal field that had all four women's top seeds — Pegula, Rybakina and Gauff included — for the first time since 1975.",
-      "whenJst": "Sun Sep 13 · 05:00 JST",
+      "event": "Solheim Cup — Sunday singles decider",
+      "line": "USA and Europe are dead level at 4-4 after Friday's foursomes and fourballs at Bernardus Golf in the Netherlands. All 24 players go out in Sunday singles; first team to 14.5 points takes the Cup — a tight team-golf finish that gets little airtime in Japan.",
+      "whenJst": "Sun Sep 13 · 18:10 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "US Open 2026: Order of Play and match schedule for Arthur Ashe Stadium, Louis Armstrong Stadium and more",
-          "url": "https://www.skysports.com/tennis/news/32832/13577913/us-open-2026-order-of-play-and-match-schedule-for-arthur-ashe-stadium-louis-armstrong-stadium-and-more"
+          "title": "Solheim Cup 2026: Latest scores, tee times, pairings, schedule, leaderboard as Europe host Team USA at Bernardus Golf",
+          "url": "https://www.skysports.com/golf/news/12176/13583025/solheim-cup-2026-latest-scores-tee-times-pairings-schedule-leaderboard-as-europe-host-team-usa-at-bernardus-golf"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "US Open Men's Final",
-      "line": "Shelton or Tiafoe plays for the title — the first American man in a major final since Taylor Fritz in 2024, with a shot at ending the men's Slam drought stretching back to Andy Roddick's 2003 US Open win.",
-      "whenJst": "Mon Sep 14 · 03:00 JST",
+      "event": "Manchester derby — Man Utd vs Man City",
+      "line": "Old Trafford hosts the season's first Manchester derby, an early measuring-stick for both sides as they try to find form in the new Premier League season.",
+      "whenJst": "Mon Sep 14 · 00:30 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Tiafoe, Michelsen, Shelton lead U.S. march into Open quarters",
-          "url": "https://www.espn.com/tennis/story/_/id/49854069/us-men-continue-run-ending-grand-slam-drought-open"
+          "title": "Manchester United vs. Manchester City: TV channel, how to watch in UK, kick-off time, live stream, team news, referee, predicted line-ups",
+          "url": "https://www.espn.com/soccer/story/_/id/49900345/manchester-united-vs-manchester-city-derby-2026-27-premier-league-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups"
         }
       ]
     },
     {
       "id": "s4",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Manchester United vs. Manchester City",
-      "line": "Premier League's first Manchester derby of the season at Old Trafford — City arrive with a perfect start and top the table; United, mid-table, look to spoil it at home.",
-      "whenJst": "Mon Sep 14 · 00:30 JST",
+      "event": "US Open men's final — Zverev vs Shelton/Tiafoe winner",
+      "line": "Alexander Zverev, the only man to reach all four Grand Slam semifinals in 2026, plays for his first US Open title against whichever American — Ben Shelton or Frances Tiafoe — comes through Friday's all-USA semifinal.",
+      "whenJst": "Mon Sep 14 · 03:00 JST",
       "sources": [
         {
-          "name": "Manchester City FC",
-          "title": "Man United v Man City - 13 Sept 2026",
-          "url": "https://www.mancity.com/matchday/fixtures/mens/2026/premier-league/man-united-v-man-city-13-sept-2026"
+          "name": "ATP Tour",
+          "title": "What is the US Open schedule?",
+          "url": "https://www.atptour.com/en/news/us-open-2026-schedule"
         }
       ]
     }
