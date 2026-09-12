@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T20:18:10Z",
-  "dateLabel": "Sat · Sep 12 2026",
+  "generatedAt": "2026-09-12T20:18:41Z",
+  "dateLabel": "Sun · Sep 13 2026",
   "items": [
     {
       "id": "s1",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "US Open final — Sabalenka vs Rybakina",
-      "line": "No.1 Sabalenka bids to become the first three-peat champion at Flushing Meadows since Serena Williams (2012-14); No.2 Rybakina, who beat her in this year's Australian Open final, is the first World No.2 to meet the top seed in a US Open final since 2013.",
+      "event": "US Open women's final — Sabalenka vs Rybakina",
+      "line": "Two-time defending champ Sabalenka chases a three-peat (first since Serena 2012-14); Rybakina, who beat her at the Australian Open, is the only other player who's had her number this year. Winner-take-all rematch of that AO final.",
       "whenJst": "Sun Sep 13 · 05:00 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Experts' picks: Who will win the US Open women's title?",
-          "url": "https://www.espn.com/tennis/story/_/id/49898286/us-open-2026-final-aryna-sabalenka-elena-rybakina"
+          "name": "WTA Tour",
+          "title": "US Open final preview 2026: Aryna Sabalenka, Elena Rybakina — start time, prize money and what to know",
+          "url": "https://www.wtatennis.com/news/4574905/us-open-final-preview-2026-aryna-sabalenka-elena-rybakina-start-time-prize-money-and-what-to-know"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "golf",
-      "status": "upcoming",
-      "event": "Solheim Cup — Sunday singles decider",
-      "line": "USA and Europe are dead level at 4-4 after Friday's foursomes and fourballs at Bernardus Golf in the Netherlands. All 24 players go out in Sunday singles; first team to 14.5 points takes the Cup — a tight team-golf finish that gets little airtime in Japan.",
+      "status": "live",
+      "event": "Solheim Cup — Sunday singles, USA vs Europe",
+      "line": "Locked at 8-8 after Europe won the foursomes and the US stormed back in the four-balls behind Jennifer Kupcho. All 12 singles matches at Bernardus Golf decide it: defending champ USA need 6 points, Europe need 6.5 to reclaim the Cup.",
       "whenJst": "Sun Sep 13 · 18:10 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Solheim Cup 2026: Latest scores, tee times, pairings, schedule, leaderboard as Europe host Team USA at Bernardus Golf",
-          "url": "https://www.skysports.com/golf/news/12176/13583025/solheim-cup-2026-latest-scores-tee-times-pairings-schedule-leaderboard-as-europe-host-team-usa-at-bernardus-golf"
+          "title": "Solheim Cup 2026: Team USA pull level with Team Europe in fourballs after late Jennifer Kupcho magic at Bernardus Golf",
+          "url": "https://www.skysports.com/golf/news/12176/13584687/solheim-cup-2026-team-usa-pull-level-with-team-europe-in-fourballs-after-late-jennifer-kupcho-magic-at-bernardus-golf"
         }
       ]
     },
@@ -37,13 +37,13 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Manchester derby — Man Utd vs Man City",
-      "line": "Old Trafford hosts the season's first Manchester derby, an early measuring-stick for both sides as they try to find form in the new Premier League season.",
+      "event": "Manchester derby — Man United vs Man City",
+      "line": "First Manchester derby since 2016 without Guardiola on City's bench — new boss Enzo Maresca has City perfect through 3 (9 pts, top of the table) while United sit 11th after a rocky start. Old Trafford, title-race stakes early.",
       "whenJst": "Mon Sep 14 · 00:30 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Manchester United vs. Manchester City: TV channel, how to watch in UK, kick-off time, live stream, team news, referee, predicted line-ups",
+          "title": "Manchester United vs. Manchester City: TV channel, how to watch in UK, kick-off time, live stream, team news, predicted line-ups",
           "url": "https://www.espn.com/soccer/story/_/id/49900345/manchester-united-vs-manchester-city-derby-2026-27-premier-league-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups"
         }
       ]
@@ -52,14 +52,14 @@
       "id": "s4",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "US Open men's final — Zverev vs Shelton/Tiafoe winner",
-      "line": "Alexander Zverev, the only man to reach all four Grand Slam semifinals in 2026, plays for his first US Open title against whichever American — Ben Shelton or Frances Tiafoe — comes through Friday's all-USA semifinal.",
+      "event": "US Open men's final — Shelton vs Zverev",
+      "line": "Ben Shelton's first Slam final at home in New York, having knocked out defending champ Alcaraz in the quarters, against top seed Zverev — fresh off his maiden major at Roland-Garros and leading their head-to-head 5-0.",
       "whenJst": "Mon Sep 14 · 03:00 JST",
       "sources": [
         {
           "name": "ATP Tour",
-          "title": "What is the US Open schedule?",
-          "url": "https://www.atptour.com/en/news/us-open-2026-schedule"
+          "title": "What time is the Alexander Zverev vs. Ben Shelton US Open final?",
+          "url": "https://www.atptour.com/en/news/us-open-2026-final-schedule"
         }
       ]
     }
