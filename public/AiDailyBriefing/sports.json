@@ -1,65 +1,55 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T20:18:41Z",
-  "dateLabel": "Sun · Sep 13 2026",
+  "generatedAt": "2026-09-13T20:19:37Z",
+  "dateLabel": "Mon · Sep 14 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "US Open women's final — Sabalenka vs Rybakina",
-      "line": "Two-time defending champ Sabalenka chases a three-peat (first since Serena 2012-14); Rybakina, who beat her at the Australian Open, is the only other player who's had her number this year. Winner-take-all rematch of that AO final.",
-      "whenJst": "Sun Sep 13 · 05:00 JST",
+      "event": "Atlético Madrid vs. Real Madrid — La Liga derby",
+      "line": "The first Madrid derby of the season, at Atlético's Riyadh Air Metropolitano — an early test of Real Madrid's title defense against Simeone's side before the Bernabéu return fixture next April.",
+      "whenJst": "Sun Sep 20 · 23:15 JST",
       "sources": [
         {
-          "name": "WTA Tour",
-          "title": "US Open final preview 2026: Aryna Sabalenka, Elena Rybakina — start time, prize money and what to know",
-          "url": "https://www.wtatennis.com/news/4574905/us-open-final-preview-2026-aryna-sabalenka-elena-rybakina-start-time-prize-money-and-what-to-know"
+          "name": "ESPN",
+          "title": "Atlético vs. Real Madrid (Sep 20, 2026) Live Score",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401882865/real-madrid-atletico-madrid"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "golf",
-      "status": "live",
-      "event": "Solheim Cup — Sunday singles, USA vs Europe",
-      "line": "Locked at 8-8 after Europe won the foursomes and the US stormed back in the four-balls behind Jennifer Kupcho. All 12 singles matches at Bernardus Golf decide it: defending champ USA need 6 points, Europe need 6.5 to reclaim the Cup.",
-      "whenJst": "Sun Sep 13 · 18:10 JST",
+      "status": "upcoming",
+      "event": "Presidents Cup 2026 — USA vs. International",
+      "line": "World No. 1 Scottie Scheffler leads a US team unbeaten in this event for 28 years against an International side fronted by Adam Scott and Japan's Hideki Matsuyama at Medinah. Foursomes/four-ball play opens Thursday, singles decide it Sunday.",
+      "whenJst": "Thu Sep 24 · 21:30 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Solheim Cup 2026: Team USA pull level with Team Europe in fourballs after late Jennifer Kupcho magic at Bernardus Golf",
-          "url": "https://www.skysports.com/golf/news/12176/13584687/solheim-cup-2026-team-usa-pull-level-with-team-europe-in-fourballs-after-late-jennifer-kupcho-magic-at-bernardus-golf"
+          "name": "ESPN",
+          "title": "Trump to attend Presidents Cup at Medinah as honorary chairman",
+          "url": "https://www.espn.com/golf/story/_/id/49766153/trump-says-presidents-cup-medinah-honorary-chairman"
+        },
+        {
+          "name": "PGA Tour",
+          "title": "U.S. Team Captain Brandt Snedeker announces six picks for 2026 Presidents Cup",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Manchester derby — Man United vs Man City",
-      "line": "First Manchester derby since 2016 without Guardiola on City's bench — new boss Enzo Maresca has City perfect through 3 (9 pts, top of the table) while United sit 11th after a rocky start. Old Trafford, title-race stakes early.",
-      "whenJst": "Mon Sep 14 · 00:30 JST",
-      "sources": [
-        {
-          "name": "ESPN",
-          "title": "Manchester United vs. Manchester City: TV channel, how to watch in UK, kick-off time, live stream, team news, predicted line-ups",
-          "url": "https://www.espn.com/soccer/story/_/id/49900345/manchester-united-vs-manchester-city-derby-2026-27-premier-league-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups"
-        }
-      ]
-    },
-    {
-      "id": "s4",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "US Open men's final — Shelton vs Zverev",
-      "line": "Ben Shelton's first Slam final at home in New York, having knocked out defending champ Alcaraz in the quarters, against top seed Zverev — fresh off his maiden major at Roland-Garros and leading their head-to-head 5-0.",
-      "whenJst": "Mon Sep 14 · 03:00 JST",
+      "event": "Laver Cup 2026 — Team Europe vs. Team World",
+      "line": "Alcaraz and Zverev lead Europe against a Team World built around US Open finalist Ben Shelton, Taylor Fritz and Alex de Minaur at London's O2 Arena — a star-stacked exhibition two weeks after the Open. Opening session starts Friday.",
+      "whenJst": "Fri Sep 25 · 21:00 JST",
       "sources": [
         {
           "name": "ATP Tour",
-          "title": "What time is the Alexander Zverev vs. Ben Shelton US Open final?",
-          "url": "https://www.atptour.com/en/news/us-open-2026-final-schedule"
+          "title": "Casper Ruud rounds out Team Europe's Laver Cup squad",
+          "url": "https://www.atptour.com/en/news/ruud-laver-cup-2026-announcement"
         }
       ]
     }
