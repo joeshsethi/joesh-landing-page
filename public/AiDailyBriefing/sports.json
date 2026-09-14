@@ -1,55 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T20:19:37Z",
-  "dateLabel": "Mon · Sep 14 2026",
+  "generatedAt": "2026-09-14T20:18:24Z",
+  "dateLabel": "Tue · Sep 15 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "Atlético Madrid vs. Real Madrid — La Liga derby",
-      "line": "The first Madrid derby of the season, at Atlético's Riyadh Air Metropolitano — an early test of Real Madrid's title defense against Simeone's side before the Bernabéu return fixture next April.",
-      "whenJst": "Sun Sep 20 · 23:15 JST",
+      "event": "Presidents Cup 2026 — USA vs. International Team",
+      "line": "Team golf's biggest event since the Ryder Cup tees off at Medinah. USA has won 10 straight editions, but Ogilvy's International side (Matsuyama, Im, Hisatsune) is rated the strongest challenger in years against Snedeker's Americans.",
+      "whenJst": "Fri Sep 25 · 01:35 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Atlético vs. Real Madrid (Sep 20, 2026) Live Score",
-          "url": "https://www.espn.com/soccer/match/_/gameId/401882865/real-madrid-atletico-madrid"
+          "title": "Presidents Cup 2026 - PGA TOUR Golf Leaderboard",
+          "url": "https://www.espn.com/golf/leaderboard?tournamentId=401824815"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "golf",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Presidents Cup 2026 — USA vs. International",
-      "line": "World No. 1 Scottie Scheffler leads a US team unbeaten in this event for 28 years against an International side fronted by Adam Scott and Japan's Hideki Matsuyama at Medinah. Foursomes/four-ball play opens Thursday, singles decide it Sunday.",
-      "whenJst": "Thu Sep 24 · 21:30 JST",
+      "event": "Laver Cup 2026 — Team Europe vs. Team World",
+      "line": "Alcaraz and Zverev lead Europe against a World team fronted by Fritz, Shelton and de Minaur at London's O2 Arena — tennis's marquee exhibition-with-teeth, best-of-three sets to 10-point breaker.",
+      "whenJst": "Fri Sep 25 · 21:00 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Trump to attend Presidents Cup at Medinah as honorary chairman",
-          "url": "https://www.espn.com/golf/story/_/id/49766153/trump-says-presidents-cup-medinah-honorary-chairman"
-        },
-        {
-          "name": "PGA Tour",
-          "title": "U.S. Team Captain Brandt Snedeker announces six picks for 2026 Presidents Cup",
-          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
+          "name": "Laver Cup",
+          "title": "Casper Ruud completes Team Europe lineup for Laver Cup London 2026",
+          "url": "https://lavercup.com/news/2026/07/28/casper-ruud-completes-team-europe-lineup-for-laver-cup-london-2026"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "Laver Cup 2026 — Team Europe vs. Team World",
-      "line": "Alcaraz and Zverev lead Europe against a Team World built around US Open finalist Ben Shelton, Taylor Fritz and Alex de Minaur at London's O2 Arena — a star-stacked exhibition two weeks after the Open. Opening session starts Friday.",
-      "whenJst": "Fri Sep 25 · 21:00 JST",
+      "event": "England vs. Spain — UEFA Nations League opener",
+      "line": "A Euro 2024 final rematch at Wembley: it's world champion Spain's first game since beating Argentina in the World Cup final, against a third-place England side, opening Nations League Group A3.",
+      "whenJst": "Sun Sep 27 · 03:45 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Casper Ruud rounds out Team Europe's Laver Cup squad",
-          "url": "https://www.atptour.com/en/news/ruud-laver-cup-2026-announcement"
+          "name": "ESPN",
+          "title": "England vs. Spain (Sep 26, 2026) Live Score",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401861066/spain-england"
         }
       ]
     }
