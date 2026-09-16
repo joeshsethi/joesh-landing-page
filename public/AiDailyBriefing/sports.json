@@ -1,75 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T20:21:50Z",
-  "dateLabel": "Wed · Sep 16 2026",
+  "generatedAt": "2026-09-16T20:20:00.000Z",
+  "dateLabel": "Thu · Sep 17 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "tennis",
-      "status": "result",
-      "event": "US Open final — Alexander Zverev d. Ben Shelton",
-      "line": "Zverev won 6-3, 7-6(2), 5-7, 6-2 for his first US Open title and second major of 2026 (after the French Open), the first German man to win the US Open since Boris Becker in 1989.",
-      "whenJst": "Mon Sep 14 · 03:00 JST",
-      "sources": [
-        {
-          "name": "CBS Sports",
-          "title": "US Open 2026 results: Alexander Zverev ousts Ben Shelton, extends American men's 23-year Grand Slam drought",
-          "url": "https://www.cbssports.com/tennis/news/us-open-2026-results-alexander-zverev-ben-shelton-mens-singles-final/"
-        },
-        {
-          "name": "ATP Tour",
-          "title": "What were the US Open results?",
-          "url": "https://www.atptour.com/en/news/us-open-2026-results"
-        }
-      ]
-    },
-    {
-      "id": "s2",
-      "sport": "golf",
-      "status": "result",
-      "event": "Solheim Cup — Europe holds off USA, 15-13",
-      "line": "Europe won back the Cup at Bernardus Golf in the Netherlands after Sunday singles, with Lottie Woad and Carlota Ciganda clinching the decisive points as the US staged a late rally that fell just short.",
-      "whenJst": "Sun Sep 13 · 23:00 JST",
-      "sources": [
-        {
-          "name": "CBS Sports",
-          "title": "2026 Solheim Cup results: Europe edges United States, continuing dominance in biennial tournament",
-          "url": "https://www.cbssports.com/golf/news/solheim-2026-cup-results-europe-united-states/"
-        },
-        {
-          "name": "Sky Sports",
-          "title": "Solheim Cup 2026: Final scores, results, leaderboard, pairings as Team Europe beat Team USA at Bernardus Golf",
-          "url": "https://www.skysports.com/golf/news/12176/13583025/solheim-cup-2026-latest-scores-tee-times-pairings-schedule-leaderboard-as-europe-host-team-usa-at-bernardus-golf"
-        }
-      ]
-    },
-    {
-      "id": "s3",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Premier League — Brentford vs Chelsea (west London derby)",
-      "line": "Friday-night London derby at the Gtech Community Stadium, live on Sky Sports, with Chelsea looking to keep pace near the top of the early table.",
-      "whenJst": "Sat Sep 19 · 04:00 JST",
-      "sources": [
-        {
-          "name": "ESPN",
-          "title": "Chelsea vs. Brentford match page",
-          "url": "https://global.espn.com/football/match/_/gameId/740634/chelsea-brentford"
-        },
-        {
-          "name": "Brentford FC",
-          "title": "Information for our home Premier League fixture against Chelsea on Friday 18 September",
-          "url": "https://www.brentfordfc.com/en/brentford-v-chelsea-26-27"
-        }
-      ]
-    },
-    {
-      "id": "s4",
       "sport": "golf",
       "status": "upcoming",
-      "event": "Presidents Cup — USA vs Internationals begins at Medinah",
-      "line": "Play opens next Thursday with foursomes at Medinah, Scottie Scheffler leading a US side that's dominated recent editions against an International team anchored by Hideki Matsuyama and Adam Scott — worth an alarm if he wants to catch the start.",
-      "whenJst": "Fri Sep 25 · 01:35 JST",
+      "event": "Presidents Cup — USA vs Internationals at Medinah",
+      "line": "Scottie Scheffler's USA, winners of 10 straight Presidents Cups, host a stacked International side (Matsuyama, Tom Kim, Sungjae Im, Adam Scott) at Medinah. Four-ball matches open the four-day team event.",
+      "whenJst": "Fri Sep 25 · 01:35 JST (Thu tee times, Medinah)",
       "sources": [
         {
           "name": "PGA Tour",
@@ -77,9 +17,44 @@
           "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
         },
         {
-          "name": "Presidents Cup",
-          "title": "2026 Presidents Cup: Schedule of Events",
-          "url": "https://www.presidentscup.com/plan-your-visit/schedule-of-events"
+          "name": "Golf Channel",
+          "title": "Meet the 2026 U.S. Presidents Cup team, including Brandt Snedeker's captain's picks",
+          "url": "https://www.golfchannel.com/pga-tour/news/2026-us-presidents-cup-team-full-roster-captains-picks"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "Laver Cup — Team Europe vs Team World",
+      "line": "Alcaraz and Zverev lead Europe against Fritz, Shelton and De Minaur's Team World at the O2 Arena, with Europe trying to reclaim the title after last year's 15-9 loss in San Francisco. No team can clinch before the final day.",
+      "whenJst": "Fri Sep 25 · 21:00 JST (runs through Sun)",
+      "sources": [
+        {
+          "name": "ATP Tour",
+          "title": "Alexander Zverev, Alex de Minaur set for Laver Cup return",
+          "url": "https://www.atptour.com/en/news/zverev-de-minaur-laver-cup-2026-confirmed-announcement"
+        },
+        {
+          "name": "Laver Cup",
+          "title": "Alcaraz and Fritz confirmed for Laver Cup London 2026",
+          "url": "https://lavercup.com/news/2025/11/18/alcaraz-and-fritz-confirmed-for-laver-cup-london-2026"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Brighton vs Arsenal — Premier League",
+      "line": "Defending champions Arsenal, unbeaten through four league games and fresh off a Champions League win at Napoli, visit in-form Brighton (5-0 last time out) at the Amex — an early form-setter with Manchester City also perfect atop the table.",
+      "whenJst": "Sat Sep 19 · 23:00 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "Brighton vs. Arsenal (Sep 19, 2026) Live Score",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401879274/arsenal-brighton-hove-albion"
         }
       ]
     }
