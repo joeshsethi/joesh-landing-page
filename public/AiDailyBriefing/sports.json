@@ -1,60 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T20:20:00.000Z",
-  "dateLabel": "Thu · Sep 17 2026",
+  "generatedAt": "2026-09-17T20:18:23Z",
+  "dateLabel": "Fri · Sep 18 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
-      "status": "upcoming",
-      "event": "Presidents Cup — USA vs Internationals at Medinah",
-      "line": "Scottie Scheffler's USA, winners of 10 straight Presidents Cups, host a stacked International side (Matsuyama, Tom Kim, Sungjae Im, Adam Scott) at Medinah. Four-ball matches open the four-day team event.",
-      "whenJst": "Fri Sep 25 · 01:35 JST (Thu tee times, Medinah)",
+      "status": "live",
+      "event": "BMW PGA Championship (DP World Tour flagship) — Wentworth",
+      "line": "Aaron Rai and Joakim Lagergren share the first-round lead at -6; Rory McIlroy sits T19 at -3 after a late stumble (water ball, two closing bogeys). Round 2 underway today, final round Sunday.",
+      "whenJst": "Fri Sep 18 · R2 live from 20:00 JST · Final round Sun Sep 20",
       "sources": [
         {
-          "name": "PGA Tour",
-          "title": "U.S. Team Captain Brandt Snedeker announces six picks for 2026 Presidents Cup",
-          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
-        },
-        {
-          "name": "Golf Channel",
-          "title": "Meet the 2026 U.S. Presidents Cup team, including Brandt Snedeker's captain's picks",
-          "url": "https://www.golfchannel.com/pga-tour/news/2026-us-presidents-cup-team-full-roster-captains-picks"
+          "name": "Sky Sports",
+          "title": "BMW PGA Championship 2026: Aaron Rai surges to take joint-lead after first round as Rory McIlroy 'stumbles' to finish three back",
+          "url": "https://www.skysports.com/golf/news/12176/13589052/bmw-pga-championship-2026-aaron-rai-surges-to-take-joint-lead-after-first-round-as-rory-mcilroy-stumbles-to-finish-three-back"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "tennis",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "Laver Cup — Team Europe vs Team World",
-      "line": "Alcaraz and Zverev lead Europe against Fritz, Shelton and De Minaur's Team World at the O2 Arena, with Europe trying to reclaim the title after last year's 15-9 loss in San Francisco. No team can clinch before the final day.",
-      "whenJst": "Fri Sep 25 · 21:00 JST (runs through Sun)",
+      "event": "Presidents Cup 2026 — USA vs International, Medinah",
+      "line": "Brandt Snedeker's USA team (Scheffler, Schauffele, Thomas, Cantlay and others) goes for an 11th straight win over Geoff Ogilvy's International side (Matsuyama, Fox and a stacked lineup). Team match play, four days of drama.",
+      "whenJst": "Opens Fri Sep 25 · ~01:30 JST · runs through Mon Sep 28",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Alexander Zverev, Alex de Minaur set for Laver Cup return",
-          "url": "https://www.atptour.com/en/news/zverev-de-minaur-laver-cup-2026-confirmed-announcement"
-        },
-        {
-          "name": "Laver Cup",
-          "title": "Alcaraz and Fritz confirmed for Laver Cup London 2026",
-          "url": "https://lavercup.com/news/2025/11/18/alcaraz-and-fritz-confirmed-for-laver-cup-london-2026"
+          "name": "PGA Tour",
+          "title": "U.S. Team Captain Brandt Snedeker announces six picks for 2026 Presidents Cup",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Brighton vs Arsenal — Premier League",
-      "line": "Defending champions Arsenal, unbeaten through four league games and fresh off a Champions League win at Napoli, visit in-form Brighton (5-0 last time out) at the Amex — an early form-setter with Manchester City also perfect atop the table.",
-      "whenJst": "Sat Sep 19 · 23:00 JST",
+      "event": "Laver Cup 2026 — Team Europe vs Team World, The O2 London",
+      "line": "Marquee exhibition team event captained by Yannick Noah (Europe) and Andre Agassi (World), three days of best-vs-best singles and doubles under the Laver Cup's escalating-points format.",
+      "whenJst": "Fri Sep 25 · Session 1 from 21:00 JST · runs through Sun Sep 27",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Brighton vs. Arsenal (Sep 19, 2026) Live Score",
-          "url": "https://www.espn.com/soccer/match/_/gameId/401879274/arsenal-brighton-hove-albion"
+          "name": "Sky Sports",
+          "title": "Laver Cup 2026: Schedule, dates, format, players and how to watch or stream Team Europe vs Team World at London's O2 on Sky Sports",
+          "url": "https://www.skysports.com/tennis/news/12110/13588657/laver-cup-2026-schedule-dates-format-players-and-how-to-watch-or-stream-team-europe-vs-team-world-at-londons-o2-on-sky-sports"
         }
       ]
     }
