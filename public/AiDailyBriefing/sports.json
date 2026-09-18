@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T20:18:23Z",
-  "dateLabel": "Fri · Sep 18 2026",
+  "generatedAt": "2026-09-18T20:20:04Z",
+  "dateLabel": "Sat · Sep 19 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
       "status": "live",
-      "event": "BMW PGA Championship (DP World Tour flagship) — Wentworth",
-      "line": "Aaron Rai and Joakim Lagergren share the first-round lead at -6; Rory McIlroy sits T19 at -3 after a late stumble (water ball, two closing bogeys). Round 2 underway today, final round Sunday.",
-      "whenJst": "Fri Sep 18 · R2 live from 20:00 JST · Final round Sun Sep 20",
+      "event": "Biltmore Championship (Asheville) — FedExCup Fall opener",
+      "line": "PGA Tour's first event in Asheville since 1942, at The Cliffs at Walnut Cove. Max Greyserman and Eric Cole shared the round-1 lead at -7 with a tight chase pack; weekend cut Friday, final round Sunday on a tricky Nicklaus mountain design.",
+      "whenJst": "Mon Sep 21 · 02:00 JST (final-round TV window, through ~05:00 JST)",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "BMW PGA Championship 2026: Aaron Rai surges to take joint-lead after first round as Rory McIlroy 'stumbles' to finish three back",
-          "url": "https://www.skysports.com/golf/news/12176/13589052/bmw-pga-championship-2026-aaron-rai-surges-to-take-joint-lead-after-first-round-as-rory-mcilroy-stumbles-to-finish-three-back"
+          "name": "ESPN",
+          "title": "2026 Biltmore Championship Asheville Leaderboard",
+          "url": "https://www.espn.com/golf/leaderboard?tournamentId=401850914"
         }
       ]
     },
@@ -22,14 +22,14 @@
       "id": "s2",
       "sport": "golf",
       "status": "upcoming",
-      "event": "Presidents Cup 2026 — USA vs International, Medinah",
-      "line": "Brandt Snedeker's USA team (Scheffler, Schauffele, Thomas, Cantlay and others) goes for an 11th straight win over Geoff Ogilvy's International side (Matsuyama, Fox and a stacked lineup). Team match play, four days of drama.",
-      "whenJst": "Opens Fri Sep 25 · ~01:30 JST · runs through Mon Sep 28",
+      "event": "Presidents Cup — Medinah CC",
+      "line": "No Ryder Cup this year, so this is 2026's marquee team event: USA (capt. Brandt Snedeker) vs. the Internationals (capt. Geoff Ogilvy), Sep 24-27 outside Chicago.",
+      "whenJst": "Fri Sep 25 · 01:35 JST (Day 1 fourballs tee off)",
       "sources": [
         {
-          "name": "PGA Tour",
-          "title": "U.S. Team Captain Brandt Snedeker announces six picks for 2026 Presidents Cup",
-          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
+          "name": "Presidents Cup (PGA Tour)",
+          "title": "2026 Presidents Cup – Medinah Country Club",
+          "url": "https://www.presidentscup.com/"
         }
       ]
     },
@@ -37,14 +37,29 @@
       "id": "s3",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Laver Cup 2026 — Team Europe vs Team World, The O2 London",
-      "line": "Marquee exhibition team event captained by Yannick Noah (Europe) and Andre Agassi (World), three days of best-vs-best singles and doubles under the Laver Cup's escalating-points format.",
-      "whenJst": "Fri Sep 25 · Session 1 from 21:00 JST · runs through Sun Sep 27",
+      "event": "Laver Cup — Team Europe vs. Team World, London",
+      "line": "9th edition of the marquee team exhibition moves to London's O2 Arena, Sep 25-27 — the last big showcase before the ATP/WTA Asian swing.",
+      "whenJst": "Fri Sep 25 · 21:00 JST (Day 1 singles session)",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Laver Cup 2026: Schedule, dates, format, players and how to watch or stream Team Europe vs Team World at London's O2 on Sky Sports",
+          "title": "Laver Cup 2026: Schedule, dates, format, players and how to watch or stream Team Europe vs Team World at London's O2",
           "url": "https://www.skysports.com/tennis/news/12110/13588657/laver-cup-2026-schedule-dates-format-players-and-how-to-watch-or-stream-team-europe-vs-team-world-at-londons-o2-on-sky-sports"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Atlético Madrid vs. Real Madrid — La Liga",
+      "line": "The Madrid derby lands early this season (matchday 5) at the Metropolitano — always one of the biggest dates on the football calendar, whatever the table looks like.",
+      "whenJst": "Sun Sep 20 · 23:15 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "Atlético Madrid vs. Real Madrid: Where to watch, date, time",
+          "url": "https://www.espn.com/soccer/story/_/id/49966618/atletico-madrid-vs-real-madrid-where-watch-date"
         }
       ]
     }
