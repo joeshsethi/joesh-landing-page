@@ -1,65 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T20:24:00Z",
-  "dateLabel": "Sun · Sep 20 2026",
+  "generatedAt": "2026-09-20T20:22:00.000Z",
+  "dateLabel": "Mon · Sep 21 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "golf",
-      "status": "upcoming",
-      "event": "Presidents Cup — USA vs. International (Medinah)",
-      "line": "Scottie Scheffler's USA team (unbeaten in the Presidents Cup for 28 years) hosts Geoff Ogilvy's International side, which includes Japan's Ryo Hisatsune and Hideki Matsuyama. Thursday fourballs open the four-day team event.",
-      "whenJst": "Fri Sep 25 · 02:30 JST (Day 1 tee-off)",
+      "sport": "soccer",
+      "status": "result",
+      "event": "Madrid Derby — Atlético 2-1 Real Madrid",
+      "line": "Atlético came from behind after Dean Huijsen's early second-half red card, with Alejandro Grimaldo and Jonathan David scoring either side of Rüdiger's late consolation. The result vaults Atlético above their rivals and hands Mourinho's Real Madrid a second defeat in seven games.",
+      "whenJst": "Sun Sep 20 · 23:15 JST (kickoff, Riyadh Air Metropolitano)",
       "sources": [
         {
-          "name": "PGA Tour",
-          "title": "U.S. Team Captain Brandt Snedeker announces six picks for 2026 Presidents Cup",
-          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-us-presidents-cup-team-heading-to-medinah"
+          "name": "ESPN",
+          "title": "Atlético 2-1 Real Madrid — Game Report",
+          "url": "https://www.espn.com/soccer/report/_/gameId/401882865"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Atletico Madrid beat 10-man Real Madrid 2-1 in feisty La Liga derby",
+          "url": "https://www.aljazeera.com/sports/2026/9/20/atletico-madrid-beat-10-man-real-madrid-2-1-in-feisty-la-liga-derby"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "tennis",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "Laver Cup — Team Europe vs. Team World (London)",
-      "line": "World No. 1 Carlos Alcaraz and Alexander Zverev lead Team Europe against Taylor Fritz and Alex de Minaur's Team World at the O2 Arena, with Europe seeking revenge after Team World won last year in San Francisco.",
-      "whenJst": "Sat Sep 26 · 03:00 JST (Friday night session)",
+      "event": "Presidents Cup 2026 — USA vs International, Medinah",
+      "line": "The biennial team matches begin Thursday with fourball pairings. Brandt Snedeker's USA side (Scheffler, Schauffele, Thomas, Cantlay) chases an 11th straight win against Geoff Ogilvy's International team led by major winners Adam Scott, Hideki Matsuyama and Ryan Fox.",
+      "whenJst": "Fri Sep 25 · 01:35 JST (Day 1 fourballs tee off; opening ceremony ~01:05 JST)",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Laver Cup: Teams, Dates, History & All You Need To Know",
-          "url": "https://www.atptour.com/en/news/laver-cup-2026-history-draw-schedule"
+          "name": "Golf Channel",
+          "title": "Presidents Cup 2026: How to watch the U.S. and International squads at Medinah",
+          "url": "https://www.golfchannel.com/presidents-cup/news/presidents-cup-2026-how-to-watch-the-u-s-and-international-squads-face-off"
+        },
+        {
+          "name": "Presidents Cup",
+          "title": "2026 Presidents Cup: Schedule of Events",
+          "url": "https://www.presidentscup.com/plan-your-visit/schedule-of-events"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Bournemouth vs. Liverpool — Premier League",
-      "line": "League leaders Liverpool, unbeaten but with just one league win in four, travel to Bournemouth, where manager Andoni Iraola faces the club he ran for three seasons before joining Liverpool. Bournemouth remain winless.",
-      "whenJst": "Sun Sep 20 · 21:00 JST",
+      "event": "Laver Cup 2026 — Team Europe vs Team World, London",
+      "line": "Three days of team tennis at the O2 Arena: Carlos Alcaraz, Alexander Zverev and Casper Ruud lead Team Europe (captain Yannick Noah) against Taylor Fritz and Alex de Minaur's Team World (captain Andre Agassi). Europe has won the last several editions and is favored again.",
+      "whenJst": "Fri Sep 25 · 21:00 JST (Day 1, Session 1); night session ~03:00 JST Sep 26",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Liverpool's Andoni Iraola admits Bournemouth will be aware of his tactics ahead of 'tricky' return",
-          "url": "https://www.espn.com/soccer/story/_/id/49977893/liverpool-andoni-iraola-admits-bournemouth-aware-tactics-ahead-tricky-return"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Fulham vs. Manchester United — Premier League",
-      "line": "Struggling Manchester United (13th, two straight defeats including an EFL Cup exit to Brighton) visit bottom-half Fulham as pressure builds on manager Michael Carrick, who took over from Ruben Amorim last season.",
-      "whenJst": "Mon Sep 21 · 00:30 JST",
-      "sources": [
+          "name": "Sky Sports",
+          "title": "Laver Cup 2026: Schedule, dates, format, players and how to watch Team Europe vs Team World at London's O2",
+          "url": "https://www.skysports.com/tennis/news/12110/13588657/laver-cup-2026-schedule-dates-format-players-and-how-to-watch-or-stream-team-europe-vs-team-world-at-londons-o2-on-sky-sports"
+        },
         {
-          "name": "Goal.com",
-          "title": "Fulham vs Manchester United Premier League preview: Everything you need to know",
-          "url": "https://www.goal.com/en/news/fulham-manchester-united-premier-league-preview/bltb04fedd95c5eee15"
+          "name": "Laver Cup",
+          "title": "Tournament Schedule",
+          "url": "https://lavercup.com/schedule"
         }
       ]
     }
