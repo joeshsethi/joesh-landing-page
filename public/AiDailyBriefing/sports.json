@@ -1,25 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T20:22:00.000Z",
-  "dateLabel": "Mon · Sep 21 2026",
+  "generatedAt": "2026-09-21T20:30:00.000Z",
+  "dateLabel": "Tue · Sep 22 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
-      "status": "result",
-      "event": "Madrid Derby — Atlético 2-1 Real Madrid",
-      "line": "Atlético came from behind after Dean Huijsen's early second-half red card, with Alejandro Grimaldo and Jonathan David scoring either side of Rüdiger's late consolation. The result vaults Atlético above their rivals and hands Mourinho's Real Madrid a second defeat in seven games.",
-      "whenJst": "Sun Sep 20 · 23:15 JST (kickoff, Riyadh Air Metropolitano)",
+      "status": "upcoming",
+      "event": "Japan vs Uruguay (Kirin Challenge Cup)",
+      "line": "Samurai Blue's first match since their 2026 World Cup Round-of-16 exit to Brazil — a home friendly in Miyagi against two-time World Cup champions Uruguay.",
+      "whenJst": "Thu Sep 24 · 19:05 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Atlético 2-1 Real Madrid — Game Report",
-          "url": "https://www.espn.com/soccer/report/_/gameId/401882865"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "Atletico Madrid beat 10-man Real Madrid 2-1 in feisty La Liga derby",
-          "url": "https://www.aljazeera.com/sports/2026/9/20/atletico-madrid-beat-10-man-real-madrid-2-1-in-feisty-la-liga-derby"
+          "name": "JFA",
+          "title": "ウルグアイ代表との対戦およびテレビ放送／配信が決定 キリンチャレンジカップ2026（9.24＠宮城／キューアンドエースタジアムみやぎ）",
+          "url": "https://www.jfa.jp/samuraiblue/news/00036601/"
         }
       ]
     },
@@ -27,19 +22,14 @@
       "id": "s2",
       "sport": "golf",
       "status": "upcoming",
-      "event": "Presidents Cup 2026 — USA vs International, Medinah",
-      "line": "The biennial team matches begin Thursday with fourball pairings. Brandt Snedeker's USA side (Scheffler, Schauffele, Thomas, Cantlay) chases an 11th straight win against Geoff Ogilvy's International team led by major winners Adam Scott, Hideki Matsuyama and Ryan Fox.",
-      "whenJst": "Fri Sep 25 · 01:35 JST (Day 1 fourballs tee off; opening ceremony ~01:05 JST)",
+      "event": "Presidents Cup 2026 (USA vs International) — Medinah",
+      "line": "USA, winners of all but one edition since 1994, defends at Medinah against Geoff Ogilvy's International side; Hideki Matsuyama and debutant Ryo Hisatsune fly Japan's flag. Four-ball session 1 opens play.",
+      "whenJst": "Fri Sep 25 · 01:35 JST",
       "sources": [
         {
-          "name": "Golf Channel",
-          "title": "Presidents Cup 2026: How to watch the U.S. and International squads at Medinah",
-          "url": "https://www.golfchannel.com/presidents-cup/news/presidents-cup-2026-how-to-watch-the-u-s-and-international-squads-face-off"
-        },
-        {
-          "name": "Presidents Cup",
-          "title": "2026 Presidents Cup: Schedule of Events",
-          "url": "https://www.presidentscup.com/plan-your-visit/schedule-of-events"
+          "name": "PGA Tour",
+          "title": "International Team Captain Geoff Ogilvy announces six picks for 2026 Presidents Cup",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/01/meet-the-international-team-heading-to-the-presidents-cup-medinah-roster"
         }
       ]
     },
@@ -48,18 +38,13 @@
       "sport": "tennis",
       "status": "upcoming",
       "event": "Laver Cup 2026 — Team Europe vs Team World, London",
-      "line": "Three days of team tennis at the O2 Arena: Carlos Alcaraz, Alexander Zverev and Casper Ruud lead Team Europe (captain Yannick Noah) against Taylor Fritz and Alex de Minaur's Team World (captain Andre Agassi). Europe has won the last several editions and is favored again.",
-      "whenJst": "Fri Sep 25 · 21:00 JST (Day 1, Session 1); night session ~03:00 JST Sep 26",
+      "line": "Carlos Alcaraz headlines Team Europe (with Zverev) against Team World's Alex de Minaur/Taylor Fritz at the O2; World has won 3 of the last 4 editions, Europe leads the overall series 5-3. Session 1 singles open the tie.",
+      "whenJst": "Fri Sep 25 · 21:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Laver Cup 2026: Schedule, dates, format, players and how to watch Team Europe vs Team World at London's O2",
-          "url": "https://www.skysports.com/tennis/news/12110/13588657/laver-cup-2026-schedule-dates-format-players-and-how-to-watch-or-stream-team-europe-vs-team-world-at-londons-o2-on-sky-sports"
-        },
-        {
-          "name": "Laver Cup",
-          "title": "Tournament Schedule",
-          "url": "https://lavercup.com/schedule"
+          "title": "Laver Cup 2026: Schedule, dates, format, players and how to watch or stream Team Europe vs Team World at London's O2 on Sky Sports",
+          "url": "https://www.skysports.com/tennis/news/13588657/laver-cup-2026-schedule-dates-format-players-and-how-to-watch-or-stream-team-europe-vs-team-world-at-londons-o2-on-sky-sports"
         }
       ]
     }
