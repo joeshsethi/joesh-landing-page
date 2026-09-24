@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T20:20:00.000Z",
-  "dateLabel": "Thu · Sep 24 2026",
+  "generatedAt": "2026-09-24T20:20:00.000Z",
+  "dateLabel": "Fri · Sep 25 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
-      "status": "upcoming",
-      "event": "Presidents Cup — Round 1 fourballs at Medinah",
-      "line": "USA chase a record-extending 11th straight win over the Internationals as the 4-day, 30-point event opens with five fourball matches. Captains Brandt Snedeker (USA) vs Geoff Ogilvy (Int'l); first tee-off 11:35am CDT Thu.",
-      "whenJst": "Fri Sep 25 · 01:35 JST (Thu Sep 24 US)",
+      "status": "live",
+      "event": "Presidents Cup 2026 — Medinah",
+      "line": "Team USA (Scheffler, Thomas, Burns) vs. the Internationals (Matsuyama, Im, Lee) at Medinah — Thursday's opening fourballs were tight across the board through the front nine. Friday's foursomes session follows overnight JST, with the score building toward Sunday singles.",
+      "whenJst": "Live now (fourballs) · foursomes next Sat 03:05 JST (Sep 26)",
       "sources": [
         {
-          "name": "PGA Tour",
-          "title": "How to watch: Round coverage details, live scores, tee times — Presidents Cup",
-          "url": "https://www.pgatour.com/article/news/latest/2026/09/22/how-to-watch-round-coverage-details-live-scores-tee-time-featured-groups-times-presidents-cup-medinah-country-club-golf-channel-pga-tour-live-betcast-presented-by-draftkings-scottie-scheffler"
+          "name": "Sky Sports",
+          "title": "Presidents Cup 2026: Latest scores, results, tee times, leaderboard as Team USA host International Team at Medinah",
+          "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah"
         },
         {
-          "name": "Sky Sports",
-          "title": "Presidents Cup 2026: Teams, captains, venue, format and how players qualified for Team USA vs Internationals at Medinah",
-          "url": "https://www.skysports.com/golf/news/13589673/presidents-cup-2026-teams-captains-venue-format-and-how-players-qualified-for-team-usa-vs-internationals-at-medinah"
+          "name": "PGA Tour",
+          "title": "Presidents Cup match previews: Captains announce pairings for Thursday Four-ball session",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/23/presidents-cup-matchups-previews-pairings-foursomes-fourballs-internationals-us-scottie-scheffler-justin-thomas-chris-gotterup-hideki-matsuyama-adam-scott-si-woo-kim-tee-times-medinah-country-club-chicago-illinois"
         }
       ]
     },
@@ -27,19 +27,14 @@
       "id": "s2",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Laver Cup — Team Europe vs Team World",
-      "line": "Alcaraz and Zverev headline Europe; Fritz, De Minaur and Bublik lead Team World at London's O2 Arena. Three days of team tennis open with two singles in the day session, then a singles + doubles night session.",
-      "whenJst": "Fri Sep 25 · 21:00 JST (day session); Sat Sep 26 · 03:00 JST (night session)",
+      "event": "Laver Cup 2026 — Team Europe vs Team World",
+      "line": "Alcaraz, Zverev and Mensik (Europe, capt. Noah) face Fritz, de Minaur and Bublik (World, capt. Agassi) at London's O2 Arena in the Ryder Cup-style exhibition, first to 13 points. Day 1's two sessions start tonight JST.",
+      "whenJst": "Fri Sep 25 · 21:00 JST (day) & 03:00 JST Sep 26 (night)",
       "sources": [
         {
           "name": "Yahoo Sports",
-          "title": "Complete guide to Laver Cup 2026: Schedule, dates, teams, players, format and more to know",
-          "url": "https://sports.yahoo.com/articles/complete-guide-laver-cup-2026-212938221.html"
-        },
-        {
-          "name": "Laver Cup (official)",
-          "title": "Tournament Schedule | Laver Cup",
-          "url": "https://lavercup.com/schedule"
+          "title": "How to watch Laver Cup 2026: Schedule, matches and start times",
+          "url": "https://sports.yahoo.com/articles/watch-laver-cup-2026-schedule-155248038.html"
         }
       ]
     },
@@ -47,19 +42,14 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "UEFA Nations League — England vs Spain",
-      "line": "A Euro 2024-final rematch at Wembley opens both nations' Nations League campaigns, with world champions Spain the visitors on Matchday 1 of Group A3.",
-      "whenJst": "Sun Sep 27 · 03:45 JST",
+      "event": "Japan vs Venezuela — Kirin Challenge Cup",
+      "line": "Samurai Blue's second September friendly, in Hiroshima, coming off Thursday's win over Uruguay — a rare live look at the national team as it resets after this year's World Cup.",
+      "whenJst": "Mon Sep 28 · 19:25 JST (Hiroshima)",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "England vs. Spain in Nations League 2026: TV channel, how to watch in UK, kick-off time, live stream, referee, line-ups",
-          "url": "https://www.espn.com/soccer/story/_/id/49999014/england-vs-spain-nations-league-2026-how-watch-tv-channel-kick-live-stream-referee-line-ups"
-        },
-        {
-          "name": "Goal.com",
-          "title": "England vs Spain: TV channel, live stream and kick-off time for UEFA Nations League fixture",
-          "url": "https://www.goal.com/en-us/news/england-spain-tickets/blt4b9c4386fe81ffa8"
+          "name": "JFA",
+          "title": "KIRIN CHALLENGE CUP 2026 [9/28] TOP",
+          "url": "https://www.jfa.jp/eng/samuraiblue/20260928/"
         }
       ]
     }
