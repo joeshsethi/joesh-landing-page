@@ -1,40 +1,45 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T20:20:00.000Z",
-  "dateLabel": "Fri · Sep 25 2026",
+  "generatedAt": "2026-09-25T20:20:00Z",
+  "dateLabel": "Sat · Sep 26 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
       "status": "live",
-      "event": "Presidents Cup 2026 — Medinah",
-      "line": "Team USA (Scheffler, Thomas, Burns) vs. the Internationals (Matsuyama, Im, Lee) at Medinah — Thursday's opening fourballs were tight across the board through the front nine. Friday's foursomes session follows overnight JST, with the score building toward Sunday singles.",
-      "whenJst": "Live now (fourballs) · foursomes next Sat 03:05 JST (Sep 26)",
+      "event": "Presidents Cup — USA vs. International, Medinah",
+      "line": "Team USA leads the Internationals 3-2 after Thursday's fourballs, with Friday foursomes tight (Conners/Taylor and Im/Matsuyama both up on Scheffler/Burns and Henley/Bridgeman). Saturday four-ball tees off this evening JST; it comes down to Sunday's winner-take-all singles.",
+      "whenJst": "Sat Sep 26 · 21:02 JST (Saturday four-ball) · singles finale Mon Sep 28 · 01:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Presidents Cup 2026: Latest scores, results, tee times, leaderboard as Team USA host International Team at Medinah",
-          "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah"
+          "title": "Presidents Cup: Team USA lead International Team 3-2 after Thursday fourballs as Scottie Scheffler makes winning start",
+          "url": "https://www.skysports.com/golf/news/13591506/presidents-cup-team-usa-lead-international-team-3-2-after-thursday-fourballs-as-scottie-scheffler-makes-winning-start"
         },
         {
           "name": "PGA Tour",
-          "title": "Presidents Cup match previews: Captains announce pairings for Thursday Four-ball session",
-          "url": "https://www.pgatour.com/article/news/latest/2026/09/23/presidents-cup-matchups-previews-pairings-foursomes-fourballs-internationals-us-scottie-scheffler-justin-thomas-chris-gotterup-hideki-matsuyama-adam-scott-si-woo-kim-tee-times-medinah-country-club-chicago-illinois"
+          "title": "How to watch: round coverage, live scores, tee times — Presidents Cup at Medinah Country Club",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/22/how-to-watch-round-coverage-details-live-scores-tee-time-featured-groups-times-presidents-cup-medinah-country-club-golf-channel-pga-tour-live-betcast-presented-by-draftkings-scottie-scheffler"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "tennis",
-      "status": "upcoming",
-      "event": "Laver Cup 2026 — Team Europe vs Team World",
-      "line": "Alcaraz, Zverev and Mensik (Europe, capt. Noah) face Fritz, de Minaur and Bublik (World, capt. Agassi) at London's O2 Arena in the Ryder Cup-style exhibition, first to 13 points. Day 1's two sessions start tonight JST.",
-      "whenJst": "Fri Sep 25 · 21:00 JST (day) & 03:00 JST Sep 26 (night)",
+      "status": "live",
+      "event": "Laver Cup 2026 — Team Europe vs. Team World, The O2",
+      "line": "Team Europe (Alcaraz, Zverev, Ruud, host advantage) took an early lead after Casper Ruud came back to beat Francisco Cerundolo on Day 1. Saturday's day/night sessions run today with more Alcaraz doubles action; the Cup is likely decided in Sunday's live singles.",
+      "whenJst": "Sat Sep 26 · 21:00 JST (day session) & 03:00 JST Sun (night session) · decider Sun Sep 27 · 20:00 JST",
       "sources": [
         {
-          "name": "Yahoo Sports",
-          "title": "How to watch Laver Cup 2026: Schedule, matches and start times",
-          "url": "https://sports.yahoo.com/articles/watch-laver-cup-2026-schedule-155248038.html"
+          "name": "ATP Tour",
+          "title": "Laver Cup: Teams, Dates, History & All You Need To Know",
+          "url": "https://www.atptour.com/en/news/laver-cup-2026-history-draw-schedule"
+        },
+        {
+          "name": "Laver Cup (official)",
+          "title": "Ruud provides early Team Europe lead in Cerundolo rematch",
+          "url": "https://lavercup.com/news/2026/09/25/ruud-provides-early-team-europe-lead-in-cerundolo-rematch"
         }
       ]
     },
@@ -42,14 +47,19 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Japan vs Venezuela — Kirin Challenge Cup",
-      "line": "Samurai Blue's second September friendly, in Hiroshima, coming off Thursday's win over Uruguay — a rare live look at the national team as it resets after this year's World Cup.",
-      "whenJst": "Mon Sep 28 · 19:25 JST (Hiroshima)",
+      "event": "England vs. Spain — UEFA Nations League opener, Wembley",
+      "line": "Newly crowned world champions Spain (unbeaten in 5, seven clean sheets in their last 8) make their first appearance since beating Argentina in the 2026 World Cup final, visiting an England side still stinging from a semi-final loss to Argentina. A rerun of the Euro 2024 final to open the new Nations League group.",
+      "whenJst": "Sun Sep 27 · 03:45 JST",
       "sources": [
         {
-          "name": "JFA",
-          "title": "KIRIN CHALLENGE CUP 2026 [9/28] TOP",
-          "url": "https://www.jfa.jp/eng/samuraiblue/20260928/"
+          "name": "ESPN",
+          "title": "England vs. Spain in Nations League 2026: TV channel, how to watch, kick-off time, referee, line-ups",
+          "url": "https://www.espn.com/soccer/story/_/id/49999014/england-vs-spain-nations-league-2026-how-watch-tv-channel-kick-live-stream-referee-line-ups"
+        },
+        {
+          "name": "UEFA.com",
+          "title": "UEFA Nations League Matchday 1 preview: Italy vs Belgium, England vs Spain among marquee matches",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21a4f1803092-7aad154369dc-1000--uefa-nations-league-matchday-1-preview-england-vs-spain-neth/"
         }
       ]
     }
