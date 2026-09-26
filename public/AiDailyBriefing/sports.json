@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T20:20:00Z",
-  "dateLabel": "Sat · Sep 26 2026",
+  "generatedAt": "2026-09-26T20:17:35Z",
+  "dateLabel": "Sun · Sep 27 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
-      "status": "live",
-      "event": "Presidents Cup — USA vs. International, Medinah",
-      "line": "Team USA leads the Internationals 3-2 after Thursday's fourballs, with Friday foursomes tight (Conners/Taylor and Im/Matsuyama both up on Scheffler/Burns and Henley/Bridgeman). Saturday four-ball tees off this evening JST; it comes down to Sunday's winner-take-all singles.",
-      "whenJst": "Sat Sep 26 · 21:02 JST (Saturday four-ball) · singles finale Mon Sep 28 · 01:00 JST",
+      "status": "upcoming",
+      "event": "Presidents Cup — Sunday singles at Medinah",
+      "line": "International team led the U.S. 8.5-5.5 after Saturday's fourball, with foursomes still tightening things up. Sunday's 12 singles matches decide it all: the Americans are chasing a 10th straight Presidents Cup win, while International is chasing its first win since 2019.",
+      "whenJst": "Mon Sep 28 · 01:00 JST (singles begin, through ~08:00 JST)",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Presidents Cup: Team USA lead International Team 3-2 after Thursday fourballs as Scottie Scheffler makes winning start",
-          "url": "https://www.skysports.com/golf/news/13591506/presidents-cup-team-usa-lead-international-team-3-2-after-thursday-fourballs-as-scottie-scheffler-makes-winning-start"
+          "title": "Presidents Cup 2026: Latest scores, results, tee times, leaderboard as Team USA host International Team at Medinah",
+          "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah"
         },
         {
           "name": "PGA Tour",
-          "title": "How to watch: round coverage, live scores, tee times — Presidents Cup at Medinah Country Club",
+          "title": "How to watch: Round coverage details, live scores, tee times — Presidents Cup, Medinah Country Club",
           "url": "https://www.pgatour.com/article/news/latest/2026/09/22/how-to-watch-round-coverage-details-live-scores-tee-time-featured-groups-times-presidents-cup-medinah-country-club-golf-channel-pga-tour-live-betcast-presented-by-draftkings-scottie-scheffler"
         }
       ]
@@ -26,40 +26,20 @@
     {
       "id": "s2",
       "sport": "tennis",
-      "status": "live",
-      "event": "Laver Cup 2026 — Team Europe vs. Team World, The O2",
-      "line": "Team Europe (Alcaraz, Zverev, Ruud, host advantage) took an early lead after Casper Ruud came back to beat Francisco Cerundolo on Day 1. Saturday's day/night sessions run today with more Alcaraz doubles action; the Cup is likely decided in Sunday's live singles.",
-      "whenJst": "Sat Sep 26 · 21:00 JST (day session) & 03:00 JST Sun (night session) · decider Sun Sep 27 · 20:00 JST",
+      "status": "upcoming",
+      "event": "Laver Cup — decisive Sunday at The O2, London",
+      "line": "Team World leads Team Europe 5-3 after two days, but Sunday's matches are worth 3 points each (13 needed to win) — enough for either side to flip it in a session or two. Alcaraz and Zverev carry Europe's hopes against Fritz and de Minaur.",
+      "whenJst": "Sun Sep 27 · 20:00 JST",
       "sources": [
         {
           "name": "ATP Tour",
-          "title": "Laver Cup: Teams, Dates, History & All You Need To Know",
-          "url": "https://www.atptour.com/en/news/laver-cup-2026-history-draw-schedule"
+          "title": "What is the Laver Cup schedule?",
+          "url": "https://www.atptour.com/en/news/laver-cup-2026-schedule"
         },
         {
-          "name": "Laver Cup (official)",
-          "title": "Ruud provides early Team Europe lead in Cerundolo rematch",
-          "url": "https://lavercup.com/news/2026/09/25/ruud-provides-early-team-europe-lead-in-cerundolo-rematch"
-        }
-      ]
-    },
-    {
-      "id": "s3",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "England vs. Spain — UEFA Nations League opener, Wembley",
-      "line": "Newly crowned world champions Spain (unbeaten in 5, seven clean sheets in their last 8) make their first appearance since beating Argentina in the 2026 World Cup final, visiting an England side still stinging from a semi-final loss to Argentina. A rerun of the Euro 2024 final to open the new Nations League group.",
-      "whenJst": "Sun Sep 27 · 03:45 JST",
-      "sources": [
-        {
-          "name": "ESPN",
-          "title": "England vs. Spain in Nations League 2026: TV channel, how to watch, kick-off time, referee, line-ups",
-          "url": "https://www.espn.com/soccer/story/_/id/49999014/england-vs-spain-nations-league-2026-how-watch-tv-channel-kick-live-stream-referee-line-ups"
-        },
-        {
-          "name": "UEFA.com",
-          "title": "UEFA Nations League Matchday 1 preview: Italy vs Belgium, England vs Spain among marquee matches",
-          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21a4f1803092-7aad154369dc-1000--uefa-nations-league-matchday-1-preview-england-vs-spain-neth/"
+          "name": "Yahoo Sports",
+          "title": "Laver Cup 2026 live scores, latest results: Full schedule as Team World take on Team Europe in London",
+          "url": "https://sports.yahoo.com/articles/laver-cup-2026-live-scores-090001945.html"
         }
       ]
     }
