@@ -1,45 +1,70 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T20:17:35Z",
-  "dateLabel": "Sun · Sep 27 2026",
+  "generatedAt": "2026-09-27T20:30:00Z",
+  "dateLabel": "Mon · Sep 28 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
-      "status": "upcoming",
-      "event": "Presidents Cup — Sunday singles at Medinah",
-      "line": "International team led the U.S. 8.5-5.5 after Saturday's fourball, with foursomes still tightening things up. Sunday's 12 singles matches decide it all: the Americans are chasing a 10th straight Presidents Cup win, while International is chasing its first win since 2019.",
-      "whenJst": "Mon Sep 28 · 01:00 JST (singles begin, through ~08:00 JST)",
+      "status": "result",
+      "event": "Presidents Cup — USA completes historic comeback",
+      "line": "USA trailed the Internationals 10.5–7.5 entering Sunday singles at Medinah — the biggest deficit ever overcome on foreign soil — and stormed back to win the Cup for the 10th straight time. Keegan Bradley delivered the clinching point after Si Woo Kim missed a 10-foot putt on 18.",
+      "whenJst": "Mon Sep 28 · concluded ~08:00 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Presidents Cup 2026: Latest scores, results, tee times, leaderboard as Team USA host International Team at Medinah",
-          "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah"
+          "name": "CBS Sports",
+          "title": "2026 Presidents Cup standings, scores: Live updates, results and scoreboard coverage for Day 4 at Medinah",
+          "url": "https://www.cbssports.com/golf/news/presidents-cup-2026-standings-scores-live-updates-results-scoreboard-day-4/live/"
         },
         {
           "name": "PGA Tour",
-          "title": "How to watch: Round coverage details, live scores, tee times — Presidents Cup, Medinah Country Club",
-          "url": "https://www.pgatour.com/article/news/latest/2026/09/22/how-to-watch-round-coverage-details-live-scores-tee-time-featured-groups-times-presidents-cup-medinah-country-club-golf-channel-pga-tour-live-betcast-presented-by-draftkings-scottie-scheffler"
+          "title": "Presidents Cup Day 3: Internationals take historic 10.5-7.5 lead over U.S. into Sunday Singles",
+          "url": "https://www.pgatour.com/article/news/latest/2026/09/26/presidents-cup-match-recap-saturday-foursomes-fourballs-us-international-medinah-country-club-scottie-scheffler-si-woo-kim"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "tennis",
-      "status": "upcoming",
-      "event": "Laver Cup — decisive Sunday at The O2, London",
-      "line": "Team World leads Team Europe 5-3 after two days, but Sunday's matches are worth 3 points each (13 needed to win) — enough for either side to flip it in a session or two. Alcaraz and Zverev carry Europe's hopes against Fritz and de Minaur.",
-      "whenJst": "Sun Sep 27 · 20:00 JST",
+      "status": "result",
+      "event": "Laver Cup — Team Europe reclaims the trophy",
+      "line": "Team Europe beat Team World 13-5 at The O2 in London. Alexander Zverev sealed it with a 7-6(3), 6-3 win over Learner Tien — his fourth career clinching match and the first Laver Cup title for captain Yannick Noah.",
+      "whenJst": "Mon Sep 28 · concluded ~05:00 JST",
       "sources": [
         {
           "name": "ATP Tour",
-          "title": "What is the Laver Cup schedule?",
-          "url": "https://www.atptour.com/en/news/laver-cup-2026-schedule"
-        },
+          "title": "Alexander Zverev tops Learner Tien, clinches Laver Cup for Team Europe",
+          "url": "https://www.atptour.com/en/news/laver-cup-2026-sunday-report"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "China Open (Beijing) — stacked Asian-swing field",
+      "line": "WTA 1000/ATP 500 in Beijing with Sinner, Zverev and a rare Novak Djokovic comeback (first appearance since 2015) leading the men; Sabalenka, Gauff and Swiatek headline the women. Draw is Sep 30, matches run into early-mid October.",
+      "whenJst": "Wed Sep 30 · draw day (Beijing time, 1h behind JST)",
+      "sources": [
         {
-          "name": "Yahoo Sports",
-          "title": "Laver Cup 2026 live scores, latest results: Full schedule as Team World take on Team Europe in London",
-          "url": "https://sports.yahoo.com/articles/laver-cup-2026-live-scores-090001945.html"
+          "name": "ATP Tour",
+          "title": "Who is on the Beijing entry list? Jannik Sinner, Alexander Zverev, Novak Djokovic feature",
+          "url": "https://www.atptour.com/en/news/beijing-2026-entry-list"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "Japan Open (Tokyo) — Alcaraz defends on home-ish soil",
+      "line": "Carlos Alcaraz defends his Japan Open title at Ariake Coliseum, Tokyo, with Ben Shelton also in the ATP 500 field. Main draw runs Sep 30-Oct 4 — worth flagging even though it's already in JST, no jet lag required for this one.",
+      "whenJst": "Wed Sep 30 · 11:00 JST (main draw begins, Ariake Coliseum)",
+      "sources": [
+        {
+          "name": "ATP Tour",
+          "title": "Carlos Alcaraz set to defend Tokyo title in 2026",
+          "url": "https://www.atptour.com/en/news/alcaraz-tokyo-2026-entry"
         }
       ]
     }
