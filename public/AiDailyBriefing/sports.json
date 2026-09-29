@@ -1,25 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T20:05:00Z",
-  "dateLabel": "Tue · Sep 29 2026",
+  "generatedAt": "2026-09-29T20:07:13Z",
+  "dateLabel": "Wed · Sep 30 2026",
   "items": [
     {
       "id": "s1",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "China Open, Beijing (WTA 1000 / ATP 500)",
-      "line": "Main draws start Sep 30 at the National Tennis Center. The men's event runs to Oct 6 and the women's WTA 1000 to Sun Oct 11, when the singles final is played. Check the bracket for exact match times.",
-      "whenJst": "Wed Sep 30 (start) · women's final Sun Oct 11 (time TBC)",
+      "event": "Japan Open, Tokyo (ATP 500)",
+      "line": "Defending champion Carlos Alcaraz leads a field with Fritz, Musetti, Lehecka and Tiafoe. Kei Nishikori plays his final tournament. Main draw runs Sep 30 to Oct 4, with the singles final set for Tuesday.",
+      "whenJst": "Tue Oct 6 · 18:00 JST (final, not before)",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "2026 China Open Bracket and Draw - Tennis - ESPN",
-          "url": "https://www.espn.com/tennis/bracket/_/tournamentId/959/type/1"
-        },
-        {
-          "name": "WTA",
-          "title": "China Open 2026 Overview | WTA Official",
-          "url": "https://www.wtatennis.com/tournaments/china-open"
+          "name": "ATP Tour",
+          "title": "Kinoshita Group Japan Open Tennis Championships 2026: Draws, Dates, ...",
+          "url": "https://www.atptour.com/en/news/tokyo-atp-500-2026-history-draw-schedule"
         }
       ]
     },
@@ -27,19 +22,34 @@
       "id": "s2",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "UEFA Champions League 2026/27, league phase Matchday 3",
-      "line": "Matchday 3 is on Oct 20/21, with 21:00 CET kick-offs unless stated. That is 04:00 JST the next morning. Check the fixture list for the big ties.",
-      "whenJst": "Wed Oct 21 – Thu Oct 22 · 04:00 JST (most games)",
+      "event": "Champions League matchday 3: Arsenal vs Bayern Munich",
+      "line": "The marquee league-phase tie of matchday 3 kicks off at 20:00 UK time on Oct 21. Man City host AEK Athens and Liverpool host Villarreal a day earlier.",
+      "whenJst": "Thu Oct 22 · 04:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe | Football News | Sky Sports",
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and ...",
           "url": "https://www.skysports.com/football/news/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "golf",
+      "status": "result",
+      "event": "Presidents Cup 2026, Medinah",
+      "line": "The USA won its 11th straight Presidents Cup, 17-13. They rallied from three points down with a 9.5-2.5 win in the Sunday singles.",
+      "whenJst": "Mon Sep 28 · early morning JST (final day ended)",
+      "sources": [
+        {
+          "name": "Sky Sports",
+          "title": "Presidents Cup 2026: Final scores, results, leaderboard as Team ...",
+          "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah"
         },
         {
-          "name": "ESPN",
-          "title": "2026 UEFA Champions League Schedule - ESPN",
-          "url": "https://www.espn.com/soccer/schedule/_/league/uefa.champions"
+          "name": "Golf Channel",
+          "title": "Presidents Cup 2026 recap: U.S. rallies at Medinah to win 11th ...",
+          "url": "https://www.golfchannel.com/pga-tour/live/presidents-cup-2026-sunday-singles-live-updates-scores-highlights-and-news"
         }
       ]
     }
