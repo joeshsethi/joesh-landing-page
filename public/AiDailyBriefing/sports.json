@@ -1,55 +1,60 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T20:07:13Z",
-  "dateLabel": "Wed · Sep 30 2026",
+  "generatedAt": "2026-10-01T20:13:00Z",
+  "dateLabel": "Fri · Oct 02 2026",
   "items": [
     {
       "id": "s1",
       "sport": "tennis",
-      "status": "upcoming",
+      "status": "live",
       "event": "Japan Open, Tokyo (ATP 500)",
-      "line": "Defending champion Carlos Alcaraz leads a field with Fritz, Musetti, Lehecka and Tiafoe. Kei Nishikori plays his final tournament. Main draw runs Sep 30 to Oct 4, with the singles final set for Tuesday.",
-      "whenJst": "Tue Oct 6 · 18:00 JST (final, not before)",
+      "line": "Defending champ Carlos Alcaraz is top seed at Ariake and opened with a win over Michelsen; he is bidding to be the first to defend the title since Sampras in 1994. The final is in your own time zone.",
+      "whenJst": "Final: Tue Oct 6 · Tokyo (check order of play)",
       "sources": [
         {
           "name": "ATP Tour",
-          "title": "Kinoshita Group Japan Open Tennis Championships 2026: Draws, Dates, ...",
-          "url": "https://www.atptour.com/en/news/tokyo-atp-500-2026-history-draw-schedule"
+          "title": "Carlos Alcaraz faces opening Alex Michelsen test in Tokyo",
+          "url": "https://www.atptour.com/en/news/tokyo-2026-draw-preview"
+        },
+        {
+          "name": "ATP Tour",
+          "title": "Carlos Alcaraz shakes off struggles on serve, downs Alex Michelsen in Tokyo opener",
+          "url": "https://www.atptour.com/en/news/alcaraz-michelsen-tokyo-2026-thursday"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Champions League matchday 3: Arsenal vs Bayern Munich",
-      "line": "The marquee league-phase tie of matchday 3 kicks off at 20:00 UK time on Oct 21. Man City host AEK Athens and Liverpool host Villarreal a day earlier.",
-      "whenJst": "Thu Oct 22 · 04:00 JST",
+      "event": "Shanghai Masters (ATP 1000)",
+      "line": "Sinner, Zverev, Alcaraz and Djokovic are on the entry list for the Masters 1000 in Shanghai. China is only an hour behind JST, so matches fall at normal hours.",
+      "whenJst": "Oct 7-18 · final Sun Oct 18 (time TBC)",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Champions League 2026/27 fixtures, dates, schedule, format and ...",
-          "url": "https://www.skysports.com/football/news/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+          "name": "ATP Tour",
+          "title": "Who is on the Shanghai entry list?",
+          "url": "https://www.atptour.com/en/news/shanghai-2026-entry-list"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "golf",
-      "status": "result",
-      "event": "Presidents Cup 2026, Medinah",
-      "line": "The USA won its 11th straight Presidents Cup, 17-13. They rallied from three points down with a 9.5-2.5 win in the Sunday singles.",
-      "whenJst": "Mon Sep 28 · early morning JST (final day ended)",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "UCL matchday 2: Man City vs PSG",
+      "line": "Heavyweight league-phase clash; other ties include Roma v Real Madrid, Galatasaray v Barcelona and Atletico v Man United. Kickoffs are 21:00 CEST, i.e. 04:00 JST. Sources disagreed on the day for City-PSG, so verify.",
+      "whenJst": "Wed Oct 14 or Thu Oct 15 · 04:00 JST (verify day)",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Presidents Cup 2026: Final scores, results, leaderboard as Team ...",
-          "url": "https://www.skysports.com/golf/news/13590592/presidents-cup-2026-latest-scores-results-tee-times-leaderboard-as-team-usa-host-international-team-at-medinah"
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/"
         },
         {
-          "name": "Golf Channel",
-          "title": "Presidents Cup 2026 recap: U.S. rallies at Medinah to win 11th ...",
-          "url": "https://www.golfchannel.com/pga-tour/live/presidents-cup-2026-sunday-singles-live-updates-scores-highlights-and-news"
+          "name": "ESPN",
+          "title": "2026 UEFA Champions League Schedule - ESPN",
+          "url": "https://www.espn.com/soccer/schedule/_/league/uefa.champions"
         }
       ]
     }
