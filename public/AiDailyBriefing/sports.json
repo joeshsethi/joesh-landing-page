@@ -1,35 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T20:16:00.000Z",
-  "dateLabel": "Sat · Oct 03 2026",
+  "generatedAt": "2026-10-04T20:06:16.000Z",
+  "dateLabel": "Mon · Oct 05 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
-      "status": "live",
-      "event": "Alfred Dunhill Links Championship (DP World Tour)",
-      "line": "Casey Jarvis, already a two-time winner on the DP World Tour this year, led by one at 11-under after round 2, with MJ Daffue and Matthew Jordan one back. Weekend play continues across St Andrews, Carnoustie and Kingsbarns. Tee times not confirmed.",
-      "whenJst": "Sat Oct 03 – Sun Oct 04 · rounds 3-4 (tee times TBC) JST",
+      "status": "upcoming",
+      "event": "PGA Tour Baycurrent Classic, Yokohama",
+      "line": "The PGA Tour is in Japan at Yokohama Country Club (West Course), $8M purse, with Xander Schauffele defending. Exact tee times were not confirmed.",
+      "whenJst": "Thu Oct 8 – Sun Oct 11 · tee times TBC JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Alfred Dunhill Links Championship: Matthew Jordan moves into contention with Casey Jarvis leading by one",
-          "url": "https://www.skysports.com/golf/news/13594476/alfred-dunhill-links-championship-matthew-jordan-moves-into-contention-with-casey-jarvis-leading-by-one"
+          "name": "ESPN",
+          "title": "PGA Tour Schedule - 2026 Season - ESPN",
+          "url": "https://www.espn.com/golf/schedule"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "tennis",
-      "status": "upcoming",
-      "event": "Rolex Shanghai Masters (ATP Masters 1000)",
-      "line": "Runs Oct 7-18 in Shanghai, with Sinner, Zverev and Alcaraz among the top seeds and Vacherot defending champion. Finals Sunday Oct 18; start time not confirmed.",
-      "whenJst": "Wed Oct 07 – Sun Oct 18 · final Sun Oct 18 (time TBC) JST",
+      "status": "live",
+      "event": "China Open, Beijing (Djokovic still in draw)",
+      "line": "Sabalenka (No. 2) lost 6-4, 6-3 to Bartunkova in R3 on Sunday, and Djokovic outlasted Zverev. Quarterfinals are scheduled Oct 8-9, with the tournament running to Oct 11/12.",
+      "whenJst": "Quarterfinals Thu Oct 8 – Fri Oct 9 JST",
       "sources": [
         {
-          "name": "Olympics.com",
-          "title": "2026 ATP Tennis Rolex Shanghai Masters - Olympics.com",
-          "url": "https://www.olympics.com/en/sport-events/2026-tennis-rolex-shanghai-masters"
+          "name": "WTA",
+          "title": "China Open 2026: Dates, draws, prize money and everything you need to know",
+          "url": "https://www.wtatennis.com/news/4580264/china-open-beijing-2026-dates-draws-prize-money-and-everything-you-need-to-know"
+        },
+        {
+          "name": "Washington Times (AP)",
+          "title": "Sabalenka knocked out of China Open in straight sets by Bartunkova, Djokovic outlasts Zverev",
+          "url": "https://www.washingtontimes.com/news/2026/oct/4/aryna-sabalenka-knocked-china-open-straight-sets-bartunkova-djokovic/"
         }
       ]
     }
