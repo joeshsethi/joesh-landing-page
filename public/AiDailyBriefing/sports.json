@@ -1,40 +1,105 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T20:06:16.000Z",
-  "dateLabel": "Mon · Oct 05 2026",
+  "generatedAt": "2026-10-05T20:08:23.000Z",
+  "dateLabel": "Tue · Oct 06 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
       "status": "upcoming",
-      "event": "PGA Tour Baycurrent Classic, Yokohama",
-      "line": "The PGA Tour is in Japan at Yokohama Country Club (West Course), $8M purse, with Xander Schauffele defending. Exact tee times were not confirmed.",
-      "whenJst": "Thu Oct 8 – Sun Oct 11 · tee times TBC JST",
+      "event": "Baycurrent Classic (PGA Tour, Yokohama CC, Japan)",
+      "line": "The PGA Tour lands in Yokohama for an $8M event, Oct 8-11, so rounds air in Japan-friendly hours. Final round is Sunday Oct 11 JST. Check exact tee times and field on ESPN.",
+      "whenJst": "Thu Oct 8 – Sun Oct 11 · Japan local time",
       "sources": [
         {
           "name": "ESPN",
           "title": "PGA Tour Schedule - 2026 Season - ESPN",
           "url": "https://www.espn.com/golf/schedule"
+        },
+        {
+          "name": "ESPN",
+          "title": "PGA Tour Scores and Leaderboards",
+          "url": "https://www.espn.com/golf/leaderboard/_/tour/pga"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "tennis",
-      "status": "live",
-      "event": "China Open, Beijing (Djokovic still in draw)",
-      "line": "Sabalenka (No. 2) lost 6-4, 6-3 to Bartunkova in R3 on Sunday, and Djokovic outlasted Zverev. Quarterfinals are scheduled Oct 8-9, with the tournament running to Oct 11/12.",
-      "whenJst": "Quarterfinals Thu Oct 8 – Fri Oct 9 JST",
+      "status": "upcoming",
+      "event": "Rolex Shanghai Masters (ATP Masters 1000), Oct 7-18",
+      "line": "Sinner has withdrawn (knee), so Zverev is top seed and Alcaraz is No. 2 in the other half; Djokovic is in Zverev's half. Alcaraz opens vs Cerundolo or a qualifier.",
+      "whenJst": "Wed Oct 7 – Sun Oct 18 · final Sun Oct 18",
       "sources": [
         {
-          "name": "WTA",
-          "title": "China Open 2026: Dates, draws, prize money and everything you need to know",
-          "url": "https://www.wtatennis.com/news/4580264/china-open-beijing-2026-dates-draws-prize-money-and-everything-you-need-to-know"
+          "name": "ESPN",
+          "title": "2026 Rolex Shanghai Masters Tennis Live Scores - ESPN",
+          "url": "https://www.espn.com/tennis/scoreboard/tournament/_/eventId/315-2026"
         },
         {
-          "name": "Washington Times (AP)",
-          "title": "Sabalenka knocked out of China Open in straight sets by Bartunkova, Djokovic outlasts Zverev",
-          "url": "https://www.washingtontimes.com/news/2026/oct/4/aryna-sabalenka-knocked-china-open-straight-sets-bartunkova-djokovic/"
+          "name": "Punto de Break",
+          "title": "Alcaraz avoids Djokovic in Shanghai but could clash with the reigning champion",
+          "url": "https://www.puntodebreak.com/en/2026/10/05/alcaraz-avoids-djokovic-in-shanghai-but-could-clash-with-the-reigning-champion"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Champions League MD2: Galatasaray v Barcelona; Atletico v Man United",
+      "line": "Tuesday Oct 13 headliners at 21:00 CEST: Galatasaray v Barcelona, Atletico Madrid v Manchester United, Arsenal v Lille, Inter v Club Brugge, Villarreal v Napoli.",
+      "whenJst": "Wed Oct 14 · 04:00 JST",
+      "sources": [
+        {
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "name": "Sky Sports",
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "url": "https://www.skysports.com/football/news/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Champions League MD2: Man City v PSG; Roma v Real Madrid",
+      "line": "Man City host PSG and Roma host Real Madrid, both at 21:00 CEST on Wed Oct 14. Same night: Aston Villa v Fenerbahce, LASK v Liverpool.",
+      "whenJst": "Thu Oct 15 · 04:00 JST",
+      "sources": [
+        {
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "name": "Sky Sports",
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "url": "https://www.skysports.com/football/news/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "El Clasico: Barcelona v Real Madrid (La Liga)",
+      "line": "First Clasico of 2026-27 at Spotify Camp Nou, Sunday Oct 25, 21:00 local.",
+      "whenJst": "Mon Oct 26 · 05:00 JST",
+      "sources": [
+        {
+          "name": "Managing Madrid",
+          "title": "Date and time set for El Clásico between Barcelona and Real Madrid",
+          "url": "https://www.managingmadrid.com/112273/el-clasico-2026-barcelona-real-madrid-date-time"
+        },
+        {
+          "name": "OneFootball",
+          "title": "LaLiga 2026-27 calendar confirmed, season starts 15 August, Clásico 25 October",
+          "url": "https://onefootball.com/en/news/laliga-2026-27-calendar-confirmed-season-starts-15-august-clasico-25-october-43170707"
         }
       ]
     }
