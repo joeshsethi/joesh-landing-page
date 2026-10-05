@@ -116,3 +116,9 @@ your question about tracking improvement.
 - 2026-10-02T20:07:22.946Z — live run · 9 stories (4 JP) · EDITION No.509 · SYNCED 05:15 JST · engine claude-code · store file
 - 2026-10-03T20:06:17.730Z — live run · 9 stories (4 JP) · EDITION No.510 · SYNCED 05:06 JST · engine claude-code · store file
 - 2026-10-04T20:06:24.524Z — live run · 9 stories (4 JP) · EDITION No.511 · SYNCED 05:20 JST · engine claude-code · store file
+
+## 2026-10-05 — feedback review
+- Store: file · signals (30d): 0 (★0 👍0 👎0)
+- Recommendations:
+  - Not enough feedback yet to steer — keep collecting signals.
+- Action: wrote preferences.proposed.md for review.
