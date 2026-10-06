@@ -1,45 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T20:08:23.000Z",
-  "dateLabel": "Tue · Oct 06 2026",
+  "generatedAt": "2026-10-06T20:08:11Z",
+  "dateLabel": "Wed · Oct 07 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "golf",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "Baycurrent Classic (PGA Tour, Yokohama CC, Japan)",
-      "line": "The PGA Tour lands in Yokohama for an $8M event, Oct 8-11, so rounds air in Japan-friendly hours. Final round is Sunday Oct 11 JST. Check exact tee times and field on ESPN.",
-      "whenJst": "Thu Oct 8 – Sun Oct 11 · Japan local time",
+      "event": "Champions League MD2: Man City vs PSG",
+      "line": "City host the holders in a rematch of the Super Cup PSG won 2-1. Kick-off 20:00 UK time Oct 14.",
+      "whenJst": "Thu Oct 15 · 04:00 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "PGA Tour Schedule - 2026 Season - ESPN",
-          "url": "https://www.espn.com/golf/schedule"
-        },
-        {
-          "name": "ESPN",
-          "title": "PGA Tour Scores and Leaderboards",
-          "url": "https://www.espn.com/golf/leaderboard/_/tour/pga"
+          "name": "Sky Sports",
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "Rolex Shanghai Masters (ATP Masters 1000), Oct 7-18",
-      "line": "Sinner has withdrawn (knee), so Zverev is top seed and Alcaraz is No. 2 in the other half; Djokovic is in Zverev's half. Alcaraz opens vs Cerundolo or a qualifier.",
-      "whenJst": "Wed Oct 7 – Sun Oct 18 · final Sun Oct 18",
+      "event": "Champions League MD2: Man United vs Atlético, Arsenal vs Lille",
+      "line": "Both Premier League sides at home, 20:00 UK time on Oct 13. Liverpool vs LASK follows Oct 14 at 17:45 UK (Thu Oct 15 · 01:45 JST).",
+      "whenJst": "Wed Oct 14 · 04:00 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "2026 Rolex Shanghai Masters Tennis Live Scores - ESPN",
-          "url": "https://www.espn.com/tennis/scoreboard/tournament/_/eventId/315-2026"
-        },
-        {
-          "name": "Punto de Break",
-          "title": "Alcaraz avoids Djokovic in Shanghai but could clash with the reigning champion",
-          "url": "https://www.puntodebreak.com/en/2026/10/05/alcaraz-avoids-djokovic-in-shanghai-but-could-clash-with-the-reigning-champion"
+          "name": "Sky Sports",
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         }
       ]
     },
@@ -47,59 +37,29 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League MD2: Galatasaray v Barcelona; Atletico v Man United",
-      "line": "Tuesday Oct 13 headliners at 21:00 CEST: Galatasaray v Barcelona, Atletico Madrid v Manchester United, Arsenal v Lille, Inter v Club Brugge, Villarreal v Napoli.",
-      "whenJst": "Wed Oct 14 · 04:00 JST",
+      "event": "Champions League MD3: Arsenal vs Bayern Munich",
+      "line": "Arsenal host Bayern at 20:00 UK time on Oct 21; Aston Villa vs Viking FK same night.",
+      "whenJst": "Thu Oct 22 · 04:00 JST",
       "sources": [
-        {
-          "name": "UEFA",
-          "title": "2026/27 Champions League: All the league phase fixtures and results",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/"
-        },
         {
           "name": "Sky Sports",
           "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
-          "url": "https://www.skysports.com/football/news/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         }
       ]
     },
     {
       "id": "s4",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Champions League MD2: Man City v PSG; Roma v Real Madrid",
-      "line": "Man City host PSG and Roma host Real Madrid, both at 21:00 CEST on Wed Oct 14. Same night: Aston Villa v Fenerbahce, LASK v Liverpool.",
-      "whenJst": "Thu Oct 15 · 04:00 JST",
+      "sport": "tennis",
+      "status": "live",
+      "event": "Rolex Shanghai Masters (ATP Masters 1000)",
+      "line": "Runs Oct 5-18 in Shanghai; Federer legends doubles exhibition Oct 16. Draw and seeds not confirmed.",
+      "whenJst": "Mon Oct 5 – Sun Oct 18 · final-day time not confirmed",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "2026/27 Champions League: All the league phase fixtures and results",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/"
-        },
-        {
-          "name": "Sky Sports",
-          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
-          "url": "https://www.skysports.com/football/news/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
-        }
-      ]
-    },
-    {
-      "id": "s5",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "El Clasico: Barcelona v Real Madrid (La Liga)",
-      "line": "First Clasico of 2026-27 at Spotify Camp Nou, Sunday Oct 25, 21:00 local.",
-      "whenJst": "Mon Oct 26 · 05:00 JST",
-      "sources": [
-        {
-          "name": "Managing Madrid",
-          "title": "Date and time set for El Clásico between Barcelona and Real Madrid",
-          "url": "https://www.managingmadrid.com/112273/el-clasico-2026-barcelona-real-madrid-date-time"
-        },
-        {
-          "name": "OneFootball",
-          "title": "LaLiga 2026-27 calendar confirmed, season starts 15 August, Clásico 25 October",
-          "url": "https://onefootball.com/en/news/laliga-2026-27-calendar-confirmed-season-starts-15-august-clasico-25-october-43170707"
+          "name": "Rolex Shanghai Masters",
+          "title": "What's ahead 2026",
+          "url": "https://en.rolexshanghaimasters.com/en/media/news/whats-ahead-2026"
         }
       ]
     }
