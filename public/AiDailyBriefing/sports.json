@@ -1,20 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T20:08:11Z",
-  "dateLabel": "Wed · Oct 07 2026",
+  "generatedAt": "2026-10-07T20:25:00Z",
+  "dateLabel": "Thu · Oct 08 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Champions League MD2: Man City vs PSG",
-      "line": "City host the holders in a rematch of the Super Cup PSG won 2-1. Kick-off 20:00 UK time Oct 14.",
-      "whenJst": "Thu Oct 15 · 04:00 JST",
+      "sport": "tennis",
+      "status": "live",
+      "event": "Rolex Shanghai Masters",
+      "line": "Masters 1000 under way (Oct 7-18) with world No 1 Sinner out injured. Zverev is top seed, Djokovic is in his half, and Alcaraz, fresh from winning Tokyo, leads the other half.",
+      "whenJst": "Through Sun Oct 18 · final (time TBC)",
       "sources": [
         {
+          "name": "ATP Tour",
+          "title": "Carlos Alcaraz learns Shanghai draw; Zverev & Djokovic in same half",
+          "url": "https://www.atptour.com/en/news/shanghai-2026-draw-preview"
+        },
+        {
           "name": "Sky Sports",
-          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
-          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+          "title": "Jannik Sinner: World No 1 withdraws from Rolex Shanghai Masters as knee injury forces him to skip China Open",
+          "url": "https://www.skysports.com/tennis/news/13594696/jannik-sinner-world-no-1-withdraws-from-rolex-shanghai-masters-as-knee-injury-forces-him-to-skip-china-open"
         }
       ]
     },
@@ -22,13 +27,13 @@
       "id": "s2",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League MD2: Man United vs Atlético, Arsenal vs Lille",
-      "line": "Both Premier League sides at home, 20:00 UK time on Oct 13. Liverpool vs LASK follows Oct 14 at 17:45 UK (Thu Oct 15 · 01:45 JST).",
+      "event": "Champions League MD2: Atlético vs Man United",
+      "line": "Man United travel to Madrid on Matchday 2; Arsenal host Lille the same night.",
       "whenJst": "Wed Oct 14 · 04:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "title": "Champions League 2026-27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
           "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         }
       ]
@@ -37,29 +42,14 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League MD3: Arsenal vs Bayern Munich",
-      "line": "Arsenal host Bayern at 20:00 UK time on Oct 21; Aston Villa vs Viking FK same night.",
-      "whenJst": "Thu Oct 22 · 04:00 JST",
+      "event": "Champions League MD2: Man City vs PSG",
+      "line": "City host the holders at the Etihad, a heavyweight tie early in the expanded league phase.",
+      "whenJst": "Thu Oct 15 · 04:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "title": "Champions League 2026-27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
           "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "sport": "tennis",
-      "status": "live",
-      "event": "Rolex Shanghai Masters (ATP Masters 1000)",
-      "line": "Runs Oct 5-18 in Shanghai; Federer legends doubles exhibition Oct 16. Draw and seeds not confirmed.",
-      "whenJst": "Mon Oct 5 – Sun Oct 18 · final-day time not confirmed",
-      "sources": [
-        {
-          "name": "Rolex Shanghai Masters",
-          "title": "What's ahead 2026",
-          "url": "https://en.rolexshanghaimasters.com/en/media/news/whats-ahead-2026"
         }
       ]
     }
