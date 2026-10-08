@@ -1,15 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T20:25:00Z",
-  "dateLabel": "Thu · Oct 08 2026",
+  "generatedAt": "2026-10-08T20:12:00Z",
+  "dateLabel": "Fri · Oct 09 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "tennis",
+      "sport": "golf",
       "status": "live",
-      "event": "Rolex Shanghai Masters",
-      "line": "Masters 1000 under way (Oct 7-18) with world No 1 Sinner out injured. Zverev is top seed, Djokovic is in his half, and Alcaraz, fresh from winning Tokyo, leads the other half.",
-      "whenJst": "Through Sun Oct 18 · final (time TBC)",
+      "event": "Baycurrent Classic, Yokohama Country Club (PGA Tour, in Japan)",
+      "line": "Round 1 had Jacob Bridgeman leading at -8, Jordan Smith (ENG) at -7, and Morikawa and Hisatsune at -4. Defending champ Schauffele is the betting favorite. No cut, so all 72 players play 72 holes.",
+      "whenJst": "Fri Oct 9 – Sun Oct 11 · daytime JST (tee times unconfirmed)",
+      "sources": [
+        {
+          "name": "PGA Tour",
+          "title": "Baycurrent Classic: How to watch, live scores, tee times, TV times - PGA Tour",
+          "url": "https://www.pgatour.com/article/news/latest/2026/10/06/how-to-watch-baycurrent-classic-yokohama-country-club-tv-times-live-scores-leaderboards-coverage-details"
+        },
+        {
+          "name": "PGA Tour",
+          "title": "The First Look: Baycurrent Classic - PGA Tour",
+          "url": "https://www.pgatour.com/article/news/the-first-look/2026/10/05/storylines-baycurrent-classic-preview-field-tee-times-how-to-watch-rickie-fowler-jordan-spieth-xander-schauffele"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "Rolex Shanghai Masters (ATP Masters 1000), main draw Oct 7-18",
+      "line": "Early rounds under way; Alcaraz, Zverev and Djokovic are in the field, Zverev and Djokovic in the same half. Semis likely Sat Oct 17 and final Sun Oct 18, inferred from tournament dates.",
+      "whenJst": "Sun Oct 18 · final, afternoon JST (est.)",
       "sources": [
         {
           "name": "ATP Tour",
@@ -17,24 +37,9 @@
           "url": "https://www.atptour.com/en/news/shanghai-2026-draw-preview"
         },
         {
-          "name": "Sky Sports",
-          "title": "Jannik Sinner: World No 1 withdraws from Rolex Shanghai Masters as knee injury forces him to skip China Open",
-          "url": "https://www.skysports.com/tennis/news/13594696/jannik-sinner-world-no-1-withdraws-from-rolex-shanghai-masters-as-knee-injury-forces-him-to-skip-china-open"
-        }
-      ]
-    },
-    {
-      "id": "s2",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Champions League MD2: Atlético vs Man United",
-      "line": "Man United travel to Madrid on Matchday 2; Arsenal host Lille the same night.",
-      "whenJst": "Wed Oct 14 · 04:00 JST",
-      "sources": [
-        {
-          "name": "Sky Sports",
-          "title": "Champions League 2026-27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
-          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+          "name": "ESPN",
+          "title": "Tsitsipas advances to Shanghai second round; Hurkacz lines up Djokovic",
+          "url": "https://www.espn.com/tennis/story/_/id/50131889/tsitsipas-advances-shanghai-hurkacz-lines-djokovic"
         }
       ]
     },
@@ -43,13 +48,38 @@
       "sport": "soccer",
       "status": "upcoming",
       "event": "Champions League MD2: Man City vs PSG",
-      "line": "City host the holders at the Etihad, a heavyweight tie early in the expanded league phase.",
+      "line": "Man City host PSG in the standout league-phase game of matchday 2. Sky lists an 8pm UK kick-off.",
       "whenJst": "Thu Oct 15 · 04:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Champions League 2026-27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
-          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "url": "https://www.skysports.com/football/news/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+        },
+        {
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Champions League MD2: Arsenal vs Lille, Atlético vs Man United",
+      "line": "Arsenal host Lille and Man United visit Atlético Madrid, both 8pm UK per Sky. Galatasaray–Barcelona and Roma–Real Madrid also on MD2, kick-offs unconfirmed.",
+      "whenJst": "Wed Oct 14 · 04:00 JST",
+      "sources": [
+        {
+          "name": "Sky Sports",
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "url": "https://www.skysports.com/football/news/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+        },
+        {
+          "name": "ESPN",
+          "title": "2026 UEFA Champions League Schedule - ESPN",
+          "url": "https://www.espn.com/soccer/schedule/_/league/uefa.champions"
         }
       ]
     }
