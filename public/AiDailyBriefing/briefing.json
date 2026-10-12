@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T20:25:00.000Z",
+  "generatedAt": "2026-10-12T20:20:00.000Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
     "greeting": "Good morning, Joesh.",
-    "dateLabel": "Mon · Oct 12 2026",
-    "editionLine": "EDITION No.518 · SYNCED 05:25 JST",
-    "intro": "Today's throughline: power and financing, the unglamorous constraints that now decide who gets to build AI.",
-    "briefingTitle": "Broadcom Would Bankroll Anthropic's TPUs, Oracle Trucks In Gas, Haiku 5.5 Slashes Prices, and Japan Bets on Rapidus and Chiba Power",
-    "summary": "Compute is increasingly limited by money and electricity rather than chips. Broadcom's up-to-$42B loan to Anthropic shows suppliers financing their own demand, while Oracle paying roughly 4x hub prices for trucked gas shows power as the binding constraint. At the cheap end, Haiku 5.5 and Chargebee's agent-cost standard point to costs becoming the thing builders manage. In Japan the same story appears as Rapidus with 17 partners but no customer, JERA's 400 MW gas-fed campus, and Sakana post-training a Chinese open model.",
+    "dateLabel": "Tue · Oct 13 2026",
+    "editionLine": "EDITION No.519 · SYNCED 05:20 JST",
+    "intro": "Today's throughline: who gets access, and who verifies — gated models, agent identity, and Japan's cyber scramble.",
+    "briefingTitle": "Google Gates Gemini 4 Argon by Trust, Arena Hits $3.1B Refereeing AI, Intel Skips HBM, and Japan Declares a Cyber Emergency",
+    "summary": "The common thread is trust as a gate. Google is releasing its strongest cyber model to vetted defenders first, Beltic is raising to verify which AI agent is allowed to transact, and Arena's $3.1B valuation shows that scoring models has become a paid business. On hardware, Intel is routing around the HBM shortage with cheap LPDDR. In Japan, an AI-linked wave of breaches has triggered a cyber emergency while the government quietly blind-tests domestic models against Claude and Nova.",
     "footerLeft": "Delivered daily · 05:00 JST",
     "footerRight": "9 stories · 26 sources"
   },
@@ -17,352 +17,354 @@
       "label": "Sovereign frontier-model pretraining",
       "jp": 32,
       "frontier": 95,
-      "note": "Down 1 — Sakana's flagship business model Namazu is a fine-tune of China's Kimi K2.6, and Rapidus has named no customer for domestic silicon."
+      "note": "Unchanged — Japan's domestic models are 30B-class and only now being blind-tested against Claude and Nova for government use; Europe's Kolibri and Mistral show peers shipping larger sovereign MoEs."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
       "jp": 19,
       "frontier": 99,
-      "note": "Unchanged — mutex's ¥281.6M Series A compares with Ultra's $50M Series A and Broadcom's up-to-$42B loan to a single customer."
+      "note": "Unchanged — AI&'s $50M seed and $2B capacity are rare in Japan, while Arena alone raised $200M in a single round."
     },
     {
       "label": "Domestic humanoid/robotics ownership",
       "jp": 60,
       "frontier": 93,
-      "note": "Frontier up 1 — Ultra's $62M and its Physical Intelligence tie-up show US deployment data compounding; no Japan robotics news moved the score."
+      "note": "Unchanged — METI's ¥2T AI/chips/robots bucket is only a request, and no Japanese robotics launch moved the score."
     },
     {
-      "label": "Domestic sovereign compute capacity",
-      "jp": 38,
-      "frontier": 97,
-      "note": "Up 1 — JERA's 400 MW Chiba MoU adds power-first capacity, but it is non-binding and a fraction of Oracle's 2.45 GW Jupiter plan."
+      "label": "AI-era cyber defence readiness",
+      "jp": 30,
+      "frontier": 90,
+      "note": "New read — 20+ Japanese firms breached and a party-level emergency, versus US defenders getting first access to gated models like Gemini 4 Argon."
     }
   ],
   "items": [
     {
       "id": "g1",
       "region": "global",
-      "cat": "hardware",
-      "source": "Semafor",
-      "time": "Oct 1",
-      "headline": "Broadcom Would Lend Anthropic Up to $42B So It Can Lease Broadcom-Built TPU Capacity, Per Its IPO Filing",
-      "dek": "A chip supplier underwriting its own customer's purchases is a new, circular form of AI compute financing.",
+      "cat": "launches",
+      "source": "TechRepublic",
+      "time": "Sep 30",
+      "headline": "Google's Gemini 4 Argon Ships to Vetted Cyber Defenders First, Guardrails Relaxed, With No Public Date",
+      "dek": "Google is gating its newest model by who you are, not what you pay, and the first target is vulnerability hunting.",
       "analysis": {
-        "happening": "Per Anthropic's IPO prospectus as reported by Reuters, Broadcom would lend up to $42B in convertible notes, roughly a third of Anthropic's $125.2B five-year TPU lease commitment. Anthropic says it does not expect to sell notes before its IPO.",
-        "now": "Vendor financing ties chip revenue to the customer's access to capital, the circularity critics flag, and puts Broadcom in a lender-and-supplier conflict. Caveat: $42B is a ceiling, not drawn debt, and reports differ on structure.",
-        "future": "Watch the IPO pricing documents and whether AMD, Nvidia or others copy the model. Broadcom's credit exposure is the nearest public proxy."
+        "happening": "Via Google's Fairwind program, trusted defenders get a version without the usual cyber guardrails. Intro API price is $2/$10 per M tokens, output cap raised from 64K to 1M. Google reports 77.9% on DeepSWE v1.1 and 68% on CWE-bench v1; Wiz runs it in a free scanning initiative.",
+        "now": "All benchmarks are self-reported, and Bloomberg reported some Google staff think real coding trails them (Google disputes this). There is no general-availability date. Release-by-trust-tier is becoming a product pattern for dual-use capability.",
+        "future": "Watch the GA date and independent CWE-bench replications. Opportunity: tooling on top of gated vulnerability-finding models — triage, patch review, disclosure workflows. Mistral Large 4 is copying the tiered approach for open weights."
       },
       "sources": [
         {
-          "name": "Semafor",
-          "title": "Broadcom to lend Anthropic $42 billion to lease chips: report",
-          "url": "https://www.semafor.com/article/10/01/2026/broadcom-to-lend-anthropic-42-billion-to-lease-chips-report"
+          "name": "TechRepublic",
+          "title": "Google Launches Gemini 4 Argon, Gives Cyber Defenders First Access",
+          "url": "https://www.techrepublic.com/article/news-google-gemini-4-argon-cyber-defenders/"
         },
         {
-          "name": "Pulse 2.0",
-          "title": "Broadcom To Lend Anthropic Up To $42 Billion To Finance AI Infrastructure",
-          "url": "https://pulse2.com/broadcom-to-lend-anthropic-up-to-42-billion-to-finance-ai-infrastructure/"
+          "name": "BetaNews",
+          "title": "gemini 4 argon cyber defenders fairwind",
+          "url": "https://betanews.com/article/gemini-4-argon-cyber-defenders-fairwind/"
         },
         {
-          "name": "Let's Data Science",
-          "title": "Broadcom to Lend Anthropic Up to $42 Billion in Convertible Deal",
-          "url": "https://letsdatascience.com/news/broadcom-to-lend-anthropic-up-to-42-billion-in-convertible-d-a46576ee"
+          "name": "Google",
+          "title": "Gemini 4 Argon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "Google's Gemini 4 Argon Rolls Out to Cyber Defenders First",
+          "url": "https://aiweekly.co/alerts/googles-gemini-4-argon-rolls-out-to-cyber-defenders-first"
         }
       ],
       "tags": [
-        "Broadcom",
-        "Anthropic",
-        "TPU",
-        "Financing"
+        "Google",
+        "Gemini",
+        "Cybersecurity",
+        "Access tiers"
       ]
     },
     {
       "id": "g2",
       "region": "global",
-      "cat": "launches",
-      "source": "Let's Data Science",
-      "time": "Oct 7",
-      "headline": "Claude Haiku 5.5 Lands at $0.10/$0.50 per M Tokens With 1M Context and an Effort Dial, but a New Tokenizer Eats Part of the Saving",
-      "dek": "Anthropic's small model undercuts Haiku 4.5 ($1/$5) on short prompts, making per-event agent loops cheap enough to run.",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Oct 8",
+      "headline": "Arena (ex-LMArena) Raises $200M at $3.1B: The AI Leaderboard Is Now a $100M-Run-Rate Business",
+      "dek": "A Berkeley side project turned referee for the labs nearly doubled its valuation in 10 months and is pivoting toward safety rankings.",
       "analysis": {
-        "happening": "Released Oct 7: $0.10 input / $0.50 output up to 100K-token prompts ($0.50/$2.50 above), 1M context, 128K output, first Haiku with adjustable effort. Anthropic reports 72.4% vs 15.7% (Haiku 4.5) on an offline OSWorld 2.1 subset.",
-        "now": "Headline cut is ~90% on short prompts, ~75% on average because the tokenizer counts ~30% more tokens. Classification and agent loops previously too costly per-event become viable. Benchmarks are vendor-reported; I did not find Anthropic's original post.",
-        "future": "Watch whether OpenAI and Google answer below $0.20 and whether independent evals confirm the OSWorld jump."
+        "happening": "Series B of $200M led by Lightspeed and Khosla at $3.1B, after a $150M Series A in January at $1.7B. Annualized revenue hit $100M in June, up from $30M, from paid evaluations sold to labs and enterprises. The consumer leaderboard stays free. a16z and Felicis also joined.",
+        "now": "Evaluation is becoming a paid layer: buyers want a neutral scorer and crowd votes beat static benchmarks. Caveat: Arena's customers are the labs it ranks, so independence is a live question, and the new alignment index is preliminary.",
+        "future": "Gap for builders: niche evaluators — Japanese-language, domain-specific, agent-safety. Watch whether labs dispute the alignment rankings and whether rivals raise against Arena."
       },
       "sources": [
         {
-          "name": "Let's Data Science",
-          "title": "Anthropic Releases Claude Haiku 5.5 With Lower Prices and Effort Controls",
-          "url": "https://letsdatascience.com/news/anthropic-releases-claude-haiku-55-with-lower-prices-and-eff-f698c663"
+          "name": "TechCrunch",
+          "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
         },
         {
-          "name": "AI Weekly",
-          "title": "Anthropic releases Claude Haiku 5.5, cutting prices by 75%",
-          "url": "https://aiweekly.co/alerts/introducing-claude-haiku-55"
+          "name": "mezha.net",
+          "title": "Arena raises $200 million as valuation nearly doubles to $3.1 billion",
+          "url": "https://mezha.net/eng/?p=3729644"
         },
         {
-          "name": "LLM Gateway",
-          "title": "New AI Models This Week: Haiku 5.5, Mistral Large 4, GLM 5.3 Fast",
-          "url": "https://llmgateway.io/blog/new-ai-models-this-week-2026-10-11"
+          "name": "HedgeCo",
+          "title": "AI Evaluation Platform Arena Raised a $200 Million Series B at a $3.1 Billion Valuation",
+          "url": "https://hedgeco.net/news/?p=92192"
         }
       ],
       "tags": [
-        "Anthropic",
-        "Pricing",
-        "Agents"
+        "Evals",
+        "Series B",
+        "Lightspeed",
+        "Khosla"
       ]
     },
     {
       "id": "g3",
       "region": "global",
       "cat": "hardware",
-      "source": "Bloomberg via InvestingLive",
-      "time": "Oct 8",
-      "headline": "Oracle Is Trucking Compressed Natural Gas to Power AI Data Centers at ~4x Hub Prices as Its 2.45 GW New Mexico Pipeline Slips to Feb 2027",
-      "dek": "Power, not chips, is now the binding constraint on Oracle's build-out, and it is paying a large premium to bridge the gap.",
+      "source": "Intel (via Stock Titan)",
+      "time": "Oct 12",
+      "headline": "Intel's GPU D-series Trades HBM for 160GB of LPDDR5X in a 350W Air-Cooled PCIe Card",
+      "dek": "A bet that inference buyers will take lower bandwidth in exchange for capacity, availability and no liquid cooling.",
       "analysis": {
-        "happening": "Bloomberg reports Oracle already runs trucked gas at sites in Salt Lake City and Shackelford County, Texas, and is weighing it for Project Jupiter. East Daley estimates delivered gas at about 4x hub prices. New Mexico denied pipeline right-of-way twice; Oracle shares fell about 5.5%.",
-        "now": "Compute capex is becoming a bet on who sources power fastest, which favors bridge-power suppliers and lessors. Caveat: Jupiter trucking is only under evaluation and trucks cannot supply the full 2.45 GW. Oracle has not commented.",
-        "future": "Oracle sent Blue Owl a force majeure notice Sept 24 that could defer rent by up to 3 years. Watch whether it stands and whether other hyperscalers copy the workaround."
+        "happening": "Detailed at OCP on Oct 12: Xe3P GPU, 160GB LPDDR5X per card (partners up to 480GB), 1.5 TB/s bandwidth, 1.3 PFLOPS FP8, 350W, air-cooled PCIe. Intel claims 300B parameters per card and 1T+ in an 8-GPU box. Customer sampling is underway.",
+        "now": "Specs are Intel's claims, with no price or ship date, and 1.5 TB/s is far below HBM parts. The angle is supply: it avoids HBM and CoWoS, the two sold-out inputs. Earlier coverage called it Crescent Island with GA in 2027.",
+        "future": "Watch for named customers, price per GB and independent tokens-per-second-per-dollar tests. If it works for long-context inference, expect AMD, Qualcomm and startups to copy the LPDDR approach."
       },
       "sources": [
         {
-          "name": "InvestingLive",
-          "title": "Oracle trucks in natural gas to keep AI data centres on schedule as pipelines lag",
-          "url": "https://investinglive.com/news/oracle-trucks-in-natural-gas-to-keep-ai-data-centres-on-schedule-as-pipelines-lag/"
+          "name": "Stock Titan (Intel press release)",
+          "title": "Intel accelerates open infrastructure for the agentic AI",
+          "url": "https://stocktitan.net/news/INTC/intel-accelerates-open-infrastructure-for-the-agentic-ai-04kx5ns3ty5k.html"
         },
         {
-          "name": "ROIC.ai",
-          "title": "oracle trucks gas to sidestep data center power delays 10 08 2026",
-          "url": "https://www.roic.ai/news/oracle-trucks-gas-to-sidestep-data-center-power-delays-10-08-2026"
+          "name": "Phoronix",
+          "title": "Intel Announces \"Crescent Island\" Inference-Optimized Xe3P Graphics Card With 160GB vRAM",
+          "url": "https://www.phoronix.com/review/intel-crescent-island"
         },
         {
-          "name": "CP24 (Reuters)",
-          "title": "Oracle triggers force majeure on data centre project over power delays, source says",
-          "url": "https://www.cp24.com/news/money/2026/09/24/oracle-triggers-force-majeure-on-data-centre-project-over-power-delays-source-says"
+          "name": "Let's Data Science",
+          "title": "Intel plans Crescent Island AI GPU launch",
+          "url": "https://letsdatascience.com/news/intel-plans-crescent-island-ai-gpu-launch-57f95fd4"
         }
       ],
       "tags": [
-        "Power",
-        "Oracle",
-        "Data Centers",
-        "Natural Gas"
+        "Intel",
+        "Inference",
+        "LPDDR5X",
+        "OCP"
       ]
     },
     {
       "id": "g4",
       "region": "global",
       "cat": "funding",
-      "source": "Fortune",
-      "time": "Oct 9",
-      "headline": "Brooklyn's Ultra Raises $62M Total (Framework Ventures Leads $50M Series A) to Rent Warehouse Robots, With Physical Intelligence Supplying the Brains",
-      "dek": "Robots-as-a-service pairs a hardware operator with a foundation-model lab, and the operator is already raising prices.",
+      "source": "Webull / PR wire",
+      "time": "Sep 30",
+      "headline": "Beltic Raises $7.3M Seed Led by Norwest for 'Know Your Agent' Checks Before AI Agents Transact",
+      "dek": "A San Francisco startup is building identity and authority verification for agents, a payments-adjacent layer most agent stacks lack.",
       "analysis": {
-        "happening": "Ultra announced $62M on Oct 9: a $50M Series A led by Framework Ventures (Y Combinator participating) plus an earlier $12M seed led by YC and NextView. Robots have packed over 500,000 orders. Physical Intelligence ($5.6B valuation, Nov 2025) provides the AI.",
-        "now": "Thesis: non-humanoid robots are useful now while humanoids are not. Ultra owns deployment data, PI owns the model, a template for how labs get real-world data. Caveat: revenue and unit economics are undisclosed.",
-        "future": "Watch whether PI-trained policies measurably cut per-order cost and whether other labs sign deployment partners. Opportunity: vertical robots-as-a-service wrappers for other narrow physical tasks."
+        "happening": "Beltic's seed was led by Norwest with Restive Ventures, Oxford Seed Fund and Collide Capital (which also led a $1.5M pre-seed). Its KYA platform checks an agent's identity, authority and the legitimacy of each transaction in real time. CEO is Isha Bhatnagar.",
+        "now": "As agents start spending money, merchants and banks need to know who is acting — the gap KYC filled for people. Caveat: no customers disclosed, and card networks may set the standard rather than startups.",
+        "future": "Watch Visa, Mastercard and Stripe agent-payment standards and any bank or marketplace pilot. A builder could target agent identity for Japanese e-commerce and payments."
       },
       "sources": [
         {
-          "name": "Fortune",
-          "title": "Ultra raises $62 million for fast-growing 'robots as a service' business, announces tie-up with AI research firm Physical Intelligence",
-          "url": "https://fortune.com/2026/10/09/ultra-raises-62-million-fast-growing-robots-service-tie-up-ai-research-firm-physical-intelligence/"
+          "name": "Webull",
+          "title": "Beltic Emerges from Stealth to Secure Autonomous Agent Transactions at Scale",
+          "url": "https://www.webull.com/news/15667682877244416"
         },
         {
-          "name": "AI Weekly",
-          "title": "Ultra Raises $62M for Warehouse Robots-as-a-Service Fleet",
-          "url": "https://aiweekly.co/alerts/ultra-raises-62m-for-warehouse-robots-as-a-service-fleet"
+          "name": "Traded",
+          "title": "Beltic raises $7.3M from Norwest",
+          "url": "https://traded.co/blog/beltic-raises-7-3m-from-norwest/"
+        },
+        {
+          "name": "Startup Researcher",
+          "title": "Beltic Raises $7.3 Million in Seed Funding",
+          "url": "https://www.startupresearcher.com/news/beltic-raises-usd7-3-million-in-seed-funding"
         }
       ],
       "tags": [
-        "Robotics",
-        "Series A",
-        "New York",
-        "RaaS"
+        "Agent security",
+        "Seed",
+        "Norwest",
+        "Payments"
       ]
     },
     {
       "id": "g5",
       "region": "global",
       "cat": "launches",
-      "source": "Product Hunt",
-      "time": "Oct 8",
-      "headline": "Chargebee's AUDR Proposes an Apache-2.0 'Call Detail Record' Standard for What AI Agent Runs Cost",
-      "dek": "A billing company is trying to define the common JSON schema for who started an agent run and what it cost across harnesses, routers and billing.",
+      "source": "GitHub / Hacker News",
+      "time": "Oct 10",
+      "headline": "REA, an MCP Server That Lets Coding Agents Pull Apart Apps With No Source Code, Hit 768 Points on Hacker News",
+      "dek": "A single-maintainer MIT repo turns 'reverse engineer anything' into a tool-call workflow; who may use it on what is the open question.",
       "analysis": {
-        "happening": "AUDR (Agent Usage Detail Record) launched on Product Hunt with 336 votes in the Oct 8 digest, modeled on telecom call detail records. Listings cite a harness-minted run ID, field ownership rules, and adapters for Vercel AI SDK and LiteLLM, with Mastra named as an early adopter.",
-        "now": "Agent cost attribution is an unsolved gap and a likely seam for a solo builder: dashboards, chargeback or margin tools on one schema. Caveat: details come from listings and aggregators, not the repo; Chargebee is steward and benefits from the standard.",
-        "future": "Watch for adoption by LiteLLM or OpenTelemetry GenAI conventions, a move to an independent foundation, and rival schemas."
+        "happening": "morluto/rea is a CLI and MCP server (reports cite 50-70+ tools) giving agents function dossiers and evidence records for Electron, JS, native (Ghidra/Hopper/IDA), APK and websites. One independent test on an Electron demo app got 30/30 file locations right in 3.5 seconds.",
+        "now": "The same test missed 7 of 8 browser windows and 4 nodeIntegration files, and the tool itself warns that missing findings do not prove absence. Star counts in trackers conflict (52K to 77K). Treat it as a map, not an audit.",
+        "future": "Niches: competitor teardown, legacy-system documentation, security triage — Japanese SI firms with undocumented legacy systems are an obvious customer. Watch for licensing and ToS pushback."
       },
       "sources": [
         {
-          "name": "Product Hunt",
-          "title": "audr by chargebee",
-          "url": "https://www.producthunt.com/posts/audr-by-chargebee"
+          "name": "GitHub",
+          "title": "morluto/rea",
+          "url": "https://github.com/morluto/rea"
         },
         {
-          "name": "AIToolly",
-          "title": "2026 10 07 audr by chargebee listed on product hunt launch details and documentation overview",
-          "url": "https://aitoolly.com/zh/ai-news/article/2026-10-07-audr-by-chargebee-listed-on-product-hunt-launch-details-and-documentation-overview"
+          "name": "RuntimeWire",
+          "title": "Matthew Berman promotes REA, which lets coding agents inspect apps without source code",
+          "url": "https://runtimewire.com/article/matthew-berman-rea-ai-reverse-engineering"
         },
         {
-          "name": "GitHub (agents-radar)",
-          "title": "🚀 Product Hunt AI Digest 2026-10-08 · Issue #3667 · duanyytop/agents-radar",
-          "url": "https://github.com/duanyytop/agents-radar/issues/3667"
+          "name": "System Design Academy",
+          "title": "REA Reverse Engineer Anything: what it is, a real test",
+          "url": "https://systemdesign.academy/explained/rea-reverse-engineer-anything"
         }
       ],
       "tags": [
-        "Agent costs",
-        "Standards",
-        "FinOps"
+        "Open source",
+        "Agents",
+        "MCP",
+        "Reverse engineering"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
-      "cat": "hardware",
-      "source": "The Next Web / Jiji",
-      "time": "Oct 7",
-      "headline": "Rapidus Signs 17 Design Partners for 2nm but Still Has Not Named a Single Paying Customer",
-      "dek": "The ecosystem is assembled, yet the order book that decides whether a $15B fab fills is still empty.",
+      "cat": "research",
+      "source": "Gizmodo / Financial Times",
+      "time": "Oct 11",
+      "headline": "Japan Calls a 'Cyberspace Emergency' After 20+ Firms Are Hit, With Officials Blaming AI for Lowering Attacker Barriers",
+      "dek": "Breaches at Lawson, JR East, Times Car and Bookoff turned AI-assisted attacks from a forecast into Japan's top policy problem.",
       "analysis": {
-        "happening": "On Oct 7 Rapidus named 17 design partners including Synopsys, Cadence, Infosys, Dai Nippon Printing and Toppan. It has about $15B in state backing, IBM-based test production, client volume targeted for 2H FY2027 at Chitose, and a listing planned by March 2032.",
-        "now": "Versus the US: TSMC already ships 2nm with customers; Japan's lead is supply-chain insurance, not demand. Partners are tooling and services, not orders. Opportunity: EDA, IP and design-service work on a Rapidus PDK.",
-        "future": "Watch for the first named customer (an AI-accelerator startup is likeliest), the JPY150B government tranche, and whether reported TSMC-or-lower wafer pricing holds."
+        "happening": "After the LDP's cybersecurity HQ met in emergency session (Oct 9), reports cite 20+ firms hit and tens of millions of records exposed; JR East 1.67M emails, Times Car ~6.6M users. The FSA warned banks off driver's licences as sole ID. Attribution to AI is asserted, not proven.",
+        "now": "Gap: the US has AI-native defence vendors (CrowdStrike, Wiz-style stacks); Japan leans on legacy IT, and the Japanese-language moat has been removed by AI. Caveat: authorities are still investigating AI use, and the 'declaration' is a party meeting, not a legal emergency.",
+        "future": "Opportunity: Japanese-language phishing/KYC defence, ID verification beyond licences, SOC automation for mid-size firms. Watch supplementary-budget lines and any FSA ID rules."
       },
       "sources": [
         {
-          "name": "The Next Web",
-          "title": "Japan’s Rapidus teams up with 17 firms to win customers for 2nm chips",
-          "url": "https://thenextweb.com/news/rapidus-17-design-partners-2nm-customers"
+          "name": "Gizmodo",
+          "title": "We Have Entered a Cybersecurity Hellscape, Japan Warns",
+          "url": "https://gizmodo.com/we-have-entered-a-cybersecurity-hellscape-japan-warns-2000824268"
         },
         {
-          "name": "DIGITIMES",
-          "title": "Rapidus 2nm ramp stays on track as Japan readies JPY150 billion investment",
-          "url": "https://www.digitimes.com/news/a20260824VL207/rapidus-2nm-investment-production-chips.html"
+          "name": "AI Weekly",
+          "title": "Japan Declares 'State of Emergency in Cyberspace' After AI-Enabled Hacks Hit 20+ Firms Including Lawson and JR East",
+          "url": "https://aiweekly.co/alerts/japan-declares-state-of-emergency-in-cyberspace-after-ai-enabled-hacks-hit-20"
         },
         {
-          "name": "Seeking Alpha",
-          "title": "Japan’s $15B Rapidus seeks customers for its 2nm chip ambitions",
-          "url": "https://seekingalpha.com/news/4650800-japans-rapidus-faces-uphill-battle-to-fill-its-15b-chip-factory"
+          "name": "AI Weekly",
+          "title": "SoftBank, Daiwa Hit as Japan Logs 86 September Cyberattacks",
+          "url": "https://aiweekly.co/alerts/softbank-daiwa-hit-as-japan-logs-86-september-cyberattacks"
         }
       ],
       "tags": [
-        "Rapidus",
-        "2nm",
-        "Semiconductors",
-        "TSMC"
+        "Japan",
+        "Cybersecurity",
+        "Policy",
+        "Opportunity"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
       "cat": "launches",
-      "source": "explainx.ai",
-      "time": "Oct 9",
-      "headline": "Sakana's Namazu Powers a Doctors' Literature-Search Tool, and It Is a Fine-Tune of China's Kimi K2.6",
-      "dek": "Japan's best-funded lab is winning by adapting open weights for Japanese business niches, not by pretraining from scratch.",
+      "source": "Digital Agency / eWeek",
+      "time": "Oct 12",
+      "headline": "Japan's Government AI Is Mid-Way Through Blind A/B Tests of tsuzumi 2, Takane 32B and PLaMo 2.0 Against Claude and Nova",
+      "dek": "The September-November trial will decide whether domestic models earn a FY2027 procurement slot.",
       "analysis": {
-        "happening": "On Oct 9 Sakana published a customer story with Aillis, whose Evidence Finder searches physician literature; Namazu writes cited answers and a Verify step checks the papers exist. Namazu (API $0.95/$4.00 per M tokens) is built on Moonshot's Kimi K2.6. Vendor-reported 96.4% on the Feb 2026 physician exam.",
-        "now": "Versus the US: frontier labs train their own base models; Japan's top startup post-trains a Chinese open model, raising sovereignty questions. Opportunity: citation-verified vertical tools in regulated Japanese domains. Self-reported score; Sakana's post does not name the base model.",
-        "future": "Watch for independent Japanese benchmarks, a Japan-resident hosting option, and more regulated-sector customers after Daiwa Securities."
+        "happening": "GENAI launched May 29 for ~100,000 civil servants. Three domestic models run on Sakura Internet's government cloud: NTT Data's tsuzumi 2, Fujitsu's Takane 32B and Preferred Networks' PLaMo 2.0 Prime. eWeek reports randomised blind comparisons against foreign models from September to November.",
+        "now": "Gap: domestic models are 30B-class, competing on Japanese tasks, not general capability. Caveat: the blind-test detail rests on eWeek alone and no scores are published. A narrow win on Japanese admin tasks is likelier than a sweep.",
+        "future": "Results around December set demand for sovereign inference and fine-tuning. Builders can pitch evaluation tooling and Japanese-language government benchmarks; watch for per-task score publication."
       },
       "sources": [
         {
-          "name": "explainx.ai",
-          "title": "Sakana Namazu in Evidence Finder: 96.4% Physician Exam",
-          "url": "https://explainx.ai/blog/sakana-namazu-aillis-evidence-finder-japanese-medical-llm-2026"
+          "name": "Digital Agency",
+          "title": "Government AI GENAI starts trial use of Domestic Foundation Models on a Domestic Cloud Platform",
+          "url": "https://www.digital.go.jp/en/news/7eef939d-1c58-4229-b210-7b5adc9af590"
         },
         {
-          "name": "Digital Applied",
-          "title": "Sakana's Playbook: Sovereign AI by Tuning Other Labs",
-          "url": "https://www.digitalapplied.com/blog/sakana-sovereign-ai-tuning-open-weights-strategy-2026"
-        },
-        {
-          "name": "Eyerys",
-          "title": "Sakana AI Expands Sakana Chat With Fugu and Namazu, Bringing Multi-Agent Orchestration, Code Execution, and AI-Powered Workflows to Users",
-          "url": "https://www.eyerys.com/articles/news/sakana-ai-expands-sakana-chat-fugu-and-namazu-bringing-multi-agent-orchestration-code-execution"
+          "name": "eWeek",
+          "title": "Japan Tests Domestic LLMs Against Claude and Amazon Nova in Government AI Pilot",
+          "url": "https://www.eweek.com/news/japan-domestic-llm-genai-test/"
         }
       ],
       "tags": [
-        "Sakana AI",
         "Sovereign AI",
-        "Healthcare",
-        "Fine-tuning"
+        "Government",
+        "LLM",
+        "Evals"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
       "cat": "funding",
-      "source": "AI Market Watch",
-      "time": "Sep 30",
-      "headline": "mutex Raises ¥281.6M Series A for AI Medical-Claims Checking in a Market Where Only Mega-Rounds Are Growing",
-      "dek": "A small vertical-AI round backed by MTI and SBI's MEDIPAL fund shows where Japan's seed-to-A money actually goes.",
+      "source": "The Star (Bloomberg)",
+      "time": "Sep 1",
+      "headline": "METI Asks for a Record ¥7.8T for FY2027, With ¥2T Bundled for AI, Chips and Robots",
+      "dek": "The first request under a new no-ceiling process meant to end reliance on ad-hoc supplementary budgets.",
       "analysis": {
-        "happening": "On Sep 30 mutex raised ¥281.6M (total ¥341.6M) from MTI, SBI Investment's MEDIPAL Innovation LP and Nihon Keiei for Reze, SaaS that flags missed billing and claim defects. One aggregator misprints ¥2.8B. H1 2026: rounds above ¥5B doubled to ¥78B while smaller rounds fell 1%.",
-        "now": "Versus the US: vertical-AI rounds run several times larger there; Japan funds small, domain-specific SaaS via strategic healthcare investors. Japan's fee-schedule complexity is a moat for locals. Caveat: Reze is pre-submission checking, not full automation.",
-        "future": "Watch for a Series B, paid clinic adoption, and whether the squeeze on sub-¥5B rounds pushes startups toward strategics."
+        "happening": "METI requested ¥7.8T (~$49B) for the year from April 2027, against ¥5.27T this year including last year's supplementary. ¥2T sits in a 'strong and prosperous Japan' bucket for AI, semiconductors and robots; the split is undisclosed. FY2026 earmarks include ¥150B for Rapidus and ¥387B for domestic AI.",
+        "now": "Gap: US capex is private (hyperscalers spend hundreds of billions a year); Japan's lever is the state, so policy lines are the demand signal. Caveat: it is a request subject to Finance Ministry cuts, and the 'record' claim is unverified.",
+        "future": "Watch the December budget and the AI/chips/robots split. Suppliers and startups aligned to NEDO/METI calls land subsidised demand first; being named in a consortium early is the play."
       },
       "sources": [
         {
-          "name": "AI Market Watch",
-          "title": "mutex raises series a to expand its ai medical claims saas reze",
-          "url": "https://www.ai-market-watch.com/news/mutex-raises-series-a-to-expand-its-ai-medical-claims-saas-reze-ovr5b3"
+          "name": "The Star (Bloomberg)",
+          "title": "Ministry seeks unprecedented US$49bil budget",
+          "url": "https://www.thestar.com.my/business/business-news/2026/09/01/ministry-seeks-unprecedented-us49bil-budget"
         },
         {
-          "name": "TheSaaSNews",
-          "title": "mutex Co., Ltd raises $281.6M Series A",
-          "url": "https://www.thesaasnews.com/news/mutex-co-ltd-raises-281-6m-series-a/"
+          "name": "eeNews Europe",
+          "title": "meti budget hike japan chip ai fy 2026",
+          "url": "https://www.eenewseurope.com/en/meti-budget-hike-japan-chip-ai-fy-2026/"
         },
         {
-          "name": "Speeda (INITIAL)",
-          "title": "総額増の裏で深まる選別――2026年上半期スタートアップ資金調達動向",
-          "url": "https://initial.inc/articles/japan-startup-finance-2026h1"
+          "name": "Telecom Review Asia",
+          "title": "Japan to quadruple spending on semiconductors and AI in major budget expansion",
+          "url": "https://www.telecomreviewasia.com/news/industry-news/27975-japan-to-quadruple-spending-on-semiconductors-and-ai-in-major-budget-expansion/"
         }
       ],
       "tags": [
-        "Series A",
-        "Healthcare AI",
-        "MTI",
-        "SBI"
+        "METI",
+        "Budget",
+        "Policy",
+        "Chips"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "hardware",
-      "source": "Nippon.com / FT",
-      "time": "Oct 1",
-      "headline": "JERA, Dell and RHAELM Sign MoU for a 400 MW, $15B+ AI Data Center at Chiba Powered Directly by the Adjacent Gas Plant",
-      "dek": "Japan's biggest utility is pitching behind-the-meter power to skip the grid queue, the same constraint now hitting Oracle in the US.",
+      "cat": "funding",
+      "source": "EE Times via Design & Reuse",
+      "time": "Apr 2",
+      "headline": "Ex-Tenstorrent Execs Launch AI& With a $50M Seed and $2B of Infrastructure Capital to Build Japan's Full AI Stack",
+      "dek": "A rare Japan-based neocloud-plus-models startup aimed at the compute gap, funded mostly by financing rather than equity.",
       "analysis": {
-        "happening": "The non-binding MoU covers a hyperscale site beside JERA's Chiba Thermal Power Station: 15-25 year power supply, RHAELM building and financing, Apollo as financing partner, Dell supplying AI racks. Capital is above $15B (about ¥2.3T), phased operation from 2028 and full capacity in 2029.",
-        "now": "Versus the US: Japan copies power-first siting, but 400 MW is a fraction of Oracle's 2.45 GW Jupiter campus. Gap for builders: power, cooling and tenant supply. Caveat: no binding funding, permits or anchor customer; the FT's $140B figure is not in JERA's announcement.",
-        "future": "Watch for a named anchor tenant, METI grid-connection policy, and whether the template spreads to other thermal sites."
+        "happening": "Founded by David Bennett and Shimpei Hara (ex-Tenstorrent, Lenovo), AI& has a $50M seed and $2B infrastructure capital. It plans Japanese data centres, cluster software for heterogeneous hardware, and models, agents and apps. Investors were not named.",
+        "now": "Gap: the US has CoreWeave, Crusoe and Lambda; Japan's GPU supply sits with Sakura, SoftBank and KDDI, plus Microsoft's reported $10B pledge. Caveat: the $2B is capacity, not cash deployed, and this six-month-old report has no follow-up I could find.",
+        "future": "Watch for named backers, a first site and customers, and whether non-Nvidia heterogeneous software is a real wedge. A natural target for a US neocloud investor sizing Japan."
       },
       "sources": [
         {
-          "name": "Nippon.com",
-          "title": "JERA to Build Large AI Data Center near Tokyo",
-          "url": "https://www.nippon.com/en/news/yjj2026100101023/"
+          "name": "Design & Reuse (EE Times)",
+          "title": "Ex-Tenstorrent execs start cloud provider, AI lab in Japan",
+          "url": "https://www.design-reuse.com/news/202530312-ex-tenstorrent-execs-start-cloud-provider-ai-lab-in-japan/"
         },
         {
-          "name": "The Next Web",
-          "title": "Japan eyes $140bn AI data centre push with Dell and JERA, FT reports",
-          "url": "https://thenextweb.com/news/japan-140bn-ai-data-centre-dell-jera"
-        },
-        {
-          "name": "AI Weekly",
-          "title": "JERA, Dell and RHAELM Plan $15B 400MW AI Data Center in Chiba",
-          "url": "https://aiweekly.co/alerts/jera-dell-and-rhaelm-plan-15b-400mw-ai-data-center-in-chiba"
+          "name": "CNBC",
+          "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank",
+          "url": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html"
         }
       ],
       "tags": [
-        "Japan",
-        "JERA",
-        "Dell",
-        "Power"
+        "Neocloud",
+        "Compute",
+        "Startup",
+        "Japan"
       ]
     }
   ]

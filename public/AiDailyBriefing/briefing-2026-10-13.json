@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-12T20:20:00.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "greeting": "Good morning, Joesh.",
+    "dateLabel": "Tue · Oct 13 2026",
+    "editionLine": "EDITION No.519 · SYNCED 05:20 JST",
+    "intro": "Today's throughline: who gets access, and who verifies — gated models, agent identity, and Japan's cyber scramble.",
+    "briefingTitle": "Google Gates Gemini 4 Argon by Trust, Arena Hits $3.1B Refereeing AI, Intel Skips HBM, and Japan Declares a Cyber Emergency",
+    "summary": "The common thread is trust as a gate. Google is releasing its strongest cyber model to vetted defenders first, Beltic is raising to verify which AI agent is allowed to transact, and Arena's $3.1B valuation shows that scoring models has become a paid business. On hardware, Intel is routing around the HBM shortage with cheap LPDDR. In Japan, an AI-linked wave of breaches has triggered a cyber emergency while the government quietly blind-tests domestic models against Claude and Nova.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 26 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 32,
+      "frontier": 95,
+      "note": "Unchanged — Japan's domestic models are 30B-class and only now being blind-tested against Claude and Nova for government use; Europe's Kolibri and Mistral show peers shipping larger sovereign MoEs."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 19,
+      "frontier": 99,
+      "note": "Unchanged — AI&'s $50M seed and $2B capacity are rare in Japan, while Arena alone raised $200M in a single round."
+    },
+    {
+      "label": "Domestic humanoid/robotics ownership",
+      "jp": 60,
+      "frontier": 93,
+      "note": "Unchanged — METI's ¥2T AI/chips/robots bucket is only a request, and no Japanese robotics launch moved the score."
+    },
+    {
+      "label": "AI-era cyber defence readiness",
+      "jp": 30,
+      "frontier": 90,
+      "note": "New read — 20+ Japanese firms breached and a party-level emergency, versus US defenders getting first access to gated models like Gemini 4 Argon."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "launches",
+      "source": "TechRepublic",
+      "time": "Sep 30",
+      "headline": "Google's Gemini 4 Argon Ships to Vetted Cyber Defenders First, Guardrails Relaxed, With No Public Date",
+      "dek": "Google is gating its newest model by who you are, not what you pay, and the first target is vulnerability hunting.",
+      "analysis": {
+        "happening": "Via Google's Fairwind program, trusted defenders get a version without the usual cyber guardrails. Intro API price is $2/$10 per M tokens, output cap raised from 64K to 1M. Google reports 77.9% on DeepSWE v1.1 and 68% on CWE-bench v1; Wiz runs it in a free scanning initiative.",
+        "now": "All benchmarks are self-reported, and Bloomberg reported some Google staff think real coding trails them (Google disputes this). There is no general-availability date. Release-by-trust-tier is becoming a product pattern for dual-use capability.",
+        "future": "Watch the GA date and independent CWE-bench replications. Opportunity: tooling on top of gated vulnerability-finding models — triage, patch review, disclosure workflows. Mistral Large 4 is copying the tiered approach for open weights."
+      },
+      "sources": [
+        {
+          "name": "TechRepublic",
+          "title": "Google Launches Gemini 4 Argon, Gives Cyber Defenders First Access",
+          "url": "https://www.techrepublic.com/article/news-google-gemini-4-argon-cyber-defenders/"
+        },
+        {
+          "name": "BetaNews",
+          "title": "gemini 4 argon cyber defenders fairwind",
+          "url": "https://betanews.com/article/gemini-4-argon-cyber-defenders-fairwind/"
+        },
+        {
+          "name": "Google",
+          "title": "Gemini 4 Argon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "Google's Gemini 4 Argon Rolls Out to Cyber Defenders First",
+          "url": "https://aiweekly.co/alerts/googles-gemini-4-argon-rolls-out-to-cyber-defenders-first"
+        }
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "Cybersecurity",
+        "Access tiers"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Oct 8",
+      "headline": "Arena (ex-LMArena) Raises $200M at $3.1B: The AI Leaderboard Is Now a $100M-Run-Rate Business",
+      "dek": "A Berkeley side project turned referee for the labs nearly doubled its valuation in 10 months and is pivoting toward safety rankings.",
+      "analysis": {
+        "happening": "Series B of $200M led by Lightspeed and Khosla at $3.1B, after a $150M Series A in January at $1.7B. Annualized revenue hit $100M in June, up from $30M, from paid evaluations sold to labs and enterprises. The consumer leaderboard stays free. a16z and Felicis also joined.",
+        "now": "Evaluation is becoming a paid layer: buyers want a neutral scorer and crowd votes beat static benchmarks. Caveat: Arena's customers are the labs it ranks, so independence is a live question, and the new alignment index is preliminary.",
+        "future": "Gap for builders: niche evaluators — Japanese-language, domain-specific, agent-safety. Watch whether labs dispute the alignment rankings and whether rivals raise against Arena."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+        },
+        {
+          "name": "mezha.net",
+          "title": "Arena raises $200 million as valuation nearly doubles to $3.1 billion",
+          "url": "https://mezha.net/eng/?p=3729644"
+        },
+        {
+          "name": "HedgeCo",
+          "title": "AI Evaluation Platform Arena Raised a $200 Million Series B at a $3.1 Billion Valuation",
+          "url": "https://hedgeco.net/news/?p=92192"
+        }
+      ],
+      "tags": [
+        "Evals",
+        "Series B",
+        "Lightspeed",
+        "Khosla"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Intel (via Stock Titan)",
+      "time": "Oct 12",
+      "headline": "Intel's GPU D-series Trades HBM for 160GB of LPDDR5X in a 350W Air-Cooled PCIe Card",
+      "dek": "A bet that inference buyers will take lower bandwidth in exchange for capacity, availability and no liquid cooling.",
+      "analysis": {
+        "happening": "Detailed at OCP on Oct 12: Xe3P GPU, 160GB LPDDR5X per card (partners up to 480GB), 1.5 TB/s bandwidth, 1.3 PFLOPS FP8, 350W, air-cooled PCIe. Intel claims 300B parameters per card and 1T+ in an 8-GPU box. Customer sampling is underway.",
+        "now": "Specs are Intel's claims, with no price or ship date, and 1.5 TB/s is far below HBM parts. The angle is supply: it avoids HBM and CoWoS, the two sold-out inputs. Earlier coverage called it Crescent Island with GA in 2027.",
+        "future": "Watch for named customers, price per GB and independent tokens-per-second-per-dollar tests. If it works for long-context inference, expect AMD, Qualcomm and startups to copy the LPDDR approach."
+      },
+      "sources": [
+        {
+          "name": "Stock Titan (Intel press release)",
+          "title": "Intel accelerates open infrastructure for the agentic AI",
+          "url": "https://stocktitan.net/news/INTC/intel-accelerates-open-infrastructure-for-the-agentic-ai-04kx5ns3ty5k.html"
+        },
+        {
+          "name": "Phoronix",
+          "title": "Intel Announces \"Crescent Island\" Inference-Optimized Xe3P Graphics Card With 160GB vRAM",
+          "url": "https://www.phoronix.com/review/intel-crescent-island"
+        },
+        {
+          "name": "Let's Data Science",
+          "title": "Intel plans Crescent Island AI GPU launch",
+          "url": "https://letsdatascience.com/news/intel-plans-crescent-island-ai-gpu-launch-57f95fd4"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Inference",
+        "LPDDR5X",
+        "OCP"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "funding",
+      "source": "Webull / PR wire",
+      "time": "Sep 30",
+      "headline": "Beltic Raises $7.3M Seed Led by Norwest for 'Know Your Agent' Checks Before AI Agents Transact",
+      "dek": "A San Francisco startup is building identity and authority verification for agents, a payments-adjacent layer most agent stacks lack.",
+      "analysis": {
+        "happening": "Beltic's seed was led by Norwest with Restive Ventures, Oxford Seed Fund and Collide Capital (which also led a $1.5M pre-seed). Its KYA platform checks an agent's identity, authority and the legitimacy of each transaction in real time. CEO is Isha Bhatnagar.",
+        "now": "As agents start spending money, merchants and banks need to know who is acting — the gap KYC filled for people. Caveat: no customers disclosed, and card networks may set the standard rather than startups.",
+        "future": "Watch Visa, Mastercard and Stripe agent-payment standards and any bank or marketplace pilot. A builder could target agent identity for Japanese e-commerce and payments."
+      },
+      "sources": [
+        {
+          "name": "Webull",
+          "title": "Beltic Emerges from Stealth to Secure Autonomous Agent Transactions at Scale",
+          "url": "https://www.webull.com/news/15667682877244416"
+        },
+        {
+          "name": "Traded",
+          "title": "Beltic raises $7.3M from Norwest",
+          "url": "https://traded.co/blog/beltic-raises-7-3m-from-norwest/"
+        },
+        {
+          "name": "Startup Researcher",
+          "title": "Beltic Raises $7.3 Million in Seed Funding",
+          "url": "https://www.startupresearcher.com/news/beltic-raises-usd7-3-million-in-seed-funding"
+        }
+      ],
+      "tags": [
+        "Agent security",
+        "Seed",
+        "Norwest",
+        "Payments"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "GitHub / Hacker News",
+      "time": "Oct 10",
+      "headline": "REA, an MCP Server That Lets Coding Agents Pull Apart Apps With No Source Code, Hit 768 Points on Hacker News",
+      "dek": "A single-maintainer MIT repo turns 'reverse engineer anything' into a tool-call workflow; who may use it on what is the open question.",
+      "analysis": {
+        "happening": "morluto/rea is a CLI and MCP server (reports cite 50-70+ tools) giving agents function dossiers and evidence records for Electron, JS, native (Ghidra/Hopper/IDA), APK and websites. One independent test on an Electron demo app got 30/30 file locations right in 3.5 seconds.",
+        "now": "The same test missed 7 of 8 browser windows and 4 nodeIntegration files, and the tool itself warns that missing findings do not prove absence. Star counts in trackers conflict (52K to 77K). Treat it as a map, not an audit.",
+        "future": "Niches: competitor teardown, legacy-system documentation, security triage — Japanese SI firms with undocumented legacy systems are an obvious customer. Watch for licensing and ToS pushback."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "title": "morluto/rea",
+          "url": "https://github.com/morluto/rea"
+        },
+        {
+          "name": "RuntimeWire",
+          "title": "Matthew Berman promotes REA, which lets coding agents inspect apps without source code",
+          "url": "https://runtimewire.com/article/matthew-berman-rea-ai-reverse-engineering"
+        },
+        {
+          "name": "System Design Academy",
+          "title": "REA Reverse Engineer Anything: what it is, a real test",
+          "url": "https://systemdesign.academy/explained/rea-reverse-engineer-anything"
+        }
+      ],
+      "tags": [
+        "Open source",
+        "Agents",
+        "MCP",
+        "Reverse engineering"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "research",
+      "source": "Gizmodo / Financial Times",
+      "time": "Oct 11",
+      "headline": "Japan Calls a 'Cyberspace Emergency' After 20+ Firms Are Hit, With Officials Blaming AI for Lowering Attacker Barriers",
+      "dek": "Breaches at Lawson, JR East, Times Car and Bookoff turned AI-assisted attacks from a forecast into Japan's top policy problem.",
+      "analysis": {
+        "happening": "After the LDP's cybersecurity HQ met in emergency session (Oct 9), reports cite 20+ firms hit and tens of millions of records exposed; JR East 1.67M emails, Times Car ~6.6M users. The FSA warned banks off driver's licences as sole ID. Attribution to AI is asserted, not proven.",
+        "now": "Gap: the US has AI-native defence vendors (CrowdStrike, Wiz-style stacks); Japan leans on legacy IT, and the Japanese-language moat has been removed by AI. Caveat: authorities are still investigating AI use, and the 'declaration' is a party meeting, not a legal emergency.",
+        "future": "Opportunity: Japanese-language phishing/KYC defence, ID verification beyond licences, SOC automation for mid-size firms. Watch supplementary-budget lines and any FSA ID rules."
+      },
+      "sources": [
+        {
+          "name": "Gizmodo",
+          "title": "We Have Entered a Cybersecurity Hellscape, Japan Warns",
+          "url": "https://gizmodo.com/we-have-entered-a-cybersecurity-hellscape-japan-warns-2000824268"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "Japan Declares 'State of Emergency in Cyberspace' After AI-Enabled Hacks Hit 20+ Firms Including Lawson and JR East",
+          "url": "https://aiweekly.co/alerts/japan-declares-state-of-emergency-in-cyberspace-after-ai-enabled-hacks-hit-20"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "SoftBank, Daiwa Hit as Japan Logs 86 September Cyberattacks",
+          "url": "https://aiweekly.co/alerts/softbank-daiwa-hit-as-japan-logs-86-september-cyberattacks"
+        }
+      ],
+      "tags": [
+        "Japan",
+        "Cybersecurity",
+        "Policy",
+        "Opportunity"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Digital Agency / eWeek",
+      "time": "Oct 12",
+      "headline": "Japan's Government AI Is Mid-Way Through Blind A/B Tests of tsuzumi 2, Takane 32B and PLaMo 2.0 Against Claude and Nova",
+      "dek": "The September-November trial will decide whether domestic models earn a FY2027 procurement slot.",
+      "analysis": {
+        "happening": "GENAI launched May 29 for ~100,000 civil servants. Three domestic models run on Sakura Internet's government cloud: NTT Data's tsuzumi 2, Fujitsu's Takane 32B and Preferred Networks' PLaMo 2.0 Prime. eWeek reports randomised blind comparisons against foreign models from September to November.",
+        "now": "Gap: domestic models are 30B-class, competing on Japanese tasks, not general capability. Caveat: the blind-test detail rests on eWeek alone and no scores are published. A narrow win on Japanese admin tasks is likelier than a sweep.",
+        "future": "Results around December set demand for sovereign inference and fine-tuning. Builders can pitch evaluation tooling and Japanese-language government benchmarks; watch for per-task score publication."
+      },
+      "sources": [
+        {
+          "name": "Digital Agency",
+          "title": "Government AI GENAI starts trial use of Domestic Foundation Models on a Domestic Cloud Platform",
+          "url": "https://www.digital.go.jp/en/news/7eef939d-1c58-4229-b210-7b5adc9af590"
+        },
+        {
+          "name": "eWeek",
+          "title": "Japan Tests Domestic LLMs Against Claude and Amazon Nova in Government AI Pilot",
+          "url": "https://www.eweek.com/news/japan-domestic-llm-genai-test/"
+        }
+      ],
+      "tags": [
+        "Sovereign AI",
+        "Government",
+        "LLM",
+        "Evals"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "funding",
+      "source": "The Star (Bloomberg)",
+      "time": "Sep 1",
+      "headline": "METI Asks for a Record ¥7.8T for FY2027, With ¥2T Bundled for AI, Chips and Robots",
+      "dek": "The first request under a new no-ceiling process meant to end reliance on ad-hoc supplementary budgets.",
+      "analysis": {
+        "happening": "METI requested ¥7.8T (~$49B) for the year from April 2027, against ¥5.27T this year including last year's supplementary. ¥2T sits in a 'strong and prosperous Japan' bucket for AI, semiconductors and robots; the split is undisclosed. FY2026 earmarks include ¥150B for Rapidus and ¥387B for domestic AI.",
+        "now": "Gap: US capex is private (hyperscalers spend hundreds of billions a year); Japan's lever is the state, so policy lines are the demand signal. Caveat: it is a request subject to Finance Ministry cuts, and the 'record' claim is unverified.",
+        "future": "Watch the December budget and the AI/chips/robots split. Suppliers and startups aligned to NEDO/METI calls land subsidised demand first; being named in a consortium early is the play."
+      },
+      "sources": [
+        {
+          "name": "The Star (Bloomberg)",
+          "title": "Ministry seeks unprecedented US$49bil budget",
+          "url": "https://www.thestar.com.my/business/business-news/2026/09/01/ministry-seeks-unprecedented-us49bil-budget"
+        },
+        {
+          "name": "eeNews Europe",
+          "title": "meti budget hike japan chip ai fy 2026",
+          "url": "https://www.eenewseurope.com/en/meti-budget-hike-japan-chip-ai-fy-2026/"
+        },
+        {
+          "name": "Telecom Review Asia",
+          "title": "Japan to quadruple spending on semiconductors and AI in major budget expansion",
+          "url": "https://www.telecomreviewasia.com/news/industry-news/27975-japan-to-quadruple-spending-on-semiconductors-and-ai-in-major-budget-expansion/"
+        }
+      ],
+      "tags": [
+        "METI",
+        "Budget",
+        "Policy",
+        "Chips"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "funding",
+      "source": "EE Times via Design & Reuse",
+      "time": "Apr 2",
+      "headline": "Ex-Tenstorrent Execs Launch AI& With a $50M Seed and $2B of Infrastructure Capital to Build Japan's Full AI Stack",
+      "dek": "A rare Japan-based neocloud-plus-models startup aimed at the compute gap, funded mostly by financing rather than equity.",
+      "analysis": {
+        "happening": "Founded by David Bennett and Shimpei Hara (ex-Tenstorrent, Lenovo), AI& has a $50M seed and $2B infrastructure capital. It plans Japanese data centres, cluster software for heterogeneous hardware, and models, agents and apps. Investors were not named.",
+        "now": "Gap: the US has CoreWeave, Crusoe and Lambda; Japan's GPU supply sits with Sakura, SoftBank and KDDI, plus Microsoft's reported $10B pledge. Caveat: the $2B is capacity, not cash deployed, and this six-month-old report has no follow-up I could find.",
+        "future": "Watch for named backers, a first site and customers, and whether non-Nvidia heterogeneous software is a real wedge. A natural target for a US neocloud investor sizing Japan."
+      },
+      "sources": [
+        {
+          "name": "Design & Reuse (EE Times)",
+          "title": "Ex-Tenstorrent execs start cloud provider, AI lab in Japan",
+          "url": "https://www.design-reuse.com/news/202530312-ex-tenstorrent-execs-start-cloud-provider-ai-lab-in-japan/"
+        },
+        {
+          "name": "CNBC",
+          "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank",
+          "url": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html"
+        }
+      ],
+      "tags": [
+        "Neocloud",
+        "Compute",
+        "Startup",
+        "Japan"
+      ]
+    }
+  ]
+}
