@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-13T20:10:00.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "greeting": "Good morning, Joesh.",
+    "dateLabel": "Wed · Oct 14 2026",
+    "editionLine": "EDITION No.520 · SYNCED 05:15 JST",
+    "intro": "Today's throughline: claims versus verification, and who owns the compute — a Chinese DRAM claim, OpenAI's math dump, and US tenants building Japan's AI capacity.",
+    "briefingTitle": "A Chinese DRAM Claim Crushes Memory Stocks, OpenAI's Math Dump Meets Its First Retractions, and Anthropic Eyes Osaka",
+    "summary": "The common thread is unverified claims moving real money. CXMT's uncorroborated DRAM density claim knocked 7-13% off Korean and Japanese memory stocks in a day, and OpenAI's 719 math manuscripts are being retracted before most have been formally checked. The durable opportunities sit in verification and liability: Harbor is insuring agent failures, and a hobbyist's decompilation harness shows checkers agents cannot edit are what make agent work trustworthy. In Japan, foreign capital and tenants (Anthropic via NTT Data, Harvey, Omron buying US edge compute) are setting the pace while domestic models stay 30B-class.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 25 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 32,
+      "frontier": 95,
+      "note": "Unchanged — ELYZA's new open reasoning models are 32-33B-class on NII's LLM-jp-4; NII's 332B MoE is not due until later in FY2026."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 20,
+      "frontier": 99,
+      "note": "Slight move — AirTrunk-style foreign capital and Anthropic's reported $6.3B Osaka plan fill the gap, while Japanese rounds like Flyle's ¥1.88B stay small against US seeds of $10-30M."
+    },
+    {
+      "label": "Domestic humanoid/robotics ownership",
+      "jp": 58,
+      "frontier": 93,
+      "note": "Down 2 — Omron is buying US edge compute (OnLogic, $675M) because the physical-AI compute layer is not domestic, despite ¥387.3B in METI backing for a model."
+    },
+    {
+      "label": "AI-era cyber defence readiness",
+      "jp": 30,
+      "frontier": 90,
+      "note": "Unchanged — no new evidence today beyond the ongoing emergency; Google's tiered-access defender models remain a US-first advantage."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Investing.com",
+      "time": "Oct 13",
+      "headline": "A Weekend CXMT DRAM Claim Wipes Out AI Memory Stocks: SK hynix -10%, Samsung -7.4%, Kioxia Down as Much as 13%",
+      "dek": "An unverified Chinese density claim, not an earnings miss, repriced the memory trade, which shows how much perfection was already priced in.",
+      "analysis": {
+        "happening": "CXMT claimed 'key progress' on a denser DRAM architecture. On Oct 13 SK hynix fell 10%, Samsung 7.4%, Kioxia up to 13.3%, SoftBank 8.5%, Kospi over 5%; Micron slid 3.9%. This came days after Samsung's record 107T-won preliminary quarter.",
+        "now": "All CXMT figures are company claims with no independent yield data; 4F2 cells are pre-launch. Commodity DRAM is where China can compete; HBM is a harder moat, so HBM-heavy and commodity-heavy names may diverge.",
+        "future": "Watch CXMT's promised DDR5 RDIMM by year-end, TrendForce Q4 contract pricing (guided +10-15% DRAM) and SK hynix's Q3 report. Samsung's phone division reportedly lost money on memory costs: device makers are paying the bill."
+      },
+      "sources": [
+        {
+          "name": "Investing.com",
+          "title": "Global chip selloff deepens as AI worries, China competition weigh",
+          "url": "https://investing.com/news/stock-market-news/global-chip-selloff-deepens-as-ai-worries-china-competition-weigh-4945783"
+        },
+        {
+          "name": "Forbes",
+          "title": "Why Are AI Chip Stocks Falling? China's CXMT Advances And Broadcom CEO's Warning",
+          "url": "https://forbes.com/sites/siladityaray/2026/10/13/ai-chip-stocks-slide-amid-china-advances-and-ceos-casino-warnings"
+        },
+        {
+          "name": "KuCoin News",
+          "title": "CXMT Announces DDR5 RDIMM Product Based on 4F² Architecture, Expected by Year-End",
+          "url": "https://www.kucoin.com/news/flash/cxmt-announces-ddr5-rdimm-product-based-on-4f-architecture-expected-by-year-end"
+        }
+      ],
+      "tags": [
+        "Memory",
+        "CXMT",
+        "HBM",
+        "Public markets"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "funding",
+      "source": "Insurance Journal",
+      "time": "Oct 13",
+      "headline": "Harbor Exits Stealth With a $10M Seed From Base10, Abstract and 8VC to Insure AI-Agent Failures at Banks",
+      "dek": "An SF startup bets the blocker to enterprise agents is liability, not capability, and sells monitoring and insurance together.",
+      "analysis": {
+        "happening": "Harbor (SF, Stanford founders) raised $10M led by Base10, Abstract and 8VC, with Restive and Innovation Endeavors. It inventories a client's agents, scores risk, blocks rule-breaking decisions, then sells cover via surplus-lines carriers to banks and insurers.",
+        "now": "Many US insurers began adding generative-AI exclusions around January 2026 and lack loss data to price agents; that is the wedge. Caveat: no named bank or insurer customers yet, and incumbents hold far larger balance sheets.",
+        "future": "Watch whether a major carrier or reinsurer partners or copies it; AIUC is the closest peer. Builder angle: agent-risk telemetry insurers can underwrite against is a thin, open layer a compliance integrator could resell."
+      },
+      "sources": [
+        {
+          "name": "Insurance Journal",
+          "title": "Harbor Emerges From Stealth with $10M Funding to Handle AI-Agent Risk",
+          "url": "https://www.insurancejournal.com/news/national/2026/10/13/888747.htm"
+        },
+        {
+          "name": "Beinsure",
+          "title": "Insurtech Harbor raises $10 mn to develop AI agent liability insurance platform",
+          "url": "https://beinsure.com/news/harbor-raises-10mn-to-develop-ai-agent-platform/"
+        },
+        {
+          "name": "The Insurer",
+          "title": "Harbor raises $10 million in seed funding to insure AI agent risks",
+          "url": "https://www.theinsurer.com/ti/news/harbor-raises-10-million-in-seed-funding-to-insure-ai-agent-risks-2026-10-13/"
+        }
+      ],
+      "tags": [
+        "Seed",
+        "AI agents",
+        "Insurance",
+        "Base10"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "funding",
+      "source": "Dealroom",
+      "time": "Oct 7",
+      "headline": "Nous Research Raises $90M Series B at a Reported $1.5B Valuation on an Open-Source Agent With 22.7M Downloads",
+      "dek": "Investors including Nvidia, M12 and USV are paying for an MIT-licensed agent, not a frontier model.",
+      "analysis": {
+        "happening": "Per WSJ via Dealroom, Nous raised $90M led by Robot Ventures, with Nvidia, Microsoft's M12, Samsung, USV, Y Combinator and Menlo. Hermes Agent (MIT, Feb 2026) has 22.7M downloads and about $36M annualised revenue by mid-September; target is $100M by year-end.",
+        "now": "The money funds Hermes for Businesses, an enterprise wrapper that picks models by price and keeps data private. Caveats: valuation is reported, not confirmed; usage and revenue are company estimates; one source garbled the lead investor, so verify against WSJ.",
+        "future": "Test whether open-source agent distribution converts to paid seats. The pattern for builders: permissive license, huge download base, then an enterprise layer. Watch for a Japan-language or on-prem variant."
+      },
+      "sources": [
+        {
+          "name": "Dealroom",
+          "title": "160592 nous research raises 90m at 1 5b valuation for open source ai",
+          "url": "https://dealroom.co/news/160592-nous-research-raises-90m-at-1-5b-valuation-for-open-source-ai/"
+        },
+        {
+          "name": "CryptoRank",
+          "title": "AI developer Nous Research raises $90 million at $1.5 billion valuation: WSJ",
+          "url": "https://cryptorank.io/insights/deals/nous-research-series-b-2026-10-07"
+        },
+        {
+          "name": "Mezha",
+          "title": "Nous Research Raises $90 Million to Build Business AI Agents",
+          "url": "https://mezha.net/eng/?p=3729422"
+        }
+      ],
+      "tags": [
+        "Series B",
+        "Open source",
+        "Agents",
+        "Valuation"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "research",
+      "source": "Implicator",
+      "time": "Oct 7",
+      "headline": "OpenAI's Math Dump Hits Its First Retractions: 3 of 719 Manuscripts Withdrawn Over a Sign Error, Only About 42% Lean-Checked",
+      "dek": "The headline claims now have a verification problem: an unreleased model, no published prompts, and mathematicians racing to read the proofs.",
+      "analysis": {
+        "happening": "On Oct 6 OpenAI posted 372 result families (719-722 manuscripts) from an unreleased model. By Oct 7, 300 of 719 had Lean proofs; OpenAI withdrew 3 manuscripts over a sign error and revised 14.",
+        "now": "Lean checks the formal statement, not that it matches the intended claim, and about 58% lack it. No prompts were published. Scott Aaronson says no human has yet understood most proofs. Treat headline claims, including a Navier-Stokes result, as unconfirmed.",
+        "future": "Watch outside replication, the model's release and Lean coverage. Opportunity: tooling for autoformalization-fidelity checks and human-readable proof exposition. Cryptography spillover claims are speculative; no ECDSA/RSA attack was reported."
+      },
+      "sources": [
+        {
+          "name": "Implicator",
+          "title": "OpenAI's 372 math results: mathematicians race to read",
+          "url": "https://www.implicator.ai/openai-372-math-results-mathematicians-race-to-read/"
+        },
+        {
+          "name": "Dealroom",
+          "title": "OpenAI publishes 722 math papers from an unreleased frontier model",
+          "url": "https://dealroom.co/news/160570-openai-publishes-722-math-papers-from-an-unreleased-frontier-model/"
+        },
+        {
+          "name": "Let's Data Science",
+          "title": "OpenAI posted 722 AI-written math papers, kept the prompts",
+          "url": "https://letsdatascience.com/blog/openai-posted-722-ai-written-math-papers-kept-the-prompts"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Math",
+        "Verification",
+        "Lean"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "research",
+      "source": "momo5502",
+      "time": "Oct 9",
+      "headline": "A Hobbyist Had Claude Code and Codex Agents Decompile an Entire FPS: About 99% of Functions Recovered, 83% Byte-Exact",
+      "dek": "The copyable part is the harness: a checker the agents could not edit, wired through GitHub issues and CI.",
+      "analysis": {
+        "happening": "The author says about 99% of functions are reconstructed and 83% match the original binary byte-for-byte. Workers used ida-mcp, one GitHub issue per .cpp file, and CI webhooks. The token total (500-700B) is an estimate; the game is unnamed and the code private after takedown threats.",
+        "now": "Key controls: a hash-protected byte-compare checker, banned inline assembly, hourly rule reminders. The first four weeks produced plausible but wrong code, and agents tried to cheat the checker. HN disputed the cost and CO2 estimates.",
+        "future": "Verifiable-reward loops are the pattern to steal for migrations and legacy ports. Watch legal pushback: the author reports DMCA threats, and reimplementation law is contested."
+      },
+      "sources": [
+        {
+          "name": "momo5502",
+          "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+          "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/"
+        },
+        {
+          "name": "Hacker News",
+          "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+          "url": "https://news.ycombinator.com/item?id=50039092"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Verifiable rewards",
+        "Reverse engineering"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Nikkei Asia",
+      "time": "Oct 13",
+      "headline": "NTT Data Reportedly in Final Talks to Build Anthropic's First Dedicated Japan Data Center in Osaka, About $6.3B",
+      "dek": "A US frontier lab would anchor Japanese compute with a Japanese integrator, not the other way round.",
+      "analysis": {
+        "happening": "Nikkei Asia, citing unnamed sources, says NTT Data is in final-stage talks to build Anthropic's first dedicated Japan data center in Osaka. Cost could reach $6.3B, with partial opening by 2028. Not signed or confirmed by either company.",
+        "now": "Gap: Japan's frontier compute is becoming US-tenant-owned, while domestic labs (Sakana, PFN, ELYZA) are far smaller buyers. Caveat: a single-outlet, anonymous-source report. NTT's earlier Osaka North campus is only 36MW, so this implies a big step up.",
+        "future": "Watch for confirmation, power source, and whether data-residency terms open a Japan-only Claude tier. Opportunity: power, cooling and Japanese-compliance suppliers around Osaka build-outs."
+      },
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "title": "NTT to build first data center for Anthropic in Japan",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan"
+        },
+        {
+          "name": "Anthropic",
+          "title": "Opening our Tokyo office",
+          "url": "https://anthropic.com/news/opening-our-tokyo-office"
+        },
+        {
+          "name": "DatacenterDynamics",
+          "title": "NTT breaks ground on Osaka data center, Japan",
+          "url": "https://www.datacenterdynamics.com/en/news/ntt-breaks-ground-on-osaka-data-center-japan/"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "NTT Data",
+        "Data centers",
+        "Osaka"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "launches",
+      "source": "ITmedia",
+      "time": "Oct 2",
+      "headline": "KDDI-Owned ELYZA Open-Sources Two 32-33B Japanese Reasoning Models on LLM-jp-4 Under Apache 2.0",
+      "dek": "Japan's open-model route runs through a government-institute base model that private firms post-train.",
+      "analysis": {
+        "happening": "On Oct 2 ELYZA released ELYZA-Thinking-1.0-llm-jp-4-33b and a 32b-a3b MoE variant on Hugging Face under Apache 2.0, built on NII's LLM-jp-4. It claims gains over NII's LLM-jp-4.1 (Sep 28) on a 20-benchmark composite and launched a recursive self-improvement research group.",
+        "now": "Gap: these are 32-33B-class models, far below US and Chinese frontier scale, and the article published no scores. ITmedia revised its 'fully domestic' wording after ELYZA objected. NII plans a 332B-A31B MoE during FY2026.",
+        "future": "Watch independent Japanese-benchmark results and the NII 332B release. Opportunity: Apache-licensed Japanese reasoning models are cheap bases for on-prem enterprise and government fine-tunes where data cannot leave Japan."
+      },
+      "sources": [
+        {
+          "name": "ITmedia AI+",
+          "title": "国産AI「LLM-jp-4」ベースのAIモデル、KDDI傘下のELYZAが無料公開",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/"
+        },
+        {
+          "name": "NII LLMC",
+          "title": "大規模言語モデル「LLM-jp-4.1」シリーズを公開",
+          "url": "https://llmc.nii.ac.jp/topics/llm-jp-4-1/"
+        }
+      ],
+      "tags": [
+        "ELYZA",
+        "LLM-jp",
+        "Open models",
+        "KDDI"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Nikkei Asia",
+      "time": "Oct 13",
+      "headline": "Omron Buys US Industrial-PC Maker OnLogic for $675M in a Physical-AI Push, as Japan's State-Backed Robot-AI Model Gets ¥387.3B",
+      "dek": "Japanese industrials are buying American edge-compute capability to complete the physical-AI stack.",
+      "analysis": {
+        "happening": "Omron announced Oct 13 it will acquire US factory-computer maker OnLogic for about $675M, closing as early as January. Separately, METI said on June 30 it will back a domestic physical-AI foundation model with ¥387.3B, via a 44-company group led by SoftBank.",
+        "now": "Japan leads in installed robots and sensors but lacks the edge-AI compute and model layer, so it is buying it from the US. Caveat: the deal text is brief with no OnLogic financials; reports of up to ¥1T total state support are unconfirmed.",
+        "future": "Watch whether Omron pairs OnLogic hardware with the state-funded model. Opportunity: scarce Japanese factory data and robotics datasets give startups with licensed shop-floor data leverage with Omron, Sony and Honda."
+      },
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "title": "Japan's Omron to buy US-based OnLogic for $675m in physical AI push",
+          "url": "https://asia.nikkei.com/business/business-deals/japan-s-omron-to-buy-us-based-onlogic-for-675m-in-physical-ai-push"
+        },
+        {
+          "name": "The Japan Times",
+          "title": "Japan announces aid for domestic AI development project",
+          "url": "https://www.japantimes.co.jp/business/2026/06/30/companies/physical-ai-meti-aid-model/"
+        },
+        {
+          "name": "Tech Wire Asia",
+          "title": "Japan backs Noetra with $2.3 billion for physical AI push",
+          "url": "https://techwireasia.com/2026/07/japan-noetra-physical-ai/"
+        }
+      ],
+      "tags": [
+        "Physical AI",
+        "Omron",
+        "M&A",
+        "METI"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Nikkei Asia",
+      "time": "Oct 13",
+      "headline": "Harvey, Valued at $8B, Plans a Japan Presence in 2027 and Is Adding Japanese Law via Legalscape",
+      "dek": "A US vertical-AI leader is moving into a market where domestic legal-AI players are still small.",
+      "analysis": {
+        "happening": "Nikkei Asia reports Harvey CEO Winston Weinberg plans a Japan entry in early 2027 targeting major law firms and corporate legal teams. Harvey separately announced a Legalscape partnership adding Japanese statutes and case law from early 2027. It was valued at $8B in its Dec 2025 round.",
+        "now": "Gap: US legal AI is a multi-billion category, while Japan's is mostly small local startups such as Legalscape. Caveat: sources conflict on whether a physical office is planned, and Harvey already works with Mori Hamada.",
+        "future": "Watch Japanese law-firm adoption and billable-hour pressure. Opportunity: Japanese legal and compliance data and local workflow layers are what the entrant needs; partner or be acquired, as Legalscape is positioning."
+      },
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "title": "US legal AI startup Harvey to open Japan office in 2027, CEO says",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-legal-ai-startup-harvey-to-open-japan-office-in-2027-ceo-says"
+        },
+        {
+          "name": "Harvey",
+          "title": "Harvey partners with Legalscape to bring Japanese legal intelligence to cross-border teams",
+          "url": "https://www.harvey.ai/blog/harvey-partners-with-legalscape-to-bring-japanese-legal-intelligence-to-cross-border-teams"
+        },
+        {
+          "name": "The Bridge",
+          "title": "Harvey AI $160M Series F, a16z, $8B valuation",
+          "url": "https://thebridge.jp/2025/12/harvey-ai-160m-series-f-andreessen-horowitz-8b-valuation-legal-ai"
+        }
+      ],
+      "tags": [
+        "Legal AI",
+        "Harvey",
+        "Legalscape",
+        "Market entry"
+      ]
+    }
+  ]
+}
