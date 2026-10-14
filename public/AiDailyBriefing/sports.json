@@ -1,35 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T20:15:00.000Z",
-  "dateLabel": "Wed · Oct 14 2026",
+  "generatedAt": "2026-10-14T20:06:54.000Z",
+  "dateLabel": "Thu · Oct 15 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Champions League MD3: Bayern Munich vs Arsenal",
-      "line": "Sky Sports lists Arsenal vs Bayern as the standout Matchday 3 tie, 20:00 UK time on Oct 21 (the page does not name a time zone, so JST assumes BST). Venue/home side is unclear in the listing.",
-      "whenJst": "Thu Oct 22 · 04:00 JST",
+      "sport": "tennis",
+      "status": "live",
+      "event": "Rolex Shanghai Masters, quarterfinals to final",
+      "line": "Round of 16 is done: Medvedev beat Tsitsipas, Ruud beat Auger-Aliassime (retired), Jodar and Paul advanced, and Zverev is also in the last eight. Quarterfinals run Oct 15-16; final Sun Oct 18. Check the ATP order of play.",
+      "whenJst": "Thu Oct 15 – Sun Oct 18 (final Sun; check order of play)",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
-          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+          "name": "ATP Tour",
+          "title": "What were the Shanghai results?",
+          "url": "https://www.atptour.com/en/news/shanghai-2026-results"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "tennis",
-      "status": "live",
-      "event": "Shanghai Masters quarter-finals (ATP 1000)",
-      "line": "Zverev (1), de Minaur (9), Arthur Gea and Davidovich Fokina (25) have reached the quarter-finals; Sinner is out injured. Final is Oct 18. Exact match times were not published.",
-      "whenJst": "Thu Oct 15 · Quarter-finals (times TBC, JST)",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Premier League: Leeds vs Manchester United",
+      "line": "Sunday's early televised game at Elland Road; kick-off 2pm UK time.",
+      "whenJst": "Sun Oct 18 · 22:00 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Shanghai 2026 results",
-          "url": "https://www.atptour.com/en/news/shanghai-2026-results"
+          "name": "Sky Sports",
+          "title": "Premier League fixtures on Sky Sports: Liverpool vs Man City and Arsenal plus Leeds vs Man Utd live in October and November",
+          "url": "https://www.skysports.com/football/news/11671/13574076/premier-league-fixtures-on-sky-sports-liverpool-vs-man-city-and-arsenal-plus-leeds-vs-man-utd-live-in-october-and-november"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Premier League: Nottingham Forest vs Arsenal",
+      "line": "Sunday's late televised game, 4:30pm UK time, so after midnight in Japan. Set an alarm if you want it live.",
+      "whenJst": "Mon Oct 19 · 00:30 JST",
+      "sources": [
+        {
+          "name": "Sky Sports",
+          "title": "Premier League fixtures on Sky Sports: Liverpool vs Man City and Arsenal plus Leeds vs Man Utd live in October and November",
+          "url": "https://www.skysports.com/football/news/11671/13574076/premier-league-fixtures-on-sky-sports-liverpool-vs-man-city-and-arsenal-plus-leeds-vs-man-utd-live-in-october-and-november"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "sport": "golf",
+      "status": "upcoming",
+      "event": "PGA Tour: Butterfield Bermuda Championship",
+      "line": "No PGA Tour event this week. The tour returns Oct 22-25 in Bermuda ($6M purse), then the Mexico Open Oct 29-Nov 1. Low-priority watch.",
+      "whenJst": "Thu Oct 22 – Sun Oct 25 (round times not confirmed)",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "PGA Tour's 2026 fall schedule features 2 new events, Mexico swing",
+          "url": "https://www.espn.com/golf/story/_/id/47561580/pga-tour-26-fedexcup-fall-slate-2-new-events-mexico-swing"
         }
       ]
     }

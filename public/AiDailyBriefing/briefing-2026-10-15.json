@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-14T20:06:54.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "greeting": "Good morning, Joesh.",
+    "dateLabel": "Thu · Oct 15 2026",
+    "editionLine": "EDITION No.521 · SYNCED 05:15 JST",
+    "intro": "Today's throughline: supply is the constraint — ASML cannot build enough tools, Meta is meter-pricing its best model, and Japan is just now getting domestic GPUs and robot brains.",
+    "briefingTitle": "ASML Says It Can't Build Enough Tools, Meta Locks Its Best Model Behind a Seat Price, and SoftBank Brings GPU Cloud Home",
+    "summary": "The common thread is scarcity and who controls access. ASML says even 30% annual capacity growth will not cover 2027-28 AI demand, and Meta is gating its strongest model behind a $50-$200 monthly coding seat. Early-stage money is following the control layer: Pluto Security's $42M to police agents and Mecka's $60M for robot training data. In Japan, the story is catching up on basics — SoftBank's domestic GPU cloud and Kawasaki's first Noetra deployment — while rounds like Flyle's ¥1.88B stay small against US seeds.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 20 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 32,
+      "frontier": 95,
+      "note": "Unchanged — Sakana still leads Japan's H1 startup funding at ¥31.0B (~$200M), a rounding error beside US lab rounds; domestic models remain 30B-class."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 20,
+      "frontier": 99,
+      "note": "Unchanged — Flyle's ¥1.88B and THE PHAGE's ¥570M are typical Japanese rounds against US seeds of $20-60M (Causa Prima, Mecka)."
+    },
+    {
+      "label": "Domestic humanoid/robotics ownership",
+      "jp": 59,
+      "frontier": 93,
+      "note": "Up 1 — Kawasaki adopting Noetra's state-backed platform gives FRONTia its first named industrial customer, though autonomy is staged to 2030."
+    },
+    {
+      "label": "AI-era cyber defence readiness",
+      "jp": 30,
+      "frontier": 90,
+      "note": "Unchanged — no new Japan evidence today; Anthropic's red-team edge-replication tests show the threat surface widening for consumer-electronics makers."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "launches",
+      "source": "TechCrunch",
+      "time": "Oct 12",
+      "headline": "Meta Ships Muse Wonder, Its First Frontier-Class Model, but Keeps the Strongest Variant Behind a $50-$200/Month Coding Seat",
+      "dek": "Wonder Full trails Claude Opus 5.5 on the main independent index (56 vs 58), and Meta's headline coding wins are its own numbers.",
+      "analysis": {
+        "happening": "Meta released Muse Wonder and Wonder Full on Oct 12. The API tier is $4/$20 per million tokens; Wonder Full is only inside Muse Code ($50 or $200/month). Artificial Analysis scores: Opus 5.5 58, Wonder Full 56, Wonder 52. Meta claims 79.0 on DeepSWE 1.1.",
+        "now": "Meta is selling a seat-priced agent product, not an open model, a sharp break from Llama. Coding numbers come from Meta's harness and are unreproduced; its own table has Opus ahead on OSWorld and Terminal-Bench.",
+        "future": "Watch independent DeepSWE reproductions and whether Wonder Full reaches the API. Seat-priced agent bundles undercut API-only coding tools, which is the opening for builders."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder"
+        },
+        {
+          "name": "Daily Campus",
+          "title": "Meta debuts Muse Wonder, its most advanced AI model yet",
+          "url": "https://dailycampus.com/2026/10/14/meta-debuts-muse-wonder-its-most-advanced-ai-model-yet"
+        },
+        {
+          "name": "ProPakistani",
+          "title": "Meta Enters AI Frontier With New \"Wonder\" Models",
+          "url": "https://propakistani.pk/2026/10/13/meta-enters-ai-frontier-with-new-wonder-models/"
+        }
+      ],
+      "tags": [
+        "Meta",
+        "Muse Wonder",
+        "Coding agents",
+        "Pricing"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Seoul Economic Daily",
+      "time": "Oct 14",
+      "headline": "ASML Says It Cannot Build Enough Tools for 2027-28 Even at +30% Capacity a Year, as China Falls to 23% of Sales",
+      "dek": "Record Q3 and a raised 2026 guide say lithography, not just packaging, is now a ceiling on AI chip growth.",
+      "analysis": {
+        "happening": "Q3 sales were EUR 11.7B (+55% YoY), net income EUR 5.0B including a EUR 510M gain on its Mistral AI stake. 2026 guidance is EUR 44-45B (April: 36-40B). China was 23% of Q3 machine sales versus 42% a year ago.",
+        "now": "The CEO said 30% more capacity in each of 2027 and 2028 will not meet demand. Caveat: ASML no longer reports bookings; the contract-liability jump (EUR 3.6B to 9.3B) is only a proxy.",
+        "future": "Watch the January 2027 outlook, MATCH Act movement on China tool curbs, and read-through to TSMC (reports today), Samsung and SK hynix capex. Tokyo Electron and Advantest share the signal."
+      },
+      "sources": [
+        {
+          "name": "Seoul Economic Daily",
+          "title": "ASML Beats Profit Forecasts but Investors See Room for More",
+          "url": "https://en.sedaily.com/international/2026/10/14/asml-beats-profit-forecasts-but-investors-see-room-for-more"
+        },
+        {
+          "name": "Stock Titan",
+          "title": "ASML Says AI Chipmakers Want More Machines Than It Can Build",
+          "url": "https://stocktitan.net/articles/asml-q3-2026-earnings-ai-chip-machine-demand"
+        }
+      ],
+      "tags": [
+        "ASML",
+        "EUV",
+        "Supply chain",
+        "Earnings"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Oct 13",
+      "headline": "Pluto Security Exits Stealth With $42M to Police What AI Agents Do Inside Enterprises, Led by Jump Capital",
+      "dek": "Security money is following shadow AI: employees shipping apps and agents with Claude Code, Codex and Lovable.",
+      "analysis": {
+        "happening": "Pluto disclosed $42M total: an $8.5M TLV Partners seed and a $34M Series A led by Jump Capital, with Skinos (Shlomo Kramer) and Ansa Capital. Company-reported: over $2M ARR since April, 30+ customers including Oscar Health, Workato and Sixt, 40 staff.",
+        "now": "It monitors agent behavior and MCP servers in real time. Caveat: nearly all metrics come from the CEO and valuation is undisclosed; many rivals are raising on the same argument.",
+        "future": "Watch whether identity and endpoint vendors bundle this and squeeze point products. Differentiation will show in win rates and ARR growth, not the pitch."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+          "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/"
+        },
+        {
+          "name": "The Next Web",
+          "title": "Pluto Security emerges from stealth with $42M to secure AI at work",
+          "url": "https://thenextweb.com/news/pluto-security-42m-ai-workspace-security-stealth"
+        }
+      ],
+      "tags": [
+        "Security",
+        "Series A",
+        "Agents",
+        "Stealth"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "funding",
+      "source": "BetaKit",
+      "time": "Oct 7",
+      "headline": "Mecka AI's $60M Series B, Led by Sequoia, Bets Human-Motion Data Is the Picks-and-Shovels of Humanoid Robots",
+      "dek": "The Toronto/New York startup sells first-person sensor and video data to robotics labs and reports a $100M run-rate.",
+      "analysis": {
+        "happening": "Sequoia led the $60M Series B with Nvidia, Microsoft's M12, Qualcomm Ventures and Samsung, plus angels Frank Slootman and Milan Kovac. Company-reported run-rate passed $100M in June, targeting $300M by year-end. Valuation undisclosed; TechCrunch earlier reported about $500M.",
+        "now": "Money is chasing the data layer for physical AI rather than robot hardware. Caveat: revenue is self-reported and buyers are few and concentrated in labs and Big Tech.",
+        "future": "Watch customer concentration, rival egocentric-data collectors, and whether labs shift to synthetic or in-house collection."
+      },
+      "sources": [
+        {
+          "name": "BetaKit",
+          "title": "Mecka AI reveals $60-million USD Series B round backed by Sequoia, Nvidia",
+          "url": "https://betakit.com/mecka-ai-reveals-60-million-usd-series-b-round-backed-by-sequoia-nvidia/"
+        },
+        {
+          "name": "Let's Data Science",
+          "title": "Mecka Raises $60 Million for Robotics Training Data",
+          "url": "https://letsdatascience.com/news/mecka-raises-60-million-for-robotics-training-data-29d61d70"
+        }
+      ],
+      "tags": [
+        "Series B",
+        "Sequoia",
+        "Robotics",
+        "Data"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "GitHub",
+      "time": "Oct 6 (trending)",
+      "headline": "TesterArmy (YC P26) Open-Sources 'e2e', Which Replays Agent-Written Tests With Zero Model Calls Until the App Changes",
+      "dek": "Agents write the test once; a cache replays it, answering the recurring token-cost objection.",
+      "analysis": {
+        "happening": "e2e is an Apache-2.0 TypeScript framework for web and mobile tests mixing natural-language agent steps with standard locators and assertions. Verified steps are recorded and replayed without model calls. GitHub shows about 10.4k stars; a third-party summary lists v0.18.0 from Oct 6, pre-1.0.",
+        "now": "Replay-then-fallback is a pattern you could copy for any agent workflow. Caveat: the cache only helps while the UI is stable, and APIs may change before 1.0.",
+        "future": "Watch how TesterArmy monetizes its hosted platform and whether replay-then-fallback spreads to other agent categories."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "title": "tester-army/e2e",
+          "url": "https://github.com/tester-army/e2e"
+        },
+        {
+          "name": "Hacker News (mirror)",
+          "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+          "url": "https://hn.svelte.dev/item/48586299"
+        }
+      ],
+      "tags": [
+        "YC",
+        "Testing",
+        "Agents",
+        "Open source"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "funding",
+      "source": "PR TIMES",
+      "time": "Oct 7",
+      "headline": "Flyle Raises ¥1.88B Series A From Salesforce Ventures and Three Megabank VCs for an 'AI Operator' That Completes Calls",
+      "dek": "A Tokyo contact-center agent startup sells transaction-completing agents into Japan's phone-heavy CX market.",
+      "analysis": {
+        "happening": "Flyle closed a ¥1.88B (~$12M) Series A on Oct 7, for about ¥2.27B total. Investors include ALPHA, ALL STAR SAAS FUND, Salesforce Ventures, Japan Post Capital and the MUFG, Mizuho and SMBC VCs. Its AI Operator handles phone, chat and email, including order and contract changes.",
+        "now": "US peers such as Sierra and Decagon raise hundreds of millions; Japan's lag is capital depth. The opening is Japanese voice, keigo and legacy integration. Caveat: no customers or valuation disclosed; 'completes procedures' is unverified.",
+        "future": "Watch named enterprise customers, Series B size, and whether bank-VC backing opens finance and insurance call centers."
+      },
+      "sources": [
+        {
+          "name": "PR TIMES",
+          "title": "コンタクトセンター・CX業務を担うAIエージェント「Flyle(フライル)」、シリーズA18.8億円を資金調達",
+          "url": "https://prtimes.jp/main/html/rd/p/000000050.000076399.html"
+        },
+        {
+          "name": "KEPPLE",
+          "title": "Flyle Series A and AI Operator launch",
+          "url": "https://kepple.co.jp/articles/j_j3izbn1"
+        }
+      ],
+      "tags": [
+        "Startups",
+        "AI agents",
+        "Series A",
+        "Customer support"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "funding",
+      "source": "PR TIMES",
+      "time": "Oct 9",
+      "headline": "THE PHAGE Raises ¥570M for a Glucose Foundation Model, With Itochu in the Lead and a Tokio Marine Alliance",
+      "dek": "A vertical foundation model trained on continuous glucose monitor data pulls in trading-house and insurer capital.",
+      "analysis": {
+        "happening": "THE PHAGE announced a ¥570M (~$3.8M) Series A first close on Oct 9, mixing equity and a Shoko Chukin loan. Itochu Technology Ventures led; Tokio Marine & Nichido, Fukui Capital, Genesia and Vision Incubate joined. It also signed a capital alliance with Tokio Marine Holdings.",
+        "now": "US metabolic-AI players (Levels, Oura/Dexcom data plays) are consumer-led and far larger; Japan's angle is insurer-distributed prevention. Caveat: first close of a bigger round, and no public accuracy benchmark for its model.",
+        "future": "Watch the second close and Tokio Marine products built on the model. Insurers funding vertical health models is a thesis someone could pitch."
+      },
+      "sources": [
+        {
+          "name": "PR TIMES",
+          "title": "株式会社ザ・ファージ、シリーズA 1st ラウンドで総額5.7億円の資金調達を実施",
+          "url": "https://prtimes.jp/main/html/rd/p/000000025.000110505.html"
+        },
+        {
+          "name": "PR TIMES",
+          "title": "Genesia Ventures follow-on investment release (Oct 9)",
+          "url": "https://prtimes.jp/main/html/rd/p/000000207.000056091.html"
+        }
+      ],
+      "tags": [
+        "Healthcare AI",
+        "Foundation model",
+        "Insurance",
+        "Series A"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Let's Data Science (Nikkei)",
+      "time": "Oct 6",
+      "headline": "Kawasaki Heavy to Put Noetra's Physical-AI Platform in Its Kaleido Humanoid, Targeting 2030, Starting With Human Teleoperation",
+      "dek": "Japan's state-backed physical-AI consortium gets its first named industrial adopter, but autonomy comes in stages.",
+      "analysis": {
+        "happening": "Per Nikkei reporting summarized Oct 6, Kawasaki will integrate Noetra's platform into Kaleido for industrial rollout from 2030, starting with remote human control plus AI for patrols and parts transport. Noetra, owned by SoftBank, NEC, Sony and Honda, won METI/NEDO's FRONTia project (¥387.3B first tranche).",
+        "now": "Japan trails the US in humanoid foundation models (Figure, Tesla, Physical Intelligence) but leads in robot hardware and factory customers. Caveat: secondhand summaries of Nikkei; no Kawasaki or Noetra confirmation.",
+        "future": "Watch FRONTia stage-gate reviews, open pretrained weights for domestic developers, and which automotive or chip customers sign. The planned Nvidia Rubin cluster is the compute test."
+      },
+      "sources": [
+        {
+          "name": "Let's Data Science",
+          "title": "Kawasaki Targets Kaleido Autonomy With Noetra AI",
+          "url": "https://letsdatascience.com/news/kawasaki-targets-kaleido-autonomy-with-noetra-ai-897b1835"
+        },
+        {
+          "name": "Humanoids Daily",
+          "title": "Kawasaki Kaleido Noetra 2030 staged autonomy",
+          "url": "https://www.humanoidsdaily.com/news/kawasaki-kaleido-noetra-2030-staged-autonomy"
+        },
+        {
+          "name": "The Next Web",
+          "title": "Japan is building a 140MW AI factory for robots, and Nvidia is supplying all of it",
+          "url": "https://thenextweb.com/news/japan-noetra-nvidia-rubin-ai-factory-frontia"
+        }
+      ],
+      "tags": [
+        "Physical AI",
+        "Humanoids",
+        "METI",
+        "Noetra"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Cloud Watch (Impress)",
+      "time": "Upcoming",
+      "headline": "SoftBank's Domestic 'AI Data Center GPU Cloud' Is Due for General Availability This Month",
+      "dek": "A GB200 NVL72 cloud with Kubernetes and inference-as-a-service, sold from Japanese soil, is Japan's answer to hyperscaler GPU rental.",
+      "analysis": {
+        "happening": "SoftBank said on May 25 that its AI Data Center GPU Cloud, built on the Infrinia AI Cloud OS, reaches general availability in October 2026. It offers multi-tenant Kubernetes and LLM inference as a service on NVIDIA GB200 NVL72 in domestic data centers; a beta has run for group companies.",
+        "now": "The US has had CoreWeave and Lambda for years, so Japan is 1-2 years behind on domestic GPU supply; the edge is data residency for government and finance. Caveat: no pricing, GPU count or exact date published.",
+        "future": "Watch pricing against AWS and Azure Japan regions and the first external customers. A Japan-resident inference API for startups is a gap a builder could target."
+      },
+      "sources": [
+        {
+          "name": "Cloud Watch (Impress)",
+          "title": "ソフトバンク、AI用途向けクラウドサービス「AIデータセンター GPUクラウド」を10月に提供開始",
+          "url": "https://cloud.watch.impress.co.jp/docs/news/2111366.html"
+        },
+        {
+          "name": "DCD",
+          "title": "SoftBank Corp. to launch 'AI Data Center GPU Cloud' offering in Japan",
+          "url": "https://www.datacenterdynamics.com/en/news/softbank-corp-to-launch-ai-data-center-gpu-cloud-offering-in-japan/"
+        }
+      ],
+      "tags": [
+        "GPU cloud",
+        "SoftBank",
+        "Sovereign compute",
+        "Data residency"
+      ]
+    }
+  ]
+}
