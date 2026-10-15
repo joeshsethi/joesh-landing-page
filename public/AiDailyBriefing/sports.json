@@ -1,35 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T20:06:54.000Z",
-  "dateLabel": "Thu · Oct 15 2026",
+  "generatedAt": "2026-10-15T20:07:10.000Z",
+  "dateLabel": "Fri · Oct 16 2026",
   "items": [
     {
       "id": "s1",
       "sport": "tennis",
-      "status": "live",
-      "event": "Rolex Shanghai Masters, quarterfinals to final",
-      "line": "Round of 16 is done: Medvedev beat Tsitsipas, Ruud beat Auger-Aliassime (retired), Jodar and Paul advanced, and Zverev is also in the last eight. Quarterfinals run Oct 15-16; final Sun Oct 18. Check the ATP order of play.",
-      "whenJst": "Thu Oct 15 – Sun Oct 18 (final Sun; check order of play)",
+      "status": "upcoming",
+      "event": "Rolex Shanghai Masters semifinals",
+      "line": "Top seed Zverev faces Davidovich Fokina in a semifinal after beating De Minaur 6-4, 6-4. The other slot is set by Friday's quarterfinals. ESPN lists semis Oct 17 and the final Oct 18, with times TBD.",
+      "whenJst": "Sat Oct 17 (semis) / Sun Oct 18 (final) · times TBC JST",
       "sources": [
         {
+          "name": "ESPN",
+          "title": "Alexander Zverev wins in straight sets to reach Shanghai Masters semifinals",
+          "url": "https://www.espn.com/tennis/story/_/id/50188407/zverev-wins-straight-sets-reach-shanghai-masters-semis"
+        },
+        {
           "name": "ATP Tour",
-          "title": "What were the Shanghai results?",
-          "url": "https://www.atptour.com/en/news/shanghai-2026-results"
+          "title": "Alexander Zverev powers past Alex de Minaur for Shanghai SF return",
+          "url": "https://www.atptour.com/en/news/zverev-de-minaur-shanghai-2026-qf"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Premier League: Leeds vs Manchester United",
-      "line": "Sunday's early televised game at Elland Road; kick-off 2pm UK time.",
-      "whenJst": "Sun Oct 18 · 22:00 JST",
+      "sport": "golf",
+      "status": "live",
+      "event": "DP World India Championship (New Delhi)",
+      "line": "Round 1 was suspended by lightning. Niklas Norgaard leads at 6 under; Rory McIlroy is 2 under, three back of the chasers and third in the Race to Dubai. Play resumes Friday morning India time.",
+      "whenJst": "Fri Oct 16 · from 10:15 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Premier League fixtures on Sky Sports: Liverpool vs Man City and Arsenal plus Leeds vs Man Utd live in October and November",
-          "url": "https://www.skysports.com/football/news/11671/13574076/premier-league-fixtures-on-sky-sports-liverpool-vs-man-city-and-arsenal-plus-leeds-vs-man-utd-live-in-october-and-november"
+          "name": "PGA Tour",
+          "title": "Rory McIlroy cards two under, Niklas Nørgaard leads as lightning suspends Round 1 of DP World India Championship",
+          "url": "https://pgatour.com/article/news/latest/2026/10/15/dp-world-india-championship-round-one-leaderboard-scores-rory-mcilroy"
         }
       ]
     },
@@ -37,29 +42,19 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Premier League: Nottingham Forest vs Arsenal",
-      "line": "Sunday's late televised game, 4:30pm UK time, so after midnight in Japan. Set an alarm if you want it live.",
-      "whenJst": "Mon Oct 19 · 00:30 JST",
+      "event": "Premier League weekend: Brentford v Liverpool, Forest v Arsenal, Leeds v Man United",
+      "line": "Brentford v Liverpool is Sat Oct 17 (UK date); Forest v Arsenal and Leeds v United follow Sun Oct 18. Kickoff times were not confirmed, so check the ESPN schedule for JST conversion.",
+      "whenJst": "Sat Oct 17 – Mon Oct 19 JST · times TBC",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Premier League fixtures on Sky Sports: Liverpool vs Man City and Arsenal plus Leeds vs Man Utd live in October and November",
-          "url": "https://www.skysports.com/football/news/11671/13574076/premier-league-fixtures-on-sky-sports-liverpool-vs-man-city-and-arsenal-plus-leeds-vs-man-utd-live-in-october-and-november"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "sport": "golf",
-      "status": "upcoming",
-      "event": "PGA Tour: Butterfield Bermuda Championship",
-      "line": "No PGA Tour event this week. The tour returns Oct 22-25 in Bermuda ($6M purse), then the Mexico Open Oct 29-Nov 1. Low-priority watch.",
-      "whenJst": "Thu Oct 22 – Sun Oct 25 (round times not confirmed)",
-      "sources": [
+          "title": "Premier League predictions & Jones Knows' best bets: Brentford vs Liverpool, Leeds vs Manchester United and more",
+          "url": "https://www.skysports.com/football/news/13598732/premier-league-predictions-and-jones-knows-best-bets-brentford-vs-liverpool-leeds-vs-manchester-united-and-more"
+        },
         {
           "name": "ESPN",
-          "title": "PGA Tour's 2026 fall schedule features 2 new events, Mexico swing",
-          "url": "https://www.espn.com/golf/story/_/id/47561580/pga-tour-26-fedexcup-fall-slate-2-new-events-mexico-swing"
+          "title": "2026 Premier League Schedule - ESPN",
+          "url": "https://www.espn.com/soccer/schedule/_/league/eng.1"
         }
       ]
     }
