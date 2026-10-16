@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T20:07:10.000Z",
-  "dateLabel": "Fri · Oct 16 2026",
+  "generatedAt": "2026-10-16T20:10:00.000Z",
+  "dateLabel": "Sat · Oct 17 2026",
   "items": [
     {
       "id": "s1",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Rolex Shanghai Masters semifinals",
-      "line": "Top seed Zverev faces Davidovich Fokina in a semifinal after beating De Minaur 6-4, 6-4. The other slot is set by Friday's quarterfinals. ESPN lists semis Oct 17 and the final Oct 18, with times TBD.",
-      "whenJst": "Sat Oct 17 (semis) / Sun Oct 18 (final) · times TBC JST",
+      "event": "Shanghai Masters semifinals",
+      "line": "Top seed Zverev meets Davidovich Fokina, then Medvedev (only former champion left) faces 20-year-old Rafael Jodar, the youngest semifinalist in event history. Zverev can chase world No. 1 if he wins the title.",
+      "whenJst": "Sat Oct 17 · 17:30 and 20:00 JST (not before)",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Alexander Zverev wins in straight sets to reach Shanghai Masters semifinals",
-          "url": "https://www.espn.com/tennis/story/_/id/50188407/zverev-wins-straight-sets-reach-shanghai-masters-semis"
+          "name": "ATP Tour",
+          "title": "What is the Shanghai tennis schedule?",
+          "url": "https://www.atptour.com/en/news/shanghai-2026-schedule"
         },
         {
-          "name": "ATP Tour",
-          "title": "Alexander Zverev powers past Alex de Minaur for Shanghai SF return",
-          "url": "https://www.atptour.com/en/news/zverev-de-minaur-shanghai-2026-qf"
+          "name": "ESPN",
+          "title": "Rafael Jodar makes Shanghai Masters history, sets up semifinal vs. Medvedev",
+          "url": "https://www.espn.com/tennis/story/_/id/50196096/jodar-makes-shanghai-masters-history-sets-semifinal-vs-medvedev"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "golf",
-      "status": "live",
-      "event": "DP World India Championship (New Delhi)",
-      "line": "Round 1 was suspended by lightning. Niklas Norgaard leads at 6 under; Rory McIlroy is 2 under, three back of the chasers and third in the Race to Dubai. Play resumes Friday morning India time.",
-      "whenJst": "Fri Oct 16 · from 10:15 JST",
+      "status": "upcoming",
+      "event": "DP World India Championship, round 2 restart",
+      "line": "Luiten, Hidalgo and Meronk lead on 8 under in the clubhouse; McIlroy is 4 under, four back, through only four holes. Sky lists a 6:45am restart; time zone not stated, so JST is approximate.",
+      "whenJst": "Sat Oct 17 · ~14:45 JST (assumes UK time; confirm)",
       "sources": [
         {
-          "name": "PGA Tour",
-          "title": "Rory McIlroy cards two under, Niklas Nørgaard leads as lightning suspends Round 1 of DP World India Championship",
-          "url": "https://pgatour.com/article/news/latest/2026/10/15/dp-world-india-championship-round-one-leaderboard-scores-rory-mcilroy"
+          "name": "Sky Sports",
+          "title": "DP World India Championship: Rory McIlroy four off clubhouse lead but through only four holes of second round",
+          "url": "https://www.skysports.com/golf/news/13599990/dp-world-india-championship-rory-mcilroy-four-off-clubhouse-lead-but-through-only-four-holes-of-second-round"
         }
       ]
     },
@@ -42,9 +42,9 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Premier League weekend: Brentford v Liverpool, Forest v Arsenal, Leeds v Man United",
-      "line": "Brentford v Liverpool is Sat Oct 17 (UK date); Forest v Arsenal and Leeds v United follow Sun Oct 18. Kickoff times were not confirmed, so check the ESPN schedule for JST conversion.",
-      "whenJst": "Sat Oct 17 – Mon Oct 19 JST · times TBC",
+      "event": "Premier League returns: Everton v Chelsea, Brentford v Liverpool",
+      "line": "The league is back from a three-week break with Chelsea at Everton (no Reece James) and Liverpool at Brentford, several attackers doubtful.",
+      "whenJst": "Sat Oct 17 · 20:30 JST and 23:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
@@ -52,9 +52,24 @@
           "url": "https://www.skysports.com/football/news/13598732/premier-league-predictions-and-jones-knows-best-bets-brentford-vs-liverpool-leeds-vs-manchester-united-and-more"
         },
         {
-          "name": "ESPN",
-          "title": "2026 Premier League Schedule - ESPN",
-          "url": "https://www.espn.com/soccer/schedule/_/league/eng.1"
+          "name": "Premier League",
+          "title": "Predicted line-ups for Premier League teams in Matchweek 7",
+          "url": "https://www.premierleague.com/en/news/4737644/predicted-line-ups-for-matchweek-7"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Premier League: Leeds v Man Utd, Nottingham Forest v Arsenal",
+      "line": "Sunday brings Leeds against Manchester United, then Arsenal at Nottingham Forest just after midnight Monday JST.",
+      "whenJst": "Sun Oct 18 · 22:00 JST and Mon Oct 19 · 00:30 JST",
+      "sources": [
+        {
+          "name": "Sky Sports",
+          "title": "Premier League predictions & Jones Knows' best bets: Brentford vs Liverpool, Leeds vs Manchester United and more",
+          "url": "https://www.skysports.com/football/news/13598732/premier-league-predictions-and-jones-knows-best-bets-brentford-vs-liverpool-leeds-vs-manchester-united-and-more"
         }
       ]
     }
