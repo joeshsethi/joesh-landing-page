@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-17T20:06:33.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "greeting": "Good morning, Joesh.",
+    "dateLabel": "Sun · Oct 18 2026",
+    "editionLine": "EDITION No.524 · SYNCED 05:15 JST",
+    "intro": "Today's throughline: the AI stack is being unbundled and priced per task, while Japan buys or hosts what it does not build.",
+    "briefingTitle": "DeepSeek Prices Agents by the Task, Nvidia Loses China Units to ASICs, and Japan Imports Its 3nm Fab",
+    "summary": "The common thread is who captures value as AI gets cheaper per task. DeepSeek and a three-person YC lab compete on cost per solved task, Benchmark and Index fund agents that own outcomes, and new insurers and security firms price agent risk. In hardware, ASICs now outship GPUs in China. In Japan, the leading-edge fab and the next big data center are both foreign-built, while domestic models stay near 33B.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 25 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 33,
+      "frontier": 95,
+      "note": "Up 1 — ELYZA's 33B and 32B-A3B open reasoning models post-train NII's base, while US and Chinese labs ship 500B-2.8T models."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 20,
+      "frontier": 99,
+      "note": "Unchanged — ¥65M and ¥490M Japanese vertical rounds sit against a $60M Hone seed and a $750M Modal round."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 30,
+      "frontier": 96,
+      "note": "Up 2 — METI approved 3nm at TSMC's Kumamoto fab 2 for 2028, but it is foreign-owned and Rapidus still lacks a volume customer."
+    },
+    {
+      "label": "AI data-center scale and power",
+      "jp": 35,
+      "frontier": 95,
+      "note": "New framing — Osaka's proposed 500MW Anthropic site would be Japan's largest, while Microsoft plans multi-gigawatt Maia deployments from 2027."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "launches",
+      "source": "Bloomberg",
+      "time": "Oct 17",
+      "headline": "DeepSeek Swaps in Open-Weight V4.1-Flash-1017: 77.0% on DeepSWE at Under $0.20 per Task, Plus a $0.75/1k-Call Search API",
+      "dek": "Same model ID, MIT weights, and cost per solved task as the pitch metric.",
+      "analysis": {
+        "happening": "Released Oct 17 with MIT weights on Hugging Face and ModelScope. DeepSeek's charts show 77.0% on DeepSWE at about $0.20 per task, versus 74.2% at about $0.50 for the prior version. Search and Fetch APIs cost $0.75 per 1,000 calls, free until Oct 31.",
+        "now": "Builders should compare cost per solved task, not per token; DeepSeek charts rivals at $2 to over $10. Caveat: every number is DeepSeek's own, with no independent benchmark yet, and Beijing may tighten rules on publishing open weights.",
+        "future": "Watch for independent DeepSWE and Artificial Analysis runs, and whether the free search window pulls Claude Code and Codex users onto DeepSeek endpoints."
+      },
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "title": "DeepSeek Unveils Updated AI Model to Challenge OpenAI and Anthropic",
+          "url": "https://bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner"
+        },
+        {
+          "name": "The Decoder",
+          "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+          "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs"
+        },
+        {
+          "name": "Investing.com",
+          "title": "DeepSeek releases AI model update, opens search APIs to all users",
+          "url": "https://za.investing.com/news/stock-market-news/deepseek-releases-ai-model-update-opens-search-apis-to-all-users-4509908"
+        }
+      ],
+      "tags": [
+        "DeepSeek",
+        "Open weights",
+        "Agents",
+        "Pricing"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "funding",
+      "source": "Dealroom",
+      "time": "Oct 12",
+      "headline": "Hone, Five Months Old, Raises a $60M Seed at $285M From Benchmark and Index to Sell Agents That 'Own Outcomes'",
+      "dek": "Ex-OpenAI and Cognition founders get a Series-A-sized seed, and the first customers are other AI startups.",
+      "analysis": {
+        "happening": "Benchmark and Index Ventures led; Peter Fenton and Shardul Shah join the board. CEO Moritz Stephan was previously chief of staff at Cognition. 'Engines' are long-running agents assigned an outcome such as retention. Early customers are Cognition and Modal.",
+        "now": "Top-tier SF money is pricing outcome-owning agents as the layer after copilots. Caveat: no revenue disclosed, the $285M valuation is company-stated and rests on team pedigree, and Fenton concedes agent-security guardrails are still being built.",
+        "future": "Watch for outcome-based pricing instead of seats, and the circularity of customers who are also investors. Builder gap: vertical Engines for one KPI, such as collections or churn."
+      },
+      "sources": [
+        {
+          "name": "Dealroom",
+          "title": "Hone raises $60M seed to build AI that owns business outcomes",
+          "url": "https://dealroom.co/news/161745-hone-raises-60m-seed-to-build-ai-that-owns-business-outcomes/"
+        },
+        {
+          "name": "Angel Investors Network",
+          "title": "Hone Raises $60M at $285M to Build AI That Owns Outcomes",
+          "url": "https://angelinvestorsnetwork.com/startups/hone-raises-60-million-seed-led-by-benchmark-and-index-at-285-million-valuation"
+        }
+      ],
+      "tags": [
+        "Seed",
+        "Benchmark",
+        "Index Ventures",
+        "Agents"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Yahoo Finance",
+      "time": "Oct 13",
+      "headline": "Nvidia's China Accelerator Share Falls to 34% as Huawei Hits 28%, and Non-GPU Chips Now Outship GPUs",
+      "dek": "China's AI compute is moving to domestic accelerators and custom ASICs faster than export-control headlines suggest.",
+      "analysis": {
+        "happening": "IDC says Nvidia shipped 678,000 accelerators to China in H1 2026, down 44% year on year (34% share). Huawei shipped 572,000 (28%). Non-GPU accelerators grew nearly 80% to 1.016M units, passing GPUs at 991k. Bloomberg reports ByteDance is near a custom-ASIC deal with MediaTek.",
+        "now": "The investable signal is the unit mix: ASICs are now over half of China's accelerator units. Caveat: the ByteDance-MediaTek deal is a report, not a signed contract, and MediaTek expects only about $2B of AI-chip sales this year.",
+        "future": "Watch whether design-service firms such as MediaTek, Alchip and GUC become the ASIC beneficiaries, and whether IDC's forecast of GPUs -9% in 2026 holds."
+      },
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-china-ai-chip-share-023259440.html"
+        },
+        {
+          "name": "Yahoo Finance",
+          "title": "QCOM, AVGO, NVDA Stocks In Focus As ByteDance Reportedly Closes In On A MediaTek Pact For AI Data Center Chips",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/qcom-avgo-nvda-stocks-focus-061606511.html"
+        }
+      ],
+      "tags": [
+        "China",
+        "ASIC",
+        "Nvidia",
+        "Huawei",
+        "MediaTek"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "launches",
+      "source": "Layer3 Labs",
+      "time": "Oct 14",
+      "headline": "YC-Backed Paper Instruments Ships Ultramarine 1 Flash: a $0.15/M-Input Post-Train of an Open Base for Finance and Legal Agents",
+      "dek": "A three-person pre-seed lab post-trained an open model with RL and is competing on price per task.",
+      "analysis": {
+        "happening": "Post-trained from Z.ai's GLM-5.3 Flash over 88 synthetic environment types and 19 practice areas. Priced at $0.15 per M input and $0.50 per M output. Feather, an open Python harness with a roughly 50-token system prompt, ships alongside. Pre-seed led by YC with NextGen Venture Partners; amount undisclosed.",
+        "now": "A tiny team on an open base is a template emerging labs can copy. Caveat: all benchmarks are self-reported, it trails its base on Terminal-Bench 2.1 and DeepSWE 1.1, and the '60x cheaper' claim comes from a private suite.",
+        "future": "Weights are promised around Oct 28. If third parties reproduce the numbers, vertical RL on open bases becomes a repeatable seed playbook. Gap: Japanese-language professional-work environments."
+      },
+      "sources": [
+        {
+          "name": "Layer3 Labs",
+          "title": "Paper Instruments: The AI Lab Behind Ultramarine 1 Flash",
+          "url": "https://www.layer3labs.io/guides/paper-instruments-explained"
+        },
+        {
+          "name": "Nicolas Deville notes",
+          "title": "Ultramarine 1 Flash - a cheap agent model for knowledge work",
+          "url": "https://notes.nicolasdeville.com/ai/ultramarine/"
+        },
+        {
+          "name": "OrcaRouter",
+          "title": "ultramarine 1 flash release",
+          "url": "https://www.orcarouter.ai/blog/ultramarine-1-flash-release"
+        }
+      ],
+      "tags": [
+        "YC",
+        "Pre-seed",
+        "Post-training",
+        "Open Models"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "funding",
+      "source": "Insurance Journal",
+      "time": "Oct 13",
+      "headline": "Agent Risk Becomes a Funded Category: SF's Harbor Takes a $10M Seed to Insure AI Agents While Pluto Security Raises $42M",
+      "dek": "Two rounds in 48 hours cover both the insurance and the runtime-monitoring side of agent failure.",
+      "analysis": {
+        "happening": "Harbor emerged Oct 13 with a $10M seed led by Base10, Abstract and 8VC, with NFX and Innovation Endeavors joining; it measures and insures agent failures. Pluto Security raised $42M ($8.5M seed led by TLV, $34M Series A led by Jump Capital), claiming about $2M ARR and 30+ customers.",
+        "now": "Insurers are adding generative-AI exclusions, leaving a coverage gap Harbor targets. Caveat: Harbor has not disclosed premiums, limits or loss history, and Pluto's ARR and customer figures are vendor-reported.",
+        "future": "Watch for the first priced agent-liability policies. Builder gap: agent audit trails and loss-data tooling that underwriters can use."
+      },
+      "sources": [
+        {
+          "name": "Insurance Journal",
+          "title": "Harbor Emerges From Stealth with $10M Funding to Handle AI-Agent Risk",
+          "url": "https://www.insurancejournal.com/news/national/2026/10/13/888747.htm"
+        },
+        {
+          "name": "Crypto Briefing",
+          "title": "Harbor emerges from stealth with $10M seed round to insure AI agents",
+          "url": "https://cryptobriefing.com/harbor-ai-raises-10m-ai-agent-insurance/"
+        },
+        {
+          "name": "Yahoo Finance",
+          "title": "Pluto Security Raises $42M to Enforce Security on the Agents Employees Are Already Building",
+          "url": "https://finance.yahoo.com/technology/ai/articles/pluto-security-raises-42m-enforce-171019132.html"
+        }
+      ],
+      "tags": [
+        "Seed",
+        "AI agents",
+        "Security",
+        "Insurance"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Digitimes",
+      "time": "Oct 17",
+      "headline": "METI Approves TSMC's Kumamoto Fab 2 Switch to 3nm, With Up to $4.1B in Aid: Japan's Leading-Edge Chip Is Foreign-Owned",
+      "dek": "Japan gets 3nm logic around 2028 by importing it, which competes with its own Rapidus bet.",
+      "analysis": {
+        "happening": "METI approved TSMC's revised plan on Oct 16: fab 2 moves from the 6/12nm plan approved in Feb 2024 to 3nm logic, qualifying for up to $4.1B in subsidy. Taiwan approved on Mar 31; mass production is targeted for 2028, possibly 2H28 or later.",
+        "now": "The US and Taiwan are at 3nm and 2nm today, so Japan lags about three years. Rapidus, on domestic 2nm, still has no confirmed volume customer. Caveat: the Digitimes text is paywalled, so capacity and total investment are unconfirmed.",
+        "future": "Watch who anchors the fab's AI demand and whether Rapidus customer talks suffer. Openings: packaging, design-service and power-delivery suppliers around Kyushu."
+      },
+      "sources": [
+        {
+          "name": "Digitimes",
+          "title": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to $4.1 billion in aid",
+          "url": "https://www.digitimes.com/news/a20261017VL200/fab-tsmc-chips-kumamoto-production.html"
+        },
+        {
+          "name": "DCD",
+          "title": "TSMC to produce 3nm AI chips at second fab in Kumamoto, Japan - DCD",
+          "url": "https://www.datacenterdynamics.com/en/news/tsmc-to-produce-3nm-ai-chips-at-second-fab-in-kumamoto-japan/"
+        },
+        {
+          "name": "TrendForce",
+          "title": "[News] TSMC Reportedly to Upgrade Kumamoto 2nd Plant from 6/7nm to 3nm, Boosting Japan's Chip Capabilities",
+          "url": "https://www.trendforce.com/news/2026/02/05/news-tsmc-reportedly-to-upgrade-kumamoto-2nd-plant-from-67nm-to-3nm-boosting-japans-chip-capabilities/"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "Kumamoto",
+        "3nm",
+        "METI",
+        "Rapidus"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Reuters (via The Star)",
+      "time": "Oct 13",
+      "headline": "NTT Data in Final Talks to Build Anthropic's First Japan Data Center in Osaka: Up to ¥1T and 500MW",
+      "dek": "A frontier US lab wants dedicated Japanese compute, casting Japan as host rather than model builder.",
+      "analysis": {
+        "happening": "Nikkei reports NTT Data is in final talks to build Anthropic's first dedicated Japan data center in Osaka, costing up to ¥1T (about $6.3B) and drawing up to 500MW. Partial opening could come in 2028; signing is targeted by end-FY2026. GPUs would add several trillion yen.",
+        "now": "SoftBank's Sakai site was planned at 150MW. Japan is becoming a landlord for US labs' inference while its own models run far smaller. Caveat: neither company has confirmed, all coverage cites one Nikkei report, and 500MW of grid power is the hard part.",
+        "future": "Watch for on-site generation and fuel-cell deals. Builders can look at power, cooling and Japan-residency inference services around Kansai."
+      },
+      "sources": [
+        {
+          "name": "The Star (Reuters)",
+          "title": "NTT Data in final talks to build Anthropic's first data centre in Japan, Nikkei reports",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/13/ntt-data-in-final-talks-to-build-anthropic039s-first-data-centre-in-japan-nikkei-reports"
+        },
+        {
+          "name": "DCD",
+          "title": "NTT to build $6.3bn data center for Anthropic in Japan - report",
+          "url": "https://datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report"
+        },
+        {
+          "name": "TNW",
+          "title": "NTT Data reportedly nears deal to build Anthropic's first Japan data centre",
+          "url": "https://thenextweb.com/news/ntt-data-anthropic-osaka-data-centre"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "NTT Data",
+        "Osaka",
+        "Data centers",
+        "Power"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "launches",
+      "source": "ITmedia AI+",
+      "time": "Oct 2",
+      "headline": "KDDI's ELYZA Releases Apache-2.0 'Thinking' Models on NII's Open LLM-jp-4: a 33B Dense and a 32B-A3B MoE",
+      "dek": "Japan's open stack is a government-lab base plus company post-training, and it is small next to the US frontier.",
+      "analysis": {
+        "happening": "ELYZA (KDDI group) released two reasoning models on Hugging Face under Apache 2.0, post-trained on NII's LLM-jp-4: a 33B dense model and a 32B-A3B mixture-of-experts. It claims some benchmark wins over NII's LLM-jp-4.1. ITmedia corrected its 'fully domestic' wording after ELYZA clarified.",
+        "now": "US and Chinese labs ship 100B+ to trillion-parameter open models, including Meta's Muse. Japan's open tier tops out near 33B. Scores are ELYZA's own claims; the value is a commercially usable Japanese reasoning model that runs on one node.",
+        "future": "Watch for independent Japanese benchmarks and enterprise adoption. The gap to fill is domain tuning (legal, finance, manufacturing) on these bases."
+      },
+      "sources": [
+        {
+          "name": "ITmedia AI+",
+          "title": "国産AI「LLM-jp-4」ベースのAIモデル、KDDI傘下のELYZAが無料公開",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/"
+        },
+        {
+          "name": "ITmedia AI+",
+          "title": "「オープンな国産モデル」に33Bパラメータの新バージョン　国立情報学研究所",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2608/19/2000000626/"
+        }
+      ],
+      "tags": [
+        "ELYZA",
+        "LLM-jp",
+        "Open weights",
+        "KDDI"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Sogyotecho",
+      "time": "Oct 14",
+      "headline": "Two Small Japanese Vertical-AI Rounds: ACIMUS Takes ~¥65M for BIM-by-Chat, AZOO ¥490M for a Hotel Agent OS",
+      "dek": "Early-stage Japanese AI money goes into regulated, legacy-heavy verticals, not foundation models.",
+      "analysis": {
+        "happening": "ACIMUS raised about ¥65M (about $430K) seed led by Link Capital, with Incubate Fund and JR East Startup, which also signed a capital and business alliance. Its product builds BIM models from chat and exports IFC. AZOO raised ¥490M cumulative for AI agents on its hotel OS, WASIMIL.",
+        "now": "US vertical-AI rounds run $10-60M, as with Harbor and Pluto above, so these are 1/50th to 1/10th the size, though customers like JR East are real. Caveat: the Series A label for AZOO differs across sources.",
+        "future": "Watch for follow-ons and JR East pilot expansion. Builder angle: Japan's BIM, hospitality and back-office workflows are under-served by US tools and not yet localised."
+      },
+      "sources": [
+        {
+          "name": "Sogyotecho",
+          "title": "ACIMUS funding (sogyotecho.jp article)",
+          "url": "https://sogyotecho.jp/?p=268815"
+        },
+        {
+          "name": "Voix",
+          "title": "ACIMUS funding (voix.jp article)",
+          "url": "https://voix.jp/?p=140388"
+        },
+        {
+          "name": "Sogyotecho",
+          "title": "AZOO WASIMIL funding (sogyotecho.jp article)",
+          "url": "https://sogyotecho.jp/?p=268745"
+        },
+        {
+          "name": "Voix",
+          "title": "AZOO funding (voix.jp article)",
+          "url": "https://voix.jp/?p=140490"
+        }
+      ],
+      "tags": [
+        "Startups",
+        "Seed",
+        "BIM",
+        "Hospitality",
+        "Vertical AI"
+      ]
+    }
+  ]
+}
