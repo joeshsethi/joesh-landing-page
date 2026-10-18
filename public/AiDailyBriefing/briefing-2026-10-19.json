@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-18T20:07:03.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "greeting": "Good morning, Joesh.",
+    "dateLabel": "Mon · Oct 19 2026",
+    "editionLine": "EDITION No.525 · SYNCED 05:20 JST",
+    "intro": "Today's throughline: model prices converge while the money chases small, specialised layers, and Japan's capital buys its way into the stack.",
+    "briefingTitle": "OpenAI and Google Hit the Same $2 Price, a16z Writes an $870M Cheque for Small Models, and Omron Buys Its Way Into Edge AI",
+    "summary": "The common thread is where value sits once frontier tokens cost the same everywhere. OpenAI and Google both price near-flagship models at $2 in and $10 out, while a16z funds small structured-output models at a $7.5B valuation and sandboxes turn into a free commodity. Hardware money keeps flowing to inference silicon, with Etched fielding offers up to $50B. In Japan, Harvey and Omron show the pattern of importing or acquiring the frontier layer, while domestic startups such as Frayle and The Phage win on language, channel and insurer distribution.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 24 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 33,
+      "frontier": 95,
+      "note": "Unchanged — Japan's models stay near 33B while US labs compete on $2/$10 near-flagship pricing, and Harvey imports legal AI instead."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 20,
+      "frontier": 99,
+      "note": "Unchanged — Frayle's ¥1.88B and The Phage's ¥570M sit against a16z's $870M TypeSafe Series A and Etched's $40-50B offers."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 30,
+      "frontier": 96,
+      "note": "Unchanged — no new domestic fab news today; Etched and Positron-style inference silicon keeps raising abroad."
+    },
+    {
+      "label": "Edge and physical-AI compute platforms",
+      "jp": 38,
+      "frontier": 90,
+      "note": "New framing — Omron pays $675M for US-based OnLogic because Japan leads in sensors and controllers but not edge compute scale."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "launches",
+      "source": "The Next Web",
+      "time": "Oct 13",
+      "headline": "OpenAI and Google Both Price Near-Flagship Models at $2 In / $10 Out per Million Tokens, One-Fifth of the Top Tier",
+      "dek": "GPT-6.1 Sol and Gemini 4 Argon converge on the same price, so the margin fight moves to routing and agents.",
+      "analysis": {
+        "happening": "GPT-6.1 Sol costs $2/$10 versus GPT-6 Astra's $10/$50; OpenAI says it matches Astra on DeepSWE v1.1. Gemini 4 Argon went broadly available Oct 13 at $2/$10, reportedly rising to $4/$20 after Nov 30.",
+        "now": "Agent builders mostly run the near-flagship tier, so identical pricing makes switching cost the real moat. Caveat: benchmarks are vendor-reported, Argon's price is promotional, and sources disagree on Sol and Argon dates.",
+        "future": "Watch the Nov 30 Argon price step and independent Artificial Analysis scores. Build model routing now so a swap costs nothing."
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "title": "OpenAI releases GPT-6.1 Sol at a fifth of GPT-6 Astra's token prices",
+          "url": "https://thenextweb.com/news/openai-gpt-6-1-sol-price-astra-devday"
+        },
+        {
+          "name": "AICybr",
+          "title": "Gemini 4 Argon Is Broadly Available: Pricing, Shared 1M Context and Long Decode",
+          "url": "https://aicybr.com/blog/google-gemini-4-argon-pricing-benchmarks-availability"
+        },
+        {
+          "name": "eesel AI",
+          "title": "GPT-6.1 Sol: what's new, what it costs, and when to pick it over Astra",
+          "url": "https://www.eesel.ai/blog/gpt-6-1-sol"
+        }
+      ],
+      "tags": [
+        "Pricing",
+        "OpenAI",
+        "Google",
+        "Agents"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "funding",
+      "source": "Wilson Sonsini / Crypto Briefing",
+      "time": "Oct 9",
+      "headline": "TypeSafe AI Takes an $870M Series A at $7.5B Led by a16z, Three Weeks After a $40M DCVC Seed, for 'Machine-Native' Models Like Jev",
+      "dek": "Small models that return structured decisions, not text, just got the biggest early-stage cheque of the month.",
+      "analysis": {
+        "happening": "a16z led with Sequoia and DCVC; Martin Casado joins the board. It followed a $40M DCVC-led seed about three weeks earlier. TechCrunch says Jev reached 35% of Vercel's paid teams in two weeks.",
+        "now": "Thesis: cheap deterministic-output models inside existing pipelines. Caveats: Jev descriptions conflict across outlets, Fortune 500 claims are company-sourced, and Vercel uptake came during a free-access window. Skeptics say investors are paying for category creation.",
+        "future": "Watch paid conversion data and copycats. Builders can test the pattern today with a small structured-output model in one pipeline step."
+      },
+      "sources": [
+        {
+          "name": "Wilson Sonsini",
+          "title": "Firm Advises TypeSafe AI on $870M Series A Led by a16z at $7.5B Valuation",
+          "url": "https://www.wsgr.com/en/insights/firm-advises-typesafe-ai-on-870m-series-a-led-by-a16z-at-7-5b-valuation.html"
+        },
+        {
+          "name": "Crypto Briefing",
+          "title": "a16z leads TypeSafe AI's Series A at a $7.5 billion valuation",
+          "url": "https://cryptobriefing.com/a16z-leads-typesafe-ai-series-a/"
+        },
+        {
+          "name": "TechCrunch",
+          "title": "Jev is Vercel's fastest-adopted AI model ever",
+          "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
+        }
+      ],
+      "tags": [
+        "Series A",
+        "a16z",
+        "Small models",
+        "Valuation"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "launches",
+      "source": "TechCrunch",
+      "time": "Oct 16",
+      "headline": "Elorian, a $55M-Seed Lab from Ex-DeepMind's Andrew Dai, Ships Glimpse: A Vision Model That Re-Looks at the Image While It Reasons",
+      "dek": "A new small lab treats the image as a scratch space, not a one-shot caption.",
+      "analysis": {
+        "happening": "Glimpse launched Oct 16 as a research preview with API access (reported $0.60 in / $3 out per M tokens). It zooms into regions, pulls video frames and runs code to measure. Elorian reportedly raised a $55M seed at a $300M valuation.",
+        "now": "Elorian claims wins over GPT-6 Astra on scientific chart reasoning and short video captioning, but its own table shows losses elsewhere and nothing is independently verified. Targets are robotics, labs and media, niches big labs under-serve.",
+        "future": "Watch independent evals and lab-automation customers. Builder angle: tool-using vision for documents, manufacturing inspection and charts."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Elorian's first AI model wants to reason with images, not just about them",
+          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
+        },
+        {
+          "name": "RuntimeWire",
+          "title": "Elorian launches Glimpse to give AI a second look at visual evidence",
+          "url": "https://runtimewire.com/article/elorian-glimpse-visual-reasoning-model-launch"
+        }
+      ],
+      "tags": [
+        "Emerging lab",
+        "Vision",
+        "Seed round",
+        "Multimodal"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "launches",
+      "source": "RuntimeWire",
+      "time": "Oct 15",
+      "headline": "Agent Sandboxes Go Commodity: Perplexity Open-Sources SPACE (Apache 2.0) While YC's Agent37 Sells Them at About $0.37 a Month",
+      "dek": "Isolation is becoming free; the open niche is policy, budgets and audit trails, where solo projects are already starting.",
+      "analysis": {
+        "happening": "Perplexity open-sourced its Firecracker microVM sandbox; nine models tried 108 escapes and none reached the host. Agent37 (YC F26) claims $0.37/month average per sandbox. Solo project Plimsoll adds credential brokering, per-run budgets and hash-chained run records.",
+        "now": "A solo builder can self-host agent execution instead of paying per second. Caveats: all figures are company or founder claims, Plimsoll has no outside users or audit, and commenters question Agent37's moat versus free options.",
+        "future": "Watch whether price holds against SPACE, and whether credential and egress controls become the paid differentiator."
+      },
+      "sources": [
+        {
+          "name": "RuntimeWire",
+          "title": "Perplexity open-sources SPACE, the sandbox running every Computer session",
+          "url": "https://runtimewire.com/article/perplexity-open-sources-space-agent-sandbox"
+        },
+        {
+          "name": "Techstrong.ai",
+          "title": "Perplexity unveils SPACE, a secure sandbox platform for AI agents",
+          "url": "https://techstrong.ai/articles/perplexity-unveils-space-a-secure-sandbox-platform-for-ai-agents/"
+        },
+        {
+          "name": "Hacker News",
+          "title": "Launch HN: Agent37 (YC F26)",
+          "url": "https://news.ycombinator.com/item?id=50059096"
+        },
+        {
+          "name": "Hacker News",
+          "title": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
+          "url": "https://news.ycombinator.com/item?id=50049388"
+        }
+      ],
+      "tags": [
+        "Open source",
+        "Agent sandbox",
+        "YC",
+        "Solo builder"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "hardware",
+      "source": "TechCrunch",
+      "time": "Oct 5",
+      "headline": "Etched Fields $40-50B Valuation Offers Weeks After a $21B Round, with Jane Street as Investor and First Customer",
+      "dek": "The inference-chip startup's valuation roughly doubled on about $1B in booked orders.",
+      "analysis": {
+        "happening": "TechCrunch reports offers from $40B by top-tier investors to $50B by lesser-known backers. Etched raised $700M at $21B led by Jane Street, after $300M at $10.3B in July. It cites over $1B in customer orders.",
+        "now": "The investor who is also the first rack customer, a trading firm, is the template to copy. Caveats: no deal is signed, investors are unnamed, and coverage disagrees on whether the $700M round closed in August or September.",
+        "future": "Watch whether the round closes and who leads. Builder angle: compilers and serving software around single-purpose silicon."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Etched fields funding offers at $40B valuation, sources say",
+          "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "Etched Draws $40B-$50B Bids Weeks After $21B September Round",
+          "url": "https://aiweekly.co/alerts/etched-draws-40b-50b-bids-weeks-after-21b-september-round"
+        },
+        {
+          "name": "Alternatives Watch",
+          "title": "Jane Street leads $700m round for AI chipmaker Etched at $21bn valuation",
+          "url": "https://www.alternativeswatch.com/2026/08/19/jane-street-700m-etched-ai-chipmaker-funding-round/"
+        }
+      ],
+      "tags": [
+        "Etched",
+        "Inference chips",
+        "Funding",
+        "Jane Street"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Harvey",
+      "time": "Oct 12",
+      "headline": "Harvey Opens a Tokyo Office in Early 2027 After Loading Japanese Statutes and Case Law via Legalscape",
+      "dek": "Japan's elite law firms are importing the frontier legal-AI product rather than building it.",
+      "analysis": {
+        "happening": "Harvey announced a Tokyo office for early 2027, citing Mori Hamada & Matsumoto, Nagashima Ohno & Tsunematsu and Mitsubishi Corporation as customers. On Oct 2 it announced a Legalscape data partnership for Japanese statutes, case law and guidelines.",
+        "now": "Japan vs US: Harvey owns the product and buys local data instead of building it. Opportunity: Japanese-language data and workflow layers, and mid-tier firm and in-house tooling. Caveat: office size, hiring and opening date are undisclosed.",
+        "future": "Watch whether Legalscape and LegalOn partner or compete, and whether Harvey signs mid-tier firms."
+      },
+      "sources": [
+        {
+          "name": "Harvey",
+          "title": "Harvey to open Tokyo office",
+          "url": "https://www.harvey.ai/blog/harvey-to-open-tokyo-office"
+        },
+        {
+          "name": "Harvey",
+          "title": "Harvey partners with Legalscape to bring Japanese legal intelligence to cross-border teams",
+          "url": "https://www.harvey.ai/blog/harvey-partners-with-legalscape-to-bring-japanese-legal-intelligence-to-cross-border-teams"
+        }
+      ],
+      "tags": [
+        "Legal AI",
+        "Harvey",
+        "Localization"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "funding",
+      "source": "PR TIMES",
+      "time": "Oct 7",
+      "headline": "Frayle Raises ¥1.88B Series A for Flyle Contact-Center Agents, Backed by Three Megabank VCs, Japan Post and Salesforce Ventures",
+      "dek": "Japan's contact-center agent race gets a funded entrant whose investors are also its buyers.",
+      "analysis": {
+        "happening": "Announced Oct 7: ¥1.88B (about $12M) Series A, cumulative about ¥2.27B. Investors include ALL STAR SAAS FUND, Aflac Ventures Japan, Japan Post Capital, Salesforce Ventures, MUFG Capital, Mizuho Capital and SMBC Venture Capital. Flyle completes tasks like orders and contract changes.",
+        "now": "Japan vs US: Sierra and Decagon have raised far more; Japan's edge is Japanese service norms and bank and postal investors with distribution. Caveat: the round is roughly a tenth of US comparables and results are company-reported.",
+        "future": "Watch for named megabank deployments and whether voice quality holds on keigo-heavy calls."
+      },
+      "sources": [
+        {
+          "name": "PR TIMES",
+          "title": "コンタクトセンター・CX業務を担うAIエージェント『Flyle(フライル)』、シリーズA18.8億円を資金調達",
+          "url": "https://prtimes.jp/main/html/rd/p/000000050.000076399.html"
+        },
+        {
+          "name": "AI startup funding roundup",
+          "title": "週間AIスタートアップ資金調達まとめ（2026年10月6日〜10月12日）",
+          "url": "https://xs232654.xsrv.jp/ai-2026-10-12-20261012/"
+        }
+      ],
+      "tags": [
+        "AI agents",
+        "Contact center",
+        "Series A"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "The Star / Reuters",
+      "time": "Oct 13",
+      "headline": "Omron Buys US Industrial-PC Maker OnLogic for $675M to Build a Physical-AI Compute Stack",
+      "dek": "A Japanese control-equipment giant pays about 4x sales to own the edge-compute layer rather than build it.",
+      "analysis": {
+        "happening": "Omron acquires OnLogic's parent Interlogic for $675M (about ¥104.6B) in cash. FY2025 net sales were $154.2M, EBITDA $22.6M. OnLogic keeps its brand and CEO. Closing is targeted around January 2027, subject to approvals.",
+        "now": "Japan vs US: Japan leads in sensors, controllers and factory data but lacks edge-compute scale, so it buys (about 4.4x sales, 30x EBITDA). Government-backed Noetra targets domestic physical-AI models. Caveat: integrating a US direct-to-customer brand is unproven.",
+        "future": "Watch for more Japan-to-US edge-AI acquisitions and joint Omron-OnLogic products."
+      },
+      "sources": [
+        {
+          "name": "The Star",
+          "title": "Japan's Omron to buy US industrial PC firm Onlogic for $675 million in physical AI push",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/13/japan039s-omron-to-buy-us-industrial-pc-firm-onlogic-for-675-million-in-physical-ai-push"
+        },
+        {
+          "name": "DealStreetAsia",
+          "title": "Japan's Omron to buy US industrial PC firm Onlogic for $675m",
+          "url": "https://www.dealstreetasia.com/?p=497906"
+        },
+        {
+          "name": "Manufacturing Digital",
+          "title": "Inside OMRON's US$675m Bet on Industrial PC Maker OnLogic",
+          "url": "https://manufacturingdigital.com/news/inside-omrons-us-675m-bet-on-industrial-pc-maker-onlogic"
+        }
+      ],
+      "tags": [
+        "Physical AI",
+        "M&A",
+        "Edge compute"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "funding",
+      "source": "The Bridge",
+      "time": "Oct 9",
+      "headline": "The Phage Raises ¥570M Series A for a Glucose Foundation Model, Led by Itochu Technology Ventures with Tokio Marine as Partner",
+      "dek": "A pretrained model on continuous glucose monitor data, where the insurer is both investor and channel.",
+      "analysis": {
+        "happening": "¥570M (about $3.7M) first-close Series A, mixing equity and a Shoko Chukin Bank loan. Itochu Technology Ventures led; Tokio Marine & Nichido and Fukui Capital Partners joined, with a capital alliance with Tokio Marine Holdings.",
+        "now": "Japan vs US: Dexcom, Levels and Function lead on devices and consumers; Japan's angle is insurer and municipal channels for preventive care. Caveat: a small round, partly debt-style, with dataset size and model performance undisclosed.",
+        "future": "Watch for benchmarks, Tokio Marine pilots, and whether other insurers fund vertical health models."
+      },
+      "sources": [
+        {
+          "name": "The Bridge",
+          "title": "食後の血糖変動をAIで予測するザ・ファージ、5.7億円を調達——東京海上と資本業務提携",
+          "url": "https://thebridge.jp/2026/10/the-phage-raises-570-million-yen-in-series-a-first-round-for-glucose-foundation-model"
+        },
+        {
+          "name": "PR TIMES",
+          "title": "株式会社ザ・ファージ、シリーズA 1st ラウンドで総額5.7億円の資金調達を実施",
+          "url": "https://prtimes.jp/main/html/rd/p/000000025.000110505.html"
+        }
+      ],
+      "tags": [
+        "Foundation models",
+        "Healthtech",
+        "Series A"
+      ]
+    }
+  ]
+}

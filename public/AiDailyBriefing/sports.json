@@ -1,75 +1,45 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T20:10:00.000Z",
-  "dateLabel": "Sat · Oct 17 2026",
+  "generatedAt": "2026-10-18T20:07:03.000Z",
+  "dateLabel": "Mon · Oct 19 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "Shanghai Masters semifinals",
-      "line": "Top seed Zverev meets Davidovich Fokina, then Medvedev (only former champion left) faces 20-year-old Rafael Jodar, the youngest semifinalist in event history. Zverev can chase world No. 1 if he wins the title.",
-      "whenJst": "Sat Oct 17 · 17:30 and 20:00 JST (not before)",
+      "event": "Champions League: PSG vs Barcelona",
+      "line": "League-phase marquee tie between holders PSG and Barcelona on Tuesday night in Europe. Same night: Liverpool v Villarreal and Man City v AEK. Kick-off assumed at the 21:00 CET default; confirm on UEFA.com.",
+      "whenJst": "Wed Oct 21 · 04:00 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "What is the Shanghai tennis schedule?",
-          "url": "https://www.atptour.com/en/news/shanghai-2026-schedule"
+          "name": "Sky Sports",
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         },
         {
-          "name": "ESPN",
-          "title": "Rafael Jodar makes Shanghai Masters history, sets up semifinal vs. Medvedev",
-          "url": "https://www.espn.com/tennis/story/_/id/50196096/jodar-makes-shanghai-masters-history-sets-semifinal-vs-medvedev"
+          "name": "UEFA",
+          "title": "2026-27 UEFA Champions League: all the league phase fixtures",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "golf",
-      "status": "upcoming",
-      "event": "DP World India Championship, round 2 restart",
-      "line": "Luiten, Hidalgo and Meronk lead on 8 under in the clubhouse; McIlroy is 4 under, four back, through only four holes. Sky lists a 6:45am restart; time zone not stated, so JST is approximate.",
-      "whenJst": "Sat Oct 17 · ~14:45 JST (assumes UK time; confirm)",
-      "sources": [
-        {
-          "name": "Sky Sports",
-          "title": "DP World India Championship: Rory McIlroy four off clubhouse lead but through only four holes of second round",
-          "url": "https://www.skysports.com/golf/news/13599990/dp-world-india-championship-rory-mcilroy-four-off-clubhouse-lead-but-through-only-four-holes-of-second-round"
-        }
-      ]
-    },
-    {
-      "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Premier League returns: Everton v Chelsea, Brentford v Liverpool",
-      "line": "The league is back from a three-week break with Chelsea at Everton (no Reece James) and Liverpool at Brentford, several attackers doubtful.",
-      "whenJst": "Sat Oct 17 · 20:30 JST and 23:00 JST",
+      "event": "Champions League: Bayern vs Arsenal",
+      "line": "Wednesday-night league-phase heavyweight clash in Munich. Man United visit Como the same evening. Kick-off times vary by source, so verify on UEFA.com.",
+      "whenJst": "Thu Oct 22 · 04:00 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Premier League predictions & Jones Knows' best bets: Brentford vs Liverpool, Leeds vs Manchester United and more",
-          "url": "https://www.skysports.com/football/news/13598732/premier-league-predictions-and-jones-knows-best-bets-brentford-vs-liverpool-leeds-vs-manchester-united-and-more"
+          "name": "UEFA",
+          "title": "2026-27 UEFA Champions League: all the league phase fixtures",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
         },
         {
-          "name": "Premier League",
-          "title": "Predicted line-ups for Premier League teams in Matchweek 7",
-          "url": "https://www.premierleague.com/en/news/4737644/predicted-line-ups-for-matchweek-7"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Premier League: Leeds v Man Utd, Nottingham Forest v Arsenal",
-      "line": "Sunday brings Leeds against Manchester United, then Arsenal at Nottingham Forest just after midnight Monday JST.",
-      "whenJst": "Sun Oct 18 · 22:00 JST and Mon Oct 19 · 00:30 JST",
-      "sources": [
-        {
           "name": "Sky Sports",
-          "title": "Premier League predictions & Jones Knows' best bets: Brentford vs Liverpool, Leeds vs Manchester United and more",
-          "url": "https://www.skysports.com/football/news/13598732/premier-league-predictions-and-jones-knows-best-bets-brentford-vs-liverpool-leeds-vs-manchester-united-and-more"
+          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
+          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         }
       ]
     }
