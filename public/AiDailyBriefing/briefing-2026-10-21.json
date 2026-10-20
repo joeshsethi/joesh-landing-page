@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-20T20:12:00.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "greeting": "Good morning, Joesh.",
+    "dateLabel": "Wed · Oct 21 2026",
+    "editionLine": "EDITION No.527 · SYNCED 05:12 JST",
+    "intro": "Today's throughline: investors keep funding the agent and robot layers, while the physical limits of power and grid access start to bite.",
+    "briefingTitle": "Eka Hits $1.45B on Touch-Sensing Robots, Daytona Becomes a $1B Home for Agents, and Power Becomes AI's Real Bottleneck",
+    "summary": "The common thread is capital chasing the agent and robot layers while physical limits catch up. Eka and Daytona reached unicorn status on touch-sensing robotics and agent sandboxes, with a16z, F-Prime and FirstMark writing the checks. Meanwhile 47+ US data-center projects are delayed and Microsoft walked from a UK site over grid power. In Japan, Tokyo is financing $21B of US fabs and drafting cloud security certification, while small AI vendors like estie and Umee seek exits and distribution at far smaller scale.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 22 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 33,
+      "frontier": 95,
+      "note": "Unchanged — no new Japanese pretraining news today; the frontier keeps shipping cheap Flash-class and 1T-parameter open models."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 19,
+      "frontier": 99,
+      "note": "Unchanged — Eka ($150M) and Daytona ($60M) rounds dwarf Japan's tiny disclosed rounds; estie's ~¥16.6B IPO shows the scale of a Japanese exit."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 30,
+      "frontier": 96,
+      "note": "Unchanged — Japan is financing up to $21B of GlobalFoundries fabs in New York, with the US holding the upside, while Rapidus still has no named customer."
+    },
+    {
+      "label": "Early-stage AI venture formation",
+      "jp": 28,
+      "frontier": 92,
+      "note": "Unchanged — Umee's small round and SB C&S tie-up contrast with US seed-to-unicorn jumps like Eka's."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Oct 20",
+      "headline": "Eka Raises $150M Series A at $1.45B for a Force-Sensing Robot-Hands Model, Co-Led by a16z and F-Prime",
+      "dek": "A touch-first robotics lab from an MIT professor and an ex-DeepMind researcher bets force, not language, is the missing modality.",
+      "analysis": {
+        "happening": "Eka closed a $150M Series A at $1.45B post-money, co-led by a16z and F-Prime. Founders Pulkit Agrawal (MIT) and Tuomas Haarnoja train a vision-force-action model in simulation. It claims ~1,500 picks/hour versus ~600 human, over 95% reliability, and a gripper under $1,000.",
+        "now": "The signal is a thesis shift from vision-language-action to force-first models. Caveat: all performance numbers are company-reported, pilots are undisclosed, and academics question generalization beyond pick-and-place on a real line.",
+        "future": "Watch named industrial customers and the duty-cycle gripper target. Opportunity: cheap tactile hardware and simulation-environment tooling, plus copycat force-sensing bets from other physical-AI funds."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Eka is worth $1.45 billion thanks to a physical AI model that has experts raving",
+          "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+        },
+        {
+          "name": "Unite.AI",
+          "title": "Eka Robotics Secures Series A Funding Led by Andreessen Horowitz",
+          "url": "https://unite.ai/eka-robotics-secures-series-a-funding-led-by-andreessen-horowitz"
+        }
+      ],
+      "tags": [
+        "Robotics",
+        "Series A",
+        "a16z",
+        "Physical AI"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "funding",
+      "source": "Fortune",
+      "time": "Oct 20",
+      "headline": "Daytona, the 'Computer for AI Agents' Cloud, Hits a $1B Valuation on a $60M Series B Led by FirstMark",
+      "dek": "Agent sandbox infrastructure is growing fast enough that its CEO is betting on a CPU shortage.",
+      "analysis": {
+        "happening": "Daytona raised a $60M Series B at $1B led by FirstMark, with about $50M from existing investors and ~$91M raised in total. Angels include Patrick Collison and Tobi Lutke. Run-rate revenue reportedly grew 25x January to September; sandboxes provision in 60 ms.",
+        "now": "Agents need their own computers, and the thesis is that agent workloads push CPU demand past GPU spend. Caveats: growth and customer list are company-reported, and the CEO concedes AWS, Azure or Google could build rivals.",
+        "future": "Watch hyperscaler sandbox launches and revenue concentration in a few labs. Opportunity: snapshotting, cloning and observability layers for agent sandboxes, including AWS-native alternatives a solo builder could ship."
+      },
+      "sources": [
+        {
+          "name": "Fortune",
+          "title": "Daytona, the startup building the agentic cloud, valued at $1 billion in latest funding round",
+          "url": "https://fortune.com/2026/10/20/daytona-startup-building-the-agentic-cloud-valued-at-1-billion-in-latest-funding-round/"
+        },
+        {
+          "name": "Dealroom",
+          "title": "Daytona lands $48.3M Series B for AI agent sandbox platform",
+          "url": "https://dealroom.co/news/145417-daytona-lands-48-3m-series-b-for-ai-agent-sandbox-platform/"
+        }
+      ],
+      "tags": [
+        "Agent infrastructure",
+        "Series B",
+        "FirstMark",
+        "Sandboxes"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Seoul Economic Daily (citing NYT/FT)",
+      "time": "Oct 19-20",
+      "headline": "AI's Data-Center Build Hits a Wall: 47+ US Projects Delayed or Pulled, and Microsoft Walks Away From Nscale's 23,000-Chip UK Site Over Grid Power",
+      "dek": "Chip demand is real, but deliverable capacity is now gated by grid queues and permitting.",
+      "analysis": {
+        "happening": "RegLayer counts at least 47 large US data-center projects delayed or withdrawn in 2026; AllianceBernstein sees only 35% of planned US capacity getting built. Microsoft dropped funding for a 23,000-Nvidia-chip supercomputer at Nscale's ~$2.7B Loughton site after grid power slipped to the 2030s.",
+        "now": "Power, not GPUs, is the binding constraint, so slips push revenue right rather than cancel it, and operators that own power gain leverage. Caveat: figures are second-hand via NYT/FT coverage, 'delayed' is loosely defined, and Microsoft says it remains committed to Nscale.",
+        "future": "Watch hyperscaler Q3 capex guidance and 'capacity placed in service' language. Opportunity: power-ready sites, behind-the-meter generation, and grid-queue and permitting analytics."
+      },
+      "sources": [
+        {
+          "name": "Seoul Economic Daily",
+          "title": "Four Bottlenecks Shake AI Data Center Boom, NYT Says",
+          "url": "https://en.sedaily.com/international/2026/10/19/four-bottlenecks-shake-ai-data-center-boom-nyt-says"
+        },
+        {
+          "name": "yourNEWS (Daily Caller News Foundation)",
+          "title": "Massive AI Data Center Left In The Dark Until 2030s As Tech Giant Walks Away",
+          "url": "https://yournews.com/2026/10/20/7231293/massive-ai-data-center-left-in-the-dark-until-2030s/"
+        },
+        {
+          "name": "Quest Review Center",
+          "title": "US data centre setbacks raise longer-term doubts for AI chip demand",
+          "url": "https://questreviewcenter.com/tech-news/us-data-centre-setbacks-raise-longer-term-doubts-for-ai-chip-demand/"
+        }
+      ],
+      "tags": [
+        "Data centers",
+        "Power",
+        "Capex",
+        "Nscale"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "research",
+      "source": "Reuters",
+      "time": "Oct 19",
+      "headline": "Reuters: One Hacker Used AI Agents, for a Few Thousand Dollars, to Breach 100+ Company Sites, as Microsoft Ships Agent Kill-Switches",
+      "dek": "A concrete data point on offensive agent economics landing the same week Microsoft launched agent-control tooling.",
+      "analysis": {
+        "happening": "Reuters reported a Chinese-speaking hacker used AI agents with little human direction to breach websites of more than 100 companies for a few thousand dollars. Separately, Microsoft unveiled tools in Microsoft 365 E7 and Project Perception that rate agent risk, require approval, or shut agents down.",
+        "now": "The number nobody quotes is the cost per target: well under $100. Caveat: I read this through a digest summary, not the full Reuters text, so attacker tooling and victim severity need checking there.",
+        "future": "Expect demand for agent identity, permissions, audit and runtime guards. Gap for startups: agent observability for mid-market firms and Japanese-language compliance tooling. Watch for insurers pricing agent-driven attacks."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "title": "How one hacker used AI agents for a few thousand dollars to break into scores of sites",
+          "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+        },
+        {
+          "name": "GeekWire",
+          "title": "Microsoft unveils tools to monitor and corral rogue AI agents",
+          "url": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/"
+        }
+      ],
+      "tags": [
+        "Security",
+        "Agents",
+        "Microsoft",
+        "Safety"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "It's FOSS",
+      "time": "Oct 20-21",
+      "headline": "'Agent Experience' Becomes a Category: Microsoft Open-Sources Scope While Indie Gauge CLI Launches the Same Week on Show HN",
+      "dek": "Both run coding agents against your CLI, docs or MCP server and score where they get stuck.",
+      "analysis": {
+        "happening": "Microsoft released Scope (MIT) on Oct 20: it drives Copilot CLI and Claude Code through a task, scores runs against success criteria with an LLM judge, and lets you swap agent, model or MCP servers. Gauge CLI, an indie Show HN, runs agents in local Docker and auto-iterates on friction.",
+        "now": "CLIs and MCP servers are increasingly used by agents, not humans, so agent-friendliness is a product surface. Caveats: Scope publishes no benchmarks and its default worker needs a Copilot entitlement; Gauge had 5 points and no comments at capture.",
+        "future": "Watch whether agent-experience checks become a CI step like linting. A solo builder could run Scope on their own MCP server before launch, or sell vertical SDK audits and Japanese-docs variants."
+      },
+      "sources": [
+        {
+          "name": "It's FOSS",
+          "title": "Microsoft's AI Coding Agent Testing Tool is Open Source",
+          "url": "https://itsfoss.com/news/microsoft-scope-self-hosted-agent-testing"
+        },
+        {
+          "name": "GitHub",
+          "title": "microsoft/scope",
+          "url": "https://github.com/microsoft/scope"
+        },
+        {
+          "name": "Hacker News",
+          "title": "Show HN: Gauge CLI – Open-Source Hillclimbing for Agent Experience",
+          "url": "https://news.ycombinator.com/item?id=50170201"
+        },
+        {
+          "name": "Microsoft Developer Blog",
+          "title": "What is Agent Experience (AX)?",
+          "url": "https://developer.microsoft.com/blog/what-is-agent-experience-ax/"
+        }
+      ],
+      "tags": [
+        "Agent experience",
+        "Open source",
+        "MCP",
+        "Dev tools"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Reuters (via Korea Times)",
+      "time": "Oct 14",
+      "headline": "Japan Will Fund Up to $21B for Two GlobalFoundries-Run Fabs in New York, With the US Taking a Stake",
+      "dek": "Tokyo's capital is building chip capacity on US soil with named customers, while Rapidus still has none.",
+      "analysis": {
+        "happening": "Japan will supply up to $21B (about $10B per fab) for two GlobalFoundries fabs in Malta, NY. The US takes a stake and 90% of free cash flow after an even cash split. Renesas and Apple are initial customers; construction starts late 2026, first fab around 2029.",
+        "now": "Japan is the financier and the US owns the upside, part of the $550B US-Japan deal. Domestic Rapidus has no announced customer, while this has named ones. Caveat: customer allocation is undecided, dates run to 2029, and it is not AI-specific.",
+        "future": "Watch which Japanese equipment and materials makers (Tokyo Electron and others) win orders, and whether METI money drifts from Rapidus. Opportunity: tooling, materials and design-services suppliers riding a US-sited, Japan-funded supply chain."
+      },
+      "sources": [
+        {
+          "name": "Korea Times",
+          "title": "Japan to invest up to $21 billion in two US chip factories to be run by GlobalFoundries",
+          "url": "https://www.koreatimes.co.kr/world/20261014/japan-to-invest-up-to-21-billion-in-two-us-chip-factories-to-be-run-by-globalfoundries"
+        },
+        {
+          "name": "DealStreetAsia",
+          "title": "Japan to invest up to $21b in two US chip factories operated by GlobalFoundries",
+          "url": "https://www.dealstreetasia.com/stories/japan-chip-factories-globalfoundries-498177/"
+        },
+        {
+          "name": "Manufacturing Digital",
+          "title": "GlobalFoundries Chosen for US$21bn US-Japan Fab Deal",
+          "url": "https://manufacturingdigital.com/news/globalfoundries-chosen-for-us-21bn-us-japan-fab-deal"
+        }
+      ],
+      "tags": [
+        "Semiconductors",
+        "GlobalFoundries",
+        "Renesas",
+        "US-Japan"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Nikkei Asia",
+      "time": "Oct 20",
+      "headline": "Japan Plans a Security Certification for Data Centers and Cloud Services to Screen Out China and Russia Risk",
+      "dek": "A sovereign-cloud trust label could decide which AI infrastructure finance and other key sectors may use.",
+      "analysis": {
+        "happening": "Nikkei reports Tokyo will certify data centers and cloud services on risk management and equipment sourcing, urging finance and other key sectors to adopt certified infrastructure. A Dec 2025 Cabinet Office panel paper already proposed measures for providers handling large data volumes.",
+        "now": "This is Japan's analogue of US FedRAMP-style gating, landing as NTT Data, SoftBank and Anthropic scale domestic compute. Caveat: no timeline, criteria or provider list is public, and only the lead of the Nikkei piece was readable.",
+        "future": "Watch the criteria draft and whether foreign hyperscalers are certified. Opportunity: compliance tooling, audit and supply-chain provenance products for Japanese cloud and AI operators."
+      },
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "title": "Japan plans certifications for data centers, cloud services to curb China risk",
+          "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-plans-certifications-for-data-centers-cloud-services-to-curb-china-risk"
+        },
+        {
+          "name": "Cabinet Office",
+          "title": "Economic security legislation expert panel materials (data security measures)",
+          "url": "https://www.cas.go.jp/jp/seisaku/keizai%5Fanzen%5Fhosyohousei/r7_dai13/shiryo9.pdf"
+        }
+      ],
+      "tags": [
+        "Sovereign cloud",
+        "Economic security",
+        "Policy",
+        "Data centers"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "funding",
+      "source": "The Bridge",
+      "time": "Upcoming (prices Oct 28, lists Nov 6)",
+      "headline": "estie, a Real-Estate Data and AI Vendor, Sets Up a ~¥16.6B TSE Growth IPO With Mitsui Fudosan and Mitsubishi Estate as Anchors",
+      "dek": "A loss-making vertical-data company is Japan's near-term test of whether AI-for-incumbents earns public-market multiples.",
+      "analysis": {
+        "happening": "TSE approved estie (658A) on Oct 1. Bookbuilding runs Oct 21-27, pricing Oct 28, listing Nov 6, at an implied market cap of about ¥16.58B. H1 FY2026 revenue was ~¥1.75B (+96.8%) with a ~¥280M net loss. Anchors: UntroD fund, Mitsui Fudosan and Mitsubishi Estate.",
+        "now": "Japan's AI exit is a small-cap TSE Growth listing, against US AI vendors raising at billion-dollar valuations. Caveat: still loss-making, and the final price range was unconfirmed. The landlord AI tie-ups are the distinctive angle.",
+        "future": "Watch pricing on Oct 28, day-one trading Nov 6, and whether the landlord AI agreements convert to revenue. Opportunity: vertical data plus AI for Japan's incumbent landlords and J-REIT market."
+      },
+      "sources": [
+        {
+          "name": "The Bridge",
+          "title": "商業用不動産データのestie、東証グロース上場へ——想定時価総額は約165.8億円",
+          "url": "https://thebridge.jp/2026/10/estie-tse-growth-ipo-approved"
+        },
+        {
+          "name": "Traders Web",
+          "title": "658A estie IPO information",
+          "url": "https://www.traders.co.jp/ipo/658A"
+        }
+      ],
+      "tags": [
+        "IPO",
+        "TSE Growth",
+        "PropTech",
+        "Vertical AI"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "funding",
+      "source": "The Bridge",
+      "time": "Oct 19",
+      "headline": "Umee Technologies Takes a Capital Tie-Up From SoftBank's SB C&S for In-Store Conversation-Analysis AI",
+      "dek": "A small Japanese startup selling to housebuilders gets distribution muscle from SoftBank's IT distributor; amount undisclosed.",
+      "analysis": {
+        "happening": "Umee's Front Agent analyzes in-person customer conversations and logs meetings to CRMs such as kintone and Salesforce. SB C&S, a SoftBank group distributor, entered a capital and business alliance announced Oct 15. Customers include Toyota Home Aichi and Mitsubishi Estate Residence; its Series A was about ¥300M.",
+        "now": "Face-to-face selling is a Japan-specific niche that US sales-AI tools, built around calls and Zoom, underserve. Caveat: terms and traction are undisclosed and the prior round was small. Distribution via SB C&S is the real asset.",
+        "future": "Watch whether SB C&S resells Front Agent through its channel and whether Umee raises a larger round. Opportunity: offline-conversation AI for Japan's showroom, bridal and housing sales."
+      },
+      "sources": [
+        {
+          "name": "The Bridge",
+          "title": "Umee Technologies forms capital and business alliance with SB C&S",
+          "url": "https://thebridge.jp/2026/10/umee-technologies-forms-capital-and-business-alliance-with-sb-cs"
+        },
+        {
+          "name": "IT Business Today",
+          "title": "umee technologies raises 300 million yen in series a for front agent conversational ai",
+          "url": "https://itbusinesstoday.com/ja/tech/ai/umee-technologies-raises-300-million-yen-in-series-a-for-front-agent-conversational-ai/"
+        }
+      ],
+      "tags": [
+        "Series A",
+        "SoftBank",
+        "Sales AI",
+        "Offline AI"
+      ]
+    }
+  ]
+}
