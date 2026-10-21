@@ -1,50 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T20:08:33.000Z",
-  "dateLabel": "Tue · Oct 20 2026",
+  "generatedAt": "2026-10-21T20:10:00Z",
+  "dateLabel": "Thu · Oct 22 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League MD3: Paris Saint-Germain vs Barcelona",
-      "line": "Heavyweight league-phase clash in Paris on Matchday 3. UEFA lists a 21:00 local-time kick-off on Tue 20 Oct (CEST, so 04:00 JST).",
-      "whenJst": "Wed Oct 21 · 04:00 JST",
+      "event": "El Clásico: Barcelona vs Real Madrid (LaLiga, Matchday 10)",
+      "line": "Both sides won their first three league games. Mourinho's first Clásico back at Real Madrid, at Spotify Camp Nou. Barcelona have won six of the last seven meetings, and one preview says Vinícius Júnior will miss the match.",
+      "whenJst": "Mon Oct 26 · 04:00 JST",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "Champions League league phase fixtures and results by team",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
-        }
-      ]
-    },
-    {
-      "id": "s2",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Champions League MD3: Bayern Munich vs Arsenal",
-      "line": "Two of the league phase's top sides meet in Munich on Wed 21 Oct. UEFA lists a 21:00 local-time kick-off (CEST, so 04:00 JST).",
-      "whenJst": "Thu Oct 22 · 04:00 JST",
-      "sources": [
-        {
-          "name": "UEFA",
-          "title": "Champions League league phase fixtures and results by team",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
-        }
-      ]
-    },
-    {
-      "id": "s3",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Champions League MD3: Real Madrid vs Leipzig; Liverpool vs Villarreal",
-      "line": "Also on the Matchday 3 card: Liverpool vs Villarreal on Tue 20 Oct (04:00 JST Wed) and Real Madrid vs Leipzig on Wed 21 Oct (04:00 JST Thu). Both are listed at 21:00 local time.",
-      "whenJst": "Wed Oct 21 · 04:00 JST",
-      "sources": [
-        {
-          "name": "UEFA",
-          "title": "Champions League league phase fixtures and results by team",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
+          "name": "ESPN",
+          "title": "José Mourinho's first Clásico on Real Madrid return set for Oct. 25",
+          "url": "https://www.espn.com/story/_/id/49792291"
         }
       ]
     }

@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T20:12:00.000Z",
+  "generatedAt": "2026-10-21T20:10:00Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
     "greeting": "Good morning, Joesh.",
-    "dateLabel": "Wed · Oct 21 2026",
-    "editionLine": "EDITION No.527 · SYNCED 05:12 JST",
-    "intro": "Today's throughline: investors keep funding the agent and robot layers, while the physical limits of power and grid access start to bite.",
-    "briefingTitle": "Eka Hits $1.45B on Touch-Sensing Robots, Daytona Becomes a $1B Home for Agents, and Power Becomes AI's Real Bottleneck",
-    "summary": "The common thread is capital chasing the agent and robot layers while physical limits catch up. Eka and Daytona reached unicorn status on touch-sensing robotics and agent sandboxes, with a16z, F-Prime and FirstMark writing the checks. Meanwhile 47+ US data-center projects are delayed and Microsoft walked from a UK site over grid power. In Japan, Tokyo is financing $21B of US fabs and drafting cloud security certification, while small AI vendors like estie and Umee seek exits and distribution at far smaller scale.",
+    "dateLabel": "Thu · Oct 22 2026",
+    "editionLine": "EDITION No.528 · SYNCED 05:10 JST",
+    "intro": "Today's throughline: capital keeps paying up for unproven AI labs while the plumbing underneath, from chips to packages, is where things break or get contested.",
+    "briefingTitle": "Flapping Airplanes Hits $6B With No Product, Claude Duet Goes Always-On, and a Poisoned LiteLLM Release Exposes the Agent Supply Chain",
+    "summary": "The common thread is trust placed ahead of proof. Investors gave Flapping Airplanes a $6B valuation on a thesis alone, Anthropic put an agent with payment access on its own cloud computer, and a malicious LiteLLM release showed how fragile the tooling under those agents is. Google and Amazon are also attacking Nvidia's software lock-in from below. In Japan, TSMC's Kumamoto II gets approved at just 6,000 wafers a month and Rapidus gets more state equity, while the $7B versus $757B private-investment gap shows that money, not factories, is the shortfall.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 22 sources"
+    "footerRight": "9 stories · 25 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
       "jp": 33,
       "frontier": 95,
-      "note": "Unchanged — no new Japanese pretraining news today; the frontier keeps shipping cheap Flash-class and 1T-parameter open models."
+      "note": "Unchanged — PFN's 8B/31B translation specialist shows niche strength, but Japan still builds on borrowed bases while the frontier ships always-on agents."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
-      "jp": 19,
+      "jp": 18,
       "frontier": 99,
-      "note": "Unchanged — Eka ($150M) and Daytona ($60M) rounds dwarf Japan's tiny disclosed rounds; estie's ~¥16.6B IPO shows the scale of a Japanese exit."
+      "note": "Down 1 — $7B cumulative private AI money versus $757B in the US, and one US lab raised $1B in a single round with no product."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
-      "jp": 30,
+      "jp": 31,
       "frontier": 96,
-      "note": "Unchanged — Japan is financing up to $21B of GlobalFoundries fabs in New York, with the US holding the upside, while Rapidus still has no named customer."
+      "note": "Up 1 — METI approved 3nm at Kumamoto II (6,000 wafers/month, Dec 2028) and ¥400B more Rapidus equity, yet Rapidus still has no named customer."
     },
     {
       "label": "Early-stage AI venture formation",
       "jp": 28,
       "frontier": 92,
-      "note": "Unchanged — Umee's small round and SB C&S tie-up contrast with US seed-to-unicorn jumps like Eka's."
+      "note": "Unchanged — 56 newly funded Japanese AI firms in 2025 versus 1,953 in the US, per the Stanford figures cited."
     }
   ],
   "items": [
@@ -43,308 +43,323 @@
       "id": "g1",
       "region": "global",
       "cat": "funding",
-      "source": "TechCrunch",
-      "time": "Oct 20",
-      "headline": "Eka Raises $150M Series A at $1.45B for a Force-Sensing Robot-Hands Model, Co-Led by a16z and F-Prime",
-      "dek": "A touch-first robotics lab from an MIT professor and an ex-DeepMind researcher bets force, not language, is the missing modality.",
+      "source": "Bloomberg",
+      "time": "Oct 21",
+      "headline": "Flapping Airplanes Reportedly Raises $1B Series A at $6B, Nine Months After a $1.5B Seed, With No Product Shipped",
+      "dek": "A data-efficiency research lab with no public product is priced like a frontier giant, led by Index and Lux.",
       "analysis": {
-        "happening": "Eka closed a $150M Series A at $1.45B post-money, co-led by a16z and F-Prime. Founders Pulkit Agrawal (MIT) and Tuomas Haarnoja train a vision-force-action model in simulation. It claims ~1,500 picks/hour versus ~600 human, over 95% reliability, and a gripper under $1,000.",
-        "now": "The signal is a thesis shift from vision-language-action to force-first models. Caveat: all performance numbers are company-reported, pilots are undisclosed, and academics question generalization beyond pick-and-place on a real line.",
-        "future": "Watch named industrial customers and the duty-cycle gripper target. Opportunity: cheap tactile hardware and simulation-environment tooling, plus copycat force-sensing bets from other physical-AI funds."
+        "happening": "Bloomberg reports Index Ventures and Lux Capital led a $1B Series A at $6B post-money. The January seed was $180M at $1.5B (GV, Sequoia, Index). The pitch is a 'megakernel' fusing training into one GPU kernel. No product, benchmarks or customers yet.",
+        "now": "Investors paid 4x in nine months for a contrarian thesis (data efficiency over scaling), not revenue. Caveat: terms are as reported, not confirmed; Forbes earlier cited talks at $5B.",
+        "future": "Watch for a first paper or benchmark backing the efficiency claim. Other 'fundamentally different' lab pitches likely follow. Builder angle: GPU-kernel and utilization tooling."
       },
       "sources": [
         {
-          "name": "TechCrunch",
-          "title": "Eka is worth $1.45 billion thanks to a physical AI model that has experts raving",
-          "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+          "name": "Bloomberg",
+          "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round"
         },
         {
-          "name": "Unite.AI",
-          "title": "Eka Robotics Secures Series A Funding Led by Andreessen Horowitz",
-          "url": "https://unite.ai/eka-robotics-secures-series-a-funding-led-by-andreessen-horowitz"
+          "name": "AlphaSignal",
+          "title": "Flapping Airplanes Raises $1B to Collapse Entire AI Training Into One GPU Kernel",
+          "url": "https://alphasignal.ai/news/flapping-airplanes-raises-1b-to-collapse-entire-ai-training-into-one-gpu-kernel"
+        },
+        {
+          "name": "Runtime Wire",
+          "title": "Flapping Airplanes pursues new round at reported $5 billion valuation",
+          "url": "https://runtimewire.com/article/flapping-airplanes-5-billion-valuation-funding-talks"
         }
       ],
       "tags": [
-        "Robotics",
-        "Series A",
-        "a16z",
-        "Physical AI"
+        "Neolab",
+        "Index Ventures",
+        "Lux Capital",
+        "Valuation"
       ]
     },
     {
       "id": "g2",
       "region": "global",
-      "cat": "funding",
-      "source": "Fortune",
-      "time": "Oct 20",
-      "headline": "Daytona, the 'Computer for AI Agents' Cloud, Hits a $1B Valuation on a $60M Series B Led by FirstMark",
-      "dek": "Agent sandbox infrastructure is growing fast enough that its CEO is betting on a CPU shortage.",
+      "cat": "launches",
+      "source": "9to5Mac",
+      "time": "Oct 21",
+      "headline": "Anthropic's Claude Duet Is an Always-On Agent With Its Own Cloud Computer, Billed Against Plan Limits",
+      "dek": "The 'proactive agent' category (ChatGPT Dots, Meta Muse) gets a Claude entry that bundles payments and file-making.",
       "analysis": {
-        "happening": "Daytona raised a $60M Series B at $1B led by FirstMark, with about $50M from existing investors and ~$91M raised in total. Angels include Patrick Collison and Tobi Lutke. Run-rate revenue reportedly grew 25x January to September; sandboxes provision in 60 ms.",
-        "now": "Agents need their own computers, and the thesis is that agent workloads push CPU demand past GPU spend. Caveats: growth and customer list are company-reported, and the CEO concedes AWS, Azure or Google could build rivals.",
-        "future": "Watch hyperscaler sandbox launches and revenue concentration in a few labs. Opportunity: snapshotting, cloning and observability layers for agent sandboxes, including AWS-native alternatives a solo builder could ship."
+        "happening": "Anthropic launched Claude Duet as a research preview on Opus 5.5 for US Pro and Max users via waitlist. It keeps working on its own cloud computer after you close the app, with Tasks and Make tabs and Stripe, Link and Shop Pay integrations. It asks before sending, paying or deleting.",
+        "now": "No extra price, but background work counts against plan limits. The edge is payments hooks: agents moving from drafting to transacting. Caveat: waitlist-only, US-only, no Team/Enterprise, no benchmarks or usage numbers.",
+        "future": "Watch the Team/Enterprise rollout, limit changes and how Stripe permissioning holds up. Builders: connectors are the moat; look for small tools that plug into Duet-style agents for invoicing or vertical ops."
       },
       "sources": [
         {
-          "name": "Fortune",
-          "title": "Daytona, the startup building the agentic cloud, valued at $1 billion in latest funding round",
-          "url": "https://fortune.com/2026/10/20/daytona-startup-building-the-agentic-cloud-valued-at-1-billion-in-latest-funding-round/"
+          "name": "9to5Mac",
+          "title": "Anthropic takes on ChatGPT Dots and Meta Muse with Claude Duet",
+          "url": "https://9to5mac.com/2026/10/21/anthropic-takes-on-chatgpt-dots-and-meta-muse-with-claude-duet/"
         },
         {
-          "name": "Dealroom",
-          "title": "Daytona lands $48.3M Series B for AI agent sandbox platform",
-          "url": "https://dealroom.co/news/145417-daytona-lands-48-3m-series-b-for-ai-agent-sandbox-platform/"
+          "name": "Crypto Briefing",
+          "title": "Anthropic announces Claude Duet, a new proactive AI agent",
+          "url": "https://cryptobriefing.com/anthropic-announces-claude-duet-a-new-proactive-ai-agent/"
+        },
+        {
+          "name": "Trending Topics",
+          "title": "Claude Duet: Anthropic's New Always-On A.I. Agent",
+          "url": "https://www.trendingtopics.eu/claude-duet-anthropic-ai-agent/"
         }
       ],
       "tags": [
-        "Agent infrastructure",
-        "Series B",
-        "FirstMark",
-        "Sandboxes"
+        "Anthropic",
+        "Agents",
+        "Claude Duet"
       ]
     },
     {
       "id": "g3",
       "region": "global",
       "cat": "hardware",
-      "source": "Seoul Economic Daily (citing NYT/FT)",
-      "time": "Oct 19-20",
-      "headline": "AI's Data-Center Build Hits a Wall: 47+ US Projects Delayed or Pulled, and Microsoft Walks Away From Nscale's 23,000-Chip UK Site Over Grid Power",
-      "dek": "Chip demand is real, but deliverable capacity is now gated by grid queues and permitting.",
+      "source": "TechCrunch",
+      "time": "Oct 20",
+      "headline": "Google and Amazon Ship PyTorch Backends for Their Own Chips Within 24 Hours, Attacking Nvidia's Software Moat",
+      "dek": "TorchTPU went open source one day after AWS released TorchNeuron, targeting CUDA lock-in at the framework layer.",
       "analysis": {
-        "happening": "RegLayer counts at least 47 large US data-center projects delayed or withdrawn in 2026; AllianceBernstein sees only 35% of planned US capacity getting built. Microsoft dropped funding for a 23,000-Nvidia-chip supercomputer at Nscale's ~$2.7B Loughton site after grid power slipped to the 2030s.",
-        "now": "Power, not GPUs, is the binding constraint, so slips push revenue right rather than cancel it, and operators that own power gain leverage. Caveat: figures are second-hand via NYT/FT coverage, 'delayed' is loosely defined, and Microsoft says it remains committed to Nscale.",
-        "future": "Watch hyperscaler Q3 capex guidance and 'capacity placed in service' language. Opportunity: power-ready sites, behind-the-meter generation, and grid-queue and permitting analytics."
+        "happening": "Amazon released TorchNeuron (Trainium) on Monday; Google open-sourced TorchTPU on Tuesday. Both promise PyTorch apps move with config changes, not rewrites. Google worked with Meta, Hugging Face, vLLM and SGLang and added a TPU agent suite to automate migration.",
+        "now": "Part of Nvidia's moat is porting friction, and both clouds are cutting it. Caveat: TechCrunch gives no performance or cost numbers, and easier porting does not mean developers switch en masse.",
+        "future": "Watch independent tokens-per-dollar benchmarks and upstream PyTorch merges. Opportunity: migration and portability tooling, and inference-cost consulting. Public read-through: Alphabet and Amazon capex versus Nvidia pricing power."
       },
       "sources": [
         {
-          "name": "Seoul Economic Daily",
-          "title": "Four Bottlenecks Shake AI Data Center Boom, NYT Says",
-          "url": "https://en.sedaily.com/international/2026/10/19/four-bottlenecks-shake-ai-data-center-boom-nyt-says"
+          "name": "TechCrunch",
+          "title": "Google has joined Amazon in attacking Nvidia's stronghold with AI app developers",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
         },
         {
-          "name": "yourNEWS (Daily Caller News Foundation)",
-          "title": "Massive AI Data Center Left In The Dark Until 2030s As Tech Giant Walks Away",
-          "url": "https://yournews.com/2026/10/20/7231293/massive-ai-data-center-left-in-the-dark-until-2030s/"
-        },
-        {
-          "name": "Quest Review Center",
-          "title": "US data centre setbacks raise longer-term doubts for AI chip demand",
-          "url": "https://questreviewcenter.com/tech-news/us-data-centre-setbacks-raise-longer-term-doubts-for-ai-chip-demand/"
+          "name": "The Neuron",
+          "title": "Everything That Happened in AI Today Wednesday, October 21",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-21-2026/"
         }
       ],
       "tags": [
-        "Data centers",
-        "Power",
-        "Capex",
-        "Nscale"
+        "Hardware",
+        "PyTorch",
+        "TPU",
+        "Trainium",
+        "Nvidia"
       ]
     },
     {
       "id": "g4",
       "region": "global",
-      "cat": "research",
-      "source": "Reuters",
-      "time": "Oct 19",
-      "headline": "Reuters: One Hacker Used AI Agents, for a Few Thousand Dollars, to Breach 100+ Company Sites, as Microsoft Ships Agent Kill-Switches",
-      "dek": "A concrete data point on offensive agent economics landing the same week Microsoft launched agent-control tooling.",
+      "cat": "launches",
+      "source": "SafeDep",
+      "time": "Oct 21",
+      "headline": "LiteLLM 1.107.0 on PyPI Shipped a Credential Stealer, and YC's Respan Open-Sources a Rust Gateway Alternative the Same Day",
+      "dek": "A malicious release installed a .pth backdoor on every Python start; a pre-alpha plugin-based gateway lands as the replacement pitch.",
       "analysis": {
-        "happening": "Reuters reported a Chinese-speaking hacker used AI agents with little human direction to breach websites of more than 100 companies for a few thousand dollars. Separately, Microsoft unveiled tools in Microsoft 365 E7 and Project Perception that rate agent risk, require approval, or shut agents down.",
-        "now": "The number nobody quotes is the cost per target: well under $100. Caveat: I read this through a digest summary, not the full Reuters text, so attacker tooling and victim severity need checking there.",
-        "future": "Expect demand for agent identity, permissions, audit and runtime guards. Gap for startups: agent observability for mid-market firms and Japanese-language compliance tooling. Watch for insurers pricing agent-driven attacks."
+        "happening": "SafeDep reports litellm 1.107.0 hit PyPI at 11:39 UTC, did not match its git tag, and stole SSH, cloud, CI and LLM keys via cook.pth, polling GitHub hourly for commands. It was later removed. Respan (YC W24) released a pre-alpha Rust gateway, MIT/Apache-2.0, same day.",
+        "now": "If you installed 1.107.0, treat the host as compromised and rotate credentials. Caveats: single security vendor report, no victim count. Respan's APIs are unstable and commenters flagged plugin supply-chain risk. A second LiteLLM compromise this year (March).",
+        "future": "Expect pressure toward pinned hashes, trusted publishing and lighter gateways. Opportunity: lockfile and .pth scanners for AI toolchains, or a hosted 'build your plugin set' gateway service."
       },
       "sources": [
         {
-          "name": "Reuters",
-          "title": "How one hacker used AI agents for a few thousand dollars to break into scores of sites",
-          "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+          "name": "SafeDep",
+          "title": "Compromised LiteLLM 1.107.0 on PyPI: credential stealer and backdoor",
+          "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
         },
         {
-          "name": "GeekWire",
-          "title": "Microsoft unveils tools to monitor and corral rogue AI agents",
-          "url": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/"
+          "name": "Sonatype",
+          "title": "Compromised litellm PyPI Package Delivers Multi-Stage Credential Stealer",
+          "url": "https://www.sonatype.com/blog/compromised-litellm-pypi-package-delivers-multi-stage-credential-stealer"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "Respan launches open-source Rust AI gateway built on plugins",
+          "url": "https://aiweekly.co/alerts/respan-launches-open-source-rust-ai-gateway-built-on-plugins"
+        },
+        {
+          "name": "Hacker News",
+          "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+          "url": "https://news.ycombinator.com/item?id=50167583"
         }
       ],
       "tags": [
-        "Security",
-        "Agents",
-        "Microsoft",
-        "Safety"
+        "Supply chain",
+        "LiteLLM",
+        "Open source",
+        "YC"
       ]
     },
     {
       "id": "g5",
       "region": "global",
-      "cat": "launches",
-      "source": "It's FOSS",
-      "time": "Oct 20-21",
-      "headline": "'Agent Experience' Becomes a Category: Microsoft Open-Sources Scope While Indie Gauge CLI Launches the Same Week on Show HN",
-      "dek": "Both run coding agents against your CLI, docs or MCP server and score where they get stuck.",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Oct 21",
+      "headline": "Mach9 Raises $34M Series A After Dropping Hardware to Build AI-Native CAD for Civil Engineering",
+      "dek": "First Round and Bessemer back a pivot: a robotics-inspection startup that decided hardware wasn't the bottleneck.",
       "analysis": {
-        "happening": "Microsoft released Scope (MIT) on Oct 20: it drives Copilot CLI and Claude Code through a task, scores runs against success criteria with an LLM judge, and lets you swap agent, model or MCP servers. Gauge CLI, an indie Show HN, runs agents in local Docker and auto-iterates on friction.",
-        "now": "CLIs and MCP servers are increasingly used by agents, not humans, so agent-friendliness is a product surface. Caveats: Scope publishes no benchmarks and its default worker needs a Copilot entitlement; Gauge had 5 points and no comments at capture.",
-        "future": "Watch whether agent-experience checks become a CI step like linting. A solo builder could run Scope on their own MCP server before launch, or sell vertical SDK audits and Japanese-docs variants."
+        "happening": "First Round and Bessemer co-led, with Quiet Capital (Nov 2024 seed lead), bringing total funding to $49M. The product turns LiDAR and 3D scans of roads and utilities into draft engineering drawings. Company claims 10x faster work, 2,500+ projects, and customers including WSP, HNTB and Caltrans.",
+        "now": "The thesis is the unglamorous layer: AI drafts, humans finalize. Caveats: speed claims are self-reported, and Autodesk and Bentley dominate and could ship similar features.",
+        "future": "Watch for pull from state DOTs, which buy slowly. The gap: scan-to-drawing automation in other regulated, drawing-heavy trades. Japan's aging-infrastructure backlog is analogous, though no local equivalent was verified."
       },
       "sources": [
         {
-          "name": "It's FOSS",
-          "title": "Microsoft's AI Coding Agent Testing Tool is Open Source",
-          "url": "https://itsfoss.com/news/microsoft-scope-self-hosted-agent-testing"
+          "name": "TechCrunch",
+          "title": "Mach9 raises $34M after pivoting to AI CAD software",
+          "url": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/"
         },
         {
-          "name": "GitHub",
-          "title": "microsoft/scope",
-          "url": "https://github.com/microsoft/scope"
+          "name": "PR Newswire",
+          "title": "Mach9 Raises $34M Series A to Bring Civil Engineering into the AI Era",
+          "url": "https://www.prnewswire.com/news-releases/mach9-raises-34m-series-a-to-bring-civil-engineering-into-the-ai-era-302915153.html"
         },
         {
-          "name": "Hacker News",
-          "title": "Show HN: Gauge CLI – Open-Source Hillclimbing for Agent Experience",
-          "url": "https://news.ycombinator.com/item?id=50170201"
-        },
-        {
-          "name": "Microsoft Developer Blog",
-          "title": "What is Agent Experience (AX)?",
-          "url": "https://developer.microsoft.com/blog/what-is-agent-experience-ax/"
+          "name": "LIDAR Magazine",
+          "title": "Mach9 Raises $34M Series A to Bring Civil Engineering into the AI Era",
+          "url": "https://lidarmag.com/2026/10/21/mach9-raises-34m-series-a-to-bring-civil-engineering-into-the-ai-era/"
         }
       ],
       "tags": [
-        "Agent experience",
-        "Open source",
-        "MCP",
-        "Dev tools"
+        "Series A",
+        "First Round",
+        "Bessemer",
+        "Vertical AI"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
       "cat": "hardware",
-      "source": "Reuters (via Korea Times)",
-      "time": "Oct 14",
-      "headline": "Japan Will Fund Up to $21B for Two GlobalFoundries-Run Fabs in New York, With the US Taking a Stake",
-      "dek": "Tokyo's capital is building chip capacity on US soil with named customers, while Rapidus still has none.",
+      "source": "TechTimes",
+      "time": "Oct 19",
+      "headline": "Japan Approves TSMC Kumamoto II as a 3nm Fab, but at 6,000 Wafers a Month and With Trimmed Subsidies",
+      "dek": "METI's Oct 16 sign-off turns the second Japan fab from 48,000 wafers/month of mature nodes into a small, EUV-constrained leading-edge line.",
       "analysis": {
-        "happening": "Japan will supply up to $21B (about $10B per fab) for two GlobalFoundries fabs in Malta, NY. The US takes a stake and 90% of free cash flow after an even cash split. Renesas and Apple are initial customers; construction starts late 2026, first fab around 2029.",
-        "now": "Japan is the financier and the US owns the upside, part of the $550B US-Japan deal. Domestic Rapidus has no announced customer, while this has named ones. Caveat: customer allocation is undecided, dates run to 2029, and it is not AI-specific.",
-        "future": "Watch which Japanese equipment and materials makers (Tokyo Electron and others) win orders, and whether METI money drifts from Rapidus. Opportunity: tooling, materials and design-services suppliers riding a US-sited, Japan-funded supply chain."
+        "happening": "METI approved JASM's revised plan Oct 16: 3nm, 6,000 wafers/month, production Dec 2028, versus the original 48,000/month at 6/12nm. Maximum subsidy for Kumamoto II fell to ¥645B from ¥732B. Total Kumamoto capex exceeds $23B.",
+        "now": "Japan gets 3nm, but Arizona's 3nm line starts about a year earlier and Taiwan stays the volume centre. Output is capped by EUV supply. Opportunity: packaging and design near Kumamoto. Caveat: capacity figures conflict across sources.",
+        "future": "Watch FY2027 METI funding for a phase 2, any Kumamoto II GPU customer, and how Rapidus 2nm competes for the same scarce EUV tools."
       },
       "sources": [
         {
-          "name": "Korea Times",
-          "title": "Japan to invest up to $21 billion in two US chip factories to be run by GlobalFoundries",
-          "url": "https://www.koreatimes.co.kr/world/20261014/japan-to-invest-up-to-21-billion-in-two-us-chip-factories-to-be-run-by-globalfoundries"
+          "name": "TechTimes",
+          "title": "Japan Clears TSMC Kumamoto for 3nm Chip Production; EUV Scarcity Caps Output at 6,000 Wafers",
+          "url": "https://www.techtimes.com/articles/329216/20261019/japan-clears-tsmc-kumamoto-3nm-chip-production-euv-scarcity-caps-output-6000-wafers.htm"
         },
         {
-          "name": "DealStreetAsia",
-          "title": "Japan to invest up to $21b in two US chip factories operated by GlobalFoundries",
-          "url": "https://www.dealstreetasia.com/stories/japan-chip-factories-globalfoundries-498177/"
+          "name": "CloudNews",
+          "title": "Japan Approves TSMC's 3nm Kumamoto Fab, Trims the Subsidies",
+          "url": "https://cloudnews.tech/japan-approves-tsmcs-3nm-kumamoto-fab-trims-the-subsidies/"
         },
         {
-          "name": "Manufacturing Digital",
-          "title": "GlobalFoundries Chosen for US$21bn US-Japan Fab Deal",
-          "url": "https://manufacturingdigital.com/news/globalfoundries-chosen-for-us-21bn-us-japan-fab-deal"
+          "name": "ANI",
+          "title": "TSMC plans 3nm semiconductor manufacturing at second Japan factory, investment to exceed USD 23 billion",
+          "url": "https://aninews.in/news/business/tsmc-plans-3nm-semiconductor-manufacturing-at-second-japan-factory-investment-to-exceed-usd-23-billion20261020101636/"
         }
       ],
       "tags": [
-        "Semiconductors",
-        "GlobalFoundries",
-        "Renesas",
-        "US-Japan"
+        "TSMC",
+        "Kumamoto",
+        "3nm",
+        "METI"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
-      "cat": "launches",
-      "source": "Nikkei Asia",
+      "cat": "funding",
+      "source": "Seoul Economic Daily",
       "time": "Oct 20",
-      "headline": "Japan Plans a Security Certification for Data Centers and Cloud Services to Screen Out China and Russia Risk",
-      "dek": "A sovereign-cloud trust label could decide which AI infrastructure finance and other key sectors may use.",
+      "headline": "Rapidus Equity Ladder: ¥400B More State Money Lined Up as It Seeks ¥2T of Megabank Loans",
+      "dek": "The state is turning Rapidus from subsidy case into shareholder, with payments running to 2029 and an IPO envisioned for 2031.",
       "analysis": {
-        "happening": "Nikkei reports Tokyo will certify data centers and cloud services on risk management and equipment sourcing, urging finance and other key sectors to adopt certified infrastructure. A Dec 2025 Cabinet Office panel paper already proposed measures for providers handling large data volumes.",
-        "now": "This is Japan's analogue of US FedRAMP-style gating, landing as NTT Data, SoftBank and Anthropic scale domestic compute. Caveat: no timeline, criteria or provider list is public, and only the lead of the Nikkei piece was readable.",
-        "future": "Watch the criteria draft and whether foreign hyperscalers are certified. Opportunity: compliance tooling, audit and supply-chain provenance products for Japanese cloud and AI operators."
+        "happening": "Seoul Economic Daily reports ¥400B additional government equity (¥250B this year, ¥150B in the FY2027 request, more in 2028-29), backing a ¥2T commercial-bank borrowing for 2nm lines at Chitose. R&D aid so far is about ¥2.3T.",
+        "now": "Japan bets Rapidus earns a return, unlike US CHIPS grants, but it still has no named volume customer and trails TSMC by about two years. Caveat: reports disagree on whether ¥400B is new or cumulative; ¥150B is only a request.",
+        "future": "Watch FY2027 budget approval, the megabank loan signing, customer 2nm test-chip tapeouts, and whether an anchor customer is named before 2027 mass production."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "Japan plans certifications for data centers, cloud services to curb China risk",
-          "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-plans-certifications-for-data-centers-cloud-services-to-curb-china-risk"
+          "name": "Seoul Economic Daily",
+          "title": "Japan to Inject Additional 400 Billion Yen Into Chipmaker Rapidus",
+          "url": "https://en.sedaily.com/international/2026/10/20/japan-to-inject-additional-400-billion-yen-into-chipmaker"
         },
         {
-          "name": "Cabinet Office",
-          "title": "Economic security legislation expert panel materials (data security measures)",
-          "url": "https://www.cas.go.jp/jp/seisaku/keizai%5Fanzen%5Fhosyohousei/r7_dai13/shiryo9.pdf"
+          "name": "Argus Media",
+          "title": "Japan adds funding for Rapidus semiconductor project",
+          "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2835708-japan-adds-funding-for-rapidus-semiconductor-project"
         }
       ],
       "tags": [
-        "Sovereign cloud",
-        "Economic security",
-        "Policy",
-        "Data centers"
+        "Rapidus",
+        "METI",
+        "2nm",
+        "Government equity"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
-      "cat": "funding",
-      "source": "The Bridge",
-      "time": "Upcoming (prices Oct 28, lists Nov 6)",
-      "headline": "estie, a Real-Estate Data and AI Vendor, Sets Up a ~¥16.6B TSE Growth IPO With Mitsui Fudosan and Mitsubishi Estate as Anchors",
-      "dek": "A loss-making vertical-data company is Japan's near-term test of whether AI-for-incumbents earns public-market multiples.",
+      "cat": "research",
+      "source": "The Economy",
+      "time": "Oct 20",
+      "headline": "Japan's Physical-AI Lead Looks Like a Mirage: $7B of Cumulative Private AI Money vs $757B in the US, Even as ¥387B Noetra Launches",
+      "dek": "An analysis puts hard numbers on the gap behind Japan's flagship state-backed bet.",
       "analysis": {
-        "happening": "TSE approved estie (658A) on Oct 1. Bookbuilding runs Oct 21-27, pricing Oct 28, listing Nov 6, at an implied market cap of about ¥16.58B. H1 FY2026 revenue was ~¥1.75B (+96.8%) with a ~¥280M net loss. Anchors: UntroD fund, Mitsui Fudosan and Mitsubishi Estate.",
-        "now": "Japan's AI exit is a small-cap TSE Growth listing, against US AI vendors raising at billion-dollar valuations. Caveat: still loss-making, and the final price range was unconfirmed. The landlord AI tie-ups are the distinctive angle.",
-        "future": "Watch pricing on Oct 28, day-one trading Nov 6, and whether the landlord AI agreements convert to revenue. Opportunity: vertical data plus AI for Japan's incumbent landlords and J-REIT market."
+        "happening": "Citing Stanford AI Index figures, private AI investment 2013-25 was about $757B US, $132B China, $7B Japan. Japan had 56 newly funded AI firms in 2025 versus 1,953 in the US. Noetra received ¥387.3B in FY2026 and plans a 27,500-GPU cluster for 2028.",
+        "now": "Japan makes robots but may not own the models, data or capital; the gap is startup formation, not state money. Caveat: an opinion piece with secondhand figures; factory data may still be an edge.",
+        "future": "Watch how many production lines run Noetra models by 2028, its data-sharing rules, and whether early-stage physical-AI funds target Japan's thin startup layer."
       },
       "sources": [
         {
-          "name": "The Bridge",
-          "title": "商業用不動産データのestie、東証グロース上場へ——想定時価総額は約165.8億円",
-          "url": "https://thebridge.jp/2026/10/estie-tse-growth-ipo-approved"
+          "name": "The Economy",
+          "title": "Japan's Advantage in Physical AI Is a Thing of the Past",
+          "url": "https://economy.ac/review/2026/10/202610295890"
         },
         {
-          "name": "Traders Web",
-          "title": "658A estie IPO information",
-          "url": "https://www.traders.co.jp/ipo/658A"
+          "name": "Tech Wire Asia",
+          "title": "Japan backs Noetra with $2.3 billion for physical AI push",
+          "url": "https://techwireasia.com/2026/07/japan-noetra-physical-ai/"
+        },
+        {
+          "name": "The Japan Times",
+          "title": "Japan announces aid for domestic AI development project",
+          "url": "https://www.japantimes.co.jp/business/2026/06/30/companies/physical-ai-meti-aid-model/"
         }
       ],
       "tags": [
-        "IPO",
-        "TSE Growth",
-        "PropTech",
-        "Vertical AI"
+        "Physical AI",
+        "Noetra",
+        "Funding gap",
+        "METI"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "funding",
-      "source": "The Bridge",
-      "time": "Oct 19",
-      "headline": "Umee Technologies Takes a Capital Tie-Up From SoftBank's SB C&S for In-Store Conversation-Analysis AI",
-      "dek": "A small Japanese startup selling to housebuilders gets distribution muscle from SoftBank's IT distributor; amount undisclosed.",
+      "cat": "launches",
+      "source": "Preferred Networks",
+      "time": "Oct 7",
+      "headline": "PFN's plamo-3-translate (8B and 31B) Claims to Beat Most Translation APIs on JA-EN at About 1/30 the Cost",
+      "dek": "A domestic, from-scratch translation specialist built with NICT; free trial only for now, weights promised later.",
       "analysis": {
-        "happening": "Umee's Front Agent analyzes in-person customer conversations and logs meetings to CRMs such as kintone and Salesforce. SB C&S, a SoftBank group distributor, entered a capital and business alliance announced Oct 15. Customers include Toyota Home Aichi and Mitsubishi Estate Residence; its Series A was about ¥300M.",
-        "now": "Face-to-face selling is a Japan-specific niche that US sales-AI tools, built around calls and Zoom, underserve. Caveat: terms and traction are undisclosed and the prior round was small. Distribution via SB C&S is the real asset.",
-        "future": "Watch whether SB C&S resells Front Agent through its channel and whether Umee raises a larger round. Opportunity: offline-conversation AI for Japan's showroom, bridal and housing sales."
+        "happening": "PFN launched plamo-3-translate Oct 7 in PLaMo翻訳. It says the 8B beats the 3x larger TranslateGemma 27B, and the 31B beats nearly all APIs on JA-EN except Claude Fable 5.1, at an estimated 1/30 the cost. Weights are planned for Hugging Face.",
+        "now": "Japan's niche is language and locale, where a small domestic model can match the frontier cheaply. Builders could fine-tune it for legal, SaaS or manga localisation. Caveat: self-reported LLM-judged benchmarks, no public API, cost is an estimate.",
+        "future": "Watch the Hugging Face weight drop, an API launch and independent JA-EN evals. PFN's MN-Core L inference chip (early 2027) would extend the cost lead into hardware."
       },
       "sources": [
         {
-          "name": "The Bridge",
-          "title": "Umee Technologies forms capital and business alliance with SB C&S",
-          "url": "https://thebridge.jp/2026/10/umee-technologies-forms-capital-and-business-alliance-with-sb-cs"
+          "name": "Preferred Networks",
+          "title": "plamo-3-translate: フロンティア級の翻訳特化LLM",
+          "url": "https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release"
         },
         {
-          "name": "IT Business Today",
-          "title": "umee technologies raises 300 million yen in series a for front agent conversational ai",
-          "url": "https://itbusinesstoday.com/ja/tech/ai/umee-technologies-raises-300-million-yen-in-series-a-for-front-agent-conversational-ai/"
+          "name": "RobotStart",
+          "title": "国産LLM「PLaMo」搬送ロボット「カチャカEvo」などをCEATEC2026ブースで解説 Preferred Networks",
+          "url": "https://robotstart.info/article/2026/10/16/382526.html"
         }
       ],
       "tags": [
-        "Series A",
-        "SoftBank",
-        "Sales AI",
-        "Offline AI"
+        "Preferred Networks",
+        "PLaMo",
+        "Translation",
+        "Sovereign AI"
       ]
     }
   ]
