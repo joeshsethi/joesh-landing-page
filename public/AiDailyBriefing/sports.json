@@ -1,35 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T20:10:00Z",
-  "dateLabel": "Fri · Oct 23 2026",
+  "generatedAt": "2026-10-24T20:07:20.000Z",
+  "dateLabel": "Sun · Oct 25 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Chelsea vs Tottenham, Premier League",
-      "line": "London derby at Stamford Bridge. Chelsea beat Everton 2-0 and Bournemouth 5-1 after a 3-0 loss at Brentford; Spurs drew 1-1 at Man Utd and beat Coventry 3-1.",
-      "whenJst": "Sun Oct 25 · 01:30 JST",
+      "event": "El Clasico: Barcelona vs Real Madrid (La Liga MD10)",
+      "line": "First Clasico of 2026-27 at Camp Nou; both clubs won their first three league games by early September, so it is an early title-credentials test. Kickoff is 21:00 CET (20:00 UTC) on Oct 25, the day clocks go back in Europe.",
+      "whenJst": "Mon Oct 26 · 05:00 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Chelsea vs Tottenham Hotspur",
-          "url": "https://www.skysports.com/football/chelsea-vs-tottenham-hotspur/559516"
-        }
-      ]
-    },
-    {
-      "id": "s2",
-      "sport": "tennis",
-      "status": "live",
-      "event": "Japan Open (Osaka) quarter-finals",
-      "line": "Katie Boulter reached the quarter-finals in Osaka; Rybakina is in the Ningbo Open quarter-finals. Finals come this weekend.",
-      "whenJst": "Fri Oct 23 – Sun Oct 25 · exact JST times not listed",
-      "sources": [
+          "name": "Football Espana",
+          "title": "2026/27 El Clasico date",
+          "url": "https://www.football-espana.net/2026/09/02/2026-27-el-clasico-date"
+        },
         {
-          "name": "Sky Sports",
-          "title": "Japan Open: Katie Boulter beats Viktorija Golubic in straight sets to advance to quarter-finals in Osaka",
-          "url": "https://www.skysports.com/tennis/news/13601799/japan-open-katie-boulter-beats-viktorija-golubic-in-straight-sets-to-advance-to-quarter-finals-in-osaka"
+          "name": "beIN Sports",
+          "title": "When are the biggest European Football rivalries in the 2026/27 season?",
+          "url": "https://www.beinsports.com/en-us/soccer/articles/when-are-the-biggest-european-football-rivalries-in-the-2026-27-season-2026-08-24"
         }
       ]
     }
