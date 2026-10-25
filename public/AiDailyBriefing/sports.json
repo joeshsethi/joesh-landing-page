@@ -1,25 +1,60 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T20:07:20.000Z",
-  "dateLabel": "Sun · Oct 25 2026",
+  "generatedAt": "2026-10-25T20:06:53.000Z",
+  "dateLabel": "Mon · Oct 26 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
-      "status": "upcoming",
-      "event": "El Clasico: Barcelona vs Real Madrid (La Liga MD10)",
-      "line": "First Clasico of 2026-27 at Camp Nou; both clubs won their first three league games by early September, so it is an early title-credentials test. Kickoff is 21:00 CET (20:00 UTC) on Oct 25, the day clocks go back in Europe.",
+      "status": "live",
+      "event": "El Clásico: Barcelona vs Real Madrid (LaLiga)",
+      "line": "Unbeaten league leaders Barcelona host Mourinho's Real Madrid at Camp Nou in his first Clásico back; a Barça win would open a nine-point gap. Barça are missing Koundé, García, Christensen and Olmo.",
       "whenJst": "Mon Oct 26 · 05:00 JST",
       "sources": [
         {
-          "name": "Football Espana",
-          "title": "2026/27 El Clasico date",
-          "url": "https://www.football-espana.net/2026/09/02/2026-27-el-clasico-date"
+          "name": "ESPN",
+          "title": "Barcelona vs Real Madrid: TV channel, how to watch in UK, kick-off time, live stream, team news, referee, predicted line-ups",
+          "url": "https://www.espn.com/soccer/story/_/id/50256235/barcelona-vs-real-madrid-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-la-liga"
         },
         {
-          "name": "beIN Sports",
-          "title": "When are the biggest European Football rivalries in the 2026/27 season?",
-          "url": "https://www.beinsports.com/en-us/soccer/articles/when-are-the-biggest-european-football-rivalries-in-the-2026-27-season-2026-08-24"
+          "name": "ESPN",
+          "title": "José Mourinho backs himself ahead of El Clasico vs. Barcelona: 'Madrid with Mourinho wins trophies'",
+          "url": "https://www.espn.com/soccer/story/_/id/50264660/madrid-mourinho-wins-trophies"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "sport": "golf",
+      "status": "upcoming",
+      "event": "Butterfield Bermuda Championship",
+      "line": "Sunday's final round was washed out by extreme weather. Seamus Power and Austin Smotherman share the lead at 16-under, two clear of Conners, Moore and Silverman. Monday play plans to be announced by the Tour.",
+      "whenJst": "Mon Oct 26 · Monday play TBD",
+      "sources": [
+        {
+          "name": "PGA Tour",
+          "title": "Weather suspends Sunday's final round of Butterfield Bermuda Championship",
+          "url": "https://pgatour.com/article/news/latest/2026/10/25/butterfield-bermuda-championship-will-not-play-sunday-due-to-weather-conditions-wind-delay"
+        },
+        {
+          "name": "PGA Tour",
+          "title": "Seamus Power, Austin Smotherman share 54-hole lead in Bermuda as windy forecast sets stage for Sunday",
+          "url": "https://www.pgatour.com/article/news/daily-wrapup/2026/10/24/round-3-recap-butterfield-bermuda-championship-scores-leaderboard-results"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "Swiss Indoors Basel and Erste Bank Open Vienna (ATP 500s)",
+      "line": "Basel's main draw starts Oct 26 with Djokovic's return and Wawrinka's farewell; Vienna is under way, with Zverev eyeing world No. 1. Finals around Nov 1, before the Paris Masters (Oct 31 to Nov 8).",
+      "whenJst": "Mon Oct 26 · Basel main draw begins",
+      "sources": [
+        {
+          "name": "ATP Tour",
+          "title": "Novak Djokovic back & Stan Wawrinka's farewell in Basel, Alexander Zverev eyes No. 1 in Vienna: Scouting Report",
+          "url": "https://www.atptour.com/en/news/basel-vienna-2026-scouting-report"
         }
       ]
     }
