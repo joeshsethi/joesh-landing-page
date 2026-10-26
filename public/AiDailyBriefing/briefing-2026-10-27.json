@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T20:20:00.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Tue · Oct 27 2026",
+    "editionLine": "EDITION No.533 · SYNCED 05:20 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "Today's throughline: the cost of running agents is falling while the physical limits of power, skilled labour and fab capacity keep tightening.",
+    "briefingTitle": "GPT-6.1 Terra Halves Agent Costs, Amazon's GPUs Wait for Power, and Japan's Kumamoto 3nm Arrives Small",
+    "summary": "Software is getting cheaper to run while the physical world sets the pace. OpenAI's Terra cuts agent prices to $1/$5 per million tokens, yet Amazon reportedly holds about $5B of GB300 racks it cannot power. Capital is moving to physical-world retrofits and agent auditing at seed. In Japan, METI's 3nm approval for TSMC Kumamoto comes with a fraction of planned volume, and a government LLM bake-off may decide domestic models.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 23 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 34,
+      "frontier": 95,
+      "note": "Unchanged — Gennai is testing 32B-class domestic models against foreign ones, while open Chinese and US weights (Kimi, Muse Spark Open) arrive at frontier scale."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 17,
+      "frontier": 99,
+      "note": "Unchanged — Bedrock's $600M and Tenstorrent's $1.5B in one week versus Japan's H1 growth of about 2% ex-Sakana and a ¥1.27B chip round."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 33,
+      "frontier": 96,
+      "note": "Up 1 — METI cleared TSMC Kumamoto 3nm, but at 6,000 wafers/month and Dec 2028, with Rapidus still lacking a named 2nm customer."
+    },
+    {
+      "label": "Early-stage AI venture formation",
+      "jp": 29,
+      "frontier": 92,
+      "note": "Unchanged — Japan's seed AI median (¥160M) shows no AI premium; US seeds like Asymptote's $5.5M target new categories such as agent auditing."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "launches",
+      "source": "9to5Mac",
+      "time": "Oct 26",
+      "headline": "OpenAI Ships GPT-6.1 Terra at $1/$5 per Million Tokens, Half of Sol's Price, Aimed at Cheap Computer-Use Agents",
+      "dek": "A mid-tier model targets the volume end of agent work, and Artificial Analysis reports a big drop in confident guessing.",
+      "analysis": {
+        "happening": "Terra is live in ChatGPT, Codex and the API: $1 input, $0.05 cached, $5 output per million tokens, ~1.05M context. Artificial Analysis puts it 4 points below Sol and says it guesses 38% of the time when unsure, versus 88% for GPT-5.6 Terra.",
+        "now": "Cost per computer-use task decides which always-on agents are affordable. Caveats: the 3x speed claim is OpenAI's own timing, and Terra trails Sol on coding and Terminal-Bench.",
+        "future": "Watch whether Anthropic and Google answer with cheaper tiers, and for two weeks of real-world computer-use reliability reports."
+      },
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "title": "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model",
+          "url": "https://9to5mac.com/2026/10/26/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-1-terra-model/"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "OpenAI Ships GPT-6.1 Terra at $1/$5 Per Million, Half of Sol",
+          "url": "https://aiweekly.co/alerts/openai-ships-gpt-61-terra-with-computer-use-at-scale-at-1-input5-output-per"
+        },
+        {
+          "name": "OpenAI Developer Community",
+          "title": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price - Announcements",
+          "url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Pricing",
+        "Computer use"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Oct 26",
+      "headline": "Bedrock Robotics Raises $600M at $4.1B for Retrofit Self-Driving Excavators, Eight Months After a $1.75B Valuation",
+      "dek": "CapitalG and Emergence co-lead a kit-not-new-machine bet on construction's operator shortage.",
+      "analysis": {
+        "happening": "Bedrock's $600M Series C is co-led by CapitalG and Emergence Capital; Bessemer, Temasek and USIT are new, while 8VC, Valor, Georgian and Nvidia return. Nearly $1B raised since 2024. Excavators moved from pilots to commercial sites about two months ago.",
+        "now": "The thesis is retrofit: sell a kit to existing fleets facing a skilled-operator shortage. Caveat: revenue is undisclosed and a few live sites are thin support for a $4.1B mark.",
+        "future": "Watch revenue per machine and kit attach rates. Retrofit autonomy for mining, farming and Japan's ageing operator base is open ground."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "This startup's self-driving excavators help dig up $600M in new funding",
+          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/"
+        },
+        {
+          "name": "SiliconANGLE",
+          "title": "Bedrock Robotics raises $270M to scale autonomous construction fleets",
+          "url": "https://siliconangle.com/2026/02/04/bedrock-robotics-raises-270m-scale-autonomous-construction-fleets/"
+        }
+      ],
+      "tags": [
+        "Robotics",
+        "Series C",
+        "CapitalG",
+        "Construction"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "hardware",
+      "source": "LetsDataScience",
+      "time": "Oct 20-26",
+      "headline": "Amazon Is Reportedly Warehousing About $5B of Nvidia GB300 Racks It Cannot Yet Power, With About $3B More Arriving Monthly",
+      "dek": "Power, not chips, is the binding constraint: purchased GPUs sit dark while capex runs near $220B.",
+      "analysis": {
+        "happening": "Business Insider reportedly found AWS staged ~$5B of GB300 racks in intermediary warehouses because some sites lack power to energize them, with ~$3B more per month projected in an internal email. Amazon's capex plan is cited near $220B this year.",
+        "now": "Dark GPUs mean depreciation without revenue, an under-quoted risk to Nvidia backlog quality. Caveat: figures are from secondary coverage of the original, and Amazon reportedly disputes the framing.",
+        "future": "Watch Amazon's Q3 call for capex and free-cash-flow language. Opportunity: power-ready sites, on-site generation, staging tooling."
+      },
+      "sources": [
+        {
+          "name": "LetsDataScience",
+          "title": "Amazon Stockpiles Nvidia GB300 Racks Some AWS Sites Cannot Yet Power",
+          "url": "https://letsdatascience.com/news/amazon-stockpiles-nvidia-gb300-racks-some-aws-sites-cannot-y-c2433f7d"
+        },
+        {
+          "name": "Digital Today",
+          "title": "amazon hamstrung by power shortages as trillion won nvidia servers sit in warehouses",
+          "url": "https://www.digitaltoday.co.kr/en/view/117294/amazon-hamstrung-by-power-shortages-as-trillion-won-nvidia-servers-sit-in-warehouses"
+        },
+        {
+          "name": "Crypto Briefing",
+          "title": "Amazon has billions in Nvidia hardware waiting on power that isn't there yet",
+          "url": "https://cryptobriefing.com/amazon-nvidia-chips-idle-data-center-power/"
+        }
+      ],
+      "tags": [
+        "Amazon",
+        "Nvidia",
+        "Power",
+        "Capex"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "funding",
+      "source": "TheNextWeb",
+      "time": "Oct 20",
+      "headline": "NYC's Asymptote Labs Raises a $5.5M Seed Led by Tower Research Ventures to Audit Coding Agents, Starting With a Free Open-Source Tool",
+      "dek": "Beacon logs what Claude Code, Codex and Cursor actually do; the paid platform blocks risky actions.",
+      "analysis": {
+        "happening": "Asymptote Labs, founded by ex-Doppel engineers, raised a $5.5M seed led by Tower Research Ventures with Lytical, 1984 Ventures and South Park Commons. Open-source Beacon logs prompts, commands and file edits across 20+ agent tools; a paid platform adds blocking.",
+        "now": "Open-source adoption first, enterprise control layer second is the emerging agent-security playbook. Caveat: valuation and customers are undisclosed, and the round predates this window slightly.",
+        "future": "Watch Beacon's GitHub traction and whether Anthropic, OpenAI or Cursor ship native audit logs. A Japan-localized compliance layer is open."
+      },
+      "sources": [
+        {
+          "name": "TheNextWeb",
+          "title": "Asymptote Labs raises $5.5M to track and control what AI agents do",
+          "url": "https://thenextweb.com/news/asymptote-labs-5-5m-seed-ai-agent-security"
+        },
+        {
+          "name": "SecurityWeek",
+          "title": "Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security",
+          "url": "https://securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security"
+        }
+      ],
+      "tags": [
+        "Seed",
+        "Agent security",
+        "Open source",
+        "New York"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "TechNode",
+      "time": "Oct 21",
+      "headline": "DeepSeek Open-Sources DeepInfer, the Production Inference Engine for V4.1-Flash, Under Apache 2.0 With Nvidia and Huawei Ascend Support",
+      "dek": "Solo builders can now read how a frontier-class MoE model is really served, though the release is partial.",
+      "analysis": {
+        "happening": "DeepSeek released DeepInfer on Oct 20 under Apache 2.0, running on Nvidia SM100 GPUs and Huawei Ascend 950 NPUs; it supports only V4.1-Flash-1017. One aggregator reported 14,000+ GitHub stars within a day.",
+        "now": "A useful reference for speculative decoding and structured-output kernels. Caveat: one report says KV-cache management, prefill/decode disaggregation and load balancing are omitted, so it is not a full serving stack; performance figures are self-reported.",
+        "future": "Watch independent benchmarks, community ports to other models, and whether Ascend support makes non-Nvidia self-hosting practical outside China."
+      },
+      "sources": [
+        {
+          "name": "AI Business",
+          "title": "DeepSeek makes DeepInfer open source to cut AI costs",
+          "url": "https://aibusiness.com/generative-ai/deepseek-makes-deepinfer-open-source-cut-ai-costs"
+        },
+        {
+          "name": "TechNode",
+          "title": "deepseek open sources inference framework with support for nvidia and huawei chips",
+          "url": "https://technode.com/2026/10/21/deepseek-open-sources-inference-framework-with-support-for-nvidia-and-huawei-chips/"
+        },
+        {
+          "name": "GitHub",
+          "title": "deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        }
+      ],
+      "tags": [
+        "Open source",
+        "Inference",
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Digitimes",
+      "time": "Oct 16-19",
+      "headline": "METI Clears TSMC's Kumamoto Fab 2 for 3nm, but at Only 6,000 Wafers a Month and First Shipments in Dec 2028",
+      "dek": "Japan gets its first 3nm logic fab at one-eighth of the 2024 plan's volume and about a year behind Arizona.",
+      "analysis": {
+        "happening": "On Oct 16 METI approved JASM's revised Fab 2 plan: 3nm logic at 6,000 wafers/month, down from 48,000 at 6-12nm. Reported subsidy cap falls from ¥732B to ¥645B. Commercial output targets Dec 2028; Fab 1 shifts to 22-28nm.",
+        "now": "Gap: Japan finally hosts a leading-edge node, but tiny volume (reportedly EUV-tool limited) and no named customer. The ¥645B figure rests on one secondary source; check METI's release.",
+        "future": "Watch the FY2027 budget top-up and customer names. Opening: packaging, materials and EUV-adjacent suppliers around Kumamoto."
+      },
+      "sources": [
+        {
+          "name": "Digitimes",
+          "title": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to $4.1 billion in aid",
+          "url": "https://www.digitimes.com/news/a20261017VL200/fab-tsmc-chips-kumamoto-production.html"
+        },
+        {
+          "name": "Tech Times",
+          "title": "Japan Clears TSMC Kumamoto for 3nm Chip Production; EUV Scarcity Caps Output at 6,000 Wafers",
+          "url": "https://www.techtimes.com/articles/329216/20261019/japan-clears-tsmc-kumamoto-3nm-chip-production-euv-scarcity-caps-output-6000-wafers.htm"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "Kumamoto",
+        "3nm",
+        "METI"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "launches",
+      "source": "ITmedia AI+",
+      "time": "Oct 20-21",
+      "headline": "Japan's Government AI 'Gennai' Is Blind A/B-Testing Domestic LLMs Against Foreign Models, With a 2027 Procurement Call Due in November",
+      "dek": "A captive public-sector market decides which Japanese models get paid contracts from April 2027.",
+      "analysis": {
+        "happening": "Five domestic models are on trial: tsuzumi 2, Sarashina3 mini, cotomi v3, Takane 32B and PLaMo 2.0 Prime, three on Sakura Cloud, in blind A/B tests Sep-Nov. A November call (300 questions, 35 criteria, one model per firm) feeds paid use from April 2027 across ~180,000 civil servants.",
+        "now": "Gap: this anchor-customer lever has no US-lab equivalent in Japan, but the models are mostly 32B-class, so frontier parity is unproven. The foreign comparison model is unnamed and results are unpublished.",
+        "future": "Partial results are expected around Jan 2027. Japanese-language agent and tool-use evaluation tooling is an explicit requirement."
+      },
+      "sources": [
+        {
+          "name": "ISSOH",
+          "title": "国産AI7モデルから5社が試用へ｜デジタル庁「源内」の国産LLM比較と2027年度公募【2026年10月】",
+          "url": "https://www.issoh.co.jp/tech/details/11305/"
+        },
+        {
+          "name": "ITmedia AI+",
+          "title": "デジタル庁、tsuzumiなど国産AIを「さくらのクラウド」で稼働　「日本の自律性確保」目指す",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000182/"
+        },
+        {
+          "name": "ITmedia AI+",
+          "title": "“政府認定AI”選定へ デジタル庁、国産7モデルを検証 全府省庁18万人に展開",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2603/06/1260306097/"
+        }
+      ],
+      "tags": [
+        "Digital Agency",
+        "Sovereign LLM",
+        "tsuzumi",
+        "PLaMo"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Tech Startups",
+      "time": "Oct 26",
+      "headline": "Yokohama's Tokyo Artisan Intelligence Raises ¥1.27B in a Series C First Close, Part Equity and Part Mizuho Loan, for Its Own Edge-AI Processor",
+      "dek": "A small fabless startup tries to build a domestic edge-AI chip while Nvidia owns the datacenter.",
+      "analysis": {
+        "happening": "The first stage of its Series C mixes equity (Mitsui Sumitomo Insurance VC, Watakyu, Tokyo Keiki, ADT) with a Mizuho Bank loan. Funds go to the Manta Ray architecture and StingRay evaluation chip. It raised ¥1.11B in Series B in June 2025.",
+        "now": "Gap: Japan's AI-chip startups are funded in single-digit billions of yen versus billions of dollars in the US. Industrial and rail backers point to infrastructure edge AI. Caveat: the equity/debt split is undisclosed and I found one 2026 source.",
+        "future": "Watch final close size, a production-chip tape-out date and rail or factory customer commitments."
+      },
+      "sources": [
+        {
+          "name": "Tech Startups",
+          "title": "Startup Funding News Today, October 26, 2026: Ailytics, Approaching.AI, CASBOT, Volare & More",
+          "url": "https://techstartups.com/2026/10/26/startup-funding-news-today-october-26-2026-ailytics-approaching-ai-casbot-volare-more/"
+        },
+        {
+          "name": "The Bridge",
+          "title": "Tokyo Artisan Intelligence、エッジAIチップ量産へ11億円調達",
+          "url": "https://thebridge.jp/2025/06/tokyo-artisan-intelligence-raises-1-1-billion-yen-to-mass-produce-edge-ai-chips"
+        }
+      ],
+      "tags": [
+        "Edge AI",
+        "AI chips",
+        "Series C",
+        "Mizuho"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Speeda (Initial)",
+      "time": "H1 2026 data",
+      "headline": "Strip Out Sakana's ¥31B and Japan's H1 2026 Startup Funding Grew Just 2%; the Seed-to-Pre-A AI Median Is ¥160M, Barely Above All Sectors",
+      "dek": "Money is concentrating in a few big rounds, while October's early AI deals are small vertical plays.",
+      "analysis": {
+        "happening": "H1 2026 funding was ¥377.9B (+12% YoY), about +2% excluding Sakana's ¥31B Series D. Rounds of ¥50B+ rose from 4 to 9 while smaller rounds fell 1%. AI seed-to-pre-A median is ¥160M versus ¥150M overall. October: The Phage ¥570M.",
+        "now": "Gap: Japan has no AI premium at seed, unlike the US, so early AI-native competition in regulated verticals is thin. Caveat: data runs to July 22 and the median comes from a secondary blog.",
+        "future": "Watch Q3 totals and any foreign funds entering the thin seed-to-A layer. Medical, health data and billing verticals look cheap to enter."
+      },
+      "sources": [
+        {
+          "name": "Speeda Startup Research",
+          "title": "総額増の裏で深まる選別――2026年上半期スタートアップ資金調達動向",
+          "url": "https://initial.inc/articles/japan-startup-finance-2026h1"
+        },
+        {
+          "name": "TheCXO (note)",
+          "title": "AI系スタートアップの資金調達2026｜増えたのは大型案件、AIの中央値は全体並み",
+          "url": "https://note.com/thecxo/n/n7831c2a1464a"
+        },
+        {
+          "name": "The Bridge",
+          "title": "The Phage Raises ¥570 Million to Predict Postprandial Blood Glucose Fluctuations with AI—Forms Capital and Business Alliance with Tokio Marine",
+          "url": "https://thebridge.jp/en/2026/10/the-phage-raises-%C2%A5570-million-to-predict-postprandial-blood-glucose-fluctuations-with-ai-forms-capital-and-business-alliance-with-tokio-marine"
+        }
+      ],
+      "tags": [
+        "VC",
+        "Seed",
+        "Vertical AI",
+        "Sakana"
+      ]
+    }
+  ]
+}

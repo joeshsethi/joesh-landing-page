@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T20:06:35.000Z",
+  "generatedAt": "2026-10-26T20:20:00.000Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Mon · Oct 26 2026",
-    "editionLine": "EDITION No.532 · SYNCED 05:06 JST",
+    "dateLabel": "Tue · Oct 27 2026",
+    "editionLine": "EDITION No.533 · SYNCED 05:20 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Today's throughline: the binding constraint on AI is moving from chips and models to power, customers and trust, while open Chinese weights and efficiency labs reprice the frontier.",
-    "briefingTitle": "Kimi K3.1 Closes on Opus 5.5, Flapping Airplanes Raises $1B Pre-Product, and Rapidus Still Has No Customer",
-    "summary": "The constraint is shifting from supply to demand and delivery. Moonshot's Kimi K3.1 Pro nearly matches Anthropic's best on a third-party index with open weights promised, while a pre-product lab raises $1B on the idea of needing less compute. Meanwhile grid delays cost Nscale its Microsoft site, and in Japan Rapidus gets another ¥400B of state equity but still names no 2nm buyer. Japan's openings are in software and ecosystem layers: agents, connectors, and design services.",
+    "intro": "Today's throughline: the cost of running agents is falling while the physical limits of power, skilled labour and fab capacity keep tightening.",
+    "briefingTitle": "GPT-6.1 Terra Halves Agent Costs, Amazon's GPUs Wait for Power, and Japan's Kumamoto 3nm Arrives Small",
+    "summary": "Software is getting cheaper to run while the physical world sets the pace. OpenAI's Terra cuts agent prices to $1/$5 per million tokens, yet Amazon reportedly holds about $5B of GB300 racks it cannot power. Capital is moving to physical-world retrofits and agent auditing at seed. In Japan, METI's 3nm approval for TSMC Kumamoto comes with a fraction of planned volume, and a government LLM bake-off may decide domestic models.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 22 sources"
+    "footerRight": "9 stories · 23 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
       "jp": 34,
       "frontier": 95,
-      "note": "Unchanged — Sakana moves up-stack into enterprise agents (Aquarium) while Kimi K3.1 shows open frontier-class weights arriving from China, not Japan."
+      "note": "Unchanged — Gennai is testing 32B-class domestic models against foreign ones, while open Chinese and US weights (Kimi, Muse Spark Open) arrive at frontier scale."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
       "jp": 17,
       "frontier": 99,
-      "note": "Unchanged — a $1B pre-product raise in SF and a Sequoia-led $66M Series C in a day; TOKIUM's IPO prices at about ¥16.8B."
+      "note": "Unchanged — Bedrock's $600M and Tenstorrent's $1.5B in one week versus Japan's H1 growth of about 2% ex-Sakana and a ¥1.27B chip round."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
-      "jp": 32,
+      "jp": 33,
       "frontier": 96,
-      "note": "Up 1 — METI approved TSMC Kumamoto 3nm and signalled ¥400B more for Rapidus, but Rapidus still has no named 2nm customer."
+      "note": "Up 1 — METI cleared TSMC Kumamoto 3nm, but at 6,000 wafers/month and Dec 2028, with Rapidus still lacking a named 2nm customer."
     },
     {
       "label": "Early-stage AI venture formation",
       "jp": 29,
       "frontier": 92,
-      "note": "Unchanged — Meta's Muse lands in Japan first outside North America with local connectors, a gap domestic agent startups have not filled."
+      "note": "Unchanged — Japan's seed AI median (¥160M) shows no AI premium; US seeds like Asymptote's $5.5M target new categories such as agent auditing."
     }
   ],
   "items": [
@@ -43,307 +43,311 @@
       "id": "g1",
       "region": "global",
       "cat": "launches",
-      "source": "VentureBeat",
-      "time": "Oct 23",
-      "headline": "Kimi K3.1 Pro Lands Within Three Points of Claude Opus 5.5 on the Artificial Analysis Index, With Open Weights Promised for Nov 4",
-      "dek": "Moonshot's 2.8T-parameter model costs $2/$10 per million tokens, and its hacking skills were deliberately weakened before release.",
+      "source": "9to5Mac",
+      "time": "Oct 26",
+      "headline": "OpenAI Ships GPT-6.1 Terra at $1/$5 per Million Tokens, Half of Sol's Price, Aimed at Cheap Computer-Use Agents",
+      "dek": "A mid-tier model targets the volume end of agent work, and Artificial Analysis reports a big drop in confident guessing.",
       "analysis": {
-        "happening": "Moonshot released Kimi K3.1 Pro on Oct 23: 2.8T parameters, 104B active, 1M context. Reports put it at 55 on the Artificial Analysis index, up 11 points on K3, behind Opus 5.5 (58) and Sonnet 5.5 (56).",
-        "now": "If weights ship as promised, it becomes the top open-weight model, a self-hosting option and a pricing lever on closed APIs. Caveat: scores are third-party tracker figures, and the paid-influencer allegations are unresolved.",
-        "future": "Watch whether weights appear by Nov 4, under what licence, and whether Japanese enterprises start evaluating Chinese open weights."
+        "happening": "Terra is live in ChatGPT, Codex and the API: $1 input, $0.05 cached, $5 output per million tokens, ~1.05M context. Artificial Analysis puts it 4 points below Sol and says it guesses 38% of the time when unsure, versus 88% for GPT-5.6 Terra.",
+        "now": "Cost per computer-use task decides which always-on agents are affordable. Caveats: the 3x speed claim is OpenAI's own timing, and Terra trails Sol on coding and Terminal-Bench.",
+        "future": "Watch whether Anthropic and Google answer with cheaper tiers, and for two weeks of real-world computer-use reliability reports."
       },
       "sources": [
         {
-          "name": "VentureBeat",
-          "title": "Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations",
-          "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations"
+          "name": "9to5Mac",
+          "title": "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model",
+          "url": "https://9to5mac.com/2026/10/26/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-1-terra-model/"
         },
         {
-          "name": "The Decoder",
-          "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
-          "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/"
+          "name": "AI Weekly",
+          "title": "OpenAI Ships GPT-6.1 Terra at $1/$5 Per Million, Half of Sol",
+          "url": "https://aiweekly.co/alerts/openai-ships-gpt-61-terra-with-computer-use-at-scale-at-1-input5-output-per"
         },
         {
-          "name": "Notebookcheck",
-          "title": "Kimi K3.1 Pro: Free to try, hacking skills deliberately weakened",
-          "url": "https://www.notebookcheck.net/Kimi-K3-1-Pro-Free-to-try-hacking-skills-deliberately-weakened.1433507.0.html"
+          "name": "OpenAI Developer Community",
+          "title": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price - Announcements",
+          "url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900"
         }
       ],
       "tags": [
-        "Moonshot",
-        "Open weights",
-        "China",
-        "Benchmarks"
+        "OpenAI",
+        "Pricing",
+        "Computer use"
       ]
     },
     {
       "id": "g2",
       "region": "global",
       "cat": "funding",
-      "source": "The Next Web",
-      "time": "Oct 21",
-      "headline": "Flapping Airplanes, a One-Year-Old Pre-Product Lab, Raises $1B at $6B From Index and Lux to Train Models on Less Data and Compute",
-      "dek": "Top-tier money is now pricing an efficiency research thesis, quadrupling the lab's valuation since a January seed.",
+      "source": "TechCrunch",
+      "time": "Oct 26",
+      "headline": "Bedrock Robotics Raises $600M at $4.1B for Retrofit Self-Driving Excavators, Eight Months After a $1.75B Valuation",
+      "dek": "CapitalG and Emergence co-lead a kit-not-new-machine bet on construction's operator shortage.",
       "analysis": {
-        "happening": "Index Ventures and Lux Capital led $1B at a reported $6B valuation; Sequoia, GV, Kleiner Perkins and Nvidia joined. January's $180M seed implied about $1.5B. The lab has no product, revenue or published results.",
-        "now": "Efficiency per chip and per data point is the funded gap, not another chatbot. Caveat: figures are Bloomberg-relayed, and one outlet's 'Series A' label appears nowhere else.",
-        "future": "Watch for first technical results or a paper, any Nvidia commercial tie-up, and rival efficiency labs closing at similar marks."
+        "happening": "Bedrock's $600M Series C is co-led by CapitalG and Emergence Capital; Bessemer, Temasek and USIT are new, while 8VC, Valor, Georgian and Nvidia return. Nearly $1B raised since 2024. Excavators moved from pilots to commercial sites about two months ago.",
+        "now": "The thesis is retrofit: sell a kit to existing fleets facing a skilled-operator shortage. Caveat: revenue is undisclosed and a few live sites are thin support for a $4.1B mark.",
+        "future": "Watch revenue per machine and kit attach rates. Retrofit autonomy for mining, farming and Japan's ageing operator base is open ground."
       },
       "sources": [
         {
-          "name": "The Next Web",
-          "title": "AI lab Flapping Airplanes is now worth $6B, four times its January value",
-          "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation"
+          "name": "TechCrunch",
+          "title": "This startup's self-driving excavators help dig up $600M in new funding",
+          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/"
         },
         {
-          "name": "AI Weekly",
-          "title": "Flapping Airplanes Lands $1B at $6B From Index and Lux, Four Times Its January Seed Valuation",
-          "url": "https://aiweekly.co/alerts/flapping-airplanes-lands-1b-at-6b-from-index-and-lux-four-times-its-january"
+          "name": "SiliconANGLE",
+          "title": "Bedrock Robotics raises $270M to scale autonomous construction fleets",
+          "url": "https://siliconangle.com/2026/02/04/bedrock-robotics-raises-270m-scale-autonomous-construction-fleets/"
         }
       ],
       "tags": [
-        "Neolab",
-        "Index Ventures",
-        "Lux Capital",
-        "San Francisco"
+        "Robotics",
+        "Series C",
+        "CapitalG",
+        "Construction"
       ]
     },
     {
       "id": "g3",
       "region": "global",
-      "cat": "funding",
-      "source": "Dealroom News",
-      "time": "Oct 21",
-      "headline": "Blacksmith Doubles to a $1B Valuation in Two Months on a Sequoia-Led $66M Series C, Selling Faster CI for AI-Written Code",
-      "dek": "As AI writes more code, validating it becomes the bottleneck, and investors are paying up for the plumbing.",
+      "cat": "hardware",
+      "source": "LetsDataScience",
+      "time": "Oct 20-26",
+      "headline": "Amazon Is Reportedly Warehousing About $5B of Nvidia GB300 Racks It Cannot Yet Power, With About $3B More Arriving Monthly",
+      "dek": "Power, not chips, is the binding constraint: purchased GPUs sit dark while capex runs near $220B.",
       "analysis": {
-        "happening": "Sequoia led $66M at $1B, up from $550M about two months ago; Premji joined, GV and YC remain. Company-reported: CI jobs rose from 5M to 90M+ per week since January, ARR up 17x to 'tens of millions'.",
-        "now": "Picks-and-shovels behind Cursor, Codex and Claude Code: build and test load scales with generated code. Caveat: all traction figures are company-supplied and GitHub Actions competes directly.",
-        "future": "Watch GitHub and CircleCI pricing responses, and seed-stage test generation, review and sandboxing startups in the same gap."
+        "happening": "Business Insider reportedly found AWS staged ~$5B of GB300 racks in intermediary warehouses because some sites lack power to energize them, with ~$3B more per month projected in an internal email. Amazon's capex plan is cited near $220B this year.",
+        "now": "Dark GPUs mean depreciation without revenue, an under-quoted risk to Nvidia backlog quality. Caveat: figures are from secondary coverage of the original, and Amazon reportedly disputes the framing.",
+        "future": "Watch Amazon's Q3 call for capex and free-cash-flow language. Opportunity: power-ready sites, on-site generation, staging tooling."
       },
       "sources": [
         {
-          "name": "AI Weekly",
-          "title": "Blacksmith Doubles to $1B on Sequoia-Led $66M Series C",
-          "url": "https://aiweekly.co/alerts/blacksmith-doubles-to-1b-on-sequoia-led-66m-series-c"
+          "name": "LetsDataScience",
+          "title": "Amazon Stockpiles Nvidia GB300 Racks Some AWS Sites Cannot Yet Power",
+          "url": "https://letsdatascience.com/news/amazon-stockpiles-nvidia-gb300-racks-some-aws-sites-cannot-y-c2433f7d"
         },
         {
-          "name": "Dealroom News",
-          "title": "Blacksmith hits $1B valuation with $66M Series C led by Sequoia",
-          "url": "https://dealroom.co/news/164699-blacksmith-hits-1b-valuation-with-66m-series-c-led-by-sequoia/"
+          "name": "Digital Today",
+          "title": "amazon hamstrung by power shortages as trillion won nvidia servers sit in warehouses",
+          "url": "https://www.digitaltoday.co.kr/en/view/117294/amazon-hamstrung-by-power-shortages-as-trillion-won-nvidia-servers-sit-in-warehouses"
+        },
+        {
+          "name": "Crypto Briefing",
+          "title": "Amazon has billions in Nvidia hardware waiting on power that isn't there yet",
+          "url": "https://cryptobriefing.com/amazon-nvidia-chips-idle-data-center-power/"
         }
       ],
       "tags": [
-        "Sequoia",
-        "Dev tools",
-        "AI coding",
-        "Infrastructure"
+        "Amazon",
+        "Nvidia",
+        "Power",
+        "Capex"
       ]
     },
     {
       "id": "g4",
       "region": "global",
-      "cat": "hardware",
-      "source": "Data Center Knowledge",
-      "time": "Oct 18",
-      "headline": "Microsoft Reportedly Walks From Nscale's UK Site Because Grid Power Slips to the 2030s, Days Before Nscale's US IPO",
-      "dek": "A 50 MW anchor-tenant exit shows grid queue time, not GPU supply, can break a neocloud's story.",
+      "cat": "funding",
+      "source": "TheNextWeb",
+      "time": "Oct 20",
+      "headline": "NYC's Asymptote Labs Raises a $5.5M Seed Led by Tower Research Ventures to Audit Coding Agents, Starting With a Free Open-Source Tool",
+      "dek": "Beacon logs what Claude Code, Codex and Cursor actually do; the paid platform blocks risky actions.",
       "analysis": {
-        "happening": "The Telegraph reports Microsoft exited Nscale's Essex campus (50 MW, expandable to 90 MW). UK Power Networks reportedly said power would arrive in the early-to-mid 2030s, not end-2026. Nscale's filing cites a $103.4B backlog, with Microsoft and Anthropic ~85% of contracts.",
-        "now": "Backlog is only as good as the grid connections behind it, and concentration magnifies one lost site. Caveat: Microsoft gave no reason, and Nscale says other contracts are unaffected.",
-        "future": "Watch Nscale's IPO pricing as a read on the neocloud funding window. Fast-power developers have an opening, in the UK and in Japan's queues alike."
+        "happening": "Asymptote Labs, founded by ex-Doppel engineers, raised a $5.5M seed led by Tower Research Ventures with Lytical, 1984 Ventures and South Park Commons. Open-source Beacon logs prompts, commands and file edits across 20+ agent tools; a paid platform adds blocking.",
+        "now": "Open-source adoption first, enterprise control layer second is the emerging agent-security playbook. Caveat: valuation and customers are undisclosed, and the round predates this window slightly.",
+        "future": "Watch Beacon's GitHub traction and whether Anthropic, OpenAI or Cursor ship native audit logs. A Japan-localized compliance layer is open."
       },
       "sources": [
         {
-          "name": "Data Center Knowledge",
-          "title": "Nscale Loses Microsoft Deal as Power Delays Threaten AI",
-          "url": "https://datacenterknowledge.com/build-design/microsoft-exits-nscale-data-center-deal-over-uk-power-delays"
+          "name": "TheNextWeb",
+          "title": "Asymptote Labs raises $5.5M to track and control what AI agents do",
+          "url": "https://thenextweb.com/news/asymptote-labs-5-5m-seed-ai-agent-security"
         },
         {
-          "name": "investingLive",
-          "title": "Microsoft quits Nscale UK data centre deal ahead of planned $3 billion IPO",
-          "url": "https://investinglive.com/stocks/microsoft-quits-nscale-uk-data-centre-deal-ahead-of-planned-3-billion-ipo"
-        },
-        {
-          "name": "Computing",
-          "title": "Microsoft pulls out of Nscale deal, putting $35bn IPO at risk",
-          "url": "https://computing.co.uk/news/2026/ai/microsoft-exits-nscale-deal-ipo-at-risk"
+          "name": "SecurityWeek",
+          "title": "Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security",
+          "url": "https://securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security"
         }
       ],
       "tags": [
-        "Nscale",
-        "Neocloud",
-        "IPO",
-        "Grid"
+        "Seed",
+        "Agent security",
+        "Open source",
+        "New York"
       ]
     },
     {
       "id": "g5",
       "region": "global",
       "cat": "launches",
-      "source": "GitHub / Hacker News",
-      "time": "Oct 23",
-      "headline": "Omnara, a Self-Hostable Apache-2.0 Clone of Claude Managed Agents, Hits About 3.3k GitHub Stars Days After a Show HN",
-      "dek": "Agent state lives in your own Postgres event log and runs on any model, so 'managed agents' becomes something a solo builder can host rather than rent.",
+      "source": "TechNode",
+      "time": "Oct 21",
+      "headline": "DeepSeek Open-Sources DeepInfer, the Production Inference Engine for V4.1-Flash, Under Apache 2.0 With Nvidia and Huawei Ascend Support",
+      "dek": "Solo builders can now read how a frontier-class MoE model is really served, though the release is partial.",
       "analysis": {
-        "happening": "Omnara's Show HN reached about 110 points. The repo has roughly 3.3k stars under Apache 2.0: an API, stateless workers, an outbound-only machine daemon and a Postgres event log. It supports OpenAI, Anthropic, Bedrock and Ollama, plus Slack, GitHub and cron.",
-        "now": "Host and customise your own agent runtime; Bedrock support suits an AWS-fluent builder. Caveats: the README calls local defaults 'intentionally insecure', and the parity claim is the author's own.",
-        "future": "Watch for a first tagged release, a hosted-Omnara business, and any lab response on pricing or portability."
+        "happening": "DeepSeek released DeepInfer on Oct 20 under Apache 2.0, running on Nvidia SM100 GPUs and Huawei Ascend 950 NPUs; it supports only V4.1-Flash-1017. One aggregator reported 14,000+ GitHub stars within a day.",
+        "now": "A useful reference for speculative decoding and structured-output kernels. Caveat: one report says KV-cache management, prefill/decode disaggregation and load balancing are omitted, so it is not a full serving stack; performance figures are self-reported.",
+        "future": "Watch independent benchmarks, community ports to other models, and whether Ascend support makes non-Nvidia self-hosting practical outside China."
       },
       "sources": [
         {
+          "name": "AI Business",
+          "title": "DeepSeek makes DeepInfer open source to cut AI costs",
+          "url": "https://aibusiness.com/generative-ai/deepseek-makes-deepinfer-open-source-cut-ai-costs"
+        },
+        {
+          "name": "TechNode",
+          "title": "deepseek open sources inference framework with support for nvidia and huawei chips",
+          "url": "https://technode.com/2026/10/21/deepseek-open-sources-inference-framework-with-support-for-nvidia-and-huawei-chips/"
+        },
+        {
           "name": "GitHub",
-          "title": "omnara-ai/omnara",
-          "url": "https://github.com/omnara-ai/omnara"
-        },
-        {
-          "name": "Hacker News",
-          "title": "Omnara (HN item)",
-          "url": "https://news.ycombinator.com/item?id=50183892"
-        },
-        {
-          "name": "munderdiffl.in",
-          "title": "Agent Tools Today (23 Oct 2026): Launches, Skills, MCP Servers",
-          "url": "https://munderdiffl.in/blog/agent-tools-today-2026-10-23/"
+          "title": "deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
         }
       ],
       "tags": [
-        "Agents",
         "Open source",
-        "Self-hosted"
+        "Inference",
+        "DeepSeek"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
       "cat": "hardware",
-      "source": "DIGITIMES",
-      "time": "Oct 21",
-      "headline": "Japan Plans Another ¥400B Equity Injection for Rapidus (FY2027-29) as It Signs 17 Design Partners but Still Names No 2nm Customer",
-      "dek": "The state is now Rapidus's anchor investor and sales-support function, while the order book is still empty.",
+      "source": "Digitimes",
+      "time": "Oct 16-19",
+      "headline": "METI Clears TSMC's Kumamoto Fab 2 for 3nm, but at Only 6,000 Wafers a Month and First Shipments in Dec 2028",
+      "dek": "Japan gets its first 3nm logic fab at one-eighth of the 2024 plan's volume and about a year behind Arizona.",
       "analysis": {
-        "happening": "METI signalled a further ~¥400B (~$2.5B) for FY2027-29 to reach 2nm mass production in 2H FY2027. On Oct 7 Rapidus signed 17 design partners, including Synopsys, Cadence, DNP and Toppan. Chairman Higashi says it is 'broadly on track'.",
-        "now": "Gap: TSMC already ships 2nm-class volume and Japan has no named Rapidus buyer. Caveat: the ¥400B is a budget request and lender loan intents (~¥2T) are non-binding. Opening: design-service and IP work around the 17-firm ecosystem.",
-        "future": "Watch for the first named customer, the December budget, and signed bank loans. A customer-less 2H27 start is the real risk."
+        "happening": "On Oct 16 METI approved JASM's revised Fab 2 plan: 3nm logic at 6,000 wafers/month, down from 48,000 at 6-12nm. Reported subsidy cap falls from ¥732B to ¥645B. Commercial output targets Dec 2028; Fab 1 shifts to 22-28nm.",
+        "now": "Gap: Japan finally hosts a leading-edge node, but tiny volume (reportedly EUV-tool limited) and no named customer. The ¥645B figure rests on one secondary source; check METI's release.",
+        "future": "Watch the FY2027 budget top-up and customer names. Opening: packaging, materials and EUV-adjacent suppliers around Kumamoto."
       },
       "sources": [
         {
-          "name": "DIGITIMES",
-          "title": "Japan plans JPY400 billion boost for Rapidus 2nm push",
-          "url": "https://www.digitimes.com/news/a20261020PD240/rapidus-2nm-2027-government-investment.html"
+          "name": "Digitimes",
+          "title": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to $4.1 billion in aid",
+          "url": "https://www.digitimes.com/news/a20261017VL200/fab-tsmc-chips-kumamoto-production.html"
         },
         {
-          "name": "DIGITIMES",
-          "title": "Rapidus courts US AI customers ahead of planned 2H27 2nm mass production",
-          "url": "https://www.digitimes.com/news/a20261023PD228/rapidus-production-2nm-chairman-investment.html"
-        },
-        {
-          "name": "The Next Web",
-          "title": "Japan's Rapidus teams up with 17 firms to win customers for 2nm chips",
-          "url": "https://thenextweb.com/news/rapidus-17-design-partners-2nm-customers"
+          "name": "Tech Times",
+          "title": "Japan Clears TSMC Kumamoto for 3nm Chip Production; EUV Scarcity Caps Output at 6,000 Wafers",
+          "url": "https://www.techtimes.com/articles/329216/20261019/japan-clears-tsmc-kumamoto-3nm-chip-production-euv-scarcity-caps-output-6000-wafers.htm"
         }
       ],
       "tags": [
-        "Rapidus",
-        "2nm",
-        "METI",
-        "Semiconductors"
+        "TSMC",
+        "Kumamoto",
+        "3nm",
+        "METI"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
       "cat": "launches",
-      "source": "Sakana AI",
-      "time": "Oct 23",
-      "headline": "Sakana AI Launches 'Aquarium', an Ontology-Based Enterprise Agent Platform, Days Before a Tokyo World-Models Symposium",
-      "dek": "Japan's best-funded lab is moving from models into a Palantir-style layer for regulated firms, with no named customers yet.",
+      "source": "ITmedia AI+",
+      "time": "Oct 20-21",
+      "headline": "Japan's Government AI 'Gennai' Is Blind A/B-Testing Domestic LLMs Against Foreign Models, With a 2027 Procurement Call Due in November",
+      "dek": "A captive public-sector market decides which Japanese models get paid contracts from April 2027.",
       "analysis": {
-        "happening": "Sakana announced Aquarium on Oct 23: an ontology layer linking data without moving it, plus governance (access rights, pre-execution approvals, audit trail) and managed agents with human sign-off. Prior finance projects include MUFG, SMBC and Daiwa. A Tokyo symposium with Schmidhuber follows Oct 26.",
-        "now": "Gap: the US has Palantir AIP and lab agent stacks; Japan has no domestic equivalent at scale, and regulated banks may prefer a local vendor. Caveat: no pricing, date or customers, and the Palantir comparison is our read.",
-        "future": "Watch for the first named customer and whether the bank projects move onto Aquarium."
+        "happening": "Five domestic models are on trial: tsuzumi 2, Sarashina3 mini, cotomi v3, Takane 32B and PLaMo 2.0 Prime, three on Sakura Cloud, in blind A/B tests Sep-Nov. A November call (300 questions, 35 criteria, one model per firm) feeds paid use from April 2027 across ~180,000 civil servants.",
+        "now": "Gap: this anchor-customer lever has no US-lab equivalent in Japan, but the models are mostly 32B-class, so frontier parity is unproven. The foreign comparison model is unnamed and results are unpublished.",
+        "future": "Partial results are expected around Jan 2027. Japanese-language agent and tool-use evaluation tooling is an explicit requirement."
       },
       "sources": [
         {
-          "name": "Sakana AI",
-          "title": "オントロジーを基盤に、意思決定・実行を支援するAIエージェントプラットフォーム「Sakana Aquarium」",
-          "url": "https://sakana.ai/aquarium-release/"
+          "name": "ISSOH",
+          "title": "国産AI7モデルから5社が試用へ｜デジタル庁「源内」の国産LLM比較と2027年度公募【2026年10月】",
+          "url": "https://www.issoh.co.jp/tech/details/11305/"
         },
         {
-          "name": "Digg",
-          "title": "Sakana AI plans Tokyo symposium on world models and physical AI for October 26",
-          "url": "https://digg.com/ai/yocry6w6"
+          "name": "ITmedia AI+",
+          "title": "デジタル庁、tsuzumiなど国産AIを「さくらのクラウド」で稼働　「日本の自律性確保」目指す",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000182/"
+        },
+        {
+          "name": "ITmedia AI+",
+          "title": "“政府認定AI”選定へ デジタル庁、国産7モデルを検証 全府省庁18万人に展開",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2603/06/1260306097/"
         }
       ],
       "tags": [
-        "Sakana AI",
-        "Agents",
-        "Ontology",
-        "Finance"
+        "Digital Agency",
+        "Sovereign LLM",
+        "tsuzumi",
+        "PLaMo"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
-      "cat": "launches",
-      "source": "BRIDGE",
-      "time": "Oct 23",
-      "headline": "Meta Brings Its Muse Personal Agent to Japan, First Outside North America, With Mercari, Money Forward ME and Ticket Pia Hooks",
-      "dek": "A US frontier agent lands in Japan about six weeks after its US launch, wired into local consumer apps from day one.",
+      "cat": "funding",
+      "source": "Tech Startups",
+      "time": "Oct 26",
+      "headline": "Yokohama's Tokyo Artisan Intelligence Raises ¥1.27B in a Series C First Close, Part Equity and Part Mizuho Loan, for Its Own Edge-AI Processor",
+      "dek": "A small fabless startup tries to build a domestic edge-AI chip while Nvidia owns the datacenter.",
       "analysis": {
-        "happening": "Meta launched Muse in Japan on Oct 23 on iOS, Android and web, six weeks after its Sept 8 US debut. It sends email, books travel and fills forms, asking approval before sending or buying. Basic features are free; paid pricing is undisclosed.",
-        "now": "The time gap is small; the ecosystem gap is large: Japan has no domestic consumer agent of comparable reach, and local connectors are the moat. Caveat: voice and avatar features are not yet available in Japan.",
-        "future": "Opening: agent-ready APIs for Japanese services (convenience stores, rail, municipal forms). Watch LINE and Rakuten responses."
+        "happening": "The first stage of its Series C mixes equity (Mitsui Sumitomo Insurance VC, Watakyu, Tokyo Keiki, ADT) with a Mizuho Bank loan. Funds go to the Manta Ray architecture and StingRay evaluation chip. It raised ¥1.11B in Series B in June 2025.",
+        "now": "Gap: Japan's AI-chip startups are funded in single-digit billions of yen versus billions of dollars in the US. Industrial and rail backers point to infrastructure edge AI. Caveat: the equity/debt split is undisclosed and I found one 2026 source.",
+        "future": "Watch final close size, a production-chip tape-out date and rail or factory customer commitments."
       },
       "sources": [
         {
-          "name": "BRIDGE",
-          "title": "Meta、利用者に代わって作業を進めるAIエージェント「Muse」を日本で提供開始、北米以外で初",
-          "url": "https://thebridge.jp/2026/10/meta-muse-personal-ai-agent-japan-launch"
+          "name": "Tech Startups",
+          "title": "Startup Funding News Today, October 26, 2026: Ailytics, Approaching.AI, CASBOT, Volare & More",
+          "url": "https://techstartups.com/2026/10/26/startup-funding-news-today-october-26-2026-ailytics-approaching-ai-casbot-volare-more/"
         },
         {
-          "name": "AIsmiley",
-          "title": "Meta personal AI agent Muse (US launch background)",
-          "url": "https://aismiley.co.jp/ai_news/meta-personal-ai-agent-muse/"
+          "name": "The Bridge",
+          "title": "Tokyo Artisan Intelligence、エッジAIチップ量産へ11億円調達",
+          "url": "https://thebridge.jp/2025/06/tokyo-artisan-intelligence-raises-1-1-billion-yen-to-mass-produce-edge-ai-chips"
         }
       ],
       "tags": [
-        "Meta",
-        "Agents",
-        "Consumer AI",
-        "Japan launch"
+        "Edge AI",
+        "AI chips",
+        "Series C",
+        "Mizuho"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
       "cat": "funding",
-      "source": "BRIDGE",
-      "time": "Oct 22",
-      "headline": "Accounting-Agent Startup TOKIUM Is Approved for a TSE Growth IPO on Nov 25 at a Roughly ¥16.8B Expected Market Cap",
-      "dek": "One of Japan's few listed 'AI agent' plays is tiny by US standards and still leans on human operators.",
+      "source": "Speeda (Initial)",
+      "time": "H1 2026 data",
+      "headline": "Strip Out Sakana's ¥31B and Japan's H1 2026 Startup Funding Grew Just 2%; the Seed-to-Pre-A AI Median Is ¥160M, Barely Above All Sectors",
+      "dek": "Money is concentrating in a few big rounds, while October's early AI deals are small vertical plays.",
       "analysis": {
-        "happening": "TOKIUM (664A) won listing approval on Oct 16 and lists Nov 25. Indicative price ¥1,620 implies about ¥16.84B market cap. Revenue for the year to May 2026 was ¥5.97B (+29.7%), back to operating profit. Holders include Nissay Capital, Jafco and JIC.",
-        "now": "Gap: roughly $110M of value for an end-to-end accounting agent, a fraction of US agent valuations, blended with human operators. Caveat: the price is indicative and bookbuilding (Nov 9-13) could move it.",
-        "future": "Watch Nov 16 pricing and first-day trading as a read on appetite for Japanese AI listings. Pitch angle: tax, payroll and procurement with the same agent-plus-human model."
+        "happening": "H1 2026 funding was ¥377.9B (+12% YoY), about +2% excluding Sakana's ¥31B Series D. Rounds of ¥50B+ rose from 4 to 9 while smaller rounds fell 1%. AI seed-to-pre-A median is ¥160M versus ¥150M overall. October: The Phage ¥570M.",
+        "now": "Gap: Japan has no AI premium at seed, unlike the US, so early AI-native competition in regulated verticals is thin. Caveat: data runs to July 22 and the median comes from a secondary blog.",
+        "future": "Watch Q3 totals and any foreign funds entering the thin seed-to-A layer. Medical, health data and billing verticals look cheap to enter."
       },
       "sources": [
         {
-          "name": "BRIDGE",
-          "title": "経理AIエージェントのTOKIUM、東証グロース上場へ——想定時価総額は約168.4億円",
-          "url": "https://thebridge.jp/2026/10/tokium-tse-growth-ipo-approved"
+          "name": "Speeda Startup Research",
+          "title": "総額増の裏で深まる選別――2026年上半期スタートアップ資金調達動向",
+          "url": "https://initial.inc/articles/japan-startup-finance-2026h1"
         },
         {
-          "name": "Traders Web",
-          "title": "664A TOKIUM IPO page",
-          "url": "https://www.traders.co.jp/ipo/664A"
+          "name": "TheCXO (note)",
+          "title": "AI系スタートアップの資金調達2026｜増えたのは大型案件、AIの中央値は全体並み",
+          "url": "https://note.com/thecxo/n/n7831c2a1464a"
+        },
+        {
+          "name": "The Bridge",
+          "title": "The Phage Raises ¥570 Million to Predict Postprandial Blood Glucose Fluctuations with AI—Forms Capital and Business Alliance with Tokio Marine",
+          "url": "https://thebridge.jp/en/2026/10/the-phage-raises-%C2%A5570-million-to-predict-postprandial-blood-glucose-fluctuations-with-ai-forms-capital-and-business-alliance-with-tokio-marine"
         }
       ],
       "tags": [
-        "IPO",
-        "TOKIUM",
-        "AI agents",
-        "TSE Growth"
+        "VC",
+        "Seed",
+        "Vertical AI",
+        "Sakana"
       ]
     }
   ]
