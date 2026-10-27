@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27T20:08:33Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Wed · Oct 28 2026",
+    "editionLine": "EDITION No.534 · SYNCED 05:15 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "Today's throughline: capital is chasing efficiency, infrastructure and financing structures, while Japan answers with sovereign pretraining and imported compute.",
+    "briefingTitle": "Flapping Airplanes Raises $1B on Pure Research, SpaceX Borrows for GPUs, and Sakana Starts Pretraining at Home",
+    "summary": "Money is moving to the layers around the models. Flapping Airplanes raised $1B on a data-efficiency thesis with no product, SpaceX is reportedly seeking $40B of debt to buy Nvidia chips, and Daytona hit a $1B valuation selling agent sandboxes. Moonshot's Kimi K3.1 Pro keeps open-weight models near the frontier. In Japan, Sakana will pretrain its own model from November, but Rapidus still lacks a customer and the largest new compute is foreign-lab capacity.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 25 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 35,
+      "frontier": 95,
+      "note": "Up 1 — Sakana's Sawara starts pretraining in November, but the small model is spring 2027 and no compute deal is named, while Kimi K3.1 Pro is already near frontier."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 17,
+      "frontier": 99,
+      "note": "Unchanged — Flapping Airplanes' $1B, Daytona's $60M and a $40B SpaceX debt talk dwarf Flyle's ¥1.88B Series A."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 33,
+      "frontier": 96,
+      "note": "Unchanged — another ¥400B is planned for Rapidus and HCLTech is handling design work, but no customer or yield data exist yet."
+    },
+    {
+      "label": "Early-stage AI venture formation",
+      "jp": 29,
+      "frontier": 92,
+      "note": "Unchanged — US seeds and Series Bs fund new categories such as agent sandboxes, while Japan's rounds cluster in applications like contact centers."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Oct 21",
+      "headline": "Year-Old Flapping Airplanes Raises $1B Series A at $6B, Co-Led by Index and Lux, Four Times Its January Seed Valuation, With No Product on Sale",
+      "dek": "Investors are pricing data-efficient training research as its own asset class, separate from scaling labs.",
+      "analysis": {
+        "happening": "Index Ventures and Lux Capital co-led $1B at about $6B (Bloomberg), versus a $180M seed at $1.5B in January. Sequoia, GV, Kleiner Perkins and Nvidia joined. The lab aims to train models on far less data and compute.",
+        "now": "Money is backing an anti-scaling thesis on research alone. Caveat: no product or revenue, and one aggregator misprints the valuation as $60B; most outlets say $6B.",
+        "future": "Watch for a first paper or model, and which SF/NY funds seed copycat neolabs. A data-efficiency win matters most for data-poor markets such as Japanese-language enterprise."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+          "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/"
+        },
+        {
+          "name": "Bloomberg",
+          "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
+          "url": "https://bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round"
+        },
+        {
+          "name": "The Next Web",
+          "title": "AI lab Flapping Airplanes is now worth $6B, four times its January value",
+          "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation"
+        }
+      ],
+      "tags": [
+        "Neolab",
+        "Index Ventures",
+        "Lux Capital",
+        "Valuation"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "launches",
+      "source": "Let's Data Science",
+      "time": "Oct 23",
+      "headline": "Moonshot's Kimi K3.1 Pro Lands via API at About $2/$10 per Million Tokens, Claims 65.7% on Terminal-Bench 4.0 vs Opus 5.5's 66.4%, Weights Due Nov 4",
+      "dek": "A soon-to-be open-weight model sits within a point of Anthropic's flagship on agentic terminal work, on Moonshot's own numbers.",
+      "analysis": {
+        "happening": "Kimi K3.1 Pro launched Oct 23 with 1M-token context. Moonshot self-reports 65.7% on Terminal-Bench 4.0 (Opus 5.5: 66.4%) and 8.3% hallucination with tools versus 15.0%. Reported pricing is about $2 input and $10 output per million tokens; weights are scheduled for Nov 4.",
+        "now": "An open-weight model near frontier agent quality is a cheap self-host or fine-tune base. Caveat: comparisons are Moonshot's own; Vals.ai ranks it #8 of 27 (62.52%).",
+        "future": "Watch whether weights ship Nov 4 and under what license, independent reruns, and host pricing. Mistral Large 4's weights have already slipped past a reported Oct 27 date."
+      },
+      "sources": [
+        {
+          "name": "Let's Data Science",
+          "title": "Moonshot Releases Kimi K3.1 Pro API, Open Weights Due Nov 4",
+          "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
+        },
+        {
+          "name": "OfficeChai",
+          "title": "Moonshot AI Releases Kimi K3.1 Pro, Beats Opus 5.5, GPT Astra 6 On Some Benchmarks",
+          "url": "https://officechai.com/ai/moonshot-ai-releases-kimi-k3-1-pro-beats-opus-5-5-gpt-astra-6-on-some-benchmarks/"
+        },
+        {
+          "name": "Vals.ai",
+          "title": "Kimi K3.1 Pro",
+          "url": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+        }
+      ],
+      "tags": [
+        "Moonshot",
+        "Open weights",
+        "Agents",
+        "China"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Financial Times via investinglive",
+      "time": "Oct 26",
+      "headline": "SpaceX Reportedly Seeks $40B of Apollo-Led Debt, $30B of It Investment-Grade, to Fund a Nvidia Chip Order",
+      "dek": "The xAI-merged SpaceX is financing GPUs in credit markets rather than with equity, a template other compute buyers can copy.",
+      "analysis": {
+        "happening": "FT-sourced reports say SpaceX wants about $40B led by Apollo: roughly $10B of bank loans plus $30B of investment-grade debt, with Pimco among lenders in talks. Close is expected in 2027. Apollo earlier arranged about $7B of loans for vehicles buying Nvidia chips leased to xAI.",
+        "now": "GPUs are becoming a credit asset class; public read-throughs are private-credit managers and lessors, not only Nvidia. Caveat: talks, not a signed deal, and outlets differ on loan versus lease.",
+        "future": "Watch whether lenders price against GPU residual values and whether neoclouds copy the structure. Builder angle: GPU-collateral underwriting and depreciation tooling."
+      },
+      "sources": [
+        {
+          "name": "investinglive",
+          "title": "SpaceX seeks $40 billion in debt led by Apollo to fund Nvidia chip order, FT says",
+          "url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/"
+        },
+        {
+          "name": "KuCoin Blog",
+          "title": "SpaceX Seeks $40 Billion, Led by Apollo, to Buy Nvidia AI Chips",
+          "url": "https://www.kucoin.com/blog/en-spacex-seeks-40-billion-led-by-apollo-to-buy-nvidia-ai-chips?lang=en_US"
+        }
+      ],
+      "tags": [
+        "Compute financing",
+        "Nvidia",
+        "Private credit"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "funding",
+      "source": "AI Weekly",
+      "time": "Oct 20",
+      "headline": "Daytona Raises $60M Series B at $1B, Led by FirstMark, for Sandboxes Where AI Agents Run Code, Claiming 25x Revenue Growth Since January",
+      "dek": "The picks-and-shovels layer for agents, disposable computers, is minting unicorns within months of a $24M Series A.",
+      "analysis": {
+        "happening": "FirstMark led $60M at a $1B valuation; Daytona raised a $24M Series A in February. Reports say about $50M came from existing investors and cite 25x revenue growth since January. Its sandboxes claim 60 ms startup. AlleyWatch lists it in New York.",
+        "now": "New York funds like FirstMark are concentrating on agent infrastructure. Caveats: HQ varies by outlet, the revenue base is undisclosed, and heavy insider participation softens the price signal.",
+        "future": "Watch big-cloud competition and gross margin on idle CPU capacity. A builder angle is region-local sandboxes with Japan data residency."
+      },
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "title": "Daytona Raises $60M Series B at $1B for AI-Agent CPU Cloud, 25x Revenue Jump Since January",
+          "url": "https://aiweekly.co/alerts/daytona-raises-60m-series-b-at-1b-for-ai-agent-cpu-cloud-25x-revenue-jump-since"
+        },
+        {
+          "name": "Lets Data Science",
+          "title": "Daytona Raises $60M for Agent Cloud Infrastructure",
+          "url": "https://letsdatascience.com/news/daytona-raises-60m-for-agent-cloud-infrastructure-8fc86b36"
+        },
+        {
+          "name": "AlleyWatch",
+          "title": "The Weekly Notable Startup Funding Report: 10/26/26",
+          "url": "https://www.alleywatch.com/2026/10/the-weekly-notable-startup-funding-report-10-26-26/"
+        }
+      ],
+      "tags": [
+        "FirstMark",
+        "Agent infrastructure",
+        "New York",
+        "Series B"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "AI Weekly",
+      "time": "Oct 23",
+      "headline": "Omnara Open-Sources a Self-Hostable 'Managed Agents' Platform Under Apache 2.0, Keeping Agent History in Your Own Postgres",
+      "dek": "A Show HN-born control plane pitched against hosted managed-agent runtimes, with your choice of models and machines.",
+      "analysis": {
+        "happening": "Omnara pivoted from remote coding to agent infrastructure: tools, secrets, permissions, durable state and audit history, self-hosted or via a Railway template. Roundups report a Show HN at 110 points (Oct 21), a release Oct 23, Apache 2.0 and 3,150+ stars.",
+        "now": "Hosted agent runtimes are becoming the lock-in layer; a control plane you own is a solo-buildable alternative. Caveat: star and HN figures are from secondary roundups, and enterprise reliability is unproven.",
+        "future": "Watch for a managed cloud tier and how its permission model holds up in security review. Try it on a small internal agent and compare ops burden with hosted options."
+      },
+      "sources": [
+        {
+          "name": "Agent Tools Today",
+          "title": "Agent Tools Today (23 Oct 2026): Launches, Skills, MCP Servers",
+          "url": "https://munderdiffl.in/blog/agent-tools-today-2026-10-23/"
+        },
+        {
+          "name": "Runtime Wire",
+          "title": "Startup Spotlight: Omnara moved from remote coding to open-source agent infrastructure",
+          "url": "https://runtimewire.com/article/startup-spotlight-omnara-agent-control-plane"
+        },
+        {
+          "name": "Activepieces",
+          "title": "Omnara: Open-Source Claude Managed Agents Alternative",
+          "url": "https://www.activepieces.com/blog/omnara-open-source-claude-managed-agents-alternative.md"
+        }
+      ],
+      "tags": [
+        "Open Source",
+        "Agent Infrastructure",
+        "Self-hosted"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Nikkei Asia",
+      "time": "Oct 26",
+      "headline": "Sakana AI Will Pretrain Its Own Model From Scratch ('Sawara') Starting in November, Aimed at Defense and Cyber Work",
+      "dek": "Japan's largest AI unicorn moves from merging open models to training its own, with a small model due spring 2027.",
+      "analysis": {
+        "happening": "Sakana announced 'Sawara' on Oct 26, its first from-scratch pretraining. Work starts November 2026; a small model ships publicly in spring 2027, then one at several hundred billion parameters. It signed a Defense Ministry demo contract in July.",
+        "now": "Nikkei notes Fugu still relies partly on foreign models, so this is a sovereignty move. The gap is wide: Nikkei contrasts it with Kimi K3.1 Pro's reported 2.8T parameters. No compute figure was given.",
+        "future": "Watch for a GPU or cloud supplier deal and the spring 2027 benchmarks. Opportunity: Japanese-language data, evaluation and secure on-premises deployment tooling."
+      },
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "title": "Japan's Sakana AI to build homegrown model to cut US, China reliance",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sakana-ai-to-build-homegrown-model-to-cut-us-china-reliance"
+        },
+        {
+          "name": "Nikkei",
+          "title": "サカナAIが国産AI開発へ 防衛・サイバーに活用、米中依存リスク排除",
+          "url": "https://www.nikkei.com/article/DGXZQOUC261H80W6A021C2000000/"
+        },
+        {
+          "name": "TokenPost",
+          "title": "Sakana AI Names Sawara as Project for Domestic Model Pretraining",
+          "url": "https://tokenpost.com/news/technology/41413"
+        }
+      ],
+      "tags": [
+        "Sakana AI",
+        "Sovereign AI",
+        "Defense",
+        "Pretraining"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "DIGITIMES",
+      "time": "Oct 21",
+      "headline": "METI Reportedly Plans Another ¥400B for Rapidus, Which Is Also Outsourcing Mask and PDK Work to HCLTech's New India Centers",
+      "dek": "Public money keeps flowing and talent is being imported, but no customer, volume or yield figures are disclosed.",
+      "analysis": {
+        "happening": "DIGITIMES reports a further ¥400B (about $2.5B) for Rapidus across FY2027-29, with 2nm mass production targeted for 2H27 and US AI firms as likely first customers. On Oct 26 Rapidus and HCLTech announced Bengaluru and Hubli centers for mask, PDK and layout work.",
+        "now": "TSMC already ships 2nm at volume, so Rapidus is a year or more behind with no named customer. The ¥400B is a plan, not an enacted budget, and DIGITIMES is paywalled past the first paragraph.",
+        "future": "Watch the FY2027 budget request and the first named customer. Opportunity: design services, IP and engineering-talent pipelines for a foundry lacking TSMC's ecosystem."
+      },
+      "sources": [
+        {
+          "name": "DIGITIMES",
+          "title": "Japan plans JPY400 billion boost for Rapidus 2nm push",
+          "url": "https://www.digitimes.com/news/a20261020PD240/rapidus-2nm-2027-government-investment.html"
+        },
+        {
+          "name": "DIGITIMES",
+          "title": "Rapidus courts US AI customers ahead of planned 2H27 2nm mass production",
+          "url": "https://www.digitimes.com/news/a20261023PD228/rapidus-production-2nm-chairman-investment.html"
+        },
+        {
+          "name": "Rapidus",
+          "title": "Rapidus and HCLTech announce partnership for next-generation semiconductor technologies",
+          "url": "https://www.rapidus.inc/en/news_topics/information/20261026-2/"
+        }
+      ],
+      "tags": [
+        "Rapidus",
+        "METI",
+        "2nm",
+        "Talent"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Nikkei Asia",
+      "time": "Oct 13",
+      "headline": "NTT Data Reportedly in Final Talks on a $6.3B Osaka Data Center for Anthropic, While JERA, Dell and RHAELM Sign a Non-Binding $15B Chiba AI Campus Pact",
+      "dek": "The big money entering Japan's AI infrastructure is foreign-lab demand and utility land, not domestic models.",
+      "analysis": {
+        "happening": "Nikkei Asia reports NTT Data is in final-stage talks to build an Osaka data center for Anthropic, estimated at $6.3B and partly open by 2028. Separately, JERA, Dell and RHAELM signed a non-binding agreement around Oct 1-2 for a roughly $15B AI campus at a Chiba power-station site.",
+        "now": "Both are unconfirmed: the Anthropic deal rests on unnamed sources and the JERA pact is non-binding. Japan is positioning as host for US-lab capacity while Sakana and Noetra still lack comparable compute.",
+        "future": "Watch for a signed NTT deal and grid-connection rules. Opportunity: power, liquid-cooling and operations suppliers, plus Japanese-language enterprise services on local frontier capacity."
+      },
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "title": "NTT to build first data center for Anthropic in Japan",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan"
+        },
+        {
+          "name": "DCD",
+          "title": "NTT to build $6.3bn data center for Anthropic in Japan - report",
+          "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"
+        },
+        {
+          "name": "The Next Web",
+          "title": "Japan eyes $140bn AI data centre push with Dell and JERA, FT reports",
+          "url": "https://thenextweb.com/news/japan-140bn-ai-data-centre-dell-jera"
+        }
+      ],
+      "tags": [
+        "Data centers",
+        "Anthropic",
+        "NTT",
+        "JERA"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "funding",
+      "source": "The Bridge",
+      "time": "Oct 7",
+      "headline": "Contact-Center AI Agent Flyle Raises ¥1.88B Series A From Salesforce Ventures and Japan's Three Megabank VCs, Launching Officially in November",
+      "dek": "A small application-layer round shows where Japanese enterprise AI money goes: voice and CX automation backed by banks.",
+      "analysis": {
+        "happening": "Flyle announced a ¥1.88B Series A on Oct 7, taking total funding to about ¥2.27B. Investors include Salesforce Ventures, MUFG Capital, Mizuho Capital, SMBC Venture Capital, Japan Post Capital and Aflac Ventures Japan. Its AI operator handles phone, chat and email; official launch is in November.",
+        "now": "US rivals such as Sierra and Decagon raise far larger rounds, but Japanese contact centers need Japanese voice and legacy-system integration. ARR and customers are undisclosed, and the round is older than 48 hours.",
+        "future": "Watch the November launch, named customers and ARR. Opportunity: vertical agents for Japanese industries where bank-backed VCs bring distribution."
+      },
+      "sources": [
+        {
+          "name": "The Bridge",
+          "title": "コンタクトセンター業務を担うAIエージェントのフライル、シリーズAで18.8億円を調達——AIオペレーターを11月に正式提供",
+          "url": "https://thebridge.jp/2026/10/flyle-raises-series-a-funding-for-ai-agents-for-contact-centers"
+        },
+        {
+          "name": "Speeda Startup Info Research",
+          "title": "総額増の裏で深まる選別――2026年上半期スタートアップ資金調達動向",
+          "url": "https://initial.inc/articles/japan-startup-finance-2026h1"
+        }
+      ],
+      "tags": [
+        "Startups",
+        "AI agents",
+        "Series A",
+        "Contact center"
+      ]
+    }
+  ]
+}

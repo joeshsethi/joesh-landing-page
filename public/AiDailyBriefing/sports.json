@@ -1,35 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T20:30:00.000Z",
-  "dateLabel": "Tue · Oct 27 2026",
+  "generatedAt": "2026-10-27T20:08:48Z",
+  "dateLabel": "Wed · Oct 28 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League MD4: Atlético v Bayern, Barcelona v Aston Villa, Villarreal v PSG",
-      "line": "Tuesday's slate has Atlético v Bayern, Barcelona v Aston Villa and Villarreal v PSG, all 21:00 CET. PSG beat Barcelona 4-2 on Matchday 3.",
+      "event": "Champions League MD4: Atlético Madrid v Bayern Munich",
+      "line": "Two heavyweights meet at the Metropolitano in Champions League matchday 4. Kickoff is 20:00 UK time per Sky Sports; Barcelona v Aston Villa is on the same night.",
       "whenJst": "Wed Nov 4 · 05:00 JST",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "Champions League all the league phase fixtures",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
-        }
-      ]
-    },
-    {
-      "id": "s2",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Champions League MD4: Leipzig v Man City, Slavia v Arsenal, AEK v Real Madrid, Fenerbahçe v Liverpool",
-      "line": "Wednesday has Leipzig v Man City and Slavia v Arsenal at 21:00 CET, plus AEK v Real Madrid and Fenerbahçe v Liverpool earlier at 18:45 CET.",
-      "whenJst": "Thu Nov 5 · 02:45 JST (early) / 05:00 JST (late)",
-      "sources": [
+          "name": "Sky Sports",
+          "title": "Form and head to head stats A Madrid vs Bayern",
+          "url": "https://www.skysports.com/football/atletico-madrid-vs-bayern-munich/577651"
+        },
         {
-          "name": "UEFA",
-          "title": "Champions League all the league phase fixtures",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
+          "name": "ESPN",
+          "title": "Atlético Madrid 2026-27 UEFA Champions League Schedule - ESPN",
+          "url": "https://www.espn.com/soccer/team/fixtures/_/id/1068/league/uefa.champions/atletico-madrid"
         }
       ]
     }
