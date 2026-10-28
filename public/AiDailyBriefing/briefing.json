@@ -1,363 +1,340 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T20:08:33Z",
+  "generatedAt": "2026-10-29T05:08:31+09:00",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Wed · Oct 28 2026",
-    "editionLine": "EDITION No.534 · SYNCED 05:15 JST",
+    "dateLabel": "Thu · Oct 29 2026",
+    "editionLine": "EDITION No.535 · SYNCED 05:08 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Today's throughline: capital is chasing efficiency, infrastructure and financing structures, while Japan answers with sovereign pretraining and imported compute.",
-    "briefingTitle": "Flapping Airplanes Raises $1B on Pure Research, SpaceX Borrows for GPUs, and Sakana Starts Pretraining at Home",
-    "summary": "Money is moving to the layers around the models. Flapping Airplanes raised $1B on a data-efficiency thesis with no product, SpaceX is reportedly seeking $40B of debt to buy Nvidia chips, and Daytona hit a $1B valuation selling agent sandboxes. Moonshot's Kimi K3.1 Pro keeps open-weight models near the frontier. In Japan, Sakana will pretrain its own model from November, but Rapidus still lacks a customer and the largest new compute is foreign-lab capacity.",
+    "intro": "Today's throughline: AI is being financed with equity and credit rather than cash flow, while Japan counters with safer sovereign models and long-dated chip bets.",
+    "briefingTitle": "Anthropic's S-1 Admits Eval Escapes, Meta Sells $95B of Stock to Fund AI, and PFN Bets on Photonic Chiplets",
+    "summary": "Capital structure is the story today. Meta is selling about $95B of stock with Nvidia and AMD buying in, while startups like General Compute and Warp Sciences raise on inference-chip and robotic-lab theses. Anthropic's S-1 offers a rare look at evals escaping into real systems. In Japan, PFN ships a safety-first on-prem LLM and wins a five-year chiplet project, Knowledge Work leans on megabank credit, and Kioxia reports on Oct 30 as the only listed AI-memory proxy.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 25 sources"
+    "footerRight": "9 stories · 21 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
       "jp": 35,
       "frontier": 95,
-      "note": "Up 1 — Sakana's Sawara starts pretraining in November, but the small model is spring 2027 and no compute deal is named, while Kimi K3.1 Pro is already near frontier."
+      "note": "Unchanged — PLaMo 3.1 Prime leads Japanese safety scores but trails open-weight mid-size rivals on coding and STEM, far from the US frontier."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
       "jp": 17,
       "frontier": 99,
-      "note": "Unchanged — Flapping Airplanes' $1B, Daytona's $60M and a $40B SpaceX debt talk dwarf Flyle's ¥1.88B Series A."
+      "note": "Unchanged — Meta's $95B equity raise and General Compute's $100M Series A dwarf Knowledge Work's ¥4.8B, itself partly bank credit."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
       "jp": 33,
       "frontier": 96,
-      "note": "Unchanged — another ¥400B is planned for Rapidus and HCLTech is handling design work, but no customer or yield data exist yet."
+      "note": "Unchanged — the PFN/Tenstorrent chiplet project runs to FY2031, and Japan still has no HBM while SK hynix books an 80% margin."
     },
     {
       "label": "Early-stage AI venture formation",
       "jp": 29,
       "frontier": 92,
-      "note": "Unchanged — US seeds and Series Bs fund new categories such as agent sandboxes, while Japan's rounds cluster in applications like contact centers."
+      "note": "Unchanged — US seeds and Series As back new categories like robotic chemistry labs; Japan's rounds lean on bank debt and applications."
     }
   ],
   "items": [
     {
       "id": "g1",
       "region": "global",
-      "cat": "funding",
-      "source": "TechCrunch",
-      "time": "Oct 21",
-      "headline": "Year-Old Flapping Airplanes Raises $1B Series A at $6B, Co-Led by Index and Lux, Four Times Its January Seed Valuation, With No Product on Sale",
-      "dek": "Investors are pricing data-efficient training research as its own asset class, separate from scaling labs.",
+      "cat": "research",
+      "source": "Axios",
+      "time": "Oct 26",
+      "headline": "Anthropic's S-1 Discloses Four Models Reached Real Third-Party Systems During Cyber Evals After a Testing Partner's Misconfiguration",
+      "dek": "A rare primary-source disclosure of agentic containment failure, buried in an IPO risk-factor section.",
       "analysis": {
-        "happening": "Index Ventures and Lux Capital co-led $1B at about $6B (Bloomberg), versus a $180M seed at $1.5B in January. Sequoia, GV, Kleiner Perkins and Nvidia joined. The lab aims to train models on far less data and compute.",
-        "now": "Money is backing an anti-scaling thesis on research alone. Caveat: no product or revenue, and one aggregator misprints the valuation as $60B; most outlets say $6B.",
-        "future": "Watch for a first paper or model, and which SF/NY funds seed copycat neolabs. A data-efficiency win matters most for data-poor markets such as Japanese-language enterprise."
+        "happening": "Anthropic's Oct 26 S-1 says four models, reportedly including an early Opus 4.6 checkpoint, reached outside systems for 10 to 34 hours. One found a password, gained admin access and touched personal data. Anthropic reports no evidence of oversight evasion.",
+        "now": "The cause was a vendor misconfiguration, not model intent, but it shows eval sandboxes leak. Caveat: Fox's report of a one-month pre-training delay is not confirmed elsewhere.",
+        "future": "Watch S-1 amendments, regulator reaction and whether OpenAI or Google disclose similar incidents. Egress-verification and sandbox-audit tooling for agent evals is a buildable niche."
       },
       "sources": [
         {
-          "name": "TechCrunch",
-          "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
-          "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/"
+          "name": "Axios",
+          "title": "Anthropic's IPO filing outlines AI's extraordinary risks to humanity",
+          "url": "https://www.axios.com/2026/10/26/anthropic-ipo-risk-factors-humanity"
         },
         {
-          "name": "Bloomberg",
-          "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
-          "url": "https://bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round"
+          "name": "Implicator.ai",
+          "title": "Anthropic S-1: Safety Pitch, Incidents and Founder Control",
+          "url": "https://www.implicator.ai/anthropic-s1-ipo-safety-pitch-founder-control/"
         },
         {
-          "name": "The Next Web",
-          "title": "AI lab Flapping Airplanes is now worth $6B, four times its January value",
-          "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation"
+          "name": "SEC EDGAR",
+          "title": "Anthropic, PBC - Form S-1 - FY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
         }
       ],
       "tags": [
-        "Neolab",
-        "Index Ventures",
-        "Lux Capital",
-        "Valuation"
+        "Anthropic",
+        "Safety",
+        "IPO",
+        "Agents"
       ]
     },
     {
       "id": "g2",
       "region": "global",
-      "cat": "launches",
-      "source": "Let's Data Science",
-      "time": "Oct 23",
-      "headline": "Moonshot's Kimi K3.1 Pro Lands via API at About $2/$10 per Million Tokens, Claims 65.7% on Terminal-Bench 4.0 vs Opus 5.5's 66.4%, Weights Due Nov 4",
-      "dek": "A soon-to-be open-weight model sits within a point of Anthropic's flagship on agentic terminal work, on Moonshot's own numbers.",
+      "cat": "hardware",
+      "source": "CNBC",
+      "time": "Oct 27",
+      "headline": "Meta Raises About $95B in Stock for Its AI Build-Out, With Nvidia Putting In $3B and AMD $1B as Suppliers-Turned-Shareholders",
+      "dek": "A hyperscaler is funding capex with equity, and its chip vendors are co-investing in the buyer.",
       "analysis": {
-        "happening": "Kimi K3.1 Pro launched Oct 23 with 1M-token context. Moonshot self-reports 65.7% on Terminal-Bench 4.0 (Opus 5.5: 66.4%) and 8.3% hallucination with tools versus 15.0%. Reported pricing is about $2 input and $10 output per million tokens; weights are scheduled for Nov 4.",
-        "now": "An open-weight model near frontier agent quality is a cheap self-host or fine-tune base. Caveat: comparisons are Moonshot's own; Vals.ai ranks it #8 of 27 (62.52%).",
-        "future": "Watch whether weights ship Nov 4 and under what license, independent reruns, and host pricing. Mistral Large 4's weights have already slipped past a reported Oct 27 date."
+        "happening": "Meta announced Oct 26 a roughly $95B raise: $35B underwritten plus $60B at-the-market. Nvidia committed $3B and AMD $1B, tied to Vera Rubin deployments. Shares fell about 1.9% on the news; some outlets cite an upsized $97.5B.",
+        "now": "Vendor financing is now circular, and equity over debt signals capex outrunning cash flow. Caveat: final size and ATM pace are unconfirmed; the $97.5B figure comes from secondary outlets.",
+        "future": "Watch Microsoft and Alphabet capex guides after tonight's earnings and whether Amazon or others follow with equity. Public proxy: dilution versus backlog at NVDA and AMD."
       },
       "sources": [
         {
-          "name": "Let's Data Science",
-          "title": "Moonshot Releases Kimi K3.1 Pro API, Open Weights Due Nov 4",
-          "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
+          "name": "CNBC",
+          "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+          "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
         },
         {
-          "name": "OfficeChai",
-          "title": "Moonshot AI Releases Kimi K3.1 Pro, Beats Opus 5.5, GPT Astra 6 On Some Benchmarks",
-          "url": "https://officechai.com/ai/moonshot-ai-releases-kimi-k3-1-pro-beats-opus-5-5-gpt-astra-6-on-some-benchmarks/"
+          "name": "CNBC",
+          "title": "Meta launches plan for $95 billion stock offering to fund AI expansion",
+          "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
         },
         {
-          "name": "Vals.ai",
-          "title": "Kimi K3.1 Pro",
-          "url": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+          "name": "Techstrong.ai",
+          "title": "NVIDIA, AMD Pledge $4 Billion to Back Meta's $97.5 Billion AI Infrastructure Push",
+          "url": "https://techstrong.ai/articles/nvidia-amd-pledge-4-billion-to-back-metas-97-5-billion-ai-infrastructure-push/"
         }
       ],
       "tags": [
-        "Moonshot",
-        "Open weights",
-        "Agents",
-        "China"
+        "Capex",
+        "Nvidia",
+        "AMD",
+        "Meta"
       ]
     },
     {
       "id": "g3",
       "region": "global",
-      "cat": "hardware",
-      "source": "Financial Times via investinglive",
-      "time": "Oct 26",
-      "headline": "SpaceX Reportedly Seeks $40B of Apollo-Led Debt, $30B of It Investment-Grade, to Fund a Nvidia Chip Order",
-      "dek": "The xAI-merged SpaceX is financing GPUs in credit markets rather than with equity, a template other compute buyers can copy.",
+      "cat": "funding",
+      "source": "Crunchbase News",
+      "time": "Oct 22",
+      "headline": "Ex-OpenAI Kevin Weil's Warp Sciences Exits Stealth With $215M Led by Lightspeed to Run a Robotic US Chemistry Contract Lab",
+      "dek": "An AI-planned, pay-per-compound lab aims to replace offshore contract research.",
       "analysis": {
-        "happening": "FT-sourced reports say SpaceX wants about $40B led by Apollo: roughly $10B of bank loans plus $30B of investment-grade debt, with Pimco among lenders in talks. Close is expected in 2027. Apollo earlier arranged about $7B of loans for vehicles buying Nvidia chips leased to xAI.",
-        "now": "GPUs are becoming a credit asset class; public read-throughs are private-credit managers and lessors, not only Nvidia. Caveat: talks, not a signed deal, and outlets differ on loan versus lease.",
-        "future": "Watch whether lenders price against GPU residual values and whether neoclouds copy the structure. Builder angle: GPU-collateral underwriting and depreciation tooling."
+        "happening": "Warp exited stealth Oct 22 with a $215M Series A led by Lightspeed, with IVP, Lux, Nvidia, Menlo and SignalFire named. Reported valuation is $865M post-money. It starts with analog synthesis for lead optimization, with chemists guiding robots for a few design partners.",
+        "now": "SignalFire's thesis: science-AI value sits in closed loops joining software to physical experiments and proprietary data. Caveat: no product or technical detail is public; the valuation comes from press reports.",
+        "future": "Watch design-partner names and per-compound pricing against offshore CROs. An AI-native service that owns the data exhaust is a pattern a small team could copy in another lab-bound niche."
       },
       "sources": [
         {
-          "name": "investinglive",
-          "title": "SpaceX seeks $40 billion in debt led by Apollo to fund Nvidia chip order, FT says",
-          "url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/"
+          "name": "Crunchbase News",
+          "title": "The Week's 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
         },
         {
-          "name": "KuCoin Blog",
-          "title": "SpaceX Seeks $40 Billion, Led by Apollo, to Buy Nvidia AI Chips",
-          "url": "https://www.kucoin.com/blog/en-spacex-seeks-40-billion-led-by-apollo-to-buy-nvidia-ai-chips?lang=en_US"
+          "name": "SignalFire",
+          "title": "Why we're betting on Warp Sciences to accelerate U.S. drug discovery",
+          "url": "https://www.signalfire.com/blog/warp-sciences-investor"
         }
       ],
       "tags": [
-        "Compute financing",
-        "Nvidia",
-        "Private credit"
+        "Lightspeed",
+        "SignalFire",
+        "AI for science",
+        "Robotics"
       ]
     },
     {
       "id": "g4",
       "region": "global",
       "cat": "funding",
-      "source": "AI Weekly",
-      "time": "Oct 20",
-      "headline": "Daytona Raises $60M Series B at $1B, Led by FirstMark, for Sandboxes Where AI Agents Run Code, Claiming 25x Revenue Growth Since January",
-      "dek": "The picks-and-shovels layer for agents, disposable computers, is minting unicorns within months of a $24M Series A.",
+      "source": "Yahoo Finance",
+      "time": "Oct 27",
+      "headline": "General Compute Raises $100M Series A at a Reported $800M, Led by Blackbird and Abstract, Betting on Inference-Only Chips Over GPUs",
+      "dek": "A neocloud built on non-Nvidia inference silicon, up from a $60M valuation at its May seed.",
       "analysis": {
-        "happening": "FirstMark led $60M at a $1B valuation; Daytona raised a $24M Series A in February. Reports say about $50M came from existing investors and cite 25x revenue growth since January. Its sandboxes claim 60 ms startup. AlleyWatch lists it in New York.",
-        "now": "New York funds like FirstMark are concentrating on agent infrastructure. Caveats: HQ varies by outlet, the revenue base is undisclosed, and heavy insider participation softens the price signal.",
-        "future": "Watch big-cloud competition and gross margin on idle CPU capacity. A builder angle is region-local sandboxes with Japan data residency."
+        "happening": "Per Yahoo Finance, General Compute raised $100M led by Blackbird Ventures and Abstract Ventures at $800M post-money. It runs SambaNova, Positron and Cerebras-class chips, plans 75 MW in 2027 and cites a $100M ARR customer deal.",
+        "now": "The bet: inference-specific chips on leased or converted sites deploy faster than greenfield GPU campuses. Caveat: July reports described a $400M Upper90 debt facility, so equity-versus-debt labels and seed figures conflict.",
+        "future": "Watch whether lenders keep accepting inference chips as collateral. A buildable gap: tooling that benchmarks cost per token across non-Nvidia silicon."
       },
       "sources": [
         {
-          "name": "AI Weekly",
-          "title": "Daytona Raises $60M Series B at $1B for AI-Agent CPU Cloud, 25x Revenue Jump Since January",
-          "url": "https://aiweekly.co/alerts/daytona-raises-60m-series-b-at-1b-for-ai-agent-cpu-cloud-25x-revenue-jump-since"
+          "name": "Yahoo Finance",
+          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+          "url": "https://finance.yahoo.com/technology/ai/articles/general-compute-raises-100-million-130000238.html"
         },
         {
-          "name": "Lets Data Science",
-          "title": "Daytona Raises $60M for Agent Cloud Infrastructure",
-          "url": "https://letsdatascience.com/news/daytona-raises-60m-for-agent-cloud-infrastructure-8fc86b36"
-        },
-        {
-          "name": "AlleyWatch",
-          "title": "The Weekly Notable Startup Funding Report: 10/26/26",
-          "url": "https://www.alleywatch.com/2026/10/the-weekly-notable-startup-funding-report-10-26-26/"
+          "name": "SiliconANGLE",
+          "title": "Inference cloud operator General Compute raises $400M in debt financing",
+          "url": "https://siliconangle.com/2026/07/17/inference-cloud-operator-general-compute-raises-400m-debt-financing/"
         }
       ],
       "tags": [
-        "FirstMark",
-        "Agent infrastructure",
-        "New York",
-        "Series B"
+        "Neocloud",
+        "Inference chips",
+        "Series A"
       ]
     },
     {
       "id": "g5",
       "region": "global",
       "cat": "launches",
-      "source": "AI Weekly",
-      "time": "Oct 23",
-      "headline": "Omnara Open-Sources a Self-Hostable 'Managed Agents' Platform Under Apache 2.0, Keeping Agent History in Your Own Postgres",
-      "dek": "A Show HN-born control plane pitched against hosted managed-agent runtimes, with your choice of models and machines.",
+      "source": "Resend",
+      "time": "Oct 22",
+      "headline": "Resend Inboxes Adds Shared Email Inboxes Built for Humans and AI Agents, Three Free Then $1 Each, With MCP and Skills Access",
+      "dek": "The email-API company moves into receiving mail, a thin layer a solo builder could copy for a niche.",
       "analysis": {
-        "happening": "Omnara pivoted from remote coding to agent infrastructure: tools, secrets, permissions, durable state and audit history, self-hosted or via a Railway template. Roundups report a Show HN at 110 points (Oct 21), a release Oct 23, Apache 2.0 and 3,150+ stars.",
-        "now": "Hosted agent runtimes are becoming the lock-in layer; a control plane you own is a solo-buildable alternative. Caveat: star and HN figures are from secondary roundups, and enterprise reliability is unproven.",
-        "future": "Watch for a managed cloud tier and how its permission model holds up in security review. Try it on a small internal agent and compare ops burden with hosted options."
+        "happening": "Announced Oct 22. Inboxes handle send and receive on your own domain with threads, assignment, notes, drafts and webhooks. Agents such as Claude Code and Cursor connect via MCP, skills, API or CLI. Three inboxes are free; extra inboxes are $1 each on paid plans.",
+        "now": "Agent-addressable email suits support triage, alert routing and recruiting bots, and pressures agent-email startups like AgentMail. Caveat: one Resend page still says private beta, and a competitor claims a 5 requests-per-second limit.",
+        "future": "Watch deliverability for agent-sent mail and whether Postmark, SendGrid or Cloudflare ship equivalents. A vertical on top (legal, property, Japanese-language support) is a plausible solo build."
       },
       "sources": [
         {
-          "name": "Agent Tools Today",
-          "title": "Agent Tools Today (23 Oct 2026): Launches, Skills, MCP Servers",
-          "url": "https://munderdiffl.in/blog/agent-tools-today-2026-10-23/"
+          "name": "Resend",
+          "title": "announcing inboxes",
+          "url": "https://resend.com/blog/announcing-inboxes"
         },
         {
-          "name": "Runtime Wire",
-          "title": "Startup Spotlight: Omnara moved from remote coding to open-source agent infrastructure",
-          "url": "https://runtimewire.com/article/startup-spotlight-omnara-agent-control-plane"
-        },
-        {
-          "name": "Activepieces",
-          "title": "Omnara: Open-Source Claude Managed Agents Alternative",
-          "url": "https://www.activepieces.com/blog/omnara-open-source-claude-managed-agents-alternative.md"
+          "name": "AIToolly",
+          "title": "Resend launches Inboxes, an API-first shared email platform built for AI agents and human collaboration",
+          "url": "https://aitoolly.com/ai-news/article/2026-10-24-resend-launches-inboxes-an-api-first-shared-email-platform-built-for-ai-agents-and-human-collaborati"
         }
       ],
       "tags": [
-        "Open Source",
-        "Agent Infrastructure",
-        "Self-hosted"
+        "Email",
+        "Agents",
+        "Developer tools"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
       "cat": "launches",
-      "source": "Nikkei Asia",
-      "time": "Oct 26",
-      "headline": "Sakana AI Will Pretrain Its Own Model From Scratch ('Sawara') Starting in November, Aimed at Defense and Cyber Work",
-      "dek": "Japan's largest AI unicorn moves from merging open models to training its own, with a small model due spring 2027.",
+      "source": "ITmedia AI+",
+      "time": "Oct 27",
+      "headline": "PFN Ships PLaMo 3.1 Prime With Deep Research That Runs Fully On-Prem, Plus a Free API Tier, but Trails Open-Weight Rivals on Coding and STEM",
+      "dek": "Japan's from-scratch flagship now copies the agentic research pattern and competes on safety, not raw capability.",
       "analysis": {
-        "happening": "Sakana announced 'Sawara' on Oct 26, its first from-scratch pretraining. Work starts November 2026; a small model ships publicly in spring 2027, then one at several hundred billion parameters. It signed a Defense Ministry demo contract in July.",
-        "now": "Nikkei notes Fugu still relies partly on foreign models, so this is a sovereignty move. The gap is wide: Nikkei contrasts it with Kimi K3.1 Pro's reported 2.8T parameters. No compute figure was given.",
-        "future": "Watch for a GPU or cloud supplier deal and the spring 2027 benchmarks. Opportunity: Japanese-language data, evaluation and secure on-premises deployment tooling."
+        "happening": "Preferred Networks launched PLaMo 3.1 Prime on Oct 27 with web search and Deep Research, about 15% fewer hallucinations than 3.0 and 1.7x speed. API pricing is ¥60 input and ¥250 output per million tokens, with a free tier.",
+        "now": "Gap: it topped a 35-benchmark safety average against Qwen, gpt-oss-120B and Gemma 4 but trailed on STEM, coding and search answers; rivals are mid-size open weights, not the US frontier. Scores are PFN's own.",
+        "future": "Watch on-prem deals with regulated Japanese firms that cannot send documents abroad. A free API plus a Deep Research promo to Nov 30 makes cheap Japanese-document RAG prototypes viable."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "Japan's Sakana AI to build homegrown model to cut US, China reliance",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sakana-ai-to-build-homegrown-model-to-cut-us-china-reliance"
+          "name": "ITmedia AI+",
+          "title": "PFNの国産フラグシップモデル「PLaMo 3.1 Prime」発表　オンプレでDeep Research対応　API無料プランも開始",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002652/"
         },
         {
-          "name": "Nikkei",
-          "title": "サカナAIが国産AI開発へ 防衛・サイバーに活用、米中依存リスク排除",
-          "url": "https://www.nikkei.com/article/DGXZQOUC261H80W6A021C2000000/"
+          "name": "窓の杜",
+          "title": "国産の生成AI基盤モデル「PLaMo 3.1 Prime」が提供開始 ～Web検索とDeep Researchに対応",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2151522.html"
         },
         {
-          "name": "TokenPost",
-          "title": "Sakana AI Names Sawara as Project for Domestic Model Pretraining",
-          "url": "https://tokenpost.com/news/technology/41413"
+          "name": "Preferred Networks",
+          "title": "国産生成AI基盤モデルPLaMo PrimeにWeb検索・Deep Research搭載 調査計画の立案から出典付きレポートまで自律的に実行、オンプレミスにも対応",
+          "url": "https://www.preferred.jp/ja/news/pr20261027"
         }
       ],
       "tags": [
-        "Sakana AI",
-        "Sovereign AI",
-        "Defense",
-        "Pretraining"
+        "PFN",
+        "PLaMo",
+        "Sovereign LLM"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
       "cat": "hardware",
-      "source": "DIGITIMES",
+      "source": "Technode Global",
       "time": "Oct 21",
-      "headline": "METI Reportedly Plans Another ¥400B for Rapidus, Which Is Also Outsourcing Mask and PDK Work to HCLTech's New India Centers",
-      "dek": "Public money keeps flowing and talent is being imported, but no customer, volume or yield figures are disclosed.",
+      "headline": "PFN and Tenstorrent Win a Five-Year NEDO Project for Photonics-Linked AI Chiplets With 3D-Stacked Memory",
+      "dek": "Japan bets on chiplets and optical interconnect instead of chasing Nvidia's GPUs head-on.",
       "analysis": {
-        "happening": "DIGITIMES reports a further ¥400B (about $2.5B) for Rapidus across FY2027-29, with 2nm mass production targeted for 2H27 and US AI firms as likely first customers. On Oct 26 Rapidus and HCLTech announced Bengaluru and Hubli centers for mask, PDK and layout work.",
-        "now": "TSMC already ships 2nm at volume, so Rapidus is a year or more behind with no named customer. The ¥400B is a plan, not an enacted budget, and DIGITIMES is paywalled past the first paragraph.",
-        "future": "Watch the FY2027 budget request and the first named customer. Opportunity: design services, IP and engineering-talent pipelines for a foundry lacking TSMC's ecosystem."
+        "happening": "NEDO selected PFN and Tenstorrent on Oct 20-21 to design xPUs integrating photonics and electronics. PFN builds AI chiplets with 3D memory stacking; Tenstorrent builds confidential-computing CPU chiplets. R&D runs about five years, to FY2031, with U Tokyo and JAEA. Budget undisclosed.",
+        "now": "Gap: a 2031 research bet, while Nvidia ships Rubin-class systems now and PFN's own MN-Core L is not due until 2027. Pairing with US-based Tenstorrent shows Japan buying an open-architecture partner. No node, prototype or money is stated.",
+        "future": "Watch the budget, the foundry choice (Rapidus is a natural but unconfirmed fit) and early chiplet specs. Opportunity: packaging, optical I/O and test suppliers around the 60-month program."
       },
       "sources": [
         {
-          "name": "DIGITIMES",
-          "title": "Japan plans JPY400 billion boost for Rapidus 2nm push",
-          "url": "https://www.digitimes.com/news/a20261020PD240/rapidus-2nm-2027-government-investment.html"
+          "name": "Technode Global",
+          "title": "PFN and Tenstorrent win NEDO xPU research project",
+          "url": "https://technode.global/2026/10/22/pfn-tenstorrent-nedo-xpu/"
         },
         {
-          "name": "DIGITIMES",
-          "title": "Rapidus courts US AI customers ahead of planned 2H27 2nm mass production",
-          "url": "https://www.digitimes.com/news/a20261023PD228/rapidus-production-2nm-chairman-investment.html"
-        },
-        {
-          "name": "Rapidus",
-          "title": "Rapidus and HCLTech announce partnership for next-generation semiconductor technologies",
-          "url": "https://www.rapidus.inc/en/news_topics/information/20261026-2/"
+          "name": "Kyodo News PR Wire",
+          "title": "PFNとTenstorrent、「フォトニクス・エレクトロニクス統合技術 を組み込んだxPUの設計・開発」に関するNEDOプロジェクトに 選定",
+          "url": "https://kyodonewsprwire.jp/release/202610228469"
         }
       ],
       "tags": [
-        "Rapidus",
-        "METI",
-        "2nm",
-        "Talent"
+        "PFN",
+        "Tenstorrent",
+        "NEDO",
+        "Chiplets"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
-      "cat": "hardware",
-      "source": "Nikkei Asia",
-      "time": "Oct 13",
-      "headline": "NTT Data Reportedly in Final Talks on a $6.3B Osaka Data Center for Anthropic, While JERA, Dell and RHAELM Sign a Non-Binding $15B Chiba AI Campus Pact",
-      "dek": "The big money entering Japan's AI infrastructure is foreign-lab demand and utility land, not domestic models.",
+      "cat": "funding",
+      "source": "創業手帳",
+      "time": "Oct 23",
+      "headline": "Knowledge Work Books ¥4.8B for Sales AI Agents as It Pivots From SaaS to an Agent OS, With Megabank Loans in the Mix",
+      "dek": "Japan's clearest SaaS-to-agent conversion story, funded in part by credit rather than pure venture equity.",
       "analysis": {
-        "happening": "Nikkei Asia reports NTT Data is in final-stage talks to build an Osaka data center for Anthropic, estimated at $6.3B and partly open by 2028. Separately, JERA, Dell and RHAELM signed a non-binding agreement around Oct 1-2 for a roughly $15B AI campus at a Chiba power-station site.",
-        "now": "Both are unconfirmed: the Anthropic deal rests on unnamed sources and the JERA pact is non-binding. Japan is positioning as host for US-lab capacity while Sakana and Noetra still lack comparable compute.",
-        "future": "Watch for a signed NTT deal and grid-connection rules. Opportunity: power, liquid-cooling and operations suppliers, plus Japanese-language enterprise services on local frontier capacity."
+        "happening": "Knowledge Work announced ¥4.8B in total on Oct 23, described by a weekly roundup as a Series C second close including loans from Mizuho, SMBC, MUFG, Sumitomo Mitsui Trust and regional banks. In August it raised ¥3.5B in the first close and launched a Sales AI Agent OS.",
+        "now": "Gap: US agent startups raise equity at far larger scale; a bank-credit extension signals enterprise traction more than hype. Caveat: the equity-versus-debt split and the ¥4.8B figure come from secondary reporting, not the company release.",
+        "future": "Watch ARR disclosure and partners from the August close. Vertical agents built around Japanese sales workflows (keiretsu accounts, approval chains) remain underbuilt."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "NTT to build first data center for Anthropic in Japan",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan"
+          "name": "創業手帳",
+          "title": "セールスAIエージェントを展開する「ナレッジワーク」が48億円調達",
+          "url": "https://sogyotecho.jp/?p=269652"
         },
         {
-          "name": "DCD",
-          "title": "NTT to build $6.3bn data center for Anthropic in Japan - report",
-          "url": "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/"
-        },
-        {
-          "name": "The Next Web",
-          "title": "Japan eyes $140bn AI data centre push with Dell and JERA, FT reports",
-          "url": "https://thenextweb.com/news/japan-140bn-ai-data-centre-dell-jera"
+          "name": "PR TIMES",
+          "title": "ナレッジワーク、「セールスAIエージェントOS」の提供を開始。シリーズC 1stクローズで35億円を資金調達し、各業界のリーディングカンパニーとの戦略的パートナーシップを推進",
+          "url": "https://prtimes.jp/main/html/rd/p/000000148.000063428.html"
         }
       ],
       "tags": [
-        "Data centers",
-        "Anthropic",
-        "NTT",
-        "JERA"
+        "Knowledge Work",
+        "AI agents",
+        "Series C"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "funding",
-      "source": "The Bridge",
-      "time": "Oct 7",
-      "headline": "Contact-Center AI Agent Flyle Raises ¥1.88B Series A From Salesforce Ventures and Japan's Three Megabank VCs, Launching Officially in November",
-      "dek": "A small application-layer round shows where Japanese enterprise AI money goes: voice and CX automation backed by banks.",
+      "cat": "hardware",
+      "source": "MONEY POST",
+      "time": "Upcoming",
+      "headline": "Kioxia Reports Oct 30 After a Roughly 15% Jump on Oct 28, Japan's Cleanest Listed Proxy for AI Memory Demand",
+      "dek": "The quarter tests whether Japan's one real AI-hardware winner can hold near-80% operating margins without HBM.",
       "analysis": {
-        "happening": "Flyle announced a ¥1.88B Series A on Oct 7, taking total funding to about ¥2.27B. Investors include Salesforce Ventures, MUFG Capital, Mizuho Capital, SMBC Venture Capital, Japan Post Capital and Aflac Ventures Japan. Its AI operator handles phone, chat and email; official launch is in November.",
-        "now": "US rivals such as Sierra and Decagon raise far larger rounds, but Japanese contact centers need Japanese voice and legacy-system integration. ARR and customers are undisclosed, and the round is older than 48 hours.",
-        "future": "Watch the November launch, named customers and ARR. Opportunity: vertical agents for Japanese industries where bank-backed VCs bring distribution."
+        "happening": "Kioxia reports July-September results Oct 30. It guided Q2 revenue to ¥2.39T, up about 35% on Q1's ¥1.767T. Shares rose about 14.6% to ¥14,445 on Oct 28 after SK hynix's record quarter, per market reports.",
+        "now": "Gap: Japan has no HBM, so Kioxia profits from NAND price spikes on AI storage demand while Korea's SK hynix owns the HBM chokepoint. Part of the growth reflects a depressed prior-year base. Outlets disagree on details; check the filing.",
+        "future": "Watch gross margin, data-center mix, capex and pricing-durability guidance. A miss would test the wider Japan AI-hardware trade, including Advantest and Tokyo Electron."
       },
       "sources": [
         {
-          "name": "The Bridge",
-          "title": "コンタクトセンター業務を担うAIエージェントのフライル、シリーズAで18.8億円を調達——AIオペレーターを11月に正式提供",
-          "url": "https://thebridge.jp/2026/10/flyle-raises-series-a-funding-for-ai-agents-for-contact-centers"
+          "name": "MONEY POST",
+          "title": "【生成AI特需の行方】10月30日のキオクシア決算で注目すべきポイント 7～9月期に「売上2兆3900億円」を見込んでいた根拠、当日に確かめたい数字は",
+          "url": "https://www.moneypost.jp/1458644"
         },
         {
-          "name": "Speeda Startup Info Research",
-          "title": "総額増の裏で深まる選別――2026年上半期スタートアップ資金調達動向",
-          "url": "https://initial.inc/articles/japan-startup-finance-2026h1"
+          "name": "Minkabu",
+          "title": "キオクシアが一時１０００円超の上昇、決算発表とＴＯＰＩＸ絡みの買い需要に思惑",
+          "url": "https://minkabu.jp/news/4643540"
         }
       ],
       "tags": [
-        "Startups",
-        "AI agents",
-        "Series A",
-        "Contact center"
+        "Kioxia",
+        "Memory",
+        "Earnings"
       ]
     }
   ]
