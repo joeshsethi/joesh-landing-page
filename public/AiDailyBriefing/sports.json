@@ -1,25 +1,55 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T20:08:48Z",
-  "dateLabel": "Wed · Oct 28 2026",
+  "generatedAt": "2026-10-30T05:15:00+09:00",
+  "dateLabel": "Fri · Oct 30 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League MD4: Atlético Madrid v Bayern Munich",
-      "line": "Two heavyweights meet at the Metropolitano in Champions League matchday 4. Kickoff is 20:00 UK time per Sky Sports; Barcelona v Aston Villa is on the same night.",
-      "whenJst": "Wed Nov 4 · 05:00 JST",
+      "event": "Premier League: Chelsea v Manchester United",
+      "line": "Saturday lunchtime blockbuster at 12:30 UK time. Tottenham v Crystal Palace follows at 17:30 UK (02:30 JST Sun).",
+      "whenJst": "Sat Oct 31 · 21:30 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Form and head to head stats A Madrid vs Bayern",
-          "url": "https://www.skysports.com/football/atletico-madrid-vs-bayern-munich/577651"
+          "name": "Premier League",
+          "title": "All 380 fixtures for 2026/27 Premier League season",
+          "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Premier League: Liverpool v Arsenal",
+      "line": "Matchweek 9 headliner, listed for a 16:30 UK kick-off Sunday per Sky Sports. Times subject to TV changes.",
+      "whenJst": "Mon Nov 2 · 01:30 JST",
+      "sources": [
+        {
+          "name": "Premier League",
+          "title": "All 380 fixtures for 2026/27 Premier League season",
+          "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "Rolex Paris Masters (final Masters 1000 of the season)",
+      "line": "Main draw starts Nov 2, final Sun Nov 8. Sinner and Auger-Aliassime have reportedly withdrawn, leaving the draw wide open.",
+      "whenJst": "Main draw from Mon Nov 2; final Mon Nov 9 · early morning JST",
+      "sources": [
+        {
+          "name": "Tennis365",
+          "title": "Paris Masters withdrawal list: 3 stars OUT as Jannik Sinner joined by 2 other big names",
+          "url": "https://www.tennis365.com/tennis-news/paris-masters-withdrawal-list-jannik-sinner-felix-auger-aliassime"
         },
         {
-          "name": "ESPN",
-          "title": "Atlético Madrid 2026-27 UEFA Champions League Schedule - ESPN",
-          "url": "https://www.espn.com/soccer/team/fixtures/_/id/1068/league/uefa.champions/atletico-madrid"
+          "name": "LTA",
+          "title": "rolex paris masters preview draw schedule how to watch in the uk",
+          "url": "https://www.lta.org.uk/news/2026/october/rolex-paris-masters-preview-draw-schedule-how-to-watch-in-the-uk/"
         }
       ]
     }

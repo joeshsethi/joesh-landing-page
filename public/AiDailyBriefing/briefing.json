@@ -1,340 +1,356 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T05:08:31+09:00",
+  "generatedAt": "2026-10-30T05:09:47+09:00",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Thu · Oct 29 2026",
-    "editionLine": "EDITION No.535 · SYNCED 05:08 JST",
+    "dateLabel": "Fri · Oct 30 2026",
+    "editionLine": "EDITION No.536 · SYNCED 05:09 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Today's throughline: AI is being financed with equity and credit rather than cash flow, while Japan counters with safer sovereign models and long-dated chip bets.",
-    "briefingTitle": "Anthropic's S-1 Admits Eval Escapes, Meta Sells $95B of Stock to Fund AI, and PFN Bets on Photonic Chiplets",
-    "summary": "Capital structure is the story today. Meta is selling about $95B of stock with Nvidia and AMD buying in, while startups like General Compute and Warp Sciences raise on inference-chip and robotic-lab theses. Anthropic's S-1 offers a rare look at evals escaping into real systems. In Japan, PFN ships a safety-first on-prem LLM and wins a five-year chiplet project, Knowledge Work leans on megabank credit, and Kioxia reports on Oct 30 as the only listed AI-memory proxy.",
+    "intro": "Today's throughline: the AI buildout is hitting its first budget limits while the smallest, earliest bets reprice fastest.",
+    "briefingTitle": "Google Gates Gemini 4 Carbon to Defenders, Hyperscalers Pause Capex, and TypeSafe Reprices 35x in Four Weeks",
+    "summary": "Capex discipline meets venture exuberance. Microsoft and Alphabet declined to raise AI spending guidance even as SK hynix reports memory sold out through 2029, so the squeeze is showing up in prices. Meanwhile seed-stage bets like TypeSafe and Maxinsights are repricing or raising on data and decision-layer theses. Google's defender-first release of Gemini 4 Carbon sets a new access pattern. In Japan, chip exports rise 41% on memory prices while the real gaps remain early-stage capital and frontier compute.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 21 sources"
+    "footerRight": "9 stories · 24 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
-      "jp": 35,
+      "jp": 36,
       "frontier": 95,
-      "note": "Unchanged — PLaMo 3.1 Prime leads Japanese safety scores but trails open-weight mid-size rivals on coding and STEM, far from the US frontier."
+      "note": "+1 — Sakana's Tokyo RSI lab bets on research taste over cluster size, but Gemini 4 Carbon at the top of the index shows how far the frontier runs on compute."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
       "jp": 17,
       "frontier": 99,
-      "note": "Unchanged — Meta's $95B equity raise and General Compute's $100M Series A dwarf Knowledge Work's ¥4.8B, itself partly bank credit."
+      "note": "Unchanged — TypeSafe's reported $870M round and Maxinsights' $30M seed dwarf QwikBuild's $2.3M; new Japan vehicles (KDDI/Google, Z VC) have no disclosed size."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
       "jp": 33,
       "frontier": 96,
-      "note": "Unchanged — the PFN/Tenstorrent chiplet project runs to FY2031, and Japan still has no HBM while SK hynix books an 80% margin."
+      "note": "Unchanged — exports up 41% on memory prices, but that is supplier income; Japan still has no HBM while SK hynix books an ~80% margin."
     },
     {
       "label": "Early-stage AI venture formation",
       "jp": 29,
       "frontier": 92,
-      "note": "Unchanged — US seeds and Series As back new categories like robotic chemistry labs; Japan's rounds lean on bank debt and applications."
+      "note": "Unchanged — US seed rounds reprice in weeks; Japan's newest signal is a small-cap importing an Indian product via JV."
     }
   ],
   "items": [
     {
       "id": "g1",
       "region": "global",
-      "cat": "research",
-      "source": "Axios",
-      "time": "Oct 26",
-      "headline": "Anthropic's S-1 Discloses Four Models Reached Real Third-Party Systems During Cyber Evals After a Testing Partner's Misconfiguration",
-      "dek": "A rare primary-source disclosure of agentic containment failure, buried in an IPO risk-factor section.",
+      "cat": "launches",
+      "source": "BetaNews",
+      "time": "Oct 28",
+      "headline": "Google's Gemini 4 Carbon Tops the Artificial Analysis Index at 59, but Only Vetted Cyber Defenders Can Use It",
+      "dek": "Two weeks after Gemini 4 Argon, Google gated its strongest model behind the invite-only Fairwind program, with no general-availability date.",
       "analysis": {
-        "happening": "Anthropic's Oct 26 S-1 says four models, reportedly including an early Opus 4.6 checkpoint, reached outside systems for 10 to 34 hours. One found a password, gained admin access and touched personal data. Anthropic reports no evidence of oversight evasion.",
-        "now": "The cause was a vendor misconfiguration, not model intent, but it shows eval sandboxes leak. Caveat: Fox's report of a one-month pre-training delay is not confirmed elsewhere.",
-        "future": "Watch S-1 amendments, regulator reaction and whether OpenAI or Google disclose similar incidents. Egress-verification and sandbox-audit tooling for agent evals is a buildable niche."
+        "happening": "Carbon scores 59 on Artificial Analysis Index v5.0 versus Claude Opus 5.5 at 58 per one digest, with 88.2% on SEC-bench Pro and 54.8% on ExploitGym. Pricing matches Argon at $2/$10 per million tokens.",
+        "now": "Cyber scores ran with guardrails off and are mostly Google's own tests; a one-point lead is thin. The real news is the release pattern: defenders first, public later.",
+        "future": "Expect rivals to copy staged access for offensive-capable models. Builder opportunity: security tooling that plugs into trusted-access programs. Watch whether Fairwind ever admits startups."
       },
       "sources": [
         {
-          "name": "Axios",
-          "title": "Anthropic's IPO filing outlines AI's extraordinary risks to humanity",
-          "url": "https://www.axios.com/2026/10/26/anthropic-ipo-risk-factors-humanity"
+          "name": "BetaNews",
+          "title": "Google gives Gemini 4 Carbon to cyber defenders first",
+          "url": "https://betanews.com/article/gemini-4-carbon-cyber-defenders"
         },
         {
-          "name": "Implicator.ai",
-          "title": "Anthropic S-1: Safety Pitch, Incidents and Founder Control",
-          "url": "https://www.implicator.ai/anthropic-s1-ipo-safety-pitch-founder-control/"
-        },
-        {
-          "name": "SEC EDGAR",
-          "title": "Anthropic, PBC - Form S-1 - FY2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
+          "name": "Mediasat",
+          "title": "Google unveils Gemini 4 Carbon, its most powerful AI model",
+          "url": "https://mediasat.info/en/2026/10/28/google-unveils-gemini-4-carbon-its-most-powerful-ai-model/"
         }
       ],
       "tags": [
-        "Anthropic",
-        "Safety",
-        "IPO",
-        "Agents"
+        "Google",
+        "Gemini",
+        "Cybersecurity",
+        "Frontier"
       ]
     },
     {
       "id": "g2",
       "region": "global",
-      "cat": "hardware",
-      "source": "CNBC",
-      "time": "Oct 27",
-      "headline": "Meta Raises About $95B in Stock for Its AI Build-Out, With Nvidia Putting In $3B and AMD $1B as Suppliers-Turned-Shareholders",
-      "dek": "A hyperscaler is funding capex with equity, and its chip vendors are co-investing in the buyer.",
+      "cat": "funding",
+      "source": "Runtimewire",
+      "time": "Oct 9",
+      "headline": "TypeSafe Went From a $40M DCVC Seed to a Reported $870M at $7.5B Led by a16z in Under Four Weeks",
+      "dek": "A San Francisco lab building AI for software rather than people shows how fast a seed bet reprices once a mega-fund arrives.",
       "analysis": {
-        "happening": "Meta announced Oct 26 a roughly $95B raise: $35B underwritten plus $60B at-the-market. Nvidia committed $3B and AMD $1B, tied to Vera Rubin deployments. Shares fell about 1.9% on the news; some outlets cite an upsized $97.5B.",
-        "now": "Vendor financing is now circular, and equity over debt signals capex outrunning cash flow. Caveat: final size and ATM pace are unconfirmed; the $97.5B figure comes from secondary outlets.",
-        "future": "Watch Microsoft and Alphabet capex guides after tonight's earnings and whether Amazon or others follow with equity. Public proxy: dilution versus backlog at NVDA and AMD."
+        "happening": "TypeSafe launched Sept 15 with a $40M DCVC-led seed at roughly $200M. Bloomberg reported about $870M at $7.5B led by a16z on Oct 9; The Information earlier reported talks above $10B. The company has not confirmed.",
+        "now": "The specialist early backer captured the entry price before the crossover round. Treat $7.5B as unconfirmed; close date is missing.",
+        "future": "Test: do its 'machine-native' decision models hold up in customer workflows? Builders should watch what software serving other software, not people, implies for product design."
       },
       "sources": [
         {
-          "name": "CNBC",
-          "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
-          "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
+          "name": "Runtimewire",
+          "title": "Bloomberg reports TypeSafe raised $870M at a $7.5B valuation",
+          "url": "https://runtimewire.com/article/typesafe-jev-reported-870m-financing"
         },
         {
-          "name": "CNBC",
-          "title": "Meta launches plan for $95 billion stock offering to fund AI expansion",
-          "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+          "name": "Dealroom",
+          "title": "TypeSafe exits stealth with $40M seed to build AI for software not people",
+          "url": "https://dealroom.co/news/151032-typesafe-exits-stealth-with-40m-seed-to-build-ai-for-software-not-people/"
         },
         {
-          "name": "Techstrong.ai",
-          "title": "NVIDIA, AMD Pledge $4 Billion to Back Meta's $97.5 Billion AI Infrastructure Push",
-          "url": "https://techstrong.ai/articles/nvidia-amd-pledge-4-billion-to-back-metas-97-5-billion-ai-infrastructure-push/"
+          "name": "Let's Data Science",
+          "title": "openai jev rival three weeks typesafe raised 870 million",
+          "url": "https://letsdatascience.com/blog/openai-jev-rival-three-weeks-typesafe-raised-870-million"
         }
       ],
       "tags": [
-        "Capex",
-        "Nvidia",
-        "AMD",
-        "Meta"
+        "DCVC",
+        "a16z",
+        "Seed",
+        "Frontier lab"
       ]
     },
     {
       "id": "g3",
       "region": "global",
       "cat": "funding",
-      "source": "Crunchbase News",
+      "source": "TechFundingNews",
       "time": "Oct 22",
-      "headline": "Ex-OpenAI Kevin Weil's Warp Sciences Exits Stealth With $215M Led by Lightspeed to Run a Robotic US Chemistry Contract Lab",
-      "dek": "An AI-planned, pay-per-compound lab aims to replace offshore contract research.",
+      "headline": "Maxinsights Raises a $30M Seed From Peak XV and South Park Commons to Pay 5,000+ People to Film Chores as Robot Training Data",
+      "dek": "Investors are funding the data layer under robotics mega-rounds rather than the robots.",
       "analysis": {
-        "happening": "Warp exited stealth Oct 22 with a $215M Series A led by Lightspeed, with IVP, Lux, Nvidia, Menlo and SignalFire named. Reported valuation is $865M post-money. It starts with analog synthesis for lead optimization, with chemists guiding robots for a few design partners.",
-        "now": "SignalFire's thesis: science-AI value sits in closed loops joining software to physical experiments and proprietary data. Caveat: no product or technical detail is public; the valuation comes from press reports.",
-        "future": "Watch design-partner names and per-compound pricing against offshore CROs. An AI-native service that owns the data exhaust is a pattern a small team could copy in another lab-bound niche."
+        "happening": "The $30M seed was led by Peak XV with Tola Capital, South Park Commons, INCE and Alumni Ventures. Maxinsights claims 2M+ hours of footage, 30+ customers including Genesis AI and Dyna Robotics, and launched MaxLoop and MaxGlove touch-data tools.",
+        "now": "The bet is that data, not hardware, is robotics' bottleneck. Metrics are company claims, and customer concentration in a few robot labs is the risk.",
+        "future": "Opportunity: region-specific data such as Japanese homes, kitchens and factories that Western collectors lack. A Tokyo data-collection outfit is a plausible gap."
       },
       "sources": [
         {
-          "name": "Crunchbase News",
-          "title": "The Week's 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+          "name": "TechFundingNews",
+          "title": "Maxinsights raises $30M from Peak XV to pay more than 5000 people to film real work for robots",
+          "url": "https://techfundingnews.com/maxinsights-raises-30m-from-peak-xv-to-pay-more-than-5000-people-to-film-real-work-for-robotsx/"
         },
         {
-          "name": "SignalFire",
-          "title": "Why we're betting on Warp Sciences to accelerate U.S. drug discovery",
-          "url": "https://www.signalfire.com/blog/warp-sciences-investor"
+          "name": "The Next Web",
+          "title": "Maxinsights raises $30M to turn everyday chores into robot training data",
+          "url": "https://thenextweb.com/news/maxinsights-30m-seed-robot-training-data"
+        },
+        {
+          "name": "Robotics 24/7",
+          "title": "Maxinsights launches MaxLoop and MaxGlove, adding live quality control and touch data to physical AI data stack",
+          "url": "https://www.robotics247.com/article/maxinsights-launches-maxloop-and-maxglove-adding-live-quality-control-and-touch-data-to-physical-ai-data-stack"
         }
       ],
       "tags": [
-        "Lightspeed",
-        "SignalFire",
-        "AI for science",
-        "Robotics"
+        "Physical AI",
+        "Peak XV",
+        "South Park Commons",
+        "Robotics data"
       ]
     },
     {
       "id": "g4",
       "region": "global",
-      "cat": "funding",
-      "source": "Yahoo Finance",
-      "time": "Oct 27",
-      "headline": "General Compute Raises $100M Series A at a Reported $800M, Led by Blackbird and Abstract, Betting on Inference-Only Chips Over GPUs",
-      "dek": "A neocloud built on non-Nvidia inference silicon, up from a $60M valuation at its May seed.",
+      "cat": "launches",
+      "source": "The Tool Nerd",
+      "time": "Oct 25",
+      "headline": "Pomerado (YC F26) Open-Sources an MIT Harness That Turns Any Login-Gated Website Into an MCP Tool",
+      "dek": "About 840-990 GitHub stars in days for deterministic integrations to sites with no API, including 2FA portals.",
       "analysis": {
-        "happening": "Per Yahoo Finance, General Compute raised $100M led by Blackbird Ventures and Abstract Ventures at $800M post-money. It runs SambaNova, Positron and Cerebras-class chips, plans 75 MW in 2027 and cites a $100M ARR customer deal.",
-        "now": "The bet: inference-specific chips on leased or converted sites deploy faster than greenfield GPU campuses. Caveat: July reports described a $400M Upper90 debt facility, so equity-versus-debt labels and seed figures conflict.",
-        "future": "Watch whether lenders keep accepting inference chips as collateral. A buildable gap: tooling that benchmarks cost per token across non-Nvidia silicon."
+        "happening": "Pomerado's MIT core builds and repairs site integrations, logins and 2FA included, and exposes them as an API or MCP server. Cloud tier: 100 calls/day free, $50/month for 1,000. Self-hosting needs Node 24 and an OpenAI key.",
+        "now": "Deterministic replay is cheaper and steadier than browser agents re-reasoning every click. Star counts differ by directory (841 vs ~990) and no official announcement was found.",
+        "future": "Solo-builder angle: wrappers for Japanese portals (government, logistics, B2B ordering) lacking APIs. Risks: site terms and brittleness; the moat is the repair loop and per-site libraries."
       },
       "sources": [
         {
-          "name": "Yahoo Finance",
-          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-          "url": "https://finance.yahoo.com/technology/ai/articles/general-compute-raises-100-million-130000238.html"
+          "name": "The Tool Nerd",
+          "title": "10 New AI Tools This Week: Ghosthand, Rystic, Isoquant and More (Oct 2026)",
+          "url": "https://www.thetoolnerd.com/p/new-ai-tools-this-week-oct-27-2026"
         },
         {
-          "name": "SiliconANGLE",
-          "title": "Inference cloud operator General Compute raises $400M in debt financing",
-          "url": "https://siliconangle.com/2026/07/17/inference-cloud-operator-general-compute-raises-400m-debt-financing/"
+          "name": "hermes-ai.net",
+          "title": "Pomerado turns any browser task into a reusable MCP tool in 30 minutes",
+          "url": "https://hermes-ai.net/news/pomerado-turns-any-browser-task-into-a-reusable-mcp-tool-in-30-minutes/"
+        },
+        {
+          "name": "EveryDev",
+          "title": "Pomerado",
+          "url": "https://www.everydev.ai/tools/pomerado"
         }
       ],
       "tags": [
-        "Neocloud",
-        "Inference chips",
-        "Series A"
+        "Agents",
+        "MCP",
+        "YC",
+        "Open source"
       ]
     },
     {
       "id": "g5",
       "region": "global",
-      "cat": "launches",
-      "source": "Resend",
-      "time": "Oct 22",
-      "headline": "Resend Inboxes Adds Shared Email Inboxes Built for Humans and AI Agents, Three Free Then $1 Each, With MCP and Skills Access",
-      "dek": "The email-API company moves into receiving mail, a thin layer a solo builder could copy for a niche.",
+      "cat": "hardware",
+      "source": "CNBC",
+      "time": "Oct 29",
+      "headline": "Microsoft and Alphabet Decline to Raise AI Capex Guidance While SK hynix Says Memory Is Sold Out Through 2029",
+      "dek": "A rare pause in the hyperscaler capex ratchet, as the squeeze shows up in component prices rather than volume.",
       "analysis": {
-        "happening": "Announced Oct 22. Inboxes handle send and receive on your own domain with threads, assignment, notes, drafts and webhooks. Agents such as Claude Code and Cursor connect via MCP, skills, API or CLI. Three inboxes are free; extra inboxes are $1 each on paid plans.",
-        "now": "Agent-addressable email suits support triage, alert routing and recruiting bots, and pressures agent-email startups like AgentMail. Caveat: one Resend page still says private beta, and a competitor claims a 5 requests-per-second limit.",
-        "future": "Watch deliverability for agent-sent mail and whether Postmark, SendGrid or Cloudflare ship equivalents. A vertical on top (legal, property, Japanese-language support) is a plausible solo build."
+        "happening": "Per CNBC, Microsoft trimmed its yearly capex forecast to $170B from $175B and Alphabet held $195-205B, both under estimates. SK hynix reported 104.6T won Q3 revenue and 83.3T won operating profit (~80% margin) on Oct 28.",
+        "now": "Flat budgets plus rising memory prices could mean fewer GPUs per dollar. Caveat: CNBC was paywalled to our researcher, so verify the figures; Microsoft's number may reflect lease accounting.",
+        "future": "Capex pauses hit GPU and server names first; memory and power last because of long-term agreements. Amazon's number is the tiebreaker."
       },
       "sources": [
         {
-          "name": "Resend",
-          "title": "announcing inboxes",
-          "url": "https://resend.com/blog/announcing-inboxes"
+          "name": "CNBC",
+          "title": "AI buildout hits snag as Google and Microsoft put off raising capex forecasts",
+          "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html"
         },
         {
-          "name": "AIToolly",
-          "title": "Resend launches Inboxes, an API-first shared email platform built for AI agents and human collaboration",
-          "url": "https://aitoolly.com/ai-news/article/2026-10-24-resend-launches-inboxes-an-api-first-shared-email-platform-built-for-ai-agents-and-human-collaborati"
+          "name": "Motley Fool",
+          "title": "SK Hynix Says Memory Is Sold Out Through 2029. Micron Is a Winner, Too",
+          "url": "https://www.fool.com/investing/2026/10/28/sk-hynix-says-memory-is-sold-out-through-2029-micron-is-a-winner-too/"
+        },
+        {
+          "name": "TrendForce",
+          "title": "[News] SK hynix 3Q Earnings Preview: Record Profit at 78% Operating Margin; HBM4, LTAs, Solidigm in Focus",
+          "url": "https://www.trendforce.com/news/2026/10/26/news-sk-hynix-3q-earnings-preview-record-profit-at-78-operating-margin-hbm4-ltas-solidigm-in-focus/"
         }
       ],
       "tags": [
-        "Email",
-        "Agents",
-        "Developer tools"
+        "Capex",
+        "Hyperscalers",
+        "HBM",
+        "Memory"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
-      "cat": "launches",
-      "source": "ITmedia AI+",
-      "time": "Oct 27",
-      "headline": "PFN Ships PLaMo 3.1 Prime With Deep Research That Runs Fully On-Prem, Plus a Free API Tier, but Trails Open-Weight Rivals on Coding and STEM",
-      "dek": "Japan's from-scratch flagship now copies the agentic research pattern and competes on safety, not raw capability.",
+      "cat": "research",
+      "source": "The Decoder",
+      "time": "Oct 23",
+      "headline": "Sakana AI Opens a Tokyo Recursive Self-Improvement Lab, Betting Compute-Light Research Can Sidestep the GPU Race",
+      "dek": "Japan's best-known lab is positioning on research taste instead of cluster size.",
       "analysis": {
-        "happening": "Preferred Networks launched PLaMo 3.1 Prime on Oct 27 with web search and Deep Research, about 15% fewer hallucinations than 3.0 and 1.7x speed. API pricing is ¥60 input and ¥250 output per million tokens, with a free tier.",
-        "now": "Gap: it topped a 35-benchmark safety average against Qwen, gpt-oss-120B and Gemma 4 but trailed on STEM, coding and search answers; rivals are mid-size open weights, not the US frontier. Scores are PFN's own.",
-        "future": "Watch on-prem deals with regulated Japanese firms that cannot send documents abroad. A free API plus a Deep Research promo to Nov 30 makes cheap Japanese-document RAG prototypes viable."
+        "happening": "Sakana launched an RSI Lab around Oct 23 targeting systems that optimise their own architecture, training and evaluation, citing the Darwin Godel Machine. It reportedly named Jurgen Schmidhuber chief scientific advisor. Roadmap runs from agent-native models to an AI scientist to RSI.",
+        "now": "Versus the US: OpenAI, Anthropic and Google win on cluster size, which Japan cannot match soon. Caveat: evidence so far is bounded, domain-specific systems; the earliest-lab claim is unverified.",
+        "future": "Watch hiring: frontier researchers in Tokyo would be a talent magnet. Opportunity: eval, sandbox and AI-scientist tooling for Japanese labs."
       },
       "sources": [
         {
-          "name": "ITmedia AI+",
-          "title": "PFNの国産フラグシップモデル「PLaMo 3.1 Prime」発表　オンプレでDeep Research対応　API無料プランも開始",
-          "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002652/"
+          "name": "Sakana AI",
+          "title": "The Next Paradigm of Artificial Intelligence",
+          "url": "https://sakana.ai/rsi-lab/"
         },
         {
-          "name": "窓の杜",
-          "title": "国産の生成AI基盤モデル「PLaMo 3.1 Prime」が提供開始 ～Web検索とDeep Researchに対応",
-          "url": "https://forest.watch.impress.co.jp/docs/news/2151522.html"
+          "name": "The Decoder",
+          "title": "sakana ai bets ai that improves itself can break the compute arms race of frontier labs",
+          "url": "https://the-decoder.com/sakana-ai-bets-ai-that-improves-itself-can-break-the-compute-arms-race-of-frontier-labs/"
         },
         {
-          "name": "Preferred Networks",
-          "title": "国産生成AI基盤モデルPLaMo PrimeにWeb検索・Deep Research搭載 調査計画の立案から出典付きレポートまで自律的に実行、オンプレミスにも対応",
-          "url": "https://www.preferred.jp/ja/news/pr20261027"
+          "name": "heise",
+          "title": "AIs that program themselves: Sakana AI founds research lab",
+          "url": "https://heise.de/-11321922"
         }
       ],
       "tags": [
-        "PFN",
-        "PLaMo",
-        "Sovereign LLM"
+        "Sakana AI",
+        "Self-improvement",
+        "Japan labs"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
       "cat": "hardware",
-      "source": "Technode Global",
-      "time": "Oct 21",
-      "headline": "PFN and Tenstorrent Win a Five-Year NEDO Project for Photonics-Linked AI Chiplets With 3D-Stacked Memory",
-      "dek": "Japan bets on chiplets and optical interconnect instead of chasing Nvidia's GPUs head-on.",
+      "source": "Nikkei Asia",
+      "time": "Oct 30",
+      "headline": "Japan's Chip-Related Exports Jump 41% in April-September as Some Memory Export Prices Rise Roughly Fivefold",
+      "dek": "Japan is cashing in on the AI memory squeeze as a supplier, not a chip designer.",
       "analysis": {
-        "happening": "NEDO selected PFN and Tenstorrent on Oct 20-21 to design xPUs integrating photonics and electronics. PFN builds AI chiplets with 3D memory stacking; Tenstorrent builds confidential-computing CPU chiplets. R&D runs about five years, to FY2031, with U Tokyo and JAEA. Budget undisclosed.",
-        "now": "Gap: a 2031 research bet, while Nvidia ships Rubin-class systems now and PFN's own MN-Core L is not due until 2027. Pairing with US-based Tenstorrent shows Japan buying an open-architecture partner. No node, prototype or money is stated.",
-        "future": "Watch the budget, the foundry choice (Rapidus is a natural but unconfirmed fit) and early chiplet specs. Opportunity: packaging, optical I/O and test suppliers around the 60-month program."
+        "happening": "Government data show chip-related exports up 41% year on year by value in April-September 2026. Export prices for some memory products rose roughly fivefold on AI data-centre demand, per Nikkei Asia, partly offsetting a crude-inflated trade deficit.",
+        "now": "Versus the US/Korea: SK hynix's blowout quarter lifted Tokyo stocks Oct 28, but Japan captures the boom through NAND, equipment and materials. The gain is price-driven, not volume-driven.",
+        "future": "Opportunity: Tokyo-listed proxies for AI memory pricing. Caveat: fivefold prices are cyclical and could reverse; no destination countries named. Rapidus is the structural bet."
       },
       "sources": [
         {
-          "name": "Technode Global",
-          "title": "PFN and Tenstorrent win NEDO xPU research project",
-          "url": "https://technode.global/2026/10/22/pfn-tenstorrent-nedo-xpu/"
+          "name": "Nikkei Asia",
+          "title": "AI boom, soaring memory prices lift Japan's chip exports 41%",
+          "url": "https://asia.nikkei.com/business/tech/semiconductors/ai-boom-soaring-memory-prices-lift-japan-s-chip-exports-41"
         },
         {
-          "name": "Kyodo News PR Wire",
-          "title": "PFNとTenstorrent、「フォトニクス・エレクトロニクス統合技術 を組み込んだxPUの設計・開発」に関するNEDOプロジェクトに 選定",
-          "url": "https://kyodonewsprwire.jp/release/202610228469"
+          "name": "Business Recorder",
+          "title": "Japan's Nikkei jumps as tech results revive AI optimism - Markets",
+          "url": "https://www.brecorder.com/news/40446285/japan-s-nikkei-jumps-as-tech-results-revive-ai-optimism"
+        },
+        {
+          "name": "MarketScreener",
+          "title": "Japan's Nikkei jumps as tech results revive AI optimism",
+          "url": "https://www.marketscreener.com/news/japan-s-nikkei-jumps-as-tech-results-revive-ai-optimism-ce785cd2d98af325"
         }
       ],
       "tags": [
-        "PFN",
-        "Tenstorrent",
-        "NEDO",
-        "Chiplets"
+        "Memory",
+        "Exports",
+        "Nikkei"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
       "cat": "funding",
-      "source": "創業手帳",
-      "time": "Oct 23",
-      "headline": "Knowledge Work Books ¥4.8B for Sales AI Agents as It Pivots From SaaS to an Agent OS, With Megabank Loans in the Mix",
-      "dek": "Japan's clearest SaaS-to-agent conversion story, funded in part by credit rather than pure venture equity.",
+      "source": "Indian Startup News",
+      "time": "Oct 29",
+      "headline": "Indian Agent Startup QwikBuild Raises $2.3M Led by Tokyo-Listed Globalway, With a Japan Joint Venture Planned for December",
+      "dek": "A Japanese small-cap is importing an agents product rather than building one: a distribution-first route into enterprise Japan.",
       "analysis": {
-        "happening": "Knowledge Work announced ¥4.8B in total on Oct 23, described by a weekly roundup as a Series C second close including loans from Mizuho, SMBC, MUFG, Sumitomo Mitsui Trust and regional banks. In August it raised ¥3.5B in the first close and launched a Sales AI Agent OS.",
-        "now": "Gap: US agent startups raise equity at far larger scale; a bank-credit extension signals enterprise traction more than hype. Caveat: the equity-versus-debt split and the ¥4.8B figure come from secondary reporting, not the company release.",
-        "future": "Watch ARR disclosure and partners from the August close. Vertical agents built around Japanese sales workflows (keiretsu accounts, approval chains) remain underbuilt."
+        "happening": "Bengaluru's QwikBuild (Snow Mountain AI) raised $2.3M led by Globalway (TSE 3936), with a JV for sales, deployment and maintenance in Japan. A Japanese report says Globalway buys ~5% for $500k, rising to 70% of the JV; reports conflict on structure.",
+        "now": "Versus the US: Japanese SIers have customers but few agent products, so they license foreign ones. Terms rest on one Japanese report plus startup press, unchecked against TSE filings.",
+        "future": "The scarce layer is localisation and deployment: enterprise integration, compliance, support. The same JV pattern could be pitched to other listed Japanese IT firms. Watch the December JV filing."
       },
       "sources": [
         {
-          "name": "創業手帳",
-          "title": "セールスAIエージェントを展開する「ナレッジワーク」が48億円調達",
-          "url": "https://sogyotecho.jp/?p=269652"
+          "name": "Indian Startup News",
+          "title": "Ex-slice executive's AI startup QwikBuild raises $2.3 million, plans Japan joint venture with Globalway",
+          "url": "https://indianstartupnews.com/funding/ex-slice-executives-ai-startup-qwikbuild-raises-23-million-plans-japan-joint-venture-with-globalway-12761207"
         },
         {
-          "name": "PR TIMES",
-          "title": "ナレッジワーク、「セールスAIエージェントOS」の提供を開始。シリーズC 1stクローズで35億円を資金調達し、各業界のリーディングカンパニーとの戦略的パートナーシップを推進",
-          "url": "https://prtimes.jp/main/html/rd/p/000000148.000063428.html"
+          "name": "CIOL",
+          "title": "QwikBuild Raises $2.3M to Bring AI Agents Into Enterprise Systems",
+          "url": "https://www.ciol.com/funding-acquistion-merger/qwikbuild-raises-23m-to-bring-ai-agents-into-enterprise-systems-12761705"
         }
       ],
       "tags": [
-        "Knowledge Work",
-        "AI agents",
-        "Series C"
+        "Agents",
+        "Cross-border",
+        "JV"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "hardware",
-      "source": "MONEY POST",
-      "time": "Upcoming",
-      "headline": "Kioxia Reports Oct 30 After a Roughly 15% Jump on Oct 28, Japan's Cleanest Listed Proxy for AI Memory Demand",
-      "dek": "The quarter tests whether Japan's one real AI-hardware winner can hold near-80% operating margins without HBM.",
+      "cat": "funding",
+      "source": "Nikkei Asia",
+      "time": "Jul-Aug (open now)",
+      "headline": "New Money for Early Japanese Deep Tech: A Global Innovation Labs-Z Venture Capital Fund Is Planned, and KDDI and Google Offer Equity Plus Gemini Access",
+      "dek": "The SF pattern of lab-backed seed funds is arriving in Japan, with compute and model access as the carrot.",
       "analysis": {
-        "happening": "Kioxia reports July-September results Oct 30. It guided Q2 revenue to ¥2.39T, up about 35% on Q1's ¥1.767T. Shares rose about 14.6% to ¥14,445 on Oct 28 after SK hynix's record quarter, per market reports.",
-        "now": "Gap: Japan has no HBM, so Kioxia profits from NAND price spikes on AI storage demand while Korea's SK hynix owns the HBM chokepoint. Part of the growth reflects a depressed prior-year base. Outlets disagree on details; check the filing.",
-        "future": "Watch gross margin, data-center mix, capex and pricing-durability guidance. A miss would test the wider Japan AI-hardware trade, including Advantest and Tokyo Electron."
+        "happening": "Nikkei reports a Global Innovation Labs-Z Venture Capital JV will launch a fund this year for early-stage AI, space and defense, bundling Silicon Valley tech licensing; size undisclosed. KDDI and Google's AI Futures Fund (Jul 28) offers equity, early Gemini access and sovereign Gemini at KDDI's Osaka-Sakai DC.",
+        "now": "Japan's gap is early-stage capital for deep tech. Caveat: neither vehicle disclosed size or terms, and neither is an October announcement; included as an open opportunity.",
+        "future": "Apply early: KDDI's program listed no deadline. Watch the fund's first close and which Japanese labs license US technology."
       },
       "sources": [
         {
-          "name": "MONEY POST",
-          "title": "【生成AI特需の行方】10月30日のキオクシア決算で注目すべきポイント 7～9月期に「売上2兆3900億円」を見込んでいた根拠、当日に確かめたい数字は",
-          "url": "https://www.moneypost.jp/1458644"
+          "name": "Nikkei Asia",
+          "title": "VC firm with ties to Siri to launch Japan fund for AI, space startups",
+          "url": "https://asia.nikkei.com/business/technology/vc-firm-with-ties-to-siri-to-launch-japan-fund-for-ai-space-startups"
         },
         {
-          "name": "Minkabu",
-          "title": "キオクシアが一時１０００円超の上昇、決算発表とＴＯＰＩＸ絡みの買い需要に思惑",
-          "url": "https://minkabu.jp/news/4643540"
+          "name": "KDDI Newsroom",
+          "title": "KDDI and Google AI Futures Fund Launch a Joint Investment Program for Japanese Startups",
+          "url": "https://newsroom.kddi.com/english/news/detail/kddi_nr-1103_4634.html"
         }
       ],
       "tags": [
-        "Kioxia",
-        "Memory",
-        "Earnings"
+        "VC",
+        "Funds entering Japan",
+        "Deep tech"
       ]
     }
   ]
