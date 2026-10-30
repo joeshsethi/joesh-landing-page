@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-30T20:06:32.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Sat · Oct 31 2026",
+    "editionLine": "EDITION No.537 · SYNCED 05:15 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "Today's throughline: memory costs and capex doubts hit public chip stocks while private money keeps funding the layers around Nvidia.",
+    "briefingTitle": "Intel's Crash Wipes $1T Off Chips, Alt-Silicon Startups Raise, and Japan Moves From Orchestrating Models to Owning Them",
+    "summary": "The memory supercycle is now a cost for everyone downstream: Intel blamed DRAM prices for a weak guide and chip stocks lost roughly $1T in a day. Meanwhile private investors keep funding the layers around Nvidia, from General Compute's alt-silicon cloud to Foundry's robot factories, and OpenAI's cheaper GPT-6.1 Terra pushes agent costs down. In Japan, Sakana plans its own from-scratch model, METI seeks ¥400B more for Rapidus, and a reported Osaka data center would make Japan the landlord for a US lab.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 23 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 37,
+      "frontier": 95,
+      "note": "+1 — Sakana's planned 'Sawara' from-scratch pre-training is the first sovereign weights plan, but no compute, specs or funding are disclosed; the frontier still ships models today."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 17,
+      "frontier": 99,
+      "note": "Unchanged — Tokyo Artisan's ¥1.27B Series C tranche sits beside General Compute's $100M Series A and Foundry's $100M; Japan's venture vehicles still lack disclosed size."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 34,
+      "frontier": 96,
+      "note": "+1 — METI's ¥400B Rapidus request lifts planned state money to ¥650B, but it is unapproved and Rapidus still has no named customer while TSMC ships 2nm-class volume."
+    },
+    {
+      "label": "Early-stage AI venture formation",
+      "jp": 29,
+      "frontier": 92,
+      "note": "Unchanged — US startups re-rate in months (General Compute ~13x in five months); Japan's newest signal is a ¥1.27B edge-chip tranche."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "hardware",
+      "source": "CNBC",
+      "time": "Oct 30",
+      "headline": "Intel's ~25% Crash Wipes About $1T Off Chip Stocks, and the Blamed Culprit Is Memory Prices, Not AI Demand",
+      "dek": "A weak Q4 guide dragged the sector, with the CFO citing DRAM prices pricing consumers out of PCs.",
+      "analysis": {
+        "happening": "Intel guided Q4 revenue to $15-16B versus ~$17B expected and EPS of 25c versus 43c. Chip stocks lost roughly $1T; AMD fell ~10%, Dell ~13%, Nvidia 3-5%. CFO Zinsner cited high memory prices hurting PC demand.",
+        "now": "The memory supercycle taxes everything downstream of HBM and DRAM. Caveat: intraday figures vary by outlet, Intel's cause is PCs rather than data centers, and the rout also reflects the week's hyperscaler earnings reactions.",
+        "future": "Watch whether PC and phone makers cut memory specs or raise prices, and whether Nvidia's growth holds the AI trade. Pure-play memory is the volatile read-through."
+      },
+      "sources": [
+        {
+          "name": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "name": "CNBC",
+          "title": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
+          "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"
+        },
+        {
+          "name": "Benzinga",
+          "title": "Chip Stocks Lose $1 Trillion as Intel Sinks 28%",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom"
+        }
+      ],
+      "tags": [
+        "Intel",
+        "Memory",
+        "Chip stocks"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "launches",
+      "source": "BleepingComputer",
+      "time": "Oct 26",
+      "headline": "OpenAI's GPT-6.1 Terra Claims Prior-Flagship Agent Scores at $1/$5 per Million Tokens",
+      "dek": "The story is price: a mid-tier model OpenAI says matches its earlier flagship on agent tasks at far lower cost.",
+      "analysis": {
+        "happening": "Released Oct 26 at $1 input / $5 output per million tokens, 50% below GPT-5.6 Terra. OpenAI claims 3x faster tasks, Terminal-Bench 4.0 at 50.3% (versus 21.5% for GPT-5.6 Terra) and a max-effort error rate of 4.3%.",
+        "now": "Cheaper computer-use agents make thin-margin agent products viable. Caveats: all figures are OpenAI's, the error benchmark is internal, OpenAI still recommends Sol/Astra for hard coding, and a linked report flags more destructive-action flags in tests.",
+        "future": "Watch whether Anthropic and Google cut mid-tier prices and for independent computer-use evals. Cheap agents push value toward whoever owns the workflow and data, not the model."
+      },
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+          "url": "https://bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing"
+        },
+        {
+          "name": "Let's Data Science",
+          "title": "OpenAI releases GPT-6.1 Terra, cutting price 50% and benchmark error rates",
+          "url": "https://letsdatascience.com/news/openai-releases-gpt-61-terra-cutting-price-50-and-benchmark-bc892dc4"
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Agents",
+        "Pricing"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "funding",
+      "source": "DatacenterDynamics",
+      "time": "Oct 27",
+      "headline": "General Compute Raises $100M at $800M to Rent Non-Nvidia Inference Chips, Up From $60M in May",
+      "dek": "A debt-financed neocloud for Cerebras, SambaNova and Positron silicon, with a ~13x step-up in five months.",
+      "analysis": {
+        "happening": "Blackbird and Abstract Ventures co-led a $100M Series A at ~$800M post-money, with a $400M Upper90 debt facility for chips. Revenue is reported as $100M ARR from one unnamed customer (TechCrunch-cited) versus $190M contracted (Blackbird); sources conflict.",
+        "now": "Bet: Nvidia scarcity and memory shortages make alternative silicon financeable. Caveats: no major deployment is live until Q1 2027, customer concentration is extreme, and the '20-40x faster' claims have no published benchmarks.",
+        "future": "Watch whether Cerebras and SambaNova sell direct and cut out the middleman. Builder angle: the routing and scheduling layer across mixed chips; Japan has no visible equivalent."
+      },
+      "sources": [
+        {
+          "name": "DatacenterDynamics",
+          "title": "Neocloud General Compute raises $100M in Series A funding round",
+          "url": "https://datacenterdynamics.com/en/news/neocloud-general-compute-raises-100m-in-series-a-funding-round"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "General Compute Raises $100M Series A at $800M on Alt Silicon",
+          "url": "https://aiweekly.co/alerts/general-compute-raises-100m-series-a-at-800m-on-alt-silicon"
+        },
+        {
+          "name": "RuntimeWire",
+          "title": "General Compute raises $100M to sell inference capacity across rival chips",
+          "url": "https://runtimewire.com/article/general-compute-100m-series-a-inference-cloud"
+        }
+      ],
+      "tags": [
+        "Inference",
+        "Alt silicon",
+        "Series A"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "funding",
+      "source": "RuntimeWire",
+      "time": "Oct 28",
+      "headline": "Foundry Robotics Lands $100M Series A From Marlinspike and Khosla to Own and Run Robot-Staffed Factories",
+      "dek": "It does not sell robots: it owns the factory and sells manufacturing for drones, satellites and wire harnesses.",
+      "analysis": {
+        "happening": "Marlinspike Partners led an oversubscribed $100M Series A with Khosla Ventures, SE Ventures and Wing VC; valuation undisclosed. It funds a 130,000 sq ft Emeryville site (20x current footprint) and FoundryOS, software coordinating robotic assembly cells.",
+        "now": "Investors are shifting from robot hardware to vertically integrated US production of low-volume, high-mix, defense-adjacent goods. Caveat: no customers or revenue found, the company is reportedly founded in 2026, and the facility is unproven.",
+        "future": "Watch the first named defense or space customer and utilization numbers. Opportunity: factory orchestration software is a thin layer a small team could build; Japan's small-lot makers have few AI-native operators."
+      },
+      "sources": [
+        {
+          "name": "RuntimeWire",
+          "title": "Foundry Robotics raises $100M to build a factory for complex assembly",
+          "url": "https://runtimewire.com/article/foundry-robotics-100m-series-a-autonomous-factory"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "Foundry Raises $100M Series A Led by Marlinspike to Build Robot-Run Factories on Physical AI Models",
+          "url": "https://aiweekly.co/alerts/foundry-raises-100m-series-a-led-by-marlinspike-to-build-robot-run-factories-on"
+        },
+        {
+          "name": "Ventureburn",
+          "title": "Foundry Robotics Raises $100 Million To Build America's First AI-Powered Assembly Factory",
+          "url": "https://ventureburn.com/foundry-robotics-raises-100-million-ai-assembly-factory/"
+        }
+      ],
+      "tags": [
+        "Physical AI",
+        "Manufacturing",
+        "Khosla"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "Product Hunt",
+      "time": "Oct 29",
+      "headline": "Overmind, an AGPL Platform That Turns Your Agent's Production Traces Into a Small Model You Own, Hits #2 on Product Hunt",
+      "dek": "The pitch: stop paying frontier-API rates for a narrow task you have already run thousands of times.",
+      "analysis": {
+        "happening": "SF-based Overmind open-sourced its platform Oct 1 and ranked #2 on Product Hunt's Oct 29 digest with 297 votes. It ingests OpenTelemetry traces, evaluates, fine-tunes specialised small models and serves them; self-hostable via Docker Compose, AGPL-3.0.",
+        "now": "A solo builder with a working agent could distil it into a cheap model. Caveats: the 96% invoice-cost cut and 86% legal-benchmark gain are company-reported, no funding was disclosed, and AGPL limits SaaS reuse.",
+        "future": "Watch GitHub stars and any seed announcement. Trace-to-small-model distillation is a growing category; the open question is whether it survives frontier price cuts like GPT-6.1 Terra's."
+      },
+      "sources": [
+        {
+          "name": "Product Hunt",
+          "title": "Launching today",
+          "url": "https://www.producthunt.com/products/overmind-2"
+        },
+        {
+          "name": "Webull / PR Newswire",
+          "title": "Ex-Spies and Fintech Unicorn Leaders Bet Against Big AI Labs with New Open Source Platform",
+          "url": "https://www.webull.com/news/15673061618959360"
+        },
+        {
+          "name": "The Menon Lab",
+          "title": "Overmind: Turn Your Agent's Production Traces Into Models You Own",
+          "url": "https://themenonlab.blog/blog/overmind-training-platform-specialized-agents"
+        }
+      ],
+      "tags": [
+        "Distillation",
+        "Open source",
+        "Product Hunt"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "nippon.com (Jiji)",
+      "time": "Oct 20-23",
+      "headline": "METI Asks for Another ¥400B for Rapidus as Its Chairman Says 2nm Is 'Broadly on Track' and Courts US AI Customers",
+      "dek": "State money would reach ¥650B, but Rapidus still has no named customer.",
+      "analysis": {
+        "happening": "On Oct 20 METI asked a Finance Ministry panel for ¥400B over FY2027-29, taking state money to ¥650B on top of ¥250B already decided. Chairman Higashi says 2nm mass production is on track for 2H27. Rapidus CORE launched Oct 5 with 17 design partners including Cadence and Synopsys.",
+        "now": "These are budget requests, not approved money, and no customer or volume has been disclosed. Gap: TSMC already ships 2nm-class volume while Japan's leading logic is a pilot line in Chitose. The opening is design-service and EDA/IP work around CORE.",
+        "future": "Watch the December budget decision, the first named US customer and Chitose yield data. A customer announcement is the real signal; funding alone is not."
+      },
+      "sources": [
+        {
+          "name": "nippon.com (Jiji)",
+          "title": "Japan Govt to Invest 400 B. Yen More in Rapidus",
+          "url": "https://www.nippon.com/en/news/yjj2026102000345/"
+        },
+        {
+          "name": "DIGITIMES",
+          "title": "Rapidus courts US AI customers ahead of planned 2H27 2nm mass production",
+          "url": "https://www.digitimes.com/news/a20261023PD228/rapidus-production-2nm-chairman-investment.html"
+        },
+        {
+          "name": "DIGITIMES",
+          "title": "Japan plans JPY400 billion boost for Rapidus 2nm push",
+          "url": "https://www.digitimes.com/news/a20261020PD240/rapidus-2nm-2027-government-investment.html"
+        }
+      ],
+      "tags": [
+        "Rapidus",
+        "METI",
+        "2nm"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "research",
+      "source": "Nikkei Asia",
+      "time": "Oct 26",
+      "headline": "Sakana AI Says It Will Pre-Train Its Own Japanese Model From Scratch for Defense and Cybersecurity",
+      "dek": "The unicorn moves from orchestrating US models toward owning weights, with a smaller model reportedly planned for spring 2027.",
+      "analysis": {
+        "happening": "Announced Oct 26 in Tokyo: a provisionally named 'Sawara' pre-training project to cut reliance on US and Chinese models. One report says development starts Nov 2026. Its Fugu orchestration product is reportedly the leading SDF candidate, with a defense version excluding Chinese models.",
+        "now": "No specs, compute or funding disclosed; timelines come from secondary reports. Gap: US labs ship frontier models today, while Sakana has layered on others' models. The niche is trusted-supply-chain AI for government.",
+        "future": "Watch compute sourcing (Noetra, ABCI or private), Defense Ministry contract terms, and independent benchmarking of the first model."
+      },
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "title": "Japan's Sakana AI to build homegrown model to cut US, China reliance",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sakana-ai-to-build-homegrown-model-to-cut-us-china-reliance"
+        },
+        {
+          "name": "AlphaSignal",
+          "title": "Sakana AI Plans Sawara, a Japanese Foundation Model Built From Scratch",
+          "url": "https://alphasignal.ai/news/sakana-ai-plans-sawara-a-japanese-foundation-model-built-from-scratch"
+        }
+      ],
+      "tags": [
+        "Sakana AI",
+        "Sovereign AI",
+        "Defense"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "The Star (Reuters/Nikkei)",
+      "time": "Oct 13 (reported)",
+      "headline": "NTT Data Reportedly in Final Talks to Build Anthropic's First Japan Data Center in Osaka: Up to ¥1T and 500MW",
+      "dek": "A US lab would be the anchor tenant of a Japanese builder, not the reverse.",
+      "analysis": {
+        "happening": "Nikkei reports NTT Data is finalizing a dedicated Osaka site for Anthropic: up to ¥1 trillion (~$6.3B), up to 500MW, partial operation as early as 2028, deal targeted by March 2027. Neither company has commented. On-site generation and fuel cells are being considered because grid connection is slow.",
+        "now": "Reported, not signed. Gap: Japan supplies land, power and construction; model IP and demand are American. Power interconnect, not GPUs, is the bottleneck, so grid-adjacent and on-site-power plays may be the buildable layer.",
+        "future": "Watch for a signed agreement, the power solution, and whether OpenAI or Google follow with Japan-based dedicated capacity."
+      },
+      "sources": [
+        {
+          "name": "The Star (Reuters)",
+          "title": "NTT Data in final talks to build Anthropic's first data centre in Japan, Nikkei reports",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/13/ntt-data-in-final-talks-to-build-anthropic039s-first-data-centre-in-japan-nikkei-reports"
+        },
+        {
+          "name": "Data Centre Magazine",
+          "title": "Anthropic and NTT Data Near US$6.3bn Japan Data Centre Deal",
+          "url": "https://datacentremagazine.com/news/anthropic-and-ntt-data-near-us-6-3bn-data-centre-deal"
+        }
+      ],
+      "tags": [
+        "Anthropic",
+        "NTT Data",
+        "Data centers"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "funding",
+      "source": "The Bridge",
+      "time": "Oct 27",
+      "headline": "Tokyo Artisan Intelligence Reportedly Closes a First ¥1.27B Series C Tranche to Mass-Produce Reconfigurable Edge-AI Chips",
+      "dek": "A rare Japan-built AI silicon startup, funded at a scale that is tiny next to US and Korean peers.",
+      "analysis": {
+        "happening": "The Bridge's fundraising feed lists a ¥1.27B (~$8M) Series C first close around Oct 27. Its June 2025 Series B was ¥1.11B, led by Mitsui Sumitomo Insurance Capital with JR East Consultants and JR Kyushu as partners, for reconfigurable edge AI chips.",
+        "now": "Investors and final size were not available beyond the listing. Gap: FuriosaAI in Korea just raised ~$620M on state equity; Japan's version is small strategic money from rail and insurance partners. Opportunity: vertical edge AI for rail, factories and infrastructure.",
+        "future": "Watch the final close, lead investor, first volume customer and whether Rapidus or domestic foundries become its manufacturing path."
+      },
+      "sources": [
+        {
+          "name": "The Bridge",
+          "title": "News & Column: Tokyo Artisan Intelligence",
+          "url": "https://thebridge.jp/tag/tokyo-artisan-intelligence"
+        },
+        {
+          "name": "The Bridge",
+          "title": "Tokyo Artisan Intelligence、エッジAIチップ量産へ11億円調達",
+          "url": "https://thebridge.jp/2025/06/tokyo-artisan-intelligence-raises-1-1-billion-yen-to-mass-produce-edge-ai-chips"
+        }
+      ],
+      "tags": [
+        "Edge AI",
+        "AI chips",
+        "Series C"
+      ]
+    }
+  ]
+}
