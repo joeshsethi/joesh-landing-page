@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T20:15:00.000Z",
-  "dateLabel": "Sat · Oct 31 2026",
+  "generatedAt": "2026-10-31T20:06:56.000Z",
+  "dateLabel": "Sun · Nov 1 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Premier League: Liverpool v Arsenal",
-      "line": "Defending champions Arsenal visit Liverpool on Saturday 31 Oct per the official fixture list. Kickoff time not confirmed; check the Premier League site for the exact JST time.",
-      "whenJst": "Sat Oct 31 · kickoff TBC (JST)",
+      "event": "Champions League MD4: Atlético de Madrid vs Bayern Munich",
+      "line": "Bayern visit Atlético on league-phase Matchday 4, alongside Barcelona vs Aston Villa and Manchester United vs Roma the same night. Standard 21:00 CET kick-off.",
+      "whenJst": "Wed Nov 4 · 05:00 JST",
       "sources": [
         {
-          "name": "Premier League",
-          "title": "All of Arsenal's fixtures for 2026/27 Premier League season",
-          "url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
         }
       ]
     },
@@ -22,14 +22,14 @@
       "id": "s2",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League Matchday 4: Atletico v Bayern, Barcelona v Aston Villa",
-      "line": "Matchday 4 opens 3 Nov with Atletico v Bayern, Man United v Roma and Barcelona v Aston Villa. Listings disagree on some dates; confirm with UEFA. The usual 21:00 CET slot is 05:00 JST.",
-      "whenJst": "Wed Nov 4 · ~05:00 JST (confirm)",
+      "event": "Champions League MD4: Leipzig vs Man City, Fenerbahçe vs Liverpool, Slavia Praha vs Arsenal",
+      "line": "Wednesday's slate also has Porto vs Napoli and AEK Athens vs Real Madrid. Standard 21:00 CET kick-offs; check UEFA for any 18:45 CET games (02:45 JST).",
+      "whenJst": "Thu Nov 5 · 05:00 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Champions League 2026/27 fixtures, dates, schedule, format and who has qualified from Premier League and around Europe",
-          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+          "name": "UEFA",
+          "title": "Champions League Matchday 4: Key stats and what to look out for in every game",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21f10edb96af-f01ebdbd9935-1000--champions-league-matchday-4-key-stats-and-what-to-look-o/"
         }
       ]
     },
@@ -37,14 +37,19 @@
       "id": "s3",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Rolex Paris Masters (ATP Masters 1000)",
-      "line": "Indoor hard-court Masters runs Nov 2-8 in Paris with defending champion Jannik Sinner. Semifinals Sat Nov 7, final Sun Nov 8; session times not confirmed.",
-      "whenJst": "Final: Mon Nov 9 (Paris Sun evening) · time TBC JST",
+      "event": "Rolex Paris Masters 2026, main draw",
+      "line": "Last Masters 1000 of the year starts, with Zverev and Djokovic on course for a quarter-final meeting. Djokovic needs a deep run to make the ATP Finals. Alcaraz is No. 2 seed.",
+      "whenJst": "Mon Nov 2 onward · order of play TBC",
       "sources": [
         {
-          "name": "LTA",
-          "title": "what is the schedule for the rolex paris masters",
-          "url": "https://www.lta.org.uk/news/2026/october/what-is-the-schedule-for-the-rolex-paris-masters/"
+          "name": "ATP Tour",
+          "title": "Alexander Zverev, Novak Djokovic on course for Paris QF showdown; Turin contenders eye push",
+          "url": "https://www.atptour.com/en/news/paris-2026-draw-preview"
+        },
+        {
+          "name": "Sky Sports",
+          "title": "Novak Djokovic: After shock defeat in Basel former world No 1 heads to Paris Masters in race to make ATP Finals in Turin",
+          "url": "https://www.skysports.com/tennis/news/13605706/novak-djokovic-after-shock-defeat-in-basel-former-world-no-1-heads-to-paris-masters-in-race-to-make-atp-finals-in-turin"
         }
       ]
     }
