@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T20:06:56.000Z",
-  "dateLabel": "Sun · Nov 1 2026",
+  "generatedAt": "2026-11-01T20:06:31.000Z",
+  "dateLabel": "Mon · Nov 2 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League MD4: Atlético de Madrid vs Bayern Munich",
-      "line": "Bayern visit Atlético on league-phase Matchday 4, alongside Barcelona vs Aston Villa and Manchester United vs Roma the same night. Standard 21:00 CET kick-off.",
+      "event": "UCL MD4: Atlético vs Bayern, Villarreal vs PSG",
+      "line": "Champions League Matchday 4 opens Tuesday with Atlético Madrid v Bayern Munich, Villarreal v PSG, Barcelona v Aston Villa, Man United v Roma and Feyenoord v Inter. Kick-offs are mainly 21:00 CET.",
       "whenJst": "Wed Nov 4 · 05:00 JST",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "2026/27 Champions League: All the league phase fixtures and results",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+          "name": "Sky Sports",
+          "title": "Champions League 2026/27: fixtures, dates, schedule, format and who has qualified",
+          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         }
       ]
     },
@@ -22,34 +22,29 @@
       "id": "s2",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League MD4: Leipzig vs Man City, Fenerbahçe vs Liverpool, Slavia Praha vs Arsenal",
-      "line": "Wednesday's slate also has Porto vs Napoli and AEK Athens vs Real Madrid. Standard 21:00 CET kick-offs; check UEFA for any 18:45 CET games (02:45 JST).",
+      "event": "UCL MD4: Leipzig vs Man City, Slavia vs Arsenal",
+      "line": "Wednesday's slate has Leipzig v Manchester City, Slavia Praha v Arsenal and Dortmund v Real Betis at 21:00 CET. Fenerbahçe v Liverpool and AEK v Real Madrid kick off at 18:45 CET (02:45 JST).",
       "whenJst": "Thu Nov 5 · 05:00 JST",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "Champions League Matchday 4: Key stats and what to look out for in every game",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21f10edb96af-f01ebdbd9935-1000--champions-league-matchday-4-key-stats-and-what-to-look-o/"
+          "name": "Sky Sports",
+          "title": "Champions League 2026/27: fixtures, dates, schedule, format and who has qualified",
+          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "tennis",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "Rolex Paris Masters 2026, main draw",
-      "line": "Last Masters 1000 of the year starts, with Zverev and Djokovic on course for a quarter-final meeting. Djokovic needs a deep run to make the ATP Finals. Alcaraz is No. 2 seed.",
-      "whenJst": "Mon Nov 2 onward · order of play TBC",
+      "event": "DP World Tour: Abu Dhabi Championship",
+      "line": "Scheduled Nov 5-8 at Yas Links, ahead of the DP World Tour Championship finale in Dubai (Nov 12-15). Exact tee times are not confirmed.",
+      "whenJst": "Thu Nov 5 – Sun Nov 8 · times TBC JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Alexander Zverev, Novak Djokovic on course for Paris QF showdown; Turin contenders eye push",
-          "url": "https://www.atptour.com/en/news/paris-2026-draw-preview"
-        },
-        {
-          "name": "Sky Sports",
-          "title": "Novak Djokovic: After shock defeat in Basel former world No 1 heads to Paris Masters in race to make ATP Finals in Turin",
-          "url": "https://www.skysports.com/tennis/news/13605706/novak-djokovic-after-shock-defeat-in-basel-former-world-no-1-heads-to-paris-masters-in-race-to-make-atp-finals-in-turin"
+          "name": "Golf Channel",
+          "title": "Abu Dhabi Championship",
+          "url": "https://www.golfchannel.com/dp-world-tour/2026/abu-dhabi-championship"
         }
       ]
     }

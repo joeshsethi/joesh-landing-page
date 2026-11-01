@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T20:06:35.000Z",
+  "generatedAt": "2026-11-01T20:06:31.000Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Sun · Nov 1 2026",
-    "editionLine": "EDITION No.538 · SYNCED 05:15 JST",
+    "dateLabel": "Mon · Nov 2 2026",
+    "editionLine": "EDITION No.539 · SYNCED 05:30 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Today's throughline: capital is paying for AI research and silicon before products exist, while Japan bets on interconnect and physical AI.",
-    "briefingTitle": "A $1B No-Product Lab, Amazon's Merchant Trainium, and Japan Betting on Photonics and Robots Instead of GPUs",
-    "summary": "Money is being paid ahead of proof: Flapping Airplanes raised $1B at a reported $6B with no product, and Amazon will sell Trainium racks to outsiders from late 2027. Open weights keep climbing, with Mistral's 1.05T Large 4 now downloadable and a free laptop coding model, Flint, built largely by AI. In Japan, PFN and Tenstorrent won a NEDO photonics-chiplet contract and Rapidus has 60 prospects but no anchor customer, so Japan is competing on interconnect and demand, not raw GPU scale.",
+    "intro": "Today's throughline: the bills behind AI are coming due in the open, from Anthropic's compute commitments to memory prices, while Japan leans on imports of capability and strength in components.",
+    "briefingTitle": "Anthropic's $265B Compute Bill, a Half-Price Open Kimi, and Japan Asking the US for Cyber Models",
+    "summary": "The cost side of AI is surfacing: Anthropic's S-1 reportedly shows about $265B in compute commitments against $16.3B of half-year revenue, and Samsung is asking over double for 2027 HBM4. Meanwhile Moonshot's Kimi K3.1 Pro undercuts closed models at half price, with open weights due Nov 4. Early-stage money keeps flowing to agents and physical AI. In Japan, Tokyo is asking US labs for cyber-model access, which exposes the sovereign-model gap, while TSMC Kumamoto and Murata show Japan's real strength is hardware and components.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "8 stories · 22 sources"
+    "footerRight": "9 stories · 28 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
-      "jp": 37,
+      "jp": 36,
       "frontier": 95,
-      "note": "Unchanged — Noetra's physical-AI model (¥387B, 2028 compute) is a different bet, and Mistral's open 1T Large 4 widens what self-hosters can run."
+      "note": "Slightly down — Japan is asking Anthropic and OpenAI for cyber-capable model access because no domestic model matches them."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
-      "jp": 17,
+      "jp": 18,
       "frontier": 99,
-      "note": "Unchanged — Flapping Airplanes raised $1B in one round; PFN's last known round was ¥19B and it is now eyeing an IPO."
+      "note": "Edge up — yen bond markets are funding AI (reported), but US rounds like Bedrock's $600M still dwarf anything domestic."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
-      "jp": 34,
+      "jp": 35,
       "frontier": 96,
-      "note": "Unchanged — Rapidus has ~60 prospects but no named anchor customer, while TSMC reportedly weighs a 20% CoWoS price hike from a position of strength."
+      "note": "Up one — METI approved 3nm at TSMC Kumamoto for about 2028, though it is foreign-owned and still years behind Taiwan."
     },
     {
       "label": "Early-stage AI venture formation",
       "jp": 29,
       "frontier": 92,
-      "note": "Unchanged — US seeds re-price in months (Flapping Airplanes ~4x); Japan's newest signal is a NEDO chiplet contract rather than a funding round."
+      "note": "Unchanged — US seeds and Series Bs (Infisical $40M, Machenta $40M seed) price in weeks; no comparable Japanese round surfaced today."
     }
   ],
   "items": [
@@ -43,279 +43,329 @@
       "id": "g1",
       "region": "global",
       "cat": "funding",
-      "source": "Dealroom",
-      "time": "Oct 21",
-      "headline": "Flapping Airplanes Raises $1B at a Reported $6B With No Product, Nine Months After a $1.5B-Valuation Seed",
-      "dek": "Index and Lux co-lead a bet that data- and chip-efficient training research is worth frontier-lab money before any benchmark exists.",
+      "source": "Augment Market",
+      "time": "Oct 26",
+      "headline": "Anthropic's Public S-1 Reportedly Shows $16.3B of H1 Revenue Against About $265B in Compute Commitments",
+      "dek": "The filing puts a number on how much of a frontier lab's future is already spoken for by compute contracts.",
       "analysis": {
-        "happening": "The San Francisco lab, about two dozen staff, raised $1B at a reported $6B, roughly 4x its January seed price. Index Ventures and Lux Capital co-led; Sequoia, GV, Kleiner, Nvidia and Valor are reported in. Total raised is about $1.18B.",
-        "now": "VCs are paying for team and thesis (less data, better chip use) rather than traction. Caveat: no published benchmarks, and the $6B figure is reported, not company-confirmed.",
-        "future": "Watch whether it publishes results and whether other 'neolabs' price off this round. Efficiency-focused research is a funded niche that compute-limited Japanese labs could pursue."
+        "happening": "Secondary analyses of the Oct 26 S-1 report H1 2026 revenue of $16.3B and roughly $265.6B of compute commitments as of June 30, with Google, Amazon and Microsoft the main counterparties. Last private round: $965B post-money. Listing is reported for mid-November.",
+        "now": "Commitments are roughly 16x one half-year of revenue and owed regardless of usage, which makes suppliers look like creditors. Caveat: sources disagree, some say the total is blank, and none is the filing itself. Check EDGAR.",
+        "future": "Watch the price-range amendment, Q3 revenue, and how OpenAI times its own filing."
       },
       "sources": [
         {
-          "name": "Dealroom",
-          "title": "Flapping Airplanes raises $1B at $6B with no product, as AI 'neolabs' draw frontier-lab money",
-          "url": "https://app.dealroom.co/news/note/flapping-airplanes-raises-1b-for-ai-research-hitting-6b-valuation"
+          "name": "Augment Market",
+          "title": "Inside Anthropic's S-1: $16.3B in six months",
+          "url": "https://augment.market/pulse/inside-anthropics-s-1-16-3b-in-six-months"
         },
         {
-          "name": "Tech Funding News",
-          "title": "Flapping Airplanes raises $1B at $6B from Index and Lux to make every AI chip work harder — TFN",
-          "url": "https://techfundingnews.com/flapping-airplanes-raises-1b-at-6b-from-index-and-lux-to-make-every-ai-chip-work-harder/"
+          "name": "BuildMVPFast",
+          "title": "Anthropic S-1: 85% Margins, a $265B Compute Bill, and What It Means for Claude Builders",
+          "url": "https://www.buildmvpfast.com/blog/anthropic-s1-public-filing-claude-builders-2026"
         },
         {
-          "name": "Quartz",
-          "title": "Flapping Airplanes raised $1 billion at a $6 billion valuation",
-          "url": "https://qz.com/flapping-airplanes-ai-startup-1-billion-funding-valuation-102126"
+          "name": "Gradually",
+          "title": "Anthropic IPO 2026: S-1 Filed, Nasdaq Ticker ANT",
+          "url": "https://www.gradually.ai/en/anthropic-ipo/"
         }
       ],
       "tags": [
-        "Neolab",
-        "Index Ventures",
-        "Lux Capital"
+        "Anthropic",
+        "IPO",
+        "Compute"
       ]
     },
     {
       "id": "g2",
       "region": "global",
       "cat": "launches",
-      "source": "daily.dev",
-      "time": "Oct 29",
-      "headline": "Mistral Publishes Weights for 1.05T-Parameter Large 4, With 1M Context and Day-0 vLLM Support",
-      "dek": "The largest open-weight Western model so far is downloadable, and Mistral is pitching it for cyber defense.",
+      "source": "Let's Data Science",
+      "time": "Upcoming (Nov 4)",
+      "headline": "Moonshot's Kimi K3.1 Pro (2.8T MoE) Is Live on API at About Half Claude Opus 5.5's Price, With Open Weights Promised by Nov 4",
+      "dek": "If the weights land, the reported open-vs-closed gap shrinks from about 12 index points to about 3.",
       "analysis": {
-        "happening": "Mistral put Large 4 weights on Hugging Face on Oct 29 after an Oct 6 API preview. It is a multimodal MoE with about 1.05T total and roughly 49-52B active parameters, a 1M context, and FP8 and NVFP4 builds.",
-        "now": "Self-hosting a frontier-class model becomes realistic for regulated firms with data-residency limits, including Japanese ones. Caveats: the 51% cyber score is Mistral's own, and sources disagree on license terms.",
-        "future": "Check the model card license, then watch independent evals and hosted pricing on Bedrock and Japanese clouds. NVFP4 may limit who can run it to Blackwell owners."
+        "happening": "Moonshot launched K3.1 Pro on Oct 23: 2.8T total, 104B active parameters, 1M context, about $2/$10 per million tokens versus a reported $4/$20 for Opus 5.5. Weights are promised by Nov 4; no licence is published yet.",
+        "now": "A near-frontier fallback at half price is a negotiating lever for builders, but 2.8T parameters means inference hosts win, not startups self-hosting. Caveat: the 3-point gap is a third-party projection, the licence may restrict commercial use, and sources are secondary.",
+        "future": "Check Hugging Face on Nov 4 for weights and licence, and which hosts list it first."
       },
       "sources": [
         {
-          "name": "daily.dev",
-          "title": "Mistral releases open weights for 1 trillion-parameter Large 4, with day-0 vLLM support",
-          "url": "https://daily.dev/posts/mistral-releases-open-weights-for-1-trillion-parameter-large-4-with-day-0-vllm-support-hrgscxwdb"
+          "name": "Let's Data Science",
+          "title": "Moonshot Releases Kimi K3.1 Pro API, Open Weights Due Nov 4",
+          "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
         },
         {
-          "name": "Data Studios",
-          "title": "Mistral Large 4 open weights: 1T MoE, 1M context, license, benchmarks and API pricing",
-          "url": "https://www.datastudios.org/post/mistral-large-4-open-weights-1m-context-modified-mit-license"
+          "name": "FourWeekMBA",
+          "title": "Moonshot Prices Kimi K3.1 Pro at Half of Claude Opus 5.5",
+          "url": "https://fourweekmba.com/ai-moonshot-prices-kimi-k3-1-pro-at-half-of-claude-opus-5-5/"
         },
         {
-          "name": "The Neuron",
-          "title": "😸 Mistral Large 4: Open Weights, 1T Parameters Explained",
-          "url": "https://www.theneurondaily.com/p/mistral-released-a-1t-parameter-open-model"
+          "name": "1023jack",
+          "title": "Kimi K3.1 Pro: An Open-Weight Giant Lands Three Points From The Frontier. The Weights Aren’t Out Yet",
+          "url": "https://1023jack.com/news/kimi-k3-1-pro-an-open-weight-giant-lands-three-points-from-the-frontier-the-weig/"
         }
       ],
       "tags": [
-        "Mistral",
+        "Moonshot",
         "Open weights",
-        "MoE"
+        "Pricing"
       ]
     },
     {
       "id": "g3",
       "region": "global",
-      "cat": "hardware",
-      "source": "TechTimes",
-      "time": "Oct 30",
-      "headline": "Amazon Says It Will Sell Trainium Racks Outside AWS From Late 2027, With 2026 Capex Near $220B",
-      "dek": "Jassy's Q3 call turns Amazon's in-house chip into a merchant-silicon play.",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Oct 26",
+      "headline": "Bedrock Robotics Raises $600M at $4.1B for Self-Driving Excavator Kits, Roughly 2x Its February Price",
+      "dek": "CapitalG and Emergence co-led a bet that retrofitting old heavy machinery beats building new autonomous vehicles.",
       "analysis": {
-        "happening": "AWS revenue was $46.0B (+39%) with a $578B backlog and roughly $76B of Q3 cash capex. Amazon guides about $220B for 2026 and more in 2027. Jassy confirmed physical Trainium racks will be sold outside AWS, targeted for late 2027.",
-        "now": "That makes Trainium a direct Nvidia/AMD alternative for neoclouds and sovereign buyers, not just AWS tenants. Caveat: capex figures differ by outlet and definition, and the external-sales date is a target.",
-        "future": "Watch for the first named non-AWS rack customer, any Japanese telco or sovereign-cloud interest, and whether Q4 capex actually lands lower than the guide implies."
+        "happening": "San Francisco's Bedrock Robotics closed a $600M Series C co-led by CapitalG and Emergence Capital at a $4.1B post-money, with Nvidia's NVentures in. Total funding is near $1B. Its excavators moved from pilots to paid work on active job sites in August.",
+        "now": "Field-deployed physical AI with revenue is being priced like software, and the retrofit-kit model avoids manufacturing new vehicles. Caveat: construction is cyclical and the paid-work claims come from the company.",
+        "future": "Watch deployed-machine counts and whether Caterpillar or Komatsu partner or acquire."
       },
       "sources": [
         {
-          "name": "TechTimes",
-          "title": "Amazon Commits to Selling Trainium Chips Outside AWS; Late-2027 Target Set",
-          "url": "https://www.techtimes.com/articles/329735/20261030/amazon-commits-selling-trainium-chips-outside-aws-late-2027-target-set.htm"
+          "name": "TechCrunch",
+          "title": "This startup's self-driving excavators help dig up $600M in new funding",
+          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/"
         },
         {
-          "name": "Data Studios",
-          "title": "Amazon Q3 2026 results: AWS grows 39% to $46B, $578B backlog, about $220B 2026 capex",
-          "url": "https://www.datastudios.org/post/amazon-q3-2026-results-aws-39-percent-growth-46-billion-220-billion-capex"
+          "name": "The Next Web",
+          "title": "Bedrock Robotics raises $600M as its self-driving excavators win paid work",
+          "url": "https://thenextweb.com/news/bedrock-robotics-600m-series-c-4-1bn-valuation"
         },
         {
-          "name": "Motley Fool",
-          "title": "Amazon (AMZN) Q3 2026 Earnings Call Transcript",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/amazon-amzn-q3-2026-earnings-call-transcript/"
+          "name": "Crunchbase News",
+          "title": "The Week's 10 Biggest Funding Rounds: Physical AI And Predictions Lead The Lineup",
+          "url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/"
         }
       ],
       "tags": [
-        "Trainium",
-        "AWS",
-        "Capex"
+        "Robotics",
+        "CapitalG",
+        "Series C"
       ]
     },
     {
       "id": "g4",
       "region": "global",
       "cat": "funding",
-      "source": "Axios Pro",
-      "time": "Oct 28",
-      "headline": "Plato Raises $16M Series A to Build Simulated Workplaces Where AI Agents Practice Real Jobs",
-      "dek": "Nava Ventures leads a small round in the 'RL environments' layer, with Microsoft AI's Mustafa Suleyman investing personally.",
+      "source": "SecurityWeek",
+      "time": "Oct 27",
+      "headline": "Infisical Raises $40M Series B at $600M, Led by Elad Gil, to Keep AI Agents From Ever Holding Credentials",
+      "dek": "An open-source-rooted secrets manager is being re-priced on the agent wave with an 'Agent Vault' product.",
       "analysis": {
-        "happening": "San Francisco-based Plato (founded 2025) raised $16M led by Nava Ventures, with Gradient Ventures, Transpose Platform and Suleyman; total raised is $19M. It pays professionals to recreate jobs (support, finance, healthcare admin) as simulations scored on outcome and rule-following.",
-        "now": "A picks-and-shovels angle: as agents deploy, realistic practice environments and evaluation become the scarce input. Caveat: it is small, and labs may build this in-house.",
-        "future": "Watch for named lab customers and whether rule-violation scoring becomes a procurement requirement. Japanese-language workplace simulations look underserved."
+        "happening": "San Francisco's Infisical announced a $40M Series B at $600M led by Elad Gil, with Y Combinator and Gradient participating; total funding is nearly $60M. It reports 1,300+ organizations including Airbus, Hugging Face, OpenRouter and Wise.",
+        "now": "Gil's thesis: agents are a new class of enterprise user needing their own access control. Identity for non-human users is a wedge small teams can attack. Caveat: Okta, CyberArk and the clouds are moving into the same space.",
+        "future": "Watch for agent-credential standards (MCP auth) and security-vendor acquisitions in this niche."
       },
       "sources": [
         {
-          "name": "Axios Pro",
-          "title": "Workplace simulation startup Plato raises $16M led by Nava Ventures",
-          "url": "https://www.axios.com/pro/enterprise-software-deals/2026/10/28/workplace-simulation-plato-16-million-nava"
+          "name": "SecurityWeek",
+          "title": "Secrets management firm Infisical valued at $600 million after $40 million raise",
+          "url": "https://securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise"
         },
         {
-          "name": "PR Newswire",
-          "title": "Plato Raises $16 Million to Build the Training Grounds for AI's Next Leap Into Real Work",
-          "url": "https://www.prnewswire.com/news-releases/plato-raises-16-million-to-build-the-training-grounds-for-ais-next-leap-into-real-work-302921832.html"
+          "name": "Infisical",
+          "title": "Infisical Raises $40M Series B led by Elad Gil: Building Security Infrastructure for the AI Era",
+          "url": "https://infisical.com/blog/series-b"
         },
         {
-          "name": "Dealroom",
-          "title": "AI-training startup Plato raises $16M Series A led by Nava Ventures",
-          "url": "https://dealroom.co/news/167564-ai-training-startup-plato-raises-16m-series-a-led-by-nava-ventures/"
+          "name": "Runtime Wire",
+          "title": "Infisical raises $40M at a $600M valuation to secure AI access",
+          "url": "https://runtimewire.com/article/infisical-40m-series-b-600m-valuation"
         }
       ],
       "tags": [
-        "Nava Ventures",
-        "RL environments",
+        "Security",
+        "Elad Gil",
         "Agents"
       ]
     },
     {
       "id": "g5",
       "region": "global",
-      "cat": "launches",
-      "source": "TechCrunch",
-      "time": "Oct 21",
-      "headline": "Recursive Releases Flint, a Free 40B MoE Coding Model (2.5B Active) That Runs on a Laptop and Was Largely Built by Its Own AI",
-      "dek": "A 2023 startup says its 'Eureka Machine' did most of the work in under four months; weights are open on Hugging Face.",
+      "cat": "hardware",
+      "source": "Korea JoongAng Daily",
+      "time": "Oct 7 – Nov 1",
+      "headline": "Samsung Reportedly Asks Over 2x for 2027 HBM4 While Korea's Chip Exports Roughly Triple on AI Memory",
+      "dek": "Memory, not GPUs, is where AI pricing power is showing up in the data this month.",
       "analysis": {
-        "happening": "Flint has about 40B total and 2.5B active parameters. Recursive claims 54.9% on Terminal-Bench 2.1 and a 71% size cut from low-bit training. Weights are on Hugging Face, OpenRouter lists it free, and the local checkpoint is roughly 80 GB.",
-        "now": "A credible offline coding option for solo builders with private code. Caveats: benchmarks are self-reported, it needs smaller task steps than Claude or Codex, and sources disagree on context length (262K vs 512K).",
-        "future": "Watch independent Terminal-Bench reruns and whether 'AI-built model' becomes a repeatable pattern. Privacy-sensitive Japanese codebases are a natural fit for local models."
+        "happening": "Korean press says Samsung asked a mid-to-high $4 per gigabit for 2027 HBM4 versus about $1.50 for HBM3E. Korea Times put chip exports up 222.5% to $27.5B in Oct 1-20; JoongAng Daily says Korea is on track for $1T of annual exports.",
+        "now": "Memory is taking a bigger share of accelerator bills, favouring SK hynix, Samsung and Micron and squeezing GPU and ASIC buyers. Caveat: the HBM4 figure is an unconfirmed asking price, and export gains are largely price-driven.",
+        "future": "Watch confirmed 2027 contract prices and whether SK hynix and Micron match Samsung's ask."
       },
       "sources": [
         {
-          "name": "TechCrunch",
-          "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai"
+          "name": "SammyFans",
+          "title": "Samsung HBM4 price talks enter final stage",
+          "url": "https://www.sammyfans.com/2026/10/06/samsung-hbm4-price-talks-enter-final-stage/amp/"
         },
         {
-          "name": "The Next Web",
-          "title": "Recursive releases Flint, a laptop coding model largely built by its own AI",
-          "url": "https://thenextweb.com/news/recursive-flint-local-coding-model-eureka-machine"
+          "name": "Silicon Analysts",
+          "title": "Samsung HBM4 2027 pricing set to more than double",
+          "url": "https://siliconanalysts.com/market/samsung-hbm4-2027-pricing-set-to-more-than-double-2026-10-07"
+        },
+        {
+          "name": "Korea JoongAng Daily",
+          "title": "Driven by AI chip boom, Korea poised to become world's fourth $1 trillion exporter",
+          "url": "https://www.koreajoongangdaily.com/business/driven-by-ai-chip-boom-korea-poised-to-become-worlds-fourth-1-trillion-exporternbsp/12948785"
+        },
+        {
+          "name": "Korea Times",
+          "title": "Exports double in 1st 20 days of October on robust chip shipments",
+          "url": "https://www.koreatimes.co.kr/economy/20261021/exports-double-in-1st-20-days-of-october-on-robust-chip-shipments"
         }
       ],
       "tags": [
-        "Open weights",
-        "Coding",
-        "Local AI"
+        "HBM4",
+        "Samsung",
+        "Memory"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
-      "cat": "hardware",
-      "source": "HPCwire",
-      "time": "Oct 28",
-      "headline": "PFN and Tenstorrent Win a Five-Year NEDO Contract for Photonics-Linked AI Chiplets, While PFN Eyes an IPO to Fund Its Silicon",
-      "dek": "Japan's best-known AI chip startup pairs with a US open-architecture CPU designer on optical interconnect, where the Nvidia gap is widest.",
+      "cat": "research",
+      "source": "Nikkei Asia",
+      "time": "Oct 30",
+      "headline": "Japan Asks Anthropic and OpenAI for Broader Access to Cyber-Capable Models Ahead of an Emergency Cyber Package",
+      "dek": "Tokyo is asking US labs for access because no domestic model matches them at finding software vulnerabilities.",
       "analysis": {
-        "happening": "NEDO picked PFN and Tenstorrent for a project of up to 60 months: PFN leads AI chiplets with 3D memory stacking, Tenstorrent leads open-architecture CPU chiplets, with Tokyo and Kobe universities as subcontractors. PFN's CEO separately said in September it wants to list to fund chip mass production.",
-        "now": "Japan is betting on interconnect and packaging rather than out-GPUing Nvidia. Caveats: no funding amount, node, foundry or date is disclosed, PFN's last known round was ¥19B (Dec 2024), and one report says MN-Core L1000 slipped to 2027.",
-        "future": "Watch whether Rapidus is named foundry, whether a Japanese cloud commits to buy, and whether a pre-IPO strategic round appears."
+        "happening": "Nikkei Asia reports the government asked Anthropic and OpenAI for more access to models that find security weaknesses. PM Takaichi told ministers on Oct 26 to push overseas cooperation, with an emergency cyber package due by the end of next week.",
+        "now": "Gap: Japan depends on US labs for the strongest security models, with access at US discretion; no Japanese model is reported comparable. Opportunity: domestic vendors and SIs deploying them for critical infrastructure. Caveat: paywalled; whether either lab agreed is unreported.",
+        "future": "Watch the package contents, any lab agreements, and whether Japan funds a domestic cyber model."
       },
       "sources": [
         {
-          "name": "HPCwire",
-          "title": "Preferred Networks and Tenstorrent Selected for Japan's AI Processor Development Project",
-          "url": "https://www.hpcwire.com/off-the-wire/preferred-networks-and-tenstorrent-selected-for-japans-ai-processor-development-project/"
+          "name": "Nikkei Asia",
+          "title": "Japan asks Anthropic, OpenAI for more access to advanced models",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-asks-anthropic-openai-for-more-access-to-advanced-models"
         },
         {
-          "name": "Xenospectrum",
-          "title": "pfn tenstorrent photonics ai chiplet nedo",
-          "url": "https://xenospectrum.com/en/pfn-tenstorrent-photonics-ai-chiplet-nedo/"
+          "name": "FourWeekMBA",
+          "title": "Japan Asks Anthropic, OpenAI for More Cyber-Model Access",
+          "url": "https://fourweekmba.com/ai-japan-asks-anthropic-openai-for-more-cyber-model-access/"
         },
         {
-          "name": "Japan Times",
-          "title": "Japan's Preferred Networks seeks IPO to keep up in AI chip race",
-          "url": "https://www.japantimes.co.jp/business/2026/09/08/companies/japan-startup-preferred-networks-ipo/"
+          "name": "Let's Data Science",
+          "title": "Japan Seeks Access to Anthropic's Claude Mythos",
+          "url": "https://letsdatascience.com/news/japan-seeks-access-to-anthropics-claude-mythos-0f6c9788"
         }
       ],
       "tags": [
-        "PFN",
-        "Tenstorrent",
-        "NEDO",
-        "Photonics"
+        "Policy",
+        "Cybersecurity",
+        "Sovereignty"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
       "cat": "hardware",
-      "source": "Tom's Hardware",
-      "time": "Oct 20",
-      "headline": "Rapidus Reportedly Has 60+ Prospects for Its 2nm Line but Still No Named Anchor Customer",
-      "dek": "Government money is secured; the harder gap versus TSMC is demand.",
+      "source": "Digitimes",
+      "time": "Oct 16",
+      "headline": "METI Approves TSMC's Kumamoto Fab 2 Switch to 3nm, With Subsidy Trimmed to Up to ¥645B",
+      "dek": "Japan gets 3nm on home soil around 2028, but foreign-owned and years behind Taiwan.",
       "analysis": {
-        "happening": "After METI's Oct 20 plan to add ¥400B in equity, Rapidus is reported to be negotiating with over 60 prospective customers. It aims to raise about ¥2T in private loans for mass production in late FY2027. A customer PDK shipped in Dec 2025.",
-        "now": "Bank loans need anchor orders, and TSMC's 2nm has the ecosystem. Caveat: no yield figure or committed volume customer appears in the sources.",
-        "future": "Watch for the first named volume customer, perhaps Fujitsu's reported 1.4nm AI chip, and any yield disclosure before loan syndication."
+        "happening": "METI approved JASM's revised plan on Oct 16: Fab 2 moves from 6/12nm to 3nm AI-oriented production, with the maximum subsidy cut from ¥732B to ¥645.15B (about $4.1B). Secondary sources cite about 6,000 wafers a month and volume around late 2028.",
+        "now": "Gap: TSMC already runs 3nm in Taiwan, so Japan is roughly 5-6 years behind at the same node. Lead: first 3nm capacity in Japan, a volume boost for Kumamoto suppliers. Caveat: capacity and timing figures are unverified secondary reports.",
+        "future": "Watch the customer mix (AI versus automotive) and whether Rapidus 2nm lands first."
       },
       "sources": [
         {
-          "name": "Tom's Hardware",
-          "title": "Rapidus fab roadmap examined",
-          "url": "https://tomshardware.com/tech-industry/semiconductors/rapidus-fab-roadmap-examined"
+          "name": "Digitimes",
+          "title": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to $4.1 billion in aid",
+          "url": "https://www.digitimes.com/news/a20261017VL200/fab-tsmc-chips-kumamoto-production.html"
         },
         {
-          "name": "EE Times Japan",
-          "title": "経産省、Rapidusへの4000億円追加出資計画を明かす:2nm量産に向け自己資本強化",
-          "url": "https://eetimes.itmedia.co.jp/ee/spv/2610/20/news052_2.html"
+          "name": "CloudNews",
+          "title": "Japan Approves TSMC's 3nm Kumamoto Fab, Trims the Subsidies",
+          "url": "https://cloudnews.tech/japan-approves-tsmcs-3nm-kumamoto-fab-trims-the-subsidies/"
+        },
+        {
+          "name": "Remio",
+          "title": "TSMC Kumamoto 3nm Fab Approved, but Japan Is Trading Volume for Advanced Chips",
+          "url": "https://www.remio.ai/post/tsmc-kumamoto-3nm-fab-approved-but-japan-is-trading-volume-for-advanced-chips"
         }
       ],
       "tags": [
-        "Rapidus",
-        "2nm",
-        "Customers"
+        "TSMC",
+        "METI",
+        "3nm"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
-      "cat": "hardware",
-      "source": "Light Reading",
-      "time": "Jul 21",
-      "headline": "Noetra's 140 MW 'AI Factory' Plans 27,500 Rubin GPUs by June 2028, Aimed at Physical AI Rather Than Chat",
-      "dek": "Japan's national model effort chose robotics over a ChatGPT clone, a different bet from the US scale race.",
+      "cat": "launches",
+      "source": "DCD",
+      "time": "Oct (planned launch)",
+      "headline": "SoftBank Corp. Planned to Take Its In-Japan GB200 NVL72 'AI Data Center GPU Cloud' Commercial in October",
+      "dek": "A domestic, data-resident GPU cloud is the telco's answer to hyperscaler dependence.",
       "analysis": {
-        "happening": "Noetra is a 44-firm consortium led by SoftBank, Sony, NEC and Honda. It received ¥387.3B (about $2.4B) for the year to Mar 2027, with reports of up to ¥1T more over five years. Its planned data center is 140 MW with 27,500 Rubin GPUs, operational June 2028.",
-        "now": "140 MW is modest next to US gigawatt campuses, so Japan is betting on robotics data from Honda, Sony and factories. Caveat: this dates from July, and some figures come from lower-tier outlets.",
-        "future": "Watch the FY2026 model release and whether Noetra opens APIs or robotics datasets to startups."
+        "happening": "SoftBank Corp. said in May its GPU cloud would go commercial from October 2026 on Nvidia GB200 NVL72 racks in Japan-based data centers, with Kubernetes and inference services. A 150MW data center on a former Sharp LCD plant site is also reported.",
+        "now": "Gap: near parity on chip generation but far below US hyperscaler scale, and fully Nvidia-dependent. Opportunity: finance and government workloads needing domestic data residency. Caveat: I saw no confirmation it has actually gone live.",
+        "future": "Watch the go-live announcement, anchor customers, and pricing versus AWS, Azure and GCP."
       },
       "sources": [
         {
-          "name": "Light Reading",
-          "title": "Japan to develop physical AI capabilities with cross-industry initiative",
-          "url": "https://www.lightreading.com/ai-machine-learning/noetra-plans-140mw-data-center-to-fuel-japan-s-physical-ai-push"
+          "name": "DCD",
+          "title": "SoftBank Corp. to launch 'AI Data Center GPU Cloud' offering in Japan - DCD",
+          "url": "https://www.datacenterdynamics.com/en/news/softbank-corp-to-launch-ai-data-center-gpu-cloud-offering-in-japan/"
         },
         {
-          "name": "Honda",
-          "title": "Noetra Launches Full-Scale R&D for Japan-Developed Multimodal Foundation Model",
-          "url": "https://global.honda/en/newsroom/news/2026/c260716eng.html"
+          "name": "RCR Wireless",
+          "title": "SoftBank launches sovereign AI GPU cloud",
+          "url": "https://www.rcrwireless.com/20260527/ai/softbank-gpu-ai-cloud"
         },
         {
-          "name": "AI Weekly",
-          "title": "Japan pledges up to $6.16B to SoftBank-led AI consortium",
-          "url": "https://aiweekly.co/alerts/japan-pledges-up-to-616b-to-softbank-led-ai-consortium"
+          "name": "The Tech Capital",
+          "title": "SoftBank to roll out AI data centre GPU cloud in October",
+          "url": "https://thetechcapital.com/softbank-to-roll-out-ai-data-centre-gpu-cloud-in-october/"
         }
       ],
       "tags": [
-        "Noetra",
-        "Physical AI",
-        "SoftBank"
+        "SoftBank",
+        "Sovereign AI",
+        "GPU cloud"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Startup Fortune",
+      "time": "Jul – Sep",
+      "headline": "Murata Adds ¥80B for AI-Server Capacitors as Orders Jump 85.5% and Plants Run Near 95% Utilization",
+      "dek": "Japan's strongest AI position is in the components US and Chinese systems depend on.",
+      "analysis": {
+        "happening": "Murata plans about ¥80B of extra capacitor investment (¥40B in each of FY2026 and FY2027) to lift AI-related MLCC capacity by over 20%. Capacitor orders rose 85.5% to ¥415.5B with utilization around 95%.",
+        "now": "Lead: Japan holds a leading position in MLCCs, an AI-server bottleneck, so it can profit from the build-out without a frontier model. Gap: ¥80B is small next to hyperscaler capex. Caveat: a $6.3B plan headline is unconfirmed; sources are secondary.",
+        "future": "Watch Murata's next earnings for orders and capacity, and Samsung Electro-Mechanics and Chinese competition."
+      },
+      "sources": [
+        {
+          "name": "Remio",
+          "title": "Murata MLCC expansion signals a bigger AI hardware bet",
+          "url": "https://www.remio.ai/post/murata-mlcc-expansion-signals-a-bigger-ai-hardware-bet"
+        },
+        {
+          "name": "Startup Fortune",
+          "title": "Murata just showed how deep the AI boom runs in the supply chain",
+          "url": "https://startupfortune.com/murata-just-showed-how-deep-the-ai-boom-runs-in-the-supply-chain/"
+        },
+        {
+          "name": "Café Invest",
+          "title": "Murata (6981) 31 Jul 2026",
+          "url": "https://www.innovestx.co.th/cafeinvest/en/articles/murata-6981-31072026-en"
+        }
+      ],
+      "tags": [
+        "Murata",
+        "MLCC",
+        "Components"
       ]
     }
   ]
