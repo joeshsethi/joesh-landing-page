@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T20:06:31.000Z",
-  "dateLabel": "Mon · Nov 2 2026",
+  "generatedAt": "2026-11-02T20:07:05.000Z",
+  "dateLabel": "Tue · Nov 3 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "UCL MD4: Atlético vs Bayern, Villarreal vs PSG",
-      "line": "Champions League Matchday 4 opens Tuesday with Atlético Madrid v Bayern Munich, Villarreal v PSG, Barcelona v Aston Villa, Man United v Roma and Feyenoord v Inter. Kick-offs are mainly 21:00 CET.",
-      "whenJst": "Wed Nov 4 · 05:00 JST",
+      "event": "Rolex Paris Masters final, last Masters 1000 of the season",
+      "line": "Final is Sunday Nov 8 at La Défense Arena, 3:00 PM Paris start. Semifinals Saturday Nov 7, quarterfinals Friday Nov 6. Exact match times are not yet published.",
+      "whenJst": "Sun Nov 8 · 23:00 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Champions League 2026/27: fixtures, dates, schedule, format and who has qualified",
-          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+          "name": "ATP Tour",
+          "title": "paris 2026 atp masters 1000 history draw schedule",
+          "url": "https://www.atptour.com/en/news/paris-2026-atp-masters-1000-history-draw-schedule"
         }
       ]
     },
@@ -22,29 +22,44 @@
       "id": "s2",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "UCL MD4: Leipzig vs Man City, Slavia vs Arsenal",
-      "line": "Wednesday's slate has Leipzig v Manchester City, Slavia Praha v Arsenal and Dortmund v Real Betis at 21:00 CET. Fenerbahçe v Liverpool and AEK v Real Madrid kick off at 18:45 CET (02:45 JST).",
-      "whenJst": "Thu Nov 5 · 05:00 JST",
+      "event": "UCL MD4: Atlético v Bayern, Villarreal v PSG, Barcelona v Aston Villa",
+      "line": "Tuesday's slate also has Feyenoord v Inter. Most kick off 21:00 CET; some earlier. Sources disagree on who hosts Roma.",
+      "whenJst": "Wed Nov 4 · 05:00 JST (most matches)",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "Champions League 2026/27: fixtures, dates, schedule, format and who has qualified",
+          "title": "champions league 2026 27 fixtures dates schedule format and who has qualified from premier league and around europe",
           "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
         }
       ]
     },
     {
       "id": "s3",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "UCL MD4: Leipzig v Man City, Fenerbahçe v Liverpool, AEK v Real Madrid",
+      "line": "Wednesday's slate includes Slavia Praha v Arsenal; sources disagree on that match's date. Most kick off 21:00 CET.",
+      "whenJst": "Thu Nov 5 · 05:00 JST (most matches)",
+      "sources": [
+        {
+          "name": "Sky Sports",
+          "title": "champions league 2026 27 fixtures dates schedule format and who has qualified from premier league and around europe",
+          "url": "https://skysports.com/football/news/11667/13578265/champions-league-2026-27-fixtures-dates-schedule-format-and-who-has-qualified-from-premier-league-and-around-europe"
+        }
+      ]
+    },
+    {
+      "id": "s4",
       "sport": "golf",
       "status": "upcoming",
-      "event": "DP World Tour: Abu Dhabi Championship",
-      "line": "Scheduled Nov 5-8 at Yas Links, ahead of the DP World Tour Championship finale in Dubai (Nov 12-15). Exact tee times are not confirmed.",
-      "whenJst": "Thu Nov 5 – Sun Nov 8 · times TBC JST",
+      "event": "DP World Tour Championship, Dubai (season finale)",
+      "line": "Earth Course, Nov 12-15, after the Abu Dhabi Championship (Nov 5-8). No PGA Tour leaderboard found for this week.",
+      "whenJst": "Thu Nov 12 – Sun Nov 15 (UAE is 5h behind JST)",
       "sources": [
         {
           "name": "Golf Channel",
-          "title": "Abu Dhabi Championship",
-          "url": "https://www.golfchannel.com/dp-world-tour/2026/abu-dhabi-championship"
+          "title": "dp world tour championship",
+          "url": "https://www.golfchannel.com/dp-world-tour/2026/dp-world-tour-championship"
         }
       ]
     }
