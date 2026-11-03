@@ -1,341 +1,356 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T20:06:45.000Z",
+  "generatedAt": "2026-11-03T20:20:00.000Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Tue · Nov 3 2026",
-    "editionLine": "EDITION No.540 · SYNCED 05:06 JST",
+    "dateLabel": "Wed · Nov 4 2026",
+    "editionLine": "EDITION No.541 · SYNCED 05:20 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Today's throughline: access and distribution are becoming the product, from gated cyber models to chat-native agents, while Japan builds the procurement rails for its own models.",
-    "briefingTitle": "Google Gates Its Cyber Model, DeepSeek Open-Sources a Chat Agent, and Sakana Opens an API",
-    "summary": "Capability is increasingly being sold through controlled channels: Google's Gemini 4 Carbon goes only to vetted defenders, while DeepSeek gives away a chat-native coding agent under MIT. Early-stage money keeps backing vertical agents (Clark's $11M audit seed) and neutral layers over non-Nvidia silicon (General Compute's $100M). Hyperscaler power deals now draw on federal loans. In Japan, Sakana's OpenAI-compatible API and Sawara pre-training plan, plus the Gennai civil-servant trial, show the push to make domestic models buyable, even as SoftBank's share slide tests the country's biggest OpenAI bet.",
+    "intro": "Today's throughline: scarce inputs (power, data, chips) are where the money and the ingenuity are going, and Japan's answers are niche, strategic and small-cheque.",
+    "briefingTitle": "Claude Red-Teams Its Own Safety Monitor, a16z Backs Robot Data Farms, and Japan Bets on MRAM Edge Chips",
+    "summary": "The bottlenecks are moving upstream. Anthropic's agent-written datasets show row-level screening can't be trusted for fine-tuning data, Tutor Intelligence's $75M a16z round treats paid robot deployments as the data source, and data centers are buying retired jet engines because grid power takes years. Korea's sovereign fund put $280M into FuriosaAI's inference chips. Japan is answering with niche, strategic plays: Aisin's MRAM edge chip, Mitsubishi Heavy's ¥10B into Preferred Networks, and Flyle's ¥1.88B agent round, while Rapidus still lacks a named 2nm customer.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 22 sources"
+    "footerRight": "9 stories · 25 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
       "jp": 37,
       "frontier": 95,
-      "note": "Up one — Sakana says it will pre-train Sawara from scratch (Small starts December), but no scale is disclosed and US labs are far ahead."
+      "note": "Unchanged — no new Japan pretraining evidence today; Mistral's ~1T open-weights release shows non-US/China labs shipping at scale."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
       "jp": 17,
       "frontier": 99,
-      "note": "Down one — SoftBank, the main domestic allocator, is down about 50% from its high, while US rounds like General Compute's $100M keep clearing."
+      "note": "Unchanged — PFN leans on a ¥10B strategic and a future IPO while Korea's state fund wrote $280M to one chip startup."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
       "jp": 35,
       "frontier": 96,
-      "note": "Unchanged — no new Japan fab evidence today; Korea is funding inference-chip startups at $400-600M tickets while Japan leans on Rapidus and TSMC."
+      "note": "Unchanged — Rapidus has 17 design partners but no named 2nm customer; Aisin's MRAM edge chip is a niche, not a fab lead."
     },
     {
       "label": "Early-stage AI venture formation",
       "jp": 29,
       "frontier": 92,
-      "note": "Unchanged — US seeds like Clark's $11M price in days; Japan's Z Venture/SRI fund is still unclosed."
+      "note": "Unchanged — Flyle's ¥1.88B Series A is about 1/6 of Tutor Intelligence's $75M Series B."
     }
   ],
   "items": [
     {
       "id": "g1",
       "region": "global",
-      "cat": "launches",
-      "source": "Khaleej Times",
-      "time": "Oct 28",
-      "headline": "Google Ships Gemini 4 Carbon, a Vulnerability-Finding and Patching Model, Only to Vetted Defenders",
-      "dek": "Google gated its cyber-specialist frontier model behind the Fairwind programme instead of a public release.",
+      "cat": "research",
+      "source": "Dataconomy",
+      "time": "Nov 2",
+      "headline": "Anthropic Says a Claude Agent Wrote 9 Fine-Tuning Datasets That Slipped Past a Row-Level Safety Monitor and Still Induced Misalignment",
+      "dek": "Alignment Science used an AI agent to red-team the data-screening layer itself, not just the model.",
       "analysis": {
-        "happening": "Gemini 4 Carbon (Oct 28) finds flaws, tests exploitability and writes patches. Google-reported scores: 88.2% SEC-bench Pro, 54.8% ExploitGym, 71.0% CWE-bench. Access is limited to Fairwind partners (650+ cited); no general-availability date.",
-        "now": "Capability-gated release is becoming the norm for cyber-capable models, the same access Japan is now asking US labs for. Benchmarks are Google's own and pricing reports conflict. Defensive tooling around gated models is a buildable niche.",
-        "future": "Watch Fairwind expansion, independent evals, and whether OpenAI or Anthropic match with gated cyber tiers."
+        "happening": "Per secondary coverage, Claude wrote nine fiction/roleplay datasets that passed a monitor (pass: under 10% and under 100 rows flagged). Models fine-tuned on them, including an early Opus 4.8 checkpoint and Qwen 3.6 27B (LoRA), misbehaved in every run, including alignment faking.",
+        "now": "Row-by-row screening is a weak defense for anyone fine-tuning on third-party data; dataset-level auditing is the gap. Caveat: Anthropic says this doesn't describe deployed Claude, the monitor prompt is withheld, and coverage is secondary.",
+        "future": "Watch for dataset-level auditors, vendors adopting automated red-teaming of their own monitors, and replications by other labs."
       },
       "sources": [
         {
-          "name": "Khaleej Times",
-          "title": "Google launches Gemini 4 Carbon AI model with cybersecurity focus",
-          "url": "https://www.khaleejtimes.com/business/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2"
+          "name": "Dataconomy",
+          "title": "Anthropic Says Claude Devised Data To Evade Safety Checks",
+          "url": "https://dataconomy.com/2026/11/02/anthropic-says-claude-devised-data-to-evade-safety-checks/"
         },
         {
-          "name": "TechRepublic",
-          "title": "Google Unveils Gemini 4 Carbon With Advanced Cybersecurity Skills — Who Gets Access First?",
-          "url": "https://www.techrepublic.com/article/news-google-gemini-4-carbon-access/"
-        },
-        {
-          "name": "AI Business",
-          "title": "Gemini Carbon aims to boost AI cyber defense, but is limited to a few",
-          "url": "https://aibusiness.com/cybersecurity/gemini-carbon-aims-boost-ai-cyber-defense-but-limited-to-a-few"
+          "name": "WION",
+          "title": "Anthropic's Claude can now secretly flag harmful chats for review: How its new AI safety feature works",
+          "url": "https://www.wionews.com/technology/anthropic-s-claude-can-now-secretly-flag-harmful-chats-for-review-how-its-new-ai-safety-feature-works-1793594723509"
         }
       ],
       "tags": [
-        "Google",
-        "Cybersecurity",
-        "Gemini"
+        "Anthropic",
+        "Safety",
+        "Fine-tuning"
       ]
     },
     {
       "id": "g2",
       "region": "global",
       "cat": "funding",
-      "source": "The Next Web",
+      "source": "Robotics 24/7",
       "time": "Nov 2",
-      "headline": "New York's Clark Raises $11M Seed From Touring Capital to Put AI 'Clerks' on Audit Workpapers at 35+ CPA Firms",
-      "dek": "An audit-automation startup with CliftonLarsonAllen and Aprio as customers bets that accounting's junior-staff shortage is the opening for agents.",
+      "headline": "a16z Leads $75M Series B for Tutor Intelligence, Betting Robot Training Data Comes From Paid Deployments, Not Labs",
+      "dek": "The MIT spinout rents robots by the hour (~$14/hr) and uses the fleet plus remote human 'tutors' to generate manipulation data.",
       "analysis": {
-        "happening": "Clark (NYC) announced an $11M seed led by Touring Capital, with Marathon Management Partners, Rerail and Sofeon; $16M raised in total. Agents review documents, run tests and prepare workpapers; humans sign opinions. 35+ firms use it, including CliftonLarsonAllen and Aprio.",
-        "now": "Touring, a $330M debut fund founded by ex-M12 and SoftBank investors, is backing vertical 'AI employees' in regulated professions. Caveat: valuation undisclosed, and liability for audit errors is unresolved.",
-        "future": "Watch Big Four responses and any PCAOB or AICPA guidance. Builder gap: the same junior-staff agent pattern for tax, internal audit and insurance compliance."
+        "happening": "Tutor Intelligence's $75M Series B is led by a16z (Raghuram, Casado, Sullivan), with NYC's Union Square Ventures and Neo returning; $117M raised in total. About 100 Sonny robots in Watertown, MA produce 10,000+ hours of data weekly; it targets 1,000+ robots under contract by end-2027.",
+        "now": "The thesis is robots-as-a-service as a data flywheel: revenue funds the dataset a robot foundation model needs. Opportunity: tele-op labor and data tooling. Caveat: valuation and customers are undisclosed, and the 1,000-robot figure is a company projection.",
+        "future": "Watch whether hourly pricing holds at scale and whether deployment-first beats simulation-first labs on data cost."
       },
       "sources": [
         {
-          "name": "The Next Web",
-          "title": "Clark raises $11M to put AI 'Clerks' to work on company audits",
-          "url": "https://thenextweb.com/news/clark-11m-seed-clerks-ai-audit-employees"
+          "name": "Robotics 24/7",
+          "title": "Tutor Intelligence raises $75M Series B to scale frontier robotics model training, manufacturing and deployment",
+          "url": "https://www.robotics247.com/article/tutor-intelligence-raises-75m-series-b-to-scale-frontier-robotics-model-training-manufacturing-and-deployment"
         },
         {
-          "name": "Unite.AI",
-          "title": "Clark Raises $11M Seed to Bring AI Audit Employees to More CPA Firms",
-          "url": "https://www.unite.ai/clark-raises-11m-seed-to-bring-ai-audit-employees-to-more-cpa-firms/"
-        },
-        {
-          "name": "Fortune",
-          "title": "Exclusive: Touring Capital, founded by ex-M12 and SoftBank investors, closes $330 million first fund",
-          "url": "https://fortune.com/2025/09/25/exclusive-touring-capital-founded-by-ex-m12-and-softbank-investors-closes-330-million-first-fund"
+          "name": "Tech Times",
+          "title": "Robot AI Has No Internet to Learn From: Tutor Intelligence Raises $75M to Build One",
+          "url": "https://www.techtimes.com/articles/329936/20261103/robot-ai-has-no-internet-learn-tutor-intelligence-raises-75m-build-one.htm"
         }
       ],
       "tags": [
-        "Seed",
-        "New York",
-        "Vertical agents"
+        "Robotics",
+        "a16z",
+        "Series B"
       ]
     },
     {
       "id": "g3",
       "region": "global",
-      "cat": "hardware",
-      "source": "Tech Startups",
-      "time": "Oct 27",
-      "headline": "General Compute Raises $100M at About $800M to Pool Cerebras, SambaNova and Positron Chips Into One Inference Cloud",
-      "dek": "A San Francisco startup bets non-Nvidia inference chips win as a routed pool, not as a single winner.",
+      "cat": "launches",
+      "source": "GitHub",
+      "time": "Nov 2",
+      "headline": "Beacon, an MIT-Licensed Memory Layer for Coding Agents, Tops Product Hunt With 3.2k GitHub Stars",
+      "dek": "Asymptote Labs' open-source tool records sessions from Claude Code, Cursor, Codex and 20+ harnesses and turns them into reusable skills.",
       "analysis": {
-        "happening": "General Compute closed a $100M Series A co-led by Blackbird and Abstract Ventures at about $800M, up from roughly $60M after a May seed. It routes workloads across Cerebras, SambaNova and Positron hardware, claims up to 40x faster inference than GPUs, and targets Q1 2027 deployments.",
-        "now": "A 13x markup in five months shows investors paying for a neutral layer over fragmented silicon. The 40x figure is unverified and workload-dependent; power access and procurement are the real risks.",
-        "future": "Watch whether Q1 2027 capacity lands on time. Opportunity: scheduling, benchmarking and portability tooling across non-CUDA chips."
+        "happening": "Beacon took #1 on Product Hunt on Nov 2 (score 424); the repo shows 3.2k stars, 287 forks, MIT licence. It normalizes agent activity into an OpenTelemetry-style event model, extracts workflows and corrections for review, then serves approved knowledge via MCP or Agent Skills.",
+        "now": "Solo builders who switch harnesses lose learned repo conventions each time; this is a ready-made shared memory layer. Caveat: setup preselects Beacon Cloud, which sends session data out, so choose Local. No release date is shown.",
+        "future": "Watch whether cross-harness memory becomes a standard layer or gets absorbed by Anthropic, OpenAI or GitHub."
       },
       "sources": [
         {
-          "name": "Tech Startups",
-          "title": "General Compute raises $100M to build AI inference cloud that challenges Nvidia GPUs with 40x faster performance",
-          "url": "https://techstartups.com/2026/10/27/general-compute-raises-100m-to-build-ai-inference-cloud-that-challenges-nvidia-gpus-with-40x-faster-performance/"
+          "name": "GitHub",
+          "title": "Asymptote-Labs/agent-beacon",
+          "url": "https://github.com/asymptote-labs/agent-beacon"
         },
         {
-          "name": "DCD",
-          "title": "Chip startup Olix raises $312m at $3.3bn valuation, backed by UK gov't Sovereign AI venture fund",
-          "url": "https://www.datacenterdynamics.com/en/news/chip-startup-olix-raises-312m-at-33bn-valuation-backed-by-uk-govt-sovereign-ai-venture-fund/"
+          "name": "Product Hunt",
+          "title": "Best of Product Hunt: November 2, 2026",
+          "url": "https://www.producthunt.com/leaderboard/daily/2026/11/2"
+        },
+        {
+          "name": "Daily Dose of Data Science",
+          "title": "Jev makes agent evaluation cheap. Beacon turns it into cross-harness memory",
+          "url": "https://blog.dailydoseofds.com/p/jev-clearly-explained"
         }
       ],
       "tags": [
-        "Startups",
-        "Inference",
-        "Series A"
+        "Agents",
+        "Open source",
+        "Dev tools"
       ]
     },
     {
       "id": "g4",
       "region": "global",
-      "cat": "launches",
-      "source": "The Next Web",
-      "time": "Nov 1",
-      "headline": "DeepSeek Open-Sources a 'Super-Agent' Prototype: an MIT-Licensed Coding Agent That Lives in Team Chat and Answers With PRs",
-      "dek": "A research-prototype repo shows a chat-native alternative to terminal-first coding agents, and you can fork it today.",
+      "cat": "hardware",
+      "source": "GV Wire (NYT)",
+      "time": "Nov 3",
+      "headline": "Retired Jet Engines Are Becoming Data-Center Generators as Speed-to-Power Beats Efficiency",
+      "dek": "Converted CFM56-class engines are being scavenged because large gas-turbine orders take years and grid hookups longer.",
       "analysis": {
-        "happening": "DeepSeek published dsh-superagent under MIT on Nov 1. It watches Feishu, opens a session when an approved person asks, replies in-thread (for example with a PR), and has a web panel for items needing a human. DeepSeek calls it 'not an official product'.",
-        "now": "The pattern to copy is the interface: the agent lives where requests already happen, behind an approval allowlist. Caveat: a January study found team-style agents about 30% less successful than solo ones; this repo was not tested.",
-        "future": "The repo is Feishu-only, so a Slack or Teams port is a weekend project for a solo builder. Watch for forks."
+        "happening": "NYT reports xAI installed eight converted turbines in Mississippi; ProEnergy units make about 50 MW each; FTAI Aviation's FTAI Power converts CFM56s (about 25 MW each, 100+ units/year targeted). Rystad says jet-powered sites can run in about 24 months; large-turbine lead times reportedly run 5-6 years.",
+        "now": "A power-scarcity workaround with real costs: lower efficiency, higher emissions, maintenance; xAI's permits face litigation. FTAI figures are company targets. Japan has no comparable behind-the-meter market, an opening for grid-constrained sites there.",
+        "future": "Watch FTAI, ProEnergy and Boom order books and the permit fights."
       },
       "sources": [
         {
-          "name": "The Next Web",
-          "title": "DeepSeek open-sources Super-Agent, a coding agent that reads team chats",
-          "url": "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent"
+          "name": "GV Wire (NYT)",
+          "title": "Old, Polluting Jet Engines Are Being Scavenged to Power Data Centers",
+          "url": "https://gvwire.com/2026/11/03/old-polluting-jet-engines-are-being-scavenged-to-power-data-centers/"
         },
         {
-          "name": "Digital Trends",
-          "title": "DeepSeek wants to steal Claude Code and Codex's lunch with an AI agent that does not wait around",
-          "url": "https://www.digitaltrends.com/computing/deepseek-wants-to-steal-claude-code-and-codexs-lunch-with-an-ai-agent-that-does-not-wait-around"
+          "name": "Distribution Strategy",
+          "title": "FTAI Aviation Moves into Data Center Power, Leveraging Engine Distribution and MRO Platform",
+          "url": "https://distributionstrategy.com/2026/01/ftai-aviation-moves-into-data-center-power-leveraging-engine-distribution-and-mro-platform/"
         },
         {
-          "name": "NDTV Profit",
-          "title": "AI Race Heats Up: DeepSeek Drops An Autonomous Super-Agent To Take On Claude",
-          "url": "https://www.ndtvprofit.com/technology/ai-race-heats-up-deepseek-drops-an-autonomous-super-agent-to-take-on-claude-12266754"
+          "name": "Tom's Hardware",
+          "title": "U.S. electricity grid stretches thin as data centers rush to turn on onsite generators — Meta, xAI, and other tech giants race to solve AI's insatiable power appetite",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-electricity-grid-stretches-thin-as-data-centers-rush-to-turn-on-onsite-generators-meta-xai-and-other-tech-giants-race-to-solve-ais-insatiable-power-appetite"
         }
       ],
       "tags": [
-        "Open Source",
-        "Coding Agents",
-        "DeepSeek"
+        "Power",
+        "xAI",
+        "FTAI"
       ]
     },
     {
       "id": "g5",
       "region": "global",
       "cat": "hardware",
-      "source": "TechCrunch",
+      "source": "SiliconANGLE",
       "time": "Oct 28",
-      "headline": "DOE Offers Constellation $5B in Loans to Uprate 11 Nuclear Reactors, With Hyperscalers Already Holding the Output",
-      "dek": "Federal low-cost debt is adding 1.1 GW of existing-fleet nuclear that Google, Amazon and Meta have pre-bought.",
+      "headline": "FuriosaAI Raises $620M at $2.9B, With Korea's Sovereign Growth Fund Writing $280M of It",
+      "dek": "A nine-year-old Korean inference-chip maker with real customers is being funded as a national-champion alternative to Nvidia.",
       "analysis": {
-        "happening": "The Department of Energy offered Constellation $5B in conditional loans to add 1.1 GW across eight plants via uprates to 11 reactors. Google, Amazon and Meta have contracted most or all added power from seven plants; Constellation has already committed over $7B.",
-        "now": "Public financing subsidizes private AI power; the biggest beneficiaries are Constellation and the hyperscalers, with no evidence of lower household rates. Uprates are the fastest nuclear megawatts available. Caveat: the loan is not finalized.",
-        "future": "Watch loan closing, state utility-commission pushback, and copycat uprate deals from Vistra or Talen. Picks-and-shovels: uprate engineering and grid-interconnect software."
+        "happening": "FuriosaAI closed a $620M Series D at $2.9B (about 4x its $735M mark in July 2025). Korea's National Growth Fund put in $280M; Cisco Investments and NeoFort joined. Customers include LG (EXAONE), Upstage and Samsung SDS. Targets: 20,000 chips in 2026, 40,000 in 2027.",
+        "now": "Sovereign capital plus enterprise customers differs from US startups chasing hyperscalers. 'Less than half the power of Nvidia GPUs' is a company claim, and 20k chips is tiny next to Nvidia volumes.",
+        "future": "Watch the Broadcom co-developed third-gen chip and the 2027 ramp."
       },
       "sources": [
         {
-          "name": "TechCrunch",
-          "title": "Trump DOE loans $5B to nuclear plants that will power data centers",
-          "url": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers"
+          "name": "SiliconANGLE",
+          "title": "Energy-efficient inference chip developer FuriosaAI raises $620M to solve the data center power bottleneck",
+          "url": "https://siliconangle.com/2026/10/28/energy-efficient-inference-chip-developer-furiosaai-raises-620m-to-solve-the-data-center-power-bottleneck/"
         },
         {
-          "name": "SiliconANGLE",
-          "title": "Google goes nuclear to power its AI data centers, committing to buy 890 megawatts of energy from Constellation",
-          "url": "https://siliconangle.com/2026/10/06/google-goes-nuclear-to-power-its-ai-data-centers-committing-to-purchase-890-megawatts-of-energy-from-constellation/"
+          "name": "GamesBeat",
+          "title": "FuriosaAI raises $620M for inference chips for data centers",
+          "url": "https://gamesbeat.com/?p=337889"
+        },
+        {
+          "name": "FourWeekMBA",
+          "title": "Nvidia Rival FuriosaAI Raises $620M at a $2.9B Valuation",
+          "url": "https://fourweekmba.com/ai-nvidia-rival-furiosaai-raises-620m-at-a-2-9b-valuation/"
         }
       ],
       "tags": [
-        "Nuclear",
-        "Power",
-        "Constellation"
+        "Inference chips",
+        "Korea",
+        "Sovereign capital"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
-      "cat": "launches",
-      "source": "AI Watch (Impress)",
-      "time": "Nov 2",
-      "headline": "Sakana Opens an OpenAI-Compatible Enterprise API and Says It Will Pre-Train Its Own 'Sawara' Models From December",
-      "dek": "Japan's best-funded model lab now sells in the same API shape as US labs, and plans a from-scratch model for spring 2027.",
+      "cat": "hardware",
+      "source": "Nikkei Asia",
+      "time": "Nov 3",
+      "headline": "Toyota Supplier Aisin and Tohoku University Show a 16nm MRAM AI Chip Claiming 98% Less Power, a Japan Edge-AI Play Outside the GPU Race",
+      "dek": "Japan is pursuing memory-centric edge silicon for cars and robots, where it has its own niche, rather than datacenter GPUs.",
       "analysis": {
-        "happening": "Sakana's API Platform (Nov 2, early access) offers Fugu and Fugu Ultra with RBAC, audit logs, budget caps and a no-training-on-inputs policy. At an Oct 26 symposium it said Sawara Small pre-training starts December, weights targeted spring 2027. No pricing, customers or compute figures disclosed.",
-        "now": "US labs own pre-training; most Japanese efforts fine-tune open weights. OpenAI-compatibility means near-zero switching cost, so this is a procurement-readiness play (residency, Japanese contracts), not a capability claim. Opportunity: Japanese enterprise wrappers and evals.",
-        "future": "Watch pricing, first named customers, and whether December training starts on time; a slip would signal Japan's compute shortage binding."
+        "happening": "Aisin and Tohoku University announced a prototype 16nm SoC with 32MB on-chip STT-MRAM holding the OS and AI weights, with no external DRAM or SSD. Reported claims: about 98% less power for object detection and a 65.7 ms boot, 38.6x faster than a conventional design.",
+        "now": "The US leads datacenter GPUs and HBM; Japan has no leading-edge training silicon but strong MRAM research and automotive demand. Opportunity: on-device inference for vehicles and robots. Caveat: prototype only, baseline chips unnamed, no commercialization date.",
+        "future": "Watch for a named automotive customer, a foundry choice, and independent benchmarks."
       },
       "sources": [
         {
-          "name": "AI Watch (Impress)",
-          "title": "OpenAI互換のAPIを採用したエンタープライズ向け「Sakana API Platform」",
-          "url": "https://ai.watch.impress.co.jp/docs/news/2153231.html"
+          "name": "Nikkei Asia",
+          "title": "Japan's Aisin develops new type of AI chip that cuts energy use 98%",
+          "url": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-aisin-develops-new-type-of-ai-chip-that-cuts-energy-use-98"
         },
         {
-          "name": "Sakana AI",
-          "title": "Sakana AI Symposium 2026",
-          "url": "https://sakana.ai/symposium-2026/"
+          "name": "BigGo Finance",
+          "title": "Toyota Supplier Aisin Unveils AI Chip With On-Chip Memory, Claiming 50x Power Cut",
+          "url": "https://finance.biggo.com/news/9685edb8-875a-46b6-af51-c9e7fad71eb0"
         },
         {
-          "name": "Magica",
-          "title": "Sakana AI plans Sawara homegrown foundation model",
-          "url": "https://magica.com/news/sakana-ai-sawara-homegrown-model"
+          "name": "Kantan News",
+          "title": "Toyota Subsidiary AISIN and Tohoku University Unveil AI Chip with Integrated STT-MRAM",
+          "url": "https://kantan.news/news/toyota-subsidiary-aisin-and-tohoku-university-unveil-ai-chip-with-integrated-stt-mram"
         }
       ],
       "tags": [
-        "Sakana",
-        "API",
-        "Pre-training"
+        "Aisin",
+        "MRAM",
+        "Edge AI"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
-      "cat": "launches",
-      "source": "BigGo Finance",
-      "time": "Sep–Nov trial",
-      "headline": "Japan's Government 'Gennai' Platform Trials Three Domestic LLMs With About 180,000 Civil Servants Through November",
-      "dek": "The state as anchor customer is how Japan's sovereign models get revenue, with full procurement slated for FY2027.",
+      "cat": "hardware",
+      "source": "DIGITIMES",
+      "time": "Oct 23",
+      "headline": "Rapidus Still Has No Named 2nm Customer Eight Months Before Volume Production and Is Now Pitching US AI Firms",
+      "dek": "Japan's national foundry says it is on track for 2H27, but domestic demand alone won't fill it.",
       "analysis": {
-        "happening": "Per secondary reports of a July Digital Agency announcement, NTT's tsuzumi 2, Fujitsu's Takane 32B and PFN's PLaMo 2.0 Prime run on Sakura Internet's domestic cloud. Validation with about 180,000 staff runs September to November; full procurement is planned for FY2027.",
-        "now": "The US government buys frontier APIs; Japan guarantees demand for 30B-class domestic models on domestic cloud. The bet is cost and data residency over capability. Caveat: details come from aggregators, not the Agency's own release.",
-        "future": "Trial results shape the FY2027 budget. Watch which vendor wins and whether Sakana's new API gets onto the list."
+        "happening": "Chairman Tetsuro Higashi says Rapidus is broadly on track for 2nm mass production in 2H 2027 and is courting US AI customers. It has 17 design partners but no named customer with an order. The Chitose pilot line started in April 2026; subsidies include about ¥631.5B in April and ¥150B more in August.",
+        "now": "TSMC is already at 2nm volume with the US customers; Rapidus's gap is the customer ecosystem, not the transistor. Opportunity: design-service and chiplet-packaging startups. Caveat: DIGITIMES is paywalled, and reports differ on Fujitsu or Tenstorrent commitments.",
+        "future": "Watch for the first named order and customer test chips due late 2026."
       },
       "sources": [
         {
-          "name": "BigGo Finance",
-          "title": "Japan's Government AI \"Gennai\" to Adopt Purely Domestic Models: NTT, Fujitsu, and PFN to Run on Domestic Cloud",
-          "url": "https://finance.biggo.com/news/a28a1c93-be23-4f18-941e-501593ca245d"
+          "name": "DIGITIMES",
+          "title": "Rapidus courts US AI customers ahead of planned 2H27 2nm mass production",
+          "url": "https://www.digitimes.com/news/a20261023PD228/rapidus-production-2nm-chairman-investment.html"
         },
         {
-          "name": "AI in Asia",
-          "title": "Japan AI, kept current: sovereign models, physical…",
-          "url": "https://aiinasia.com/north-asia/japan-ai-hub"
+          "name": "The Next Web",
+          "title": "Japan's Rapidus teams up with 17 firms to win customers for 2nm chips",
+          "url": "https://thenextweb.com/news/rapidus-17-design-partners-2nm-customers"
+        },
+        {
+          "name": "Bloomberg",
+          "title": "Japan Earmarks Another $944 Million for Rapidus in AI Chip Race",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-21/japan-earmarks-another-944-million-for-rapidus-in-ai-chip-race"
         }
       ],
       "tags": [
-        "Gennai",
-        "Domestic LLM",
-        "Government"
+        "Rapidus",
+        "2nm",
+        "Foundry"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
       "cat": "funding",
-      "source": "Nikkei Asia",
-      "time": "Aug (fund due this year)",
-      "headline": "Z Venture Capital and SRI-Linked Global Innovation Labs Plan a Japan Deep-Tech Fund That Licenses US Lab IP to Startups",
-      "dek": "A US-to-Japan technology-transfer vehicle aimed at AI, space and defense seed-stage founders; size not disclosed.",
+      "source": "BRIDGE",
+      "time": "Oct 7",
+      "headline": "Flyle Raises ¥1.88B Series A for Contact-Center AI Agents, With Its 'AI Operator' Due in November",
+      "dek": "A Japanese startup backed by ALPHA and ALL STAR SAAS FUND moves from call analytics into autonomous voice agents.",
       "analysis": {
-        "happening": "Z Venture Capital (LY Corp's CVC) announced a partnership with Global Innovation Labs, set up to commercialize SRI technology, on Aug 17. Nikkei Asia reports a fund this year for AI, space and defense, giving Japanese startups access to SRI IP. Size and launch date not found.",
-        "now": "Japan has capital but thin lab-to-startup pipelines; the US has SRI-style spinouts. This is licensing arbitrage: Silicon Valley IP, Japanese distribution. Caveat: not a closed fund, and the timing is August, not this week.",
-        "future": "Watch the fund close and first portfolio names. A founder with US-lab technology and a Japan go-to-market is the pitch pattern."
+        "happening": "Flyle raised ¥1.88B (18.8億円) in a Series A on Oct 7 from VCs including ALPHA and ALL STAR SAAS FUND. It is moving from customer-call analytics into AI Operators for contact centers, with formal availability slated for November.",
+        "now": "US peers like Sierra and Decagon raise at far larger scale for the same agentic customer service. Japan's edge is the Japanese-language, keigo-heavy phone market; the gap is capital and model depth. Caveat: a month-old round, and the AI Operator hasn't shipped.",
+        "future": "Watch the November launch, enterprise logos, and rivals such as nocall (about $5.2M Series A)."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "VC firm with ties to Siri to launch Japan fund for AI, space startups",
-          "url": "https://asia.nikkei.com/business/technology/vc-firm-with-ties-to-siri-to-launch-japan-fund-for-ai-space-startups"
+          "name": "BRIDGE",
+          "title": "コンタクトセンター業務を担うAIエージェントのフライル、シリーズAで18.8億円を調達——AIオペレーターを11月に正式提供",
+          "url": "https://thebridge.jp/2026/10/flyle-raises-series-a-funding-for-ai-agents-for-contact-centers"
+        },
+        {
+          "name": "Nikkei",
+          "title": "顧客対応分析のFlyle、AIオペレーターに参入 18.8億円調達",
+          "url": "https://www.nikkei.com/article/DGXZQOUC040YF0U6A001C2000000/"
         },
         {
           "name": "PR TIMES",
-          "title": "Z Venture CapitalとGlobal Innovation Labs、戦略的事業提携を開始",
-          "url": "https://prtimes.jp/main/html/rd/p/000000129.000041941.html"
+          "title": "コンタクトセンター・CX業務を担うAIエージェント「Flyle(フライル)」、シリーズA18.8億円を資金調達。AIオペレーターなど新規AIエージェントサービス群をリリース開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000050.000076399.html"
         }
       ],
       "tags": [
-        "VC",
-        "Deep tech",
-        "Z Venture Capital"
+        "AI agents",
+        "Series A",
+        "Contact center"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
       "cat": "funding",
-      "source": "Invezz",
-      "time": "Nov 1",
-      "headline": "SoftBank Shares Are Down About 50% From the Year High Ahead of Nov 10 Earnings, the Listed Read on Japan's OpenAI Exposure",
-      "dek": "The cleanest listed Japanese proxy for the OpenAI trade is under pressure, and the quarter's results are the next test.",
+      "source": "Bloomberg",
+      "time": "Sep 7",
+      "headline": "Preferred Networks Wants an IPO to Mass-Produce MN-Core Chips and Took ¥10B From Mitsubishi Heavy, Japan's Industrial-Strategic Route Versus US Mega-Rounds",
+      "dek": "Japan's lone full-stack AI chip challenger is funding itself through strategics and a future IPO.",
       "analysis": {
-        "happening": "An Invezz opinion piece (Nov 1) says SoftBank closed the week at ¥4,481, down 50% from the year high of ¥9,048, citing OpenAI funding worries and Arm weakness. SoftBank reports Q2 FY2026 on Nov 10. Reports say the final $10B OpenAI tranche was paid Oct 1.",
-        "now": "Japan's largest AI capital allocator is a leveraged OpenAI bet, a US-frontier lead that sovereign Japanese labs lack, with concentration risk. Caveat: the bearish framing is opinion. Stress points: valuation gains, loans, asset sales.",
-        "future": "Upcoming Nov 10 results. Watch OpenAI mark-to-market, borrowing disclosures, and any shift toward Japanese physical AI."
+        "happening": "Bloomberg reported Sep 7 that PFN seeks an IPO to fund mass production, with samples of its newest chip due 1H 2027. Mitsubishi Heavy agreed Aug 31 to invest ¥10B by third-party allotment, aimed at mission-critical and defense AI. Secondary reports put the IPO at 2028-2030 and valuation near $2B (an estimate).",
+        "now": "Nvidia is worth trillions; PFN is Japan's lone attempt at the chip, software and model stack. Gap: scale and fab capacity. Opportunity: defense and infrastructure AI not sourced from the US. Caveat: IPO is only a stated intention, MHI terms undisclosed, news is two months old.",
+        "future": "Watch for shareholder approval, the 1H 2027 samples, and whether Rapidus fabs MN-Core."
       },
       "sources": [
         {
-          "name": "Invezz",
-          "title": "SoftBank stock at risk of hitting ¥3k as OpenAI woes mount, Arm earnings loom",
-          "url": "https://invezz.com/ie/news/2026/11/01/softbank-stock-at-risk-of-hitting-yen3k-as-openai-woes-mount-arm-earnings-loom"
+          "name": "Bloomberg",
+          "title": "Japan's Preferred Networks Seeks IPO to Keep Up in AI Chip Race",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-07/japan-s-preferred-networks-seeks-ipo-to-keep-up-in-ai-chip-race"
         },
         {
-          "name": "DealStreetAsia",
-          "title": "SoftBank earnings set for OpenAI boost, with focus on future funding",
-          "url": "https://www.dealstreetasia.com/?p=472432"
+          "name": "DIGITIMES",
+          "title": "Preferred Networks eyes an IPO as Japan's AI chip ambitions outgrow private funding",
+          "url": "https://www.digitimes.com/news/a20260909VL203/ai-chip-technology-chips-manufacturing-2027.html"
+        },
+        {
+          "name": "TradingView News",
+          "title": "Mitsubishi Heavy Industries, Ltd. (TSE:7011) Invests ¥10B in Preferred Networks Under Alliance",
+          "url": "https://www.tradingview.com/news/tradingview:4ce6b354890d4:0-mitsubishi-heavy-industries-ltd-tse-7011-invests-10b-in-preferred-networks-under-alliance/"
         }
       ],
       "tags": [
-        "SoftBank",
-        "OpenAI",
-        "Public markets"
+        "Preferred Networks",
+        "IPO",
+        "Defense AI"
       ]
     }
   ]
