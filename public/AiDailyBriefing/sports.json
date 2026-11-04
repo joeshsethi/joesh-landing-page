@@ -1,70 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T20:20:00.000Z",
-  "dateLabel": "Wed · Nov 4 2026",
+  "generatedAt": "2026-11-04T20:10:00.000Z",
+  "dateLabel": "Thu · Nov 5 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "RB Leipzig vs Man City (UCL MD4)",
-      "line": "City arrive on two straight Premier League defeats, with Leipzig's Maxime Estève saying the plan is to stop Haaland. City are favourites, having won four of six previous UCL meetings.",
-      "whenJst": "Thu Nov 5 · 05:00 JST",
+      "event": "Rolex Paris Masters: semi-finals",
+      "line": "Zverev (world No. 1) and Alcaraz sit in opposite halves, so can only meet in the final. Defending champion Sinner is out with a knee injury; Djokovic is still in the draw.",
+      "whenJst": "Sat Nov 7 · 19:30 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "RB Leipzig vs Man City: TV channel, how to watch in UK, kick-off time, live stream, team news, referee, predicted line-ups - ESPN",
-          "url": "https://www.espn.com/soccer/story/_/id/50356196/rb-leipzig-vs-manchester-city-tv-channel-how-watch-kick-live-stream-referee-injury-predicted-lineups-uefa-champions-league-2026-27"
+          "name": "Tennis Nerd",
+          "title": "Paris Masters 2026 – Schedule, Players and Prize Money",
+          "url": "https://www.tennisnerd.net/?p=70284"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Slavia Prague vs Arsenal (UCL MD4)",
-      "line": "Arsenal are heavy favourites in Prague on the same Wednesday night as Leipzig-City. Other Wednesday ties include AEK Athens vs Real Madrid and Fenerbahce vs Liverpool.",
-      "whenJst": "Thu Nov 5 · 05:00 JST",
+      "event": "Rolex Paris Masters: singles final",
+      "line": "Last Masters 1000 before the ATP Finals in Turin; 1,000 points for the champion. Not before 15:00 Paris time.",
+      "whenJst": "Sun Nov 8 · 23:00 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "2026 UEFA Champions League Schedule - ESPN",
-          "url": "https://www.espn.com/soccer/schedule/_/league/uefa.champions"
+          "name": "Tennis Nerd",
+          "title": "Paris Masters 2026 – Schedule, Players and Prize Money",
+          "url": "https://www.tennisnerd.net/?p=70284"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "Rolex Paris Masters: quarterfinals to final",
-      "line": "Final Masters 1000 of the season, with Alcaraz and Zverev among the top seeds; Djokovic and Zverev were projected for a quarterfinal and Turin qualification spots are still in play. Final is Sunday; start time not confirmed.",
-      "whenJst": "Sun Nov 8 · final, start time TBC (JST)",
+      "event": "Champions League Matchday 5: Arsenal v Dortmund, Man City v Napoli",
+      "line": "Headline ties on the Tuesday night, with Real Madrid v PSV the same evening. All 21:00 CET.",
+      "whenJst": "Wed Nov 25 · 05:00 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Alexander Zverev, Novak Djokovic on course for Paris QF showdown; Turin contenders eye push",
-          "url": "https://www.atptour.com/en/news/paris-2026-draw-preview"
-        },
-        {
-          "name": "ESPN",
-          "title": "2026 Rolex Paris Masters Bracket and Draw - Tennis - ESPN",
-          "url": "https://www.espn.com/tennis/bracket/_/tournamentId/13/type/1"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "sport": "golf",
-      "status": "upcoming",
-      "event": "Abu Dhabi Championship (DP World Tour)",
-      "line": "Runs Nov 5-8 at Yas Links, with the Race to Dubai finale (DP World Tour Championship, Dubai) following Nov 12-15. Tee times not confirmed.",
-      "whenJst": "Thu Nov 5 – Sun Nov 8 · times TBC (JST)",
-      "sources": [
-        {
-          "name": "Golf Channel",
-          "title": "abu dhabi championship",
-          "url": "https://www.golfchannel.com/dp-world-tour/2026/abu-dhabi-championship"
+          "name": "UEFA",
+          "title": "2026-27 Champions League: all the league phase fixtures",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-phase-fixtures/"
         }
       ]
     }
