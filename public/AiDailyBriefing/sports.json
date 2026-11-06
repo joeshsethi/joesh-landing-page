@@ -1,55 +1,45 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T20:07:06.000Z",
-  "dateLabel": "Fri · Nov 6 2026",
+  "generatedAt": "2026-11-06T20:08:09Z",
+  "dateLabel": "Sat · Nov 7 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "Rolex Paris Masters: semi-finals and final",
-      "line": "Quarterfinals run Friday, including Shelton vs Paul. Semi-finals Saturday, final Sunday. Local times are approximate, so check the official order of play.",
-      "whenJst": "Sat Nov 7 · 22:00 JST (SFs); Sun Nov 8 · 23:00 JST (final)",
+      "event": "Premier League GW10: Nottingham Forest v Manchester City",
+      "line": "City travel to the City Ground in the Saturday evening Sky Sports game, with Arsenal at home to Hull City earlier in the day. Kick-offs per the revised November schedule.",
+      "whenJst": "Sun Nov 8 · 02:30 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "What is the Paris tennis schedule?",
-          "url": "https://www.atptour.com/en/news/paris-2026-schedule"
+          "name": "Sky Sports",
+          "title": "Football Scores & Fixtures - Today's Schedule of Football Matches",
+          "url": "https://www.skysports.com/football-scores-fixtures/2026-11-07"
         },
         {
-          "name": "ESPN",
-          "title": "Ben Shelton moves into Paris Masters quarters, to face Tommy Paul next",
-          "url": "https://www.espn.com/tennis/story/_/id/50389791/ben-shelton-moves-paris-masters-quarters-vs-tommy-paul"
+          "name": "Premier League",
+          "title": "Fixture amendments for Premier League matches in November",
+          "url": "https://www.premierleague.com/en/news/4725574/fixture-amendments-for-premier-league-matches-in-november"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Nottingham Forest vs Manchester City (Premier League)",
-      "line": "Sky Sports' showpiece Saturday game, with a 5:30pm UK kick-off, which is early Sunday morning in Japan.",
-      "whenJst": "Sun Nov 8 · 02:30 JST",
+      "event": "Nitto ATP Finals, Turin",
+      "line": "Group draw Nov 12, round-robin from Nov 15. Zverev, Alcaraz, Shelton and Medvedev are qualified; Djokovic is among the contenders for the open spots. Semifinals Nov 21, final Nov 22.",
+      "whenJst": "Sun Nov 15 · round-robin begins (final Sun Nov 22 · ~23:00 JST)",
       "sources": [
+        {
+          "name": "ATP Tour",
+          "title": "Nitto ATP Finals",
+          "url": "https://www.atptour.com/en/tournaments/nitto-atp-finals/605/overview"
+        },
         {
           "name": "Sky Sports",
-          "title": "Premier League predictions & Jones Knows' best bets: Nottingham Forest vs Man City, Man Utd vs Aston Villa and more!",
-          "url": "https://www.skysports.com/football/news/13607998/premier-league-predictions-and-jones-knows-best-bets-nottingham-forest-vs-man-city-man-utd-vs-aston-villa-and-more"
-        }
-      ]
-    },
-    {
-      "id": "s3",
-      "sport": "golf",
-      "status": "upcoming",
-      "event": "DP World Tour Championship, Dubai",
-      "line": "The season-ending Race to Dubai finale is at the Earth Course, Nov 12-15. No scores yet; round times to be confirmed.",
-      "whenJst": "Thu Nov 12 – Sun Nov 15 (round times TBC)",
-      "sources": [
-        {
-          "name": "Golf Channel",
-          "title": "dp world tour championship",
-          "url": "https://www.golfchannel.com/dp-world-tour/2026/dp-world-tour-championship"
+          "title": "Novak Djokovic: After shock defeat in Basel former world No 1 heads to Paris Masters in race to make ATP Finals in Turin",
+          "url": "https://www.skysports.com/tennis/news/13605706/novak-djokovic-after-shock-defeat-in-basel-former-world-no-1-heads-to-paris-masters-in-race-to-make-atp-finals-in-turin"
         }
       ]
     }
