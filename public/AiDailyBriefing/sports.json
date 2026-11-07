@@ -1,45 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T20:08:09Z",
-  "dateLabel": "Sat · Nov 7 2026",
+  "generatedAt": "2026-11-07T20:15:00Z",
+  "dateLabel": "Sun · Nov 8 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Premier League GW10: Nottingham Forest v Manchester City",
-      "line": "City travel to the City Ground in the Saturday evening Sky Sports game, with Arsenal at home to Hull City earlier in the day. Kick-offs per the revised November schedule.",
-      "whenJst": "Sun Nov 8 · 02:30 JST",
-      "sources": [
-        {
-          "name": "Sky Sports",
-          "title": "Football Scores & Fixtures - Today's Schedule of Football Matches",
-          "url": "https://www.skysports.com/football-scores-fixtures/2026-11-07"
-        },
-        {
-          "name": "Premier League",
-          "title": "Fixture amendments for Premier League matches in November",
-          "url": "https://www.premierleague.com/en/news/4725574/fixture-amendments-for-premier-league-matches-in-november"
-        }
-      ]
-    },
-    {
-      "id": "s2",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Nitto ATP Finals, Turin",
-      "line": "Group draw Nov 12, round-robin from Nov 15. Zverev, Alcaraz, Shelton and Medvedev are qualified; Djokovic is among the contenders for the open spots. Semifinals Nov 21, final Nov 22.",
-      "whenJst": "Sun Nov 15 · round-robin begins (final Sun Nov 22 · ~23:00 JST)",
+      "event": "Nitto ATP Finals, Turin (Nov 15-22)",
+      "line": "Season-ending finals open next Sunday with Sinner and Alcaraz among the qualifiers, plus Zverev, Shelton, Cobolli, Fils and Tiafoe. Semifinals Nov 21, final Nov 22 (15:00 local, per third-party schedules; verify).",
+      "whenJst": "Sun Nov 22 · 23:00 JST (final)",
       "sources": [
         {
           "name": "ATP Tour",
-          "title": "Nitto ATP Finals",
-          "url": "https://www.atptour.com/en/tournaments/nitto-atp-finals/605/overview"
+          "title": "What are the Nitto ATP Finals qualification scenarios?",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-qualification-2026-scenarios-november-5"
         },
         {
-          "name": "Sky Sports",
-          "title": "Novak Djokovic: After shock defeat in Basel former world No 1 heads to Paris Masters in race to make ATP Finals in Turin",
-          "url": "https://www.skysports.com/tennis/news/13605706/novak-djokovic-after-shock-defeat-in-basel-former-world-no-1-heads-to-paris-masters-in-race-to-make-atp-finals-in-turin"
+          "name": "ATP Tour",
+          "title": "Frances Tiafoe qualifies for Nitto ATP Finals for first time",
+          "url": "https://www.atptour.com/en/news/tiafoe-nitto-atp-finals-2026-qualification"
         }
       ]
     }

@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-07T20:15:00Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Sun · Nov 8 2026",
+    "editionLine": "EDITION No.545 · SYNCED 05:15 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "Today's throughline: open weights and cheap specialization are racing ahead, while Japan chooses between catching up and owning niches.",
+    "briefingTitle": "Thinking Machines Teases Near-Frontier Open Weights, AI Starts Proving Theorems, and Japan Bets on Pre-Training and Chip Niches",
+    "summary": "The common thread is who gets to own and tune capable models. Thinking Machines shipped a 594B MoE with Apache 2.0 weights promised, Sequoia and a16z funded the tuning and agent-desktop layers around such models, and AI-written proofs of old theory conjectures began arriving faster than experts can review them. Meanwhile US-China chip flows jammed, with 600,000 H200s stuck in Hong Kong. Japan's answers are Sakana's first from-scratch pre-training plan and niche hardware like EUV pellicles, against a US lead that is still measured in years.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 25 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 38,
+      "frontier": 95,
+      "note": "Up one — Sakana announced Sawara, its first from-scratch pre-training plan, but weights are not due until spring 2027 and no GPU budget is disclosed."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 16,
+      "frontier": 99,
+      "note": "Unchanged — Sequoia, a16z and Elad Gil wrote $45M-$350M rounds in a week, while Japan's visible rounds were pre-seed and ¥850M."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 34,
+      "frontier": 96,
+      "note": "Unchanged — PFN-Tenstorrent chiplets are a five-year research plan and AirMembrane's pellicle line is 2028; no new fab capacity."
+    },
+    {
+      "label": "Early-stage AI venture formation",
+      "jp": 30,
+      "frontier": 92,
+      "note": "Up one — ANRI launched a pre-seed program and backed a UTokyo spinout, but round sizes remain a fraction of US seeds like Phaze's $8.75M."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "launches",
+      "source": "Thinking Machines Lab",
+      "time": "Nov 5",
+      "headline": "Thinking Machines Ships Inkling 2 Small: a 594B MoE With 17B Active Parameters, Apache 2.0 Weights Promised Only After Red-Teaming",
+      "dek": "Murati's lab sells a closed API first and promises open weights next week, an unusual open-weight sequence.",
+      "analysis": {
+        "happening": "Released Nov 5 on Tinker: 594B-parameter MoE, 17B active, image input. Vendor-reported 31 on the Artificial Analysis Index and 86.3% on SWE-bench Pro Hard. Tinker pricing reportedly $0.30/$1.00 per million input/output tokens. Weights stay closed until external safety testing ends.",
+        "now": "If Apache 2.0 weights land, builders get a near-frontier coding model to fine-tune and self-host, a hedge against closed-lab pricing. Caveat: benchmarks are vendor-reported, other models lead many rows, and one outlet says cost per task rose sharply.",
+        "future": "Watch whether weights drop the week of Nov 9-13, which clouds host it, and independent SWE-bench reruns. Fine-tuning-as-a-service on Tinker is the business model to study."
+      },
+      "sources": [
+        {
+          "name": "Thinking Machines Lab",
+          "title": "Inkling 2 Small",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+        },
+        {
+          "name": "The Decoder",
+          "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/"
+        },
+        {
+          "name": "Crypto Briefing",
+          "title": "Thinking Machines releases Inkling 2 Small, scores 31 on AI Index",
+          "url": "https://cryptobriefing.com/thinking-machines-inkling-2-small-release/"
+        }
+      ],
+      "tags": [
+        "Open weights",
+        "Coding models",
+        "Thinking Machines"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "research",
+      "source": "The New York Times",
+      "time": "Nov 6",
+      "headline": "AI-Produced Proofs Pile Up: OpenAI and Anthropic Claim to Refute the Exponential Time Hypothesis, and PSI Claims the Aaronson-Ambainis Conjecture",
+      "dek": "Lean-checked machine proofs of decades-old theory problems now arrive within weeks of each other while human review lags.",
+      "analysis": {
+        "happening": "OpenAI (Oct 26) and Anthropic separately posted proofs that 3-SAT has a 2^o(n) algorithm, refuting ETH; both passed Lean. On Nov 6, Physical Superintelligence said a system on a non-public Anthropic model proved the 2008 Aaronson-Ambainis conjecture, with Lean verifying.",
+        "now": "Lean checks only the statement it is given, and the PSI claim is self-published without peer review. The scarce layer is expert review, so proof-verification tooling and Lean formalization services are the opening.",
+        "future": "Watch Ryan Williams' review verdict on ETH and a Stanford write-up of Aaronson-Ambainis. A confirmed refutation would reprice hardness results that rest on ETH."
+      },
+      "sources": [
+        {
+          "name": "The New York Times",
+          "title": "AI disproves Exponential Time Hypothesis",
+          "url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html"
+        },
+        {
+          "name": "Physical Superintelligence",
+          "title": "A proof of the Aaronson-Ambainis conjecture",
+          "url": "https://psi.inc/research/aaronson-ambainis/"
+        },
+        {
+          "name": "Let's Data Science",
+          "title": "OpenAI and Anthropic claim AI models disproved exponential time hypothesis",
+          "url": "https://letsdatascience.com/news/openai-and-anthropic-claim-ai-models-disproved-exponential-t-f4369e39"
+        }
+      ],
+      "tags": [
+        "AI for math",
+        "Lean",
+        "Verification"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Nov 2",
+      "headline": "Sequoia Leads a $45M Series A at $300M for Trajectory, an 18-Person Post-Training Startup Already Serving Harvey, Rogo and Decagon",
+      "dek": "Continual learning as a product: lawyers and doctors retrain open models from app feedback without an ML team.",
+      "analysis": {
+        "happening": "Trajectory (SF, about a year old, 18 staff) raised $45M led by Sequoia with Nvidia, Bessemer and Bain Capital Ventures at $300M. A self-serve platform collects app feedback and retrains open-source models. Named customers: Harvey, Rogo, Decagon, Mercor, Nvidia.",
+        "now": "Sequoia is betting post-training is the next layer to productize, replacing forward-deployed engineers. Caveat: outlets conflict on prior funding and the pre/post-money is unstated. Rivals include Thinking Machines' Tinker and Prime Intellect.",
+        "future": "Watch for outcome data against frontier models and more vertical customers. A Japanese-language or regulated-industry variant is a gap an AWS-fluent builder could target."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "Trajectory Raises $45M Series A From Sequoia at $300M to Train AI Models for Nontechnical Experts",
+          "url": "https://aiweekly.co/alerts/trajectory-raises-45m-series-a-from-sequoia-at-300m-to-train-ai-models-for"
+        }
+      ],
+      "tags": [
+        "Sequoia",
+        "Post-training",
+        "Series A",
+        "SF"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "funding",
+      "source": "TheNextWeb",
+      "time": "Nov 4",
+      "headline": "a16z Leads an $8.75M Seed for Phaze, Where Parsec's Founders Give AI Agents Their Own Governed PCs",
+      "dek": "Remote GPU desktops with an MCP server so computer-use agents can run CAD or 3D software where APIs fail.",
+      "analysis": {
+        "happening": "Phaze, founded by Benjy Boxer and Chris Dickson (Parsec, sold to Unity in 2021), raised $8.75M led by a16z with Indie, NextView, Makers Fund and NYC's Lerer Hippeau. Agents drive desktops through a local MCP server, with directory sync and audit logs.",
+        "now": "The bet: agents need full desktops where APIs do not exist, such as CAD and GPU work. Caveat: the MCP integration is labeled experimental and performance claims are company-reported.",
+        "future": "A builder can try the MCP server now. Watch whether desktops-for-agents becomes a category and how AWS WorkSpaces and Nvidia respond."
+      },
+      "sources": [
+        {
+          "name": "TheNextWeb",
+          "title": "Parsec founders raise $8.75M from a16z to give AI agents their own PCs",
+          "url": "https://thenextweb.com/news/phaze-8-75m-seed-a16z-remote-computers-ai-agents"
+        },
+        {
+          "name": "TechBuzz News",
+          "title": "Phaze Raises $8.75 Million Seed Led by a16z",
+          "url": "https://www.techbuzznews.com/phaze-seed-funding-a16z-remote-desktop-ai-agents/"
+        },
+        {
+          "name": "Dealroom",
+          "title": "Phaze raises $8.75M seed from a16z to give AI agents real desktops",
+          "url": "https://dealroom.co/news/169714-phaze-raises-8-75m-seed-from-a16z-to-give-ai-agents-real-desktops/"
+        }
+      ],
+      "tags": [
+        "a16z",
+        "Seed",
+        "MCP",
+        "Agent infrastructure"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Reuters",
+      "time": "Nov 4-5",
+      "headline": "Oracle Drops a $7B Tencent Chip Lease While 600,000 Nvidia H200s Sit Stuck in Hong Kong",
+      "dek": "Washington and Beijing are both closing the remote-compute loophole, leaving China-bound inventory in limbo.",
+      "analysis": {
+        "happening": "FT reports Oracle cancelled a five-year, roughly $7B deal giving Tencent access to about 100,000 advanced chips in Southeast Asia. Reuters (Nov 5) says about 600,000 H200s are parked in Hong Kong because Beijing withholds import approval.",
+        "now": "China-linked demand is blocked from both ends, so offshore neocloud capacity loses a marquee tenant. Caveat: the Oracle story rests on one FT report with anonymous sources and no company comment.",
+        "future": "Watch Nvidia's China line in guidance, Oracle's Southeast Asia utilisation, and whether rules extend to remote access. Domestic Chinese accelerators are the beneficiaries."
+      },
+      "sources": [
+        {
+          "name": "DatacenterDynamics",
+          "title": "Oracle drops Tencent as cloud client, losing multi-billion dollar contract - report",
+          "url": "https://www.datacenterdynamics.com/en/news/oracle-drops-tencent-as-cloud-client-losing-multi-billion-dollar-contract-report/"
+        },
+        {
+          "name": "The Standard (HK)",
+          "title": "Oracle abandons US$7 billion Tencent AI deal under Trump pressure, FT reports",
+          "url": "https://www.thestandard.com.hk/finance/article/347470/Oracle-abandons-US7-billion-Tencent-AI-deal-under-Trump-pressure-FT-reports"
+        },
+        {
+          "name": "Reuters",
+          "title": "Nvidia chips pile up in Hong Kong as China withholds import approval",
+          "url": "https://www.reuters.com/world/china/nvidia-chips-pile-up-hong-kong-china-withholds-import-approval-2026-11-05/"
+        }
+      ],
+      "tags": [
+        "Export controls",
+        "Nvidia",
+        "China",
+        "Oracle"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "research",
+      "source": "Sakana AI",
+      "time": "Nov 2",
+      "headline": "Sakana AI Moves Into From-Scratch Pre-Training: 'Sawara' Targets Hundreds of Billions of Parameters, Small Model Weights in Spring 2027",
+      "dek": "Japan's best-funded lab stops at post-training open models and plans its own base model.",
+      "analysis": {
+        "happening": "At its Oct 26 Tokyo symposium, Sakana named pre-training, post-training (Namazu) and orchestration (Fugu) as its sovereignty pillars. Sawara Small pre-training starts Dec 2026 with weights planned for spring 2027; a larger model targets hundreds of billions of parameters.",
+        "now": "Gap: US labs already pre-train at frontier scale, while Sakana's edge is Japanese defense, cyber and finance buyers wanting no US or Chinese API. Caveat: no GPU budget disclosed, the plan is stated intent, and naming is provisional.",
+        "future": "Watch for GPU partners, Sawara Small benchmarks against Qwen and Llama at similar size, and whether the Oct 28 enterprise API early access pulls in sovereign customers."
+      },
+      "sources": [
+        {
+          "name": "Sakana AI",
+          "title": "Sakana AIシンポジウム開催レポート",
+          "url": "https://sakana.ai/symposium-2026/"
+        },
+        {
+          "name": "AlphaSignal",
+          "title": "Sakana AI Plans Sawara, a Japanese Foundation Model Built From Scratch",
+          "url": "https://alphasignal.ai/news/sakana-ai-plans-sawara-a-japanese-foundation-model-built-from-scratch"
+        },
+        {
+          "name": "Digg",
+          "title": "Sakana AI outlines three AI sovereignty pillars, pre-training project tentatively named Sakana Sawara",
+          "url": "https://digg.com/ai/l5vuope2"
+        }
+      ],
+      "tags": [
+        "Sakana AI",
+        "Sovereign AI",
+        "Pre-training"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "funding",
+      "source": "The Bridge",
+      "time": "Nov 6",
+      "headline": "Simulacra Takes an ANRI Pre-Seed for a UTokyo-Born Model That Digitally Twins How People Think",
+      "dek": "ANRI's first backing under its new Pre-Seed Program, built on Izumi Lab research.",
+      "analysis": {
+        "happening": "Simulacra (founded Sept 2025, University of Tokyo engineering research) raised an undisclosed pre-seed from ANRI. It builds interview AI plus consumer, economic and urban digital twins, and joined a JST AI-for-Science project starting Oct 2026.",
+        "now": "US analogs are synthetic-persona and market-simulation startups; Japan's angle is academic social-science agent simulation sold to municipal and policy buyers. Caveat: amount undisclosed, no customers stated, and validity versus real behaviour is unproven.",
+        "future": "Watch for seed size, first municipal or enterprise pilots, and whether ANRI's pre-seed program backs more university-spinout AI labs."
+      },
+      "sources": [
+        {
+          "name": "The Bridge",
+          "title": "人の考え方をAIで再現するデジタルツインのSimulacra、ANRIからプレシードで資金調達",
+          "url": "https://thebridge.jp/2026/11/simulacra-digital-twin-pre-seed-anri"
+        },
+        {
+          "name": "PR TIMES",
+          "title": "Simulacraの参画する研究課題が、文部科学省・JSTの「AI for Science革新的研究推進事業(ARiSE)」に採択",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000192555.html"
+        }
+      ],
+      "tags": [
+        "Pre-seed",
+        "ANRI",
+        "Digital twin",
+        "UTokyo"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "The Bridge",
+      "time": "Nov 2",
+      "headline": "AirMembrane Raises About ¥850M for Graphene EUV Pellicles, Targeting a 2028 Mass-Production Line",
+      "dek": "A Tsukuba AIST spinout aims at a consumable that Rapidus and TSMC fabs both depend on.",
+      "analysis": {
+        "happening": "AirMembrane raised about ¥850M (equity, an SMBC loan and a NEDO grant), led by Global Brain with MUFG Capital; cumulative funding is about ¥1B. Pilot production is planned for 2027 and a mass line in 2028. Its synthesis is claimed over 100x faster than conventional methods.",
+        "now": "Japan is strong in chip materials and consumables rather than fabs or GPUs; this is that niche. Caveat: small round, no named customers, no yield or transmission data, and Dealroom reports a different USD figure.",
+        "future": "Watch for pellicle qualification with a scanner maker or fab, a larger Series A, and further NEDO grants."
+      },
+      "sources": [
+        {
+          "name": "The Bridge",
+          "title": "次世代半導体露光装置向け部品開発のエアメンブレン、増資・融資・助成金で総額約8.5億円を調達",
+          "url": "https://thebridge.jp/2026/11/airmembrane-raises-850-million-yen-for-graphene-euv-pellicle"
+        },
+        {
+          "name": "Dealroom",
+          "title": "Airmembrane raises $5.39M to mass produce graphene chip pellicles",
+          "url": "https://dealroom.co/news/168228-airmembrane-raises-5-39m-to-mass-produce-graphene-chip-pellicles/"
+        },
+        {
+          "name": "Global Brain",
+          "title": "Invested in AirMembrane",
+          "url": "https://globalbrains.com/en/posts/invested-in-airmembrane"
+        }
+      ],
+      "tags": [
+        "EUV",
+        "Graphene",
+        "Deep tech",
+        "Global Brain"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Kyodo News PR Wire",
+      "time": "Oct 21",
+      "headline": "PFN and Tenstorrent Win a NEDO Project for Photonics-Linked AI Chiplets, With Up to 60 Months of R&D",
+      "dek": "Japan's AI-chip champion pairs with a US open-architecture CPU firm on a research plan that pays off after FY2031.",
+      "analysis": {
+        "happening": "NEDO selected the joint proposal under its post-5G program. PFN builds AI chiplets with 3D-stacked memory; Tenstorrent builds open-architecture CPU chiplets; they link via photonics-electronics integration. R&D runs up to 60 months, with commercialization targeted after FY2031.",
+        "now": "Gap: Nvidia ships rack-scale systems today, while Japan's entry is a five-year research plan. Caveats: budget, bandwidth, power figures and the foundry are undisclosed, and selection does not guarantee a product. The item is slightly older than the window.",
+        "future": "Watch the reported 2027 slip of PFN's MN-Core L1000, PFN's IPO plans, and whether Rapidus is named as foundry."
+      },
+      "sources": [
+        {
+          "name": "XenoSpectrum",
+          "title": "PFN and Tenstorrent photonics AI chiplet NEDO",
+          "url": "https://xenospectrum.com/en/pfn-tenstorrent-photonics-ai-chiplet-nedo/"
+        },
+        {
+          "name": "Kyodo News PR Wire",
+          "title": "PFN and Tenstorrent selected for NEDO project on XPU design and development incorporating photonics-electronics integration technology",
+          "url": "https://kyodonewsprwire.jp/release/202610228458"
+        },
+        {
+          "name": "HPCwire",
+          "title": "Preferred Networks and Tenstorrent Selected for Japan's AI Processor Development Project",
+          "url": "https://www.hpcwire.com/off-the-wire/preferred-networks-and-tenstorrent-selected-for-japans-ai-processor-development-project/"
+        }
+      ],
+      "tags": [
+        "Preferred Networks",
+        "Tenstorrent",
+        "NEDO",
+        "Chiplets"
+      ]
+    }
+  ]
+}
