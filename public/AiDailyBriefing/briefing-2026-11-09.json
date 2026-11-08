@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-08T20:06:01.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Mon · Nov 9 2026",
+    "editionLine": "EDITION No.546 · SYNCED 05:10 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "Today's throughline: AI's physical and political limits are showing, from voter backlash on data centers to Japan's search for state-backed demand.",
+    "briefingTitle": "METR Finds AI Speeding Up AI, Voters Reject Data Centers, and Japan Tries Government Demand and Cross-Border Capital",
+    "summary": "The common thread is who funds and permits the build-out. METR's audit says capability growth at Anthropic is running about 1.9x faster, while voters rejected roughly 38 of 41 local data-center measures and chip stocks sold off. Early-stage money keeps flowing to agent plumbing: Battery into construction paperwork, crypto funds into an agent marketplace. Japan answers with state demand (a paid domestic-LLM call from April 2027), a proposed Korea-Japan data-center fund, and a 17-sector priority list, all still small against US private capital.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 25 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 38,
+      "frontier": 95,
+      "note": "Unchanged — the Gennai call gives domestic models a buyer from April 2027, but no new pre-training compute or weights were announced this week."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 17,
+      "frontier": 99,
+      "note": "Up one — a Korea-SBI ¥1.15T data-center fund is only under discussion, while US seeds like Shackleton's $5M and Sentra's $150M closed."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 34,
+      "frontier": 96,
+      "note": "Unchanged — the 17-sector plan ranks chips first, but no per-sector yen or new fab capacity was disclosed."
+    },
+    {
+      "label": "Early-stage AI venture formation",
+      "jp": 30,
+      "frontier": 92,
+      "note": "Unchanged — MUSE's ¥1.75B is about $11M, versus Cowboy's and Shackleton's $5M seeds that are only the start of US rounds."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "research",
+      "source": "LessWrong / METR",
+      "time": "Nov 5",
+      "headline": "METR Audit Inside Anthropic Finds Capability Growth About 1.9x Faster Since Oct 2025, With Faster Compute Ruled Out as the Cause",
+      "dek": "The first outside, quantified read on AI speeding up AI research comes with a cancelled compute check attached.",
+      "analysis": {
+        "happening": "METR (about 2.5 FTE, Aug 12 to Oct 29) used Anthropic's AECI index and estimated 1.9x faster growth since Oct 2025 (95% CI 1.5-2.8x). It ruled out faster training-compute growth as the driver, pointing to AI-assisted R&D instead.",
+        "now": "If real, roadmaps compress faster than planning assumes. Caveats: AECI favors well-specified, easily graded tasks, redactions limit checking, and METR says Anthropic cancelled a planned compute-allocation check. One summary's ~80% attribution to AI use is not confirmed in METR's text.",
+        "future": "Watch for replications at OpenAI or Google, Anthropic's answer on the cancelled audit, and whether AECI gains show up in real-world agent task benchmarks."
+      },
+      "sources": [
+        {
+          "name": "LessWrong",
+          "title": "METR: independent assessment of AI R&D acceleration at Anthropic",
+          "url": "https://lesswrong.com/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at"
+        },
+        {
+          "name": "WCAX",
+          "title": "Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says",
+          "url": "https://www.wcax.com/2026/11/05/anthropic-is-rapidly-accelerating-ai-development-amid-slowdown-calls-outside-research-group-says/"
+        },
+        {
+          "name": "OfficeChai",
+          "title": "Pace Of AI Capability Growth Is In Oct 2026 Is 2x Of Mar 2024 to Oct 2025 Period: METR",
+          "url": "https://officechai.com/ai/pace-of-ai-capability-growth-is-in-oct-2026-is-2x-of-mar-2024-to-oct-2025-period-metr/"
+        }
+      ],
+      "tags": [
+        "METR",
+        "Anthropic",
+        "AI R&D",
+        "Evals"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Fast Company / PC Gamer / Digitimes",
+      "time": "Nov 4-6",
+      "headline": "Voters Rejected Data Centers in About 38 of 41 Local Ballot Measures, and AI Chip Stocks Sold Off",
+      "dek": "The midterms turned data-center siting into a market risk, and governors in four big hosting states may tighten rules.",
+      "analysis": {
+        "happening": "Ballotpedia tracked 41 data-center ballot measures in 10 states; Fast Company reports voters chose to ban or pause local development in 38, with 3 unreported. Ohio had 21. Digitimes says Texas, Ohio, Georgia and Pennsylvania could tighten controls. AI and chip stocks fell Nov 5-6.",
+        "now": "Local permitting, not chip supply, may set US capacity adds; likely delay of orders rather than cancellations, and no customer cancellations are shown. Caveat: tallies differ by outlet (38 of 40+ across 13 states per one, 38 of 47 per another) and Digitimes is paywalled.",
+        "future": "Watch state moratorium bills, Nvidia's next guide, and whether developers shift to friendlier states or onsite power. Non-US build-outs, including Japan, could benefit."
+      },
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "title": "AI data centers lose 38 of 40-plus US ballot measures",
+          "url": "https://aiweekly.co/alerts/ai-data-centers-lose-38-of-40-plus-us-ballot-measures"
+        },
+        {
+          "name": "PC Gamer",
+          "title": "Data centers were some of the biggest losers in last night's US midterm elections",
+          "url": "https://www.pcgamer.com/gaming-industry/data-centers-were-some-of-the-biggest-losers-in-last-nights-us-midterm-elections/"
+        },
+        {
+          "name": "Digitimes",
+          "title": "Commentary: US governors target AI data centers as Taiwan firms await Nvidia outlook",
+          "url": "https://www.digitimes.com/news/a20261106PD241/usa-data-center-ai-outlook-2026.html"
+        },
+        {
+          "name": "IJR",
+          "title": "AI Stocks Fall as Data-Center Concerns Grow",
+          "url": "https://ijr.com/discover/finance-2026-11-05-ai-chip-stocks-slide-erasing-564-billion-0197b9fd"
+        }
+      ],
+      "tags": [
+        "Policy",
+        "Data centers",
+        "Midterms",
+        "Capex risk"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "funding",
+      "source": "Dealroom",
+      "time": "Nov 4",
+      "headline": "New York's Shackleton AI Exits Stealth With a $5M Seed From Battery Ventures to Run Construction Paperwork With Agents",
+      "dek": "The founders built the agent OS for their own contracting business first, then took it to market.",
+      "analysis": {
+        "happening": "Shackleton AI emerged Nov 4 with a $5M seed led by Battery Ventures, joined by Brick & Mortar, Trust Ventures, Correlation Ventures, Motivate Partners and Thayer. One source says the platform manages over $1B in project value across 15+ states.",
+        "now": "Battery's thesis, per partner Michael Brown, is that construction is among the economy's largest, least-digitized sectors; dogfooding is the edge. Caveat: the founder revenue claim ($35M for contractor Ernest) comes from a single source.",
+        "future": "Look for vertical agent plays in other paperwork-heavy trades (permitting, subcontractor compliance) and a Series A within 12-18 months proving non-founder customers."
+      },
+      "sources": [
+        {
+          "name": "Dealroom",
+          "title": "Shackleton AI exits stealth with $5M to put AI agents to work in construction",
+          "url": "https://app.dealroom.co/news/feed/shackleton-ai-exits-stealth-with-5m-to-put-ai-agents-to-work-in-construction"
+        },
+        {
+          "name": "RuntimeWire",
+          "title": "Shackleton AI emerges from stealth with $5M seed to automate construction paperwork",
+          "url": "https://runtimewire.com/article/shackleton-ai-5m-seed-battery-ventures-construction-agents"
+        },
+        {
+          "name": "citybiz",
+          "title": "Shackleton AI Emerges With $5M Seed Funding Led by Battery Ventures",
+          "url": "https://www.citybiz.co/?p=929763"
+        }
+      ],
+      "tags": [
+        "Seed",
+        "Vertical AI",
+        "Battery Ventures",
+        "New York"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "funding",
+      "source": "Pulse 2.0",
+      "time": "Nov 5",
+      "headline": "Cowboy Launches an 'App Store for AI Agents' With a $5M Seed From Anagram, Compound and Nebular",
+      "dek": "A New York incubation from ex-Snap founders' fund Uncommon Projects opens with 100+ agents and 10,000 data feeds.",
+      "analysis": {
+        "happening": "Cowboy raised a $5M seed from Nebular, Compound, Semantic Ventures, Anagram, Shine Ventures and Uncommon Projects, plus angels including Kevin Kwok. CEO Chad DePue is ex-Snap and Uniswap. Its General Store launched with 100+ agents and 10,000 data feeds, each hire in an isolated sandbox.",
+        "now": "Crypto-native funds backing agent distribution bets that agents need marketplaces and payment rails, not just models. Caveat: the Cowboy Chain payments network is testnet only, and a two-sided marketplace faces cold-start risk on a thin $5M.",
+        "future": "Track paid usage versus the 100-agent launch count and whether mainnet ships late 2026. Niche agents and data feeds are an early monetization path for builders."
+      },
+      "sources": [
+        {
+          "name": "Pulse 2.0",
+          "title": "Cowboy Raises $5 Million In Seed Funding To Launch AI Agent Marketplace And Developer Platform",
+          "url": "https://pulse2.com/cowboy-raises-5-million-in-seed-funding-to-launch-ai-agent-marketplace-and-developer-platform/"
+        },
+        {
+          "name": "Dealroom",
+          "title": "Cowboy raises $5M to build a privacy-first app store for AI agents",
+          "url": "https://dealroom.co/news/169744-cowboy-raises-5m-to-build-a-privacy-first-app-store-for-ai-agents/"
+        }
+      ],
+      "tags": [
+        "Seed",
+        "Agents",
+        "Marketplace",
+        "Crypto VCs"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "Product Hunt",
+      "time": "Nov 5",
+      "headline": "Glasshand Tops Product Hunt by Renting Real iPhones and Macs to Coding Agents",
+      "dek": "A hosted service gives Claude Code or Codex a real device with eSIM, while open-source local rivals already exist.",
+      "analysis": {
+        "happening": "Glasshand led Product Hunt's Nov 5 leaderboard (score 384, 80 comments) over Rerun (273) and Living Brain (253). The maker says real iPhones and Macs, not emulators; billing is for the hosted device even with your own Claude account. Local alternatives: Zeptap and open-source Phone Harness.",
+        "now": "Mobile app testing by agents without an API is the gap. Caveat: comments raise unanswered questions on App Store sign-in without sharing passwords and on device models; pricing is unclear, and local tools undercut hosted cost.",
+        "future": "Watch whether device-farm incumbents add agent APIs, and whether eSIM/SMS handling raises abuse and ToS issues."
+      },
+      "sources": [
+        {
+          "name": "Product Hunt",
+          "title": "Best of Product Hunt: November 5, 2026",
+          "url": "https://www.producthunt.com/leaderboard/daily/2026/11/5"
+        },
+        {
+          "name": "Product Hunt",
+          "title": "Launching today",
+          "url": "https://www.producthunt.com/products/glasshand"
+        },
+        {
+          "name": "ScriptByAI",
+          "title": "Phone Harness: Control Your iPhone with Claude Code or Codex",
+          "url": "https://www.scriptbyai.com/phone-harness-ai-agent-iphone/"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Mobile",
+        "Product Hunt"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Startup Techo / Nikkei",
+      "time": "Nov 5",
+      "headline": "MUSE Raises ¥1.75B for 'Armo' Store Robots, With US Launch and Mass Production Next",
+      "dek": "A Japanese retail-robot startup takes its shelf-restocking robot to the US, reversing the usual direction.",
+      "analysis": {
+        "happening": "MUSE announced ¥1.75B (about $11M, our conversion) on Nov 5; Nikkei lists equity plus loans. It targets 50% overseas sales within three years. Funds go to mass production, AI upgrades and US entry. The prior round was ¥570M in June 2024.",
+        "now": "Versus the US: American robotics money mostly goes to warehouses, while Japan's labor shortage and dense stores favor in-store robots. Caveat: lead investors for this round are unconfirmed, and 'physical AI' is Nikkei's label.",
+        "future": "A named US retail pilot and Armo's unit price are the real validation; watch if Incubate Fund and XTech, backers of the 2024 round, follow on."
+      },
+      "sources": [
+        {
+          "name": "Startup Techo",
+          "title": "小売店舗向けストアロボット「Armo」を開発・提供する「MUSE」が17.5億円調達",
+          "url": "https://sogyotecho.jp/?p=270291"
+        },
+        {
+          "name": "Nikkei",
+          "title": "11月2〜6日 スタートアップ資金調達まとめ読み",
+          "url": "https://www.nikkei.com/article/DGXZQOUC061DV0W6A101C2000000/"
+        }
+      ],
+      "tags": [
+        "Startups",
+        "Physical AI",
+        "Robotics",
+        "Retail"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "funding",
+      "source": "KED Global",
+      "time": "Nov 1",
+      "headline": "Korea Investment and SBI Discuss a ¥1.15T Fund for AI Data Centers in Japan",
+      "dek": "Korean and Japanese financial groups want to pool money for a Stargate-style Japanese buildout.",
+      "analysis": {
+        "happening": "KED Global reports Korea Investment Holdings and SBI Holdings are discussing a joint fund: headline 10T won, subtitle an initial ¥1.15T target expanding over 30 years. Hankyung gives the same first-phase figure; another Korean report says at least ¥1T. The structure is compared to Stargate.",
+        "now": "Versus the US: American data centers run on hyperscaler capex and private credit; Japan is trying a cross-border bank and brokerage pool. Caveat: only 'in discussion', sizes conflict, and no SBI primary release was found.",
+        "future": "Watch for a signed MOU, anchor tenants, the site (Hokkaido and Kyushu are tagged) and power procurement. The Nov 6 chip selloff could slow commitments."
+      },
+      "sources": [
+        {
+          "name": "KED Global",
+          "title": "Korea Investment, SBI Holdings plan 10 trillion won fund to build AI data centers in Japan",
+          "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202611010002"
+        },
+        {
+          "name": "Hankyung",
+          "title": "Hankyung article 2026110185941 (Korea Investment / SBI Japan AI data center fund)",
+          "url": "https://www.hankyung.com/article/2026110185941"
+        },
+        {
+          "name": "Financial News (fnnews)",
+          "title": "Hankook Investment and SBI joint Japan data center fund",
+          "url": "https://www.fnnews.com/news/202611011808461053"
+        }
+      ],
+      "tags": [
+        "Data centers",
+        "Funds",
+        "SBI",
+        "Compute"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Issoh / Digital Agency",
+      "time": "Nov 9",
+      "headline": "Japan's Digital Agency Plans a Paid FY2027 Call for Domestic LLMs, With the Test Growing to 300 Questions",
+      "dek": "A guaranteed government buyer for domestic models from April 2027 is a rare demand-side lever.",
+      "analysis": {
+        "happening": "The Gennai program tested 7 domestic models, 5 contracted: tsuzumi 2, Sarashina3 mini, cotomi v3, Takane 32B, PLaMo 2.0 Prime. The FY2027 call is planned for Nov with a Dec deadline and paid use from April 2027. Tests grow from 50 to 300 questions with mandatory tool-use; about 180,000 civil servants are in the pilot.",
+        "now": "Versus the US: no single central buying channel exists for one domestic model class; Japan gives sovereign models a government customer. Caveat: the Nov start comes from a secondary Oct 21 article and I found no official call document.",
+        "future": "Check digital.go.jp for the call, watch who applies (ELYZA and CC Gov-LLM dropped out in 2026), and the Gennai 2.0 agent release around Feb 2027."
+      },
+      "sources": [
+        {
+          "name": "Issoh",
+          "title": "国産AI7モデルから5社が試用へ｜デジタル庁「源内」の国産LLM比較と2027年度公募【2026年10月】",
+          "url": "https://www.issoh.co.jp/tech/details/11305/"
+        },
+        {
+          "name": "Digital Agency",
+          "title": "Result of the open recruitment process (Gennai, Mar 6 2026)",
+          "url": "https://www.digital.go.jp/news/10d55c63-b3e1-42b9-9cc5-93a06943ae0e"
+        },
+        {
+          "name": "AI Revolution",
+          "title": "NTT tsuzumi 2とは？政府Gennai（源内）での評価状況と日本語性能・料金・Azure提供を徹底解説【2026年10月】",
+          "url": "https://ai-revolution.co.jp/media/what-is-tsuzumi-2/"
+        }
+      ],
+      "tags": [
+        "Policy",
+        "Sovereign LLM",
+        "Gennai",
+        "Procurement"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Nikkei Asia",
+      "time": "Nov 6",
+      "headline": "Japan's Growth Strategy Narrows to 17 Sectors, With AI Data Centers and Chips First",
+      "dek": "The government moves from a broad wish list to prioritized, funded sectors.",
+      "analysis": {
+        "happening": "Nikkei Asia (Nov 6) says Japan will fund 17 strategic sectors, with cloud and AI data centers prioritized, chips near-term and AI medium-term. A June draft put public and private investment above ¥370T through FY2040, chips largest at ¥68T and data centers ¥32.7T through FY2035.",
+        "now": "Versus the US: American capex is private, while Japan sets a public-private target list. Caveat: the Nov 6 text gave no per-sector funding, and the June figures are a draft roadmap with the government share unspecified.",
+        "future": "Watch the FY2027 budget request in December for actual yen per sector, and who gets data-center subsidies. Startups should check for subsidy windows."
+      },
+      "sources": [
+        {
+          "name": "Nikkei Asia",
+          "title": "Data centers, rare earths among top priorities in Japan's growth strategy",
+          "url": "https://asia.nikkei.com/politics/data-centers-rare-earths-among-top-priorities-in-japan-s-growth-strategy"
+        },
+        {
+          "name": "Sakigake / Kyodo",
+          "title": "成長投資、官民370兆円 17分野、半導体が最大",
+          "url": "https://www.sakigake.jp/news/article/20260624CO0167/"
+        }
+      ],
+      "tags": [
+        "Policy",
+        "METI",
+        "Data centers",
+        "Semiconductors"
+      ]
+    }
+  ]
+}

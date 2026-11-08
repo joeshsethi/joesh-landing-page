@@ -1,25 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T20:15:00Z",
-  "dateLabel": "Sun · Nov 8 2026",
+  "generatedAt": "2026-11-08T20:06:16.000Z",
+  "dateLabel": "Mon · Nov 9 2026",
   "items": [
     {
       "id": "s1",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Nitto ATP Finals, Turin (Nov 15-22)",
-      "line": "Season-ending finals open next Sunday with Sinner and Alcaraz among the qualifiers, plus Zverev, Shelton, Cobolli, Fils and Tiafoe. Semifinals Nov 21, final Nov 22 (15:00 local, per third-party schedules; verify).",
-      "whenJst": "Sun Nov 22 · 23:00 JST (final)",
+      "event": "Nitto ATP Finals, Turin — final",
+      "line": "Singles and doubles finals are scheduled for Sunday Nov 22 at 15:00 CET; timetable labelled provisional by some sites, so check the official order of play.",
+      "whenJst": "Sun Nov 22 · 23:00 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "What are the Nitto ATP Finals qualification scenarios?",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-qualification-2026-scenarios-november-5"
-        },
+          "name": "Inalpi Arena",
+          "title": "Nitto ATP Finals 2024",
+          "url": "https://www.inalpiarena.it/en/eventi/atp-finals-tickets-ae1500881"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "sport": "golf",
+      "status": "upcoming",
+      "event": "DP World Tour Championship, Dubai (Earth Course)",
+      "line": "The Race to Dubai season finale runs Nov 12-15. No live leaderboard yet; check the tour page once play starts.",
+      "whenJst": "Thu Nov 12 – Sun Nov 15 (Dubai tee times unconfirmed; JST is +5h)",
+      "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Frances Tiafoe qualifies for Nitto ATP Finals for first time",
-          "url": "https://www.atptour.com/en/news/tiafoe-nitto-atp-finals-2026-qualification"
+          "name": "Golf Channel",
+          "title": "dp world tour championship",
+          "url": "https://www.golfchannel.com/dp-world-tour/2026/dp-world-tour-championship"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Champions League Matchday 5: Arsenal v Borussia Dortmund",
+      "line": "Matchday 5 is Nov 24-25 with Arsenal hosting Dortmund on the Tuesday. Kickoff assumed at the usual 21:00 CET, not confirmed.",
+      "whenJst": "Wed Nov 25 · 05:00 JST",
+      "sources": [
+        {
+          "name": "UEFA",
+          "title": "Champions League league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-and-results/"
         }
       ]
     }
