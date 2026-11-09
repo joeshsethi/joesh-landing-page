@@ -1,35 +1,45 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T20:06:16.000Z",
-  "dateLabel": "Mon · Nov 9 2026",
+  "generatedAt": "2026-11-09T20:20:00.000Z",
+  "dateLabel": "Tue · Nov 10 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "tennis",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "Nitto ATP Finals, Turin — final",
-      "line": "Singles and doubles finals are scheduled for Sunday Nov 22 at 15:00 CET; timetable labelled provisional by some sites, so check the official order of play.",
-      "whenJst": "Sun Nov 22 · 23:00 JST",
+      "event": "DP World Tour Championship, Dubai (Race to Dubai finale)",
+      "line": "Season finale at Jumeirah Golf Estates decides the Race to Dubai. Eugenio Chacarra leads Rory McIlroy by about 534 points with nine players still alive; 2,000 points go to the winner.",
+      "whenJst": "Thu Nov 12 – Sun Nov 15 · final round Sun evening JST (tee times TBC)",
       "sources": [
         {
-          "name": "Inalpi Arena",
-          "title": "Nitto ATP Finals 2024",
-          "url": "https://www.inalpiarena.it/en/eventi/atp-finals-tickets-ae1500881"
+          "name": "Sky Sports",
+          "title": "Race to Dubai: Rory McIlroy takes 'positive signs' into DP World Tour Championship after missing out on Abu Dhabi win",
+          "url": "https://www.skysports.com/golf/news/13609666/race-to-dubai-rory-mcilroy-takes-positive-signs-into-dp-world-tour-championship-after-missing-out-on-abu-dhabi-win"
+        },
+        {
+          "name": "DP World Tour",
+          "title": "Rory McIlroy set for Dubai return at DP World Tour Championship",
+          "url": "https://www.europeantour.com/dpworld-tour/rolex/news/articles/detail/rory-mcilroy-set-for-dubai-return-at-dp-world-tour-championship/"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "golf",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "DP World Tour Championship, Dubai (Earth Course)",
-      "line": "The Race to Dubai season finale runs Nov 12-15. No live leaderboard yet; check the tour page once play starts.",
-      "whenJst": "Thu Nov 12 – Sun Nov 15 (Dubai tee times unconfirmed; JST is +5h)",
+      "event": "Nitto ATP Finals, Turin (round-robin start)",
+      "line": "Field set: Alcaraz, Zverev, Shelton, Medvedev, Cobolli, Fils, Tiafoe and Jodar, with four debutants. Sinner is out for the rest of 2026. Top two in each group reach the semis.",
+      "whenJst": "Sun Nov 15 · opening session (check ATP order of play; Turin is JST-8h)",
       "sources": [
         {
-          "name": "Golf Channel",
-          "title": "dp world tour championship",
-          "url": "https://www.golfchannel.com/dp-world-tour/2026/dp-world-tour-championship"
+          "name": "ATP Tour",
+          "title": "Nitto ATP Finals 2026: Draws, Dates, History & All You Need To Know",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+        },
+        {
+          "name": "ATP Tour",
+          "title": "Frances Tiafoe among quartet of Nitto ATP Finals first-time qualifiers, Mover of Week",
+          "url": "https://www.atptour.com/en/news/tiafoe-pif-atp-live-race-to-turin-9-november-2026"
         }
       ]
     },
@@ -37,14 +47,19 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Champions League Matchday 5: Arsenal v Borussia Dortmund",
-      "line": "Matchday 5 is Nov 24-25 with Arsenal hosting Dortmund on the Tuesday. Kickoff assumed at the usual 21:00 CET, not confirmed.",
-      "whenJst": "Wed Nov 25 · 05:00 JST",
+      "event": "Premier League: Newcastle v Arsenal, Liverpool v Man Utd",
+      "line": "Arsenal lead on 27 points, five clear of Brighton. Newcastle v Arsenal is Sat Nov 21 5:30pm UK; Liverpool v Man Utd Sun Nov 22 4:30pm UK. Arsenal v Man City follows Nov 29.",
+      "whenJst": "Newcastle v Arsenal Sun Nov 22 · 02:30 JST; Liverpool v Man Utd Mon Nov 23 · 01:30 JST",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "Champions League league phase fixtures and results",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-and-results/"
+          "name": "Sky Sports",
+          "title": "Premier League fixtures on Sky Sports: Liverpool vs Man Utd and Arsenal vs Man City in November",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november"
+        },
+        {
+          "name": "ESPN",
+          "title": "Premier League recap: Man City's fall at Forest sees Arsenal pull away in title race - ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/50390673/premier-league-live-updates-leeds-united-tottenham-arsenal-manchester-city"
         }
       ]
     }
