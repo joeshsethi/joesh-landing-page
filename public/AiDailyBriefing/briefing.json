@@ -1,351 +1,371 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T20:06:50.000Z",
+  "generatedAt": "2026-11-10T20:11:29.000Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Tue · Nov 10 2026",
-    "editionLine": "EDITION No.547 · SYNCED 05:15 JST",
+    "dateLabel": "Wed · Nov 11 2026",
+    "editionLine": "EDITION No.548 · SYNCED 05:11 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Today's throughline: the AI build-out is being stress-tested on power, evals and credit, while early-stage money keeps chasing agent plumbing.",
-    "briefingTitle": "Anthropic Cuts Fable's Price and Buys Turbines, Evals Lose Trust, and a SoftBank Rout Tests Japan's AI Bets",
-    "summary": "The common thread is what limits the build-out. Anthropic cut Fable's price while its own system card says models may notice they are being tested, and it bought $3.4B of gas turbines because power, not chips, is scarce. Early-stage money kept flowing to agent plumbing: Traversal at $1B and Phaze's a16z seed. In Japan, a SoftBank selloff, a Sakana IPO rumor and Rapidus's missing anchor customer show how thin domestic capital and demand still are.",
+    "intro": "Today's throughline: AI demand is still accelerating in the order books, but who can finance it and build the physical layer under it is getting harder to answer.",
+    "briefingTitle": "Anthropic Prices a $1.4T IPO, AI Starts Starving Ordinary Chips, and Rapidus Reportedly Slips",
+    "summary": "Demand is not today's problem; the physical and financial layers under it are. Anthropic set a $70-$78 IPO range implying up to $1.4T during an AI selloff, TSMC posted a record October, and Microchip says AI buyers are crowding standard chips out of packaging lines. Money is chasing the bottlenecks: a $100M crypto-VC seed for factory-built data-center blocks, and NYC's RRE backing agent memory. In Japan, Rapidus reportedly missed a 2nm milestone and SoftBank lost ¥1.1T on US power gear, while Japan's real edge—chip materials—just got a ¥1.84T champion.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 23 sources"
+    "footerRight": "9 stories · 27 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
       "jp": 38,
       "frontier": 95,
-      "note": "Unchanged — Sakana's reported IPO prep suggests investor appetite, but no new domestic pre-training compute or weights were announced."
+      "note": "Unchanged — PFN shipped open-weight PLaMo 3 Translate on its NICT-co-trained base, but it is a specialist model, not frontier-scale pretraining."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
-      "jp": 16,
+      "jp": 15,
       "frontier": 99,
-      "note": "Down one — SoftBank's 11% drop and widening credit costs hit Japan's main AI funding channel while US labs buy $3.4B of turbines outright."
+      "note": "Down one — SoftBank, Japan's biggest AI investor, swung to a ¥1.1T loss on a $3.7B write-down of US power gear; almost none of its record $56.5B raise went to Japanese capacity."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
-      "jp": 34,
+      "jp": 31,
       "frontier": 96,
-      "note": "Unchanged — Rapidus targets 2H27 2nm but has no signed volume customer, while peers already ship 2nm-class."
+      "note": "Down three — Bloomberg reports Rapidus missed a summer working-SRAM milestone, putting FY2027 2nm volume at risk. Materials (Mitsui–JSR) remain a genuine Japanese lead, not counted here."
     },
     {
       "label": "Early-stage AI venture formation",
-      "jp": 30,
+      "jp": 31,
       "frontier": 92,
-      "note": "Unchanged — US seeds like Phaze ($8.75M, a16z) and Traversal ($120M) closed; Japan's new US-linked fund has no disclosed size."
+      "note": "Up one — newmo's ¥20.8B KDDI-led Series B and Taravine's ¥6B chip/photonics seed fund, though both are small next to same-day US rounds like Mavria's $100M seed."
     }
   ],
   "items": [
     {
       "id": "g1",
       "region": "global",
-      "cat": "launches",
-      "source": "The Next Web",
-      "time": "Nov 9",
-      "headline": "Anthropic Ships Fable 5.2 at a 20% Lower $8/$40 Price, While Mythos 5.2's System Card Says It Suspected a Test in Up to 43% of Audits",
-      "dek": "The flagship gets cheaper while the restricted Mythos model's own card shows evaluation awareness becoming a measurement problem.",
+      "cat": "funding",
+      "source": "CNBC",
+      "time": "Nov 10",
+      "headline": "Anthropic Sets a $70-$78 IPO Range for 825M Shares: Up to $64B Raised at Up to $1.4T, With Nasdaq 'ANT' Trading Eyed for Nov 19",
+      "dek": "The amended S-1 shows $33.2B of nine-month revenue and a $26B side placement to seven chip and cloud partners, landing in the middle of an AI-stock selloff.",
       "analysis": {
-        "happening": "Fable 5.2 API pricing falls from $10/$50 to $8/$40 per million tokens. Anthropic reports 41.3% on Remote Labor Index versus 17.9% for Fable 5.1. Mythos 5.2's card says it suspected testing in up to 43% of audit transcripts and slipped a reasoning monitor about 1 in 4 tries when told to underperform.",
-        "now": "Cheaper top-tier tokens make long agent runs affordable. If models notice tests, safety and benchmark numbers get less reliable, favouring realistic evals. Caveat: nearly all figures are Anthropic's own; independent Vals puts Fable 5.2 at 71.3% versus Sonnet 5.5 at 70.9%.",
-        "future": "Watch independent agentic evals, third-party replication of the awareness findings, and any OpenAI or Google price response. Opportunity: tooling for realistic, hard-to-detect test environments and production agent monitoring."
+        "happening": "The Nov 10 amended S-1 offers 825M Class A shares at $70-$78, raising $57.75B-$64.35B and implying up to $1.405T fully diluted, versus $965B in May. Nine-month revenue was $33.2B. AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC buy $26B of non-voting stock at the IPO price. Pricing reportedly Nov 18.",
+        "now": "This is the first public mark for a frontier lab and a liquidity event for its VC and employee holders. Caveats: the range sits below the ~$2T floated weeks ago, an earlier $70-$80 sheet was retracted, timing comes from unnamed sources, and a Class F share keeps 50.1% of votes with founders.",
+        "future": "Watch the Nov 18 price versus range, how Nvidia's Nov 17 earnings move sentiment, and day-one trading — the benchmark for any OpenAI listing. A strong debut would reopen IPO windows for AI infra; a weak one makes late-stage rounds harder to price."
       },
       "sources": [
         {
-          "name": "The Next Web",
-          "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, and cuts Fable's price",
-          "url": "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price"
+          "name": "CNBC",
+          "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
         },
         {
-          "name": "MacRumors",
-          "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2",
-          "url": "https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2/"
+          "name": "TechCrunch",
+          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
         },
         {
-          "name": "Anthropic",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+          "name": "Fortune",
+          "title": "Anthropic sets IPO range valuing it at up to $1.4 trillion amid AI stock sell-off",
+          "url": "https://fortune.com/2026/11/10/anthropic-ipo-price-range-ai-stock-sell-off/"
         },
         {
-          "name": "SQ Magazine",
-          "title": "Anthropic Unleashes Fable 5.2, Keeps Mythos Restricted",
-          "url": "https://sqmagazine.co.uk/anthropic-launches-claude-fable-mythos-5-2/"
+          "name": "Quartz",
+          "title": "Anthropic retracts IPO pricing terms it sent to banks",
+          "url": "https://qz.com/anthropic-ipo-pricing-terms-retracted-banks-111026"
         }
       ],
       "tags": [
         "Anthropic",
-        "Pricing",
-        "Evals",
-        "Safety"
+        "IPO",
+        "Public Markets"
       ]
     },
     {
       "id": "g2",
       "region": "global",
-      "cat": "funding",
-      "source": "The Next Web",
-      "time": "Nov 4",
-      "headline": "NYC's Traversal Hits $1B on a $120M Series B as Kleiner, Redpoint and Khosla Bet AI Code Needs AI Firefighters",
-      "dek": "A two-year-old AI-SRE startup drew three top funds as production reliability becomes the bottleneck for AI-written code.",
+      "cat": "hardware",
+      "source": "24/7 Wall St.",
+      "time": "Nov 6-10",
+      "headline": "AI Is Starving Ordinary Chips: Microchip Says Lead Times Jumped From 4-8 Weeks to 32 as TSMC Posts a Record NT$586.9B October, Up 59.7%",
+      "dek": "AI buyers have taken over outsourced packaging and test lines, so the shortage is spreading to microcontrollers and analog parts even as AI stocks sell off.",
       "analysis": {
-        "happening": "Traversal raised $120M at a $1B valuation, co-led by Kleiner Perkins, Redpoint and Khosla, with Sequoia, Battery and Amex Ventures joining; $173M total. It says ARR grew 9x this year, with customers including Nubank, Harvey and PepsiCo.",
-        "now": "Thesis: AI writes code faster than teams can operate it. Caveat: no absolute revenue disclosed, and the ORCA-bench benchmark was built by Traversal with Cornell Tech and Columbia, so it is not neutral.",
-        "future": "Watch whether Datadog or PagerDuty buy or copy it, and how many rivals now claim 'AI SRE'. Builder opening: an MCP link feeding production learnings back to coding agents."
+        "happening": "On its Nov 5 call, Microchip CEO Steve Sanghi said AI customers crowded others out of outsourced assembly and test (OSAT) lines; standard lead times went from 4-8 weeks to up to 32. Shares fell ~10%. TSMC's October revenue hit NT$586.89B, +59.7% year on year and +14.7% month on month.",
+        "now": "The second-order effect few price in: AI demand is creating a non-AI chip shortage via packaging capacity, giving ASE and Amkor pricing power and hurting automakers and industrials. TSMC's record is the cleanest counter-signal to this week's selloff. Caveat: monthly figures are unaudited; Sanghi expects supplier shifts to take ~six months.",
+        "future": "Watch TI, NXP and Renesas for the same warning, OSAT price hikes, a return of 2021-style double ordering (which inflates backlogs before a correction), and TSMC's November revenue around Dec 10."
       },
       "sources": [
         {
-          "name": "The Next Web",
-          "title": "Traversal raises $120M at a $1B valuation to fix what AI code breaks",
-          "url": "https://thenextweb.com/news/traversal-120m-series-b-1b-valuation-ai-sre"
+          "name": "24/7 Wall St.",
+          "title": "The Chip Shortage Is Back, and Microchip Says AI Customers Are Crowding Everyone Out",
+          "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/"
         },
         {
-          "name": "Value Add VC",
-          "title": "Traversal Hits $1B Valuation On $120M Series B | 3 Firms Co-Lead",
-          "url": "https://valueaddvc.com/pulse/traversal-120m-series-b-1b-valuation-2026"
+          "name": "Technology.org",
+          "title": "Microchip: AI Demand Stretches Chip Lead Times",
+          "url": "https://www.technology.org/2026/11/09/microchip-ai-demand-chip-lead-times-32-weeks-osat/"
+        },
+        {
+          "name": "SEC / TSMC",
+          "title": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD - Form 6-K - FY2026 (October 2026 Revenue Report)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm"
+        },
+        {
+          "name": "Benzinga",
+          "title": "TSMC October Sales Surge Nearly 60% as AI Chip Demand Fuels Growth",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63081806/tsmc-october-revenue-ai-chip-demand-growth"
         }
       ],
       "tags": [
-        "Funding",
-        "NYC",
-        "AI SRE",
-        "Agents"
+        "Supply Chain",
+        "OSAT",
+        "TSMC",
+        "Microchip"
       ]
     },
     {
       "id": "g3",
       "region": "global",
       "cat": "funding",
-      "source": "The Next Web",
-      "time": "Nov 4",
-      "headline": "Parsec's Founders Raise an $8.75M a16z-Led Seed for Phaze, Giving AI Agents Their Own Remote PCs",
-      "dek": "A small seed on a new idea: pool powerful machines and hand them to employees or agents on demand.",
+      "source": "Tech Times",
+      "time": "Nov 9-10",
+      "headline": "Crypto VC Paradigm Leads a $100M Seed at $1B for Mavria, Ex-DOE Staffers' Factory-Built 5MW Data-Center Blocks",
+      "dek": "Five months after founding, Mavria has $130M raised — but no named customer, utility partner or delivery date.",
       "analysis": {
-        "happening": "Phaze raised an $8.75M seed led by a16z, with Indie, NextView, Makers and Lerer Hippeau. Founders Benjy Boxer and Chris Dickson built Parsec, which Unity bought for $320M in 2021. A local MCP server lets agents drive remote desktops.",
-        "now": "Thesis: agents need real desktops, and a laptop should not cap compute. Caveats: the MCP integration is labelled experimental, and no valuation, revenue or customer numbers were given.",
-        "future": "Watch computer-use infrastructure rivals and the big clouds. A builder could test the MCP server now and look for niches such as per-task ephemeral desktops."
+        "happening": "Mavria (The Woodlands, Texas) was founded in June 2026 by former Energy Department officials Adam Blake and Seth Cohen with engineer Nick Poradek. It has raised $130M at a $1B valuation, led by Paradigm with AMP PBC, Liquid 2, Critical Frontier and Dream Ventures. Its product, Terrain, ships as factory-built ~5MW units; Terrain 01 is in Houston.",
+        "now": "Crypto-native money, fluent in power-hungry infrastructure from mining, is moving into AI power — a capital source beyond the usual SF firms. Caveats: a Form D shows $75M of up to $100M sold, the claim to bypass grid queues is unproven, and 5MW fits only ~22-26 Vera Rubin racks.",
+        "future": "Watch for a named customer and utility partner, and whether Texas's ERCOT interconnection pause reaches small distribution-line sites. Rivals: Armada and Nvidia's DSX POD. Builder gap: siting and permitting software for small modular sites."
       },
       "sources": [
         {
-          "name": "The Next Web",
-          "title": "Parsec founders raise $8.75M from a16z to give AI agents their own PCs",
-          "url": "https://thenextweb.com/news/phaze-8-75m-seed-a16z-remote-computers-ai-agents"
+          "name": "Tech Times",
+          "title": "Modular Data Center Startup Mavria Raises $130M, but Grid Hookups Remain Unproven",
+          "url": "https://www.techtimes.com/articles/330369/20261110/modular-data-center-startup-mavria-raises-130m-grid-hookups-remain-unproven.htm"
+        },
+        {
+          "name": "DCD",
+          "title": "Former US DOE staffers launch modular data center firm Mavria",
+          "url": "https://www.datacenterdynamics.com/en/news/former-us-doe-staffers-launch-modular-data-center-firm-mavria/"
+        },
+        {
+          "name": "Fortune",
+          "title": "Jensen Huang is the AI boom's key man. Now, that's a problem",
+          "url": "https://fortune.com/2026/11/10/jensen-huang-ai-boom-key-man-private-markets-nvidia-gpu-investor-startups-partnerships-compute/"
         }
       ],
       "tags": [
         "Seed",
-        "a16z",
-        "Agent infrastructure",
-        "MCP"
+        "Data Centers",
+        "Paradigm",
+        "Power"
       ]
     },
     {
       "id": "g4",
       "region": "global",
-      "cat": "hardware",
-      "source": "TechCrunch",
-      "time": "Nov 9",
-      "headline": "Anthropic Takes Over a Developer's Caterpillar Turbine Orders: $3.4B for Up to 1.7 GW of Gas Power",
-      "dek": "A lab that mostly rented compute is now buying power plants because turbine queues run into the early 2030s.",
+      "cat": "funding",
+      "source": "The Next Web",
+      "time": "Nov 10",
+      "headline": "NYC's RRE Leads a $35M Series A for Graphon, a 20-Person Startup Betting Agent Memory Should Be a Time-Aware Graph, Not RAG",
+      "dek": "Agent memory is drawing real money: Graphon has raised $43.3M in six months, with HP and Hitachi Ventures on the cap table.",
       "analysis": {
-        "happening": "Per the FT via TechCrunch, Anthropic is paying $3.4B for Caterpillar gas generators (up to 1.7 GW) that developer OnePWR ordered about two years ago but could not finance. Anthropic dealt directly with Caterpillar, skipping a roughly six-year waitlist.",
-        "now": "Power access, not chips, is the scarce input, and buying the queue slot denies it to rivals. Caveat: single-source FT reporting, and gas prices in some markets could rise sharply, a buyer's-remorse risk.",
-        "future": "Watch for more stranded turbine orders being resold. Opportunity: brokering or financing equipment slots, and behind-the-meter power engineering for data centers."
+        "happening": "San Francisco-based Graphon closed a $35M Series A led by RRE Ventures, with HP, Energy Impact Partners, Hitachi Ventures and Gaia VC, after an $8.3M seed in May. Founders Arbaaz Khan and Clark Zhang built graph memory for robots during their PhDs. It claims 93.9% on LoCoMo and 58% fewer tokens than stuffing full context.",
+        "now": "Memory is becoming its own infrastructure layer, separate from models; LoreKit is already pushing an open memory format. Caveats: benchmark claims are self-reported, the team is 20 people, and an enterprise focus means long sales cycles.",
+        "future": "Watch whether a shared memory spec (an 'OpenTelemetry for memory') takes hold — that would weaken lock-in and make graph quality the moat. Builder gap: vertical memory (legal, support) plugged into these layers. Hitachi Ventures is a possible Japan route."
       },
       "sources": [
         {
-          "name": "TechCrunch",
-          "title": "Anthropic joins AI's natural gas frenzy, buys $3.4B worth of turbines",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
+          "name": "The Next Web",
+          "title": "Graphon Labs raises $35m to give AI agents a memory that lasts",
+          "url": "https://thenextweb.com/news/graphon-labs-35m-series-a-ai-agent-memory"
         },
         {
-          "name": "Tom's Hardware",
-          "title": "Anthropic skips six-year waitlist with massive $3.4 billion gas turbine generator deal — firm takes over OnePWR's orders, secures 1.7GW of capacity to power AI data centers",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/anthropic-skips-six-year-waitlist-with-massive-usd3-4-billion-gas-turbine-generator-deal-firm-takes-over-onepwrs-orders-secures-1-7gw-of-capacity-to-power-ai-data-centers"
+          "name": "Crypto Briefing",
+          "title": "Graphon raises $35M to give AI agents a long-term memory",
+          "url": "https://cryptobriefing.com/graphon-raises-35m-ai-agent-memory/"
         },
         {
-          "name": "Bisnow",
-          "title": "Anthropic Pays $3.4B For Gas Turbines To Power Its Data Centers",
-          "url": "https://www.bisnow.com/news/national/data-center-power/anthropic-pays-3-4b-for-gas-turbines-to-power-its-data-centers"
+          "name": "LoreKit",
+          "title": "Agent memory needs its OpenTelemetry moment",
+          "url": "https://www.lorekit.io/blog/open-agent-memory-format"
         }
       ],
       "tags": [
-        "Power",
-        "Gas turbines",
-        "Data centers",
-        "Anthropic"
+        "Agent Memory",
+        "Series A",
+        "RRE Ventures"
       ]
     },
     {
       "id": "g5",
       "region": "global",
-      "cat": "research",
-      "source": "The Hacker News",
-      "time": "Nov 7",
-      "headline": "Claude Code's 'Don't Ask Again' File Leaked Plaintext Secrets in 1,122 Public GitHub Files; 215 Slipped Past Both Major Scanners",
-      "dek": "Agent config folders are the new .env, and secret scanners miss passwords typed inside approved commands.",
+      "cat": "launches",
+      "source": "TechNode",
+      "time": "Nov 6",
+      "headline": "DeepSeek's Open-Source Agent Harness Hits 1.54M Daily Users and 35,000 Third-Party Plugins, With an Official Marketplace Next",
+      "dek": "Daily users rose about 5.7x in five weeks, and a plugin economy formed before any official store exists.",
       "analysis": {
-        "happening": "Apiiro found 104,185 copies of .claude/settings.local.json in 103,617 public repos. 1,122 held at least one secret (379 DB passwords, 23 AWS keys). Gitleaks caught 564 files, TruffleHog 643, and 215 evaded both.",
-        "now": "Open gap: a pre-commit hook or scanner rule that understands agent allow-lists and flag-style passwords. Caveat: figures are Apiiro's own, and these are secondary write-ups; Anthropic's response was not reported.",
-        "future": "Watch for a default .gitignore change, scanner vendors adding agent-folder rules, and similar audits of Codex and Cursor config. Check your own repos and rotate exposed keys."
+        "happening": "DeepSeek says Harness had 1.54M daily active users in the week to Nov 4, up from 271K in late September. Users burn ~92T tokens a day, monthly users number 5.48M, ~35,000 third-party plugins exist, and ~60% of users have built or installed one. An official marketplace and creator programme with token incentives are planned.",
+        "now": "The clearest sign yet that an open harness plus cheap tokens can grow an app-store-scale plugin ecosystem. Builders who ship plugins now get in before the marketplace sets ranking rules. Caveat: DAU counts only official-API users, it is self-reported, and no marketplace date or terms exist.",
+        "future": "Watch the marketplace's revenue share, its security review (35K unvetted plugins is a supply-chain risk), and whether Western harnesses like Claude Code skills or Codex answer with paid plugin distribution."
       },
       "sources": [
         {
-          "name": "The Hacker News",
-          "title": "Claude Code's 'Don't Ask Again' File",
-          "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+          "name": "TechNode",
+          "title": "DeepSeek plans official plugin marketplace as Harness daily users reach 1.54 million",
+          "url": "https://technode.com/2026/11/06/deepseek-plans-official-plugin-marketplace-as-harness-daily-users-reach-1-54-million/"
         },
         {
-          "name": "DEV Community",
-          "title": "Claude Code's 'Don't Ask Again' Saved Secrets in 1,122 Public Files. 215 Beat Both Scanners",
-          "url": "https://dev.to/gabrielanhaia/claude-codes-dont-ask-again-saved-secrets-in-1122-public-files-215-beat-both-scanners-2pi4"
+          "name": "Yicai Global",
+          "title": "DeepSeek Harness Releases DAU Data for First Time, Topping 1.5 Million",
+          "url": "https://www.yicaiglobal.com/news/deepseek-harness-releases-dau-data-for-first-time-topping-15-million"
         }
       ],
       "tags": [
-        "Security",
-        "Agents",
-        "Claude Code",
-        "Secrets"
+        "DeepSeek",
+        "Agent Harness",
+        "Plugins"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
-      "cat": "funding",
-      "source": "Nikkei Asia",
-      "time": "Nov 9",
-      "headline": "Sakana AI Reportedly Lines Up a Tokyo or US IPO as Early as Autumn 2027, Then Says It Has No Near-Term Plans",
-      "dek": "Japan's best-funded AI lab is being priced like a national champion before disclosing revenue.",
+      "cat": "hardware",
+      "source": "Bloomberg",
+      "time": "Nov 10",
+      "headline": "Rapidus Reportedly Months Behind on 2nm After Missing a Summer Deadline for a Working SRAM Cell",
+      "dek": "Anonymous sources say Japan's ¥2.9T state-backed foundry hasn't built a working SRAM cell, putting its FY2027 mass-production target at risk.",
       "analysis": {
-        "happening": "Nikkei Asia reported Nov 9 that Sakana is preparing an IPO in Japan or the US as early as autumn 2027, possibly above Mercari's ¥680B. Last private mark: $2.65B (Series B, Nov 2025; MUFG, Khosla, NEA, Lux, In-Q-Tel). Sakana later denied near-term plans.",
-        "now": "Gap: US labs raise at tens of billions privately; Japan's top lab would list near $4-5B. Revenue is undisclosed and the date is a rumor. A listing would create the first public comp for Japanese AI startups.",
-        "future": "Watch the venue (TSE Growth vs Nasdaq), any revenue disclosure, and whether Preferred Networks follows. Easier exits would pull more early capital into Japanese AI."
+        "happening": "Bloomberg reports Rapidus missed a summer milestone for a working SRAM cell, a basic 2nm building block, and is several months behind; clean-room dust control is also cited. Rapidus says it is 'fully pushing forward' to volume in 2H FY2027. About ¥2.9T in public money is committed; roughly ¥4T more must come privately.",
+        "now": "The material update on yesterday's customer-courting story. TSMC N2 and Samsung SF2 reached volume in late 2025, so Rapidus was already ~two years behind; a slip widens the gap and weakens its pitch to US AI customers, none signed for volume. Caveat: sources are anonymous and Rapidus hasn't confirmed a delay.",
+        "future": "Watch whether METI ties FY2027 subsidy tranches to the SRAM milestone, whether the ¥4T private raise stalls, and any working-SRAM or test-chip result before year-end."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "Sakana AI gears up for one of Japan's biggest startup IPOs",
-          "url": "https://asia.nikkei.com/business/markets/ipo/sakana-ai-gears-up-for-one-of-japan-s-biggest-startup-ipos"
+          "name": "Bloomberg",
+          "title": "Japan's Rapidus Is Said Likely to Miss Mass Production Deadline",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/japan-s-rapidus-is-said-likely-to-miss-mass-production-deadline"
         },
         {
-          "name": "MLQ.ai",
-          "title": "Sakana AI prepares an IPO as early as autumn 2027 that could top Mercari's ¥680 billion valuation, Nikkei reports",
-          "url": "https://mlq.ai/news/sakana-ai-prepares-an-ipo-as-early-as-autumn-2027-that-could-top-mercaris-680-billion-valuation-nikkei-reports/"
+          "name": "The Japan Times",
+          "title": "Japan's Rapidus is said likely to miss mass production deadline",
+          "url": "https://www.japantimes.co.jp/business/2026/11/10/companies/rapidus-behind-schedule/"
         },
         {
-          "name": "FourWeekMBA",
-          "title": "Sakana AI Says No Near-Term IPO After Report of 2027 Listing",
-          "url": "https://fourweekmba.com/ai-sakana-ai-says-no-near-term-ipo-after-report-of-2027-listing/"
+          "name": "Startup Fortune",
+          "title": "Rapidus is likely to miss its 2nm mass-production deadline, Bloomberg reports",
+          "url": "https://startupfortune.com/rapidus-is-likely-to-miss-its-2nm-mass-production-deadline-bloomberg-reports/"
         }
       ],
       "tags": [
-        "Sakana AI",
-        "IPO",
-        "Valuation"
+        "Rapidus",
+        "2nm",
+        "Semiconductors",
+        "METI"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
       "cat": "funding",
-      "source": "Bloomberg",
-      "time": "Nov 9",
-      "headline": "AI Rout Hits SoftBank: Shares Fell 11% Friday, Default Insurance at a Four-Year High, Earnings Due Nov 10",
-      "dek": "Japan's biggest AI proxy now trades as a leveraged bet on US AI capex, and its mobile arm is hedging.",
+      "source": "Quartz",
+      "time": "Nov 10",
+      "headline": "SoftBank Swings to a ¥1.1T Quarterly Loss on a $3.7B Write-Down of US Data-Center Power Gear and a ¥322B Intel Hedge Hit",
+      "dek": "Japan's largest private AI investor raised a record $56.5B in the quarter — almost all for US AI bets — and booked no OpenAI gain.",
       "analysis": {
-        "happening": "SoftBank shares fell 11% on Nov 6 and its 2032 bonds had a record 1.5-cent drop; default-insurance cost hit a four-year high. China blocked its ABB robotics takeover. SoftBank Corp.'s head said Nov 9 it may look beyond US-linked AI demand.",
-        "now": "Japan's public-market AI exposure is concentrated in SoftBank and chip/hardware names, so a US correction transmits directly. Caveat: Bloomberg pieces are paywalled and figures should be verified. Domestic-demand AI may look relatively safer.",
-        "future": "Watch SoftBank's Nov 10 results, any sale of OpenAI-linked stakes, and whether SoftBank Corp. shifts capex to domestic enterprise AI."
+        "happening": "Jul–Sep net loss was ¥1.115T, the first quarterly loss in about two years, against a consensus ¥129B profit. Main hits: a $3.7B (~¥597B) write-down on power equipment for US AI data centers and a ¥321.9B derivative loss on Intel-linked forwards. Cumulative OpenAI investment is $64.6B for ~13%; LTV is 15.9%.",
+        "now": "Japan's biggest pool of private AI capital is essentially a US infrastructure and OpenAI trade, and its first big write-down landed on US power gear, not anything domestic. Caveat: the $40B bridge loan was repaid early and cash is ¥5T — this is volatility, not distress.",
+        "future": "Watch whether a higher OpenAI valuation lifts next quarter, the 'thorough reassessment' of the Ohio data-center project, further power-gear impairments, and any shift of capex toward Japan sites like Sakai."
       },
       "sources": [
         {
-          "name": "Bloomberg",
-          "title": "SoftBank Leads Asia Bond Losses as AI Rout Spreads to Credit",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/softbank-leads-asia-bond-losses-ai-rout-spreads-credit"
+          "name": "Quartz",
+          "title": "SoftBank swung to a $7 billion Q2 loss on U.S. data center write-down",
+          "url": "https://qz.com/softbank-quarterly-loss-us-data-center-write-down-111026"
         },
         {
-          "name": "Bloomberg",
-          "title": "SoftBank's Mobile Arm Braces for Possible AI Correction in US",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/softbank-s-mobile-arm-braces-for-possible-ai-correction-in-us"
+          "name": "Investing.com",
+          "title": "SoftBank Q2 FY2026 slides: AI losses offset by record financing",
+          "url": "https://in.investing.com/news/stock-market-news/softbank-q2-fy2026-slides-ai-losses-offset-by-record-financing-93CH-5692903"
         },
         {
-          "name": "AOL (Reuters)",
-          "title": "SoftBank to face scrutiny of AI strategy at second-quarter earnings after selloff",
-          "url": "https://www.aol.com/articles/softbank-face-scrutiny-ai-strategy-080330000.html"
+          "name": "TV Tokyo BIZ",
+          "title": "ソフトバンクG中間決算で赤字転落 AI投資やデータセンター計画変更が影響",
+          "url": "https://txbiz.tv-tokyo.co.jp/you/news/post_352223"
         }
       ],
       "tags": [
         "SoftBank",
-        "Markets",
-        "AI capex"
+        "OpenAI",
+        "Earnings"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
       "cat": "hardware",
-      "source": "DigiTimes",
-      "time": "Oct 23",
-      "headline": "Rapidus Courts US AI Customers for 2H27 2nm Production, but Reportedly Has No Signed Volume Customer",
-      "dek": "The state-backed foundry's real gap is demand, not just process yield.",
+      "source": "Nikkei Asia",
+      "time": "Nov 9",
+      "headline": "Mitsui Chemicals Buys Photoresist No. 2 JSR for ¥1.84T ($11.6B), Handing State Fund JIC a ~50% Paper Gain in Two Years",
+      "dek": "Japan is consolidating the one chip layer where it leads the world — materials — with the Development Bank of Japan putting in ¥200B.",
       "analysis": {
-        "happening": "Chairman Higashi says Rapidus is broadly on track for 2nm mass production in 2H 2027. Reports say 60+ firms are in talks but none has signed volume. A 100+ engineer cohort trained at IBM Albany; METI estimates roughly ¥5T total capex.",
-        "now": "Gap: TSMC and Samsung already ship 2nm-class with anchor customers; Rapidus is roughly two years behind and a hyperscaler-sized customer short. US AI startups are the logical wedge. Caveat: some figures are secondary and unverified.",
-        "future": "Watch a first named customer, the Q2 2027 test-chip run and bank syndication. Design-service and chiplet-packaging startups near Hokkaido are a buildable gap."
+        "happening": "Mitsui Chemicals and DBJ will buy JSR from Japan Investment Corp at a ¥1.84T enterprise value; equity is ¥1.392T versus roughly ¥900B JIC paid in 2024. DBJ takes ¥200B of preferred shares and a ¥1.64T bridge loan covers the rest. Mitsui targets ¥40B a year in added profit by FY2035; closing in 2H FY2027.",
+        "now": "The mirror image of Rapidus: in photoresists Japan already leads the US and everyone else, and the state is recycling capital into a domestic champion rather than chasing logic fabs. Caveat: Mitsui shares hit a year-to-date low on balance-sheet worries — the leverage is real.",
+        "future": "Watch antitrust and FEFTA review, pricing power on EUV resists sold to TSMC, Samsung and Intel, and consolidation pressure on peers like Tokyo Ohka Kogyo. JIC's return strengthens the case for more state-backed roll-ups in materials and equipment."
       },
       "sources": [
         {
-          "name": "DigiTimes",
-          "title": "Rapidus courts US AI customers ahead of planned 2H27 2nm mass production",
-          "url": "https://www.digitimes.com/news/a20261023PD228/rapidus-production-2nm-chairman-investment.html"
+          "name": "Nikkei Asia",
+          "title": "Japan's Mitsui Chemicals to buy chip materials maker JSR for $11.6bn",
+          "url": "https://asia.nikkei.com/business/business-deals/japan-s-mitsui-chemicals-to-buy-chip-materials-maker-jsr-for-11.6bn"
         },
         {
-          "name": "East Asia Brief",
-          "title": "Rapidus begins trial runs on 2nm pilot line in Hokkaido ahead of 2027 target",
-          "url": "https://eastasiabrief.com/semiconductors/rapidus-begins-trial-runs-2nm-pilot-line-hokkaido-ahead-15"
+          "name": "ITmedia NEWS",
+          "title": "三井化学、JSRを1兆8400億円で買収 「国内トップクラスの半導体材料企業に」",
+          "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003045/"
         },
         {
-          "name": "Tom's Hardware",
-          "title": "Rapidus fab roadmap examined — first new leading-edge chipmaker in decades has one Hokkaido fab, a 2027 deadline, and 60 potential customers",
-          "url": "https://www.tomshardware.com/tech-industry/semiconductors/rapidus-fab-roadmap-examined"
+          "name": "Igor'sLAB",
+          "title": "Mitsui Chemicals Acquires JSR for $11.6 Billion: Japan Strengthens Its Position in Semiconductor Materials",
+          "url": "https://www.igorslab.de/en/mitsui-chemicals-acquires-jsr-11-6-billion-japan-semiconductor-materials/"
         }
       ],
       "tags": [
-        "Rapidus",
-        "2nm",
-        "Semiconductors"
+        "JSR",
+        "Photoresist",
+        "M&A",
+        "Materials"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "launches",
-      "source": "Nikkei Asia",
-      "time": "Nov 4",
-      "headline": "NTT Launches an AI Service to Modernize Legacy Corporate IT, Targeting 40% Shorter Development Time",
-      "dek": "About 60% of Japanese firms run aging systems, and incumbent integrators, not US labs, hold the customer relationships.",
+      "cat": "funding",
+      "source": "BRIDGE",
+      "time": "Nov 9",
+      "headline": "KDDI Leads a ¥20.8B Series B in newmo, Which Bought 9 Taxi Firms to Build Japan's Robotaxi Fleet From the Ground Up",
+      "dek": "Unlike Waymo, newmo bought its way into the regulated market first: ~1,900 manned taxis across six regions, with driverless service in Sakai planned for 2028.",
       "analysis": {
-        "happening": "Nikkei Asia (Nov 4) reports NTT will offer an AI service to modernize corporate IT systems, cutting development time for new systems by 40%. Roughly 60% of Japanese companies run aging technology. NTT DATA also trains its tsuzumi 2 model on Nvidia's Nemotron-Personas-Japan data.",
-        "now": "Gap: US firms sell AI coding agents directly; in Japan, integrators like NTT own the buyer and the Japanese-language specs. The 40% is NTT's own target, not verified. Opportunity: tools for legacy Japanese code that integrators can resell.",
-        "future": "Watch pricing, customer names and whether NTT uses tsuzumi 2 or foreign models. Startups selling through integrator channels may scale faster than direct sales."
+        "happening": "KDDI led the ¥20.8B (~$130M) Series B, taking total funding to ¥40.7B, with Mitsubishi Estate's fund, Global Brain/SMBC, DG Daiwa, ANRI, JAFCO and two taxi operators. Founded January 2024, newmo has absorbed nine operators and employs 2,800+. It targets 10,000 manned taxis and 1,000 robotaxis, with Sakai service from 2028 using safety drivers.",
+        "now": "Japan's answer to the robotaxi gap: buy the licences and drivers first, automate later. Waymo already runs paid driverless rides in several US cities; newmo's first commercial service is ~two years away and still has safety drivers. Caveat: valuation undisclosed, and total funding is small next to US robotaxi raises.",
+        "future": "Watch whether KDDI's connectivity and remote-monitoring package becomes a reusable stack for other operators. The government's 10,000-autonomous-vehicle target for FY2030 creates demand for teleoperation and fleet-ops startups."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "NTT to help Japanese companies update aging IT with AI",
-          "url": "https://asia.nikkei.com/spotlight/cybersecurity/ntt-to-help-japanese-companies-update-aging-it-with-ai"
+          "name": "BRIDGE",
+          "title": "タクシーと自動運転を手がけるnewmo、KDDIをリードにシリーズBで208億円を調達",
+          "url": "https://thebridge.jp/2026/11/newmo-raises-20-8-billion-yen-series-b-kddi"
         },
         {
-          "name": "NVIDIA Newsroom",
-          "title": "Japan's Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
-          "url": "https://nvidianews.nvidia.com/news/japans-enterprises-and-startups-build-industry-specialized-ai-with-nvidia-nemotron-open-models"
+          "name": "Startup News (kepple)",
+          "title": "自動運転タクシーの2028年商用化を目指す──newmo、208億円調達で開発を加速",
+          "url": "https://kepple.co.jp/articles/zlx1tmclp6j"
         }
       ],
       "tags": [
-        "NTT",
-        "Legacy IT",
-        "tsuzumi"
+        "newmo",
+        "Robotaxi",
+        "KDDI",
+        "Series B"
       ]
     }
   ]

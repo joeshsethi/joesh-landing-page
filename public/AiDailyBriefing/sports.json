@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T20:20:00.000Z",
-  "dateLabel": "Tue · Nov 10 2026",
+  "generatedAt": "2026-11-10T20:11:29.000Z",
+  "dateLabel": "Wed · Nov 11 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
       "status": "upcoming",
       "event": "DP World Tour Championship, Dubai (Race to Dubai finale)",
-      "line": "Season finale at Jumeirah Golf Estates decides the Race to Dubai. Eugenio Chacarra leads Rory McIlroy by about 534 points with nine players still alive; 2,000 points go to the winner.",
-      "whenJst": "Thu Nov 12 – Sun Nov 15 · final round Sun evening JST (tee times TBC)",
+      "line": "Eugenio Chacarra, a three-time winner this season, leads the Race to Dubai by 534 points over Rory McIlroy, who is chasing a record-equalling eighth title. Patrick Reed and Jon Rahm are among the nine players who can still win the Race. The winner gets 2,000 points, and there's no cut.",
+      "whenJst": "Thu Nov 12 – Sun Nov 15 · rounds start ~13:00 JST (approx.)",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Race to Dubai: Rory McIlroy takes 'positive signs' into DP World Tour Championship after missing out on Abu Dhabi win",
-          "url": "https://www.skysports.com/golf/news/13609666/race-to-dubai-rory-mcilroy-takes-positive-signs-into-dp-world-tour-championship-after-missing-out-on-abu-dhabi-win"
+          "name": "ESPN",
+          "title": "Race to Dubai permutations: How can Rory McIlroy win record-equalling 8th title?",
+          "url": "https://www.espn.com/golf/story/_/id/50379031/race-dubai-permutations-rory-mcilroy-2026"
         },
         {
           "name": "DP World Tour",
-          "title": "Rory McIlroy set for Dubai return at DP World Tour Championship",
-          "url": "https://www.europeantour.com/dpworld-tour/rolex/news/articles/detail/rory-mcilroy-set-for-dubai-return-at-dp-world-tour-championship/"
+          "title": "Five things to know: 2026 DP World Tour Championship",
+          "url": "https://www.europeantour.com/dpworld-tour/news/articles/detail/five-things-to-know-2026-dp-world-tour-championship/"
         }
       ]
     },
@@ -27,19 +27,14 @@
       "id": "s2",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Nitto ATP Finals, Turin (round-robin start)",
-      "line": "Field set: Alcaraz, Zverev, Shelton, Medvedev, Cobolli, Fils, Tiafoe and Jodar, with four debutants. Sinner is out for the rest of 2026. Top two in each group reach the semis.",
-      "whenJst": "Sun Nov 15 · opening session (check ATP order of play; Turin is JST-8h)",
+      "event": "Nitto ATP Finals, Turin",
+      "line": "Carlos Alcaraz and Alexander Zverev lead the field, with Shelton, Medvedev, Fils, Jodar and first-timers Cobolli and Tiafoe. Defending champion Sinner is not in the field. The group draw is Thursday, and singles start Sunday afternoon in Turin.",
+      "whenJst": "Sun Nov 15 · 22:00 JST (draw Thu Nov 12 · 20:00 JST)",
       "sources": [
         {
           "name": "ATP Tour",
           "title": "Nitto ATP Finals 2026: Draws, Dates, History & All You Need To Know",
           "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
-        },
-        {
-          "name": "ATP Tour",
-          "title": "Frances Tiafoe among quartet of Nitto ATP Finals first-time qualifiers, Mover of Week",
-          "url": "https://www.atptour.com/en/news/tiafoe-pif-atp-live-race-to-turin-9-november-2026"
         }
       ]
     },
@@ -47,19 +42,19 @@
       "id": "s3",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Premier League: Newcastle v Arsenal, Liverpool v Man Utd",
-      "line": "Arsenal lead on 27 points, five clear of Brighton. Newcastle v Arsenal is Sat Nov 21 5:30pm UK; Liverpool v Man Utd Sun Nov 22 4:30pm UK. Arsenal v Man City follows Nov 29.",
-      "whenJst": "Newcastle v Arsenal Sun Nov 22 · 02:30 JST; Liverpool v Man Utd Mon Nov 23 · 01:30 JST",
+      "event": "Nations League: Spain v England, Madrid",
+      "line": "The League A Group 3 finale at the Metropolitano. Spain (12 pts) beat England 3-2 in September, and England (9 pts) must first face Croatia on Thursday (Fri 04:45 JST). Top spot in the group is at stake before March's knockout rounds.",
+      "whenJst": "Mon Nov 16 · 04:45 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Premier League fixtures on Sky Sports: Liverpool vs Man Utd and Arsenal vs Man City in November",
-          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november"
+          "name": "England Football (FA)",
+          "title": "Match Centre: Spain v England, UEFA Nations League, Sunday 15 November 2026",
+          "url": "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2026-27/nations-league/spain-v-england-uefa-nations-league-sunday-15-november-2026-match-centre"
         },
         {
           "name": "ESPN",
-          "title": "Premier League recap: Man City's fall at Forest sees Arsenal pull away in title race - ESPN",
-          "url": "https://www.espn.com/soccer/story/_/id/50390673/premier-league-live-updates-leeds-united-tottenham-arsenal-manchester-city"
+          "title": "England 2026 UEFA Nations League Schedule - ESPN",
+          "url": "https://www.espn.com/soccer/team/fixtures/_/id/448/league/UEFA.NATIONS"
         }
       ]
     }
