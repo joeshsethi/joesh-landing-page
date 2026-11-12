@@ -1,65 +1,95 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T20:11:08.064Z",
-  "dateLabel": "Thu · Nov 12 2026",
+  "generatedAt": "2026-11-12T20:10:00.000Z",
+  "dateLabel": "Fri · Nov 13 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
       "status": "upcoming",
-      "event": "DP World Tour Championship (Dubai), Race to Dubai finale",
-      "line": "Race to Dubai leader Eugenio Chacarra plays Rory McIlroy (about 534 pts back) in the final pairing on Thursday. Patrick Reed is close behind them. A win would give McIlroy an 8th Race to Dubai title, tying Colin Montgomerie's record. The winner gets $3M.",
-      "whenJst": "Thu Nov 12 – Sun Nov 15 · final round ends ~21:00 JST Sun (approx.)",
+      "event": "DP World Tour Championship, Dubai (final round)",
+      "line": "Joost Luiten (-5), the last player into the 50-man field, leads after R1. McIlroy is two back in T3 after a 69 and needs a top-4 finish to pass Race to Dubai leader Eugenio Chacarra (72). A win would guarantee him a record-tying eighth Race to Dubai title.",
+      "whenJst": "Sun Nov 15 · leaders tee off ~17:30 JST, finish ~22:00 JST (approx.)",
       "sources": [
         {
-          "name": "PGA Tour",
-          "title": "Rory McIlroy, Eugenio Chacarra, Patrick Reed vie for Race to Dubai title at DP World Tour season finale",
-          "url": "https://www.pgatour.com/article/news/latest/2026/11/09/rory-mcilroy-eugenio-chacarra-patrick-reed-vie-for-race-to-dubai-title-dp-world-tour"
+          "name": "Sky Sports",
+          "title": "DP World Tour Championship: Rory McIlroy boosts Race to Dubai hopes as Joost Luiten grabs shock early lead",
+          "url": "https://www.skysports.com/golf/news/13611312/dp-world-tour-championship-rory-mcilroy-boosts-race-to-dubai-hopes-as-joost-luiten-grabs-shock-early-lead"
+        },
+        {
+          "name": "Golf Channel",
+          "title": "Rory McIlroy opens DP World Tour Championship with 69 to boost bid for record-tying Race to Dubai title",
+          "url": "https://www.golfchannel.com/dp-world-tour/news/rory-mcilroy-opens-dp-world-tour-championship-with-69-to-boost-bid-for-record-tying-race-to-dubai-title"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Nations League A3: England v Croatia, then Spain v England",
-      "line": "England's last two league-phase games: Croatia at home, then away to Spain. Spain v England is the big one of the window.",
-      "whenJst": "Fri Nov 13 · 04:45 JST (ENG–CRO); Mon Nov 16 · 04:45 JST (ESP–ENG)",
+      "event": "ATP Finals, Turin: Zverev vs Jodar (opening day)",
+      "line": "Sinner, the defending champion, is out with a knee injury, so the title is open. World No. 1 Zverev starts against 8th seed Rafael Jodar. Shelton vs Fils follows in the night session (Mon 04:30 JST).",
+      "whenJst": "Sun Nov 15 · 22:00 JST (not before)",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "UEFA Nations League: England drawn with Spain for 2026/27 tournament, Wales to face Portugal",
-          "url": "https://www.skysports.com/football/news/12018/13506828/uefa-nations-league-england-drawn-with-spain-for-2026-27-tournament-wales-to-face-portugal"
+          "title": "ATP Finals in Turin: Format, players, schedule, prize money and draw as Carlos Alcaraz leads the field at end-of-season event",
+          "url": "https://www.skysports.com/tennis/news/13610540/atp-finals-in-turin-format-players-schedule-prize-money-and-draw-as-carlos-alcaraz-leads-the-field-at-end-of-season-event"
+        },
+        {
+          "name": "ATP Tour",
+          "title": "Nitto ATP Finals Draw: Groups, H2H records & all you need to know",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-draw-resource-page"
         }
       ]
     },
     {
       "id": "s3",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "ATP Finals, Turin: Alcaraz vs Tiafoe",
+      "line": "Second seed Alcaraz starts his title bid in the Lendl Group, which also has Medvedev and home favourite Cobolli. Medvedev vs Cobolli is the night match (Tue 04:30 JST).",
+      "whenJst": "Mon Nov 16 · 22:00 JST (not before)",
+      "sources": [
+        {
+          "name": "Tennis Now",
+          "title": "When Does Alcaraz Open Bid for Title in Turin?",
+          "url": "https://tennisnow.com/when-does-alcaraz-open-bid-for-title-in-turin/"
+        }
+      ]
+    },
+    {
+      "id": "s4",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Japan v Brazil, Kallang Football Series (Singapore)",
-      "line": "Samurai Blue play Brazil again after losing 2-1 to them in the World Cup Round of 32. Japan then face Paraguay on Tue Nov 17 at 22:10 JST.",
+      "event": "Nations League: Spain vs England (Madrid)",
+      "line": "This is the last game for both in League A Group 3. Spain (12 pts) lead England (9 pts) before Thursday's matchday-5 games, so the match should decide who tops the group and goes into the knockout draw on Nov 20.",
+      "whenJst": "Mon Nov 16 · 04:45 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "England 2026 UEFA Nations League Schedule - ESPN",
+          "url": "https://www.espn.com/soccer/team/fixtures/_/id/448/league/UEFA.NATIONS"
+        },
+        {
+          "name": "UEFA",
+          "title": "2026/27 UEFA Nations League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Japan vs Brazil friendly (Singapore National Stadium)",
+      "line": "Moriyasu's Samurai Blue play Brazil in the first of two Kallang Football Series friendlies. They face Paraguay next (Tue Nov 17, 22:10 JST).",
       "whenJst": "Sat Nov 14 · 19:15 JST",
       "sources": [
         {
           "name": "JFA",
           "title": "SAMURAI BLUE (Japan National Team) squad & schedule - MIZUHO BLUE CHALLENGE THE KALLANG FOOTBALL SERIES SINGAPORE",
           "url": "https://www.jfa.jp/eng/samuraiblue/20261117/news/00036974/"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "sport": "tennis",
-      "status": "upcoming",
-      "event": "Nitto ATP Finals, Turin: draw and opening day",
-      "line": "The groups are drawn today. The field is Alcaraz, Zverev, Shelton, Medvedev, Cobolli, Fils, Tiafoe and Jodar, and 2025 champion Sinner is not in it. Round-robin singles start Sunday, and the final is Sun Nov 22 at 02:00 JST Mon.",
-      "whenJst": "Thu Nov 12 · 20:00 JST (draw); Sun Nov 15 · 22:00 JST (first singles)",
-      "sources": [
-        {
-          "name": "ATP Tour",
-          "title": "Nitto ATP Finals 2026: Draws, Dates, History & All You Need To Know",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
         }
       ]
     }

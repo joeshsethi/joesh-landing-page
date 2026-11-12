@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T20:11:05Z",
+  "generatedAt": "2026-11-12T20:09:54.000Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Thu · Nov 12 2026",
-    "editionLine": "EDITION No.549 · SYNCED 05:11 JST",
+    "dateLabel": "Fri · Nov 13 2026",
+    "editionLine": "EDITION No.550 · SYNCED 05:09 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Today's throughline: the money behind AI compute is getting more creative and more circular, as suppliers buy into their customers, startups turn GPUs into tradable credit, and investors pay Series C prices before a chip exists.",
-    "briefingTitle": "TSMC Buys Into Its Customers, Fractile Gets $7B With No Chip, and Rapidus Weighs a Full-Year Slip",
-    "summary": "Compute is being financed in ways that would have looked odd a year ago. TSMC approved up to $1B for Anthropic and OpenAI stock, London's Fractile raised $720M at about $7B before shipping any silicon, and a Polychain-backed seed called Marble wants to make GPU rental a hedgeable asset. On the product side, Google opened Gemini 4 Carbon at an introductory price that doubles on Nov 30, and YC's Inkbox is betting on agents that keep their own computer. Japan is behind on two fronts: Rapidus may push 2nm volume to FY2028, and Japan's biggest AI data-center project depends on UAE money, while local vertical AI like BALLAS grows on state-linked capital.",
+    "intro": "Today's throughline: the AI stack's single most important CEO is gone, and the money is already working on alternatives to Nvidia's grip, from compilers to Mac clouds to Japan's toolmakers.",
+    "briefingTitle": "Huang Quits Nvidia, AWS Lets Agents Build Its Emulator, and Japan Sells Shovels to Terafab",
+    "summary": "Jensen Huang's sudden resignation takes the leader out of the company at the center of AI compute, and Washington is already using the moment to push tougher China chip bills. Capital was moving away from single-vendor dependence before this: Luminal's Trainium-heavy inference compiler and Mount Thor's Mac-only agent cloud both raised this week. Agents are also doing the building now, with an agent-written AWS emulator and DeepMind's machine-checked proofs of Signal. Japan's strongest position is still selling equipment for other countries' fabs, as Terafab's orders show, while SmartNews's IPO at a steep discount and PFN's benchmark admission show how far its exits and models trail the US.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 28 sources"
+    "footerRight": "9 stories · 26 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
-      "jp": 38,
+      "jp": 37,
       "frontier": 95,
-      "note": "Unchanged. There was no new Japanese pretraining news this window. Sakana's consumer-app beta is applied work, and the Digital Agency's paid FY2027 domestic-LLM call has not visibly opened."
+      "note": "Down one. PFN's new PLaMo 3.0 Fin trails Qwen3.5-9B and Ministral 3 14B on PFN's own finance benchmark. Japan's model strategy is moving toward small on-prem models, not frontier scale."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
       "jp": 15,
       "frontier": 99,
-      "note": "Unchanged. Japan's flagship ~¥2T Akita AI campus is courting up to ¥1T of UAE sovereign money, while the US sees pre-silicon chip startups like Fractile raise $720M from private VCs."
+      "note": "Unchanged. US investors put $500M into Torus's modular data centers and $45M into Mount Thor's Mac cloud this week. Japan's large infrastructure projects still depend on state or foreign sovereign money."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
       "jp": 29,
-      "frontier": 96,
-      "note": "Down two. Jiji reports Rapidus is weighing a full one-year slip of 2nm volume to FY2028 over integration and yield problems, on top of the missed SRAM milestone. TSMC is already in 2nm volume."
+      "frontier": 95,
+      "note": "Japan unchanged; frontier down one on Nvidia's leadership shock. Japan's leverage is in tools: Terafab is ordering Japanese equipment while Rapidus plans about 25k wafers a month. The US Match Act could limit Tokyo Electron's China sales."
     },
     {
-      "label": "Early-stage AI venture formation",
-      "jp": 31,
+      "label": "Early-stage AI venture formation and exits",
+      "jp": 29,
       "frontier": 92,
-      "note": "Unchanged. BALLAS's ¥3.4B Series B and ANRI's pre-seed checks into UTokyo spinouts are real activity. Against that, the extension leaned on state-linked JIC VGI money and debt, and US vertical AI like Rogo is winning Japanese banks first."
+      "note": "Down two. SmartNews is listing at about ¥43B, roughly 80% below its 2021 mark, which shows Tokyo Growth's exit valuations. MUSE's ¥1.75B round is real activity, but small next to US robotics rounds."
     }
   ],
   "items": [
@@ -43,338 +43,330 @@
       "id": "g1",
       "region": "global",
       "cat": "hardware",
-      "source": "Investing.com",
-      "time": "Nov 11",
-      "headline": "TSMC's Board Approves Up to $1B for Anthropic Stock at the IPO Price and OpenAI Preferred Shares",
-      "dek": "The world's foundry is now buying equity in its customers' customers, with up to $500M for each lab.",
+      "source": "CNBC",
+      "time": "Nov 12",
+      "headline": "Jensen Huang Resigns as Nvidia CEO; CFO Colette Kress Becomes Interim CEO and Nvidia Gets Its First Board Chair",
+      "dek": "The 33-year founder-CEO left with immediate effect and no named successor, and Washington is already treating his exit as an opening for tougher China chip rules.",
       "analysis": {
-        "happening": "TSMC's board approved up to $500M of Anthropic shares at the IPO price and up to $500M of OpenAI preferred stock. The shares rose 4%+ on Wednesday, helped by October sales up about 60% YoY. These are approvals, not completed purchases, and no OpenAI price was disclosed.",
-        "now": "This is the supplier side of AI's circular financing. Nvidia, AMD and now TSMC own pieces of the labs whose compute orders drive their own revenue. TSMC gets closer ties as labs design custom silicon. The costs: it looks less neutral as a foundry, and it is exposed if lab valuations reset.",
-        "future": "Watch whether TSMC takes its Anthropic allocation at the Nov 19 listing and whether Samsung or SK hynix copy the move. Also watch whether TSMC's new strategic vehicle starts writing startup checks, which would give early-stage chip-ecosystem founders a new source of money."
+        "happening": "Huang left as president, CEO and director on Nov 12 after weeks of reports about personal affairs. Kress stays on as CFO while serving as interim CEO, and ex-Synopsys chief Harvey Jones becomes chair. NVDA fell as much as 14% intraday, closed the morning about 5% down, and is off 20%+ this month.",
+        "now": "The roadmap and supply contracts stay in place. Gone is the person who handled pricing, TSMC and Washington. AMD and Google's TPUs are the clearest public-market beneficiaries. Reuters says Congress now wants four chip bills in the NDAA, including one that would hit Tokyo Electron and ASML. Some details are still disputed.",
+        "future": "Watch the CEO search (Ian Buck and Kress are named internally), whether any hyperscaler orders pause, and the Q3 FY27 earnings call under interim leadership. Also watch the NDAA conference text, especially the 'Match Act' on allied tool sales to China."
       },
       "sources": [
         {
-          "name": "Investing.com",
-          "title": "TSMC board approves $1 bln investment in Anthropic, OpenAI; shares rise",
-          "url": "https://www.investing.com/news/stock-market-news/tsmc-board-approves-1-bln--investment-in-anthropic-openai-shares-rise-93CH-5017730"
+          "name": "CNBC",
+          "title": "Nvidia stock pares morning losses after CEO Jensen Huang announces resignation",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
         },
         {
-          "name": "MacRumors",
-          "title": "Apple Chip Supplier TSMC Approves $1 Billion AI Investment",
-          "url": "https://www.macrumors.com/2026/11/11/tsmc-approves-ai-investment/"
+          "name": "CNN",
+          "title": "CFO Colette Kress to serve as interim leader after Nvidia CEO Jensen Huang resignation",
+          "url": "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns"
         },
         {
-          "name": "ANI",
-          "title": "TSMC to invest up to USD 1 billion in Anthropic, OpenAI",
-          "url": "https://aninews.in/news/business/tsmc-to-invest-up-to-usd-1-billion-in-anthropic-openai20261111100319/"
+          "name": "Reuters via Investing.com",
+          "title": "Explainer-Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns",
+          "url": "https://www.investing.com/news/stock-market-news/explainertougher-curbs-on-ai-chip-sales-to-china-likely-after-nvidia-ceo-resigns-5022981"
         }
       ],
       "tags": [
-        "TSMC",
-        "Circular Financing",
-        "Anthropic IPO",
-        "OpenAI"
+        "Nvidia",
+        "Leadership",
+        "Export Controls",
+        "Markets"
       ]
     },
     {
       "id": "g2",
       "region": "global",
-      "cat": "hardware",
-      "source": "TechCrunch",
+      "cat": "launches",
+      "source": "About Amazon",
       "time": "Nov 11",
-      "headline": "Fractile Raises $720M at About $7B for DRAM-Stacked Inference Chips It Won't Ship Until 2027",
-      "dek": "Thrive, Founders Fund, Lightspeed and Redpoint led, with the UK Sovereign AI Fund alongside, about five months after a $220M Series B.",
+      "headline": "AWS Open-Sources a Free Local Emulator for 200+ Services, Written Entirely by Agents in About 29,000 Commits",
+      "dek": "AWS Emulator is a CC0-licensed Rust binary that lets developers and coding agents call fake AWS APIs on localhost. It arrives just after LocalStack restricted its free tier.",
       "analysis": {
-        "happening": "London's Fractile closed a $720M Series C. The UK government put the valuation at 'over £5B', and FT and Reuters reported about $7B. Thrive, Founders Fund, Lightspeed and Redpoint led, joined by CapitalG, BlackRock, DST and the UK Sovereign AI Fund. The design stacks DRAM on each chip, with its own compiler.",
-        "now": "Investors are paying Series C prices for a company with no silicon because the bottleneck in inference is memory bandwidth, not compute (FLOPs). The round also comes during a selloff that has erased about $5T from chip stocks. Caveat: Fractile has no production chips, customers or public benchmarks.",
-        "future": "Watch for the 2027 tape-out and whether a hyperscaler signs on. Peers Etched and TeRAM are attacking the same memory problem. Builders should track early access to the compiler and SDK, which usually goes to design partners first."
+        "happening": "Released Nov 11 under CC0, it covers 200+ services built from 438 API models and is reached through AWS_ENDPOINT_URL. AWS says thousands of agents wrote tens of thousands of fidelity tests. HN commenters counted about 29,000 commits in under a month, and the launch drew 957 points.",
+        "now": "AWS builders' agent loops now get free, offline AWS to test against, and LocalStack's paid tier loses its main selling point. Caveats: IAM and resource policies aren't enforced, it supports one account and no cross-region behavior, CloudFormation and Athena fidelity scores are weak, and AWS says no human has reviewed the code.",
+        "future": "Watch whether the per-service fidelity scores climb and whether an agent-maintained repo stays healthy. The method is the bigger signal: a test-suite-first factory of agents building an API emulator. Expect other vendors to copy it."
       },
       "sources": [
         {
-          "name": "TechCrunch",
-          "title": "With $720M round, Britain's Fractile gets a leg up in the race for AI chips",
-          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+          "name": "About Amazon",
+          "title": "How we built the agents that built AWS Emulator",
+          "url": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator"
         },
         {
-          "name": "Tech.eu",
-          "title": "Lightspeed and Alphabet's CapitalG back Fractile in £500M plus funding round",
-          "url": "https://tech.eu/2026/11/11/lightspeed-and-googles-capital-g-back-fractile-in-ps500m-plus-funding-round"
+          "name": "ShiftDelete.Net",
+          "title": "AWS Emulator Runs 200+ AWS Services Locally, Coded by AI Agents",
+          "url": "https://shiftdelete.net/en/aws-emulator"
         },
         {
-          "name": "Sifted",
-          "title": "Exclusive: Fractile Series C",
-          "url": "https://sifted.eu/articles/exclusive-fractile-series-c/"
+          "name": "Hacker News",
+          "title": "AWS emulator",
+          "url": "https://news.ycombinator.com/item?id=50456631"
         }
       ],
       "tags": [
-        "Inference Chips",
-        "Series C",
-        "Sovereign AI",
-        "Memory Wall"
+        "AWS",
+        "Open Source",
+        "Agentic Coding",
+        "Dev Tools"
       ]
     },
     {
       "id": "g3",
       "region": "global",
-      "cat": "launches",
-      "source": "Google",
-      "time": "Nov 10",
-      "headline": "Gemini 4 Carbon Opens to All Paying API Developers at $2/$10 per Million Tokens, Then Doubles on Nov 30",
-      "dek": "Google's strongest model has left its limited early-access gate for AI Studio and the Ultra tier, and the introductory price expires in 20 days.",
+      "cat": "funding",
+      "source": "9to5Mac",
+      "time": "Nov 12",
+      "headline": "CRV and Conviction Co-Lead Mount Thor's $45M Seed and Series A to Build Mac-Only Data Centers for Computer-Use Agents",
+      "dek": "A 2026-founded Bay Area startup with founders from Cerebras, CoreWeave and OpenAI is betting that agents need real macOS machines at cloud scale.",
       "analysis": {
-        "happening": "On Nov 10 Google opened Gemini 4 Carbon to paid API users and AI Ultra subscribers. It costs $2/$10 per million input/output tokens until Nov 30, then $4/$20. Google claims first place on CursorBench 4.0, 92% on an agentic-honesty test (Argon: 70%), and a /swarm multi-agent preview in Antigravity.",
-        "now": "The token price understates the bill. Google says Carbon uses more tokens than Argon on exploration and checking its work, so cost per task is what matters. Google still recommends Argon for most coding. All benchmarks are Google's own, and it admits its prompt-injection defenses still need work.",
-        "future": "Measure cost per task on your own workloads before Nov 30, while the price is low. Watch whether independent tests confirm its narrow lead over Claude Opus 5.5, and whether /swarm leaves preview."
+        "happening": "Mount Thor raised $45M in two rounds. Chad Byers and Offline Ventures co-led the seed, and CRV and Sarah Guo's Conviction co-led the Series A. Angels from OpenAI, Meta, Cognition and Vercel joined. It rents bare-metal Macs or isolated macOS VMs by the day, and it built its first data center in under six months.",
+        "now": "Computer-use agents and the training of GUI agents need desktop operating systems, and macOS can legally run only on Apple hardware. That is a real gap for a niche cloud. Phaze and Inkbox fit the same pattern. Caveats: AWS and MacStadium already rent Macs, and Mount Thor names no customers.",
+        "future": "Watch its planned open-model inference lab on Apple silicon, which will test whether unified memory beats GPUs on cost for small models. Windows and Linux-desktop equivalents built for agent workloads remain an open opportunity."
       },
       "sources": [
         {
-          "name": "Google",
-          "title": "Gemini 4 Carbon is now available",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+          "name": "9to5Mac",
+          "title": "Mount Thor raises $45 million to build Mac data centers for AI agents",
+          "url": "https://9to5mac.com/2026/11/12/mount-thor-raises-45-million-to-build-mac-data-centers-for-ai-agents/"
         },
         {
-          "name": "OpenTools",
-          "title": "Gemini 4 Carbon opens paid API and Ultra access, introductory pricing ends November 30",
-          "url": "https://opentools.ai/news/gemini-4-carbon-paid-api-ultra-access-november-30-pricing"
+          "name": "FinSMEs",
+          "title": "Mount Thor Raises $45M in Seed and Series A Funding",
+          "url": "https://www.finsmes.com/2026/11/mount-thor-raises-45m-in-seed-and-series-a-funding.html"
         },
         {
-          "name": "Superpower Daily",
-          "title": "Google opens Gemini 4 Carbon to developers with API prices set to double in December",
-          "url": "https://superpowerdaily.com/posts/google-opens-gemini-4-carbon-to-developers-with-api-prices-set-to-double-in-december"
+          "name": "Business Wire via FinancialContent",
+          "title": "Mount Thor Raises $45 Million to Build Cloud Infrastructure for Agentic AI on Apple Hardware",
+          "url": "https://www.financialcontent.com/article/bizwire-2026-11-12-mount-thor-raises-45-million-to-build-cloud-infrastructure-for-agentic-ai-on-apple-hardware"
         }
       ],
       "tags": [
-        "Google",
-        "Gemini",
-        "Pricing",
-        "Agents"
+        "Seed",
+        "Agents",
+        "Apple Silicon",
+        "CRV",
+        "Conviction"
       ]
     },
     {
       "id": "g4",
       "region": "global",
       "cat": "funding",
-      "source": "PR Newswire",
-      "time": "Nov 10",
-      "headline": "Polychain Leads an $11M Seed in Marble, Which Wants to Lend to Neoclouds and Trade GPU 'Compute Forwards'",
-      "dek": "Former BitGo and Galaxy traders are betting GPU capacity becomes a financed, hedgeable asset class like oil.",
+      "source": "SiliconANGLE",
+      "time": "Nov 12",
+      "headline": "Standard Capital Leads a ~$25M Series A for YC's Luminal, a Compiler Serving 45T Tokens a Month, Much of It on AWS Trainium",
+      "dek": "A team of fewer than 30 sells a search compiler plus a managed inference cloud to get around Nvidia's CUDA lock-in, raising in the same week Nvidia lost its CEO.",
       "analysis": {
-        "happening": "Marble raised an $11M seed led by Polychain, with Maven 11, Ripple, Susquehanna Crypto and Lattice. Marble Compute will underwrite and syndicate loans to mid-sized GPU operators, aiming for first deals in Q1 2027. Marble Markets plans over-the-counter forward contracts so operators can lock in future GPU rental prices.",
-        "now": "This is an early sign that compute is becoming a financial asset. Mid-sized neoclouds are too small for the credit desks at Blackstone and Blue Owl, and Marble is aiming at that gap. Caveats: it has closed no loans or trades yet, its products need regulatory approval, and $11M is tiny next to GPU fleet costs.",
-        "future": "Watch for a public price curve for future H100 and B200 rentals. Once that exists, hedging tools, pricing data and compute-backed lending become buildable. That is a niche a data or fintech builder could enter early."
+        "happening": "Standard Capital led the round, with YC, Felicis, SagaVC and Liquid 2 following on. TNGlobal reports $25M; SiliconANGLE says $23M, taking total funding past $28M. The compiler benchmarks mathematically equivalent ways to run a model on a given chip, then caches the fastest one.",
+        "now": "A claimed 45T tokens a month, with a large share on Trainium, is real evidence that production inference is moving off Nvidia. Caveats: no latency or cost benchmarks are published, the compiler started open on GitHub but is now proprietary, and Google, AWS and Spectral Compute are building similar layers.",
+        "future": "Watch which chips Luminal adds next and whether AWS treats it as a partner or a competitor. For an AWS-native builder, it is a cheaper inference path worth benchmarking for always-on voice, coding or video workloads."
       },
       "sources": [
         {
-          "name": "PR Newswire",
-          "title": "Marble Launches with $11M Seed Led by Polychain Capital to Build Institutional Frontier Markets Trading and AI Infrastructure Finance",
-          "url": "https://www.prnewswire.com/news-releases/marble-launches-with-11m-seed-led-by-polychain-capital-to-build-institutional-frontier-markets-trading-and-ai-infrastructure-finance-302934821.html"
+          "name": "SiliconANGLE",
+          "title": "With $23M in funding, Luminal is the latest startup to put Nvidia's CUDA moat in its crosshairs",
+          "url": "https://siliconangle.com/2026/11/12/with-23m-in-funding-luminal-is-the-latest-startup-to-put-nvidias-cuda-moat-in-its-crosshairs/"
         },
         {
-          "name": "Unite.AI",
-          "title": "Marble Raises $11M Series Seed to Build AI Compute Credit Platform",
-          "url": "https://www.unite.ai/marble-raises-11m-series-seed-to-build-ai-compute-credit-platform/"
+          "name": "TNGlobal",
+          "title": "Luminal raises $25M Series A to cut AI inference costs beyond Nvidia GPUs",
+          "url": "https://technode.global/2026/11/12/luminal-raises-25m-series-a-to-cut-ai-inference-costs-beyond-nvidia-gpus/"
         },
         {
-          "name": "Crypto Briefing",
-          "title": "Marble secures $11M seed funding led by Polychain Capital",
-          "url": "https://cryptobriefing.com/marble-11m-seed-polychain-capital/"
+          "name": "Tech Funding News",
+          "title": "YC-backed Luminal raises $25M from Standard Capital to loosen Nvidia's grip on AI inference",
+          "url": "https://techfundingnews.com/luminal-25m-series-a-ai-inference-compiler-cloud/"
         }
       ],
       "tags": [
-        "Compute Finance",
-        "Neoclouds",
-        "Seed",
-        "Polychain"
+        "Inference",
+        "Compilers",
+        "AWS Trainium",
+        "Series A",
+        "YC"
       ]
     },
     {
       "id": "g5",
       "region": "global",
-      "cat": "funding",
-      "source": "Crypto Briefing",
+      "cat": "research",
+      "source": "Google DeepMind",
       "time": "Nov 10",
-      "headline": "Peak XV Leads a $5.3M Seed in YC's Inkbox, Whose Agents Each Get a Cloud Computer, Inbox and Phone Number",
-      "dek": "Agents wake on email, iMessage, WhatsApp or Slack, keep their files between sessions, and reached a reported $300K annual run rate four months after launch.",
+      "headline": "DeepMind's AlphaProof Code Writes 6M+ Lines of Lean to Formally Verify Signal's Compiled Code in Four Weeks",
+      "dek": "Gemini-powered agents produced machine-checked security proofs for libsignal's handshake and ratchet, and flagged only about 1% of the work for human review.",
       "analysis": {
-        "happening": "Inkbox (YC S26, SF) raised a $5.3M seed led by Peak XV, with angels Guillermo Rauch, Jonathan Frankle and Cristina Cordova. Each agent gets a persistent machine that runs scheduled jobs, sleeps when idle, and keeps credentials in a vault. Pricing runs from 3 free agent identities to $200/month for 100.",
-        "now": "This is something a builder can try today. Persistent agents with their own identity are becoming an infrastructure layer, alongside a16z-backed Phaze. Caveat: the $300K figure is self-reported, no valuation was disclosed, and sandboxes are still 'coming soon'.",
-        "future": "The main platform risk is Gmail, Twilio or Apple restricting accounts that agents create. The opening is vertical agents, such as recruiting or property management, that reach customers over iMessage or WhatsApp and run on identity layers like this one."
+        "happening": "A multi-agent system on Gemini Carbon proved selected security properties of libsignal's PQXDH handshake and Triple Ratchet, down to the compiled AArch64 code. Five people and four weeks produced over 6M Lean lines. When two old bugs were deliberately reintroduced, it caught both. It found no new bugs. The artifacts are open-sourced.",
+        "now": "Formal verification used to take years of specialist work, as seL4 did. It could become weeks of compute, which matters for crypto, fintech and infrastructure code. Caveats: the proofs are only as good as the human-written specs, group chat, key generation and side channels were out of scope, and the cost wasn't disclosed.",
+        "future": "Watch whether Google offers this as a Cloud service, and whether 'proof-as-a-service' startups for wallets, firmware and smart contracts raise money on the back of it. Something you can do now: write property specs alongside agent-written code."
       },
       "sources": [
         {
-          "name": "Crypto Briefing",
-          "title": "Inkbox raises $5.3 million and launches cloud-hosted AI agents with persistent computers",
-          "url": "https://cryptobriefing.com/inkbox-raises-5-million-cloud-ai-agents/"
+          "name": "Google DeepMind",
+          "title": "Introducing AlphaProof Code",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
         },
         {
-          "name": "FourWeekMBA",
-          "title": "Inkbox Raises $5.3M; 100 Agent Identities Cost $200 a Month",
-          "url": "https://fourweekmba.com/ai-inkbox-raises-5-3m-100-agent-identities-cost-200-a-month/"
+          "name": "Wired",
+          "title": "A New AI Tool From Google DeepMind Formally Verified the Signal Protocol",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
         },
         {
-          "name": "TokenPost",
-          "title": "Inkbox Raises $5.3 Million to Bring Persistent AI Agents to Communication Channels",
-          "url": "https://tokenpost.com/news/business/54313"
+          "name": "Hacker News",
+          "title": "AlphaProof Code",
+          "url": "https://news.ycombinator.com/item?id=50439193"
         }
       ],
       "tags": [
-        "Agent Infra",
-        "YC",
-        "Peak XV",
-        "Builder Tool"
+        "DeepMind",
+        "Formal Verification",
+        "Security",
+        "Agents"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
       "cat": "hardware",
-      "source": "Jiji Press",
-      "time": "Nov 11",
-      "headline": "Rapidus Weighs Delaying 2nm Mass Production a Full Year to FY2028 as Integration and Yields Lag",
-      "dek": "A day after Bloomberg reported the missed SRAM milestone, Jiji says a formal one-year delay plan is under discussion, while Rapidus publicly keeps its 2H FY2027 target.",
+      "source": "Nikkei Asia",
+      "time": "Nov 10",
+      "headline": "Musk's Terafab Moves From Quotes to Orders With Japanese Chip-Tool Makers, Targeting 2H28 Mass Production in Austin",
+      "dek": "Japan's real leverage in AI chips is still the tools and materials every new US fab has to buy, and the same day's US export push puts that leverage at risk.",
       "analysis": {
-        "happening": "Jiji, citing people familiar with the matter, says Rapidus is weighing a move from 2H FY2027 to FY2028 (Apr 2028–Mar 2029). The causes are problems integrating the chip's wiring layers and slow progress on yield. Tokyo plans more than ¥3T in subsidies and equity through FY2027. Rapidus says it is still aiming for 2H FY2027.",
-        "now": "This is worse than 'a few months behind'. TSMC is already making 2nm in volume and working toward 1.4nm, so Japan's lag at the leading edge grows from about 2–3 years to roughly 3–4. Caveat: nothing is confirmed, and government backing has held through every slip so far.",
-        "future": "Watch the FY2027 budget talks in December (an extra ¥400B of equity was proposed in October). Also watch whether the US AI customers Rapidus is courting for 2H27 walk away, and whether METI ties future funding to hitting the SRAM milestone."
+        "happening": "Nikkei reports that Terafab, Musk's combined foundry, memory and packaging plant in Austin, has started placing orders with Japanese equipment makers. It targets mass production in 2H28 and 1M wafers a month after 2032, about 700k of them memory. Some delivery deadlines are reportedly only months away.",
+        "now": "This is the opposite of the Rapidus story. Japan trails in leading-edge logic, with Rapidus planning about 25k wafers a month, yet it earns on every US buildout. Caveats: suppliers aren't named, and they doubt the timeline. The proposed US 'Match Act' would also squeeze Tokyo Electron's China tool sales.",
+        "future": "Watch order commentary from Tokyo Electron, Screen and Lasertec at their next earnings. Watch whether Terafab licenses Intel's 2nm/1.4nm process, as Jiji reports, and how METI responds to the NDAA chip bills. Japanese firms that install and service tools near US fabs are an under-covered opportunity."
       },
       "sources": [
         {
-          "name": "Jiji Press",
-          "title": "先端半導体の量産化、１年延期案が浮上 ラピダス、開発難航 良品率の改善にも苦戦か",
-          "url": "https://www.jiji.com/jc/article?k=2026111000768&g=eco"
-        },
-        {
-          "name": "Bloomberg (Japanese)",
-          "title": "ラピダスの次世代半導体、27年度中の量産間に合わない見通し－関係者",
-          "url": "https://www.bloomberg.com/jp/news/articles/2026-11-10/TO7LP6KJH6V400"
+          "name": "Nikkei Asia",
+          "title": "Musk's Terafab chipmaking project lines up Japan suppliers",
+          "url": "https://asia.nikkei.com/business/tech/semiconductors/musk-s-terafab-chipmaking-project-lines-up-japan-suppliers"
         },
         {
           "name": "Seoul Economic Daily",
-          "title": "Japan's Rapidus Weighs One-Year Delay in 2-Nanometer Chip Output",
-          "url": "https://en.sedaily.com/world/2026/11/11/japans-rapidus-weighs-one-year-delay-in-2-nanometer-chip"
+          "title": "Musk's 'Terafab' Accelerates With Orders to Japanese Chip Equipment Makers",
+          "url": "https://en.sedaily.com/international/2026/11/09/musks-terafab-accelerates-with-orders-to-japanese-chip"
         },
         {
-          "name": "DIGITIMES",
-          "title": "Rapidus reportedly falls behind schedule on 2nm chip production target, raising questions over Japan's chip ambitions",
-          "url": "https://www.digitimes.com/news/a20261111VL204/rapidus-2nm-production-manufacturing-development.html"
+          "name": "Bloomberg",
+          "title": "Musk Asks Suppliers to Move at 'Light Speed' on Terafab Plan",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-16/musk-asks-suppliers-to-move-at-light-speed-on-terafab-project"
         }
       ],
       "tags": [
-        "Rapidus",
-        "2nm",
-        "METI",
-        "Semiconductors"
+        "Terafab",
+        "Tokyo Electron",
+        "Chip Equipment",
+        "US-Japan"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
-      "cat": "hardware",
-      "source": "Nikkei Asia",
-      "time": "Nov 11",
-      "headline": "As US Voters Reject Data Centers, Japan Pitches Akita's ~¥2T, 500MW AI Campus, With UAE Money as the Anchor",
-      "dek": "Japan is pitching itself as a home for AI capacity that US towns don't want, but the capital is foreign and the power isn't built yet.",
+      "cat": "funding",
+      "source": "Bloomberg",
+      "time": "Nov 12",
+      "headline": "SmartNews Sets a Dec 15 Tokyo IPO at About ¥43B, Roughly 80% Below Its 2021 ¥219B Valuation, With No New Shares Issued",
+      "dek": "A sobering reference price for Japan's late-stage tech exits, arriving just as Sakana is said to be weighing a far bigger listing.",
       "analysis": {
-        "happening": "Nikkei Asia says the Akita AI data-center project is drawing Japanese and UAE investors. Earlier Nikkei reporting cited about ¥2T in total cost, up to 500MW, up to ¥1T from a UAE fund, and operation in the early 2030s. In the US, measures restricting data centers won 40 of 41 ballot votes on Nov 3.",
-        "now": "Japan's pitch is willing local governments that want the tax revenue (up to ~¥20B a year). But Akita's working offshore wind is about 140MW, under a third of what the campus needs, and the anchor money is Gulf sovereign capital, not Japanese private capital. The Japan Times says Japan is 'not immune' to a local backlash.",
-        "future": "Watch whether the UAE actually commits, how the grid connection gets secured, and whether friction with residents near Tokyo becomes zoning rules. There is room to build services for data-center siting, community-benefit agreements and power matching."
+        "happening": "SmartNews will list on TSE Growth on Dec 15 (code 676A) at an indicated ¥1,390 a share, a market cap of about ¥43.1B. Existing holders sell about 8.1M shares (about ¥11.2B), and the company raises no money. Jan-Sep revenue was ¥28.05B, up 11.9%, with ¥4.01B of operating profit.",
+        "now": "Tokyo Growth is valuing a profitable, ML-driven consumer app at about 1.1x sales, while US exits get priced on growth. That gap is why Japanese late-stage founders, Sakana among them, look at US listings. Caveats: the price guide can still move, and the filing discloses a US copyright suit as a risk.",
+        "future": "Watch the Dec 7 pricing and first-day trading. A weak debut would strengthen the case for listing Japanese AI companies in the US. Early backers JIC, Globis and Atomico take markdowns, and holders are locked up until June 12, 2027."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "Japan's Akita AI data center seen anchoring tech hub, boosting tax revenue",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-akita-ai-data-center-seen-anchoring-tech-hub-boosting-tax-revenue"
+          "name": "Bloomberg",
+          "title": "Japan's SmartNews to List on the Tokyo Stock Exchange Dec. 15",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/japan-smartnews-aggregator-app-list-on-the-tokyo-stock-exchange-dec-15"
         },
         {
-          "name": "Nikkei",
-          "title": "秋田に日本最大級AIデータセンター 建設費2兆円、UAEが投資へ",
-          "url": "https://www.nikkei.com/article/DGXZQOCC138LW0T10C26A7000000/"
+          "name": "BRIDGE",
+          "title": "ニュースアプリのスマートニュース、東証グロース上場へ——想定時価総額は約430.6億円",
+          "url": "https://thebridge.jp/2026/11/smartnews-tse-growth-ipo-approved"
         },
         {
-          "name": "The Japan Times",
-          "title": "Japan not immune to public backlash against data centers, experts say",
-          "url": "https://www.japantimes.co.jp/news/2026/11/11/japan/society/data-center-backlash-japan-us-election/"
-        },
-        {
-          "name": "Forbes JAPAN",
-          "title": "米住民投票41件中40件でデータセンター開発制限派が勝利、AI企業が信頼を得る4つの対策",
-          "url": "https://forbesjapan.com/articles/detail/107917"
+          "name": "Briefs",
+          "title": "SmartNews targets ¥11.2B in Tokyo IPO at lower value",
+          "url": "https://www.briefs.co/news/smartnews-lines-up-tokyo-ipo-aims-to-raise-11-2-billion-at-s/"
         }
       ],
       "tags": [
-        "Data Centers",
-        "Akita",
-        "UAE",
-        "Power"
+        "SmartNews",
+        "IPO",
+        "TSE Growth",
+        "Valuations"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
-      "cat": "funding",
-      "source": "BRIDGE",
-      "time": "Nov 11",
-      "headline": "BALLAS Extends Its Series B to ¥3.4B to Run Japan's Construction-Parts Supply Chain With AI Agents",
-      "dek": "A vertical-AI marketplace linking general contractors to 150+ fabrication shops added state-linked JIC VGI equity and loans from Japan Finance Corp and MUFG.",
+      "cat": "research",
+      "source": "XenoSpectrum",
+      "time": "Nov 9",
+      "headline": "PFN Open-Sources PLaMo 3.0 Fin, an 8B Finance Model That Runs on One GPU, and Admits It Trails Qwen3.5-9B on Its Own Benchmark",
+      "dek": "Japan's sovereign-model strategy is shifting toward small, on-premises models for specific sectors, and PFN's own numbers show the cost of that choice.",
       "analysis": {
-        "happening": "The Series B now totals ¥3.4B: ¥2.5B in equity and ¥0.9B in debt. It adds to April's ¥2.4B round led by SMBC Edge and Z Venture Capital, for about ¥5.3B raised in total. Transaction volume has grown about 130% a year since the Series A. Its customers build data centers, chip fabs and factories.",
-        "now": "This is the Japanese version of the AI playbook: digitize a paper-based supply chain first, then add agents on top. Fabrication shops shrank 12% between 2022 and 2025, so labor shortages are driving demand, not hype. Caveat: the extension leans on state-linked money and debt, and no private growth VC led it.",
-        "future": "Watch whether the automation that turns building plans (BIM) into orders actually ships. BALLAS benefits indirectly from the JASM, Rapidus and data-center construction boom. There are few US equivalents, so an export story is possible."
+        "happening": "Preferred Networks released weights for an 8B model continually pretrained on Japanese financial documents, with part of the training run on its own MN-Core 2 chip. On PFN's five-task finance average it scored 55.8, versus 60.1 for Qwen3.5-9B and 62.8 for Ministral 3 14B. PLaMo 3 Translate (0.8B-31B, 53 languages) shipped Nov 5.",
+        "now": "The pitch is closed-network deployment for Japanese banks, not frontier performance. Even so, Chinese and French open models of similar size beat it. Caveat: the license is free only for organizations with revenue of ¥1B or less, so megabanks have to negotiate.",
+        "future": "Watch which megabanks or securities firms sign licenses, and whether the revised PLaMo license, which reportedly adds conditions on publishing model outputs, puts off fine-tuners. Opportunity: integrators that package these models into bank-ready agents with audit trails."
       },
       "sources": [
         {
-          "name": "BRIDGE",
-          "title": "建設部材の供給網をAIでつなぐBALLAS、シリーズBで総額34億円を調達",
-          "url": "https://thebridge.jp/2026/11/ballas-series-b-extension-3-4-billion-yen"
+          "name": "XenoSpectrum",
+          "title": "Preferred Networks Releases PLaMo 3.0 Fin, an 8B Finance-Focused Model That Runs on a Single GPU",
+          "url": "https://xenospectrum.com/en/plamo-fin-financial-ai-tools/"
         },
         {
-          "name": "PR TIMES (BALLAS)",
-          "title": "BALLAS、シリーズB総額34億円、累計調達額は約53億円に 〜JIC VGI、日本政策金融公庫、三菱UFJ銀行の支援が加わり、建設インフラの供給力不足にAI-Nativeで挑む〜",
-          "url": "https://prtimes.jp/main/html/rd/p/000000022.000100360.html"
+          "name": "Preferred Networks",
+          "title": "PFN Releases Open-Weight Translation LLM PLaMo 3 Translate, Bringing World-Class Translation AI to Edge Devices",
+          "url": "https://www.preferred.jp/en/news/pr20261105"
         },
         {
-          "name": "創業手帳",
-          "title": "設計・購買機能を有する建設部材の調達プラットフォームを運営する「BALLAS」が34億円調達",
-          "url": "https://sogyotecho.jp/news/20261111ballas/"
+          "name": "GIGAZINE",
+          "title": "PFN has released four models of its domestically produced Japanese translation AI, 'PLaMo 3 Translate,' for free.",
+          "url": "https://gigazine.net/gsc_news/en/20261105-plamo-3-translate-open-weight/"
         }
       ],
       "tags": [
-        "Vertical AI",
-        "Construction",
-        "Series B",
-        "AI Agents"
+        "Preferred Networks",
+        "PLaMo",
+        "Open Weights",
+        "FinTech AI"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "launches",
-      "source": "BRIDGE",
+      "cat": "funding",
+      "source": "KEPPLE",
       "time": "Nov 6",
-      "headline": "MUFG-Backed Rogo Pushes Its 'Felix' Banking Agent Into Japan, Where Nomura and Daiwa Already Use It",
-      "dek": "A New York vertical-AI company is winning Japanese investment-banking work before any domestic equivalent exists.",
+      "headline": "MUSE Raises ¥1.75B Led by ALPHA to Mass-Produce 'Armo', a Japanese Shelf-Stocking Robot Already Working in a Queens Grocery",
+      "dek": "A Japanese physical-AI startup that is testing in the US market first instead of last.",
       "analysis": {
-        "happening": "Rogo raised a $75M Series C (Sequoia) and a $160M Series D (Kleiner) in 2026, and MUFG Innovation Partners joined a September strategic round. Rogo says it has 60,000 users at 450+ institutions, with Nomura and Daiwa among its Japanese clients. It plugs into EDINET, Japan's corporate filing system, and plans 150–200 APAC staff by end-2027.",
-        "now": "The gap is plain: Japan's megabanks are buying US agent software instead of backing local builders. Rogo's advantage is Japanese-speaking bankers it places with clients. Caveat: this comes from an interview piece, MUFG's check size is undisclosed, and Japanese bank procurement is slow.",
-        "future": "Watch whether MUFG or SMBC roll it out across their groups. The opening for local builders is due-diligence agents built for J-GAAP accounting and EDINET filings, aimed at mid-market M&A that Rogo won't prioritize."
+        "happening": "Tokyo's MUSE raised ¥1.75B (about $11M) from 15 investors. New lead ALPHA was joined by Rakuten Capital, Gogin Capital and New Commerce Ventures, and Incubate Fund, XTech, Spiral and Toshiba Tec added money. Armo restocks shelves, moves online orders and maps out-of-stock items. One unit runs at Foodcellar Market in Long Island City.",
+        "now": "US retail-robot makers such as Simbe raise far bigger rounds. MUSE is betting that Japan's labor shortage and Toshiba Tec's retail channel give it a cheaper route to proven ROI before it scales in the US. Caveats: it has disclosed one US store, no robot count or revenue, and it still needs outside manufacturers.",
+        "future": "Watch for a second US chain and named manufacturing partners. KDDI's plan for 1,000+ store robots by 2030 is a possible domestic channel. Opportunity: the shelf data these robots collect could be sold as a retail-analytics product on its own."
       },
       "sources": [
         {
-          "name": "BRIDGE",
-          "title": "MUFGら世界の銀行が出資する金融AI「Rogo」、日本でも攻勢——自律エージェント「Felix」を聞く",
-          "url": "https://thebridge.jp/2026/11/rogo-felix-financial-ai-muip-mufg-investment-japan-market"
+          "name": "KEPPLE",
+          "title": "MUSE 17.5億円 資金調達（ストアロボット「Armo」）",
+          "url": "https://kepple.co.jp/articles/0gcwzcibnk"
         },
         {
-          "name": "MUFG Innovation Partners",
-          "title": "MUFG Innovation Partners invests in Rogo",
-          "url": "https://www.ip.mufg.jp/en/news/ojo2fk5t_a/"
+          "name": "Dealroom",
+          "title": "MUSE raises $11M to scale its retail robot from Japan to the US",
+          "url": "https://dealroom.co/news/170106-muse-raises-11m-to-scale-its-retail-robot-from-japan-to-the-us/"
         }
       ],
       "tags": [
-        "Rogo",
-        "Finance AI",
-        "MUFG",
-        "AI Agents"
+        "MUSE",
+        "Physical AI",
+        "Retail Robotics",
+        "Series A"
       ]
     }
   ]
