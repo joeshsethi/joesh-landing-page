@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T20:15:00.000Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Sat · Nov 14 2026",
+    "editionLine": "EDITION No.551 · SYNCED 05:15 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "Today's throughline: the scarce inputs in AI are no longer chips. They are power and sites, graded expert judgment, and the right-sized model for each task.",
+    "briefingTitle": "Cerebras Says Power, Not Chips, Is the Bottleneck; a $1B Bet on AI Doing AI Research; and Japan Starts Pretraining",
+    "summary": "AI's bottlenecks are moving out of the chip fab. Cerebras says its biggest contract is late because of sites and power, not silicon. Mercor's $20B valuation and Alterra's seed show that graded expert judgment is now something labs pay real money for. In model choice, the trend is the right size for each job: Google's pricier Gemini 4 Hydrogen at the top, and Amazon swapping Sonnet for a Gemma-based classifier at the bottom. Japan is mostly in the plumbing: Sakana starts its first from-scratch pretraining, Cohere becomes the base layer under Fujitsu's 'sovereign' model, and SoftBank's biggest physical-AI check went to Munich, not Tokyo.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 29 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 37,
+      "frontier": 95,
+      "note": "Unchanged. Sakana begins from-scratch pretraining of Sawara Small in December, which is real progress. But Cohere's new Japan entity shows Fujitsu's 'sovereign' Takane still sits on a Canadian base model. Japan has data residency, not model ownership."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 15,
+      "frontier": 99,
+      "note": "Unchanged. Japanese corporate money exists, but it is going abroad: SoftBank and Hitachi backed Munich's Agile Robots at $8.5B, while US investors put $1B into Mirendil's Series A. Japan's largest AI round in October was about $31M."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 29,
+      "frontier": 95,
+      "note": "Unchanged. METI's ¥2.1B subsidy for Dexerials photodiodes shows the more realistic path: optical and packaging components Japan already supplies. Kyushu Electric also running a 4.4GW US AI power plant is know-how Japan lacks at home."
+    },
+    {
+      "label": "Early-stage AI venture formation and exits",
+      "jp": 30,
+      "frontier": 92,
+      "note": "Up one. New York's Insight Partners led a second round in Fact Base (¥4.5B), and Sakana's reported IPO target of above ¥680B would test public pricing. Both are still small next to US Series A sizes that now reach $1B."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "hardware",
+      "source": "CNBC",
+      "time": "Nov 12",
+      "headline": "Cerebras Beats and Lands Microsoft, but Says Its Biggest Contract Is Late Because of Sites and Power, Not Chips",
+      "dek": "Q3 core revenue rose 70% to $230.9M, but the first tranche of its largest deal slips to mid-2027 as buildings and grid hookups lag.",
+      "analysis": {
+        "happening": "Q3 core revenue was $230.9M (+70% YoY) and adjusted EPS $0.12, against an expected loss. Q4 guidance of $310-330M topped the $271M consensus. It disclosed an October Microsoft deal with revenue starting Q1 2027. Contracted capacity rose to 700 gross MW by end-2027, from 600.",
+        "now": "Management says wafer supply is fine; the delays are sites, power and finished buildings. Even Nvidia's challengers are now limited by real estate and electricity. Caveats: the stock is still about 47% below its May IPO, and 2027 guidance was slightly under consensus.",
+        "future": "US grid operators must file new rules on who pays for data-center hookups by Nov 16 (SPP Nov 20). These rules set the cost and speed of grid access for every campus. Builders who can deliver powered shells quickly can charge a premium."
+      },
+      "sources": [
+        {
+          "name": "CNBC",
+          "title": "Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
+          "url": "https://cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
+        },
+        {
+          "name": "Investing.com",
+          "title": "Morgan Stanley reiterates Overweight on Cerebras stock amid delays",
+          "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-reiterates-overweight-on-cerebras-stock-amid-delays-93CH-5024388"
+        },
+        {
+          "name": "mGrid",
+          "title": "All Six Grid Operators Ask FERC for 90 More Days on Large-Load Rules, Pushing Filings to November 16",
+          "url": "https://mgrid.org/?p=16083"
+        }
+      ],
+      "tags": [
+        "Cerebras",
+        "Microsoft",
+        "Power",
+        "Earnings"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "funding",
+      "source": "Crunchbase News",
+      "time": "Nov 12",
+      "headline": "Ex-Anthropic Lab Mirendil Raises a $1B Series A Led by Kleiner Perkins and Clearlake, Five Months After a $200M Seed",
+      "dek": "The San Francisco lab sells 'AI that does AI research', and claims one researcher plus agents pretrained its base model for under $10M of compute.",
+      "analysis": {
+        "happening": "Founders Behnam Neyshabur and Harsh Mehta, both ex-Anthropic, announced the round Nov 12. Battery, Google, M13, Pear and S32 also invested. June's $200M seed, at about $1B, was co-led by a16z and Kleiner with Nvidia. No valuation was disclosed; September reports put talks at $5B.",
+        "now": "The thesis is automating AI R&D itself. The headline claim is Mirendil-Base, pretrained from scratch in 3.5 months for under $10M. That figure is self-reported and unreplicated. Private-equity firm Clearlake co-leading a Series A shows crossover money now chasing lab-sized rounds.",
+        "future": "Watch for a paper or public evaluation backing the $10M pretraining claim, any outside customers for its research agents, and whether other ex-lab 'research automation' teams raise Series A rounds this large."
+      },
+      "sources": [
+        {
+          "name": "Crunchbase News",
+          "title": "The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll",
+          "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/"
+        },
+        {
+          "name": "MLQ.ai",
+          "title": "Ex-Anthropic researchers' startup Mirendil raises $1 billion to let AI agents do the work of an AI lab",
+          "url": "https://mlq.ai/news/ex-anthropic-researchers-startup-mirendil-raises-1-billion-to-let-ai-agents-do-the-work-of-an-ai-lab/"
+        },
+        {
+          "name": "Securities.io",
+          "title": "Mirendil Raises $1 Billion Series A for Agent-Led AI Research Tools",
+          "url": "https://www.securities.io/mirendil-raises-1-billion-series-a-for-agent-led-ai-research-tools/"
+        }
+      ],
+      "tags": [
+        "Mirendil",
+        "Kleiner Perkins",
+        "AI R&D Agents",
+        "Series A"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "funding",
+      "source": "Fortune",
+      "time": "Nov 10",
+      "headline": "Expert Judgment Gets a Price: Mercor Hits $20B on $614M of First-Half Revenue as Oak HC/FT Seeds NYC's Alterra With $12.5M for Simulated Clinics",
+      "dek": "Selling graded human expertise to labs is now a profitable business at scale, and seed investors are funding narrow, domain-specific versions of it.",
+      "analysis": {
+        "happening": "Mercor raised $750M at $20B, double its October 2025 mark, partly as an employee tender. First-half 2026 gross revenue was $614M, and it projects $226M operating profit this year. Alterra Labs (New York) raised a $12.5M seed led by Oak HC/FT. Its clinicians grade models on simulated patient cases, and those grades become RL rewards.",
+        "now": "Expert grading is where lab spending is turning into margin. Alterra shows the opening for smaller players: one specialty, built by domain experts, with frontier labs as its fastest-growing customers. Caveats: Mercor's figures are gross, before contractor payouts, and labs could build these environments themselves.",
+        "future": "Watch for multi-year environment contracts with labs, and for seeds in law, insurance and engineering RL environments. A Japanese-language expert-grading environment (medicine, law, manufacturing) is an unclaimed niche."
+      },
+      "sources": [
+        {
+          "name": "Fortune",
+          "title": "Alterra Labs 12.5 million seed round, training environments, medical AI",
+          "url": "https://fortune.com/2026/11/10/alterra-labs-12-5-million-seed-round-training-environments-medical-ai/"
+        },
+        {
+          "name": "Crypto Briefing",
+          "title": "Alterra Labs raises $12.5 million seed round to train medical AI in simulated clinics",
+          "url": "https://cryptobriefing.com/alterra-labs-seed-round-medical-ai/"
+        },
+        {
+          "name": "The Star (Reuters)",
+          "title": "AI training startup Mercor valued at $20 billion in latest funding round",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/11/ai-training-startup-mercor-valued-at-20-billion-in-latest-funding-round"
+        },
+        {
+          "name": "Mercor",
+          "title": "Mercor Series D announcement",
+          "url": "https://www.mercor.com/blog/series-d/"
+        }
+      ],
+      "tags": [
+        "Mercor",
+        "Alterra Labs",
+        "Oak HC/FT",
+        "RL Environments"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "research",
+      "source": "Strands Agents (AWS)",
+      "time": "Nov 9",
+      "headline": "Amazon Swaps Sonnet 4.6 for a Gemma-Based 'Decider' on Ticket Routing: ~$500 vs ~$22,200 per Million Tickets, and Latency Falls From 4.2s to 0.9s",
+      "dek": "AWS published the repo, and Team8 put a $13M seed into NYC's Plurai on the same idea: small models trained per task can take over jobs teams now send to frontier models.",
+      "analysis": {
+        "happening": "Strands Decider replaces a Gemma 4 E4B model's output head so it returns a probability for each option instead of text. On Amazon ticket labeling it cut cost about 98%, latency from 4,215ms to 897ms and tokens by 70%, on one A10G endpoint. The repo is strands-labs/strands-decider.",
+        "now": "Any fixed-choice step in an agent pipeline (routing, triage, labeling) is a cost target. Its rollout setup is also reusable: an AppConfig switch with 45-second rollback. Caveats: no accuracy figure was published, context is capped at 4,096 tokens, and it wasn't compared with Haiku or BERT.",
+        "future": "Plurai, from Nexar's founders, post-trains small open models for each customer and claims 10-100x lower cost, but names no customers yet. A 'distill-and-swap' service on AWS is a plausible build for one person."
+      },
+      "sources": [
+        {
+          "name": "Strands Agents",
+          "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+          "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
+        },
+        {
+          "name": "Hacker News",
+          "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+          "url": "https://news.ycombinator.com/item?id=50436640"
+        },
+        {
+          "name": "TechCrunch",
+          "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+          "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads"
+        }
+      ],
+      "tags": [
+        "Small Models",
+        "AWS",
+        "Cost",
+        "Seed"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "Google",
+      "time": "Nov 12",
+      "headline": "Google Retires 'Flash' for Gemini 4 Hydrogen: Artificial Analysis Score of 51 vs 31, at $1.50/$7.50, Double Flash's Promo Price",
+      "dek": "Google's everyday model is much stronger than the one it replaces, and the higher price shows it no longer treats the cheap tier as a loss leader.",
+      "analysis": {
+        "happening": "Hydrogen replaces Gemini 3.8 Flash across the API, AI Studio, the app and Search. Context is about 1M tokens. It scores 51 on Artificial Analysis's index (Flash: 31) and 57% on Terminal-Bench 4.1 (Flash: 18.2%; Sonnet 5.5: 63.9%).",
+        "now": "Per token it is roughly 15x Haiku 5.5 or GPT-6 Luna, according to VentureBeat. Per task it can be cheaper, at $1.87 vs Flash's $7.77. Migration traps: it defaults to high reasoning, rejects the thinking-budget setting, and launched without explicit caching on Google Cloud.",
+        "future": "Watch whether OpenAI and Anthropic reprice their small models. Also watch the reasoning settings: on Terminal-Bench 4.0, xhigh scored the same 54% as high and only cost more, so default to high."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+        },
+        {
+          "name": "VentureBeat",
+          "title": "Google launches Gemini 4 Hydrogen — a faster, smarter, pricier Flash successor",
+          "url": "https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor"
+        },
+        {
+          "name": "DataCamp",
+          "title": "Gemini 4 Hydrogen Explained: Features, Benchmarks & Pricing",
+          "url": "https://www.datacamp.com/blog/gemini-4-hydrogen"
+        }
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "Pricing",
+        "Agents"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "research",
+      "source": "ITmedia AI+",
+      "time": "Nov 13",
+      "headline": "Sakana AI Starts Its First From-Scratch Pretraining in December, Days After Nikkei Reported a 2027 IPO Above Mercari's ¥680B",
+      "dek": "Japan's best-funded AI lab is moving from merging other labs' models to training its own, while it tests what public markets would pay for a Japanese model company.",
+      "analysis": {
+        "happening": "Sakana told ITmedia on Nov 13 that pretraining of Sawara Small starts in December, with open weights targeted for spring 2027. A larger Sawara model of several hundred billion parameters follows. Nikkei reported a Tokyo and/or US IPO as early as autumn 2027, above ¥680B ($4.3B); Sakana says it has no near-term plans.",
+        "now": "The gap: ~$4B is about 1/300th of Anthropic's reported IPO ceiling, and Sakana is only now training a base model. The bet is narrow: agent-tuned models for Japanese business, not frontier scale. Caveats: the IPO is press-reported and denied, and Sawara's size and compute budget are undisclosed.",
+        "future": "Watch where December's compute comes from (Sakura's GPU cloud is a known supplier). Also watch whether Sawara Small beats Qwen-class 8-9B open models in Japanese. A listing would make Sakana Japan's first public pure-play model company."
+      },
+      "sources": [
+        {
+          "name": "ITmedia AI+",
+          "title": "「好機が来た」――なぜ今Sakana AIは、イチからAIモデルを作るのか “新たな一手”のねらいを聞いた",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003141/"
+        },
+        {
+          "name": "Nikkei Asia",
+          "title": "Sakana AI gears up for one of Japan's biggest startup IPOs",
+          "url": "https://asia.nikkei.com/business/markets/ipo/sakana-ai-gears-up-for-one-of-japan-s-biggest-startup-ipos"
+        },
+        {
+          "name": "The Japan Times",
+          "title": "Sakana AI may go public in 2027",
+          "url": "https://www.japantimes.co.jp/business/2026/11/10/companies/sakana-ai-ipo/"
+        }
+      ],
+      "tags": [
+        "Sakana AI",
+        "Foundation Models",
+        "IPO",
+        "Sovereign AI"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "funding",
+      "source": "SiliconANGLE / Bloomberg",
+      "time": "Nov 12",
+      "headline": "SoftBank Leads Agile Robots' $500M Series F at $8.5B, With Hitachi In: Japan's Physical-AI Money Goes to Munich",
+      "dek": "One German humanoid round is roughly 16x Japan's largest AI startup round last month.",
+      "analysis": {
+        "happening": "Munich's Agile Robots raised $500M at $8.5B. SoftBank led, with Nvidia, Hitachi Ventures and T Capital participating; total funding is about $2B. It has deployed about 20,000 robotic systems and can build up to 10,000 humanoids a year in Germany. The money goes to US expansion and production.",
+        "now": "The gap: Japan's largest AI startup round in October was Knowledge Work's ¥4.8B (~$31M). Japanese corporates write $100M+ checks for physical AI abroad, not at home. Caveats: the round shrank from ~$800M discussed in June, and revenue and humanoid shipments are undisclosed.",
+        "future": "Japan's state-backed physical-AI venture (SoftBank, Sony, Honda, NEC) now competes with SoftBank's own portfolio. Open question: who builds the integration and data layer that puts these robots into Japanese factories? Watch Hitachi's co-creation deal as the template."
+      },
+      "sources": [
+        {
+          "name": "SiliconANGLE",
+          "title": "Agile Robots raises $500M funding led by SoftBank at $8.5B valuation",
+          "url": "https://siliconangle.com/2026/11/12/agile-robots-raises-500m-funding-led-by-softbank-at-8-5b-valuation/"
+        },
+        {
+          "name": "Bloomberg",
+          "title": "SoftBank Backs Agile Robots in $500 Million Humanoid Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/softbank-backs-agile-robots-in-500-million-humanoid-push"
+        },
+        {
+          "name": "Tech Times",
+          "title": "Agile Robots Raises $500M Series F: Humanoid Factory Capacity Is Public, Shipment Count Is Not",
+          "url": "https://www.techtimes.com/articles/330608/20261113/agile-robots-raises-500m-series-f-humanoid-factory-capacity-public-shipment-count-not.htm"
+        },
+        {
+          "name": "PR TIMES (STARTUP DB)",
+          "title": "【STARTUP DB】調査結果 スタートアップ資金調達金額ランキング（2026年10月）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000486.000032589.html"
+        }
+      ],
+      "tags": [
+        "SoftBank",
+        "Hitachi",
+        "Physical AI",
+        "Robotics"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "launches",
+      "source": "PR Newswire / PR TIMES",
+      "time": "Nov 13",
+      "headline": "Cohere Opens a Japanese Entity and Brings 'Model Vault' In-Country Inference, Cementing Its Role Under Fujitsu's 'Sovereign' Takane",
+      "dek": "A Canadian lab is becoming the base layer for one of the domestic LLMs Japan's government is evaluating.",
+      "analysis": {
+        "happening": "On Nov 13 Cohere announced a Japanese legal entity under country manager Hyunju Cho. It is bringing Model Vault to Japan, so inference runs on domestic clusters, and launching partner certification programs. Takane, built with Fujitsu, is being evaluated for the Digital Agency's Gennai government AI. Cohere is separately raising up to C$7B at C$35.7B.",
+        "now": "The gap: much of Japan's 'sovereign AI' is a foreign base model with local hosting and tuning. Data residency is handled; model ownership is not. For builders, the opening is the integrator and partner layer Cohere is now certifying. Caveat: no Japan investment amount or customer names were disclosed.",
+        "future": "Watch whether Takane wins a paid Gennai contract when the Digital Agency moves to paid procurement in FY2027, which Japanese clouds host Model Vault (Sakura, SoftBank, KDDI), and whether OpenAI's SoftBank JV answers with in-country inference."
+      },
+      "sources": [
+        {
+          "name": "PR Newswire",
+          "title": "Cohere Deepens Commitment to Japan with Sovereign AI Investments and Growing Enterprise Adoption",
+          "url": "https://www.prnewswire.com/apac/news-releases/cohere-deepens-commitment-to-japan-with-sovereign-ai-investments-and-growing-enterprise-adoption-302937158.html"
+        },
+        {
+          "name": "PR TIMES",
+          "title": "Cohere、日本におけるソブリンAI導入拡大に向け投資を強化",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000194140.html"
+        },
+        {
+          "name": "Ledge.ai",
+          "title": "デジタル庁、ガバメントAI「源内」で使う国産LLMを11月公募へ 2027年度に有償調達、行政実務向け評価テストを事前公表",
+          "url": "https://ledge.ai/articles/government_ai_gennai_domestic_llm_public_offering"
+        }
+      ],
+      "tags": [
+        "Cohere",
+        "Fujitsu",
+        "Sovereign AI",
+        "Gennai"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "PR TIMES",
+      "time": "Nov 13",
+      "headline": "METI Picks Dexerials for a ~¥2.1B Subsidy to Expand AI Data-Center Photodiode Output in Hokkaido and Miyagi",
+      "dek": "A small, concrete bet on the optical layer of AI data centers, where Japanese component makers still hold real share.",
+      "analysis": {
+        "happening": "Dexerials' photonics unit DXPS was selected for METI's large-scale growth-investment subsidy. About ¥2.1B of the ¥6.25B project goes to expanding high-speed and monitor photodiode capacity at its Eniwa (Hokkaido) and Tome (Miyagi) plants. The company targets ¥15B in photonics sales by FY2028, about 2x FY2023.",
+        "now": "Scale check: ¥2.1B is under 2% of this year's ¥150B Rapidus equity. Optical parts, where Japan already supplies, may earn better returns than catching up at 2nm. Caveats: selection is not final approval, and no capacity multiple or timeline was given.",
+        "future": "Watch co-packaged optics adoption by Nvidia and hyperscalers, which changes who buys photodiodes. Dexerials' Silicon Catalyst tie-up is a route for US photonics startups seeking a Japanese manufacturing partner."
+      },
+      "sources": [
+        {
+          "name": "PR TIMES",
+          "title": "【デクセリアルズ】経済産業省の実施する「大規模成長投資補助金」事業に採択",
+          "url": "https://prtimes.jp/main/html/rd/p/000000156.000064805.html"
+        },
+        {
+          "name": "Niigata Nippo",
+          "title": "【デクセリアルズ】経済産業省の実施する「大規模成長投資補助金」事業に採択",
+          "url": "https://www.niigata-nippo.co.jp/articles/-/941915"
+        },
+        {
+          "name": "Nikkei",
+          "title": "デクセリアルズ、光工学の売上高2倍に 29年3月期めどAI関連狙う",
+          "url": "https://www.nikkei.com/article/DGXZQOCC111R90R10C26A3000000/"
+        }
+      ],
+      "tags": [
+        "Dexerials",
+        "METI",
+        "Photonics",
+        "Data Centers"
+      ]
+    }
+  ]
+}

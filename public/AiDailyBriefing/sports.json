@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T20:10:00.000Z",
-  "dateLabel": "Fri · Nov 13 2026",
+  "generatedAt": "2026-11-13T20:10:27.000Z",
+  "dateLabel": "Sat · Nov 14 2026",
   "items": [
     {
       "id": "s1",
       "sport": "golf",
-      "status": "upcoming",
-      "event": "DP World Tour Championship, Dubai (final round)",
-      "line": "Joost Luiten (-5), the last player into the 50-man field, leads after R1. McIlroy is two back in T3 after a 69 and needs a top-4 finish to pass Race to Dubai leader Eugenio Chacarra (72). A win would guarantee him a record-tying eighth Race to Dubai title.",
-      "whenJst": "Sun Nov 15 · leaders tee off ~17:30 JST, finish ~22:00 JST (approx.)",
+      "status": "live",
+      "event": "DP World Tour Championship, Dubai (Race to Dubai finale)",
+      "line": "McIlroy and Hatton share the 36-hole lead at -5 and play together in Saturday's final pairing. McIlroy is 534 pts behind Race leader Chacarra (-1, T11) and takes a record-tying 8th Race to Dubai title if he wins, or finishes 2nd without a Chacarra win. Final-round times are approximate.",
+      "whenJst": "Sun Nov 15 · ~17:00–22:00 JST",
       "sources": [
         {
           "name": "Sky Sports",
-          "title": "DP World Tour Championship: Rory McIlroy boosts Race to Dubai hopes as Joost Luiten grabs shock early lead",
-          "url": "https://www.skysports.com/golf/news/13611312/dp-world-tour-championship-rory-mcilroy-boosts-race-to-dubai-hopes-as-joost-luiten-grabs-shock-early-lead"
+          "title": "DP World Tour Championship: Rory McIlroy takes share of lead alongside Tyrrell Hatton in Race to Dubai finale",
+          "url": "https://www.skysports.com/golf/news/13611860/dp-world-tour-championship-rory-mcilroy-takes-share-of-lead-alongside-tyrrell-hatton-in-race-to-dubai-finale"
         },
         {
-          "name": "Golf Channel",
-          "title": "Rory McIlroy opens DP World Tour Championship with 69 to boost bid for record-tying Race to Dubai title",
-          "url": "https://www.golfchannel.com/dp-world-tour/news/rory-mcilroy-opens-dp-world-tour-championship-with-69-to-boost-bid-for-record-tying-race-to-dubai-title"
+          "name": "DP World Tour",
+          "title": "Rory McIlroy shares lead with Tyrrell Hatton as Race to Dubai momentum swings in his favour",
+          "url": "https://www.europeantour.com/dpworld-tour/news/articles/detail/rory-mcilroy-shares-lead-with-tyrrell-hatton-as-race-to-dubai-momentum-swings-in-his-favour/"
         }
       ]
     },
@@ -27,34 +27,39 @@
       "id": "s2",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "ATP Finals, Turin: Zverev vs Jodar (opening day)",
-      "line": "Sinner, the defending champion, is out with a knee injury, so the title is open. World No. 1 Zverev starts against 8th seed Rafael Jodar. Shelton vs Fils follows in the night session (Mon 04:30 JST).",
-      "whenJst": "Sun Nov 15 · 22:00 JST (not before)",
+      "event": "Nitto ATP Finals, Turin (Nov 15–22)",
+      "line": "Two-time defending champion Sinner is out with a knee injury. No. 1 Zverev opens against Jodar on Sunday (22:00 JST), and Shelton vs Fils follows Mon 04:30 JST. Alcaraz, who has never won this title, starts against Tiafoe on Mon Nov 16 at 22:00 JST. All times are 'not before'.",
+      "whenJst": "Sun Nov 15 · 22:00 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "ATP Finals in Turin: Format, players, schedule, prize money and draw as Carlos Alcaraz leads the field at end-of-season event",
-          "url": "https://www.skysports.com/tennis/news/13610540/atp-finals-in-turin-format-players-schedule-prize-money-and-draw-as-carlos-alcaraz-leads-the-field-at-end-of-season-event"
+          "name": "ATP Tour",
+          "title": "When will Zverev, Alcaraz play their first matches at the Nitto ATP Finals?",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule-sunday-monday"
         },
         {
           "name": "ATP Tour",
-          "title": "Nitto ATP Finals Draw: Groups, H2H records & all you need to know",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-draw-resource-page"
+          "title": "Alexander Zverev, Carlos Alcaraz learn Nitto ATP Finals draw fate",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-draw"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "ATP Finals, Turin: Alcaraz vs Tiafoe",
-      "line": "Second seed Alcaraz starts his title bid in the Lendl Group, which also has Medvedev and home favourite Cobolli. Medvedev vs Cobolli is the night match (Tue 04:30 JST).",
-      "whenJst": "Mon Nov 16 · 22:00 JST (not before)",
+      "event": "Japan vs Brazil, friendly (National Stadium, Singapore)",
+      "line": "A rematch of the 2026 World Cup Round of 32, which Brazil won 2-1. It airs live on TV Asahi in Japan and streams free on U-NEXT.",
+      "whenJst": "Sat Nov 14 · 19:15 JST",
       "sources": [
         {
-          "name": "Tennis Now",
-          "title": "When Does Alcaraz Open Bid for Title in Turin?",
-          "url": "https://tennisnow.com/when-does-alcaraz-open-bid-for-title-in-turin/"
+          "name": "Goal (Japan)",
+          "title": "サッカー日本代表vsブラジル代表｜試合日程・無料放送・最新情報まとめ｜シンガポール遠征2026",
+          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/brazil-japan-recent-information-world-cup-blue-challenge-20261114/blt3d5e48fddac0261e"
+        },
+        {
+          "name": "Flashscore",
+          "title": "What are the top 10 matches to watch during the final international break of 2026?",
+          "url": "https://www.flashscore.com/news/what-are-the-top-10-matches-to-watch-during-the-final-international-break-of-2026/W42W66kU/"
         }
       ]
     },
@@ -62,34 +67,14 @@
       "id": "s4",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Nations League: Spain vs England (Madrid)",
-      "line": "This is the last game for both in League A Group 3. Spain (12 pts) lead England (9 pts) before Thursday's matchday-5 games, so the match should decide who tops the group and goes into the knockout draw on Nov 20.",
+      "event": "Spain vs England, UEFA Nations League (Metropolitano, Madrid)",
+      "line": "This final group game decides Group A3. World and European champions Spain have won 12 in a row and need only a draw to finish top. England are already sure of a top-two place after beating Croatia but can still take first.",
       "whenJst": "Mon Nov 16 · 04:45 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "England 2026 UEFA Nations League Schedule - ESPN",
-          "url": "https://www.espn.com/soccer/team/fixtures/_/id/448/league/UEFA.NATIONS"
-        },
-        {
-          "name": "UEFA",
-          "title": "2026/27 UEFA Nations League: All the league phase fixtures and results",
-          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
-        }
-      ]
-    },
-    {
-      "id": "s5",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Japan vs Brazil friendly (Singapore National Stadium)",
-      "line": "Moriyasu's Samurai Blue play Brazil in the first of two Kallang Football Series friendlies. They face Paraguay next (Tue Nov 17, 22:10 JST).",
-      "whenJst": "Sat Nov 14 · 19:15 JST",
-      "sources": [
-        {
-          "name": "JFA",
-          "title": "SAMURAI BLUE (Japan National Team) squad & schedule - MIZUHO BLUE CHALLENGE THE KALLANG FOOTBALL SERIES SINGAPORE",
-          "url": "https://www.jfa.jp/eng/samuraiblue/20261117/news/00036974/"
+          "name": "England Football (FA)",
+          "title": "Match Centre: Spain v England, UEFA Nations League, Sunday 15 November 2026",
+          "url": "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2026-27/nations-league/spain-v-england-uefa-nations-league-sunday-15-november-2026-match-centre"
         }
       ]
     }
