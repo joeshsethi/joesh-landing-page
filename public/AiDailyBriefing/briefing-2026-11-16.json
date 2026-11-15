@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-15T20:12:59.396675Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Mon · Nov 16 2026",
+    "editionLine": "EDITION No.553 · SYNCED 05:12 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "Today's through-line: money is getting more selective. The suppliers and lenders behind AI's build-out are checking their exposure, and the capital that is still flowing goes to bottlenecks and to the layers around agents.",
+    "briefingTitle": "Nvidia's Checkbook and Data-Center Credit Tighten; Memory Chips and Agent Plumbing Still Get Paid; Japan's Savings Head to Anthropic",
+    "summary": "The easy money behind AI infrastructure is getting more careful. Nvidia, the industry's most active startup investor, reports Nov 17 under an interim CEO who reportedly opposed financing its own customers, and data-center debt buyers just forced Blackstone's QTS to cut a deal by 60%. Capital is still flowing, but to bottlenecks: Fractile is worth $7B before shipping a chip because it gets around HBM, and LangChain and Graphon are valued for governing and remembering what agents do. Japan's version of the pattern is sharper: Rapidus's SRAM delay puts ¥700B of funding under review, Japanese savers are offered up to ¥553B of Anthropic, and the country's first AI-agent IPO prices at 2.8x sales.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 31 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 37,
+      "frontier": 95,
+      "note": "Unchanged. No new from-scratch Japanese run this week. Gennai's paid procurement from April 2027 creates demand, but mostly for small models and fine-tunes. Google meanwhile shows agent teams producing 1.8M-line formal proofs, a capability with no Japanese counterpart."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 14,
+      "frontier": 97,
+      "note": "Japan down one, frontier down two. Japanese savers are offered up to ¥553B of Anthropic and a record $16B of yen bonds went to foreign issuers, so domestic money is going abroad. US credit is also getting choosier: QTS cut its deal 60% and 87% of Fed survey contacts flag AI as a risk."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 25,
+      "frontier": 95,
+      "note": "Down two. Bloomberg and Jiji report Rapidus has no working 2nm SRAM and may slip mass production to FY2028, with ¥700B of FY2027 funding under review, while TSMC's 2nm has been in volume production since late 2025."
+    },
+    {
+      "label": "Early-stage AI venture formation and exits",
+      "jp": 29,
+      "frontier": 92,
+      "note": "Down one. Japan raised $1.6B across 350 rounds in January–September, only about 1.6x what LangChain and Fractile raised between them this week. TOKIUM, an AI-agent company, lists at only about 2.8x sales."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "funding",
+      "source": "TechCrunch",
+      "time": "Upcoming",
+      "headline": "Nvidia Reports Nov 17 Without Huang, and VCs Say Its Record 121-Deal Startup Habit Is the First Thing at Risk",
+      "dek": "Interim CEO Colette Kress has to defend a $108B guide, and she is also the executive who reportedly pushed back on Nvidia financing its own customers.",
+      "analysis": {
+        "happening": "Crunchbase counts about 121 Nvidia/NVentures startup deals in 2026, up from 91 in 2025 and 54 in 2024, and it led roughly one in five. Fiscal Q3 results come Nov 17, against a $108B ±2% revenue and 74% gross-margin guide that assumes no China. AMD fell 8.75% on Nov 13.",
+        "now": "The quarter's number carries little news. The exposure is pre-revenue infrastructure startups, which often raised about half of their GPU budgets from Nvidia at $1B+ valuations. Caveat: nothing has been cut yet, and Kress is interim.",
+        "future": "Listen for anything said about NVentures and investing in customers on the call, plus gross margin against 74%. Founders raising GPU-heavy rounds should line up hyperscaler credits or AMD backing now. Battery expects Google, Amazon, Microsoft and AMD to step into Nvidia's investor role."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "title": "Jensen Huang's departure blasts big hole in AI startup funding, VCs and founders say",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say"
+        },
+        {
+          "name": "Crunchbase News",
+          "title": "Crunchbase Data: Nvidia's Startup Funding Deals Hit A Record. What's Next After Huang?",
+          "url": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/"
+        },
+        {
+          "name": "Yahoo Finance",
+          "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
+          "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html"
+        },
+        {
+          "name": "Reuters via TradingView",
+          "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46U03Q:0-colette-kress-the-cfo-who-challenged-huang-s-bets-is-nvidia-s-interim-ceo/"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Venture Capital",
+        "Earnings"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Bloomberg",
+      "time": "Nov 13",
+      "headline": "Credit Pushes Back on AI Data Centers: 87% of Fed Survey Contacts Name AI a Top Risk, and Blackstone's QTS Cuts an $800M Debt Sale to $300M",
+      "dek": "Chip demand is fine, but funding costs are rising. ING's auction of $500M in data-center loans, which includes a slice of Stargate New Mexico, closes Nov 19.",
+      "analysis": {
+        "happening": "The Fed's Nov 13 Financial Stability Report: 87% of contacts call AI a salient risk, up from 50% in spring, and the report flags 'complex forms of AI-related financing'. QTS cut its private placement about 60% and priced a 7-year tranche at +245bp. ING is selling 12 data-center loans.",
+        "now": "Builders that depend on project debt, such as neoclouds and SPV-funded campuses, will pay more or slow down. Owners with strong balance sheets gain. Caveat: QTS held its terms and keeps its bank debt, so investors are pushing back on price, not shutting the market.",
+        "future": "Watch where ING's loans clear on Nov 19, which puts a market price on data-center credit risk, and watch CoreWeave and neocloud bond spreads. There is an opening for secondary trading and risk analytics on data-center debt."
+      },
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "title": "Blackstone-Backed QTS Slashes AI Debt Offering to $300 Million",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/blackstone-s-qts-is-cutting-ai-debt-sale-by-more-than-half"
+        },
+        {
+          "name": "CNBC",
+          "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+          "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
+        },
+        {
+          "name": "Bisnow",
+          "title": "Bank Reportedly Looking To Sell $500M In Data Center Loans Following Elections",
+          "url": "https://www.bisnow.com/news/national/data-center-capital-markets/ing-unloads-500m-in-data-center-loans-in-wake-of-midterms"
+        }
+      ],
+      "tags": [
+        "Data Centers",
+        "Private Credit",
+        "Fed"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "research",
+      "source": "Unemployment Labs",
+      "time": "Nov 12",
+      "headline": "A Solo Researcher Finds Blackwell Fingerprints in DeepSeek-V4-Flash's Open Weights (~1,385σ) as Congress Moves Chip Tracking Into the Defense Bill",
+      "dek": "Will DePue's 'checkpoint forensics' reads which GPUs initialized a model from its published weights, which gives export-control enforcement an outside check just as Washington pushes for location-tracked chips.",
+      "analysis": {
+        "happening": "Ex-OpenAI engineer Will DePue regenerates cuRAND/Philox initial weights. The GPU's streaming-multiprocessor (SM) count leaves a signature. Six Chinese models read as Blackwell, led by DeepSeek-V4-Flash at ~1,385σ, as do Kimi K3 and MiniMax-M3. Meanwhile Republicans want the Chip Security Act (processor location tracking) and AI Overwatch Act attached to the NDAA. Lutnick testifies Dec 10.",
+        "now": "Anyone can now audit hardware provenance from open weights, which matters to compliance teams vetting models. Caveats: it shows only the hardware that initialized the weights, not where the model trained or who owned the chips. Switching off cuRAND defeats it, and no code is released.",
+        "future": "Expect Chinese labs to switch to CPU-side initialization. If tracking mandates pass, chip-attestation and telemetry tooling becomes a market. A provenance-audit service for enterprise model vetting is buildable now."
+      },
+      "sources": [
+        {
+          "name": "Unemployment Labs",
+          "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs",
+          "url": "https://unemploymentlabs.com/checkpoint-forensics"
+        },
+        {
+          "name": "Hacker News",
+          "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+          "url": "https://news.ycombinator.com/item?id=50474883"
+        },
+        {
+          "name": "CNBC",
+          "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html"
+        },
+        {
+          "name": "The Korea Times (Reuters)",
+          "title": "China's access to Nvidia chips in doubt as curbs gain traction in US Congress",
+          "url": "https://www.koreatimes.co.kr/world/20261113/chinas-access-to-nvidia-chips-in-doubt-as-curbs-gain-traction-in-us-congress"
+        }
+      ],
+      "tags": [
+        "Export Controls",
+        "Open Weights",
+        "Forensics"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "research",
+      "source": "Google Research",
+      "time": "Nov 13",
+      "headline": "Google's Antigravity /teamwork Formalizes the Weil Conjectures in 1.8M Lines of Lean and Ports libgav1 to Rust That Runs 20–30% Faster Than the C++",
+      "dek": "The method is parallel agents whose output is accepted only by an independent checker, and it is live now with Gemini 4. Google is giving 10,000 academics six months of the top tier free.",
+      "analysis": {
+        "happening": "Google's Nov 13 post: /teamwork-LEAP produced a 1.8M-line Lean formalization of the Weil conjectures across 28,800 subagent calls, 919K lines on Hilbert's tenth problem, and ~50M lines for Courtade–Kumar. A 170K-line libgav1 Rust port is bit-exact. TPU kernels got 4.09x faster.",
+        "now": "The pattern carries to any field with a hard checker (proof assistant, test suite, profiler): give each agent narrow context, let the checker decide, and use critic agents with fresh context. Caveats: all numbers are Google's own, and Hacker News users report burning a week of Max-plan tokens in about two days.",
+        "future": "The formal-proof and Rust-rewrite workflows ship in later updates. Watch outside reproduction and whether other agent harnesses add checker and critic roles. Migrating legacy C/C++ is the clearest commercial wedge."
+      },
+      "sources": [
+        {
+          "name": "Google Research",
+          "title": "Advancing science & engineering with Antigravity's /teamwork",
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+        },
+        {
+          "name": "Hacker News",
+          "title": "Advancing science and engineering with Antigravity's /teamwork",
+          "url": "https://news.ycombinator.com/item?id=50496811"
+        },
+        {
+          "name": "Interesting Engineering",
+          "title": "Google's Antigravity agents formalise major mathematical proofs",
+          "url": "https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research"
+        }
+      ],
+      "tags": [
+        "Google",
+        "Agents",
+        "Formal Verification"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "funding",
+      "source": "Unite.AI",
+      "time": "Nov 13",
+      "headline": "Agent Plumbing Gets Priced: LangChain Raises $300M at $3B Led by CapitalG, as NY's RRE Leads a $35M Series A for Graphon Labs' Agent Memory",
+      "dek": "Investors are paying for the layers around agents, the governance gateway and persistent memory, more than for the frameworks that build them.",
+      "analysis": {
+        "happening": "CapitalG led LangChain's $300M Series C at $3B (2.4x its Series B). GIC and DFJ Growth are new, and Sequoia and Benchmark added to their stakes. LangSmith serves 7,000+ organizations. Graphon Labs, a spinout of Penn's GRASP lab, raised $35M led by RRE with HP and Hitachi Ventures, under six months after an $8.3M seed.",
+        "now": "Value is moving to the control plane: model budgets, tool authentication, data masking and memory that any model can query. That is familiar ground for AWS builders. Caveats: LangChain disclosed no revenue, and Graphon's 93.9% LoCoMo score is self-reported.",
+        "future": "LangSmith shows new gateway features Nov 20. Hitachi Rail is testing Graphon, which could make Japanese industry an early buyer. Watch whether 'agent governance' starts drawing seed rounds of its own."
+      },
+      "sources": [
+        {
+          "name": "Unite.AI",
+          "title": "LangChain Secures $300M Series C at $3B Valuation for Agent Governance",
+          "url": "https://www.unite.ai/langchain-secures-300m-series-c-at-3b-valuation-for-agent-governance/"
+        },
+        {
+          "name": "Pulse 2.0",
+          "title": "LangChain: $300 Million Series C Funding Led By CapitalG At $3 Billion Valuation To Expand AI Agent Platform",
+          "url": "https://pulse2.com/langchain-300-million-series-c-funding-led-by-capitalg-at-3-billion-valuation-to-expand-ai-agent-platform/"
+        },
+        {
+          "name": "VCPost",
+          "title": "Graphon Labs Raises $35 Million Series A Led by RRE Ventures to Build Persistent Memory for AI Agents",
+          "url": "https://www.vcpost.com/articles/130927/20261113/graphon-labs-raises-35-million-series-led-rre-ventures-build-persistent-memory-ai-agents.htm"
+        },
+        {
+          "name": "AI Weekly",
+          "title": "Graphon Labs raises $35M Series A from RRE Ventures to give AI agents long-term memory",
+          "url": "https://aiweekly.co/alerts/graphon-labs-raises-35m-series-a-from-rre-ventures-to-give-ai-agents-long-term"
+        }
+      ],
+      "tags": [
+        "Agents",
+        "Series A",
+        "Series C"
+      ]
+    },
+    {
+      "id": "g6",
+      "region": "global",
+      "cat": "hardware",
+      "source": "The Next Web",
+      "time": "Nov 11",
+      "headline": "Memory Is the Bet: Fractile Raises $720M at ~$7B Before Shipping a Chip, and Staera Gets a $4.6M Pre-Seed for On-Chip LED Interconnects",
+      "dek": "A sevenfold markup in six months shows that money for chips that get around HBM is now coming from both ends: crossover funds and a Singapore pre-seed.",
+      "analysis": {
+        "happening": "Fractile, based in London, raised a $720M Series C led by Thrive, Founders Fund, Lightspeed and Redpoint, plus BlackRock, CapitalG and the UK Sovereign AI fund, up from about $1B in May. It stacks DRAM on logic. Its first chip is due in 2027. Staera, a SMART spinout, claims under 0.2 pJ/bit links using micro-LEDs.",
+        "now": "With HBM sold out and getting pricier, anything that avoids it gets a premium. A $7B pre-silicon mark resets prices for inference-chip Series B rounds. Caveats: Fractile's 10x claim is unproven, the FT's report of Anthropic interest is unconfirmed, and Staera doesn't expect to ship before 2030.",
+        "future": "Watch for Fractile's tape-out and where it sources DRAM and fabrication, an open question that Japan's foundries could bid on. Expect copycat rounds in memory-centric inference chips."
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "title": "London's Fractile raises $720M for memory-first AI chips and hits $7B valuation",
+          "url": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips"
+        },
+        {
+          "name": "DatacenterDynamics",
+          "title": "UK chip startup Fractile valued at $7bn following $720m Series C funding round",
+          "url": "https://www.datacenterdynamics.com/en/news/uk-chip-startup-fractile-valued-at-7bn-following-720m-series-c-funding-round/"
+        },
+        {
+          "name": "e27",
+          "title": "Copper is choking AI. Staera secures US$4.6M to swap it for light",
+          "url": "https://e27.co/copper-is-choking-ai-staera-secures-us4-6m-to-swap-it-for-light-20261111/"
+        },
+        {
+          "name": "Semiconductor Today",
+          "title": "Staera Semiconductor raises $4.6m pre-seed funding",
+          "url": "https://semiconductor-today.com/news_items/2026/nov/staera-101126.shtml"
+        }
+      ],
+      "tags": [
+        "AI Chips",
+        "Inference",
+        "Photonics"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Bloomberg",
+      "time": "Nov 10-12",
+      "headline": "Rapidus Has No Working 2nm SRAM Yet and Weighs a One-Year Slip, Putting ¥700B of FY2027 Funding, ¥400B of It Bank Loans, Under Review",
+      "dek": "Japan's chip comeback now depends on whether METI and the megabanks keep paying while TSMC's 2nm is already in volume production.",
+      "analysis": {
+        "happening": "Bloomberg reports that Rapidus has not shown working SRAM cells, a milestone reportedly due by summer 2026. Jiji says it is weighing a move of mass production into FY2028. It plans to raise about ¥700B in FY2027: ¥300B public, ¥400B private loans. Rapidus says it is 'fully committed' to 2H FY2027.",
+        "now": "TSMC began 2nm volume production in late 2025, so a FY2028 start leaves Japan about 2.5–3 years behind on the same node. Customers won't commit without working SRAM. Caveat: the deadline comes from unnamed sources, not a published Rapidus milestone.",
+        "future": "Watch the FY2027 budget draft in December, formal approval of the megabank loans, and whether any of Rapidus's 17 partners signs a tape-out. GAA yield and defect-control tooling sells whether Rapidus hits its date or not."
+      },
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "title": "Japan's Rapidus Is Said Likely to Miss Mass Production Deadline",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/japan-s-rapidus-is-said-likely-to-miss-mass-production-deadline"
+        },
+        {
+          "name": "TrendForce",
+          "title": "[News] Rapidus Reportedly Months Behind on 2nm SRAM Development, March 2028 Mass Production Target at Risk",
+          "url": "https://www.trendforce.com/news/2026/11/10/news-rapidus-reportedly-months-behind-on-2nm-sram-development-march-2028-mass-production-target-at-risk"
+        },
+        {
+          "name": "The Japan Times",
+          "title": "Japan's Rapidus is said likely to miss mass production deadline",
+          "url": "https://www.japantimes.co.jp/business/2026/11/10/companies/rapidus-behind-schedule/"
+        }
+      ],
+      "tags": [
+        "Rapidus",
+        "2nm",
+        "METI"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Reuters",
+      "time": "Upcoming",
+      "headline": "Japanese Investors Are Offered Up to ¥553B of Anthropic Stock, About 2x What All Japanese Startups Raised in Nine Months",
+      "dek": "Japan has the savings. Through IPO tranches and record yen bonds, they are going to US frontier labs instead of domestic AI risk capital.",
+      "analysis": {
+        "happening": "Anthropic's Japan filing registers up to ¥552.9B (~$3.5B) of shares for Japanese buyers via Mizuho, Goldman and MUFG Morgan Stanley, with pricing on Nov 18. Foreign issuers sold a record $16B of yen bonds in April–September. FundingWatcher counts $1.6B across 350 Japanese venture rounds in January–September. The largest was CADDi at $114M.",
+        "now": "One US tranche is about twice Japan's nine-month venture total. Domestic capital exists. It just goes to the US frontier. Caveat: $3.5B is a registered ceiling, not a confirmed sale.",
+        "future": "Watch how much of the tranche Japanese buyers actually take after Nov 18, and whether brokers package retail access to US private AI. Feeder funds or crossover vehicles that bring some of this demand back to Japanese AI infrastructure are a pitchable gap."
+      },
+      "sources": [
+        {
+          "name": "Khaleej Times (Reuters)",
+          "title": "Anthropic plans to sell $3.5 billion of shares to Japan investors in IPO, filing shows",
+          "url": "https://www.khaleejtimes.com/business/anthropic-plans-to-sell-35-billion-of-shares-to-japan-investors-in-ipo-filing-shows"
+        },
+        {
+          "name": "Nikkei Asia",
+          "title": "Yen bond offerings hit record $16bn as AI funding race reaches Japan",
+          "url": "https://asia.nikkei.com/business/markets/bonds/yen-bond-offerings-hit-record-16bn-as-ai-funding-race-reaches-japan"
+        },
+        {
+          "name": "FundingWatcher",
+          "title": "Startup funding in Japan 2026: press figures",
+          "url": "https://fundingwatcher.com/press/startup-funding-2026/japan/"
+        }
+      ],
+      "tags": [
+        "Capital Flows",
+        "Anthropic IPO",
+        "Japan VC"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "funding",
+      "source": "BRIDGE",
+      "time": "Nov 16",
+      "headline": "TOKIUM Prices Japan's 'AI Agent' IPO Today at About ¥16.8B, Roughly 2.8x Sales, With 8,000 Human Operators Behind the Agent",
+      "dek": "Tokyo Growth values an accounting-agent business at about $110M. Comparable US agent startups raise at $1B+ before they list.",
+      "analysis": {
+        "happening": "TOKIUM sets its price Nov 16 and lists on TSE Growth Nov 25 (664A) at ¥1,570–1,620 a share, about ¥16.3–16.8B in market cap. FY5/26 revenue was ¥5.97B (+29.7%) on ¥75M operating profit. It handles about 250k cases a month with 8,000+ online operators. JAFCO, JIC, Nissay and Incubate funds hold roughly 46%.",
+        "now": "This gives Japan's market a reference price for 'AI agent' revenue: about 2.8x sales. Caveat: TOKIUM is AI plus human back-office outsourcing (BPO), not a pure software agent, so the comparison with US valuations is loose.",
+        "future": "Watch the first-day trade and VC lock-up selling. A weak debut after SmartNews's discounted IPO would push Japanese AI founders toward M&A or US listings. Undervalued Japanese agent-plus-operations companies look like targets for US acquirers or roll-ups."
+      },
+      "sources": [
+        {
+          "name": "BRIDGE",
+          "title": "経理AIエージェントのTOKIUM、東証グロース上場へ——想定時価総額は約168.4億円",
+          "url": "https://thebridge.jp/2026/10/tokium-tse-growth-ipo-approved"
+        },
+        {
+          "name": "Traders Web",
+          "title": "TOKIUM (664A) IPO",
+          "url": "https://www.traders.co.jp/ipo/664A"
+        },
+        {
+          "name": "TOKIUM",
+          "title": "東京証券取引所グロース市場への新規上場承認に関するお知らせ",
+          "url": "https://corp.tokium.jp/news/wr7peld2a9ew/"
+        }
+      ],
+      "tags": [
+        "IPO",
+        "AI Agents",
+        "TSE Growth"
+      ]
+    }
+  ]
+}

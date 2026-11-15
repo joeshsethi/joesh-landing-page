@@ -1,85 +1,100 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T20:06:05.000Z",
-  "dateLabel": "Sun · Nov 15 2026",
+  "generatedAt": "2026-11-15T20:13:08.361795Z",
+  "dateLabel": "Mon · Nov 16 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "golf",
-      "status": "upcoming",
-      "event": "DP World Tour Championship, Dubai – final round",
-      "line": "Tyrrell Hatton (-9) leads Victor Perez (-8) by one going into Sunday. Rory McIlroy and Race to Dubai leader Eugenio Chacarra are level at -5, so the round also decides the season title: McIlroy is chasing an eighth Order of Merit, which would equal Montgomerie's record.",
-      "whenJst": "Sun Nov 15 · 17:00 JST (leaders tee off; McIlroy 16:30)",
+      "sport": "soccer",
+      "status": "live",
+      "event": "UEFA Nations League A3: Spain vs England (Madrid)",
+      "line": "This match decides Group A3. Both teams are already through to the quarter-finals. Spain lead by three points with five wins from five, so England need a win of any margin to finish top. Tuchel called it 'winner takes it all', and Spain are unbeaten in a record 43 matches.",
+      "whenJst": "Mon Nov 16 · 04:45 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "DP World Tour Championship tee times: Full R4 pairings and UK start times for final round of Race to Dubai finale",
-          "url": "https://www.skysports.com/golf/news/13612182/dp-world-tour-championship-tee-times-full-r4-pairings-and-uk-start-times-for-final-round-of-race-to-dubai-finale"
+          "name": "ESPN",
+          "title": "Spain vs. England is 'winner takes it all' - Thomas Tuchel - ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/50470366/spain-vs-england-nations-league-thomas-tuchel"
         },
         {
-          "name": "Golf Today",
-          "title": "DP World Tour Championship 2026: Hatton Leads After Round 3",
-          "url": "https://golftoday.co.uk/dp-world-tour-championship-2026-r3-hatton-leads/"
+          "name": "Sky Sports",
+          "title": "Spain vs England - Live match updates",
+          "url": "https://www.skysports.com/football/spain-vs-england/live/554117"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "tennis",
-      "status": "upcoming",
-      "event": "ATP Finals, Turin – opening day: Zverev vs Jodar",
-      "line": "The season finale starts without defending champion Jannik Sinner, who is out with a knee injury. Top seed Alexander Zverev opens the McEnroe Group against Rafael Jodar, and Ben Shelton plays Arthur Fils in the night session (Mon 04:30 JST).",
-      "whenJst": "Sun Nov 15 · 22:00 JST",
+      "status": "live",
+      "event": "ATP Finals, Turin, Day 1: Shelton vs Fils (McEnroe Group)",
+      "line": "World No. 1 Zverev opened the ATP Finals by beating debutant Rafael Jodar 6-4 6-4. No. 3 seed Ben Shelton now plays the event debutant Arthur Fils in the night session. Sinner is missing this year with a knee injury.",
+      "whenJst": "Mon Nov 16 · 04:30 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "When will Alexander Zverev, Carlos Alcaraz play their first matches at the Nitto ATP Finals?",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule-sunday-monday"
+          "name": "Sky Sports",
+          "title": "ATP Finals: World No 1 Alexander Zverev begins campaign with convincing straight-sets victory over Rafael Jodar",
+          "url": "https://www.skysports.com/tennis/news/13612522/atp-finals-world-no-1-alexander-zverev-begins-campaign-with-convincing-straight-sets-victory-over-rafael-jodar"
         },
         {
-          "name": "Tennis Majors",
-          "title": "ATP Finals 2026: groups, schedule, format and how to watch - Tennis Majors",
-          "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html"
+          "name": "ATP Tour",
+          "title": "Zverev meets debutant Jodar, Shelton & Fils clash on Day 1 in Turin",
+          "url": "https://www.nittoatpfinals.com/en/news/zverev-jodar-shelton-fils-nitto-atp-finals-2026-day-1-preview"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Nations League: Spain vs England (Madrid)",
-      "line": "The group decider at the Metropolitano. Spain (15 pts, five wins from five) need only a draw to finish top, while second-placed England (12 pts) need a win for a better quarter-final draw. Both teams are already through, and Lamine Yamal is expected back.",
-      "whenJst": "Mon Nov 16 · 04:45 JST",
+      "event": "ATP Finals, Ivan Lendl Group: Alcaraz vs Tiafoe, then Medvedev vs Cobolli",
+      "line": "No. 2 seed Carlos Alcaraz, chasing his first Turin title without Sinner in the field, opens against Frances Tiafoe at 22:00 JST Monday. Medvedev vs Cobolli follows at 04:30 JST Tuesday. The final is on Sunday Nov 22.",
+      "whenJst": "Mon Nov 16 · 22:00 JST",
       "sources": [
         {
-          "name": "Al Jazeera",
-          "title": "Spain vs England: UEFA Nations League – predictions, how to watch, teams",
-          "url": "https://www.aljazeera.com/sports/2026/11/14/spain-england-uefa-nations-league-predictions-how-to-watch-teams"
+          "name": "ATP Tour",
+          "title": "Alexander Zverev, Carlos Alcaraz learn Nitto ATP Finals draw fate",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-draw"
         },
         {
-          "name": "England Football",
-          "title": "Match Centre: Spain v England, UEFA Nations League, Sunday 15 November 2026",
-          "url": "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2026-27/nations-league/spain-v-england-uefa-nations-league-sunday-15-november-2026-match-centre"
+          "name": "Tennis Majors",
+          "title": "ATP Finals 2026: groups, schedule, format and how to watch",
+          "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html"
         }
       ]
     },
     {
       "id": "s4",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "ATP Finals, Turin – Alcaraz vs Tiafoe",
-      "line": "Second seed and favourite Carlos Alcaraz opens his Lendl Group campaign against Frances Tiafoe (Alcaraz leads their head-to-head 2-1). Medvedev vs home hope Cobolli follows in the night session (Tue 04:30 JST).",
-      "whenJst": "Mon Nov 16 · 22:00 JST",
+      "event": "UEFA Nations League A2: Germany vs Netherlands (Berlin)",
+      "line": "Group A2 is decided in this match. The Netherlands top the group, three points ahead of Klopp's Germany, and a draw would give them first place. A German win would lift them into top spot.",
+      "whenJst": "Tue Nov 17 · 04:45 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "When will Alexander Zverev, Carlos Alcaraz play their first matches at the Nitto ATP Finals?",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule-sunday-monday"
+          "name": "ESPN",
+          "title": "Germany vs. Netherlands (Nov 16, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401861185/netherlands-germany"
         },
         {
+          "name": "UEFA",
+          "title": "UEFA Nations League Matchday 6 preview: Germany welcome Netherlands, Greece host Serbia",
+          "url": "https://www.uefa.com/uefanationsleague/news/02ab-221287e5a66c-f9855de4b857-1000--uefa-nations-league-matchday-6-preview-spain-host-england-i/"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "sport": "golf",
+      "status": "result",
+      "event": "DP World Tour Championship, Dubai: Hatton wins, McIlroy takes Race to Dubai",
+      "line": "Tyrrell Hatton closed with a 66 to win by five shots at 15 under. Runner-up Rory McIlroy held off Eugenio Chacarra (T3) to win a fifth straight Race to Dubai title, his eighth in all, equalling Colin Montgomerie's record.",
+      "whenJst": "Sun Nov 15 · ~23:00 JST",
+      "sources": [
+        {
           "name": "Sky Sports",
-          "title": "ATP Finals in Turin: Format, players, schedule, prize money and draw as Carlos Alcaraz leads the field at end-of-season event",
-          "url": "https://www.skysports.com/tennis/news/13610540/atp-finals-in-turin-format-players-schedule-prize-money-and-draw-as-carlos-alcaraz-leads-the-field-at-end-of-season-event"
+          "title": "DP World Tour Championship: Rory McIlroy snatches Race to Dubai title as Tyrrell Hatton claims big win in season finale",
+          "url": "https://www.skysports.com/golf/news/13612447/dp-world-tour-championship-rory-mcilroy-snatches-race-to-dubai-title-as-tyrrell-hatton-claims-big-win-in-season-finale"
         }
       ]
     }
