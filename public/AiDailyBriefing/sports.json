@@ -1,96 +1,81 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T20:13:08.361795Z",
-  "dateLabel": "Mon · Nov 16 2026",
+  "generatedAt": "2026-11-16T20:10:54.957Z",
+  "dateLabel": "Tue · Nov 17 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
       "status": "live",
-      "event": "UEFA Nations League A3: Spain vs England (Madrid)",
-      "line": "This match decides Group A3. Both teams are already through to the quarter-finals. Spain lead by three points with five wins from five, so England need a win of any margin to finish top. Tuchel called it 'winner takes it all', and Spain are unbeaten in a record 43 matches.",
-      "whenJst": "Mon Nov 16 · 04:45 JST",
+      "event": "Nations League: Germany v Netherlands",
+      "line": "Klopp's Germany need to beat the group leaders in Berlin. The Dutch are on 11 points, so a draw sends them into the quarter-finals as group winners. Germany and Greece both have 8 points, so a slip could push Germany into the playoffs.",
+      "whenJst": "Tue Nov 17 · 04:45 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Spain vs. England is 'winner takes it all' - Thomas Tuchel - ESPN",
-          "url": "https://www.espn.com/soccer/story/_/id/50470366/spain-vs-england-nations-league-thomas-tuchel"
+          "title": "Klopp urges Germany to trust long-term process ahead of crucial Netherlands clash",
+          "url": "https://www.espn.com/soccer/story/_/id/50492068/jurgen-klopp-germany-netherlands-nations-league"
         },
         {
-          "name": "Sky Sports",
-          "title": "Spain vs England - Live match updates",
-          "url": "https://www.skysports.com/football/spain-vs-england/live/554117"
+          "name": "ESPN",
+          "title": "Germany vs. Netherlands (Nov 16, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401861185/netherlands-germany"
         }
       ]
     },
     {
       "id": "s2",
       "sport": "tennis",
-      "status": "live",
-      "event": "ATP Finals, Turin, Day 1: Shelton vs Fils (McEnroe Group)",
-      "line": "World No. 1 Zverev opened the ATP Finals by beating debutant Rafael Jodar 6-4 6-4. No. 3 seed Ben Shelton now plays the event debutant Arthur Fils in the night session. Sinner is missing this year with a knee injury.",
-      "whenJst": "Mon Nov 16 · 04:30 JST",
+      "status": "upcoming",
+      "event": "ATP Finals: Zverev v Shelton",
+      "line": "A rematch of the US Open final. Both are 1-0 in the McEnroe Group: Zverev beat Jodar 6-4 6-4 and Shelton beat Fils in three sets. The winner nearly secures a Turin semi-final. Alcaraz won his opener 6-2 6-2 over Tiafoe.",
+      "whenJst": "Wed Nov 18 · 04:30 JST (not before)",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "ATP Finals: World No 1 Alexander Zverev begins campaign with convincing straight-sets victory over Rafael Jodar",
-          "url": "https://www.skysports.com/tennis/news/13612522/atp-finals-world-no-1-alexander-zverev-begins-campaign-with-convincing-straight-sets-victory-over-rafael-jodar"
+          "name": "ATP Tour",
+          "title": "Alexander Zverev, Carlos Alcaraz learn Nitto ATP Finals draw fate",
+          "url": "https://www.nittoatpfinals.com/en/news/nitto-atp-finals-2026-draw"
         },
         {
-          "name": "ATP Tour",
-          "title": "Zverev meets debutant Jodar, Shelton & Fils clash on Day 1 in Turin",
-          "url": "https://www.nittoatpfinals.com/en/news/zverev-jodar-shelton-fils-nitto-atp-finals-2026-day-1-preview"
+          "name": "Sky Sports",
+          "title": "ATP Finals in Turin: Format, players, schedule, prize money and draw as Carlos Alcaraz leads the field at end-of-season event",
+          "url": "https://www.skysports.com/tennis/news/13610540/atp-finals-in-turin-format-players-schedule-prize-money-and-draw-as-carlos-alcaraz-leads-the-field-at-end-of-season-event"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "ATP Finals, Ivan Lendl Group: Alcaraz vs Tiafoe, then Medvedev vs Cobolli",
-      "line": "No. 2 seed Carlos Alcaraz, chasing his first Turin title without Sinner in the field, opens against Frances Tiafoe at 22:00 JST Monday. Medvedev vs Cobolli follows at 04:30 JST Tuesday. The final is on Sunday Nov 22.",
-      "whenJst": "Mon Nov 16 · 22:00 JST",
+      "event": "Nations League: Denmark v Norway & Wales v Portugal",
+      "line": "These are the Group A4 finales, played at the same time. Haaland's Norway must win at Parken to take Denmark's quarter-final spot, while a draw is enough for Denmark. Portugal are already through and finish top if they avoid defeat in a sold-out Cardiff.",
+      "whenJst": "Wed Nov 18 · 04:45 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Alexander Zverev, Carlos Alcaraz learn Nitto ATP Finals draw fate",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-draw"
+          "name": "UEFA",
+          "title": "Nations League quarter-finals: Who is through? Who can join them? What is the state of play in each League A group?",
+          "url": "https://www.uefa.com/uefanationsleague/news/02ab-22096ba64f4d-f179d6d05013-1000--nations-league-quarter-finals-who-is-through-who-can-joi/"
         },
         {
-          "name": "Tennis Majors",
-          "title": "ATP Finals 2026: groups, schedule, format and how to watch",
-          "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html"
+          "name": "ESPN",
+          "title": "Wales vs. Portugal (Nov 17, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401861189/portugal-wales"
         }
       ]
     },
     {
       "id": "s4",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "UEFA Nations League A2: Germany vs Netherlands (Berlin)",
-      "line": "Group A2 is decided in this match. The Netherlands top the group, three points ahead of Klopp's Germany, and a draw would give them first place. A German win would lift them into top spot.",
-      "whenJst": "Tue Nov 17 · 04:45 JST",
+      "sport": "golf",
+      "status": "result",
+      "event": "DP World Tour Championship, Dubai",
+      "line": "Tyrrell Hatton won the finale by five shots after a closing 66. McIlroy finished second, which was enough to pass Eugenio Chacarra and win his eighth Race to Dubai title. That ties Colin Montgomerie's record and is McIlroy's fifth in a row.",
+      "whenJst": "Mon Nov 16 · finished",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Germany vs. Netherlands (Nov 16, 2026) Live Score - ESPN",
-          "url": "https://www.espn.com/soccer/match/_/gameId/401861185/netherlands-germany"
+          "title": "Rory McIlroy wins seasonlong Race to Dubai title - ESPN",
+          "url": "https://www.espn.com/golf/story/_/id/50489716/rory-mcilroy-wins-season-long-race-dubai-title"
         },
-        {
-          "name": "UEFA",
-          "title": "UEFA Nations League Matchday 6 preview: Germany welcome Netherlands, Greece host Serbia",
-          "url": "https://www.uefa.com/uefanationsleague/news/02ab-221287e5a66c-f9855de4b857-1000--uefa-nations-league-matchday-6-preview-spain-host-england-i/"
-        }
-      ]
-    },
-    {
-      "id": "s5",
-      "sport": "golf",
-      "status": "result",
-      "event": "DP World Tour Championship, Dubai: Hatton wins, McIlroy takes Race to Dubai",
-      "line": "Tyrrell Hatton closed with a 66 to win by five shots at 15 under. Runner-up Rory McIlroy held off Eugenio Chacarra (T3) to win a fifth straight Race to Dubai title, his eighth in all, equalling Colin Montgomerie's record.",
-      "whenJst": "Sun Nov 15 · ~23:00 JST",
-      "sources": [
         {
           "name": "Sky Sports",
           "title": "DP World Tour Championship: Rory McIlroy snatches Race to Dubai title as Tyrrell Hatton claims big win in season finale",
