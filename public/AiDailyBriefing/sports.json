@@ -1,75 +1,120 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T20:10:39.000Z",
-  "dateLabel": "Wed · Nov 18 2026",
+  "generatedAt": "2026-11-18T20:09:33.000Z",
+  "dateLabel": "Thu · Nov 19 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
-      "status": "live",
-      "event": "Nations League: Denmark v Norway",
-      "line": "This decides the last League A quarter-final place in Group A4. Denmark (9 pts) go through if they avoid defeat. Norway (6 pts) must win in Copenhagen, where Haaland's two goals settled the 3-2 reverse fixture. The loser goes into the A/B play-offs, and the quarter-final draw is on Nov 20.",
-      "whenJst": "Wed Nov 18 · 04:45 JST",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "Nitto ATP Finals, Turin: semi-finals and final",
+      "line": "Sinner is out with a knee injury, so the title is open. No. 1 Zverev is already into the semis. Alcaraz beat Medvedev 6-2 6-4 and is one result away from joining him. Semis are Sat 22:30 JST and Sun 04:30 JST; the final is Mon 02:00 JST.",
+      "whenJst": "Sat Nov 21 · 22:30 JST (SFs) / Mon Nov 23 · 02:00 JST (Final)",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "UEFA Nations League Matchday 6 preview: Portugal at Wales, Denmark host Norway",
-          "url": "https://www.uefa.com/uefanationsleague/news/02ab-221287e5a66c-f9855de4b857-1000--uefa-nations-league-matchday-6-preview-portugal-at-wales/"
+          "name": "ATP Tour",
+          "title": "Alcaraz eases past Medvedev, moves to brink of Turin SFs",
+          "url": "https://www.nittoatpfinals.com/en/news/alcaraz-medvedev-nitto-atp-finals-2026-wednesday"
         },
         {
-          "name": "Sky Sports",
-          "title": "Nations League 2026/27: England into quarter-finals but who will they play in last-eight in March?",
-          "url": "https://www.skysports.com/football/news/13611876/nations-league-2026-27-england-into-quarter-finals-but-who-will-they-play-in-last-eight-in-march"
+          "name": "ATP Tour",
+          "title": "Alexander Zverev shuts down Ben Shelton to seal Nitto ATP Finals SF berth",
+          "url": "https://www.atptour.com/en/news/zverev-shelton-nitto-atp-finals-2026-tuesday"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "tennis",
-      "status": "live",
-      "event": "ATP Finals: Zverev v Shelton",
-      "line": "Year-end No. 1 Alexander Zverev plays third seed Ben Shelton in Turin. Both men won their opening John McEnroe Group matches, so the winner takes a big step toward the semi-finals. Jannik Sinner is not playing because of a knee injury.",
-      "whenJst": "Wed Nov 18 · 04:30 JST",
+      "sport": "golf",
+      "status": "result",
+      "event": "DP World Tour Championship, Dubai: McIlroy wins eighth Race to Dubai",
+      "line": "Tyrrell Hatton won the finale by five shots. Rory McIlroy took solo second, which was just enough to beat Eugenio Chacarra in a desperately tight Race to Dubai. It is McIlroy's eighth season title, tying Colin Montgomerie's record.",
+      "whenJst": "Mon Nov 16 (final round finished)",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "What is the Nitto ATP Finals schedule?",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule"
+          "name": "Golf Channel",
+          "title": "Rory McIlroy wins eighth Race to Dubai title, ties all-time record",
+          "url": "https://www.golfchannel.com/dp-world-tour/news/rory-mcilroy-wins-eighth-race-to-dubai-title-ties-all-time-record"
+        },
+        {
+          "name": "The National",
+          "title": "Rory McIlroy claims historic eighth Race to Dubai after stunning duel in the desert with Eugenio Chacarra",
+          "url": "https://www.thenationalnews.com/sport/2026/11/15/rory-mcilroy-claims-historic-eighth-race-to-dubai-after-stunning-duel-in-the-desert-with-eugenio-chacarra/"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "tennis",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "ATP Finals: Alcaraz v Medvedev",
-      "line": "This is the marquee match in the Ivan Lendl Group, and both men are 1-0. Alcaraz beat Tiafoe 6-2, 6-2 and Medvedev beat home hope Cobolli in straight sets. The winner should all but secure a semi-final place in Turin.",
-      "whenJst": "Wed Nov 18 · 22:00 JST",
+      "event": "The RSM Classic, Sea Island (PGA Tour FedExCup Fall finale)",
+      "line": "This is the last PGA Tour event of 2026, and it decides who keeps a card for 2027. Ludvig Aberg makes his only fall start, Michael Brennan is the top-ranked player in the field, and Sami Valimaki is defending champion.",
+      "whenJst": "Thu Nov 19 · ~21:00 JST (R1) → final round ends Mon Nov 23 · ~07:00 JST",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "What were the Nitto ATP Finals results?",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
+          "name": "Golf Channel",
+          "title": "RSM Classic 2026 full field for Sea Island",
+          "url": "https://www.golfchannel.com/pga-tour/news/rsm-classic-2026-full-field-for-sea-island"
         },
         {
-          "name": "ATP Tour",
-          "title": "What is the Nitto ATP Finals schedule?",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule"
+          "name": "PGA Tour",
+          "title": "How the field qualified for The RSM Classic, FedExCup Fall",
+          "url": "https://www.pgatour.com/article/news/inside-the-field/2026/11/13/how-the-field-qualified-for-the-rsm-classic-fedexcup-fall"
         }
       ]
     },
     {
       "id": "s4",
-      "sport": "golf",
-      "status": "result",
-      "event": "DP World Tour Championship / Race to Dubai",
-      "line": "Tyrrell Hatton closed with a 66 to win the Dubai finale by five shots. Rory McIlroy finished solo second, which was enough for his eighth Race to Dubai title and ties Colin Montgomerie's record. McIlroy said he now wants 'double digits'.",
-      "whenJst": "Sun Nov 15 · 22:30 JST",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Premier League: Newcastle vs Arsenal",
+      "line": "Arsenal are unbeaten at 9-0-1 and five points clear at the top. Their trip to St James' Park is their toughest test of the title defence so far.",
+      "whenJst": "Sun Nov 22 · 02:30 JST",
       "sources": [
         {
-          "name": "Khaleej Times",
-          "title": "McIlroy wins record-equalling eighth Race to Dubai title",
-          "url": "https://www.khaleejtimes.com/sports/golf/mcilroy-wins-record-equalling-eighth-race-to-dubai-title-2"
+          "name": "ESPN",
+          "title": "Newcastle vs. Arsenal (Nov 21, 2026) Odds and Spread - ESPN",
+          "url": "https://www.espn.com/soccer/odds/_/gameId/401879232"
+        },
+        {
+          "name": "Sky Sports",
+          "title": "Mikel Arteta's hunger for Arsenal to retain the Premier League can help them defy the odds and maintain their standards",
+          "url": "https://skysports.com/football/news/13607189/mikel-artetas-hunger-for-arsenal-to-retain-the-premier-league-can-help-them-defy-the-odds-and-maintain-their-standards"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Premier League: Liverpool vs Manchester United",
+      "line": "Fifth-placed Liverpool host a Man United side that is in crisis in 18th place with 8 points. A defeat at Anfield would deepen their relegation-zone slump.",
+      "whenJst": "Mon Nov 23 · 01:30 JST",
+      "sources": [
+        {
+          "name": "ESPN",
+          "title": "Liverpool vs. Man Utd (Nov 22, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool"
+        },
+        {
+          "name": "Sky Sports",
+          "title": "Premier League fixtures on Sky Sports: Liverpool vs Man Utd and Arsenal vs Man City in November",
+          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "Davis Cup Final 8, Bologna",
+      "line": "Hosts and defending champions Italy face Korea in the quarters. The other ties are Czechia vs Canada and GB vs Germany, with Spain and Austria also in the field. The final is Sun Nov 29 at 23:00 JST.",
+      "whenJst": "Wed Nov 25 · 00:00 JST (first QF) → Sun Nov 29 · 23:00 JST (Final)",
+      "sources": [
+        {
+          "name": "Tennis Tour Talk",
+          "title": "Schedule Confirmed For 2026 Davis Cup Final 8",
+          "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
         }
       ]
     }
