@@ -1,385 +1,400 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T20:09:17.000Z",
+  "generatedAt": "2026-11-19T20:12:12.000Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Thu · Nov 19 2026",
-    "editionLine": "EDITION No.556 · SYNCED 05:09 JST",
+    "dateLabel": "Fri · Nov 20 2026",
+    "editionLine": "EDITION No.557 · SYNCED 05:12 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Today's through-line: AI work keeps getting cheaper, which makes it cheaper to attack too, so the money is moving to whatever makes agents trustworthy and affordable to run at scale.",
-    "briefingTitle": "A $200 Java Exploit, a Hijacked Agent SDK, and Nvidia's Old GPUs Re-Leasing at 2x",
-    "summary": "AI is cheapening both attack and defense: a researcher used Codex to find a Log4Shell-scale Java bug for under $200, and on the same day Microsoft's official agent SDK on PyPI was hijacked to steal cloud keys. Compute is not getting cheaper the same way: Nvidia says three-year-old Hoppers are re-leasing at up to 2x, but it is also capping how much neocloud debt it will guarantee. That leaves the opening in efficiency and plumbing. A 27,280-run benchmark found 64.5% of agent spend goes to failed runs, and LanceDB raised $57.5M to be the data layer under video models. Japan is benefiting as a supplier (Advantest, foreign-owned data centers) and building Japan-specific layers like ringi agents, while its defense rules for AI are only now being written.",
+    "intro": "Today's through-line: the value is moving from the general model to what's built around it: per-customer tuning, cheap agent infrastructure, and local data the frontier labs don't have.",
+    "briefingTitle": "A $4.5B Exit for Post-Training, AI-Designed GPU Logic, and Japan's Finance-Exam Gap",
+    "summary": "General models are commoditizing, and the money is going to what's built around them. Palo Alto paid $4.5B for a year-old startup that tunes open models on each customer's own data, and Gemini 4 Neon matches a top-tier coding score at about half the cost per task. The tools around agents are getting cheaper too: Mastra open-sourced its agent software factory and Maritime charges $1 a month for an always-on agent VM. The physical side is the real constraint: only 22% of reported US data-center load is signed, and utilities want 10-20 year commitments. Japan's openings are local: Sakana's finance benchmark shows models miss on Japanese law, not math, and STRACT is betting on agents that shop across Japan's e-commerce sites, while Japan's AI stocks still trade on US sentiment.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 29 sources"
+    "footerRight": "9 stories · 32 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
-      "jp": 35,
+      "jp": 34,
       "frontier": 95,
-      "note": "Unchanged. Sakana's first from-scratch pretrain (Sawara Small) doesn't start until December, and Japan's best models are still post-trained on Llama, DeepSeek or Qwen. OVHcloud's Olala shows a European cloud can train its own model on public supercomputer time. No Japanese cloud has done that yet."
+      "note": "Down 1. Sakana's JFinBench tested 12 models on Japan's own finance exams and none were Japanese, so there is still no public score for domestic models. Retrieval over e-Gov statutes closes most of the gap, which favors data owners over model builders. Sawara Small pretraining still starts in December."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
       "jp": 14,
       "frontier": 97,
-      "note": "Unchanged. Digital Realty's $10B plan (about 700MW over a decade, with Mitsubishi) adds capacity, but the capital is foreign. Meanwhile Nvidia disclosed $118B of US guarantees and Japan has no domestic backstop at anything like that scale."
+      "note": "Unchanged. Japan's AI-linked stocks lost their premium this week (Kioxia and Advantest down 9%+), which shows Japanese capital follows US capex sentiment rather than leading it. Meanwhile US utilities want AI campuses to post 10-20 year grid collateral, a level of private balance-sheet commitment Japan's buildout hasn't been tested on."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
       "jp": 25,
       "frontier": 95,
-      "note": "Unchanged. Japan's equipment makers rallied on Nvidia's results (Advantest +4.6%), but that reflects supplier strength, not fabrication. Rapidus 2nm volume is still FY2027–28 with no anchor customer, and Thailand is now pitching to host its back-end work."
+      "note": "Unchanged. Orders for chip tools and computers rose 71% to ¥3.47T in July–September, but that is supplier strength, not fabrication. OpenAI and AMD now have AI rewriting GPU RTL, and Rapidus still has no anchor customer for 2nm."
     },
     {
       "label": "Early-stage AI venture formation and exits",
       "jp": 31,
-      "frontier": 92,
-      "note": "Unchanged. kickflow's ¥1.06B Series A (SMBC VC, Money Forward) is a typical Japanese AI round, about $7M. In the US this week, LanceDB raised $57.5M and Isomorphic raised $5B, and Norwest closed a $4B fund aimed at early-stage AI."
+      "frontier": 93,
+      "note": "Frontier up 1. Applied Compute sold to Palo Alto for $4.5B about a year after founding, and US Series A dollars reached $42B through October. Japan's week: STRACT ~¥1.2B and PulmoGate ¥330M, real but small. Felo, which raised a ¥1.5B Series A, is down 93% from its peak after Google localized AI Mode."
     }
   ],
   "items": [
     {
       "id": "g1",
       "region": "global",
-      "cat": "hardware",
-      "source": "Nvidia earnings call",
-      "time": "Nov 17",
-      "headline": "Nvidia Says Three-Year-Old Hopper GPUs Are Re-Leasing at Up to 2x Their Original Price, and Discloses $118B of Guarantees It Will Now Extend More Carefully",
-      "dek": "The earnings call answered the financing scare with two figures that matter more than revenue: older GPUs are holding their rental value, and Nvidia's credit backing for data centers has a limit.",
+      "cat": "funding",
+      "source": "SiliconANGLE",
+      "time": "Nov 18",
+      "headline": "Palo Alto Networks Buys Year-Old Applied Compute for $4.5B in Stock, Two Days After Menlo Leads a $110M Launch Round for Noeri's Self-Improving Enterprise AI",
+      "dek": "The thesis that open models tuned on each company's own data can make money now has an exit price, and Stanford researchers are raising nine figures on the same bet.",
       "analysis": {
-        "happening": "Nvidia guided Q4 to $130B with a 71–72% gross margin, which it called the bottom. It said Hopper capacity is being re-leased at up to 2x the original price and B300 rental rates are up more than 60% since launch. Maximum guarantee exposure is $118B: $105B for OpenAI's Ohio campus and $32B in neocloud commitments.",
-        "now": "Rising rental prices for older GPUs weaken the depreciation bear case behind neocloud debt. The bigger signal is the CFO saying Nvidia is 'rigorously evaluating' new guarantees: smaller clouds without hyperscaler contracts lose their backstop. Caveat: 'up to 2x' is a best case. Ornn's index has H100s up 9.3% in a month.",
-        "future": "Watch neocloud debt pricing and whether any new Nvidia-backed deals appear in Q4. Watch too whether compute futures get approved, so GPU rental prices become hedgeable. Financing and hedging tools for older GPUs are a real opening."
+        "happening": "Palo Alto is paying ~$4.5B in stock for Applied Compute, founded in 2025 by three ex-OpenAI researchers. It post-trains open-weight models, has $100M+ ARR (Microsoft, DoorDash), and raised at $3.25B this month. Noeri, from Yejin Choi and Carlos Guestrin, raised $110M led by Menlo (Madrona, Wing, NEA; Snowflake and Cisco strategic).",
+        "now": "Buyers are paying for specializing a model to each customer, not for building general models. A security company bought one because tuning on private data has become a data-governance product. Caveat: the deal is all stock and still needs regulatory approval. Noeri has published no customers, revenue or pricing.",
+        "future": "Watch CrowdStrike, Zscaler or Cisco for answering deals. Post-training startups with real ARR, like Remanence, are now acquisition targets. Builder gap: the human-approval and evaluation layer that every self-improving system depends on."
       },
       "sources": [
         {
-          "name": "The Motley Fool",
-          "title": "NVIDIA (NVDA) Q3 2027 Earnings Call Transcript",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/18/nvidia-nvda-q3-2027-earnings-call-transcript/"
+          "name": "SiliconANGLE",
+          "title": "Palo Alto Networks bets $4.5B on AI startup Applied Compute as earnings top forecasts",
+          "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/"
         },
         {
-          "name": "SEC EDGAR (NVIDIA 8-K)",
-          "title": "NVIDIA CORP - Form 8-K - Q3 FY27 press release",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+          "name": "SecurityWeek",
+          "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+          "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/"
         },
         {
-          "name": "Futurum",
-          "title": "NVIDIA's Credit Support Buys Exclusivity at OpenAI's Ohio Data Center",
-          "url": "https://futurumgroup.com/insights/nvidias-credit-support-buys-exclusivity-at-openais-ohio-data-center/"
+          "name": "SiliconANGLE",
+          "title": "Noeri raises $110M to help companies build living AI systems that self-improve over time",
+          "url": "https://siliconangle.com/2026/11/16/noeri-raises-110m-to-help-companies-build-living-ai-systems-that-self-improve-over-time/"
         },
         {
-          "name": "Yahoo Finance",
-          "title": "Nebius CEO Admits Neocloud Financing Has Tightened, Says Company Has Enough To Build Its Gigawatt",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-ceo-admits-neocloud-financing-041453980.html"
+          "name": "Pulse 2.0",
+          "title": "Noeri Launches With $110 Million To Build Self-Improving Enterprise AI",
+          "url": "https://pulse2.com/noeri-launches-with-110-million-to-build-self-improving-enterprise-ai/"
         }
       ],
       "tags": [
-        "Nvidia",
-        "GPU pricing",
-        "Neoclouds",
-        "Credit"
+        "M&A",
+        "Post-training",
+        "Menlo Ventures",
+        "Open-weight models"
       ]
     },
     {
       "id": "g2",
       "region": "global",
       "cat": "research",
-      "source": "The Record",
-      "time": "Nov 17",
-      "headline": "'Java4Shell': A Researcher Used Codex to Find a Remote-Code-Execution Bug in OpenJDK for Under $200, and OpenAI's New Models Are Rated 'Critical' for Cyber",
-      "dek": "AI found a bug at Log4Shell scale for about the cost of dinner, the same week OpenAI's own system card put GPT-6.2 at its highest cyber-risk level.",
+      "source": "OpenAI",
+      "time": "Nov 18",
+      "headline": "OpenAI Says Its Models Rewrote Parts of AMD's Flagship GPU for Up to 14% PPA Gains and Cut a Multiplier's Area ~15% on Its Own Jalapeño Chip",
+      "dek": "LLM-edited RTL has now gone into a design sent for manufacturing, and OpenAI is co-developing a 'GPT-Synopsys' to run EDA tools.",
       "analysis": {
-        "happening": "CVE-2026-114938 is a memory-corruption bug in HotSpot's hand-written AVX-512 Base64 assembly that affects Java 17–27. Calif's researcher found it with Codex in about an hour, wrote an exploit about two hours later, and spent under $200 in tokens. CISA issued an alert and Oracle patched. OpenAI's GPT-6.2 card rates Astra 'Critical' for cyber, at 53.5% on ExploitBench, up from 31.5%.",
-        "now": "Finding deep runtime bugs is now cheap enough for anyone, attacker or auditor. Patch Java on AVX-512 VBMI x86 hosts; ARM64 is unaffected. Caveats: the '90% of the Fortune 500' reach is Calif's own claim, and no exploitation in the wild has been confirmed.",
-        "future": "Watch for the bug on CISA's Known Exploited Vulnerabilities list. Reflection AI has already put its own pen-testing agent behind vetted access. One opening: AI audits of hand-tuned assembly and intrinsics in V8, .NET and Go, which nobody is covering systematically."
+        "happening": "OpenAI says its models rewrote SystemVerilog blocks in AMD's flagship GPU for up to 14% power/performance/area gains over AMD's tuned designs. Some changes went into a taped-out design. On OpenAI's Jalapeño inference chip, one multiplier used about 15% less cell area and went from two clock cycles to one, confirmed at silicon bring-up.",
+        "now": "This is AI improving the hardware AI runs on, now in production designs. The commercial threat is to how Synopsys and Cadence price their tools. Caveat: these are self-reported best cases for individual blocks, there is no full-chip silicon data, and outlets quote different per-block percentages.",
+        "future": "Watch whether AMD confirms the gains on shipping silicon, how EDA vendors price agent seats, and EDA startups built on verify-then-rewrite loops. Expect the same pattern to reach PCB and FPGA design next."
       },
       "sources": [
         {
-          "name": "The Record",
-          "title": "CISA warns of 'Java4Shell,' an AI-found Java bug touching most of the Fortune 500",
-          "url": "https://therecord.media/cisa-issues-java4shell-alert"
+          "name": "OpenAI",
+          "title": "Advancing chip design with our models",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
         },
         {
-          "name": "Tenable",
-          "title": "Java4Shell (CVE-2026-114938): OpenJDK RCE Vulnerability FAQ",
-          "url": "https://www.tenable.com/blog/java4shell-cve-2026-114938-frequently-asked-questions-about-openjdk-rce-vulnerability"
+          "name": "The Next Web",
+          "title": "OpenAI says its AI found 14% gains in AMD's flagship GPU design",
+          "url": "https://thenextweb.com/news/openai-models-amd-gpu-chip-design-14-percent"
         },
         {
-          "name": "heise online",
-          "title": "GPT-6.2 Astra: OpenAI warns of new risks from AI self-improvement",
-          "url": "https://www.heise.de/en/news/GPT-6-2-Astra-OpenAI-warns-of-new-risks-from-AI-self-improvement-11529050.html"
-        },
-        {
-          "name": "Axios",
-          "title": "Exclusive: Reflection AI gates new cyber capabilities",
-          "url": "https://www.axios.com/2026/11/17/reflection-cybersecurity-gated-access-tools"
+          "name": "Unite.AI",
+          "title": "OpenAI Reports Model-Driven Gains in AMD Flagship Chip Designs",
+          "url": "https://www.unite.ai/openai-reports-model-driven-gains-in-amd-flagship-chip-designs/"
         }
       ],
       "tags": [
-        "Cybersecurity",
-        "Codex",
-        "Java",
-        "OpenAI"
+        "OpenAI",
+        "AMD",
+        "EDA",
+        "Chip design"
       ]
     },
     {
       "id": "g3",
       "region": "global",
-      "cat": "research",
-      "source": "The Register",
+      "cat": "launches",
+      "source": "Google",
       "time": "Nov 18",
-      "headline": "Microsoft's Official Python Agent SDK Was Hijacked on PyPI With a Credential Stealer That Ran on Every Python Start",
-      "dek": "Versions 1.26.1 and 1.26.2 of agent-framework were published with valid credentials and took cloud, npm and GitHub Actions secrets. This is the first big supply-chain attack on an official agent SDK.",
+      "headline": "Gemini 4 Neon Launches at $3/$15 and Tops Artificial Analysis' Coding Agent Index, at About Half Carbon's Cost per Task Before Carbon's Price Doubles Dec 1",
+      "dek": "Google's mid-tier model makes the expensive tier hard to justify for agent workloads, and puts pressure on GPT-6.2 Astra's $8/$40.",
       "analysis": {
-        "happening": "On Nov 17, two malicious releases went up 33 minutes apart. The package gets about 190–200K downloads a month. A .pth hook ran on every interpreter start, even without an import, and sent env vars, Azure, Docker and npm credentials, plus (in 1.26.2) GitHub Actions OIDC tokens, to webhook.site. Microsoft has since taken related repos private.",
-        "now": "Agent toolchains sit right next to the keys that matter. If you installed it Nov 17: pin 1.26.0, look for agent_framework_meta.pth or af_runtime_diag.pth, and rotate your secrets. Caveat: the missing ONNX Runtime repo has not been officially linked to the attack.",
-        "future": "Watch Microsoft's post-mortem on the suspected GitHub org-admin compromise, and whether PyPI requires trusted publishing for large AI packages. One opening: install-time .pth scanners and dependency firewalls built for agent stacks."
+        "happening": "Neon shipped Nov 18 with 1M context at $3 in / $15 out per million tokens. It ranks #1 on AA's Coding Agent Index and scores 65.2% on Terminal-Bench 4.1. Third-party tests put it at about $3.74 per task against Carbon's $7.76 for the same score. Carbon's introductory $2/$10 rises to $4/$20 on Dec 1.",
+        "now": "Price per completed task is now what matters, and mid-tier models are reaching top-tier scores. Re-benchmark any agent routing before Dec 1. Caveat: most numbers are vendor-reported and depend on the thinking level, and cyber capabilities are restricted to Google's Fairwind program.",
+        "future": "Watch whether OpenAI cuts Astra's price, and for agent results run outside Google's own harness. Routing layers that switch models by cost per task gain value as these price gaps widen every few weeks."
       },
       "sources": [
         {
-          "name": "The Register",
-          "title": "Microsoft's official Python agent framework hijacked to distribute malware",
-          "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858"
+          "name": "Google Blog",
+          "title": "Introducing Gemini 4 Neon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
         },
         {
-          "name": "Socket",
-          "title": "Microsoft's agent-framework PyPI package Compromised with Credential Stealer",
-          "url": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer"
+          "name": "DataCamp",
+          "title": "Gemini 4 Neon: Features, Benchmarks, Pricing, and Access",
+          "url": "https://www.datacamp.com/blog/gemini-4-neon"
         },
         {
-          "name": "Aikido",
-          "title": "Two malicious agent-framework releases hit PyPI in 33 minutes",
-          "url": "https://aikido.dev/blog/two-malicious-agent-framework-releases-hit-pypi-in-33-minutes"
+          "name": "Bito",
+          "title": "Gemini 4 Neon vs Carbon and Hydrogen for coding: Carbon's score in less than half the time",
+          "url": "https://bito.ai/blog/gemini-4-neon-vs-carbon-hydrogen/"
         }
       ],
       "tags": [
-        "Supply chain",
-        "Agents",
-        "Microsoft",
-        "Security"
+        "Google",
+        "Gemini",
+        "Pricing",
+        "Agents"
       ]
     },
     {
       "id": "g4",
       "region": "global",
-      "cat": "funding",
-      "source": "Bessemer Venture Partners",
-      "time": "Nov 17",
-      "headline": "LanceDB Raises $57.5M (Bessemer, Innovation Endeavors) as Its Open-Source Format Becomes the Training-Data Layer for Runway, Midjourney and Microsoft AI",
-      "dek": "Video and world-model labs need somewhere to store and load petabytes of multimodal data, and a YC-backed SF startup is filling that gap ahead of Databricks.",
+      "cat": "launches",
+      "source": "Mastra / Hacker News",
+      "time": "Nov 18",
+      "headline": "Mastra Open-Sources the Agent 'Software Factory' That Lifted Its Merged PRs per Engineer 78% and Closes Its Repo to Outside PRs, as YC's Maritime Sells Always-On Agent VMs for $1 a Month",
+      "dek": "The issue-to-PR pipeline that Cognition and others sell is now free to self-host, and keeping an agent's computer running full-time now costs almost nothing.",
       "analysis": {
-        "happening": "Bessemer and Innovation Endeavors co-led the $57.5M Series B, with Theory, CRV and YC joining; total raised is $98.5M. LanceDB reports revenue up more than 10x since its June 2025 Series A and 120M+ downloads of the Lance library. Named users include Netflix, Microsoft AI, Runway, Luma, Midjourney and Nvidia Cosmos.",
-        "now": "Behind the video and robotics boom: Parquet-era tooling wasn't built for curating video frames and sensor logs at training scale. Investors are funding the data layer, not another model. Caveat: the growth and customer figures are company-reported, and no valuation was disclosed.",
-        "future": "Watch whether Databricks or Snowflake ship native multimodal formats. Lance is open source, so you can try it today. One idea to build: curation or labeling tools on top of Lance datasets for robotics teams."
+        "happening": "Factory moves issues from GitHub, Linear or Jira through Triage, Plan, Build and Review, each in an E2B microVM. Mastra's figures: merged PRs per engineer rose from 9.5 to 16.9 a week, and median triage fell from 6.9 hours to 11 minutes. Maritime (YC F26) gives each agent a persistent microVM for $1/month.",
+        "now": "Mastra now wants reproducible bug reports, not outside code. That's a real change in how open-source maintainers work. Compute for agents is becoming a commodity, so the value is in orchestration. Caveat: all metrics are self-reported, and HN commenters raised doubts about the plan phase and about Maritime's snapshot and patching safety.",
+        "future": "Watch whether other big repos stop taking outside PRs, and whether Factory adds Claude Code and Codex support. Builder idea: Factory-style intake for Backlog/Jira-heavy Japanese SI teams, running on cheap per-tenant agent VMs."
       },
       "sources": [
         {
-          "name": "Bessemer Venture Partners",
-          "title": "LanceDB: The data layer for multimodal AI",
-          "url": "https://www.bvp.com/news/lancedb-the-data-layer-for-multimodal-ai"
+          "name": "Mastra",
+          "title": "Announcing New Capabilities in Mastra Factory",
+          "url": "https://mastra.ai/blog/announcing-new-capabilities-in-mastra-factory"
         },
         {
-          "name": "Unite.AI",
-          "title": "LanceDB Raises $57.5M Series B to Expand Its Multimodal AI Lakehouse",
-          "url": "https://www.unite.ai/lancedb-raises-57-5m-series-b-to-expand-its-multimodal-ai-lakehouse/"
+          "name": "Hacker News",
+          "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+          "url": "https://news.ycombinator.com/item?id=50548660"
         },
         {
-          "name": "MLQ.ai",
-          "title": "LanceDB raises nearly $58 million to manage AI training data for Microsoft, Netflix and Runway",
-          "url": "https://mlq.ai/news/lancedb-raises-nearly-58-million-to-manage-ai-training-data-for-microsoft-netflix-and-runway/"
+          "name": "Hacker News",
+          "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+          "url": "https://news.ycombinator.com/item?id=50549188"
+        },
+        {
+          "name": "Fondo",
+          "title": "Maritime gives AI agents persistent computers, starting at $1 monthly",
+          "url": "https://fondo.com/blog/maritime-gives-ai-agents-persistent-computers-starting-at-1-monthly"
         }
       ],
       "tags": [
-        "Open source",
-        "Data infra",
-        "Bessemer",
-        "Series B"
+        "Agents",
+        "Open Source",
+        "YC",
+        "DevTools"
       ]
     },
     {
       "id": "g5",
       "region": "global",
-      "cat": "research",
-      "source": "Runta",
-      "time": "Nov 17",
-      "headline": "A 27,280-Run Benchmark Finds 64.5% of Coding-Agent Spend Goes to Failed Runs, and YC's StarSling Sells Agents That Tune Your CI",
-      "dek": "Both point to the same thing: on agent workloads, the savings are in stopping doomed runs and speeding up the pipeline, not in choosing a fancier harness.",
+      "cat": "hardware",
+      "source": "Latitude Media",
+      "time": "Nov 18",
+      "headline": "Only 22% of the Data-Center Load US Utilities Report Is Signed, and They Now Want FERC to Lock AI Campuses Into 10-20 Year Grid Contracts",
+      "dek": "Utilities are asking data centers to pay for grid upgrades years before they draw power, which makes a speculative grid-queue position expensive to hold.",
       "analysis": {
-        "happening": "Runta and Baseten ran 22 harness configurations on 5 open models across 62 terminal tasks, using 83B tokens. The model explained 92.8% of cost variance and the harness only 2.3%. Best value was Codex CLI with GLM-5.3 at $0.80 per pass. StarSling (YC) runs CI on microVMs at $0.008/min, and its agents A/B-test pipeline changes. Mastra's slowest workflow fell from 30 to 5 minutes.",
-        "now": "Pick the model first, then the harness: Codex CLI ranked 1st on GLM-5.3 but 16th on Kimi-K3. Caveats: Runta used one inference provider and default settings, with no closed models. StarSling's speedups are its own figures, and HN commenters asked whether inference costs cancel the savings on small repos.",
-        "future": "Runta says closed models such as Opus 5.5 come next. The opening nobody has tested: a 'kill switch' that predicts a failing agent run early and stops it. Also watch whether GitHub builds pipeline-tuning agents in natively."
+        "happening": "In Nov 16 filings, PJM utilities proposed data centers pay for 80%+ of requested transmission for 10+ years, with collateral rising to 100%. California and New York proposed 15 years, MISO up to 20. Latitude counts 120 GW of signed load against 537 GW that utilities report.",
+        "now": "About 78% of the announced AI power pipeline has no contract, so headline capex overstates what gets built. Long minimum bills favor developers with real tenants and make signed grid connections more valuable. Caveat: nothing is final. Comments are due Dec 7, and FERC rejected most of PJM's earlier plan in October.",
+        "future": "Expect more on-site generation (turbines, fuel cells, geothermal). Google signed a 50 MW superhot-geothermal PPA with JERA-backed Quaise this week. Opening: tools that assess load contracts and grid-queue positions for data-center buyers and lenders."
       },
       "sources": [
         {
-          "name": "Runta",
-          "title": "Introducing FrontierHarness Eval v1.1",
-          "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/"
+          "name": "Latitude Media",
+          "title": "Utilities want FERC to lock data centers into paying for grid upgrades",
+          "url": "https://www.latitudemedia.com/news/utilities-want-ferc-to-lock-data-centers-into-paying-for-grid-upgrades/"
         },
         {
-          "name": "Hacker News",
-          "title": "What is the best harness for each model?",
-          "url": "https://news.ycombinator.com/item?id=50532191"
+          "name": "Tech Times",
+          "title": "Latitude Finds Data Center Power Contracts Cover 22% of Reported Load as Utilities Seek Power Plants",
+          "url": "https://www.techtimes.com/articles/330794/20261116/latitude-finds-data-center-power-contracts-cover-22-reported-load-utilities-seek-power-plants.htm"
         },
         {
-          "name": "Hacker News",
-          "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
-          "url": "https://news.ycombinator.com/item?id=50536468"
+          "name": "mgrid",
+          "title": "Utilities Seek FERC Approval for Long-Term Data Center Grid Upgrade Contracts",
+          "url": "https://mgrid.org/2026/11/19/utilities-seek-ferc-approval-for-long-term-data-center-grid-upgrade-contracts/"
         },
         {
-          "name": "Y Combinator",
-          "title": "Launch YC: StarSling Runners - Self-Driving CI",
-          "url": "https://www.ycombinator.com/launches/R7B-starsling-runners-self-driving-ci"
+          "name": "Utility Dive",
+          "title": "Google signs 50-MW superhot geothermal PPA with Quaise Energy",
+          "url": "https://www.utilitydive.com/news/google-signs-50-mw-superhot-geothermal-ppa-with-quaise-energy/875217/"
         }
       ],
       "tags": [
-        "Coding agents",
-        "Benchmarks",
-        "YC",
-        "DevTools"
+        "Power",
+        "FERC",
+        "Data centers",
+        "Geothermal"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
       "cat": "funding",
-      "source": "BRIDGE (thebridge.jp)",
-      "time": "Nov 16",
-      "headline": "kickflow Raises ¥1.06B (SMBC VC, Money Forward, GMO) to Make Japan's Ringi Approval Workflow AI-Native, and Ships an MCP Server So Outside Agents Can Use It",
-      "dek": "AI agents are getting into Japanese companies through the ringi approval chain, a Japan-specific workflow that US software vendors don't localize.",
+      "source": "Nikkei / PR TIMES",
+      "time": "Nov 18",
+      "headline": "STRACT Raises ~¥1.2B to Launch DONDO, a Shopping Agent That Works Across Japan's E-Commerce Sites, a Day After Google Made Gemini Tasks Free in Japan",
+      "dek": "A Japanese shopping agent is competing with Google's agent checkout in the same week, and new search data shows how quickly Google beat Japan's last AI-search startup.",
       "analysis": {
-        "happening": "On Nov 16, kickflow announced ¥1.06B: about ¥700M of new shares plus ¥360M secondary, from SMBC VC, GMO, Money Forward and MS&AD's CVC. It routes ringi approvals for mid-to-large firms; Kobayashi Pharmaceutical runs about 2,000 requests a month through it. It reports 99.76% retention and now adds AI drafting and checking plus an MCP server.",
-        "now": "US agent startups raise $20–50M seeds, while Japan's equivalent raises about $7M. But kickflow owns a workflow global vendors don't touch, and its MCP server lets Claude or ChatGPT agents act inside Japanese approval chains. Caveat: the round is small, and the Money Forward approval-to-payment link is still in development.",
-        "future": "Watch whether Sansan, freee or HENNGE publish MCP servers too. The gap to build into: an agent that runs a request end to end, from ringi to accounting to ERP, for Japanese mid-caps."
+        "happening": "STRACT turned its PLUG app (3M downloads) into DONDO, searching ~1B product records across shops, plus ureteku AI, which checks how chatbots describe a merchant's products. Backers: Docomo Ventures, Mizuho Capital, GMO VenturePartners (¥2.62B total). On Nov 17 Google made Gemini Tasks, with checkout via Google Pay, free in Japan.",
+        "now": "Rakuten's and Amazon's assistants only search their own marketplaces, so a cross-store agent is a real gap. Separate data warns about Google's distribution: in Japan, searches for 'AI Mode' rose 68x to 673k a month, while Felo, a Tokyo AI-search startup that raised ¥1.5B, is down 93% from its peak. Caveat: STRACT disclosed no MAU.",
+        "future": "The safer bet is the merchant side: making product data ready for agents and tracking how AI answers describe a shop. Japan has no standard for agent checkout yet. Watch whether Rakuten or LY open their catalogs to outside agents."
       },
       "sources": [
         {
-          "name": "BRIDGE",
-          "title": "AIが稟議を手伝うワークフロー「kickflow」シリーズAで約10.6億円を調達",
-          "url": "https://thebridge.jp/2026/11/kickflow-series-a-1060-million-yen"
+          "name": "Nikkei",
+          "title": "STRACT、国内EC特化のAIエージェント提供 複数サイト比較",
+          "url": "https://www.nikkei.com/article/DGXZQOUC181AX0Y6A111C2000000/"
         },
         {
-          "name": "創業手帳",
-          "title": "kickflow 10.6億円 資金調達",
-          "url": "https://sogyotecho.jp/?p=270811"
+          "name": "通販EC",
+          "title": "STRACT、国内EC特化のAIエージェント「DONDO」を正式発表 約12億円を調達し累計26.2億円に",
+          "url": "https://tsuhan-ec.jp/article/2026/11/18/1682.html"
+        },
+        {
+          "name": "Google Blog",
+          "title": "Put Gemini to work for you",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+        },
+        {
+          "name": "PR TIMES",
+          "title": "Googleの「AIモード」の検索が月67万回、1年で約68倍に──AI検索「Perplexity」はピークから55%減（TECH NOISY調べ）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000024.000188360.html"
         }
       ],
       "tags": [
-        "kickflow",
-        "Enterprise agents",
-        "MCP",
-        "Series A"
+        "Agentic commerce",
+        "Startups",
+        "Gemini",
+        "AI search"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
-      "cat": "hardware",
-      "source": "IBTimes Australia",
-      "time": "Nov 18",
-      "headline": "Nvidia's Quarter Lifts Lasertec 5% and Advantest 4.6% in Tokyo Two Days After an 11% Drop, as Reuters Tankan Electronics Sentiment Jumps to +39",
-      "dek": "Japan makes its AI money supplying tools and test gear for US chips, and that position rises and falls with every Nvidia report.",
+      "cat": "research",
+      "source": "Sakana AI",
+      "time": "Nov 17",
+      "headline": "Sakana's JFinBench: On Japan's 2026 Finance Exams the Best Open Model Trails Claude Fable 5 by 12.4 Points, and No Japanese Model Was Tested",
+      "dek": "A 321-question benchmark built from six of this year's Japanese certification exams finds that models fail on Japanese tax and legal detail, not on math.",
       "analysis": {
-        "happening": "On Nov 18, Lasertec rose 4.96% and Advantest 4.56%, ending the Nikkei's three-day slide (+0.28% to 59,024). Advantest had dropped 11.1% two days earlier in the financing scare. In the Reuters Tankan, manufacturer sentiment hit +27, the highest since Aug 2021, and electronics jumped to +39 from the mid-20s.",
-        "now": "Japan holds about 31% of global chip-equipment and 48% of key materials share. That is a strong supplier position, but it depends on US demand rather than Japan's own AI capability. Caveat: these stocks swing 5–11% on a single Nvidia report, and Tankan respondents warn AI demand could cool.",
-        "future": "Watch the December BOJ Tankan, and whether equipment guidance holds if Nvidia's tighter guarantee stance slows neocloud builds. For builders: yield and test-analytics AI for Japan's equipment makers, a field where Japan already leads."
+        "happening": "JFinBench uses six 2026 exams, including CPA and tax accountant. Without tools: Claude Fable 5 scores 95.8, GPT-6 Astra 93.6, the best open model (Kimi K3.1 Pro) 83.4. With shell and web the gap shrinks to 4.4 points. Tax questions top out at 79.4. Models fetched e-Gov statutes in 67% of trials.",
+        "now": "Local regulatory knowledge is where Japan could beat the US labs, but none of the 12 models tested is Japanese, so there is still no public score for domestic models. Caveat: Sakana builds competing models, and retrieval does much of the work.",
+        "future": "An up-to-date statute database plus retrieval nearly closes the gap, so a Japanese tax/finance agent is a data-and-retrieval business, not a pretraining one. Watch for scores from PLaMo or Sakana's own models. The benchmark has to be rebuilt after every tax revision."
       },
       "sources": [
         {
-          "name": "IBTimes Australia",
-          "title": "Nikkei 225 Today Ends 3-Session Slide as Nvidia Earnings Lift Lasertec, Advantest While Most Tokyo Stocks Fall",
-          "url": "https://www.ibtimes.com.au/nikkei-225-rises-chip-stocks-nvidia-results-1878871"
+          "name": "Sakana AI",
+          "title": "JFinBench: 最新の金融資格試験を用いた日本語金融ベンチマークの公開",
+          "url": "https://sakana.ai/jfinbench/"
         },
         {
-          "name": "investingLive",
-          "title": "Reuters Tankan: Japan manufacturer mood hits +27, highest in over five years on chips",
-          "url": "https://investinglive.com/news/reuters-tankan-japan-manufacturer-mood-hits-27-highest-in-over-five-years-on-chips/"
+          "name": "StartupHub.ai",
+          "title": "Japan's finance test shows open models trail by 12 points",
+          "url": "https://www.startuphub.ai/ai-news/ai-research/2026/japan-s-finance-test-shows-open-models-trail-by-12-points"
         },
         {
-          "name": "Startup Fortune",
-          "title": "Advantest and Tokyo Electron sink as the Nikkei loses 1,480 points",
-          "url": "https://startupfortune.com/advantest-and-tokyo-electron-sink-as-the-nikkei-loses-1480-points/"
+          "name": "ArXivSignals",
+          "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams · ArXivSignals",
+          "url": "https://arxivsignals.io/papers/2611.18130"
         }
       ],
       "tags": [
-        "Advantest",
-        "Lasertec",
-        "Tankan",
-        "Picks-and-shovels"
+        "Sakana",
+        "Benchmarks",
+        "Fintech",
+        "Sovereign AI"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
       "cat": "hardware",
-      "source": "Nikkei Asia",
-      "time": "Nov 15",
-      "headline": "Digital Realty Will Spend $10B in Japan Over a Decade, Taking Its Footprint From ~193MW Toward ~700MW, Through a JV With Mitsubishi",
-      "dek": "Japan has plenty of demand for AI compute. What it lacks is ownership: foreign capital is building it.",
+      "source": "Bloomberg / Nikkei",
+      "time": "Nov 19",
+      "headline": "Japan's AI Stocks Now Trade at an 'AI Discount' After Huang's Nvidia Exit, Even as Orders for Chip Tools and Computers Jump 71% to ¥3.47T",
+      "dek": "Japan's AI suppliers saw their shares fall while orders for their equipment rose 71%, and that split shows how much they depend on US spending.",
       "analysis": {
-        "happening": "CEO Andy Power told Nikkei that Japan is Digital Realty's top Asian destination, with $10B over 10 years through its 50/50 JV with Mitsubishi Corp. Nikkei's figures put the goal at about 193MW now rising to about 700MW. The Tokyo NRT14 site opened in April as a DGX-Ready facility. NTT Data is separately building in Osaka for Anthropic.",
-        "now": "A decade-long plan of about 700MW is roughly one US hyperscaler campus, so Japan's buildout is still far behind the US. Ownership is mostly foreign, and domestic GPU clouds such as Sakura are small by comparison. Caveat: the plan depends on financing, while US credit markets are pulling back from data-center debt.",
-        "future": "Watch grid allocation in Kansai and Hokkaido, and whether the growth strategy adds data-center subsidies. Openings: power procurement, cooling retrofits, and brokering sovereign workloads for regulated Japanese firms."
+        "happening": "Since Jensen Huang's resignation, Kioxia and Advantest are each down more than 9%, against 2.9% for the Topix. Resonac fell 7.6% and Ibiden 6.4% on Nov 17. Cabinet Office data released Nov 19 show July–September orders for computers and chip equipment up 71.3% year on year to ¥3.4715T.",
+        "now": "Japan's AI exposure is in supplying tools, test equipment, substrates and memory, so these stocks rise and fall with US capex sentiment rather than Japanese AI demand. Japan has few domestic AI applications to cushion the swings. Caveat: the order data run only through September, before the selloff.",
+        "future": "If October–December orders hold, the selloff is about valuation multiples, not demand. That could make Advantest, Resonac and Ibiden a cheaper entry. Watch the BOJ's December decision and SK hynix's HBM4 packaging-tool orders, which Japanese back-end equipment makers are positioned to win."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "Digital Realty Trust to spend $10bn more on Japan data centers: CEO",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/digital-realty-trust-to-spend-10bn-more-on-japan-data-centers-ceo"
+          "name": "Bloomberg",
+          "title": "Nvidia Turmoil Spurs Valuation Rethink of Japan’s AI Shares",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/nvidia-turmoil-spurs-valuation-rethink-of-japan-s-ai-shares"
         },
         {
-          "name": "Finimize",
-          "title": "Digital Realty Trust plans $10 billion Japan buildout",
-          "url": "https://finimize.com/content/digital-realty-trust-plans-10-billion-japan-buildout"
+          "name": "Nikkei",
+          "title": "「AIバブル」懸念よそに機械受注好調 半導体関連、7〜9月7割増",
+          "url": "https://www.nikkei.com/article/DGXZQOFL18112TY6A111C2000000/"
         },
         {
-          "name": "Nikkei Asia",
-          "title": "NTT to build first data center for Anthropic in Japan",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan"
+          "name": "investingLive",
+          "title": "Japan’s AI stocks lose their premium as three threats emerge after Nvidia’s CEO exit",
+          "url": "https://investinglive.com/stock-market-update/japan-s-ai-stocks-lose-their-premium-as-three-threats-emerge-after-nvidia-s-ceo-exit/"
+        },
+        {
+          "name": "TrendForce",
+          "title": "[News] SK hynix Reportedly Plans New HBM4 Equipment Orders, with P&T6 in Focus Despite NVIDIA Uncertainty",
+          "url": "https://www.trendforce.com/news/2026/11/16/news-sk-hynix-reportedly-plans-new-hbm4-equipment-orders-with-pt6-in-focus-despite-nvidia-uncertainty/"
         }
       ],
       "tags": [
-        "Data centers",
-        "Digital Realty",
-        "Mitsubishi",
-        "Compute"
+        "Markets",
+        "Semiconductors",
+        "Advantest",
+        "Kioxia"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "launches",
-      "source": "Journal Arta",
-      "time": "Upcoming",
-      "headline": "Japan's Defense Ministry Will Publish AI Guidelines by End-November With Humans Keeping Decision Authority, Setting the Rules for Which Vendors Can Sell",
-      "dek": "The US already runs nine-figure frontier-AI defense contracts. Japan is still writing the rulebook, which leaves room for cleared domestic vendors.",
+      "cat": "funding",
+      "source": "PR TIMES",
+      "time": "Nov 18",
+      "headline": "Nagoya University Spinout PulmoGate Raises a ¥330M Seed Led by Beyond Next Ventures, Selling Remote Lung-Disease Reviews Now and Building Diagnostic AI Later",
+      "dek": "A one-year-old medical AI startup in Aichi is starting with a service it can sell today, before it has any regulatory approval.",
       "analysis": {
-        "happening": "Defense Minister Shinjiro Koizumi said on Nov 15 that revised AI guidelines will be published at month-end. They update the July 2024 basic policy with three principles, including that humans make decisions and answer for the results. They follow a FY27 budget request heavy on drones and AI, and Google's offer of early frontier-model access for cyber defense.",
-        "now": "The US DoD contracts with OpenAI, Anthropic, Google and xAI at nine-figure scale. Japan has guidelines but no comparable buyer program yet. This week's Vals tests, where models labeled civilians as targets when told it was a game, show why 'humans decide' matters. Caveat: scope and enforcement are unspecified.",
-        "future": "Watch the published text for data-sovereignty and secure-cloud rules, which would favor Sakura, NTT and Fujitsu, and whether Sakana or PFN show up in pilots. Opening: dual-use startups that meet classified-cloud standards early."
+        "happening": "PulmoGate, founded November 2025, raised about ¥330M from Beyond Next Ventures (lead), Teijin Pharma, MUFG Capital and Aichi's STATION Ai Central Japan Fund II. It sells remote second opinions for interstitial lung disease and is funding diagnostic-AI validation. CEO Tomo Tominaga sold a previous health business to Medipal in 2024.",
+        "now": "US radiology AI is years ahead on cleared devices. PulmoGate's way around Japan's slower PMDA approvals is to earn service revenue and collect labeled cases first. Caveat: its diagnostic and treatment AIs are still R&D with no approval, and a ¥330M seed is about one-tenth of a typical US medical-AI seed.",
+        "future": "The pattern to copy is a university spinout that sells a scarce specialist workflow and gathers data to train models later. Teijin Pharma's stake points to pharma interest in finding patients. Watch STATION Ai's fund as new deep-tech seed money from outside Tokyo."
       },
       "sources": [
         {
-          "name": "Journal Arta",
-          "title": "Japan's defense chief says AI guidelines land late November",
-          "url": "https://journalarta.com/en/2026/11/16/japans-defense-chief-says-ai-guidelines-land-late-november/"
+          "name": "PR TIMES",
+          "title": "名古屋大学発医療AIスタートアップのPulmoGate、シードラウンドで総額約3.3億円を調達",
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000191902.html"
         },
         {
-          "name": "CASRAI",
-          "title": "Japan defense AI vision November guidelines 2026",
-          "url": "https://casrai.org/news/japan-defense-ai-vision-november-guidelines-2026"
+          "name": "Project Design",
+          "title": "PulmoGateが3.3億円調達 間質性肺疾患のオンラインセカンドオピニオン本格展開へ",
+          "url": "https://www.projectdesign.jp/articles/news/68e0c38c-5c3f-4cdd-800a-4a846385bcbe"
         },
         {
-          "name": "TechCrunch",
-          "title": "AI models can be tricked into identifying civilians as military targets by telling them it's a game",
-          "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
+          "name": "Dealroom",
+          "title": "Nagoya University AI spinout PulmoGate raises $3.3M seed round",
+          "url": "https://dealroom.co/news/174078-nagoya-university-ai-spinout-pulmogate-raises-3-3m-seed-round/"
         }
       ],
       "tags": [
-        "Defense",
-        "Policy",
-        "Koizumi",
-        "Dual-use"
+        "Medical AI",
+        "Seed",
+        "University spinout",
+        "Aichi"
       ]
     }
   ]

@@ -1,65 +1,60 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T20:09:33.000Z",
-  "dateLabel": "Thu · Nov 19 2026",
+  "generatedAt": "2026-11-19T20:12:19.000Z",
+  "dateLabel": "Fri · Nov 20 2026",
   "items": [
     {
       "id": "s1",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Nitto ATP Finals, Turin: semi-finals and final",
-      "line": "Sinner is out with a knee injury, so the title is open. No. 1 Zverev is already into the semis. Alcaraz beat Medvedev 6-2 6-4 and is one result away from joining him. Semis are Sat 22:30 JST and Sun 04:30 JST; the final is Mon 02:00 JST.",
-      "whenJst": "Sat Nov 21 · 22:30 JST (SFs) / Mon Nov 23 · 02:00 JST (Final)",
+      "event": "ATP Finals, Turin: semi-finals",
+      "line": "Sinner is out with knee inflammation. No. 1 Zverev (beat Shelton) and Alcaraz (beat Medvedev 6-2 6-4) are through, but Alcaraz needed treatment on his left thigh and was booked for an MRI. Thursday's last group matches decide the other two places.",
+      "whenJst": "Sat Nov 21 · 22:30 JST & Sun Nov 22 · 04:30 JST",
       "sources": [
         {
           "name": "ATP Tour",
-          "title": "Alcaraz eases past Medvedev, moves to brink of Turin SFs",
-          "url": "https://www.nittoatpfinals.com/en/news/alcaraz-medvedev-nitto-atp-finals-2026-wednesday"
+          "title": "Zverev shuts down Shelton to seal Nitto ATP Finals SF berth",
+          "url": "https://www.atptour.com/en/news/zverev-shelton-nitto-atp-finals-2026-tuesday"
         },
         {
-          "name": "ATP Tour",
-          "title": "Alexander Zverev shuts down Ben Shelton to seal Nitto ATP Finals SF berth",
-          "url": "https://www.atptour.com/en/news/zverev-shelton-nitto-atp-finals-2026-tuesday"
+          "name": "The Sports Encounter",
+          "title": "ATP Finals: Alcaraz Beats Medvedev, But Title Hopes Hit by a Late Hamstring Concern",
+          "url": "https://thesportsencounter.com/2026/11/18/alcaraz-medvedev-atp-finals-2026-hamstring-semifinals/"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "golf",
-      "status": "result",
-      "event": "DP World Tour Championship, Dubai: McIlroy wins eighth Race to Dubai",
-      "line": "Tyrrell Hatton won the finale by five shots. Rory McIlroy took solo second, which was just enough to beat Eugenio Chacarra in a desperately tight Race to Dubai. It is McIlroy's eighth season title, tying Colin Montgomerie's record.",
-      "whenJst": "Mon Nov 16 (final round finished)",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "ATP Finals, Turin: final",
+      "line": "Last match of the men's season, 18:00 CET Sunday. Alcaraz is chasing his first ATP Finals title and Zverev his third. Alcaraz's thigh is the big unknown.",
+      "whenJst": "Mon Nov 23 · 02:00 JST",
       "sources": [
         {
-          "name": "Golf Channel",
-          "title": "Rory McIlroy wins eighth Race to Dubai title, ties all-time record",
-          "url": "https://www.golfchannel.com/dp-world-tour/news/rory-mcilroy-wins-eighth-race-to-dubai-title-ties-all-time-record"
-        },
-        {
-          "name": "The National",
-          "title": "Rory McIlroy claims historic eighth Race to Dubai after stunning duel in the desert with Eugenio Chacarra",
-          "url": "https://www.thenationalnews.com/sport/2026/11/15/rory-mcilroy-claims-historic-eighth-race-to-dubai-after-stunning-duel-in-the-desert-with-eugenio-chacarra/"
+          "name": "Tennis Majors",
+          "title": "ATP Finals 2026: groups, schedule, format and how to watch",
+          "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-2026-groups-schedule-format-how-to-watch-866945.html"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "golf",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "The RSM Classic, Sea Island (PGA Tour FedExCup Fall finale)",
-      "line": "This is the last PGA Tour event of 2026, and it decides who keeps a card for 2027. Ludvig Aberg makes his only fall start, Michael Brennan is the top-ranked player in the field, and Sami Valimaki is defending champion.",
-      "whenJst": "Thu Nov 19 · ~21:00 JST (R1) → final round ends Mon Nov 23 · ~07:00 JST",
+      "event": "Premier League: Newcastle vs Arsenal",
+      "line": "The leaders play away at St James' Park as the league resumes after the international break. Arsenal had 27 points from 10 games (9 wins), five clear of Brighton before the break. Newcastle are 12th.",
+      "whenJst": "Sun Nov 22 · 02:30 JST",
       "sources": [
         {
-          "name": "Golf Channel",
-          "title": "RSM Classic 2026 full field for Sea Island",
-          "url": "https://www.golfchannel.com/pga-tour/news/rsm-classic-2026-full-field-for-sea-island"
+          "name": "ESPN",
+          "title": "Newcastle vs. Arsenal (Nov 21, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401879232/arsenal-newcastle-united&gsessionid=6tPe4-7dI2u5btLBpAcGTGRxe1oXLNO-9C5WA_bSmT1Wu38oSKCDTQ"
         },
         {
-          "name": "PGA Tour",
-          "title": "How the field qualified for The RSM Classic, FedExCup Fall",
-          "url": "https://www.pgatour.com/article/news/inside-the-field/2026/11/13/how-the-field-qualified-for-the-rsm-classic-fedexcup-fall"
+          "name": "Sky Sports",
+          "title": "Arsenal News, Fixtures, Transfers, Results",
+          "url": "https://www.skysports.com/arsenal"
         }
       ]
     },
@@ -67,54 +62,39 @@
       "id": "s4",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "Premier League: Newcastle vs Arsenal",
-      "line": "Arsenal are unbeaten at 9-0-1 and five points clear at the top. Their trip to St James' Park is their toughest test of the title defence so far.",
-      "whenJst": "Sun Nov 22 · 02:30 JST",
+      "event": "Premier League: Liverpool vs Manchester United",
+      "line": "Mauricio Pochettino's first game as Man Utd manager comes at Anfield. United are 18th with 8 points from 10 games, so this is a big test straight away.",
+      "whenJst": "Mon Nov 23 · 01:30 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Newcastle vs. Arsenal (Nov 21, 2026) Odds and Spread - ESPN",
-          "url": "https://www.espn.com/soccer/odds/_/gameId/401879232"
+          "name": "Sky Sports",
+          "title": "Mauricio Pochettino begins Man Utd tenure with testing trip to Liverpool - Premier League Talking Points",
+          "url": "https://www.skysports.com/football/news/13613208/mauricio-pochettino-begins-man-utd-tenure-with-testing-trip-to-liverpool-premier-league-talking-points"
         },
         {
-          "name": "Sky Sports",
-          "title": "Mikel Arteta's hunger for Arsenal to retain the Premier League can help them defy the odds and maintain their standards",
-          "url": "https://skysports.com/football/news/13607189/mikel-artetas-hunger-for-arsenal-to-retain-the-premier-league-can-help-them-defy-the-odds-and-maintain-their-standards"
+          "name": "ESPN",
+          "title": "Liverpool vs. Man Utd (Nov 22, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool&gsessionid=LrWr1IBT1-x5iqP3G7xXh0eDO1QX_HHB6QnHVY80aSWRmw-a9swGEQ"
         }
       ]
     },
     {
       "id": "s5",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Premier League: Liverpool vs Manchester United",
-      "line": "Fifth-placed Liverpool host a Man United side that is in crisis in 18th place with 8 points. A defeat at Anfield would deepen their relegation-zone slump.",
-      "whenJst": "Mon Nov 23 · 01:30 JST",
+      "sport": "golf",
+      "status": "live",
+      "event": "PGA Tour: The RSM Classic, Sea Island",
+      "line": "Last chance to finish in the top 100 and keep a full 2027 PGA Tour card. Mackenzie Hughes (108th) and Emiliano Grillo (113th) need strong finishes. Round 1 is under way; Max Greyserman led early at -4.",
+      "whenJst": "Final round ends ~Mon Nov 23 · 05:00 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Liverpool vs. Man Utd (Nov 22, 2026) Live Score - ESPN",
-          "url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool"
+          "name": "PGA Tour",
+          "title": "What's at stake: 2027 status on line as FedExCup Fall concludes at The RSM Classic - PGA Tour",
+          "url": "https://www.pgatour.com/article/news/latest/2026/11/17/whats-at-stake-2027-status-on-line-as-pga-tour-season-concludes-at-the-rsm-classic-fedexcup-fall"
         },
         {
-          "name": "Sky Sports",
-          "title": "Premier League fixtures on Sky Sports: Liverpool vs Man Utd and Arsenal vs Man City in November",
-          "url": "https://www.skysports.com/football/news/13590457/premier-league-fixtures-on-sky-sports-liverpool-vs-man-utd-and-arsenal-vs-man-city-in-november"
-        }
-      ]
-    },
-    {
-      "id": "s6",
-      "sport": "tennis",
-      "status": "upcoming",
-      "event": "Davis Cup Final 8, Bologna",
-      "line": "Hosts and defending champions Italy face Korea in the quarters. The other ties are Czechia vs Canada and GB vs Germany, with Spain and Austria also in the field. The final is Sun Nov 29 at 23:00 JST.",
-      "whenJst": "Wed Nov 25 · 00:00 JST (first QF) → Sun Nov 29 · 23:00 JST (Final)",
-      "sources": [
-        {
-          "name": "Tennis Tour Talk",
-          "title": "Schedule Confirmed For 2026 Davis Cup Final 8",
-          "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
+          "name": "ESPN",
+          "title": "2026 The RSM Classic Leaderboard",
+          "url": "https://www.espn.com/golf/leaderboard/_/tournamentId/401850981"
         }
       ]
     }
