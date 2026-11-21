@@ -1,395 +1,358 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T20:10:17Z",
+  "generatedAt": "2026-11-21T20:10:15.179785Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Sat · Nov 21 2026",
-    "editionLine": "EDITION No.558 · SYNCED 05:10 JST",
+    "dateLabel": "Sun · Nov 22 2026",
+    "editionLine": "EDITION No.559 · SYNCED 05:10 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "Anthropic is now a public stock, and in its first 36 hours markets started pricing who actually owns the AI buildout, and who is only exposed to it.",
-    "briefingTitle": "Anthropic Lists, Its Suppliers Buy In, and Tokyo Pays for Owning None of It",
-    "summary": "Anthropic's record IPO turned frontier-lab value into a daily price, and $26B of the side placement came from the chip and cloud suppliers it owes about $1T to. A day later the AI trade fell anyway: Broadcom lost 11% on a reported Google TPU shift to MediaTek, Micron 11%, and SoftBank 14.5%. Below the giants, money is going to parts of the system nobody owns yet: Nvidia is reportedly buying diffusion-LLM lab Inception, and a16z led $90M for Linq, which puts agents into iMessage and WhatsApp. Japan shows the gap clearly: its savers bid ¥1.5T for a slice of Anthropic, while its own sovereign model project Noetra is ¥800B over budget on dollar-priced GPUs, and Rapidus and Sakana are still signing first customers.",
+    "intro": "Nvidia ended its worst week since 2008 on a reported SEC probe, and the money that left chip stocks is going into the layers around the chips.",
+    "briefingTitle": "Nvidia Cracks, and Capital Moves to the Layers Around the Chip",
+    "summary": "Nvidia hit a 52-week low on a reported SEC accounting probe, three days after a record quarter, which shows the AI trade now prices trust and financing rather than demand. Capital is going to the layers that reduce dependence on a single chip vendor: Amazon is nearing a ~$7.5B deal for Decart, whose software moves models between accelerators, Lightspeed led $45M for Compute Desk to make GPU time hedgeable, and Thinking Machines shipped a coding model that runs on a laptop. Japan mostly owns pieces of other companies' stacks: ElevenLabs is buying Kotoba, SK Hynix is becoming Kioxia's top shareholder, and Japan's 'sovereign' clouds are launching on Chinese weights.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 31 sources"
+    "footerRight": "9 stories · 24 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
-      "jp": 33,
+      "jp": 32,
       "frontier": 96,
-      "note": "Down 1. Noetra's five-year cost reportedly rises ¥800B to ¥1.8T before any model ships, because GPUs are priced in dollars. Anthropic, meanwhile, claims Claude co-produced a Lean proof of GRH. Sakana's Salesforce deal sells sovereignty on top of foreign base models until Sawara ships in spring 2027."
+      "note": "Down 1. Sakura and Fixstars are launching Japan-hosted inference on Chinese GLM and DeepSeek weights, and Kotoba, Japan's best Japanese voice model, is being sold to ElevenLabs. US open weights moved again with Inkling 2 Mini, which runs on a laptop. Sawara pretraining still starts in December."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
       "jp": 13,
-      "frontier": 97,
-      "note": "Down 1. Japanese investors bid over ¥1.5T for a ¥470B slice of a US lab, but Japan has no listed lab of its own to hold that money. SoftBank's 14.5% drop shows Tokyo holds leveraged exposure to US labs rather than ownership of them."
+      "frontier": 96,
+      "note": "Frontier down 1. Nvidia's reported SEC probe and CoreWeave's dip to its IPO price show US infrastructure capital is now being repriced, not just added. Japan's capital is still too thin to test: Kioxia's new top holder is Korean, and the best Japanese voice lab sold to a US buyer for about ¥16B."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
-      "jp": 26,
+      "jp": 25,
       "frontier": 95,
-      "note": "Up 1. PFN will prototype an AI chip at Rapidus as early as FY2027, its first startup customer, which is a real design win. Reports of a 2nm slip to FY2028 would still leave Rapidus about three years behind TSMC. New US foundry rules also tighten checks on Japanese intermediaries."
+      "note": "Down 1. SK Hynix is becoming Kioxia's largest shareholder at ~14.1%, so Japan's one leading-edge memory maker now has a foreign rival as its top owner. Separately, METI is weighing up to ¥54B in tax waivers just to move the government-owned Chitose fab to Rapidus."
     },
     {
       "label": "Early-stage AI venture formation and exits",
       "jp": 30,
       "frontier": 94,
-      "note": "Frontier up 1. Inception may sell to Nvidia for $500M+ about a year after its seed, and Linq raised a $90M Series B nine months after its A. Japan's week was a pre-seed of undisclosed size for Origin Frame (ZVC, East Ventures). Sakana's IPO is autumn 2027 at the earliest."
+      "note": "Unchanged. Kotoba's ~¥15.9B sale is a real Japanese exit, but to a US acquirer. The week's domestic round was Atsumell at ¥183M, against $45M for Compute Desk and $5.5M for Hoplite in the US, while Decart heads to Amazon at ~$7.5B three years after founding."
     }
   ],
   "items": [
     {
       "id": "g1",
       "region": "global",
-      "cat": "funding",
-      "source": "CNBC",
-      "time": "Nov 19-20",
-      "headline": "Anthropic's IPO Reaches a Record $93.5B With the Greenshoe, and Nvidia and Google Each Bought $10B of a $26B Side Placement Sold to Its Own Suppliers",
-      "dek": "The first frontier lab to list has a daily price, and the companies selling it compute now sit on its cap table.",
+      "cat": "hardware",
+      "source": "Reuters (via Investing.com)",
+      "time": "Nov 20",
+      "headline": "Nvidia Hits a 52-Week Low on a Report That SEC Enforcement Is Examining Its Accounting, Ending Its Worst Week Since 2008 Three Days After a $115.8B Quarter",
+      "dek": "Results stopped mattering this week. The AI trade is now pricing governance and financing risk, and memory and neocloud stocks fell with Nvidia.",
       "analysis": {
-        "happening": "Priced at $83, above its range, and listed as ANT on Nasdaq Nov 19. It opened near $111.50 and closed at $97.17 (+17%). The overallotment added $12.2B for $93.5B total, above SpaceX. A separate $26B non-voting placement went to Nvidia and Google ($10B each), AMD, Broadcom, Micron, Microsoft and TSMC. The stock was down ~12% premarket Friday.",
-        "now": "The placement buyers are the suppliers Anthropic owes about $1.05T in infrastructure commitments, so part of the vendors' cash funds the vendors' own bills. Public investors will discount that. ANT is now the cleanest public proxy for frontier-lab value. Caveat: valuation estimates range from $1.5T to $1.76T depending on share count.",
-        "future": "Watch the first earnings call's disclosure of compute commitments, the lockup schedule, and whether OpenAI speeds up its listing. Early employees are getting liquidity, which usually leads to a wave of angel checks and spinout seeds within two quarters."
+        "happening": "Reuters reported Nov 20 that SEC enforcement staff are examining possible accounting issues at Nvidia, following an earlier WSJ report. Shares fell 11.5–14% depending on the time of measurement and are down ~48% from the Oct 6 high. AMD and Broadcom fell by double digits, and CoreWeave briefly traded below its $40 IPO price.",
+        "now": "A $115.8B quarter and a ~$130B guide didn't hold the stock up, so the market is now trading Nvidia on trust and financing, not demand. Caveat: neither the SEC nor Nvidia has confirmed a probe, its scope is unknown, and many inquiries end with no action.",
+        "future": "Watch Huang's closed-door House interview Dec 1 and the general counsel's Dec 2 appearance. Also watch whether the probe touches Nvidia's revised geographic revenue reporting, and neocloud credit spreads. CoreWeave's interest bill is nearing ~$1.1B a quarter."
       },
       "sources": [
         {
-          "name": "CNBC",
-          "title": "Anthropic raises $93.5 billion total as underwriters scoop up 'greenshoe' overallotment",
-          "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html"
+          "name": "Investing.com",
+          "title": "Nvidia shares fall 11.5% as report of SEC accounting probe adds to pressure",
+          "url": "https://ca.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4973044"
         },
         {
-          "name": "Anthropic",
-          "title": "Anthropic prices initial public offering",
-          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+          "name": "Yahoo Finance",
+          "title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html"
         },
         {
-          "name": "TechCrunch",
-          "title": "Anthropic's 7 founders cashed out nearly $2B in record-breaking IPO",
-          "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
-        },
-        {
-          "name": "CNN",
-          "title": "Anthropic valued at $1.76 trillion after historic first day of trading",
-          "url": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo"
+          "name": "Decrypt",
+          "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting",
+          "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting"
         }
       ],
       "tags": [
-        "IPO",
-        "Anthropic",
-        "Public markets",
-        "Circular financing"
+        "Nvidia",
+        "SEC",
+        "Markets",
+        "Neoclouds"
       ]
     },
     {
       "id": "g2",
       "region": "global",
-      "cat": "research",
-      "source": "Scientific American",
-      "time": "Nov 17-20",
-      "headline": "An Anthropic Mathematician Claims a Claude-Assisted Proof of the Generalized Riemann Hypothesis as a 175,187-File Lean Archive, Days After 22 Agents Solved Two Open Black-Hole Problems",
-      "dek": "The headline is unconfirmed, but the method underneath (many sandboxed agents, shared notes, formal checking) is public and something a builder can copy.",
+      "cat": "funding",
+      "source": "Financial Times (via Seeking Alpha)",
+      "time": "Nov 21",
+      "headline": "Amazon Nears a ~$7.5B Deal for Decart, the 2023-Founded Lab Whose Software Moves AI Models Between Nvidia GPUs, TPUs and Trainium, After Anthropic Walked Away at ~$6B",
+      "dek": "The prize looks like a layer that moves Nvidia-built models onto Amazon's own chips, more than Decart's video world models.",
       "analysis": {
-        "happening": "Levent Alpöge posted a four-page note and a ~239MB Lean archive claiming GRH, saying 'Claude far outpaced me near the finish line.' MIT's Andrew Sutherland compiled it, but a full replay hadn't finished. Separately, 22 Claude agents ran about six weeks on open physics problems and closed two, including a Hawking-Page calculation left unfinished since 2003.",
-        "now": "Caveat first: Alpöge's July Jacobian-conjecture claim was disputed, and Lean only certifies the statement as formalized. Experts must confirm it matches real GRH. The usable part is the harness: Anthropic's Fermat re-proof ran 1,000 agents coordinated through plain Postgres tables and Git branches, one VM per agent.",
-        "future": "Watch whether the Lean replay completes and whether number theorists accept the formal statement. 'Formal verification as product' and agent-swarm infrastructure (per-agent sandboxes, monitors, merge queues) look like product categories forming now."
+        "happening": "The FT reported Nov 21 that Amazon is in final talks to buy Decart for ~$7.5B in cash, stock and deferred, partly target-linked payments. Calcalist says Anthropic negotiated at ~$6B and walked away in September, and Amazon offered ~$5.5B in October. Decart was valued near $4B in May.",
+        "now": "Decart was a Trainium3 launch partner, claiming 4x faster frame generation at half the GPU cost. Owning the layer that moves models between chips weakens CUDA lock-in, and the timing coincides with Nvidia's worst week since 2008. Caveat: nothing is signed, the sources are unnamed, and the founders must stay five years.",
+        "future": "An announcement could come as early as next week. Watch whether Google or Microsoft go after other chip-portability startups. Builders of tools that move models across accelerators now have a clear acquirer price."
       },
       "sources": [
         {
-          "name": "Scientific American",
-          "title": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math",
-          "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
+          "name": "Seeking Alpha",
+          "title": "Amazon nears $7.5B deal to buy AI start-up Decart (AMZN:NASDAQ)",
+          "url": "https://seekingalpha.com/news/4675396-amazon-nears-75b-deal-buy-ai-start-up-decart"
         },
         {
-          "name": "Futurism",
-          "title": "Anthropic Mathematician Claims He's Solved the Riemann Hypothesis Using Claude",
-          "url": "https://futurism.com/artificial-intelligence/anthropic-riemann-hypothesis"
+          "name": "Dealroom",
+          "title": "Amazon nears $7.5B deal for Israeli AI startup Decart",
+          "url": "https://dealroom.co/news/174312-amazon-nears-7-5b-deal-for-israeli-ai-startup-decart/"
         },
         {
-          "name": "Anthropic",
-          "title": "Claude solves two open problems in the physics of black holes",
-          "url": "https://www.anthropic.com/research/claude-black-hole-physics"
-        },
-        {
-          "name": "claude.dev Blog",
-          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
-          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/"
+          "name": "TradingView",
+          "title": "Amazon nearing $7.5B deal to buy AI start-up Decart: FT",
+          "url": "https://www.tradingview.com/news/seekingalpha:71b3d28ff094b:0-amazon-nearing-7-5b-deal-to-buy-ai-start-up-decart-ft/"
         }
       ],
       "tags": [
-        "Anthropic",
-        "Math",
-        "Lean",
-        "Multi-agent"
+        "M&A",
+        "Amazon",
+        "Trainium",
+        "Chip portability"
       ]
     },
     {
       "id": "g3",
       "region": "global",
-      "cat": "hardware",
-      "source": "Seeking Alpha",
-      "time": "Nov 20",
-      "headline": "Broadcom Falls 11.4% on a Report That Google Moved ~1M TPU 8i Chips to MediaTek, and Micron Drops ~11% Despite 75% of 2027 Supply Being Sold Out",
-      "dek": "The day after Anthropic's debut, chip stocks were priced on custom-chip second sourcing and financing risk, not on demand.",
+      "cat": "funding",
+      "source": "Axios Pro / Lightspeed",
+      "time": "Nov 17",
+      "headline": "Lightspeed Leads a $45M Seed in Compute Desk, Which Builds GPU Rental Price Indexes and Wants Futures, Options and Clearing for Compute",
+      "dek": "A Meta GPU-cluster builder and an ex-derivatives quant are betting that compute becomes a hedgeable commodity like power. This week's neocloud selloff makes that bet look timely.",
       "analysis": {
-        "happening": "Ming-Chi Kuo says Google cut 2027 Broadcom TPU 8i plans by ~1M units (~20%) and shifted volume to MediaTek's TPU 8t. AVGO fell 11.4%, Marvell 9.2% and MediaTek 10%. Micron fell ~11% even after saying 2027 supply is 75% sold out. The SOX fell ~7-8%. BofA modeled ~20% capex downside.",
-        "now": "Second sourcing is the risk custom-chip bulls dismissed: hyperscalers use a second designer to push margins down. Memory's drop is about rates and funding (Fed hike odds ~96%), not orders. Caveat: Kuo's view is one supply-chain survey, and Google and Broadcom haven't commented.",
-        "future": "Broadcom's Dec 9 earnings are the first chance for management to address Google's volumes. MediaTek (2454.TW) is the cleanest proxy for a TPU share shift. Watch whether hyperscalers reaffirm 2027 capex. BofA's bottom signal is estimate cuts that no longer move the stocks."
+        "happening": "Compute Desk raised a $45M seed led by Lightspeed, with Menlo, Hedosophia, Motive and Inovia. It builds GPU rental price indexes from real neocloud deals and licenses them to Nodal Exchange and Architect. Futures and options are pending regulatory review, and a clearing product would turn positions into deliverable compute.",
+        "now": "Lightspeed estimates ~$800B of private credit will go into compute over two years, and lenders need a benchmark price, especially with CoreWeave near its IPO price. Caveat: no liquid hedging market exists yet, and the valuation is undisclosed.",
+        "future": "Watch for the first listed compute contract to get approved, and whether lenders start citing these indexes in GPU-backed loans. Openings for builders include grading and delivery verification for compute, and price data."
       },
       "sources": [
         {
-          "name": "Seeking Alpha",
-          "title": "Google shifts 2027 AI chip orders from Broadcom to MediaTek, Ming-Chi Kuo says (GOOGL:NASDAQ)",
-          "url": "https://seekingalpha.com/news/4675203-google-shifts-2027-ai-chip-orders-from-broadcom-to-mediatek-ming-chi-kuo-says"
+          "name": "Axios Pro",
+          "title": "Compute pricing startup Compute Desk raises $45M Lightspeed-led seed",
+          "url": "https://www.axios.com/pro/all-deals/2026/11/17/compute-pricing-startup-compute-desk-45-million-lightspeed"
         },
         {
-          "name": "Stock Analysis",
-          "title": "Broadcom falls 11% after an analyst says Google cut 2027 orders for its TPU 8i chips by 20%",
-          "url": "https://stockanalysis.com/news/broadcom-falls-google-tpu-cut-mediatek/"
+          "name": "Lightspeed Venture Partners",
+          "title": "Building the clearing platform for compute: Why We Invested in Compute Desk",
+          "url": "https://lsvp.com/stories/building-the-clearing-platform-for-compute-why-we-invested-in-compute-desk/"
         },
         {
-          "name": "Seeking Alpha",
-          "title": "Micron leads semiconductor and AI stocks down as SOX plunges 7%",
-          "url": "https://seekingalpha.com/news/4675206-micron-leads-semiconductor-and-ai-stocks-down-as-sox-plunges-7"
-        },
-        {
-          "name": "DigiTimes",
-          "title": "Micron moves first equipment into Singapore high-bandwidth memory plant, eyes 2027 production start",
-          "url": "https://digitimes.com/news/a20261120PD200/micron-equipment-production-hbm-2027.html"
+          "name": "GlobeNewswire",
+          "title": "CORRECTION: Compute Desk Raises $45M Led by Lightspeed to Build Infrastructure for Hedging Compute",
+          "url": "https://www.globenewswire.com/news-release/2026/11/17/3405131/0/en/correction-compute-desk-raises-45m-led-by-lightspeed-to-build-infrastructure-for-hedging-compute.html"
         }
       ],
       "tags": [
-        "Broadcom",
-        "Google TPU",
-        "MediaTek",
-        "Micron"
+        "Seed",
+        "Lightspeed",
+        "Compute markets",
+        "Fintech"
       ]
     },
     {
       "id": "g4",
       "region": "global",
-      "cat": "funding",
-      "source": "The Decoder (citing The Information)",
+      "cat": "launches",
+      "source": "Thinking Machines Lab",
       "time": "Nov 20",
-      "headline": "Nvidia Nears a $500M+ Deal for Inception, the Stanford-Professor Lab Whose Mercury Diffusion LLMs Generate Many Tokens in Parallel",
-      "dek": "About a year after a $50M seed, the leading non-autoregressive model startup is reportedly going to a chipmaker, not a model lab.",
+      "headline": "Thinking Machines Open-Sources Inkling 2 Mini, a 26.4B 'Looped' MoE in ~20GB That Runs on a 32GB Mac and Claims 79.2% on SWE-bench Verified",
+      "dek": "Mira Murati's lab released Apache-2.0 weights for a laptop-class coding agent that reuses its middle layers to get more depth per token.",
       "analysis": {
-        "happening": "The Information reports Nvidia is in advanced talks to buy Palo Alto-based Inception for at least $500M plus earnouts, with awards for its 30+ staff. Co-founders Stefano Ermon, Aditya Grover and Volodymyr Kuleshov would join. Mercury refines many tokens at once and claims 5-10x the speed of speed-optimized frontier models.",
-        "now": "Reported, not announced. If it closes, the most credible alternative to token-by-token decoding moves into Nvidia's open Nemotron line, a model built to sell inference hardware. Several outlets say Mercury's API is shutting down, so builders using it need a fallback now.",
-        "future": "Watch for confirmation, a diffusion Nemotron optimized for Nvidia hardware, and which inference-architecture startups get bought next. Nvidia is now buying model research, not just partnering on it."
+        "happening": "Released Nov 20 with 26.4B total and 3.4B active parameters. Its middle blocks loop, so 24 stored layers run as 48 per token. The lab reports 48.2% on DeepSWE v1.1, 79.2% on SWE-bench Verified and 71.6% on Terminal Bench 2.1. It had day-one support in Ollama, vLLM, SGLang and Unsloth.",
+        "now": "A solo builder can now run a capable coding agent locally, with no API bill and no prompts leaving the machine. Caveat: most benchmarks are self-reported. Artificial Analysis scores it 20, roughly tied with Qwen3.8-27B, which still leads on Terminal Bench (73.0%).",
+        "future": "Watch whether looping, which adds compute per token without adding weights, spreads to other open labs. Also watch real local tokens-per-second figures and community fine-tunes. Cheaper on-device agents favour privacy-sensitive markets like Japanese finance and healthcare."
       },
       "sources": [
         {
-          "name": "The Decoder",
-          "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
-          "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/"
+          "name": "Thinking Machines Lab",
+          "title": "Introducing Inkling 2 Mini",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
         },
         {
-          "name": "Tech Funding News",
-          "title": "Report: Nvidia in advanced talks to acquire Stanford-led diffusion AI startup Inception for $500M+",
-          "url": "https://techfundingnews.com/report-nvidia-in-advanced-talks-to-acquire-stanford-led-diffusion-ai-startup-inception-for-500m/"
+          "name": "The Next Web",
+          "title": "Thinking Machines releases Inkling 2 Mini, a looped AI model for laptops",
+          "url": "https://thenextweb.com/news/inkling-2-mini-thinking-machines-looped-open-weights-laptop"
         },
         {
-          "name": "The Neuron",
-          "title": "Nvidia's Potential Inception Deal: Why Diffusion AI Matters",
-          "url": "https://www.theneuron.ai/news/nvidia-inception-acquisition-diffusion-ai/"
+          "name": "Artificial Analysis",
+          "title": "Inkling 2 Mini - Intelligence, Performance & Price Analysis",
+          "url": "https://artificialanalysis.ai/models/inkling-2-mini"
         }
       ],
       "tags": [
-        "M&A",
-        "Nvidia",
-        "Diffusion LLMs",
-        "Inference"
+        "Open weights",
+        "Local AI",
+        "Coding agents"
       ]
     },
     {
       "id": "g5",
       "region": "global",
-      "cat": "funding",
-      "source": "The Next Web",
+      "cat": "research",
+      "source": "Scientific American",
       "time": "Nov 20",
-      "headline": "a16z Leads a $90M Series B in Linq, Which Gives AI Agents iMessage, RCS, WhatsApp and Phone Lines and Has Carried 1B+ Messages for DoorDash and Others",
-      "dek": "Ben Horowitz takes a board seat, betting that agents will reach people through the text threads they already use, not through new apps.",
+      "headline": "Anthropic's Alpöge and NYU's Buckmaster Claim Navier-Stokes Blows Up With No Outside Force, Backed by a ~600,000-Line Lean Proof Mostly Drafted by Claude and Codex",
+      "dek": "The day after the GRH claim, a second AI-assisted proof targets the loophole that kept OpenAI's September 'forced' result from counting as the real Millennium problem.",
       "analysis": {
-        "happening": "Linq raised $90M led by Andreessen Horowitz, with TQ Ventures, Mucker, Abstract, Anthos and Left Lane joining, nine months after a $20M Series A. Its API connects agents to iMessage, RCS, SMS, WhatsApp and voice, and has carried 1B+ messages. DoorDash uses it for ordering inside a single Messages thread.",
-        "now": "Messaging is becoming agents' distribution layer, and iMessage access is the scarce part because Apple offers no open API. A reported ~$1B valuation is unconfirmed. The real risk is platform risk: Apple or the carriers can close access at any time.",
-        "future": "Watch Apple's response and OpenAI's Dots, which also messages over iMessage and RCS. Builder gap: nobody is building the same layer on LINE, the default messaging app in Japan."
+        "happening": "On Nov 20, Buckmaster (NYU) and Alpöge (Anthropic) posted a 79-page paper and a 55-page Euler companion claiming finite-time blowup with no outside force. The Lean formalization runs to ~2,270 files and ~600,000 lines. They say Anthropic models wrote the first forceless proof.",
+        "now": "This would answer the actual $1M Clay problem, not a variant of it. The caveats are large: the numerical certificate is unreleased, part of the check runs outside Lean, and patched files weren't rebuilt. Buckmaster calls the write-up 'heavily LLM-assisted', and Terence Tao says the strategy is clear but the proof needs more work.",
+        "future": "Watch for the certificate release, an independent rebuild of the Lean archive, and any Clay Institute response. The race between labs to announce first is changing how math results get published, and independent verification of AI-written proofs is becoming a service someone could build."
       },
       "sources": [
         {
+          "name": "Scientific American",
+          "title": "After months of controversy, AI finally solved the 'real' Navier-Stokes problem",
+          "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/"
+        },
+        {
           "name": "The Next Web",
-          "title": "Linq raises $90M from a16z to give AI assistants a phone and computer",
-          "url": "https://thenextweb.com/news/linq-raises-90m-ai-assistants-phone-computer-a16z"
-        },
-        {
-          "name": "WOWTALE",
-          "title": "Linq Raises $90 Million Series B to Build Messaging Infrastructure for AI Agents",
-          "url": "https://en.wowtale.net/2026/11/20/236104/"
-        },
-        {
-          "name": "9to5Mac",
-          "title": "OpenAI begins testing dots with ChatGPT Plus users, expands Business access",
-          "url": "https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/"
+          "title": "Navier-Stokes can blow up with no outside force, Buckmaster and Alpöge say",
+          "url": "https://thenextweb.com/news/navier-stokes-blow-up-without-force-buckmaster-alpoge"
         }
       ],
       "tags": [
-        "a16z",
-        "Agents",
-        "Messaging",
-        "Series B"
+        "AI for math",
+        "Anthropic",
+        "Lean"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
       "cat": "funding",
-      "source": "Nikkei",
-      "time": "Nov 20",
-      "headline": "Japanese Investors Bid Over ¥1.5T for a ¥470B Slice of Anthropic's IPO, Then SoftBank Has Its Worst Day Since 2024, Down 14.5%",
-      "dek": "Japanese savers want to own the frontier directly, and the domestic AI proxies they used to hold were sold hard the same week.",
+      "source": "Nikkei Asia",
+      "time": "Nov 17",
+      "headline": "ElevenLabs Agrees to Buy Kotoba, the 15-Person Tokyo Lab Whose 'Koto' Model Powers Salesforce's Japanese Voice Agents, for a Reported ~¥15.9B",
+      "dek": "Japan's leading Japanese-language voice stack, built partly with METI GENIAC support, is becoming part of a US platform instead of growing into a Japanese company.",
       "analysis": {
-        "happening": "Japan's ~¥470B Anthropic tranche (36.1M shares) drew more than ¥1.5T of orders, about 4x covered, and Mizuho placed over half. On Nov 20 SoftBank fell 14.48% to ¥3,025 and the Nikkei about 5%. Kioxia fell 11.7% and Fujikura 12.2%. Masayoshi Son had just called passing on Anthropic 'one of my mistakes'.",
-        "now": "Japan has no listed frontier lab, so its AI exposure runs through SoftBank's ~13% OpenAI stake and chip-tool makers. That is leverage to US labs, not ownership of them. Caveat: one bad day after a 60% two-month slide, and the US stock fell 13% from its open.",
-        "future": "Watch how the Japan allocation trades in December and whether Sakana (IPO reported for autumn 2027 at the earliest) or PFN bring their listings forward. Fintech gap: pipes from NISA accounts into US AI listings and 23-hour US trading."
+        "happening": "ElevenLabs announced on Nov 17 that it will acquire Kotoba Technologies (founded 2023) and expects to close in Q4. Nikkei and ITmedia put the price above $100M (~¥15.9B), about $6.7M per employee. Koto handles Japanese TTS, STT and speech-to-speech interpretation, and it runs Agentforce Voice in Japanese. The CEO co-built Fugaku-LLM.",
+        "now": "Japan's best voice asset will now be owned by a US company, and government grant money helped build it. A US voice platform needed a Japanese team to compete here, which shows how much local language quality is worth. Caveat: the price is undisclosed, and closing still needs regulatory approval.",
+        "future": "Watch whether NTT, SoftBank or KDDI respond with voice acquisitions of their own. The open opportunity is domain voice agents for Japanese call centers, municipalities and clinics, built on whichever base model wins."
       },
       "sources": [
         {
+          "name": "ElevenLabs",
+          "title": "ElevenLabs acquires Kotoba to advance Japanese voice AI",
+          "url": "https://elevenlabs.io/blog/kotoba"
+        },
+        {
           "name": "Nikkei Asia",
-          "title": "Anthropic IPO draws rush of Japan retail investors",
-          "url": "https://asia.nikkei.com/business/markets/ipo/anthropic-ipo-draws-rush-of-japan-retail-investors"
+          "title": "US voice AI developer ElevenLabs to buy Japanese-focused peer Kotoba",
+          "url": "https://asia.nikkei.com/business/business-deals/us-voice-ai-developer-elevenlabs-to-buy-japanese-focused-peer-kotoba"
         },
         {
-          "name": "Newsweek Japan",
-          "title": "アンソロピック上場、日本需要1.5兆円超 スペースＸ超えもＡＩ投資に温度差＝関係者",
-          "url": "https://www.newsweekjapan.jp/articles/-/340756"
-        },
-        {
-          "name": "CNBC",
-          "title": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
-          "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
-        },
-        {
-          "name": "Reuters via MarketScreener",
-          "title": "Japan's Nikkei falls more than 4% after Anthropic's IPO fails to restore AI confidence",
-          "url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
+          "name": "ITmedia AI+",
+          "title": "日本の音声AIスタートアップに159億円　ElevenLabsはなぜ、社員15人のKotobaを買収するのか（1/2 ページ）",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003306/"
         }
       ],
       "tags": [
-        "Anthropic IPO",
-        "SoftBank",
-        "Retail",
-        "Capital flows"
+        "Voice AI",
+        "M&A",
+        "Startups",
+        "GENIAC"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
       "cat": "hardware",
-      "source": "Nikkei",
+      "source": "The Next Web",
       "time": "Nov 20",
-      "headline": "Japan's Sovereign-AI Venture Noetra Faces an ¥800B Overrun as GPU Parts Soar and the Yen Weakens, Taking Its Five-Year Plan From ¥1T to ¥1.8T",
-      "dek": "Japan's flagship national model effort pays a weak-yen premium on Nvidia hardware before it has shipped anything, and the state may have to cover the gap.",
+      "headline": "SK Hynix Will Convert ¥129B of Bonds to Become Kioxia's Largest Shareholder at ~14.1%, Ahead of Toshiba's 10.46%",
+      "dek": "A direct Korean competitor is about to become the top holder of Japan's only leading-edge memory maker, in the same week memory stocks fell by double digits.",
       "analysis": {
-        "happening": "Nikkei reports Noetra's five-year cost rising from ¥1T to ¥1.8T on component prices and the weak yen. Noetra is backed by 44 firms and led by SoftBank, Sony, NEC and Honda, and plans to use 27,000+ Nvidia GPUs. METI/NEDO committed ~¥387.3B for FY2026, with the contract covering only FY2026-27.",
-        "now": "Sovereign compute is bought in dollars, so every move in the yen widens the gap with US labs spending tens of billions per site. An 80% overrun before any model ships will test political support. Caveat: this is Nikkei's estimate, and there is no official revision yet.",
-        "future": "Watch the supplementary budget and the FY2027 METI request for a larger Noetra line, any cut in GPU count or model scope, and whether domestic chips (PFN MN-Core, Rapidus) are added as a hedge against the yen."
+        "happening": "In a Nov 20 filing, SK Hynix said it will convert ¥129B (~$810M) of 2018-era bonds into shares of SPC2, the former Bain vehicle, and buy Bain's last SPC2 shares for ¥100M. That gives it an indirect ~14.1% of Kioxia, ahead of Toshiba. A 2018 agreement caps its voting share at 15% until 2028.",
+        "now": "No new money goes in, but SK Hynix gets enough influence to complicate deals such as a Kioxia–Sandisk tie-up. Japan has no HBM maker, and its one memory champion now has a rival as its top shareholder. Caveat: Bloomberg Intelligence sees little near-term change to NAND competition.",
+        "future": "Watch for a Japanese government review, the December conversion, and any Kioxia–Sandisk talks. Japan's memory industry depends on Korean and US capital as much as on Rapidus."
       },
       "sources": [
         {
-          "name": "Nikkei Asia",
-          "title": "Japan sovereign AI project faces $5bn cost surge on chip prices, weak yen",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-sovereign-ai-project-faces-5bn-cost-surge-on-chip-prices-weak-yen"
+          "name": "The Next Web",
+          "title": "SK Hynix will become Kioxia’s largest shareholder through a bond swap",
+          "url": "https://thenextweb.com/news/sk-hynix-kioxia-largest-shareholder-bond-conversion-14-1"
         },
         {
-          "name": "Nikkei",
-          "title": "国産AIノエトラ支援、半導体高騰で8000億円膨張 国の負担重く",
-          "url": "https://www.nikkei.com/article/DGXZQOUA164VE0W6A111C2000000/"
+          "name": "24/7 Wall St.",
+          "title": "SK Hynix Is About to Become the Biggest Shareholder of Rival Kioxia - 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/21/sk-hynix-is-about-to-become-the-biggest-shareholder-of-rival-kioxia/"
         },
         {
-          "name": "robotstart",
-          "title": "ソフトバンク/ソニー/NEC/ホンダら出資の「Noetra」が始動 産総研とフィジカルAI向け国産マルチモーダル基盤モデルを開発、経産省が初年度約3873億円を支援",
-          "url": "https://robotstart.info/article/2026/07/01/382103.html"
+          "name": "Seeking Alpha",
+          "title": "SK Hynix to become Kioxia's largest shareholder after bond conversion (SKHY:NASDAQ)",
+          "url": "https://seekingalpha.com/news/4675069-sk-hynix-to-become-kioxias-largest-shareholder-after-bond-conversion?feed_item_type=news"
         }
       ],
       "tags": [
-        "Noetra",
-        "METI",
-        "Sovereign AI",
-        "Yen"
+        "Kioxia",
+        "SK Hynix",
+        "NAND",
+        "Semiconductors"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
-      "cat": "hardware",
-      "source": "Hokkaido Shimbun",
-      "time": "Nov 19",
-      "headline": "Preferred Networks Will Prototype a Generative-AI Chip at Rapidus as Early as FY2027, Becoming Its First Startup Customer, Amid Reports of a One-Year 2nm Slip",
-      "dek": "Rapidus finally has a domestic AI-chip startup on its line, but only its fourth named prototype customer after claiming talks with 60+ firms.",
+      "cat": "launches",
+      "source": "ITmedia AI+",
+      "time": "Nov 18",
+      "headline": "Japan's 'Sovereign' Inference Clouds Are Launching on Chinese Open Models: Sakura Offers GLM-5.3-Flash and DeepSeek-V4.1 Free Up to 3,000 Requests a Month",
+      "dek": "Domestic data residency is being delivered on Chinese weights, because no Japanese model competes on price and performance.",
       "analysis": {
-        "happening": "Hokkaido Shimbun reports PFN will prototype a fast, efficient data-center generative-AI chip at Rapidus' Chitose fab as early as FY2027. PFN is Rapidus' first startup and fourth company with a prototype plan. Jiji reports volume may slip from late FY2027 to FY2028, with about ¥3T of the ~¥5T needed lined up.",
-        "now": "US AI-chip startups wait in line at TSMC 2nm, which has been in volume since 2025. PFN gives Rapidus a credible AI design win, and Rapidus gives PFN a sovereign-foundry story ahead of its reported IPO. Caveat: these are prototypes, not volume, and Rapidus and METI dispute the delay reports.",
-        "future": "Watch Rapidus' PDK and yield disclosures, whether more Japanese chip startups follow PFN, and METI's next tranche. FY2028 volume would leave Rapidus about three years behind TSMC at 2nm."
+        "happening": "Sakura Internet began a trial of Z.ai's GLM-5.3-Flash and DeepSeek-V4.1-Flash-1017 on its AI Engine at ¥0.4 input and ¥4.0 output per 10k tokens, with 3,000 free requests a month. Fixstars runs a Japan-only DeepSeek-V4.1-Flash service at ¥48/¥192 per 1M tokens and says it retains no data.",
+        "now": "In Japan, 'sovereign AI' now means where the GPUs are, not whose model runs on them. Meanwhile Washington is pushing US apps off Chinese models, and Cursor may drop Kimi. Caveat: government buyers may refuse Chinese-origin weights, which limits who can use these services.",
+        "future": "Watch whether the Digital Agency or GENIAC rules allow Chinese base models. A Japan-hosted, Japan-tuned and audited model service priced below US APIs would be a product someone could pitch."
       },
       "sources": [
         {
-          "name": "Hokkaido Shimbun",
-          "title": "【独自】ラピダスで半導体試作 国内AI新興も プリファード社、27年度にも",
-          "url": "https://www.hokkaido-np.co.jp/article/1411350/"
+          "name": "ITmedia AI+",
+          "title": "「GLM-5.3-Flash」「DeepSeek-V4.1-Flash-1017」が月3000リクエストまで無料 さくらのAI推論基盤で提供",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003339/"
         },
         {
-          "name": "Jiji Press",
-          "title": "顧客獲得、資金調達に影響も 半導体開発、海外勢に後れ―ラピダス",
-          "url": "https://www.jiji.com/jc/article?k=2026111001036&g=eco"
-        },
-        {
-          "name": "semi-connect",
-          "title": "ラピダス量産延期報道を整理──SRAM・歩留まり・PDKの3つの指摘と経産省の反論【2026年11月】",
-          "url": "https://semi-connect.net/rapidus-mass-production-delay-reports-2026-11/"
+          "name": "ITmedia AI+",
+          "title": "国内GPUサーバでオープンモデルを利用可能に　フィックスターズが新サービス　まずは「DeepSeek-V4.1-Flash-1017」から（1/2 ページ）",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/06/2000002955/"
         }
       ],
       "tags": [
-        "Rapidus",
-        "Preferred Networks",
-        "2nm",
-        "AI chips"
+        "Sakura Internet",
+        "Open models",
+        "Sovereign AI",
+        "Inference"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "launches",
-      "source": "Nikkei",
-      "time": "Nov 19",
-      "headline": "Salesforce Will Embed Sakana AI's Models in Its Software for Japanese Ministries and Municipalities, Its First Japanese-Made Model",
-      "dek": "A US SaaS giant is buying a layer that does not depend on any one country's model, to win Japan's data-sovereign public sector.",
+      "cat": "funding",
+      "source": "BRIDGE",
+      "time": "Nov 17-20",
+      "headline": "Atsumell Raises ¥183M Pre-Series A (SMBC VC, KUSABI) for Kakusill, Which Turns Staff's Unwritten Know-How Into Specs AI Agents Can Read Over MCP",
+      "dek": "A small round in the unglamorous layer that decides whether Japanese companies can actually hand work to agents.",
       "analysis": {
-        "happening": "Salesforce and Sakana signed an MoU on Nov 18-19 to build Sakana's models into Salesforce software for central ministries and local governments. It is the first Japanese model Salesforce will ship. Sakana's Fugu orchestrates multiple LLMs. Salesforce Ventures invested in Sakana in February. Launch date and pricing are not set.",
-        "now": "What Sakana sells here is trust, not frontier capability: sovereignty plus Japanese tuning on top of other labs' models, a channel US labs can't easily copy for cautious ministries. Caveat: it is an MoU only, and Fugu leans on foreign base models until Sawara pretraining ships (target spring 2027).",
-        "future": "Watch for a dated launch, copycat deals by Microsoft, AWS or ServiceNow with Japanese labs, and the Digital Agency's 'Gennai' procurement of domestic models (call Nov-Dec 2026, contracts from April 2027). That procurement is the opening for smaller Japanese model vendors."
+        "happening": "Atsumell raised ¥183M from KUSABI, Prime Partners, SMBC Venture Capital and DebtIs Capital. Kakusill interviews staff and turns exception handling, approval conditions and the reasons behind decisions into documents, then serves them to agents via MCP or API. Since April it has dozens of enterprise users in manufacturing and finance, including Daiichi Sankyo Healthcare.",
+        "now": "In Japan, agents are held back less by model quality than by approval judgment nobody has written down. US context-engineering tools assume that documentation already exists. Caveat: ¥183M (~$1.2M) is tiny next to US agent-infrastructure seeds such as Hoplite's $5.5M, pricing is undisclosed, and consultancies sell similar process mapping.",
+        "future": "Watch whether Atsumell becomes the context layer for Japanese agent platforms. Packaging Japanese process knowledge so agents can use it is a category nobody owns yet."
       },
       "sources": [
         {
-          "name": "Nikkei",
-          "title": "サカナAI、米セールスフォースと連携 公共分野でAIモデル実装",
-          "url": "https://www.nikkei.com/article/DGXZQOUC200KB0Q6A121C2000000/"
+          "name": "BRIDGE",
+          "title": "業務の暗黙知をAIが使える形に整理する「Kakusill」のAtsumell、プレシリーズAで1.83億円を調達",
+          "url": "https://thebridge.jp/2026/11/atsumell-pre-series-a-183-million-yen"
         },
         {
-          "name": "Jiji Press via nippon.com",
-          "title": "サカナＡＩの国産モデル実装へ＝公共部門で普及狙う―米セールスフォース",
-          "url": "https://www.nippon.com/ja/articles/-/57704"
-        },
-        {
-          "name": "Sakana AI",
-          "title": "Salesforce Ventures invests in Sakana AI",
-          "url": "https://sakana.ai/salesforce-ventures/"
+          "name": "PR TIMES",
+          "title": "「AIが働ける会社を、つくる。」Atsumell、プレシリーズAラウンドで1億8,300万円を調達",
+          "url": "https://prtimes.jp/main/html/rd/p/000000023.000107796.html"
         }
       ],
       "tags": [
-        "Sakana AI",
-        "Salesforce",
-        "GovTech",
-        "Sovereign AI"
+        "Startups",
+        "AI agents",
+        "MCP",
+        "Enterprise"
       ]
     }
   ]

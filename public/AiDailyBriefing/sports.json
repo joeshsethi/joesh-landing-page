@@ -1,65 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T20:10:27Z",
-  "dateLabel": "Sat · Nov 21 2026",
+  "generatedAt": "2026-11-21T20:10:15.179785Z",
+  "dateLabel": "Sun · Nov 22 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "Premier League: Newcastle vs Arsenal (St James' Park)",
-      "line": "Arsenal visit a Newcastle side that has won only once at home all season. Saliba is fit again, so Arteta has to choose between him and Konsa; Zubimendi and Saka are both out.",
-      "whenJst": "Sun Nov 22 · 02:30 JST",
+      "event": "Nitto ATP Finals final, Turin: Carlos Alcaraz vs Zverev or Medvedev",
+      "line": "Alcaraz came from a set down to beat Shelton 3-6, 6-3, 7-6(1) and reach his second straight Turin final, on a 13-match winning streak. He plays the winner of Zverev vs Medvedev, a semi that started around 04:30 JST and may be live now. Alcaraz is chasing his first year-end title.",
+      "whenJst": "Mon Nov 23 · 02:00 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Premier League predictions & Jones Knows' best bets: Newcastle vs Arsenal, Liverpool vs Manchester United and much more!",
-          "url": "https://www.skysports.com/football/news/13611640/premier-league-predictions-and-jones-knows-best-bets-newcastle-vs-arsenal-liverpool-vs-manchester-united-and-much-more"
+          "name": "ATP Tour",
+          "title": "Alcaraz survives Shelton to reach final of Nitto ATP Finals",
+          "url": "https://www.atptour.com/en/news/alcaraz-shelton-nitto-atp-finals-2026-saturday"
         },
         {
-          "name": "Premier League",
-          "title": "Predicted line-ups for Premier League teams in Matchweek ...",
-          "url": "https://www.premierleague.com/en/news/4764715/predicted-line-ups-for-premier-league-teams-in-matchweek-11"
+          "name": "ESPN",
+          "title": "Daniil Medvedev beats Frances Tiafoe, faces Alexander Zverev in ATP Finals semis",
+          "url": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "soccer",
+      "sport": "golf",
       "status": "upcoming",
-      "event": "Premier League: Liverpool vs Manchester United (Anfield)",
-      "line": "Mauricio Pochettino's first game in charge of Man Utd, who sacked Carrick over the international break with the team in the relegation zone. Iraola's Liverpool are 4th but have not beaten United at Anfield since the 7-0 in March 2023.",
-      "whenJst": "Mon Nov 23 · 01:30 JST",
+      "event": "The RSM Classic (PGA Tour finale), Sea Island: Round 3",
+      "line": "Rain washed out Saturday. Neergaard-Petersen, Thorbjornsen and Penge share the lead at -9, with six players one shot back and Koepka in the pack. Round 3 is Sunday and the final round Monday, with PGA Tour cards on the line in the season's last event.",
+      "whenJst": "Sun Nov 22 · 23:10 JST (R3); R4 Mon Nov 23 · ~21:20 JST",
       "sources": [
         {
-          "name": "Sky Sports",
-          "title": "Premier League predictions & Jones Knows' best bets: Newcastle vs Arsenal, Liverpool vs Manchester United and much more!",
-          "url": "https://www.skysports.com/football/news/13611640/premier-league-predictions-and-jones-knows-best-bets-newcastle-vs-arsenal-liverpool-vs-manchester-united-and-much-more"
+          "name": "ESPN",
+          "title": "2026 The RSM Classic Leaderboard",
+          "url": "https://www.espn.com/golf/leaderboard/_/tournamentId/401850981"
         },
         {
-          "name": "Sky Sports",
-          "title": "Mauricio Pochettino's first Manchester United press conference: Watch live stream on Sky Sports as new head coach faces media",
-          "url": "https://skysports.com/football/news/13614295/mauricio-pochettinos-first-manchester-united-press-conference-watch-live-stream-on-sky-sports-as-new-head-coach-faces-media"
+          "name": "Yahoo Sports",
+          "title": "RSM Classic washout: Round 3 Sunday with a Monday finish",
+          "url": "https://sports.yahoo.com/articles/rsm-classic-washout-round-3-124700057.html"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "golf",
-      "status": "live",
-      "event": "PGA Tour: The RSM Classic (Sea Island), FedExCup Fall finale",
-      "line": "Jesper Svensson (No. 135 in the FedExCup) opened with a 64 to lead and needs a finish of about solo 2nd or better to keep his card. Thorbjornsen, Higgo and Greyserman are close behind; Horschel started slowly in his fight for full status in 2027.",
-      "whenJst": "Mon Nov 23 · ~05:00 JST (final round ends)",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "Premier League: Liverpool vs Manchester United (Anfield)",
+      "line": "This is Mauricio Pochettino's first match in charge of a United side that sits 18th with one league win. A win could lift them out of the drop zone. Liverpool are 4th but have taken just five points from five home games.",
+      "whenJst": "Mon Nov 23 · 01:30 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Jesper Svensson, Michael Thorbjornsen among those to start fast at RSM Classic",
-          "url": "https://www.espn.com/golf/story/_/id/50534530/jesper-svensson-michael-thorbjornsen-start-fast-rsm"
+          "title": "Pochettino's Man United moment has finally arrived. Is he up to the task?",
+          "url": "https://www.espn.com/soccer/story/_/id/50543478/pochettino-manchester-united-debut-liverpool"
         },
         {
-          "name": "Sky Sports",
-          "title": "RSM Classic: Billy Horschel faces setback over PGA Tour future after slow start, as Jesper Svensson races ahead",
-          "url": "https://skysports.com/golf/news/13614065/rsm-classic-billy-horschel-faces-setback-over-pga-tour-future-after-slow-start-as-jesper-svensson-races-ahead"
+          "name": "ESPN",
+          "title": "Mauricio Pochettino, Man United have advantage over Liverpool - Andoni Iraola",
+          "url": "https://www.espn.co.uk/football/story/_/id/50540745/liverpool-manchester-united-mauricio-pochettino"
         }
       ]
     },
@@ -67,14 +67,14 @@
       "id": "s4",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Davis Cup Final 8, Bologna (Nov 24-29)",
-      "line": "Three-time defending champions Italy (Cobolli, Musetti, Darderi) start against first-time qualifier South Korea. The other quarter-finals are Czechia v Canada, GB v Germany and Austria v Spain, and the final is on Nov 29.",
-      "whenJst": "Thu Nov 26 · 00:00 JST (Italy v Korea); final Sun Nov 29 · 23:00 JST",
+      "event": "Davis Cup Final 8, Bologna: quarterfinals begin",
+      "line": "The knockout week opens with Czechia vs Canada. Hosts Italy face Korea on Wednesday and Great Britain play Germany on Thursday. The final is Sun Nov 29.",
+      "whenJst": "Wed Nov 25 · 00:00 JST",
       "sources": [
         {
-          "name": "Davis Cup",
-          "title": "Schedule confirmed for Davis Cup by Generali Final 8 - Davis Cup - The World Cup of Tennis",
-          "url": "https://www.daviscup.com/en/news/schedule-confirmed-for-davis-cup-by-generali-final-8"
+          "name": "Tennis TourTalk",
+          "title": "The Stage Is Set For 2026 Davis Cup Final 8 In Bologna",
+          "url": "https://tennistourtalk.com/137652/the-stage-is-set-for-2026-davis-cup-final-8-in-bologna"
         }
       ]
     }
