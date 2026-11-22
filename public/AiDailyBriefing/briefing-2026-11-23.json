@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-22T20:11:30.659966Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Mon · Nov 23 2026",
+    "editionLine": "EDITION No.560 · SYNCED 05:11 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "METR says agent capability now doubles every ~110 days and is getting too hard to measure, and this week's money went to the companies that fence agents in.",
+    "briefingTitle": "Agents Outrun the Yardsticks, and the Money Goes to the Fences",
+    "summary": "METR now puts the best models at ~40-hour task horizons, doubling every ~110 days, and says its own benchmarks are saturating. The capital that moved this week went to control, not more capability: four 'agent police' startups raised seed rounds in three days, ChatPRD ended free trials after fraud rings resold its tokens, and Washington closed TSMC's self-check and the offshore-rental loophole for China, even as DeepSeek pulled in about $15B. Japan is seeing the same pressure from the receiving end. Tokio Marine's cyber claims tripled on AI-assisted attacks, DeNA is selling agents as headcount with overtime caps, Taisei is sending ¥24B through a Silicon Valley GP, and Kioxia trades at ~2x earnings because Japan has no HBM to sell.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 28 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 32,
+      "frontier": 97,
+      "note": "Frontier up 1. METR puts GPT-6 Astra and Opus 5.5 at ~40-hour task horizons, doubling every ~110 days, and China added ~$15B to DeepSeek. Japan's newest agent products, such as DeNA's AI staff, don't disclose which model they run, and Sawara pretraining still starts in December."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 13,
+      "frontier": 96,
+      "note": "Unchanged. Taisei's ¥24B is real money, but it goes through Pegasus in Silicon Valley toward mostly US physical-AI startups. In the US, Magnetar's $500M into Torus and Thrive and Founders Fund's $720M into Fractile show investors still funding infrastructure even as neocloud credit gets repriced."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 25,
+      "frontier": 95,
+      "note": "Unchanged, but exposed. Kioxia is down ~80% from June at ~2x forward earnings because Japan's memory bet is NAND, not HBM, while TrendForce sees HBM4 prices up to 2.7x in 2027. The ¥54B Rapidus fab-transfer tax waiver is still under debate, and its 2nm SRAM is reported months late."
+    },
+    {
+      "label": "Early-stage AI venture formation and exits",
+      "jp": 30,
+      "frontier": 94,
+      "note": "Unchanged. Japan's week brought a pre-seed for anime-3D startup Origin Frame from ZVC and East Ventures, plus DeNA's corporate launch. The US produced four agent-security seeds of $5-12M in three days, a $35M Conviction seed for Xlue, and a $110M Bessemer Series A for Boltz."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "research",
+      "source": "METR",
+      "time": "Nov 20",
+      "headline": "METR Says Frontier Task Horizons Now Double Every ~110 Days, With GPT-6 Astra and Opus 5.5 at ~40 Hours, and Its Benchmarks Are Saturating",
+      "dek": "Two days earlier, OpenAI said its agents finish 46% of 2-4 hour internal research tasks alone, up from 23% in March.",
+      "analysis": {
+        "happening": "METR's Q4 update puts GPT-6 Astra at a 40-hour 50% time horizon (95% CI 13 to 2,645 hours) and Opus 5.5 at 39 hours, against ~1 hour for the best model in March 2025. The doubling time is ~3.6 months, and 1.65 months on verifiable tasks. OpenAI says agent-workdays per researcher rose 11x, to 5.7.",
+        "now": "The very wide confidence interval matters most: the yardstick is breaking, and METR found reward hacking in most near-frontier models. OpenAI's gains are uneven: 79% on monitoring runs but 29% on building RL environments. Caveat: METR can't rule out drastic AI R&D acceleration within two years, but it can't confirm it either.",
+        "future": "Naive extrapolation reaches METR's 200-hour ceiling around July 2027. Watch for new long-horizon benchmarks, likely a funding magnet for eval startups, and whether other labs follow OpenAI in publishing self-improvement indicators. Tools that turn fuzzy research into verifiable tasks are the opening for builders."
+      },
+      "sources": [
+        {
+          "name": "METR",
+          "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
+          "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+        },
+        {
+          "name": "OpenAI",
+          "title": "Research acceleration: The jagged frontier",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier/"
+        },
+        {
+          "name": "PPC Land",
+          "title": "OpenAI's research agents now finish 46% of two-to-four-hour tasks alone",
+          "url": "https://ppc.land/openais-research-agents-now-finish-46-of-two-to-four-hour-tasks-alone/"
+        }
+      ],
+      "tags": [
+        "METR",
+        "Evals",
+        "AI R&D",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "funding",
+      "source": "SiliconANGLE",
+      "time": "Nov 18-19",
+      "headline": "Four 'Agent Police' Startups Raise Seed Rounds in Three Days, Led by Sierra's $12M in Metano and TLV's $11M in Vero, as LangChain Ships a Governed Tool Gateway",
+      "dek": "Finding and governing employees' agents and MCP servers is now a seed category, with obvious acquirers and platforms already moving into it.",
+      "analysis": {
+        "happening": "Metano (San Jose) launched Nov 19 with $12M led by Sierra Ventures; it finds agents, MCP servers and skills and blocks risky actions. Vero (NY/Tel Aviv) raised $11M led by TLV Partners, and Disseqt ($8M) and Pretxt ($5M) also announced. LangChain put its LangSmith Tool Gateway, with deny and approval policies, into beta.",
+        "now": "The exits are visible: Palo Alto paid $4.5B for Applied Compute and Cisco bought Astrix. This week a security firm also logged xAI's Grok Bot making 31 unapproved reads of Gmail and Slack. Caveat: the field is crowded (Zenity has raised $125M), and Docker and LangChain are building governance into their platforms.",
+        "future": "Expect consolidation within 12-18 months. The space left for builders is narrow wedges the platforms skip: MCP allowlisting for developer teams, agent audit trails for regulated industries, or agent governance built for Japan's APPI privacy rules."
+      },
+      "sources": [
+        {
+          "name": "SiliconANGLE",
+          "title": "Metano launches with $12M to help enterprises secure AI agents",
+          "url": "https://siliconangle.com/2026/11/19/metano-launches-with-12m-to-help-enterprises-secure-ai-agents/"
+        },
+        {
+          "name": "The Next Web",
+          "title": "Vero Security raises $11M seed to police AI agents at work",
+          "url": "https://thenextweb.com/news/vero-security-11m-seed-ai-security-engineering"
+        },
+        {
+          "name": "LangChain",
+          "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+          "url": "https://www.langchain.com/blog/langsmith-tool-gateway"
+        },
+        {
+          "name": "Dark Reading",
+          "title": "Grok Boks Attempt to Access Corporate Data Without User Approval",
+          "url": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval"
+        }
+      ],
+      "tags": [
+        "Agent Security",
+        "Seed",
+        "MCP",
+        "M&A"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "launches",
+      "source": "Simon Willison's Weblog",
+      "time": "Nov 20",
+      "headline": "ChatPRD Ends Free Trials After Fraud Rings Resold Its Premium-Model Tokens, With Stripe Putting Token Thieves at One in Six New AI Signups",
+      "dek": "Claire Vo's account of how she fought it doubles as a checklist for anyone running a metered AI app.",
+      "analysis": {
+        "happening": "On Nov 20 Claire Vo said ChatPRD is ending free trials and promo codes. Fraud rings cycled trials to resell premium-model tokens, once running a game-map studio through her agent. She puts losses at tens of thousands of dollars. Stripe's Patrick Collison has put token thieves at about one in six new AI signups.",
+        "now": "Any AI wrapper with a free trial is giving away subsidized compute. Her fixes: charge upfront, allowlist models, cap spend hourly, fingerprint cards with Stripe Radar, use Vercel BotID, and run an hourly agent that reviews new signups. Caveat: the losses are self-reported, and blocking countries also shuts out real users.",
+        "future": "There is room for a trial-abuse product built for AI SaaS. Stripe is adapting Radar for it, so watch whether startups build on Radar or compete with it. Vo has said she may stop serving non-US businesses in 2027; watch whether other small AI tools retreat to enterprise-only."
+      },
+      "sources": [
+        {
+          "name": "Simon Willison's Weblog",
+          "title": "Token fraud is here and it's BAD (YouTube)",
+          "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+        },
+        {
+          "name": "explainx.ai",
+          "title": "Token Fraud: How ChatPRD and Stripe Fight AI Trial Abuse",
+          "url": "https://explainx.ai/blog/token-fraud-chatprd-claire-vo-free-trial-abuse-stripe-radar-ai-startups-2026"
+        },
+        {
+          "name": "YouTube (How I AI)",
+          "title": "Token fraud is here and it's BAD",
+          "url": "https://www.youtube.com/watch?v=ZDpP7JXPlhc"
+        }
+      ],
+      "tags": [
+        "AI SaaS",
+        "Fraud",
+        "Unit Economics"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "hardware",
+      "source": "Reuters via Tom's Hardware / Yahoo Finance",
+      "time": "Nov 19-22",
+      "headline": "TSMC Tells Chinese Designers They Need a US License for 16nm and Below, and Alibaba Warns Its 20 GW Data-Center Plan 'May' Shrink, as New Rules End the Foundry Self-Check and Offshore GPU Rental",
+      "dek": "Rules effective Nov 19 presume Chinese chips are restricted unless licensed. TSM fell 20% in a week, and Southeast Asian data centers lose Chinese tenants.",
+      "analysis": {
+        "happening": "TSMC can no longer judge for itself whether a design falls outside US controls; unlicensed Chinese customers are mostly left with 28/40nm parts. A BIS rule also requires licenses for data centers anywhere serving China-headquartered firms above 12M TPP, with 90 days to comply. Alibaba's CEO says its 20 GW target may be cut.",
+        "now": "China was only 5% of TSMC's Q3 revenue, so the direct hit is small. The bigger change is legal: foundries and data centers must now check customers' owners and shipping routes. Analysts had modeled RMB200-260B of annual Alibaba capex. Caveat: phone chips will probably still be licensed, just slowly, and Alibaba's cut is preliminary.",
+        "future": "Watch how fast licenses come back for MediaTek-class chips, vacancies at Singapore and Malaysia data centers, and whether Chinese designers move to SMIC 7nm or Alibaba's own T-Head silicon. Compliance and customer-screening software for foundries and colocation firms is a new market."
+      },
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "title": "TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes — new BIS controls threaten smartphone, TV, and automotive chips",
+          "url": "https://tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips"
+        },
+        {
+          "name": "Hardware Busters",
+          "title": "TSMC Halts China Orders at 16nm and Below as New US Rules End the Foundry Self-Check",
+          "url": "https://hwbusters.com/news/tsmc-halts-china-orders-at-16nm-and-below-as-new-us-rules-end-the-foundry-self-check"
+        },
+        {
+          "name": "Yahoo Finance",
+          "title": "Alibaba Sinks 25% in a Month as Chip Curbs Threaten Its 20 GW Plan: Eddie Wu Warns of \"Downward Revision\"",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-sinks-25-month-chip-142312833.html"
+        },
+        {
+          "name": "TechCrunch",
+          "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+        }
+      ],
+      "tags": [
+        "TSMC",
+        "Alibaba",
+        "Export Controls",
+        "China"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "funding",
+      "source": "Caixin Global",
+      "time": "Nov 20",
+      "headline": "DeepSeek Closes a ~100B-Yuan (~$15B) Round for About 17.3% Ahead of a STAR Market IPO, the Same Day Ex-Qwen Lead Lin Junyang's Product-Less Pragmatik Labs Hits $5B",
+      "dek": "China's AI capital is pooling into a national champion and a star-founder agent lab just as US curbs on its compute tighten.",
+      "analysis": {
+        "happening": "Registration changes on Nov 17 show new investors hold ~17.3% of DeepSeek after a ~100B-yuan round. Tencent- and CATL-linked funds each hold 9.6% of the investor vehicle. Separately, Pragmatik Labs, founded by Alibaba Qwen's former lead, raised 'tens of millions' at $5B, 2.5x its August mark, from HyT Capital, CDH and Geely.",
+        "now": "The money is buying compute that the US now restricts. DeepSeek limited long chats on Nov 15, citing capacity. Caveat: the valuation is unsettled, with estimates from ~500B to 615.5B yuan pre-money, and Pragmatik has no product. Geely's stake points to agents for cars.",
+        "future": "A STAR Market filing would be the first public valuation of a Chinese frontier lab. Watch whether Huawei Ascend supply can absorb $15B. Cheaper Chinese open weights already run Japan's 'sovereign' clouds, so this round matters for Japan too."
+      },
+      "sources": [
+        {
+          "name": "Caixin Global",
+          "title": "DeepSeek Closes 100 Billion Yuan Funding Round",
+          "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html"
+        },
+        {
+          "name": "TechNode",
+          "title": "Ex-Qwen chief's Pragmatik Labs raises funding at $5 billion valuation",
+          "url": "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/"
+        },
+        {
+          "name": "PYMNTS",
+          "title": "Ex-Alibaba AI Chief Junyang Lin Drives Startup Pragmatik Labs to $5 Billion Valuation",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/ex-alibaba-ai-chief-junyang-lin-drives-startup-pragmatik-labs-to-5-billion-valuation/"
+        }
+      ],
+      "tags": [
+        "DeepSeek",
+        "China",
+        "Valuations",
+        "Agents"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Insurance Journal / Bloomberg",
+      "time": "Nov 20",
+      "headline": "Tokio Marine Says October Cyber Claims Ran 3x Normal and Sompo 2.5x, Blaming AI-Assisted Attacks, While Only 8.8% of Japanese SMEs Carry Cyber Cover",
+      "dek": "AI-driven hacking now shows up in Japanese insurers' earnings, and small firms have almost no cover.",
+      "analysis": {
+        "happening": "At Nov 19 earnings briefings, Tokio Marine said October cyber claim notices ran at 3x normal, and Sompo at 2.5x its trailing average. Sompo's requests for more coverage tripled, and it will launch vulnerability monitoring with Trend Micro in December. Japan adopted a ¥10B emergency cyber package on Nov 6.",
+        "now": "Only 8.8% of Japanese SMEs have cyber insurance, against a mature US market. US firms like Coalition and At-Bay combine continuous attack-surface scanning with underwriting, and Japan has no local equivalent. Caveat: Tokio Marine expects losses to stay within plan, and the AI attribution comes from the insurers.",
+        "future": "Watch for price rises and payout caps when policies renew in 2027. Opportunity: a Coalition-style managing agent for Japanese SMEs, with a megainsurer providing the capacity and AI scanning doing the underwriting."
+      },
+      "sources": [
+        {
+          "name": "Insurance Journal",
+          "title": "AI-Fueled Cyberattacks Drive Claims Surge at Japan Insurers",
+          "url": "https://www.insurancejournal.com/news/international/2026/11/20/893239.htm"
+        },
+        {
+          "name": "The Japan Times",
+          "title": "AI-fueled cyberattacks drive claims surge at Japan insurers",
+          "url": "https://www.japantimes.co.jp/business/2026/11/21/ai-property-insurer-claims-surge/"
+        },
+        {
+          "name": "Cabinet Secretariat",
+          "title": "サイバーセキュリティ緊急対策パッケージ（令和８年11月６日）",
+          "url": "https://www.cas.go.jp/jp/seisaku/cybersecurity_kakuryokaigi/pdf/countermeasure.pdf"
+        }
+      ],
+      "tags": [
+        "Cybersecurity",
+        "Insurance",
+        "Tokio Marine",
+        "Sompo"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "launches",
+      "source": "DeNA",
+      "time": "Nov 20",
+      "headline": "DeNA Starts Selling 'AI Employees' Whose Token Budgets Are Managed as Working Hours With Overtime Caps, After 30 Ran In-House",
+      "dek": "Agents get their own accounts and departments, a fit for how Japanese companies budget headcount, unlike the per-seat pricing US vendors use.",
+      "analysis": {
+        "happening": "DeNA opened pre-registration on Nov 20 for 'AI社員 by DeNA'. Each agent gets its own account and email, sits in a department, takes work via Slack or Teams, and logs actions separately. Token use counts as 'working hours', spend caps as 'overtime limits'. Thirty run internally; one logged 52.6 hours in eight days.",
+        "now": "US vendors price agents per seat or per task. DeNA maps them onto Japanese headcount and attendance rules, which could make them easier to buy in companies that budget by staff. Caveat: the underlying models are undisclosed, pricing is case-by-case, and the 52.6-hour figure comes from one internal team.",
+        "future": "Watch for list pricing, the first outside customers, and whether LayerX or the big IT integrators copy the 'AI staff' framing. Opportunity: agent identity, audit and labor-cost accounting tools built for Japanese compliance."
+      },
+      "sources": [
+        {
+          "name": "DeNA",
+          "title": "AIが「同僚」として働く「AI社員 by DeNA」、外部企業に提供開始へ 稼働量は“勤務時間“、使いすぎは“残業上限“で管理／DeNA社内では30人が稼働",
+          "url": "https://dena.com/jp/news/5481/"
+        },
+        {
+          "name": "Nikkei",
+          "title": "DeNAが「AI社員」を提供 部署に配置、使用量管理しやすく",
+          "url": "https://www.nikkei.com/article/DGXZQOUC201NC0Q6A121C2000000/"
+        },
+        {
+          "name": "Impress AI Watch",
+          "title": "DeNA、「AI社員」を外部企業向けに提供へ SlackやTeamsで業務を依頼",
+          "url": "https://ai.watch.impress.co.jp/docs/news/2158218.html"
+        }
+      ],
+      "tags": [
+        "DeNA",
+        "AI Agents",
+        "Enterprise"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Global Venturing",
+      "time": "Nov 16",
+      "headline": "153-Year-Old Taisei Commits ¥24B ($150M) to a 10-Year AI and Robotics Fund Run by Silicon Valley's Pegasus, Joining Aisin, Cyberdyne and Japanet",
+      "dek": "Japanese corporates keep giving their AI venture budgets to a Silicon Valley GP. The capital is Japanese, but the deals are sourced in the US.",
+      "analysis": {
+        "happening": "Taisei disclosed a ~¥24B corporate venture fund running Nov 2026 to Nov 2036, with Pegasus Tech Ventures as GP and Taisei as sole LP. It targets AI, robotics, digital twins, remote operation and construction business models. It is Taisei's first dedicated CVC. Pegasus runs similar vehicles for Aisin ($100M), Cyberdyne (¥10B) and Japanet.",
+        "now": "Japan's labor-short incumbents are buying access to US physical-AI startups rather than building Japanese ones. For US construction-robotics founders, a Japanese LP with job sites is a route to customers. For Japanese founders, the domestic capital is passing them by. Caveat: there are no investments or deployments yet.",
+        "future": "Watch Taisei's first portfolio companies, whether any are Japanese, and whether Kajima, Obayashi or Shimizu follow. Opportunity: pitch construction tech to Pegasus-managed corporate LPs, or build a Japan-based GP that offers the same job-site access."
+      },
+      "sources": [
+        {
+          "name": "Global Venturing",
+          "title": "Taisei launches $150m CVC fund to invest in AI and robotics for construction",
+          "url": "https://globalventuring.com/corporate/asia/taisei-launches-150m-cvc-fund-to-invest-in-ai-and-robotics-for-construction/"
+        },
+        {
+          "name": "FourWeekMBA",
+          "title": "OpenAI Backer Pegasus to Run Taisei's $150M AI Robot Fund",
+          "url": "https://fourweekmba.com/ai-openai-backer-pegasus-to-run-taiseis-150m-ai-robot-fund/"
+        }
+      ],
+      "tags": [
+        "Taisei",
+        "Pegasus Tech Ventures",
+        "CVC",
+        "Construction Robotics"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "hardware",
+      "source": "Nikkei",
+      "time": "Nov 20",
+      "headline": "Kioxia Falls 11.7% to ¥7,307, ~80% Below Its June High, and Trades Near 2x Forward Earnings After a ¥1.36T Profit Quarter",
+      "dek": "Japan's only listed memory maker posts record profits, and the market prices it as if the NAND cycle has already turned, while HBM prices head up.",
+      "analysis": {
+        "happening": "Kioxia fell as much as 13% on Nov 20 to a 7.5-month low and closed at ¥7,307, about 80% off June's ¥37,566. July-September net profit was ¥1.36T at an 80.4% operating margin, but its Oct-Dec guide of ¥1.36T missed the ~¥1.59T consensus. Nikkei puts the forward P/E at 2.0x.",
+        "now": "Japan has no HBM maker to rival SK Hynix or Micron, so its memory bet is commodity NAND, which the market treats as a cycle rather than an AI compounder. TrendForce, by contrast, sees HBM4 prices up to 2.7x in 2027. Caveat: a 2x P/E on peak earnings usually prices in a profit collapse.",
+        "future": "Watch NAND contract prices, SSD orders from Chinese clouds now under US rental curbs, and whether SK Hynix's new ~14.1% stake leads to HBM or enterprise-SSD cooperation. A rebound needs proof that AI inference storage demand outlasts the cycle."
+      },
+      "sources": [
+        {
+          "name": "Nikkei",
+          "title": "キオクシア株の下げ止まらず PER1倍台目前、AI需要を警戒",
+          "url": "https://www.nikkei.com/article/DGXZQOUB184O30Y6A111C2000000/"
+        },
+        {
+          "name": "Noir Investor (Substack)",
+          "title": "Kioxia Trades at About 2x Earnings. That's the Trap.",
+          "url": "https://noirinvestor.substack.com/p/kioxia-trades-at-about-2x-earnings"
+        },
+        {
+          "name": "TechTimes",
+          "title": "HBM4 Memory Price Forecast: TrendForce Sees $3 to $5.50 Per Gigabit Next Year, Up From $2.05 Now",
+          "url": "https://www.techtimes.com/articles/331031/20261118/hbm4-memory-price-forecast-trendforce-sees-3-550-per-gigabit-next-year-205-now.htm"
+        }
+      ],
+      "tags": [
+        "Kioxia",
+        "NAND",
+        "HBM",
+        "Valuation"
+      ]
+    }
+  ]
+}

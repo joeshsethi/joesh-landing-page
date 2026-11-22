@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T20:10:15.179785Z",
-  "dateLabel": "Sun · Nov 22 2026",
+  "generatedAt": "2026-11-22T20:11:59.022628Z",
+  "dateLabel": "Mon · Nov 23 2026",
   "items": [
     {
       "id": "s1",
-      "sport": "tennis",
-      "status": "upcoming",
-      "event": "Nitto ATP Finals final, Turin: Carlos Alcaraz vs Zverev or Medvedev",
-      "line": "Alcaraz came from a set down to beat Shelton 3-6, 6-3, 7-6(1) and reach his second straight Turin final, on a 13-match winning streak. He plays the winner of Zverev vs Medvedev, a semi that started around 04:30 JST and may be live now. Alcaraz is chasing his first year-end title.",
-      "whenJst": "Mon Nov 23 · 02:00 JST",
+      "sport": "golf",
+      "status": "live",
+      "event": "LPGA CME Group Tour Championship, final round (Naples, FL)",
+      "line": "Japan's Yuri Yoshida started Sunday one shot behind 54-hole leader A Lim Kim (-18), level with Jeeno Thitikul, with Nelly Korda two back. The winner takes $4M. Early swing: Thitikul eagled the 1st and Kim made double bogey there.",
+      "whenJst": "Mon Nov 23 · final round under way, should finish around 06:00 JST (estimate)",
       "sources": [
         {
-          "name": "ATP Tour",
-          "title": "Alcaraz survives Shelton to reach final of Nitto ATP Finals",
-          "url": "https://www.atptour.com/en/news/alcaraz-shelton-nitto-atp-finals-2026-saturday"
+          "name": "ESPN",
+          "title": "A Lim Kim clings to 1-shot lead in LPGA finale; Nelly Korda back in mix",
+          "url": "https://www.espn.com/golf/story/_/id/50554344/kim-clings-1-shot-lead-lpga-finale-korda-back-mix"
         },
         {
-          "name": "ESPN",
-          "title": "Daniil Medvedev beats Frances Tiafoe, faces Alexander Zverev in ATP Finals semis",
-          "url": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis"
+          "name": "Golf Channel",
+          "title": "Four-shot swing at CME! Thitikul eagles opening hole, 54-hole leader double bogeys",
+          "url": "https://www.golfchannel.com/watch/lpga/four-shot-swing-at-cme-thitikul-eagles-opening-hole-54-hole-leader-double-bogeys"
         }
       ]
     },
@@ -27,54 +27,84 @@
       "id": "s2",
       "sport": "golf",
       "status": "upcoming",
-      "event": "The RSM Classic (PGA Tour finale), Sea Island: Round 3",
-      "line": "Rain washed out Saturday. Neergaard-Petersen, Thorbjornsen and Penge share the lead at -9, with six players one shot back and Koepka in the pack. Round 3 is Sunday and the final round Monday, with PGA Tour cards on the line in the season's last event.",
-      "whenJst": "Sun Nov 22 · 23:10 JST (R3); R4 Mon Nov 23 · ~21:20 JST",
+      "event": "PGA Tour RSM Classic, Monday finish (Sea Island)",
+      "line": "Rain pushed the PGA Tour's last event of the season to Monday. Thorbjornsen, Penge and Neergaard-Petersen shared the lead at -9 going into R3, with 16 players within two shots. Top 100 in the FedEx Cup standings keep their 2027 cards, so the card bubble is decided in the final round.",
+      "whenJst": "Tue Nov 24 · final round, should finish around 05:00–07:00 JST (estimate)",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "2026 The RSM Classic Leaderboard",
-          "url": "https://www.espn.com/golf/leaderboard/_/tournamentId/401850981"
+          "name": "Golf.com",
+          "title": "PGA Tour season headed for Monday finish after rain washes out Saturday at RSM Classic",
+          "url": "https://golf.com/news/rsm-classic-third-round-monday-finish"
         },
         {
-          "name": "Yahoo Sports",
-          "title": "RSM Classic washout: Round 3 Sunday with a Monday finish",
-          "url": "https://sports.yahoo.com/articles/rsm-classic-washout-round-3-124700057.html"
+          "name": "GolfMagic",
+          "title": "PGA Tour makes RSM Classic announcement as third round postponed and Monday finish confirmed",
+          "url": "https://www.golfmagic.com/tour/pga-tour/pga-tour-makes-rsm-classic-announcement-third-round-postponed-and-monday-finish"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Premier League: Liverpool vs Manchester United (Anfield)",
-      "line": "This is Mauricio Pochettino's first match in charge of a United side that sits 18th with one league win. A win could lift them out of the drop zone. Liverpool are 4th but have taken just five points from five home games.",
-      "whenJst": "Mon Nov 23 · 01:30 JST",
+      "sport": "tennis",
+      "status": "result",
+      "event": "Nitto ATP Finals final (Turin)",
+      "line": "Carlos Alcaraz won his first ATP Finals title, beating top seed Alexander Zverev 6-2, 7-6(7). In doubles, debutants Arribage/Olivetti beat Arevalo/Pavic 10-6 in the match tiebreak.",
+      "whenJst": "Mon Nov 23 · finished overnight JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Pochettino's Man United moment has finally arrived. Is he up to the task?",
-          "url": "https://www.espn.com/soccer/story/_/id/50543478/pochettino-manchester-united-debut-liverpool"
-        },
-        {
-          "name": "ESPN",
-          "title": "Mauricio Pochettino, Man United have advantage over Liverpool - Andoni Iraola",
-          "url": "https://www.espn.co.uk/football/story/_/id/50540745/liverpool-manchester-united-mauricio-pochettino"
+          "name": "ATP Tour",
+          "title": "Who won the Nitto ATP Finals title?",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
         }
       ]
     },
     {
       "id": "s4",
-      "sport": "tennis",
+      "sport": "soccer",
       "status": "upcoming",
-      "event": "Davis Cup Final 8, Bologna: quarterfinals begin",
-      "line": "The knockout week opens with Czechia vs Canada. Hosts Italy face Korea on Wednesday and Great Britain play Germany on Thursday. The final is Sun Nov 29.",
-      "whenJst": "Wed Nov 25 · 00:00 JST",
+      "event": "UCL league phase MD5: Arsenal v Dortmund, Man City v Napoli, Real Madrid v PSV",
+      "line": "Arsenal have won 12 league-phase home games in a row and face Dortmund, who have Ethan Nwaneri on loan from them. De Bruyne returns to City with Napoli, and Haaland has scored in all three of his UCL games against Napoli. Mbappé needs one goal for 75 in the UCL.",
+      "whenJst": "Wed Nov 25 · 05:00 JST (Galatasaray v Aston Villa 02:45 JST)",
       "sources": [
         {
-          "name": "Tennis TourTalk",
-          "title": "The Stage Is Set For 2026 Davis Cup Final 8 In Bologna",
-          "url": "https://tennistourtalk.com/137652/the-stage-is-set-for-2026-davis-cup-final-8-in-bologna"
+          "name": "UEFA",
+          "title": "Champions League Matchday 5: Key stats and what to look out for in every game",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "sport": "soccer",
+      "status": "upcoming",
+      "event": "UCL league phase MD5: PSG v Roma, Club Brugge v Liverpool, Lille v Bayern, Sporting v Man Utd",
+      "line": "PSG have scored 20 goals in four league-phase games, the most of any club, and host Roma. Bayern visit Lille, and United go to Sporting having won only 1 of their last 11 UCL away games. Earlier, Lamine Yamal needs one goal at Sabah to become the youngest player to reach 15 UCL goals.",
+      "whenJst": "Thu Nov 26 · 05:00 JST (Sabah v Barcelona 02:45 JST)",
+      "sources": [
+        {
+          "name": "UEFA",
+          "title": "Champions League Matchday 5: Key stats and what to look out for in every game",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "sport": "tennis",
+      "status": "upcoming",
+      "event": "Davis Cup Final 8 (Bologna): quarter-finals",
+      "line": "Italy go for a fourth straight Davis Cup title without the injured Sinner and play Korea first. Alcaraz, fresh from the Turin title, leads favourites Spain against Austria. Czechia v Canada opens the event, and the final is Sun Nov 29 at 15:00 CET (Sun 23:00 JST).",
+      "whenJst": "Wed Nov 25 · 00:00 JST (CZE v CAN); Thu Nov 26 · 00:00 JST (ITA v KOR); Fri Nov 27 · 01:00 JST (AUT v ESP)",
+      "sources": [
+        {
+          "name": "Sports Illustrated",
+          "title": "Davis Cup Final 8 Preview: Italy Chases Fourth Straight Davis Cup Title Without Sinner",
+          "url": "https://www.si.com/onsi/serve/news/davis-cup-final-8-preview-italy-chases-fourth-straight-davis-cup-title-without-sinner-01m7ras3ds8f"
+        },
+        {
+          "name": "Tennis Tour Talk",
+          "title": "Schedule Confirmed For 2026 Davis Cup Final 8",
+          "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
         }
       ]
     }
