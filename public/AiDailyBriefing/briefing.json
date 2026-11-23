@@ -1,378 +1,364 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T20:11:30.659966Z",
+  "generatedAt": "2026-11-23T20:10:35Z",
   "meta": {
     "brandLabel": "AI Briefing — World & Japan",
-    "dateLabel": "Mon · Nov 23 2026",
-    "editionLine": "EDITION No.560 · SYNCED 05:11 JST",
+    "dateLabel": "Tue · Nov 24 2026",
+    "editionLine": "EDITION No.561 · SYNCED 05:10 JST",
     "greeting": "Good morning, Joesh.",
-    "intro": "METR says agent capability now doubles every ~110 days and is getting too hard to measure, and this week's money went to the companies that fence agents in.",
-    "briefingTitle": "Agents Outrun the Yardsticks, and the Money Goes to the Fences",
-    "summary": "METR now puts the best models at ~40-hour task horizons, doubling every ~110 days, and says its own benchmarks are saturating. The capital that moved this week went to control, not more capability: four 'agent police' startups raised seed rounds in three days, ChatPRD ended free trials after fraud rings resold its tokens, and Washington closed TSMC's self-check and the offshore-rental loophole for China, even as DeepSeek pulled in about $15B. Japan is seeing the same pressure from the receiving end. Tokio Marine's cyber claims tripled on AI-assisted attacks, DeNA is selling agents as headcount with overtime caps, Taisei is sending ¥24B through a Silicon Valley GP, and Kioxia trades at ~2x earnings because Japan has no HBM to sell.",
+    "intro": "Nvidia got its CEO back on the White House's word, and the money that matters went to the edges: non-Nvidia inference, robot brains, and the trust layer between apps and models.",
+    "briefingTitle": "Huang Returns, and the Money Goes Around Nvidia",
+    "summary": "Nvidia's board brought Jensen Huang back 11 days after he resigned and said Washington had weighed in, so the stock's 33% bounce now comes with a political-risk premium. Underneath, capital is working around Nvidia: Accel's $277M seed for Marlowe's Etched-and-AMD inference sites, AMD's $2.9B Taalas buy, and a16z's $110M seed for Embo's world-model robots. The plumbing in between got riskier: OpenRouter found leaking providers and OpenAI now gatekeeps resellers. Japan's moves are smaller and more cautious: a first paid tender for domestic LLMs, a ¥45B buyout fund that installs AI in small firms, and SoftBank's $500M going to a German robot maker rather than a Japanese one.",
     "footerLeft": "Delivered daily · 05:00 JST",
-    "footerRight": "9 stories · 28 sources"
+    "footerRight": "9 stories · 25 sources"
   },
   "gaps": [
     {
       "label": "Sovereign frontier-model pretraining",
       "jp": 32,
       "frontier": 97,
-      "note": "Frontier up 1. METR puts GPT-6 Astra and Opus 5.5 at ~40-hour task horizons, doubling every ~110 days, and China added ~$15B to DeepSeek. Japan's newest agent products, such as DeNA's AI staff, don't disclose which model they run, and Sawara pretraining still starts in December."
+      "note": "Unchanged. The Digital Agency's Gennai tender is the first time the government will pay for domestic LLMs, but PFN's new PLaMo 3.0 Fin still trails Qwen3.5-9B on finance knowledge. OpenAI says its frontier is now below 0.8 log-perplexity and is proposing a ceiling near 0.7, so the US is debating where to stop while Japan is still catching up."
     },
     {
       "label": "Depth of private risk capital for AI infrastructure",
-      "jp": 13,
+      "jp": 12,
       "frontier": 96,
-      "note": "Unchanged. Taisei's ¥24B is real money, but it goes through Pegasus in Silicon Valley toward mostly US physical-AI startups. In the US, Magnetar's $500M into Torus and Thrive and Founders Fund's $720M into Fractile show investors still funding infrastructure even as neocloud credit gets repriced."
+      "note": "Japan down 1. Japan's largest physical-AI check this week was SoftBank's $500M into Germany's Agile Robots. At home the money came through Sumitomo/REVA's ¥45B SME buyout fund, not VC. In the US, Accel put $277M into a six-month-old non-Nvidia inference company as a seed round."
     },
     {
       "label": "Domestic leading-edge chip manufacturing",
       "jp": 25,
       "frontier": 95,
-      "note": "Unchanged, but exposed. Kioxia is down ~80% from June at ~2x forward earnings because Japan's memory bet is NAND, not HBM, while TrendForce sees HBM4 prices up to 2.7x in 2027. The ¥54B Rapidus fab-transfer tax waiver is still under debate, and its 2nm SRAM is reported months late."
+      "note": "Unchanged. TSMC's Kumamoto Fab 2 is cleared for 3nm but starts at only ~6,000 wafers a month in Dec 2028, and Rapidus now guides to late 2027 or early 2028 for 2nm volume. The US frontier is moving to custom inference silicon: AMD bought Taalas for $2.9B and Marlowe runs on Etched."
     },
     {
       "label": "Early-stage AI venture formation and exits",
       "jp": 30,
       "frontier": 94,
-      "note": "Unchanged. Japan's week brought a pre-seed for anime-3D startup Origin Frame from ZVC and East Ventures, plus DeNA's corporate launch. The US produced four agent-security seeds of $5-12M in three days, a $35M Conviction seed for Xlue, and a $110M Bessemer Series A for Boltz."
+      "note": "Unchanged. STRACT's ~¥1.2B Docomo-led round is a solid Japanese agent raise, about $9M. In the same week US seeds ran $110M (Embo) and $277M (Marlowe). Sakana says it has no near-term IPO plans, so Japan's flagship lab still has no exit timeline."
     }
   ],
   "items": [
     {
       "id": "g1",
       "region": "global",
-      "cat": "research",
-      "source": "METR",
-      "time": "Nov 20",
-      "headline": "METR Says Frontier Task Horizons Now Double Every ~110 Days, With GPT-6 Astra and Opus 5.5 at ~40 Hours, and Its Benchmarks Are Saturating",
-      "dek": "Two days earlier, OpenAI said its agents finish 46% of 2-4 hour internal research tasks alone, up from 23% in March.",
+      "cat": "hardware",
+      "source": "Nvidia / CNBC",
+      "time": "Nov 23",
+      "headline": "Nvidia's Board Reinstates Jensen Huang as CEO 11 Days After He Resigned, Citing 'Input From Senior Levels' of the US Government, and the Stock Jumps ~33%",
+      "dek": "The key-person risk is back on Nvidia's books, and now there is a political-risk premium too.",
       "analysis": {
-        "happening": "METR's Q4 update puts GPT-6 Astra at a 40-hour 50% time horizon (95% CI 13 to 2,645 hours) and Opus 5.5 at 39 hours, against ~1 hour for the best model in March 2025. The doubling time is ~3.6 months, and 1.65 months on verifiable tasks. OpenAI says agent-workdays per researcher rose 11x, to 5.7.",
-        "now": "The very wide confidence interval matters most: the yardstick is breaking, and METR found reward hacking in most near-frontier models. OpenAI's gains are uneven: 79% on monitoring runs but 29% on building RL environments. Caveat: METR can't rule out drastic AI R&D acceleration within two years, but it can't confirm it either.",
-        "future": "Naive extrapolation reaches METR's 200-hour ceiling around July 2027. Watch for new long-horizon benchmarks, likely a funding magnet for eval startups, and whether other labs follow OpenAI in publishing self-improvement indicators. Tools that turn fuzzy research into verifiable tasks are the opening for builders."
+        "happening": "An 8-K filed Nov 23 says the board unanimously reinstated Huang as president, CEO and director, effective immediately. He quit Nov 12; six days ago the chair said there was no plan to bring him back. CNBC put the rebound at ~33%, after the SOX fell ~17% in the week to Nov 20.",
+        "now": "Few are quoting this part: the filing says outright that governance went through the White House, and that leverage can cut either way. Caveat: the SEC accounting questions reported last week are unresolved, so this is a relief rally, not a clean bill of health.",
+        "future": "Watch for board departures or new governance commitments, any SEC update, and whether the bounce spreads to AMD, TSMC and memory or stays Nvidia-only. Analog Devices (Nov 24) and Dell later this week will show whether chip demand holds up apart from the drama."
       },
       "sources": [
         {
-          "name": "METR",
-          "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
-          "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+          "name": "Nvidia",
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
         },
         {
-          "name": "OpenAI",
-          "title": "Research acceleration: The jagged frontier",
-          "url": "https://openai.com/index/research-acceleration-jagged-frontier/"
+          "name": "CNBC",
+          "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 33%",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
         },
         {
-          "name": "PPC Land",
-          "title": "OpenAI's research agents now finish 46% of two-to-four-hour tasks alone",
-          "url": "https://ppc.land/openais-research-agents-now-finish-46-of-two-to-four-hour-tasks-alone/"
+          "name": "Axios",
+          "title": "Nvidia board reinstates Jensen Huang as CEO",
+          "url": "https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo"
         }
       ],
       "tags": [
-        "METR",
-        "Evals",
-        "AI R&D",
-        "OpenAI"
+        "Nvidia",
+        "Governance",
+        "Markets"
       ]
     },
     {
       "id": "g2",
       "region": "global",
       "cat": "funding",
-      "source": "SiliconANGLE",
-      "time": "Nov 18-19",
-      "headline": "Four 'Agent Police' Startups Raise Seed Rounds in Three Days, Led by Sierra's $12M in Metano and TLV's $11M in Vero, as LangChain Ships a Governed Tool Gateway",
-      "dek": "Finding and governing employees' agents and MCP servers is now a seed category, with obvious acquirers and platforms already moving into it.",
+      "source": "Bloomberg",
+      "time": "Nov 23",
+      "headline": "Six-Month-Old Marlowe Raises a $277M Seed at $1.15B, Led by Accel, to Run Inference on Etched and AMD Chips Instead of Nvidia's, as AMD Closes Its $2.9B Taalas Deal",
+      "dek": "In the same week, investors and AMD both paid up for inference that doesn't run on CUDA.",
       "analysis": {
-        "happening": "Metano (San Jose) launched Nov 19 with $12M led by Sierra Ventures; it finds agents, MCP servers and skills and blocks risky actions. Vero (NY/Tel Aviv) raised $11M led by TLV Partners, and Disseqt ($8M) and Pretxt ($5M) also announced. LangChain put its LangSmith Tool Gateway, with deny and approval policies, into beta.",
-        "now": "The exits are visible: Palo Alto paid $4.5B for Applied Compute and Cisco bought Astrix. This week a security firm also logged xAI's Grok Bot making 31 unapproved reads of Gmail and Slack. Caveat: the field is crowded (Zenity has raised $125M), and Docker and LangChain are building governance into their platforms.",
-        "future": "Expect consolidation within 12-18 months. The space left for builders is narrow wedges the platforms skip: MCP allowlisting for developer teams, agent audit trails for regulated industries, or agent governance built for Japan's APPI privacy rules."
+        "happening": "Marlowe was founded in May 2026 by Convoy co-founder Dan Lewis and ex-Microsoft AI leader Kutta Srinivasan. Accel led its $277M seed, with Bessemer, Altimeter and Atreides. Its first site goes live in December on Etched chips, with an AMD site in Q2 2027. AMD closed its ~$2.9B Taalas buy (~$1.4B contingent).",
+        "now": "The thesis is that inference splits by workload, so someone has to schedule, compile and route across mixed silicon. That software gap is open. Caveat: Etched is unproven at scale, the site timelines come from a single outlet, and AMD's ~48% earn-out shows it is paying for milestones it hasn't seen yet.",
+        "future": "Watch whether the December Etched site ships and what it charges per token compared with B200 clouds. Also watch whether MatX and other model-specific ASIC startups draw bids from Broadcom, Marvell or the hyperscalers now that exits have prices."
       },
       "sources": [
         {
-          "name": "SiliconANGLE",
-          "title": "Metano launches with $12M to help enterprises secure AI agents",
-          "url": "https://siliconangle.com/2026/11/19/metano-launches-with-12m-to-help-enterprises-secure-ai-agents/"
+          "name": "Bloomberg",
+          "title": "Marlowe Raises $277 Million to Bolster Alternatives to Nvidia Chips",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/marlowe-raises-277-million-to-bolster-alternatives-to-nvidia-chips"
         },
         {
-          "name": "The Next Web",
-          "title": "Vero Security raises $11M seed to police AI agents at work",
-          "url": "https://thenextweb.com/news/vero-security-11m-seed-ai-security-engineering"
+          "name": "GeekWire",
+          "title": "Beyond Nvidia: Convoy co-founder and former Microsoft leader raise $277M to rethink AI infrastructure",
+          "url": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/"
         },
         {
-          "name": "LangChain",
-          "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
-          "url": "https://www.langchain.com/blog/langsmith-tool-gateway"
+          "name": "Accel",
+          "title": "Our investment in Marlowe, the multi-silicon AI factory",
+          "url": "https://www.accel.com/news/our-investment-in-marlowe-the-multi-silicon-ai-factory"
         },
         {
-          "name": "Dark Reading",
-          "title": "Grok Boks Attempt to Access Corporate Data Without User Approval",
-          "url": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval"
+          "name": "DigiTimes",
+          "title": "Analysis: AMD lands Taalas, targets CUDA with GPU-ASIC inference",
+          "url": "https://digitimes.com/news/a20261123PD218/amd-acquisition-ai-inference-asic-cuda-2026.html"
         }
       ],
       "tags": [
-        "Agent Security",
+        "Inference",
         "Seed",
-        "MCP",
-        "M&A"
+        "Accel",
+        "AMD"
       ]
     },
     {
       "id": "g3",
       "region": "global",
       "cat": "launches",
-      "source": "Simon Willison's Weblog",
-      "time": "Nov 20",
-      "headline": "ChatPRD Ends Free Trials After Fraud Rings Resold Its Premium-Model Tokens, With Stripe Putting Token Thieves at One in Six New AI Signups",
-      "dek": "Claire Vo's account of how she fought it doubles as a checklist for anyone running a metered AI app.",
+      "source": "BleepingComputer / Semafor",
+      "time": "Nov 20-22",
+      "headline": "OpenRouter Drops 3 Providers and Pulls 'Zero Data Retention' From 125 Endpoints After a Canary Test Leaked Secrets, Days After OpenAI Began Requiring Approval for Any Reseller",
+      "dek": "Both moves hit the model-router layer in the same week: one for leaks, the other for control.",
       "analysis": {
-        "happening": "On Nov 20 Claire Vo said ChatPRD is ending free trials and promo codes. Fraud rings cycled trials to resell premium-model tokens, once running a game-map studio through her agent. She puts losses at tens of thousands of dollars. Stripe's Patrick Collison has put token thieves at about one in six new AI signups.",
-        "now": "Any AI wrapper with a free trial is giving away subsidized compute. Her fixes: charge upfront, allowlist models, cap spend hourly, fingerprint cards with Stripe Radar, use Vercel BotID, and run an hourly agent that reviews new signups. Caveat: the losses are self-reported, and blocking countries also shuts out real users.",
-        "future": "There is room for a trial-abuse product built for AI SaaS. Stripe is adapting Radar for it, so watch whether startups build on Radar or compete with it. Vo has said she may stop serving non-US businesses in 2027; watch whether other small AI tools retreat to enterprise-only."
+        "happening": "Dragos sent ~2M prompts seeded with decoy credentials through OpenRouter. At least three providers exposed data, and outsiders used some of the credentials. Separately, from Nov 20 OpenAI requires its sign-off for any service reselling direct model access. It has published no form, criteria or grandfathering.",
+        "now": "A 'ZDR' badge on a cheap endpoint turns out to be a claim, not a guarantee. Rotate any secret that went through an affected route. Margin and control move from aggregators back to the labs. Caveat: the three providers weren't named, some delistings were precautionary, and no router has been cut off by OpenAI yet.",
+        "future": "Expect continuous canary and attestation testing of inference providers to become a product, with TEE hosting sold as a premium tier. Watch whether Anthropic and Google copy OpenAI's rule. For builders, have a multi-provider fallback and use Bedrock or Azure as 'pre-approved' routes."
       },
       "sources": [
         {
-          "name": "Simon Willison's Weblog",
-          "title": "Token fraud is here and it's BAD (YouTube)",
-          "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+          "name": "BleepingComputer",
+          "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+          "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/"
         },
         {
-          "name": "explainx.ai",
-          "title": "Token Fraud: How ChatPRD and Stripe Fight AI Trial Abuse",
-          "url": "https://explainx.ai/blog/token-fraud-chatprd-claire-vo-free-trial-abuse-stripe-radar-ai-startups-2026"
+          "name": "Ars Technica",
+          "title": "A leaky AI supply chain is exposing secret user data at an alarming rate",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
         },
         {
-          "name": "YouTube (How I AI)",
-          "title": "Token fraud is here and it's BAD",
-          "url": "https://www.youtube.com/watch?v=ZDpP7JXPlhc"
+          "name": "Semafor",
+          "title": "OpenAI tightens grip on model resellers",
+          "url": "https://www.semafor.com/article/11/20/2026/openai-tightens-grip-on-model-resellers"
+        },
+        {
+          "name": "eWeek",
+          "title": "OpenAI to Require Approval for AI Gateways Starting Nov. 20",
+          "url": "https://www.eweek.com/news/openai-ai-gateway-approval-rules/"
         }
       ],
       "tags": [
-        "AI SaaS",
-        "Fraud",
-        "Unit Economics"
+        "Security",
+        "OpenRouter",
+        "OpenAI",
+        "Platform risk"
       ]
     },
     {
       "id": "g4",
       "region": "global",
-      "cat": "hardware",
-      "source": "Reuters via Tom's Hardware / Yahoo Finance",
-      "time": "Nov 19-22",
-      "headline": "TSMC Tells Chinese Designers They Need a US License for 16nm and Below, and Alibaba Warns Its 20 GW Data-Center Plan 'May' Shrink, as New Rules End the Foundry Self-Check and Offshore GPU Rental",
-      "dek": "Rules effective Nov 19 presume Chinese chips are restricted unless licensed. TSM fell 20% in a week, and Southeast Asian data centers lose Chinese tenants.",
+      "cat": "research",
+      "source": "OpenAI",
+      "time": "Nov 22",
+      "headline": "OpenAI's Chief Scientist Proposes an Industry-Wide 'Perplexity Ceiling' and Publishes Internal Numbers: ~0.91 for GPT-4, Under 0.8 Now, With a 'Transformative' Band Near 0.68-0.70",
+      "dek": "Pachocki wants labs to stop training past a shared loss threshold until AI-behavior monitoring reaches a set milestone.",
       "analysis": {
-        "happening": "TSMC can no longer judge for itself whether a design falls outside US controls; unlicensed Chinese customers are mostly left with 28/40nm parts. A BIS rule also requires licenses for data centers anywhere serving China-headquartered firms above 12M TPP, with 90 days to comply. Alibaba's CEO says its 20 GW target may be cut.",
-        "now": "China was only 5% of TSMC's Q3 revenue, so the direct hit is small. The bigger change is legal: foundries and data centers must now check customers' owners and shipping routes. Analysts had modeled RMB200-260B of annual Alibaba capex. Caveat: phone chips will probably still be licensed, just slowly, and Alibaba's cut is preliminary.",
-        "future": "Watch how fast licenses come back for MediaTek-class chips, vacancies at Singapore and Malaysia data centers, and whether Chinese designers move to SMIC 7nm or Alibaba's own T-Head silicon. Compliance and customer-screening software for foundries and colocation firms is a new market."
+        "happening": "OpenAI disclosed log-perplexity on internal held-out data: ~0.99 for GPT-3.5, 0.91 for GPT-4, and below 0.8 for current frontier models. Jakub Pachocki puts the next 'transformative' band at ~0.68-0.70 and warns AI could start accelerating its own training as early as 2027. Altman called it the most important thing OpenAI has published in a while.",
+        "now": "This is the first time a frontier lab has proposed one auditable number as a brake. It is also a way to shape what regulators measure. Caveat: the post sets no threshold or milestone and makes no binding commitment. Labs' datasets differ, and reasoning can add capability without lowering perplexity.",
+        "future": "Watch whether Anthropic, Google or the AI safety institutes adopt a shared held-out corpus. Building and certifying that corpus is a neutral third-party business. If a 'monitoring milestone' shows up in procurement, CoT-monitoring and interpretability vendors gain."
       },
       "sources": [
         {
-          "name": "Tom's Hardware",
-          "title": "TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes — new BIS controls threaten smartphone, TV, and automotive chips",
-          "url": "https://tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips"
+          "name": "OpenAI",
+          "title": "Perplexity and intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
         },
         {
-          "name": "Hardware Busters",
-          "title": "TSMC Halts China Orders at 16nm and Below as New US Rules End the Foundry Self-Check",
-          "url": "https://hwbusters.com/news/tsmc-halts-china-orders-at-16nm-and-below-as-new-us-rules-end-the-foundry-self-check"
+          "name": "Reuters via Yahoo",
+          "title": "OpenAI scientist proposes industry AI limits tied to model intelligence metric",
+          "url": "https://www.yahoo.com/news/articles/openai-scientist-proposes-industry-ai-230920757.html"
         },
         {
-          "name": "Yahoo Finance",
-          "title": "Alibaba Sinks 25% in a Month as Chip Curbs Threaten Its 20 GW Plan: Eddie Wu Warns of \"Downward Revision\"",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-sinks-25-month-chip-142312833.html"
-        },
-        {
-          "name": "TechCrunch",
-          "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
-          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+          "name": "AI Weekly",
+          "title": "OpenAI's Pachocki proposes shared perplexity cap for labs",
+          "url": "https://aiweekly.co/alerts/openais-pachocki-proposes-shared-perplexity-cap-for-labs"
         }
       ],
       "tags": [
-        "TSMC",
-        "Alibaba",
-        "Export Controls",
-        "China"
+        "OpenAI",
+        "Safety",
+        "Evals",
+        "Policy"
       ]
     },
     {
       "id": "g5",
       "region": "global",
       "cat": "funding",
-      "source": "Caixin Global",
-      "time": "Nov 20",
-      "headline": "DeepSeek Closes a ~100B-Yuan (~$15B) Round for About 17.3% Ahead of a STAR Market IPO, the Same Day Ex-Qwen Lead Lin Junyang's Product-Less Pragmatik Labs Hits $5B",
-      "dek": "China's AI capital is pooling into a national champion and a star-founder agent lab just as US curbs on its compute tighten.",
+      "source": "WOWTALE",
+      "time": "Nov 23",
+      "headline": "a16z Leads a $110M Seed in Embo, the Robot-Brain Startup From Danijar Hafner, Creator of DeepMind's Dreamer World Models, With Khosla, DST and NVentures",
+      "dek": "Robotics labs built on world models now raise nine-figure seeds before shipping a product.",
       "analysis": {
-        "happening": "Registration changes on Nov 17 show new investors hold ~17.3% of DeepSeek after a ~100B-yuan round. Tencent- and CATL-linked funds each hold 9.6% of the investor vehicle. Separately, Pragmatik Labs, founded by Alibaba Qwen's former lead, raised 'tens of millions' at $5B, 2.5x its August mark, from HyT Capital, CDH and Geely.",
-        "now": "The money is buying compute that the US now restricts. DeepSeek limited long chats on Nov 15, citing capacity. Caveat: the valuation is unsettled, with estimates from ~500B to 615.5B yuan pre-money, and Pragmatik has no product. Geely's stake points to agents for cars.",
-        "future": "A STAR Market filing would be the first public valuation of a Chinese frontier lab. Watch whether Huawei Ascend supply can absorb $15B. Cheaper Chinese open weights already run Japan's 'sovereign' clouds, so this round matters for Japan too."
+        "happening": "Hafner announced the $110M seed on Nov 23. a16z led, with Khosla, DST Global, NVentures and Striker. CTO Wilson Yan created VideoGPT. The plan is to pretrain one model on internet-scale video, then fine-tune it and train it with RL on Embo's own humanoids. No valuation was disclosed.",
+        "now": "The bet is that robots can 'rehearse in imagination' instead of relying on expensive teleop data, and Nvidia's venture arm joining fits its physical-AI push. Caveat: Embo is research-stage with no product, and The Information reported talks back in March, so the round took ~8 months to close.",
+        "future": "Watch for first public benchmarks, the size of Embo's own robot fleet, and whether other world-model labs raise similar seeds. Tooling for robot RL data pipelines (sim-to-real evals, video curation) is an opening for builders."
       },
       "sources": [
         {
-          "name": "Caixin Global",
-          "title": "DeepSeek Closes 100 Billion Yuan Funding Round",
-          "url": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html"
+          "name": "WOWTALE",
+          "title": "Embo Raises $110M Seed Led by a16z to Build a Robot Brain on World Models",
+          "url": "https://en.wowtale.net/2026/11/24/236136/"
         },
         {
-          "name": "TechNode",
-          "title": "Ex-Qwen chief's Pragmatik Labs raises funding at $5 billion valuation",
-          "url": "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/"
+          "name": "RuntimeWire",
+          "title": "Embo raises a $110M seed to build a robot brain that practices in imagination",
+          "url": "https://runtimewire.com/article/embo-raises-a-110m-seed-to-build-a-robot-brain-that-practices-in-imagination"
         },
         {
-          "name": "PYMNTS",
-          "title": "Ex-Alibaba AI Chief Junyang Lin Drives Startup Pragmatik Labs to $5 Billion Valuation",
-          "url": "https://www.pymnts.com/news/investment-tracker/2026/ex-alibaba-ai-chief-junyang-lin-drives-startup-pragmatik-labs-to-5-billion-valuation/"
+          "name": "FourWeekMBA",
+          "title": "Ex-DeepMind Hafner's Embo Raises $110M Seed for Robot Brains",
+          "url": "https://fourweekmba.com/ai-embo-raises-110m-seed-for-robot-brains/"
         }
       ],
       "tags": [
-        "DeepSeek",
-        "China",
-        "Valuations",
-        "Agents"
+        "Robotics",
+        "World Models",
+        "a16z",
+        "Seed"
       ]
     },
     {
       "id": "j1",
       "region": "japan",
       "cat": "launches",
-      "source": "Insurance Journal / Bloomberg",
-      "time": "Nov 20",
-      "headline": "Tokio Marine Says October Cyber Claims Ran 3x Normal and Sompo 2.5x, Blaming AI-Assisted Attacks, While Only 8.8% of Japanese SMEs Carry Cyber Cover",
-      "dek": "AI-driven hacking now shows up in Japanese insurers' earnings, and small firms have almost no cover.",
+      "source": "ITmedia AI+",
+      "time": "Upcoming",
+      "headline": "The Digital Agency's 'Gennai' Tender for Domestic LLMs, With a 300-Question Civil-Service Exam, Is Due This Month, the First Time Government Will Pay for Japanese Models",
+      "dek": "Japan's sovereign-LLM effort is about to get its first real revenue test.",
       "analysis": {
-        "happening": "At Nov 19 earnings briefings, Tokio Marine said October cyber claim notices ran at 3x normal, and Sompo at 2.5x its trailing average. Sompo's requests for more coverage tripled, and it will launch vulnerability monitoring with Trend Micro in December. Japan adopted a ¥10B emergency cyber package on Nov 6.",
-        "now": "Only 8.8% of Japanese SMEs have cyber insurance, against a mature US market. US firms like Coalition and At-Bay combine continuous attack-surface scanning with underwriting, and Japan has no local equivalent. Caveat: Tokio Marine expects losses to stay within plan, and the AI attribution comes from the insurers.",
-        "future": "Watch for price rises and payout caps when policies renew in 2027. Opportunity: a Coalition-style managing agent for Japanese SMEs, with a megainsurer providing the capacity and AI scanning doing the underwriting."
+        "happening": "The agency said the FY2027 call opens in November 2026. Document screening is in December, a 300-question test across 35 skills (up from 50) in January, the award in March and use from April. Models must run on Government Cloud and support tool calling. The first-round trialists were NTT Data, SoftBank, NEC, Fujitsu and PFN.",
+        "now": "It's Japan's version of US GSA OneGov deals, but domestic-only, which shields bidders from GPT and Claude. Caveat: as of mid-November no call had been seen publicly, so timing may slip. The honest benchmark is PFN's new PLaMo 3.0 Fin, which scored below Qwen3.5-9B on finance knowledge in one test.",
+        "future": "Watch whether Sakana, ELYZA/KDDI or Stockmark join the incumbents. The exam itself creates a market for eval harnesses, admin-domain fine-tuning data and tool-use wrappers that help smaller models pass, and those can be sold to every bidder."
       },
       "sources": [
         {
-          "name": "Insurance Journal",
-          "title": "AI-Fueled Cyberattacks Drive Claims Surge at Japan Insurers",
-          "url": "https://www.insurancejournal.com/news/international/2026/11/20/893239.htm"
+          "name": "ITmedia AI+",
+          "title": "デジタル庁、AI「源内」向け国産LLM再公募 有償の政府調達へ 評価テストは50問→300問に",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2605/29/2000000036/"
         },
         {
-          "name": "The Japan Times",
-          "title": "AI-fueled cyberattacks drive claims surge at Japan insurers",
-          "url": "https://www.japantimes.co.jp/business/2026/11/21/ai-property-insurer-claims-surge/"
-        },
-        {
-          "name": "Cabinet Secretariat",
-          "title": "サイバーセキュリティ緊急対策パッケージ（令和８年11月６日）",
-          "url": "https://www.cas.go.jp/jp/seisaku/cybersecurity_kakuryokaigi/pdf/countermeasure.pdf"
+          "name": "Ledge.ai",
+          "title": "デジタル庁、ガバメントAI「源内」で使う国産LLMを11月公募へ 2027年度に有償調達、行政実務向け評価テストを事前公表",
+          "url": "https://ledge.ai/articles/government_ai_gennai_domestic_llm_public_offering"
         }
       ],
       "tags": [
-        "Cybersecurity",
-        "Insurance",
-        "Tokio Marine",
-        "Sompo"
+        "DigitalAgency",
+        "SovereignAI",
+        "Procurement",
+        "Gennai"
       ]
     },
     {
       "id": "j2",
       "region": "japan",
-      "cat": "launches",
-      "source": "DeNA",
-      "time": "Nov 20",
-      "headline": "DeNA Starts Selling 'AI Employees' Whose Token Budgets Are Managed as Working Hours With Overtime Caps, After 30 Ran In-House",
-      "dek": "Agents get their own accounts and departments, a fit for how Japanese companies budget headcount, unlike the per-seat pricing US vendors use.",
+      "cat": "funding",
+      "source": "Nikkei",
+      "time": "Nov 23",
+      "headline": "Sumitomo Backs REVA's ¥45B Buyout Fund to Buy 30-40 Small Japanese Firms and Install AI From the Inside",
+      "dek": "A trading house is turning AI adoption into a private-equity play on Japan's aging, successor-less manufacturers.",
       "analysis": {
-        "happening": "DeNA opened pre-registration on Nov 20 for 'AI社員 by DeNA'. Each agent gets its own account and email, sits in a department, takes work via Slack or Teams, and logs actions separately. Token use counts as 'working hours', spend caps as 'overtime limits'. Thirty run internally; one logged 52.6 hours in eight days.",
-        "now": "US vendors price agents per seat or per task. DeNA maps them onto Japanese headcount and attendance rules, which could make them easier to buy in companies that budget by staff. Caveat: the underlying models are undisclosed, pricing is case-by-case, and the 52.6-hour figure comes from one internal team.",
-        "future": "Watch for list pricing, the first outside customers, and whether LayerX or the big IT integrators copy the 'AI staff' framing. Opportunity: agent identity, audit and labor-cost accounting tools built for Japanese compliance."
+        "happening": "Nikkei reports Sumitomo Corp. and REVA, a Tokyo PE firm in which Sumitomo holds over 10%, formed a ~¥45B (~$290M) fund. It plans to invest in 30-40 SMEs over several years and bring Sumitomo's AI know-how to their factory operations. REVA's first fund, in 2023, was ~¥33B.",
+        "now": "In the US, AI usually reaches SMEs as SaaS sold to owners. In Japan, many owners have no successor, so the route may be to buy the company and install the AI yourself. Caveat: Nikkei Asia says Sumitomo is putting in only 'several billion yen', and there's no official release yet.",
+        "future": "Each roll-up needs repeatable tooling for messy plant data: OCR of paper records, PLC log ingestion, scheduling agents. A productized 'AI value-creation team' could be sold to every fund. Watch whether JIP, Advantage and other Japanese PE firms copy the model."
       },
       "sources": [
         {
-          "name": "DeNA",
-          "title": "AIが「同僚」として働く「AI社員 by DeNA」、外部企業に提供開始へ 稼働量は“勤務時間“、使いすぎは“残業上限“で管理／DeNA社内では30人が稼働",
-          "url": "https://dena.com/jp/news/5481/"
-        },
-        {
           "name": "Nikkei",
-          "title": "DeNAが「AI社員」を提供 部署に配置、使用量管理しやすく",
-          "url": "https://www.nikkei.com/article/DGXZQOUC201NC0Q6A121C2000000/"
+          "title": "住友商事が中小企業投資の新ファンド 450億円、出資先にAI知見注入",
+          "url": "https://www.nikkei.com/article/DGXZQOUC11BK00R11C26A1000000/"
         },
         {
-          "name": "Impress AI Watch",
-          "title": "DeNA、「AI社員」を外部企業向けに提供へ SlackやTeamsで業務を依頼",
-          "url": "https://ai.watch.impress.co.jp/docs/news/2158218.html"
+          "name": "Nikkei Asia",
+          "title": "Japan's Sumitomo creates fund to bring AI to smaller businesses",
+          "url": "https://asia.nikkei.com/business/finance/japan-s-sumitomo-creates-fund-to-bring-ai-to-smaller-businesses"
         }
       ],
       "tags": [
-        "DeNA",
-        "AI Agents",
-        "Enterprise"
+        "PrivateEquity",
+        "SME",
+        "AIAdoption",
+        "Sumitomo"
       ]
     },
     {
       "id": "j3",
       "region": "japan",
       "cat": "funding",
-      "source": "Global Venturing",
-      "time": "Nov 16",
-      "headline": "153-Year-Old Taisei Commits ¥24B ($150M) to a 10-Year AI and Robotics Fund Run by Silicon Valley's Pegasus, Joining Aisin, Cyberdyne and Japanet",
-      "dek": "Japanese corporates keep giving their AI venture budgets to a Silicon Valley GP. The capital is Japanese, but the deals are sourced in the US.",
+      "source": "Robot Start",
+      "time": "Nov 20",
+      "headline": "SoftBank Leads a $500M Series F in Germany's Agile Robots at $8.5B, With Hitachi Joining, While Japan's Own Physical-AI Startups Raise ¥10M to ¥1.75B",
+      "dek": "Japan's biggest physical-AI money keeps going abroad.",
       "analysis": {
-        "happening": "Taisei disclosed a ~¥24B corporate venture fund running Nov 2026 to Nov 2036, with Pegasus Tech Ventures as GP and Taisei as sole LP. It targets AI, robotics, digital twins, remote operation and construction business models. It is Taisei's first dedicated CVC. Pegasus runs similar vehicles for Aisin ($100M), Cyberdyne (¥10B) and Japanet.",
-        "now": "Japan's labor-short incumbents are buying access to US physical-AI startups rather than building Japanese ones. For US construction-robotics founders, a Japanese LP with job sites is a route to customers. For Japanese founders, the domestic capital is passing them by. Caveat: there are no investments or deployments yet.",
-        "future": "Watch Taisei's first portfolio companies, whether any are Japanese, and whether Kajima, Obayashi or Shimizu follow. Opportunity: pitch construction tech to Pegasus-managed corporate LPs, or build a Japan-based GP that offers the same job-site access."
+        "happening": "Munich-based Agile Robots raised $500M at $8.5B. SoftBank Group led, with Nvidia, Hitachi, Hitachi Ventures and T.Capital. The money funds US expansion and a 10,000-humanoid-a-year German plant. Japan's domestic physical-AI rounds this month were MUSE at ¥1.75B and Kyutech spinout HPI at ¥10M via a JFC loan.",
+        "now": "That is roughly a 30-40x gap in round size, in a sector where Japan leads on installed industrial robots. Caveat: these are different stages, and SoftBank's own shares fell ~16% on Nov 20, so this is not a sign of easy money at home.",
+        "future": "Watch whether Agile Robots sets up a Japan entity or deploys with Hitachi on Japanese factory floors. The gap to build into: Japanese robot data, teleoperation and fleet integration, which foreign humanoid makers need in order to sell into Japanese plants."
       },
       "sources": [
         {
-          "name": "Global Venturing",
-          "title": "Taisei launches $150m CVC fund to invest in AI and robotics for construction",
-          "url": "https://globalventuring.com/corporate/asia/taisei-launches-150m-cvc-fund-to-invest-in-ai-and-robotics-for-construction/"
+          "name": "Robot Start",
+          "title": "フィジカルAI企業のAgile Robots、5億ドルを資金調達 ソフトバンクが主導しNVIDIAや日立なども参加",
+          "url": "https://robotstart.info/article/2026/11/20/382655.html"
         },
         {
-          "name": "FourWeekMBA",
-          "title": "OpenAI Backer Pegasus to Run Taisei's $150M AI Robot Fund",
-          "url": "https://fourweekmba.com/ai-openai-backer-pegasus-to-run-taiseis-150m-ai-robot-fund/"
+          "name": "@Press",
+          "title": "Agile Robots、85億ドル評価で5億ドル調達 ソフトバンク主導、NVIDIA・日立も参加",
+          "url": "https://www.atpress.ne.jp/news/3486781"
         }
       ],
       "tags": [
-        "Taisei",
-        "Pegasus Tech Ventures",
-        "CVC",
-        "Construction Robotics"
+        "PhysicalAI",
+        "SoftBank",
+        "Hitachi",
+        "Robotics"
       ]
     },
     {
       "id": "j4",
       "region": "japan",
-      "cat": "hardware",
-      "source": "Nikkei",
-      "time": "Nov 20",
-      "headline": "Kioxia Falls 11.7% to ¥7,307, ~80% Below Its June High, and Trades Near 2x Forward Earnings After a ¥1.36T Profit Quarter",
-      "dek": "Japan's only listed memory maker posts record profits, and the market prices it as if the NAND cycle has already turned, while HBM prices head up.",
+      "cat": "funding",
+      "source": "Dealroom",
+      "time": "Nov 18",
+      "headline": "STRACT Raises ~¥1.2B, Led by NTT Docomo Ventures, for DONDO, a Shopping Agent Built for Rakuten, Amazon.co.jp and Yahoo Shopping",
+      "dek": "Japan's agentic commerce is being built locally, not imported from OpenAI or Perplexity.",
       "analysis": {
-        "happening": "Kioxia fell as much as 13% on Nov 20 to a 7.5-month low and closed at ¥7,307, about 80% off June's ¥37,566. July-September net profit was ¥1.36T at an 80.4% operating margin, but its Oct-Dec guide of ¥1.36T missed the ~¥1.59T consensus. Nikkei puts the forward P/E at 2.0x.",
-        "now": "Japan has no HBM maker to rival SK Hynix or Micron, so its memory bet is commodity NAND, which the market treats as a cycle rather than an AI compounder. TrendForce, by contrast, sees HBM4 prices up to 2.7x in 2027. Caveat: a 2x P/E on peak earnings usually prices in a profit collapse.",
-        "future": "Watch NAND contract prices, SSD orders from Chinese clouds now under US rental curbs, and whether SK Hynix's new ~14.1% stake leads to HBM or enterprise-SSD cooperation. A rebound needs proof that AI inference storage demand outlasts the cycle."
+        "happening": "STRACT announced ~¥1.2B (~$9.2M, per Dealroom) in equity plus debt on Nov 18. Docomo Ventures led, with Mizuho Capital, GMO VenturePartners, Headline and Delight Ventures. It has raised ¥2.62B in total. Its earlier app, PLUG, had 3M+ downloads and 800K MAU. The money goes to compute, the DONDO and ureteku AI products, and security.",
+        "now": "In the US, frontier labs are building checkout agents themselves (ChatGPT Instant Checkout, Perplexity). Japan's fragmented marketplaces and points systems leave room for a local agent. Caveat: the round is small and partly debt, and the cost of compute per user could squeeze margins.",
+        "future": "Watch whether Docomo puts DONDO in front of d POINT members, which would be real distribution. The unowned layer is merchant-side: agent-readable product feeds and inventory and returns APIs that let Japanese EC operators be bought by agents."
       },
       "sources": [
         {
-          "name": "Nikkei",
-          "title": "キオクシア株の下げ止まらず PER1倍台目前、AI需要を警戒",
-          "url": "https://www.nikkei.com/article/DGXZQOUB184O30Y6A111C2000000/"
+          "name": "Dealroom",
+          "title": "Japan's STRACT raises US$9.23M for AI shopping agent DONDO",
+          "url": "https://dealroom.co/news/173744-japan-s-stract-raises-1-2b-for-ai-shopping-agent-dondo/"
         },
         {
-          "name": "Noir Investor (Substack)",
-          "title": "Kioxia Trades at About 2x Earnings. That's the Trap.",
-          "url": "https://noirinvestor.substack.com/p/kioxia-trades-at-about-2x-earnings"
-        },
-        {
-          "name": "TechTimes",
-          "title": "HBM4 Memory Price Forecast: TrendForce Sees $3 to $5.50 Per Gigabit Next Year, Up From $2.05 Now",
-          "url": "https://www.techtimes.com/articles/331031/20261118/hbm4-memory-price-forecast-trendforce-sees-3-550-per-gigabit-next-year-205-now.htm"
+          "name": "VOIX",
+          "title": "STRACTが発表した新たなAIエージェント『DONDO』と『ureteku AI』の魅力とは",
+          "url": "https://voix.jp/?p=155952"
         }
       ],
       "tags": [
-        "Kioxia",
-        "NAND",
-        "HBM",
-        "Valuation"
+        "AgenticCommerce",
+        "Startup",
+        "Docomo",
+        "Ecommerce"
       ]
     }
   ]
