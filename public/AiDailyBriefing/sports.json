@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T20:10:45Z",
-  "dateLabel": "Tue · Nov 24 2026",
+  "generatedAt": "2026-11-24T20:10:17.408Z",
+  "dateLabel": "Wed · Nov 25 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
-      "status": "upcoming",
-      "event": "UCL MD5: Arsenal vs Dortmund",
-      "line": "Both teams are unbeaten in the league phase: Arsenal have 10 pts (3W 1D) and Dortmund have 9. The winner of this Emirates match moves toward an automatic top-8 spot. Arsenal will be without keeper David Raya (shoulder), while Guirassy is fit for BVB.",
+      "status": "live",
+      "event": "Champions League Matchday 5 (Tuesday games)",
+      "line": "Kick-off now: Arsenal host Bundesliga leaders Dortmund at the Emirates, Man City face Napoli, Real Madrid host PSV, and Galatasaray meet Aston Villa. Every Tuesday match starts at 21:00 CET, so full-time is around 07:00 JST.",
       "whenJst": "Wed Nov 25 · 05:00 JST",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "Arsenal vs B. Dortmund: UEFA Champions League 2026/27 League phase",
-          "url": "https://www.uefa.com/uefachampionsleague/match/2049627--arsenal-vs-b-dortmund/"
+          "name": "ESPN",
+          "title": "Champions League live updates: Arsenal host Dortmund, City take on Napoli",
+          "url": "https://www.espn.com/soccer/story/_/id/50574152/uefa-champions-league-live-updates"
         },
         {
-          "name": "ESPN",
-          "title": "Arsenal 2026-27 UEFA Champions League Schedule - ESPN",
-          "url": "https://www.espn.com/soccer/team/fixtures/_/id/359/league/uefa.champions/arsenal"
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
         }
       ]
     },
@@ -27,39 +27,39 @@
       "id": "s2",
       "sport": "soccer",
       "status": "upcoming",
-      "event": "UCL MD5: Man City vs Napoli",
-      "line": "Kevin De Bruyne returns to the Etihad with Napoli, who sit 27th, are under pressure and are missing several injured players, including Di Lorenzo and Lobotka. City are 7th and without Semenyo. Real Madrid vs PSV kicks off at the same time.",
-      "whenJst": "Wed Nov 25 · 05:00 JST",
+      "event": "Champions League Matchday 5 (Wednesday games)",
+      "line": "Club Brugge v Liverpool is a head-to-head on 9 pts each, and Liverpool are missing Ekitiké and Gakpo. Also on: PSG v Roma, Lille v Bayern, Sporting v Man Utd, Inter v Stuttgart and Atlético v Viking. Sabah v Barcelona kicks off earlier, at 02:45 JST.",
+      "whenJst": "Thu Nov 26 · 05:00 JST",
       "sources": [
         {
           "name": "UEFA",
-          "title": "Man City vs Napoli: UEFA Champions League 2026/27 League phase",
-          "url": "https://www.uefa.com/uefachampionsleague/match/2049626--man-city-vs-napoli/"
+          "title": "Champions League starting and predicted line-ups: Matchday 5 team news, injuries, suspensions",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2223c67db015-c4f7874e074e-1000--champions-league-starting-and-predicted-line-ups-matchday-5-/"
         },
         {
-          "name": "Sky Sports",
-          "title": "Form and head to head stats Man City vs Napoli",
-          "url": "https://www.skysports.com/football/manchester-city-vs-napoli/577674"
+          "name": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
         }
       ]
     },
     {
       "id": "s3",
-      "sport": "soccer",
+      "sport": "tennis",
       "status": "upcoming",
-      "event": "UCL MD5 Wednesday: Sporting vs Man Utd and more",
-      "line": "Man Utd go to Lisbon after Cunha's late brace beat Roma 3-2. PSG vs Roma, Lille vs Bayern, Club Brugge vs Liverpool and Inter vs Stuttgart kick off at the same time. Barcelona play at Sabah earlier, at 02:45 JST.",
-      "whenJst": "Thu Nov 26 · 05:00 JST",
+      "event": "Davis Cup Final 8 QF: Italy v Korea Rep.",
+      "line": "Italy, the three-time defending champions, open in Bologna against Korea, who are playing their first-ever Davis Cup quarterfinal. Italy's listed team is Cobolli, Musetti, Darderi, Vavassori and Bolelli, with no Sinner. In the opening tie, Czechia lead Canada 1-0 after Machac beat Draxl.",
+      "whenJst": "Thu Nov 26 · 00:00 JST",
       "sources": [
         {
-          "name": "ESPN",
-          "title": "Manchester United 2026-27 UEFA Champions League Schedule - ESPN",
-          "url": "https://www.espn.com/soccer/team/fixtures/_/id/360/league/uefa.champions/manchester-united"
+          "name": "Davis Cup",
+          "title": "Korea, Rep. ready for history-making quarterfinal - Davis Cup - The World Cup of Tennis",
+          "url": "https://www.daviscup.com/en/news/2026-korea-rep-ready-for-history-making-quarterfinal"
         },
         {
-          "name": "UEFA",
-          "title": "2026/27 Champions League: All the league phase fixtures and results",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+          "name": "Davis Cup",
+          "title": "Machac earns opening win for Czechia - Davis Cup - The World Cup of Tennis",
+          "url": "https://www.daviscup.com/en/news/czechia-v-canada-quarterfinal"
         }
       ]
     },
@@ -67,19 +67,29 @@
       "id": "s4",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Davis Cup Final 8, Bologna",
-      "line": "The knockout week starts with Czechia vs Canada, who have never met in a Davis Cup tie. Host and holder Italy then play first-time quarterfinalists South Korea (Thu 00:00 JST), and GB vs Germany follows on Thu at 18:00 JST. The final is on Sun Nov 29.",
-      "whenJst": "Wed Nov 25 · 00:00 JST",
+      "event": "Davis Cup Final 8 QFs: Great Britain v Germany, Austria v Spain",
+      "line": "Great Britain play Germany in their first Davis Cup quarterfinal since 2023, starting Thursday evening Japan time. Austria v Spain starts no earlier than 01:00 JST Fri. The semi-finals are Nov 27-28 and the final is Sun Nov 29 at 23:00 JST.",
+      "whenJst": "Thu Nov 26 · 18:00 JST",
       "sources": [
         {
-          "name": "Davis Cup",
-          "title": "Davis Cup by Generali Final 8: all you need to know - Davis Cup - The World Cup of Tennis",
-          "url": "https://www.daviscup.com/en/news/davis-cup-by-generali-final-8-all-you-need-to-know"
-        },
+          "name": "World Tennis (media release)",
+          "title": "Schedule Confirmed For 2026 Davis Cup Final 8",
+          "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "sport": "golf",
+      "status": "upcoming",
+      "event": "BMW Australian PGA Championship (DP World Tour)",
+      "line": "The 2027 Race to Dubai season opens at The Lakes, the first time the event has been played in Sydney in almost 30 years. Three-time champion Cameron Smith is going for a fourth title. Sydney is 2 hours ahead of Japan, so the final round on Sunday falls in the late morning and afternoon JST.",
+      "whenJst": "Thu Nov 26 – Sun Nov 29 · Sydney play, ~JST+2h",
+      "sources": [
         {
-          "name": "Davis Cup",
-          "title": "Korea, Rep. ready for history-making quarterfinal - Davis Cup - The World Cup of Tennis",
-          "url": "https://www.daviscup.com/en/news/2026-korea-rep-ready-for-history-making-quarterfinal"
+          "name": "Destination NSW",
+          "title": "Cameron Smith set for BMW Australian PGA Championship in Sydney",
+          "url": "https://www.destinationnsw.com.au/newsroom/cameron-smith-set-for-bmw-australian-pga-championship-in-sydney"
         }
       ]
     }
