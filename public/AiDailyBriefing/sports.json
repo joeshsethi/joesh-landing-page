@@ -1,45 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T20:10:17.408Z",
-  "dateLabel": "Wed · Nov 25 2026",
+  "generatedAt": "2026-11-25T20:10:21.811Z",
+  "dateLabel": "Thu · Nov 26 2026",
   "items": [
     {
       "id": "s1",
       "sport": "soccer",
       "status": "live",
-      "event": "Champions League Matchday 5 (Tuesday games)",
-      "line": "Kick-off now: Arsenal host Bundesliga leaders Dortmund at the Emirates, Man City face Napoli, Real Madrid host PSV, and Galatasaray meet Aston Villa. Every Tuesday match starts at 21:00 CET, so full-time is around 07:00 JST.",
-      "whenJst": "Wed Nov 25 · 05:00 JST",
+      "event": "Champions League Matchday 5: Sporting v Man Utd, Club Brugge v Liverpool, PSG v Roma, Lille v Bayern",
+      "line": "Wednesday's main UCL slate kicks off at 05:00 JST. Man Utd are in Lisbon without the suspended Cunha and haven't won in eight away games. Liverpool are at Brugge, where both sides have 3 wins from 4. PSG host Roma, Lille host Bayern and Inter host Stuttgart.",
+      "whenJst": "Thu Nov 26 · 05:00 JST",
       "sources": [
         {
           "name": "ESPN",
-          "title": "Champions League live updates: Arsenal host Dortmund, City take on Napoli",
-          "url": "https://www.espn.com/soccer/story/_/id/50574152/uefa-champions-league-live-updates"
+          "title": "Sporting vs Man United: TV channel, kick-off time (Wed Nov 25)",
+          "url": "https://www.espn.com/soccer/story/_/id/50574436/sporting-man-united-channel-how-watch-uk-kickoff-live-stream-team-news-predicted-lineups"
+        },
+        {
+          "name": "Sky Sports",
+          "title": "Club Brugge vs Liverpool LIVE! Champions League lineups, match updates, news, score and analysis",
+          "url": "https://www.skysports.com/football/live-blog/13616495/club-brugge-vs-liverpool-live-champions-league-lineups-match-updates-news-score-and-analysis"
         },
         {
           "name": "UEFA",
           "title": "2026/27 Champions League: All the league phase fixtures and results",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
         }
       ]
     },
     {
       "id": "s2",
-      "sport": "soccer",
-      "status": "upcoming",
-      "event": "Champions League Matchday 5 (Wednesday games)",
-      "line": "Club Brugge v Liverpool is a head-to-head on 9 pts each, and Liverpool are missing Ekitiké and Gakpo. Also on: PSG v Roma, Lille v Bayern, Sporting v Man Utd, Inter v Stuttgart and Atlético v Viking. Sabah v Barcelona kicks off earlier, at 02:45 JST.",
-      "whenJst": "Thu Nov 26 · 05:00 JST",
+      "sport": "golf",
+      "status": "live",
+      "event": "BMW Australian PGA Championship, Round 1 (DP World Tour), The Lakes, Sydney",
+      "line": "The DP World Tour's new season starts in Sydney with David Puig defending. Adam Scott and Min Woo Lee tee off at 04:55 JST. Cam Smith, Corey Conners and Nicolai Hojgaard go at 10:10 JST. The purse is A$2.5m, plus a PGA Championship spot.",
+      "whenJst": "Thu Nov 26 · 04:55 JST (R1 start)",
       "sources": [
         {
-          "name": "UEFA",
-          "title": "Champions League starting and predicted line-ups: Matchday 5 team news, injuries, suspensions",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2223c67db015-c4f7874e074e-1000--champions-league-starting-and-predicted-line-ups-matchday-5-/"
+          "name": "ESPN",
+          "title": "DP World Scores and Leaderboards",
+          "url": "https://www.espn.com/golf/leaderboard/_/tour/eur"
         },
         {
-          "name": "UEFA",
-          "title": "2026/27 Champions League: All the league phase fixtures and results",
-          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/"
+          "name": "Golf Monthly",
+          "title": "Australian PGA Championship Tee Times 2026: Rounds One And Two",
+          "url": "https://www.golfmonthly.com/news/australian-pga-championship-2026-tee-times-rounds-one-and-two"
         }
       ]
     },
@@ -47,19 +52,19 @@
       "id": "s3",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Davis Cup Final 8 QF: Italy v Korea Rep.",
-      "line": "Italy, the three-time defending champions, open in Bologna against Korea, who are playing their first-ever Davis Cup quarterfinal. Italy's listed team is Cobolli, Musetti, Darderi, Vavassori and Bolelli, with no Sinner. In the opening tie, Czechia lead Canada 1-0 after Machac beat Draxl.",
-      "whenJst": "Thu Nov 26 · 00:00 JST",
+      "event": "Davis Cup Final 8 QF: Great Britain v Germany (Bologna)",
+      "line": "Alexander Zverev leads Germany against a British team headed by Arthur Fery and Cameron Norrie. Germany lead the head-to-head 6-5. The winner plays Spain or Austria in Saturday's semi-final.",
+      "whenJst": "Thu Nov 26 · 18:00 JST",
       "sources": [
         {
-          "name": "Davis Cup",
-          "title": "Korea, Rep. ready for history-making quarterfinal - Davis Cup - The World Cup of Tennis",
-          "url": "https://www.daviscup.com/en/news/2026-korea-rep-ready-for-history-making-quarterfinal"
+          "name": "ESPN",
+          "title": "Zverev powers Germany into Davis Cup Final 8; Britain also advances",
+          "url": "https://www.espn.com/tennis/story/_/id/49989020/germany-britain-advance-davis-cup-final-8"
         },
         {
           "name": "Davis Cup",
-          "title": "Machac earns opening win for Czechia - Davis Cup - The World Cup of Tennis",
-          "url": "https://www.daviscup.com/en/news/czechia-v-canada-quarterfinal"
+          "title": "Schedule confirmed for Davis Cup by Generali Final 8 - Davis Cup - The World Cup of Tennis",
+          "url": "https://www.daviscup.com/en/news/schedule-confirmed-for-davis-cup-by-generali-final-8"
         }
       ]
     },
@@ -67,29 +72,19 @@
       "id": "s4",
       "sport": "tennis",
       "status": "upcoming",
-      "event": "Davis Cup Final 8 QFs: Great Britain v Germany, Austria v Spain",
-      "line": "Great Britain play Germany in their first Davis Cup quarterfinal since 2023, starting Thursday evening Japan time. Austria v Spain starts no earlier than 01:00 JST Fri. The semi-finals are Nov 27-28 and the final is Sun Nov 29 at 23:00 JST.",
-      "whenJst": "Thu Nov 26 · 18:00 JST",
+      "event": "Davis Cup Final 8 QF: Spain v Austria (Bologna)",
+      "line": "Carlos Alcaraz plays the Davis Cup for the first time since 2024, leading Spain against an Austrian team captained by Jurgen Melzer. The tie starts no earlier than 17:00 CET. Defending champions Italy are on the other side of the draw.",
+      "whenJst": "Fri Nov 27 · 01:00 JST (not before)",
       "sources": [
         {
-          "name": "World Tennis (media release)",
-          "title": "Schedule Confirmed For 2026 Davis Cup Final 8",
-          "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
-        }
-      ]
-    },
-    {
-      "id": "s5",
-      "sport": "golf",
-      "status": "upcoming",
-      "event": "BMW Australian PGA Championship (DP World Tour)",
-      "line": "The 2027 Race to Dubai season opens at The Lakes, the first time the event has been played in Sydney in almost 30 years. Three-time champion Cameron Smith is going for a fourth title. Sydney is 2 hours ahead of Japan, so the final round on Sunday falls in the late morning and afternoon JST.",
-      "whenJst": "Thu Nov 26 – Sun Nov 29 · Sydney play, ~JST+2h",
-      "sources": [
+          "name": "Davis Cup",
+          "title": "Alcaraz makes Davis Cup by Generali return in Bologna - Davis Cup - The World Cup of Tennis",
+          "url": "https://www.daviscup.com/en/news/alcaraz-makes-davis-cup-by-generali-return-in-bologna"
+        },
         {
-          "name": "Destination NSW",
-          "title": "Cameron Smith set for BMW Australian PGA Championship in Sydney",
-          "url": "https://www.destinationnsw.com.au/newsroom/cameron-smith-set-for-bmw-australian-pga-championship-in-sydney"
+          "name": "Davis Cup",
+          "title": "Spain meet the Davis Cup by Generali Final 8 team - Davis Cup - The World Cup of Tennis",
+          "url": "https://www.daviscup.com/en/news/spain-meet-the-davis-cup-by-generali-final-8-team"
         }
       ]
     }

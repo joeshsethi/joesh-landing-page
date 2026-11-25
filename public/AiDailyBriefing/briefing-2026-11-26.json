@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-25T20:10:13.618Z",
+  "meta": {
+    "brandLabel": "AI Briefing — World & Japan",
+    "dateLabel": "Thu · Nov 26 2026",
+    "editionLine": "EDITION No.563 · SYNCED 05:10 JST",
+    "greeting": "Good morning, Joesh.",
+    "intro": "AI is being repriced at every layer this week: public stock, private rounds, chip software, API access and the model weights you can run at home.",
+    "briefingTitle": "Everything Gets a Price Tag",
+    "summary": "The market is putting new prices on every layer of AI. Anthropic trades below its IPO price while private investors pay 75x run-rate for Sierra. Amazon pays a reported $7.5B for software that makes Trainium usable, and Google starts metering every agent call into Workspace through MCP. Meanwhile PrismML squeezes a near-frontier coding model into 5.9 GB that runs free on a laptop. Japan is pricing itself too: it writes 'third after the US and China' into its security documents and bets on physical AI, but its best voice lab sold to a US company for about ¥1B per engineer and its humanoid seeds are still in the low millions.",
+    "footerLeft": "Delivered daily · 05:00 JST",
+    "footerRight": "9 stories · 32 sources"
+  },
+  "gaps": [
+    {
+      "label": "Sovereign frontier-model pretraining",
+      "jp": 31,
+      "frontier": 97,
+      "note": "Unchanged. Sakana's Namazu Small beats Nvidia's 120B Nemotron 3 Super on search and long Japanese documents, but it is post-training on an Nvidia base. Tokyo's new security language aims for third place through physical AI, not a frontier pretrain. US labs, meanwhile, are holding back models their own staff call too capable."
+    },
+    {
+      "label": "Depth of private risk capital for AI infrastructure",
+      "jp": 11,
+      "frontier": 94,
+      "note": "Japan down 1, frontier down 1. SoftBank fell about 16% in a day and sits about 70% below its high, which shrinks Japan's main AI risk pool. In the US, Dell now vets every AI order for the buyer's access to capital, HPE won't finance neoclouds, and CoreWeave's 2031 bonds are near 18%."
+    },
+    {
+      "label": "Domestic leading-edge chip manufacturing",
+      "jp": 24,
+      "frontier": 96,
+      "note": "Frontier up 1. TSMC confirmed a Texas tax-abatement filing tied to a potential $22.6B fab at 2nm or below, a second US leading-edge site beyond Arizona. That weakens the 'geographic second source' pitch Rapidus makes to US customers. No change on Japan's side this week."
+    },
+    {
+      "label": "Early-stage AI venture formation and exits",
+      "jp": 31,
+      "frontier": 95,
+      "note": "Japan up 1. Kotoba's roughly $100M sale to ElevenLabs is a real exit for a two-year-old Japanese-language team, though to a foreign buyer. Humanoid seeds (Black AI, O-ID at $1.2M) show new company formation. Seed cheques remain a fraction of US rounds like Embo's $110M."
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "region": "global",
+      "cat": "funding",
+      "source": "Reuters / TechCrunch",
+      "time": "Nov 23-25",
+      "headline": "Anthropic Slips Below Its $83 IPO Price Five Days After a 34% Pop, While Private Investors Pay 75x Run-Rate for Sierra at $30B",
+      "dek": "Public and private markets priced AI in opposite directions in the same week.",
+      "analysis": {
+        "happening": "ANT opened at $111.50 on Nov 19 and traded near $74 intraday on Nov 25, below its $83 offer. The same week, Greenoaks and Lightspeed co-led a $1.75B Series F for Sierra at $30B. That is double its price six months earlier, on a $400M run-rate. Crunchbase's new valuation model flags 236 unicorns as marked down.",
+        "now": "Semafor reports the 6x oversubscription was padded: investors inflate orders, and banks favour fast-flipping funds, so the first-day pop overstated real demand. Caveat: the slide came during a broad tech correction, so it is not purely a verdict on Anthropic. Sierra's run-rate is not GAAP revenue.",
+        "future": "MSCI adds ANT to its indexes at the Nov 30 close, which tests whether passive buying puts a floor under it. Watch whether Q1 late-stage rounds start pricing off a falling public comparable, and whether the 236 marked-down unicorns become acqui-hire targets."
+      },
+      "sources": [
+        {
+          "name": "RTÉ / Reuters",
+          "title": "Anthropic breaks below $83 IPO price as debut rally unravels",
+          "url": "https://rte.ie/news/business/2026/1124/1600463-anthropic-breaks-below-ipo-price"
+        },
+        {
+          "name": "Semafor",
+          "title": "Anthropic stock tumble shows IPO gamesmanship",
+          "url": "https://www.semafor.com/article/11/25/2026/anthropic-stock-tumble-shows-ipo-gamesmanship"
+        },
+        {
+          "name": "TechCrunch",
+          "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+          "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+        },
+        {
+          "name": "Crunchbase News",
+          "title": "Most Unicorns Are Worth More Than Their Last Funding-Round Valuations, Crunchbase Estimates",
+          "url": "https://news.crunchbase.com/venture/unicorn-startup-current-valuations-thinking-machines-sierra-crunchbase/"
+        }
+      ],
+      "tags": [
+        "IPO",
+        "Valuations",
+        "Anthropic",
+        "Sierra"
+      ]
+    },
+    {
+      "id": "g2",
+      "region": "global",
+      "cat": "hardware",
+      "source": "GeekWire / Bloomberg",
+      "time": "Nov 23-24",
+      "headline": "Amazon Pays a Reported ~$7.5B for Decart's Chip-Optimization Software and Founders, Not Its Models, to Make Trainium Sellable Beyond AWS",
+      "dek": "The price puts a number on the claim that Nvidia's real moat is compilers and kernels, not silicon.",
+      "analysis": {
+        "happening": "Announced Nov 23, the deal gives Amazon the Decart Optimization Stack and Decart's three co-founders and engineers. Decart's Lucy and Oasis world models are left out. Bloomberg reports the price at about $7.5B, nearly twice the $4B valuation Nvidia invested at. Anthropic reportedly discussed about $6B in August and walked away.",
+        "now": "Andy Jassy wants a 'significant external chip business', and Trainium can't have one without this software layer. For an AWS developer, moving models off CUDA is now a funded priority. Caveats: the price is unconfirmed and tied to performance targets, regulators haven't cleared the deal, and there's no date for the stack on Trn instances.",
+        "future": "Watch whether the stack ships as a Neuron SDK feature or as a managed service, and who becomes the first external Trainium customer. Inference-compiler startups such as YC-backed Luminal ($25M Series A) now have a clear acquisition comparable. Google (TPU) and Microsoft (Maia) need the same layer."
+      },
+      "sources": [
+        {
+          "name": "GeekWire",
+          "title": "Amazon is buying Decart's AI chip software for a reported $7.5B and bringing its founders aboard",
+          "url": "https://www.geekwire.com/2026/amazon-is-buying-decarts-ai-chip-software-for-a-reported-7-5b-and-bringing-its-founders-aboard/"
+        },
+        {
+          "name": "TechCrunch",
+          "title": "Amazon's Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+        },
+        {
+          "name": "SiliconANGLE",
+          "title": "Amazon acquires key assets of AI startup Decart for reported $7.5B",
+          "url": "https://siliconangle.com/2026/11/23/amazon-acquires-key-assets-of-ai-startup-decart-for-reported-7-5b/"
+        },
+        {
+          "name": "Tech Funding News",
+          "title": "YC-backed Luminal raises $25M from Standard Capital to loosen Nvidia's grip on AI inference",
+          "url": "https://techfundingnews.com/luminal-25m-series-a-ai-inference-compiler-cloud/"
+        }
+      ],
+      "tags": [
+        "Amazon",
+        "Trainium",
+        "M&A",
+        "Inference Software"
+      ]
+    },
+    {
+      "id": "g3",
+      "region": "global",
+      "cat": "research",
+      "source": "ITPro",
+      "time": "Nov 23",
+      "headline": "OpenAI's GPT-6 Cyber Validated 948 Linux Kernel Root-Escalation Bugs in a Single Run Over ~7% of the Kernel, Versus 166 for Its Predecessor",
+      "dek": "The model found and reproduced the bugs; volunteer maintainers now have to review hundreds of disclosures.",
+      "analysis": {
+        "happening": "OpenAI's cyber-tuned GPT-6 picked 5,034 audit targets (about 7% of the kernel) and produced 2,308 candidate findings. It reproduced 1,724 of them in live VMs and validated 948 that grant local root, generating patches for each. 304 critical findings went upstream. GPT-5.6 reproduced 166 in the same harness. OpenAI also reported 81 Firefox flaws.",
+        "now": "The constraint shifts from finding bugs to reviewing fixes: one run over a fourteenth of the kernel produced hundreds of disclosures for volunteers to triage. Caveat: the results are self-reported, and about 10% of claimed successes got root through a different bug than the one they were assigned.",
+        "future": "Watch maintainer triage capacity, and whether the Cyber variant stays gated or reaches the general API. Builder gaps: triage and patch-verification tools for open-source maintainers, and SBOM-aware prioritisation for companies that ship Linux."
+      },
+      "sources": [
+        {
+          "name": "ITPro",
+          "title": "OpenAI says its new cyber-focused AI model found thousands of Linux kernel vulnerabilities",
+          "url": "https://www.itpro.com/security/openai-says-its-new-cyber-focused-ai-model-found-thousands-of-linux-kernel-vulnerabilities"
+        },
+        {
+          "name": "Cyber Security News",
+          "title": "OpenAI Launches GPT-6 Cyber That Finds 81 Firefox Flaws and Develops 948 Linux Exploits",
+          "url": "https://cybersecuritynews.com/openai-launches-gpt-6-cyber/"
+        },
+        {
+          "name": "OpenAI (X)",
+          "title": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs",
+          "url": "https://x.com/OpenAI/status/2125007927098699827"
+        }
+      ],
+      "tags": [
+        "Security",
+        "OpenAI",
+        "Open Source",
+        "Agents"
+      ]
+    },
+    {
+      "id": "g4",
+      "region": "global",
+      "cat": "launches",
+      "source": "Google Workspace Updates",
+      "time": "Nov 24",
+      "headline": "Google Makes Workspace MCP Servers GA and Says AI Agents Must Leave Its REST APIs by Feb 1, 2027, as MCP Passes 700M Monthly SDK Downloads",
+      "dek": "The launch is really a pricing change: agents that touch Gmail or Drive now go through a metered MCP gateway.",
+      "analysis": {
+        "happening": "On Nov 24 Google made MCP servers for Gmail, Drive, Docs, Sheets, Slides, Calendar and Chat generally available. A policy addendum taking effect Feb 1, 2027 requires agents to use them. The same day, Anthropic said MCP SDKs top 700M monthly downloads, up from 90M a year ago, and put 'Skills over MCP' into beta.",
+        "now": "MCP is turning into a toll road. Per i-SCOOP, agents get 5,000 free calls per project per product each day, then pay $0.10-$0.50 per 1,000. Derived data such as embeddings must be deleted after 30 days, which breaks long-term-memory products. Caveat: some figures are secondary, so check Google's quota docs.",
+        "future": "Watch whether Microsoft 365 adds a similar MCP-only rule. Openings: a metering and compliance layer that tracks MCP spend and enforces 30-day deletion. Separately, Skills over MCP lets an API vendor ship the agent instructions for its own product inside its server."
+      },
+      "sources": [
+        {
+          "name": "Google Workspace Updates",
+          "title": "Simplifying agent access while keeping organizations in control: MCP servers, CLI, standardized usage tiers, and admin policies",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
+        },
+        {
+          "name": "i-SCOOP",
+          "title": "Google moves AI agents off the Workspace APIs, and the small print matters more than the migration",
+          "url": "https://www.i-scoop.eu/google-workspace-mcp-ai-agents/"
+        },
+        {
+          "name": "The New Stack",
+          "title": "As MCP turns two, Claude gets Skills over MCP and better support for long-running tasks",
+          "url": "https://thenewstack.io/mcp-skills-tasks-claude/"
+        },
+        {
+          "name": "The Decoder",
+          "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+          "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/"
+        }
+      ],
+      "tags": [
+        "MCP",
+        "Google Workspace",
+        "Agents",
+        "Pricing"
+      ]
+    },
+    {
+      "id": "g5",
+      "region": "global",
+      "cat": "launches",
+      "source": "PrismML",
+      "time": "Nov 24",
+      "headline": "Khosla-Backed PrismML Fits a 27B Coding-Agent Model Into 5.9 GB of Ternary Weights, Claiming 75.6% on SWE-bench Verified vs 80.6% at Full Precision",
+      "dek": "Ternary Bonsai 2.5 brings near-frontier open coding scores to a laptop or a single RTX 4090, under Apache 2.0.",
+      "analysis": {
+        "happening": "Ternary Bonsai 2.5 27B, released Nov 24, is a ternary (-1, 0, +1) build of Qwen3.8-27B at 1.76 bits per weight. It is 5.93 GB against about 53.8 GB at FP16 and has a 262K-token context. PrismML reports about 204 tok/s on an RTX 4090 and tool-calling scores within 0.5 points of full precision.",
+        "now": "A 9x compression that keeps tool use intact makes a private coding agent realistic on a laptop or one consumer GPU, for code that can't leave the building. Caveats: every number comes from PrismML, Terminal-Bench drops about 10 points, and the 1.76-bit file needs PrismML's own llama.cpp fork.",
+        "future": "Watch for independent SWE-bench reproductions and whether PrismML's kernels land in upstream llama.cpp. A weekend project: pair it with Sous Labs' open-source Songe, which fine-tunes a local model overnight on your own agent sessions. Then publish the before-and-after numbers, which nobody has done yet."
+      },
+      "sources": [
+        {
+          "name": "PrismML",
+          "title": "Introducing Ternary Bonsai 2.5 27B: Powering Agentic Coding and Private Knowledge Work",
+          "url": "https://prismml.com/news/bonsai-2-5-27b"
+        },
+        {
+          "name": "Hugging Face",
+          "title": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+        },
+        {
+          "name": "eesel AI",
+          "title": "Ternary Bonsai 2.5 review: a 5.9 GB agent model, with fine print",
+          "url": "https://www.eesel.ai/blog/ternary-bonsai-2-5-review"
+        },
+        {
+          "name": "GitHub",
+          "title": "sous-labs/songe: A training engine for your local model, using your idle compute",
+          "url": "https://github.com/sous-labs/songe"
+        }
+      ],
+      "tags": [
+        "Local AI",
+        "Quantization",
+        "Coding Agents",
+        "Emerging"
+      ]
+    },
+    {
+      "id": "j1",
+      "region": "japan",
+      "cat": "launches",
+      "source": "Sakana AI",
+      "time": "Nov 25",
+      "headline": "Sakana Ships Namazu Small, a 30B Model Built on Nvidia's Nemotron 3 Nano Base, Scoring 73.5 on BrowseComp vs 36.1 for Nvidia's 4x-Larger Nemotron 3 Super",
+      "dek": "Japan's best-funded AI lab is winning on post-training on top of US open models, not on pretraining, and selling the result on-premises.",
+      "analysis": {
+        "happening": "Sakana released Namazu Small on Nov 25. It takes Nvidia's Nemotron 3 Nano base and adds Sakana's own continued pretraining and post-training. Across 25 self-reported benchmarks it beats the 120B Nemotron 3 Super on average, including 73.5 vs 36.1 on BrowseComp and 86.0 vs 60.0 on LLM-jp LongBench. It trails on recall: 6.8 vs 18.1 on SimpleQA Verified.",
+        "now": "This shows where Japan actually stands. Its 'sovereign' lab is a world-class post-trainer working on a US base, not a frontier pretrainer. It is strong where answers can be grounded in documents and weak on built-in knowledge. Caveats: Sakana ran every benchmark itself, and no license or price has been published.",
+        "future": "On-prem details are due in early December. Watch whether Sakana pitches Namazu into the Digital Agency's Gennai tender and to banks through its new finance lab. Builder opening: on-prem research agents for Japanese regulated industries, where data cannot leave the building."
+      },
+      "sources": [
+        {
+          "name": "Sakana AI",
+          "title": "Sakana Namazu Small",
+          "url": "https://sakana.ai/namazu-small"
+        },
+        {
+          "name": "Superpower Daily",
+          "title": "Sakana AI introduces a 30B model it says outperforms NVIDIA's 120B rival",
+          "url": "https://superpowerdaily.com/posts/sakana-ai-introduces-a-30b-model-it-says-outperforms-nvidia-s-120b-rival"
+        }
+      ],
+      "tags": [
+        "Sakana",
+        "Sovereign AI",
+        "Open Models",
+        "On-Prem"
+      ]
+    },
+    {
+      "id": "j2",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Nikkei",
+      "time": "Nov 24",
+      "headline": "Nikkei Prices ElevenLabs' ~$100M Kotoba Deal at About ¥1B per Engineer, as a 15-Person Japanese Voice Lab Becomes Part of a US Company",
+      "dek": "A Japanese speech stack that already powers Salesforce's Agentforce Voice is sold abroad, and the price sets a benchmark for Japan-specialist AI teams.",
+      "analysis": {
+        "happening": "ElevenLabs is buying Kotoba Technologies for roughly $100M (about ¥15.9B), with closing expected by December. Kotoba was founded in July 2023 and has about 15 staff. Its Koto model does Japanese, Korean and Chinese speech recognition, synthesis and speech-to-speech translation in under a second, and powers Japanese in Salesforce's Agentforce Voice.",
+        "now": "Japan could build a world-class voice layer but didn't keep it independent: a US scale-up bought it to fix Japanese, which it calls technically hard. Caveat: Kotoba was already headquartered in San Francisco with R&D in Tokyo, so it was partly a US company before the deal.",
+        "future": "ElevenLabs is hiring Japan sales leaders in the coming months. The ¥1B-per-engineer comparable makes small Japanese-language specialists in legal, medical, keigo and dialect work likely acqui-hire targets for US companies entering Japan."
+      },
+      "sources": [
+        {
+          "name": "Nikkei",
+          "title": "米イレブンラボが狙う日本の声 技術者1人10億円で買収",
+          "url": "https://www.nikkei.com/prime/digital-governance/article/DGXZQOUC182E00Y6A111C2000000"
+        },
+        {
+          "name": "Nikkei Asia",
+          "title": "US voice AI developer ElevenLabs to buy Japanese-focused peer Kotoba",
+          "url": "https://asia.nikkei.com/business/business-deals/us-voice-ai-developer-elevenlabs-to-buy-japanese-focused-peer-kotoba"
+        },
+        {
+          "name": "Business Insider Japan",
+          "title": "ElevenLabsが日本のスタートアップ・Kotobaを約159億円で買収へ。日本語の音声AI開発を加速",
+          "url": "https://www.businessinsider.jp/article/2611-elevenlabs-acquires-kotoba-technologies"
+        },
+        {
+          "name": "BRIDGE",
+          "title": "ElevenLabs、日本語の音声AIを開発するKotoba Technologiesを1億ドルで買収へ",
+          "url": "https://thebridge.jp/2026/11/elevenlabs-to-acquire-kotoba-technologies"
+        }
+      ],
+      "tags": [
+        "ElevenLabs",
+        "Kotoba",
+        "Voice AI",
+        "M&A"
+      ]
+    },
+    {
+      "id": "j3",
+      "region": "japan",
+      "cat": "funding",
+      "source": "Jiji Press / Japan Times",
+      "time": "Nov 25",
+      "headline": "Japan Will Write 'Leading AI Nation After the US and China' Into Its Security Documents, and Commits to Cutting Its AI Dependence on Other Countries",
+      "dek": "Tokyo puts in writing for the first time that it is aiming for third place, through physical AI and autonomous driving rather than frontier LLMs.",
+      "analysis": {
+        "happening": "On Nov 25 the government presented the economic-security sections of its revised national security documents to the LDP, which broadly approved them. The sections aim to make Japan a leading AI nation after the US and China and call for reducing reliance on foreign AI. They target heavy investment in autonomous driving and physical AI.",
+        "now": "Japan is choosing a race it can win: robots, factories and cars rather than frontier chatbots. Writing it into security documents ties future budgets to defence and dual-use work, on top of METI's ¥1.239T FY2026 allocation for chips and AI. Caveat: this is a plan, and the documents have not yet been adopted.",
+        "future": "The Defense Ministry's AI-use guidelines are due by the end of November. Watch for procurement lines that open defence and dual-use physical-AI work to startups. That would be a route to the US defence-tech model (Anduril-style companies), which Japan still lacks."
+      },
+      "sources": [
+        {
+          "name": "Nippon.com (Jiji Press)",
+          "title": "Japan to Declare Aim to Become AI Nation after U.S., China",
+          "url": "https://www.nippon.com/en/articles/-/57983"
+        },
+        {
+          "name": "The Japan Times",
+          "title": "Japan to declare aim to become AI nation after U.S. and China",
+          "url": "https://www.japantimes.co.jp/news/2026/11/25/japan/ai-nation-aim/"
+        },
+        {
+          "name": "The Japan Times",
+          "title": "Defense Ministry to release AI guidelines at the end of November",
+          "url": "https://www.japantimes.co.jp/news/2026/11/16/japan/japan-defense-ministry-ai-guidelines/"
+        },
+        {
+          "name": "Toyo Keizai",
+          "title": "経産省予算は5割増の3兆円超へ､最先端半導体やAI関連には3.7倍の計1兆2390億円計上",
+          "url": "https://toyokeizai.net/articles/-/926558?display=b"
+        }
+      ],
+      "tags": [
+        "Policy",
+        "Physical AI",
+        "Defense",
+        "METI"
+      ]
+    },
+    {
+      "id": "j4",
+      "region": "japan",
+      "cat": "funding",
+      "source": "PR TIMES / BRIDGE",
+      "time": "Nov 25",
+      "headline": "Two Tokyo Humanoid Startups Raise Seed Money in Two Days: Incubate Fund Backs Black AI, Endorsed by ASIMO's Creator, and O-ID Raises $1.2M From Hustle Fund and Techstars",
+      "dek": "Japan's humanoid seed layer is forming around factory needs, but its cheques are tiny next to US robot-brain rounds.",
+      "analysis": {
+        "happening": "Black AI, founded in February 2026, announced an undisclosed seed from Incubate Fund on Nov 25 for a full-stack humanoid. Honda ASIMO creator Katsutoshi Tagami backs it. O-ID raised a $1.2M pre-seed from TAWANI, Hustle Fund and Techstars for a modular 172cm humanoid with parts that can be swapped in minutes, and has signed an LOI with Sumitomo Electric.",
+        "now": "The pitch fits Japanese auto and logistics lines that are short of workers and can't change their layouts. But the money gap is stark: about $1.2M here against a16z's $110M seed for Embo. Caveat: neither company has disclosed hardware specs or pilots.",
+        "future": "O-ID plans to show its next model at CES in January 2027, with factory pilots in early 2027. The niche nobody owns yet is upkeep: a maintenance, parts and uptime service for humanoids in Japanese plants. It also fits Tokyo's new physical-AI priority."
+      },
+      "sources": [
+        {
+          "name": "The AI Insider",
+          "title": "Japan's Black AI Secures Seed Funding to Develop Full-Stack Humanoid Robots",
+          "url": "https://theaiinsider.tech/2026/11/25/japans-black-ai-secures-seed-funding-to-develop-full-stack-humanoid-robots/"
+        },
+        {
+          "name": "BRIDGE",
+          "title": "現場で数分で部品を交換できるヒューマノイドのO-ID、プレシードで120万ドルを調達",
+          "url": "https://thebridge.jp/2026/11/o-id-pre-seed-1-2m"
+        },
+        {
+          "name": "PR TIMES",
+          "title": "国産ヒューマノイドロボットのフルスタック開発を手がけるBlack AI、インキュベイトファンドからシード資金調達を実施",
+          "url": "https://prtimes.jp/main/html/rd/p/000000009.000183143.html&gsessionid=rVGN3j4iP_7j8OthVV5YuJwybmfAk3JA0Y-L4ooT8g6tAubuUJpXNQ"
+        }
+      ],
+      "tags": [
+        "Humanoids",
+        "Physical AI",
+        "Seed",
+        "Techstars"
+      ]
+    }
+  ]
+}
